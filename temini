@@ -6,8 +6,8 @@ http://188.165.220.116:8081/str/ru/playlist.m3u8
 #EXTINF:-1, Adult Tv2
 http://188.165.220.116:8081/str/ner/playlist.m3u8
 
-#EXTINF:0, XXL Tv +18
-http://dbw9rg1ntmxk6.cloudfront.net/live2/xxl.smil/playlist.m3u8
+#EXTINF:-1,Dorcel TV +18
+http://dbw9rg1ntmxk6.cloudfront.net/live2/dorceltv.smil/playlist.m3u8 
 
 
 #EXTINF:-1, Adult xxx 19
