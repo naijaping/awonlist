@@ -21,5 +21,5 @@ http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/skynews/ls_satlink/b_,264,528,82
 #EXTINF:-1,Nickelodeon
 http://202.75.23.36/live/ch43/01.m3u8
 
-#EXTINF:0,Viasat Sport
-http://178.151.156.23:8888/udp/238.0.0.93:1234
+#EXTINF:0,Sky News HD ooo
+http://103.7.56.123:8080/31b003ab7e7749a798fe00424e3dd9ff.m3u8
