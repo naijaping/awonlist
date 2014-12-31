@@ -6,8 +6,8 @@ http://188.165.220.116:8081/str/ru/playlist.m3u8
 #EXTINF:-1, Adult Tv2
 http://188.165.220.116:8081/str/ner/playlist.m3u8
 
-#EXTINF:-1,HUSTLER HD
-http://91.240.87.34:4013/udp/224.200.202.213:1234
+#EXTINF:-1,Private Spice
+http://93.100.224.46:4022/udp/239.195.2.4:1234
 
 #EXTINF:-1, Adult xxx 19
 rtmp://lm07.everyon.tv:1935/ptv7/phd10927
