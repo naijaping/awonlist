@@ -18,4 +18,5 @@ http://hls.novotelecom.ru/streaming/cnn/tvrec/playlist.m3u8
 #EXTINF:0,Sky News HD
 http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/skynews/ls_satlink/b_,264,528,828,.m3u8
 
-
+#EXTINF:-1,Kids: Nick JR 
+rtsp://173.193.20.150:1935/mtv/nickjr
