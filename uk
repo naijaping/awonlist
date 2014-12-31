@@ -15,4 +15,8 @@ http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/bbc_world/ls_satlink/b_828.m3u8?
 #EXTINF:-1,CNN
 http://hls.novotelecom.ru/streaming/cnn/tvrec/playlist.m3u8
 
+#EXTINF:-1,Discovery HD
+http://78.83.20.28:8001/1:0:1:84:5:1:1863167:0:0:0:
 
+#EXTINF:-1,Disney Channel
+http://78.83.20.28:8001/1:0:1:70:4:1:1863115:0:0:0:
