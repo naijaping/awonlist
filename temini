@@ -6,10 +6,8 @@ http://188.165.220.116:8081/str/ru/playlist.m3u8
 #EXTINF:-1, Adult Tv2
 http://188.165.220.116:8081/str/ner/playlist.m3u8
 
-#EXTINF:-1,Ero1 box
-http://stream1.zoovision.com//livespi/eroxx/playlist.m3u8
-
-
+#EXTINF:-1,blue hustler +18
+http://94.229.241.28:4022/udp/239.4.0.81:2020
 
 #EXTINF:-1, Adult xxx 19
 rtmp://lm07.everyon.tv:1935/ptv7/phd10927
