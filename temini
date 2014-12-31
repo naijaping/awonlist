@@ -6,9 +6,8 @@ http://188.165.220.116:8081/str/ru/playlist.m3u8
 #EXTINF:-1, Adult Tv2
 http://188.165.220.116:8081/str/ner/playlist.m3u8
 
-#EXTINF:-1,Dorcel TV +18
-http://dbw9rg1ntmxk6.cloudfront.net/live2/dorceltv.smil/playlist.m3u8 
-
+#EXTINF:-1,Blue hustler
+http://95.170.186.178:7781/udp/239.255.4.4:1234
 
 #EXTINF:-1, Adult xxx 19
 rtmp://lm07.everyon.tv:1935/ptv7/phd10927
