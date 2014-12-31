@@ -9,62 +9,7 @@ http://hlsstr02.svc.iptv.rt.ru/hls/CH_BOOMERANG/variant.m3u8
 #EXTINF:-1,4 Channel HD 
 http://81.23.58.184:8080/udp/0.0.0.0:20000
 
-#EXTINF:-1,More 4 HD 
-http://81.23.58.184:8080/udp/0.0.0.0:20010
-
 #EXTINF:-1,BBC News
 http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/bbc_world/ls_satlink/b_828.m3u8?Vd?u#bt!25
 
-#EXTINF:-1,sky 1
-http://luxtivi.k18.us/sky1.m3u8
 
-#EXTINF:-1,sky 2
-http://luxtivi.k18.us/sky2.m3u8
-
-#EXTINF:-1,sky action
-http://luxtivi.k18.us/skyaction.m3u8
-
-#EXTINF:-1,sky atlantic
-http://luxtivi.k18.us/skyatlantic.m3u8
-
-#EXTINF:-1,sky comedy
-http://luxtivi.k18.us/skycomedy.m3u8
-
-#EXTINF:-1,sky crime
-http://luxtivi.k18.us/skycrime.m3u8
-
-#EXTINF:-1,sky encore
-http://luxtivi.k18.us/skyencore.m3u8
-
-#EXTINF:-1,sky family
-http://luxtivi.k18.us/skyfamily.m3u8
-
-#EXTINF:-1,sky greats
-http://luxtivi.k18.us/skygreats.m3u8
-
-#EXTINF:-1,Sky horror
-http://luxtivi.k18.us/skyhorror.m3u8
-
-#EXTINF:-1,sky living
-http://luxtivi.k18.us/skyliving.m3u8
-
-#EXTINF:-1,sky movies +24
-http://luxtivi.k18.us/skymovies24.m3u8
-
-#EXTINF:-1,sky movies desney
-http://luxtivi.k18.us/skymoviesdesney.m3u8
-
-#EXTINF:-1,sky movies premier
-http://luxtivi.k18.us/skymovpremier.m3u8
-
-#EXTINF:-1,sky pick
-http://luxtivi.k18.us/skypick.m3u8
-
-#EXTINF:-1,sky select
-http://luxtivi.k18.us/skyselect.m3u8
-
-#EXTINF:-1,sky showcase
-http://luxtivi.k18.us/skyshowcase.m3u8
-
-#EXTINF:-1 tvg-logo="Bloomberg", Bloomberg TV
-http://hd4.lsops.net/live/bloomber_en_hls.smil/chunklist_w976476961_b453000.m3u8
