@@ -18,5 +18,4 @@ http://hls.novotelecom.ru/streaming/cnn/tvrec/playlist.m3u8
 #EXTINF:0,Sky News HD
 http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/skynews/ls_satlink/b_,264,528,828,.m3u8
 
-#EXTINF:-1,Boomerang
-http://82.135.224.134:80/udp/239.102.0.207:1234?by_HasBahCa
+
