@@ -6,7 +6,7 @@ http://www.cityflavourmagazine.com
 #EXTINF:-1,Boomerang
 http://hlsstr02.svc.iptv.rt.ru/hls/CH_BOOMERANG/variant.m3u8
 
-#EXTINF:-1,4 Channel HD 
+#EXTINF:-1,Channel 4 HD 
 http://81.23.58.184:8080/udp/0.0.0.0:20000
 
 #EXTINF:-1,BBC News
