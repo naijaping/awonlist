@@ -47,3 +47,6 @@ rtmp://aljazeeraflashlivefs.fplive.net:1935/aljazeeraflashlive-live?videoId=8838
 
 #EXTINF:-1, MTV Music
 http://83.139.104.123/Content/HLS/Live/Channel(mtv_music)/Stream(03)/index.m3u8
+
+#EXTINF:-1, MTV Hits
+http://hlsstr02.svc.iptv.rt.ru/hls/CH_MTVHITS/variant.m3u8
