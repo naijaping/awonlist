@@ -54,6 +54,7 @@ http://hlsstr02.svc.iptv.rt.ru/hls/CH_MTVHITS/variant.m3u8
 #EXTINF:-1, CNN International
 http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_,264,528,828,.m3u8
 
-
+#EXTINF:-0, LTV
+rtmp://skylite.pointcdn.net playpath=skylite/ams/ltv swfUrl=http://tv.filmover.com/glow/player.swf pageUrl=http://www.nigeriatv.net/search/label/LTV%20Nigeria§1
 
 
