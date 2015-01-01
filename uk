@@ -50,3 +50,6 @@ http://83.139.104.123/Content/HLS/Live/Channel(mtv_music)/Stream(03)/index.m3u8
 
 #EXTINF:-1, MTV Hits
 http://hlsstr02.svc.iptv.rt.ru/hls/CH_MTVHITS/variant.m3u8
+
+#EXTINF:-1,Nickelodeon 
+rtmp://tv1.i-ghost.net/stream//127?key=2LQ48VFM 
