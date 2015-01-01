@@ -45,5 +45,4 @@ http://odna.octoshape.net/f3f5m2v4/cds/ch1_720p/chunklist.m3u8?Vd?u#bt!25
 #EXTINF:-1, Al Jazeera
 rtmp://aljazeeraflashlivefs.fplive.net:1935/aljazeeraflashlive-live?videoId=883816736001&lineUpId=&pubId=665003303001&playerId=751182905001&affiliateId=/aljazeera_eng_high?videoId=883816736001&lineUpId=&pubId=665003303001&playerId=751182905001&affiliateId=.flv live=1
 
-#EXTINF:-1 tvg-logo="Nickelodeon.png" group-title="OTHER Live TV", Nickelodeon
-http://202.75.23.36/live/ch43/01.m3u8?Vd?u#bt!25
+
