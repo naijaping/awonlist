@@ -55,3 +55,19 @@ http://hlsstr02.svc.iptv.rt.ru/hls/CH_MTVHITS/variant.m3u8
 http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_,264,528,828,.m3u8
 
 
+#EXTINF:0, Disney Channel
+http://82.135.224.134:80/udp/239.102.1.36:1234
+
+#EXTINF:0, Disney Junior
+http://82.135.224.134:80/udp/239.102.1.37:1234
+
+#EXTINF:0, Disney XD+1
+http://82.135.224.134:80/udp/239.102.1.38:1234
+
+#EXTINF:0, Disney Channel+1
+http://82.135.224.134:80/udp/239.102.1.39:1234
+
+#EXTINF:0, Disney Junior+1
+http://82.135.224.134:80/udp/239.102.1.40:1234
+
+
