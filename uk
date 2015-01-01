@@ -51,4 +51,5 @@ http://83.139.104.123/Content/HLS/Live/Channel(mtv_music)/Stream(03)/index.m3u8
 #EXTINF:-1, MTV Hits
 http://hlsstr02.svc.iptv.rt.ru/hls/CH_MTVHITS/variant.m3u8
 
-
+#EXTINF:-1, CNN International
+http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_,264,528,828,.m3u8
