@@ -63,4 +63,5 @@ http://193.232.151.135/hls-live/livepkgr/_1040_/1040/1040-70.m3u8
 #EXTINF:0,Football 1
 http://193.232.151.135/hls-live/livepkgr/_1040_/1040/1040-70.m3u8
 
-
+#EXTINF:0,CNBC
+http://nimlive1.giniko.com/cnbc1/cnbc.stream/playlist.m3u8
