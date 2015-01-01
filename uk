@@ -57,13 +57,8 @@ http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_,264,528,828,.m
 #EXTINF:-0, LTV
 rtmp://skylite.pointcdn.net playpath=skylite/ams/ltv swfUrl=http://tv.filmover.com/glow/player.swf pageUrl=http://www.nigeriatv.net/search/label/LTV%20Nigeria§1
 
-
 #EXTINF‬:-1, Sky Sport 5
 rtmp://31.220.0.195:80/live
-
-
-
-
 
 #EXTINF‬:-1, Sky Sport 3
 http://178.33.24.14:27353 timeout=5
