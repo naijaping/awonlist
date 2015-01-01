@@ -57,73 +57,12 @@ http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_,264,528,828,.m
 #EXTINF:-0, LTV
 rtmp://skylite.pointcdn.net playpath=skylite/ams/ltv swfUrl=http://tv.filmover.com/glow/player.swf pageUrl=http://www.nigeriatv.net/search/label/LTV%20Nigeria§1
 
-#EXTINF‬:-1, Sky Sport 5
-rtmp://31.220.0.195:80/live
-
-#EXTINF‬:-1, Sky Sport 3
-http://178.33.24.14:27353 timeout=5
-
-#EXTINF‬:-1, Sky Sport 5
-rtmp://80.82.78.22:443/liverepeater/12 pageUrl=http://popeoftheplayers.pw/ token=#atd%#$ZH timeout=5
-
-
-#EXTINF‬:-1,BE?N SPORT 1
-rtmp://213.136.71.43:1935/live/beinsports1 timeout=9
-
-#EXTINF:-1,BE?N SPORT 2
-rtmp://213.136.71.43:1935/live/beinsports2 timeout=9
-
-#EXTINF:-1,BE?N SPORT 3
-rtmp://213.136.71.43:1935/live/beinsports3 timeout=9
-
-#EXTINF:-1, beIN 1
-rtmp://wzmatch.uforone.net:1935/live/_definst_/beinsports1 timeout=5
-
-#EXTINF:-1, beIN 1
-rtmp://213.136.71.43/live// playpath=beinsports1?Sport.HD swfUrl=http://p.jwpcdn.com/6/9/jwplayer.flash.swf live=1 pageUrl=http://liveontv.k30.us/bein.phprtmp://213.136.71.43/live// playpath=beinsports1?Sport.HD swfUrl=http://p.jwpcdn.com/6/9/jwplayer.flash.swf live=1 pageUrl=http://liveontv.k30.urtmp://213.136.71.43/live// playpath=beinsports1?Sport.HD swfUrl=http://p.jwpcdn.com/6/9/jwplayer.flash.swf live=1 pageUrl=http://liveontv.k30.us/bein.phps/bein.php timeout=9
-
-
-
-#EXTINF:-1 tvg-logo="SetantaSports1.png" group-title="UK SPORTS", Setanta Sports Ireland
-rtmpe://46.246.124.24:1935/live playpath=ssetanta swfUrl=http://prvservers.com/j/jwplayer.flash.swf pageUrl=http://prvservers.com/ live=1 token=#yw%tt#w@kku timeout=15
-
-#EXTINF:-1,Eurosport ger.
-http://88.208.111.4:40025
-
-#EXTINF:0, SPORTS 1
-http://193.232.151.135/hls-live/livepkgr/_1073_/1073/1073-70.m3u8
-#EXTINF:0, SPORTS 2
-http://193.232.151.135/hls-live/livepkgr/_1031_/1031/1031-50.m3u8
-#EXTINF:0, SPORTS 3
-http://193.232.151.135/hls-live/livepkgr/_1032_/1032/1032-70.m3u8
 #EXTINF:0, SPORTS 4
 http://193.232.151.135/hls-live/livepkgr/_1040_/1040/1040-70.m3u8
-#EXTINF:0, SPORTS 5
-http://193.232.151.135/hls-live/livepkgr/_1025_/1025/1025-70.m3u8
-
-#EXTINF:0,SPORT TV 2
-rtmp://178.217.185.120:1935/live/_definst_/channel2
-
-#EXTINF:0,Sport
-http://193.232.151.135/hls-live/livepkgr/_1025_/1025/1025-70.m3u8
 
 #EXTINF:0,Football 1
 http://193.232.151.135/hls-live/livepkgr/_1040_/1040/1040-70.m3u8
 
-#EXTINF:0,NTV Football Online
-http://193.232.151.135/hls-live/livepkgr/_1032_/1032/1032-70.m3u8
-
-#EXTINF:0,Sport HD
-http://193.232.151.135/hls-live/livepkgr/_1031_/1031/1031-70.m3u8
-
-#EXTINF:0,Sport HD
-http://193.232.151.135/hls-live/livepkgr/_1031_/1031/1031-60.m3u8
-
-#EXTINF:0,Sport
-http://193.232.151.135/hls-live/livepkgr/_1031_/1031/1031-50.m3u8
-
-#EXTINF:0,Наш Футбол
-http://193.232.151.135/hls-live/livepkgr/_1073_/1073/1073-70.m3u8
 
 
 
