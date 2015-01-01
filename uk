@@ -55,4 +55,4 @@ http://hlsstr02.svc.iptv.rt.ru/hls/CH_MTVHITS/variant.m3u8
 http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_,264,528,828,.m3u8
 
 #EXTINF:-1,CARTOON NETWORK
-http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=222&lan=0&rows=40&f=.m3u8
+http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=222&lan=1&rows=40&f=.m3u8
