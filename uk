@@ -21,6 +21,7 @@ http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/skynews/ls_satlink/b_,264,528,82
 #EXTINF:-1,Nickelodeon
 http://202.75.23.36/live/ch43/01.m3u8
 
-#EXTINF:-1,QTV
+#EXTINF:-1 tvg-logo="BBCOne.png" group-title="UK Live TV", BBC 1 ( Uk Only )
+http://vs-hds-uk-live.bbcfmt.vo.llnwd.net/pool_5/live/bbc_one_london/bbc_one_london.isml/bbc_one_london-audio_2=96000-video=1374000.m3u8?Vd?u#bt!25
 
 
