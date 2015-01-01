@@ -36,3 +36,6 @@ rtmp://204.107.26.252:8086/live/905.high.stream
 #EXTINF:-1, Discovery World HD
 http://202.75.23.34/live/ch30/01.m3u8
 
+
+#EXTINF:0,TLC
+http://202.75.23.34/live/ch35/01.m3u8
