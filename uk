@@ -57,4 +57,5 @@ http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_,264,528,828,.m
 #EXTINF:-0, LTV
 rtmp://skylite.pointcdn.net playpath=skylite/ams/ltv swfUrl=http://tv.filmover.com/glow/player.swf pageUrl=http://www.nigeriatv.net/search/label/LTV%20Nigeria§1
 
-
+#EXTINF:-0, MTV Sport 1
+http://213.216.253.168:8001/1:0:16:131:48:46:E080000:0:0:0:
