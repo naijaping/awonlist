@@ -30,5 +30,3 @@ http://www.bbc.co.uk/mediaselector/playlists/hls/mobile_wifi/ak/bbc2.m3u8
 #EXTINF:-1, BBC Alba
 http://www.bbc.co.uk/mediaselector/playlists/hls/mobile_wifi/ak/bbcalba.m3u8
 
-#EXTINF:0,ITV
-http://93.158.221.200:9001/bysid/10060
