@@ -30,3 +30,6 @@ http://www.bbc.co.uk/mediaselector/playlists/hls/mobile_wifi/ak/bbc2.m3u8
 #EXTINF:-1, BBC Alba
 http://www.bbc.co.uk/mediaselector/playlists/hls/mobile_wifi/ak/bbcalba.m3u8
 
+#EXTINF:-1,Press TV
+rtmp://204.107.26.252:8086/live/905.high.stream
+
