@@ -97,6 +97,6 @@ rtmp://66.90.111.66/ctv playpath=tom swfUrl=http://www.canaistv.net/swf/player.s
 http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=469&lan=2&rows=40&f=.m3u8
 
 #EXTINF:-1,MITV Online
-http://162.244.81.165/mystream/player.php?custid=17&id=37
+http://162.244.81.165/mystream
 
 
