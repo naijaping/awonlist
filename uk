@@ -69,5 +69,5 @@ http://nimlive1.giniko.com/cnbc1/cnbc.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX
 #EXTINF:0,Vox Africa
 http://nimlive1.giniko.com/voxafrica/voxafrica.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8xLzIwMTUgMTA6NTA6MzUgUE0maGFzaF92YWx1ZT1qSDZWSDZ4bW1CbDNUVFlIUm41dnhRPT0mdmFsaWRtaW51dGVzPTYw
 
-#EXTINF:0,Cartoon
+#EXTINF:0,Cartoon 1
 http://tv4embed.com/usa/Cartoon-Network-stream1.m3u8
