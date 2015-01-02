@@ -84,5 +84,5 @@ http://nimplus1.giniko.com/bbctwo/bbctwo.stream/playlist.m3u8
 #EXTINF:0,eNCA (South Africa)
 http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/enca/ls_satlink/b_,264,528,828,.m3u8
 
-#EXTINF:-1, CARTOONITO HD
-http://secure.ilikehd.com:8080/livetv/player/totlink.m3u8?channel_id=dff1502eb25c4912aea009df5d0fde9b
+#EXTINF:-1, CART HD
+http://95.211.209.167:20505
