@@ -84,5 +84,5 @@ http://nimplus1.giniko.com/bbctwo/bbctwo.stream/playlist.m3u8
 #EXTINF:0,eNCA (South Africa)
 http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/enca/ls_satlink/b_,264,528,828,.m3u8
 
-#EXTINF:-1, disney 
+#EXTINF:-1, dis
 http://acabsw.doiptv.com/cs_disney_channel/playlist.m3u8
