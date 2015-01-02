@@ -66,7 +66,7 @@ http://193.232.151.135/hls-live/livepkgr/_1040_/1040/1040-70.m3u8
 #EXTINF:0,CNBC 
 http://nimplus1.giniko.com/cnbc1/cnbc.stream/playlist.m3u8
 
-#EXTINF:0,Cartoon 
+#EXTINF:0,Cartoon NET
 rtmp://rtmp.zerocast.tv:1935/live playpath=08pydvp1b7ZwZb3a5TW1 swfUrl=http://cdn.zerocast.tv/player.swf live=1
 
 
