@@ -96,3 +96,20 @@ rtmp://66.90.111.66/ctv playpath=tom swfUrl=http://www.canaistv.net/swf/player.s
 #EXTINF:-1,NICKTOONS
 http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=469&lan=2&rows=40&f=.m3u8
 
+
+#EXTNIF:-1,CH
+http://dpluspc-i.akamaihd.net/hls/live/201766/channelpc1/05.m3u8
+#EXTNIF:-1,CH
+http://dpluspc-i.akamaihd.net/hls/live/201766/channelpc1/05.m3u8
+#EXTNIF:-1,CH
+http://cp2.level3.nmp.hls.emision.dof6.com/sogecable/channel33/index.m3u8
+#EXTNIF:-1,CH
+http://cpseries.akamai.nmp.hls.emision.dof6.com/hls/live/201772/channelpc7/index.m3u8
+#EXTNIF:-1,CH
+http://cpliga.nmp.hls.emision.dof6.com/hls/live/201767/channelpc2/index.m3u8 #EXTNIF:-1,CH
+http://cpligacamp.nmp.hls.emision.dof6.com/hls/live/201768/channelpc3/index.m3u8
+#EXTNIF:-1,CH
+http://cpfutbol.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel2/index.m3u8                
+#EXTNIF:-1,CH
+http://cpdeportes.level3.nmp.hls.emision.dof6.com/apple/sogecable/channel3/index.m3u8              
+
