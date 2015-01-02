@@ -85,8 +85,3 @@ http://nimplus1.giniko.com/bbctwo/bbctwo.stream/playlist.m3u8
 http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/enca/ls_satlink/b_,264,528,828,.m3u8
 
 
-#EXTINF:-1 tvg-logo="Sky Sports 1.png" group-title="DESPORTO",SKY SPORTS 1 (UK)
-rtmp://80.82.70.106:443/liverepeater playpath=11 swfUrl=http://popeoftheplayers.pw/atdedead.swf live=1 pageUrl=http://popeoftheplayers.pw/huraivza token=#atd%#$ZH
-
-#EXTINF:-1 tvg-logo="Sky Sports 2.png" group-title=“DESPORTO”,SKY SPORTS 2 (UK)
-rtmp://80.82.70.106:443/liverepeater playpath=14 swfUrl=http://popeoftheplayers.pw/atdedead.swf live=1 pageUrl=http://popeoftheplayers.pw/huraivza token=#atd%#$ZH
