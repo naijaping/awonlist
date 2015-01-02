@@ -96,3 +96,5 @@ rtmp://66.90.111.66/ctv playpath=tom swfUrl=http://www.canaistv.net/swf/player.s
 #EXTINF:-1,NICKTOONS
 http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=469&lan=2&rows=40&f=.m3u8
 
+#EXTINF:-1,[COLOR yellow]Sky Sports 1 720p HD[/COLOR]
+rtmp://live1.fifaembed.com:1935/live?wmsAuthSign=c2VydmVyX3RpbWU9OC8xOC8yMDE0IDEwOjU2OjAyIEFNJmhhc2hfdmFsdWU9S0ZKWTdlT0JMb3ExOTJad2VBa2xyZz09JnZhbGlkbWludXRlcz0yMA==/ playpath=skysports2-hq swfUrl=http://p.jwpcdn.com/6/9/jwplayer.flash.swf pageUrl=http://www.liveonlinetv247.com/embed/skysportscricket.php?width=650&height=480 live=1 timeout=10
