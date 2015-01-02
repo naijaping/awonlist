@@ -69,7 +69,7 @@ http://nimplus1.giniko.com/cnbc1/cnbc.stream/playlist.m3u8
 #EXTINF:0,Cartoon Network
 rtmp://rtmp.zerocast.tv:1935/live playpath=08pydvp1b7ZwZb3a5TW1 swfUrl=http://p.jwpcdn.com/6/10/jwplayer.flash.swf live=1 flashver=WIN202012,0,0,77 timeout=15 token=8964316ec8772dfa live=1swfVfy=1 pageUrl=http://zerocast.tv
 
-#EXTINF:0,CARTOON 
-rtmp://$OPT:rtmp-raw=rtmpe://watch.playfooty.tv/live playpath=cartoonet100 swfUrl=http://www.playfooty.tv/play/player/player.swf live=1 pageUrl=http://www.playfooty.tv/play/embed.php
+#EXTINF:0,CART
+rtmpe://watch.playfooty.tv/live playpath=cartoonet100 swfUrl=http://www.playfooty.tv/play/player/player.swf live=1 pageUrl=http://www.playfooty.tv/play/embed.php
 
 
