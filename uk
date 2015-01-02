@@ -87,4 +87,5 @@ http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/enca/ls_satlink/b_,264,528,828,.
 #EXTINF:-1, London Live
 http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master_900.m3u8
 
-
+#EXTINF:-1 tvg-logo="channel5.png" tvg-id="Channel 5" tvg-name="Channel 5", CHANNEL 5?
+http://cdn.live.simplestream.com/Z41HSAHP2SD4XFSXTT3B/5/playlist-limelight.m3u8
