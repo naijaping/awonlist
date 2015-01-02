@@ -4,7 +4,6 @@
 http://www.cityflavourmagazine.com
 
 #EXTINF:-1,Boomerang
-#EXTVLCOPT: Audio-track=2
 http://hlsstr02.svc.iptv.rt.ru/hls/CH_BOOMERANG/variant.m3u8
 
 #EXTINF:-1,Channel 4 HD 
