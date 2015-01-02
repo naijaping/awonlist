@@ -70,6 +70,4 @@ http://nimplus1.giniko.com/cnbc1/cnbc.stream/playlist.m3u8
 rtmp://rtmp.zerocast.tv:1935/live playpath=08pydvp1b7ZwZb3a5TW1 swfUrl=http://p.jwpcdn.com/6/10/jwplayer.flash.swf live=1 flashver=WIN202012,0,0,77 timeout=15 token=8964316ec8772dfa live=1swfVfy=1 pageUrl=http://zerocast.tv
 
 #EXTINF:-1 tvg-logo="BBCOne.png" group-title="UK Live TV", BBC 1
-http://198.179.30.109/live/14.high.stream/playlist.m3u8?id=0ad5aac39bb13fbe066037800139406581e1abaeabb387d1fb6806a02ff4a29cdc9805515f4ce458372ea9d2415a8870c6810f20c1632b2d479b654ce80d369479930bd17ee0ef2beacb34ba7b05dc3d18875fd70fa8ff2c4190a3a00c717e5aa6c92d2c9c90295df646e958a8abdf37841e60376100771d731fa02ed3c1b771950136def067fa44e7cf06ed9c1334d5c6cf8cc1a89c694f
-
-
+http://198.179.30.109/live/14.high.stream/playlist.m3u8
