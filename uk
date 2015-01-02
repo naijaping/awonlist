@@ -96,5 +96,3 @@ rtmp://66.90.111.66/ctv playpath=tom swfUrl=http://www.canaistv.net/swf/player.s
 #EXTINF:-1,NICKTOONS
 http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=469&lan=2&rows=40&f=.m3u8
 
-#EXTINF:-1,[COLOR orange]Nickelodeon HD 1080[/COLOR]
-http://213.110.137.87:4022/udp/239.10.0.215:1234
