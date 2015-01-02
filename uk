@@ -74,3 +74,6 @@ http://nimplus1.giniko.com/bbcnews/bbcnews.stream/playlist.m3u8
 
 #EXTINF:0,BBC World News 2
 http://nimplus1.giniko.com/bbcworldnews/bbcworld/playlist.m3u8
+
+#EXTINF:0,BBC Two
+http://nimplus1.giniko.com/bbctwo/bbctwo.stream/playlist.m3u8
