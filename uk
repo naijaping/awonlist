@@ -9,7 +9,7 @@ http://hlsstr02.svc.iptv.rt.ru/hls/CH_BOOMERANG/variant.m3u8
 #EXTINF:-1,Channel 4 HD 
 http://81.23.58.184:8080/udp/0.0.0.0:20000
 
-#EXTINF:-1,BBC News
+#EXTINF:-1,BBC World News
 http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/bbc_world/ls_satlink/b_828.m3u8?Vd?u#bt!25
 
 #EXTINF:-1,CNN
@@ -71,3 +71,6 @@ rtmp://rtmp.zerocast.tv:1935/live playpath=08pydvp1b7ZwZb3a5TW1 swfUrl=http://p.
 
 #EXTINF:0,BBC WORLD
 http://nimplus1.giniko.com/bbcnews/bbcnews.stream/playlist.m3u8
+
+#EXTINF:0,BBC World News 2
+http://nimplus1.giniko.com/bbcworldnews/bbcworld/playlist.m3u8
