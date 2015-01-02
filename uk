@@ -87,5 +87,5 @@ http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/enca/ls_satlink/b_,264,528,828,.
 #EXTINF:-1, London Live
 http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master_900.m3u8
 
-#EXTINF:0, CARTOON NETWORK
-http://123.29.71.227/ilive.m3u8?c=vstv031&token=CLzlXBXRJAlGQbpfvNgXng&time=1414307329
+#EXTINF:0, CARTOON NETW
+http://123.29.71.227/ilive.m3u8?c=vstv031
