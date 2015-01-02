@@ -87,6 +87,4 @@ http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/enca/ls_satlink/b_,264,528,828,.
 #EXTINF:-1, London Live
 http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master_900.m3u8
 
-#EXTINF:-1 tvg-logo="Cartoonito.png" group-title="Kids", Cartoonito HD
-http://secure.ilikehd.com:8080/livetv/player/totlink.m3u8?channel_id=dff1502eb25c4912aea009df5d0fde9b
- 
+
