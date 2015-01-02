@@ -87,6 +87,4 @@ http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/enca/ls_satlink/b_,264,528,828,.
 #EXTINF:-1, London Live
 http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master_900.m3u8
 
-#EXTINF:-1 tvg-logo="Nickelodeon.png", Nickelodeon UK
-http://202.75.23.36/live/ch43/03.m3u8
- 
+
