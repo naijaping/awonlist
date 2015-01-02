@@ -72,4 +72,6 @@ rtmp://rtmp.zerocast.tv:1935/live playpath=08pydvp1b7ZwZb3a5TW1 swfUrl=http://p.
 #EXTINF:0,CARToon
 rtmp://watch.playfooty.tv/live playpath=cartoonet100 swfUrl=http://www.playfooty.tv/play/player/player.swf live=1 pageUrl=http://www.playfooty.tv/play/embed.php
 
+#EXTINF:0,Nickelodeon
+http://31.43.120.162:8086
 
