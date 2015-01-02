@@ -92,3 +92,6 @@ http://202.75.23.33/live/ch27/03.m3u8
 
 #EXTINF:-1,NICKTOONS
 http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=469&lan=2&rows=40&f=.m3u8
+
+#EXTINF:-1, MTV HD Live
+http://202.75.23.37:1400/live/ch50/01.m3u8
