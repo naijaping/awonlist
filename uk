@@ -67,4 +67,8 @@ http://193.232.151.135/hls-live/livepkgr/_1040_/1040/1040-70.m3u8
 http://nimplus1.giniko.com/cnbc1/cnbc.stream/playlist.m3u8
 
 #EXTINF:0,Cartoon 
-rtmp://rtmp.zerocast.tv:1935/live playpath=08pydvp1b7ZwZb3a5TW1 swfUrl=http://cdn.zerocast.tv/player.swf 
+rtmp://rtmp.zerocast.tv:1935/live playpath=08pydvp1b7ZwZb3a5TW1 swfUrl=http://p.jwpcdn.com/6/10/jwplayer.flash.swf
+
+
+#EXTINF:0,NickelodeonUS
+rtmp://rtmp.zerocast.tv:1935/live/ playpath=fCqfhb14WwwFbAsDbV3Z swfUrl=http://p.jwpcdn.com/6/10/jwplayer.flash.swf live=1 flashver=WIN\202012,0,0,77 timeout=15 token=8964316ec8772dfa live=1swfVfy=1 pageUrl=http://zerocast.tv
