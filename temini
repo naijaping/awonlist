@@ -5,8 +5,7 @@ http://188.165.220.116:8081/str/ru/playlist.m3u8
 
 #EXTINF:-1, Adult Tv2
 http://188.165.220.116:8081/str/ner/playlist.m3u8
-#EXTINF:-1,Bloomberg
-#EXTVLCOPT:http-user-agent=stagefright
+#EXTINF:-1,Bloom
 https://eu.bestvideostreaming.is/chans/8607/index.m3u8
 
 #EXTINF:-1, Adult xxx 19
