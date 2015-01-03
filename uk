@@ -133,5 +133,5 @@ rtmp://karimos-sat.com:1935/static/Bein14_HD
 #EXTINF:0,Bein15_HD
 rtmp://karimos-sat.com:1935/static/Bein15_HD
 
-#EXTINF:0, Nickel
-http://93.174.95.125:1935/edge/_definst_/q2hs5fqm8b039y0/playlist.m3u8?wowzasessionid=1758235421
+#EXTINF:0, Nickelodeon English
+http://93.174.95.125:1935/edge/_definst_/q2hs5fqm8b039y0/playlist.m3u8?wowzasessionid=1758235421&xs=_we_dHM2dzI0ZHgyOXRjd2k0fDEzOTc2NDc5MjV8MzkuNDUuMjAwLjExOHw1MzRlNjhjZGVlMTllfDA4NGJmYmNjMDBiZWEyNGE1NWUyYzI0Zjc1ODVmMTU0ZmVmMGRhZTI
