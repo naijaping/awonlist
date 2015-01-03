@@ -134,8 +134,4 @@ rtmp://karimos-sat.com:1935/static/Bein14_HD
 rtmp://karimos-sat.com:1935/static/Bein15_HD
 
 
-#EXTINF:-1,BT Sport 1 HD 
-http://62.253.9.37:8001/1:0:19:C5E4:968:2:11A0000:0:0:0: 
-#EXTINF:-1,BT Sport 2 HD 
-http://62.253.9.37:8001/1:0:19:C5E9:968:2:11A0000:0:0:0: 
 
