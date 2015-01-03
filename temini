@@ -5,8 +5,6 @@ http://188.165.220.116:8081/str/ru/playlist.m3u8
 
 #EXTINF:-1, Adult Tv2
 http://188.165.220.116:8081/str/ner/playlist.m3u8
-#EXTINF:-1,FRENCLOVER TV
-http://80.87.146.133:1111/udp/230.3.4.150:5678
 
 #EXTINF:-1, Adult xxx 19
 rtmp://lm07.everyon.tv:1935/ptv7/phd10927
