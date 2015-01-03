@@ -5,7 +5,9 @@ http://188.165.220.116:8081/str/ru/playlist.m3u8
 
 #EXTINF:-1, Adult Tv2
 http://188.165.220.116:8081/str/ner/playlist.m3u8
-
+#EXTINF:-1,Bloomberg
+#EXTVLCOPT:http-user-agent=stagefright
+https://eu.bestvideostreaming.is/chans/8607/index.m3u8
 
 #EXTINF:-1, Adult xxx 19
 rtmp://lm07.everyon.tv:1935/ptv7/phd10927
