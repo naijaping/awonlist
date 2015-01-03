@@ -132,3 +132,9 @@ rtmp://karimos-sat.com:1935/static/Bein13_HD
 rtmp://karimos-sat.com:1935/static/Bein14_HD
 #EXTINF:0,Bein15_HD
 rtmp://karimos-sat.com:1935/static/Bein15_HD
+
+#EXTINF:0,Boomerang
+http://balkanstream.com/stream/boomerang/pajd013/443db206
+
+#EXTINF:0,Nickelodeon
+http://balkanstream.com/stream/nickelodeon/pajd013/443db206
