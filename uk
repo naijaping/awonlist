@@ -102,3 +102,5 @@ http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=469&lan=2&rows=
 http://193.232.151.135/hls-live/livepkgr/_1031_/1031/1031-60.m3u8
 
 
+#EXTINF:0,Bein1 HD
+rtmp://karimos-sat.com:1935/static/Bein1_HD
