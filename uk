@@ -101,5 +101,5 @@ http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=469&lan=2&rows=
 #EXTINF:0,Sport HD Not ENG
 http://193.232.151.135/hls-live/livepkgr/_1031_/1031/1031-60.m3u8
 
-#EXTINF:-1, NICK HD
-http://200.76.77.237/LIVE/H01/CANAL315/PROFILE03.m3u8?
+#EXTINF:-1,ANIMAL PLANET
+http://202.75.23.34/live/ch31/01.m3u8
