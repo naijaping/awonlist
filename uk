@@ -98,7 +98,5 @@ rtmp://66.90.111.66/ctv playpath=tom swfUrl=http://www.canaistv.net/swf/player.s
 #EXTINF:-1,NICKTOONS
 http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=469&lan=2&rows=40&f=.m3u8
 
-#EXTINF:0,Sport HD
+#EXTINF:0,Sport HD Not ENG
 http://193.232.151.135/hls-live/livepkgr/_1031_/1031/1031-60.m3u8
-#EXTINF:0,NTV Football Online
-http://193.232.151.135/hls-live/livepkgr/_1032_/1032/1032-70.m3u8
