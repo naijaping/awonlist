@@ -96,75 +96,75 @@ rtmp://66.90.111.66/ctv playpath=tom swfUrl=http://www.canaistv.net/swf/player.s
 #EXTINF:-1,NICKTOONS
 http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=469&lan=2&rows=40&f=.m3u8
 
-Bein Sports 1 HD
+#EXTINF:-0,Bein Sports 1 HD
 http://live.sonara.net:1935/live/live1/playlist.m3u8
  
-Bein Sports 4 HD
+#EXTINF:-0,Bein Sports 4 HD
 http://live.sonara.net:1935/live/live1/playlist.m3u8
  
-Idman TV M3u8
+#EXTINF:-0,Idman TV M3u8
 http://hls01-07.az.myvideo.az/hls-live/livepkgr/idman/idman/idman.m3u8?mfamwuUL6IpOXDJ8WwxJ
  
-Arenasport 1
+#EXTINF:-0,Arenasport 1
 rtmp://$OPT:rtmp-raw=rtmp://146.185.253.120:1935/live/ar11a pageUrl=http://www.sports-x.net/play/ token=‪#‎kurac‬#Od#Ovce#
  
-Arena sport 2 HD
+#EXTINF:-0,Arena sport 2 HD
 http://mefkan://link.vpn.by/?id=379345
  
-Arena sport 3 HD
+#EXTINF:-0,Arena sport 3 HD
 http://mefkan://link.vpn.by/?id=378441
  
-Super Sport 2 Albania
+#EXTINF:-0,Super Sport 2 Albania
 http://149.255.39.122/aasd/8734/index.m3u8
  
-SPORT TV 1
+#EXTINF:-0,SPORT TV 1
 rtmp://$OPT:rtmp-raw=rtmpe://5.153.233.106:443/share/live1-rbi6c pageUrl=http://sharecast.to/
  
-SKY SPORT 5
+#EXTINF:-0,SKY SPORT 5
 rtmp://$OPT:rtmp-raw=rtmpe://46.246.124.28:1935/live/sskys5 pageUrl=http://www.hdcast.org/ token=‪#‎yw‬%tt#w@kku
  
-Setanta Sports Ireland
+#EXTINF:-0,Setanta Sports Ireland
 rtmp://$OPT:rtmp-raw=rtmpe://46.246.124.24:1935/live/ssetanta pageUrl=http://www.hdcast.org token=#yw%tt#w@kku
  
-STV HD
+#EXTINF:-0,STV HD
 http://csm-e-usc1-9.cds1.yospace.com/csm/live/92981621.m3u8
  
-ITV HD
+#EXTINF:-0,ITV HD
 http://tvcatchup-live.hls.adaptive.level3.net/tvcatchup-201/smil:itvone_desk_wifi.smil/chunklist_b1600000.m3u8
  
-FEDERALNA TV
+#EXTINF:-0,FEDERALNA TV
 http://exyu-iptv.dyndns.tv:15000/live/ftv.sdp/hasbahca.m3u8
  
-BHT 1
+#EXTINF:-0,BHT 1
 http://146.0.40.73:8080/ipvt_004
  
-RTRS TV
+#EXTINF:-0,RTRS TV
 http://parh.rtrs.tv:1935/tv/live/playlist.m3u8
  
-SKY Calcio 1
+#EXTINF:-0,SKY Calcio 1
 rtmp://$OPT:rtmp-raw=rtmp://31.220.0.104:1935/live/sky01ita pageUrl=http://www.flashtv.co/Vd?u#bt!25 token=%ZZri(nKa@#Z
  
-Sky Sports 1
+#EXTINF:-0,Sky Sports 1
 rtmp://$OPT:rtmp-raw=rtmpe://46.246.124.28:1935/live/sskys1 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku
  
-Super Sport 2 HD
+#EXTINF:-0,Super Sport 2 HD
 http://149.255.39.122/aasd/8734/index.m3u8
  
-Arena Sport 2
+#EXTINF:-0,Arena Sport 2
 http://mefkan://link.vpn.by/?id=379425
  
-Arena Sport 2
+#EXTINF:-0,Arena Sport 2
 rtmp://$OPT:rtmp-raw=rtmp://146.185.253.120:1935/live/ar21a pageUrl=http://www.sports-x.net/play/ token=#kurac#Od#Ovce#
  
-Arena Sport 1
+#EXTINF:-0,Arena Sport 1
 http://mefkan://link.vpn.by/?id=379484
  
-Supersport 4 HD
+#EXTINF:-0,Supersport 4 HD
 http://149.255.39.122/aasd/8743/index.m3u8
  
-Sky Sport 5 UK
+#EXTINF:-0,Sky Sport 5 UK
 rtmp://$OPT:rtmp-raw=rtmpe://46.246.124.28:1935/live/sskys5 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku
  
-Arenasport 4 HD
+#EXTINF:-0,Arenasport 4 HD
 http://mefkan://link.vpn.by/?id=379502
 
