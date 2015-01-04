@@ -136,5 +136,7 @@ rtmp://karimos-sat.com:1935/static/Bein15_HD
 #EXTINF:0,Nikelodeon TV
 http://93.174.95.125:1935/edge/_definst_/q2hs5fqm8b039y0/playlist.m3u8?wowzasessionid=1758235421&xs=_we_dHM2dzI0ZHgyOXRjd2k0fDEzOTc2NDc5MjV8MzkuNDUuMjAwLjExOHw1MzRlNjhjZGVlMTllfDA4NGJmYmNjMDBiZWEyNGE1NWUyYzI0Zjc1ODVmMTU0ZmVmMGRhZTI
 
-#EXTINF:0,Big Ten Network
+#EXTINF:0,Big Ten Network HD
 http://bigten247.cdnak.bigtenhd.neulion.com/nlds/btn2go/btnnetwork/as/live/btnnetwork_hd_3000.m3u8
+#EXTINF:0,Pac Sport HD
+http://xrxs.net/video/live-p12losa-4728.m3u8
