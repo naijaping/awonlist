@@ -143,4 +143,4 @@ http://xrxs.net/video/live-p12losa-4728.m3u8
 #EXTINF:-0, Prestige TV
 rtmp://edge.streamserver01.com/edge3/PrestigeTv playpath=PrestigeTv swfUrl=http://edge.streamserver01.com/player.swf
 #EXTINF:-0, Prestige TV 2
-rtmp://edge.streamserver01.com/edge3/ShowcaseTV/ShowcaseTV pageUrl=http://www.information.tv/WatchLive/FlashPlayer/?id=halilou 
+rtmp://edge.streamserver01.com/edge3/PrestigeTv pageUrl=http://www.africawebtv.com/2013/11/prestigetv-yoruba.html/FlashPlayer/?id=halilou 
