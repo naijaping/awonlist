@@ -140,5 +140,5 @@ http://93.174.95.125:1935/edge/_definst_/q2hs5fqm8b039y0/playlist.m3u8?wowzasess
 http://bigten247.cdnak.bigtenhd.neulion.com/nlds/btn2go/btnnetwork/as/live/btnnetwork_hd_3000.m3u8
 #EXTINF:0,Pac Sport HD
 http://xrxs.net/video/live-p12losa-4728.m3u8
-#EXTINF:-0, Prestige TV
-rtmp://edge.streamserver01.com/edge3/PrestigeTv playpath=PrestigeTv swfUrl=http://edge.streamserver01.com/player.swf
+#EXTINF:-1, EuroSport
+rtmp://31.220.0.72/liveall playpath=vakr841eelirtoal?keys=Uy-jirWDWOZBqD23-Jlkag&keyt=1420392049 swfUrl=http://wds.liveall.tv/jwplayer.flash.swf pageUrl=http://liveall.tv/player.php?streampage=vakr841eelirtoal&width=600&height=450 
