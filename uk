@@ -13,8 +13,7 @@ http://81.23.58.184:8080/udp/0.0.0.0:20000
 http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/bbc_world/ls_satlink/b_828.m3u8?Vd?u#bt!25
 
 #EXTINF:-1,CNN
-http://hls.novotelecom.ru/streaming/cnn/tvrec/playlist.m3u8
-
+http://hls.novotelecom.ru/streaming/cnn/tvrec/playlist.m3u8?b?b*t$
 #EXTINF:0,Sky News HD
 http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/skynews/ls_satlink/b_,264,528,828,.m3u8
 
