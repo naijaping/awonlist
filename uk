@@ -82,36 +82,6 @@ http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=469&lan=2&rows=
 http://193.232.151.135/hls-live/livepkgr/_1031_/1031/1031-60.m3u8
 
 
-#EXTINF:0,Bein1 HD
-rtmp://karimos-sat.com:1935/static/Bein1_HD
-#EXTINF:0,Bein2 HD
-rtmp://karimos-sat.com:1935/static/Bein2_HD
-#EXTINF:0,Bein3 HD
-rtmp://karimos-sat.com:1935/static/Bein3_HD
-#EXTINF:0,Bein4 HD
-rtmp://karimos-sat.com:1935/static/Bein4_HD
-#EXTINF:0,Bein5_HD
-rtmp://karimos-sat.com:1935/static/Bein5_HD
-#EXTINF:0,Bein6_HD
-rtmp://karimos-sat.com:1935/static/Bein6_HD
-#EXTINF:0,Bein7_HD
-rtmp://karimos-sat.com:1935/static/Bein7_HD
-#EXTINF:0,Bein8_HD
-rtmp://karimos-sat.com:1935/static/Bein8_HD
-#EXTINF:0,Bein9_HD
-rtmp://karimos-sat.com:1935/static/Bein9_HD
-#EXTINF:0,Bein10_HD
-rtmp://karimos-sat.com:1935/static/Bein10_HD
-#EXTINF:0,Bein11_HD
-rtmp://karimos-sat.com:1935/static/Bein11_HD
-#EXTINF:0,Bein12_HD
-rtmp://karimos-sat.com:1935/static/Bein12_HD
-#EXTINF:0,Bein13_HD
-rtmp://karimos-sat.com:1935/static/Bein13_HD
-#EXTINF:0,Bein14_HD
-rtmp://karimos-sat.com:1935/static/Bein14_HD
-#EXTINF:0,Bein15_HD
-rtmp://karimos-sat.com:1935/static/Bein15_HD
 
 #EXTINF:0,Nikelodeon TV
 http://93.174.95.125:1935/edge/_definst_/q2hs5fqm8b039y0/playlist.m3u8?wowzasessionid=1758235421&xs=_we_dHM2dzI0ZHgyOXRjd2k0fDEzOTc2NDc5MjV8MzkuNDUuMjAwLjExOHw1MzRlNjhjZGVlMTllfDA4NGJmYmNjMDBiZWEyNGE1NWUyYzI0Zjc1ODVmMTU0ZmVmMGRhZTI
@@ -122,7 +92,6 @@ http://bigten247.cdnak.bigtenhd.neulion.com/nlds/btn2go/btnnetwork/as/live/btnne
 http://xrxs.net/video/live-p12losa-4728.m3u8
 #EXTINF:-1, EuroSport
 rtmp://31.220.0.72/liveall playpath=vakr841eelirtoal?keys=Uy-jirWDWOZBqD23-Jlkag&keyt=1420392049 swfUrl=http://wds.liveall.tv/jwplayer.flash.swf pageUrl=http://liveall.tv/player.php?streampage=vakr841eelirtoal&width=600&height=450 
-
 #EXTINF:-1, Bloomberg
 http://cdn3.videos.bloomberg.com/btv/us/master.m3u8?b?b*t$
 #EXTINF:-1,Smash Hits
