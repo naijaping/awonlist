@@ -106,3 +106,6 @@ http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=86&lan=2&rows=4
 http://193.232.151.135/hls-live/livepkgr/_1025_/1025/1025-70.m3u8 
 #EXTINF:-1,HD Cnopt OPC 2 
 http://193.232.151.135/hls-live/livepkgr/_1031_/1031/1031-70.m3u8
+
+#EXTINF:-1,E!
+http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=134&lan=2&rows=40&f=.m3u8
