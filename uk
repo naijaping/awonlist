@@ -148,3 +148,5 @@ http://cdn3.videos.bloomberg.com/btv/us/master.m3u8?b?b*t$
 http://csm-e.cds1.yospace.com/csm/live/86561609.m3u8
 #EXTINF:-1,Kiss TV
 http://csm-e.cds1.yospace.com/csm/live/86561716.m3u8
+#EXTINF:-1,4MUSIC
+http://csm-e.cds1.yospace.com/csm/live/86550614.m3u8
