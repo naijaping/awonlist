@@ -110,3 +110,5 @@ http://193.232.151.135/hls-live/livepkgr/_1031_/1031/1031-70.m3u8
 http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&profile=134&lan=2&rows=40&f=.m3u8
 #EXTINF:0, France 24
 http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/france24_en/ls_satlink/b_,264,528,828,.m3u8
+#EXTINF:0, CNBC
+http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/cnbc_eu/ls_satlink/b_,264,528,828,.m3u8
