@@ -107,6 +107,12 @@
 </item>
 
 <item>
+<title>MFM LIVE</title>
+<link>wpc.AEA6.edgecastcdn.net/hls-live/20AEA6/mfmlive/mfmlive/mfmlive,150,250,500,.m3u8</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
 <title>Aramide</title>
 <link>plugin://plugin.video.youtube/?action=play_all&amp;playlist=PLQAjRdc9_svZSUgdk-B85wXRQuEBc7-s6</link>
 </item>
