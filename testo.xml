@@ -20,6 +20,7 @@
 <page>http://www.giniko.com/watch.php?id=190</page>
 <referer>http://www.giniko.com/country.php?id=80</referer>
 </regex>
+<thumbnail>http://www.giniko.com/logos/190x110/189.jpg</thumbnail>
 </item>
 
 <item>
@@ -31,4 +32,5 @@
 <page>http://www.giniko.com/watch.php?id=190</page>
 <referer>http://www.giniko.com/country.php?id=80</referer>
 </regex>
+<thumbnail>http://www.giniko.com/logos/190x110/190.jpg</thumbnail>
 </item>
