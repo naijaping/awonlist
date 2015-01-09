@@ -34,3 +34,9 @@
 </regex>
 <thumbnail>http://www.giniko.com/logos/190x110/190.jpg</thumbnail>
 </item>
+
+<item>
+<title>TV Africa</title>
+<link>rtmp://skylite.pointcdn.net/ app=skylite/ams/ playpath=tvafrica swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://www.africawebtv.com/2013/11/tv-africa-ghana-live.html</link>
+<thumbnail>http://2.bp.blogspot.com/-l4fPz96So3E/UnghXHFbNVI/AAAAAAAAAW0/Ch8XBil3FrI/s200/TV+Africa+Ghana+Live.jpg</thumbnail>
+</item>
