@@ -41,6 +41,12 @@
 </item>
 
 <item>
+<title>OGTV</title>
+<link>rtmp://77.92.76.135:1935/OGTV/livestream</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
 <title>BBC ONE</title>
 <link>http://nimlive1.giniko.com/bbcone/bbcone.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
