@@ -64,4 +64,8 @@
 <link>http://162.212.176.83:8080/map-nta.stream.m3u8</link>
 <thumbnail>http://www.giniko.com/logos/190x110/10.jpg</thumbnail>
 </item>
-
+<item>
+<title>Tvc News</title>
+<link>http://uni2rtmp.tulix.tv:1935/tvcnews/myStream.sdp/playlist.m3u8</link>
+<thumbnail>http://www.giniko.com/logos/190x110/68.jpg</thumbnail>
+</item>
