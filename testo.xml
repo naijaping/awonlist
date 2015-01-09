@@ -104,8 +104,4 @@
 <link>plugin://plugin.video.youtube/?action=play_all&amp;playlist=PLQAjRdc9_svZSUgdk-B85wXRQuEBc7-s6</link>
 </item>
 
-<item>
-<title>Ukcast</title>
-<link>rtmpe://strm.ukcast.tv/redirect playpath=cbsusa_usa swfUrl=http://ukcast.tv/player/player.swf pageUrl=http://www.ukcast.tv live=true swfVfy=true timeout=15</link>
-<thumbnail></thumbnail>
-<item>
+
