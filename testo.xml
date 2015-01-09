@@ -40,3 +40,9 @@
 <link>rtmp://skylite.pointcdn.net/ app=skylite/ams/ playpath=tvafrica swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://www.africawebtv.com/2013/11/tv-africa-ghana-live.html</link>
 <thumbnail>http://2.bp.blogspot.com/-l4fPz96So3E/UnghXHFbNVI/AAAAAAAAAW0/Ch8XBil3FrI/s200/TV+Africa+Ghana+Live.jpg</thumbnail>
 </item>
+
+<item>
+<title>Ghana TV</title>
+<link>rtmp://wms.streamafrik.com:1935/show_streamaflive/16/ playpath=mainstream swfUrl=http://tv.filmover.com/jwp5/player.swf</link>
+<thumbnail>http://4.bp.blogspot.com/-QDORu1fJr28/Unglb1NooGI/AAAAAAAAAXI/VoMNqIxmXDo/s200/gtv.jpg</thumbnail>
+</item>
