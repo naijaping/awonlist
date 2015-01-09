@@ -4,6 +4,11 @@
 <thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/Nollywood-tv.png</thumbnail>
 </item>
 <item>
+<title>Ben Tv</title>
+<link>http://162.212.176.83:8080/map-ben.m3u8</link>
+<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/bentv.jpg</thumbnail>
+</item>
+<item>
 <title>Vox Africa TV</title>
 <link>http://nimlive1.giniko.com/voxafrica/voxafrica.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
