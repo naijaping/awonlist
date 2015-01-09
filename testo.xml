@@ -86,3 +86,9 @@
 <link>http://uni2rtmp.tulix.tv:1935/tvcnews/myStream.sdp/playlist.m3u8</link>
 <thumbnail>http://www.giniko.com/logos/190x110/68.jpg</thumbnail>
 </item>
+
+<item>
+<title>Prestige TV</title>
+<link>rtmp://edge.streamserver01.com/edge3/PrestigeTv playpath=PrestigeTv swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://www.nigeriatv.net/search/label/PrestigeTV</link>
+<thumbnail></thumbnail>
+</item>
