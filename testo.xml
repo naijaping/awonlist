@@ -17,6 +17,12 @@
 </item>
 
 <item>
+<title>OHTV UK</title>
+<link>http://rrr.sz.xlcdn.com/?account=Un1ty&file=webukoh2we612e6&type=live&service=wowza&protocol=http&output=playlist.m3u8</link>
+<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/OHTV.png</thumbnail>
+</item>
+
+<item>
 <title>Vox Africa TV</title>
 <link>http://nimlive1.giniko.com/voxafrica/voxafrica.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
