@@ -123,4 +123,14 @@
 <link>plugin://plugin.video.youtube/?action=play_all&amp;playlist=PLQAjRdc9_svZSUgdk-B85wXRQuEBc7-s6</link>
 </item>
 
-
+<item>
+<title>Geo Entertainment</title>
+<link>$doregex[rtmp] playpath=geoentertainment swfUrl=http://www.eboundservices.com/live/player.swf pageUrl=http://www.eboundservices.com live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>streamer':'(.*)</expres>
+<page>http://ebound.tv/EboundServicesPlayer/html/EboundPlayer.php</page>
+<referer>http://www.hamariweb.com</referer>
+</regex>
+<thumbnail>http://boltaysitaray.com/wp-content/uploads/2012/05/GeoTv-logo.png</thumbnail>
+</item>
