@@ -125,11 +125,11 @@
 
 
 <item>
-<title>Disney</title>
+<title>Dis</title>
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://tv4embed.com/uk/channel-4-stream1.html',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/38804/Disney_%28HD%29-live-stream-channel',False,False)</expres>
 <page></page>
 </regex>
 </item>
