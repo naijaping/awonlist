@@ -123,4 +123,9 @@
 <link>plugin://plugin.video.youtube/?action=play_all&amp;playlist=PLQAjRdc9_svZSUgdk-B85wXRQuEBc7-s6</link>
 </item>
 
+<item>
+<title>Beinsports</title>
+<link>http://tv4embed.com/uk/channel-4-stream1.html live=true timeout=15</link>
+<thumbnail></thumbnail>
+</item>
 
