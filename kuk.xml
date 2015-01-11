@@ -163,6 +163,17 @@
 <page></page>
 </regex>
 </item>
+
+<item>
+<title>Bomerang</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/65510',False,False)</expres>
+<page></page>
+</regex>
+</item>
+		
 	
 	
 	
