@@ -167,6 +167,13 @@
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mtv_us.png</thumbnail>
 </item>
+
+<item>
+<title>Bloomberg TV</title>
+<link>http://cdn3.videos.bloomberg.com/btv/us/master.m3u8?b?b*t$</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bloomberg_tv_us.png</thumbnail>
+</item>
+
  </channel>  
    <channel>
     <name>Aramide's Cartoon</name>
