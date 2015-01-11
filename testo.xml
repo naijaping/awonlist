@@ -138,12 +138,22 @@
 </item>
 
 <item>
-<title>Mtv page url: herer.tv</title>
+<title>Mtv </title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
 <expres>file: "(.*?)"<expres>
 <page>http://herer.tv/internacional/mtv/</page>
+</regex>
+</item>
+
+<item>
+<title>BEIN </title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"<expres>
+<page>http://herer.tv/deportes/bein-sports/</page>
 </regex>
 </item>
 
