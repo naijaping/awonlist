@@ -155,7 +155,7 @@
 </item>
 
 <item>
-<title>ilive new</title>
+<title>ilive</title>
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
