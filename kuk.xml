@@ -6,53 +6,103 @@
     <thumbnail>http://www.lebouquetafricain.com/images/logo.png</thumbnail>
     <fanart>http://community-links.googlecode.com/svn/icons/news-fanart.jpg</fanart>
         <items>
-		
-		     <item>
-            <title>AFRICABOX TV</title>
-            <link>http://chkg.tdf-cdn.com/8038/index.m3u8</link>
-            <thumbnail>http://logostv.netii.net/AfricaBox%20TV.png</thumbnail>
-            </item>
+	<item>
+<title>Nollywood Tv</title>
+<link>http://162.212.176.83:8080/map-nollywood-roku.m3u8</link>
+<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/nollywood_movies_uk.jpg</thumbnail>
+</item>
 
-            <item>
-            <title>AFRICABOX SERIES</title>
-            <link>http://chkg.tdf-cdn.com/8037/index.m3u8</link>
-            <thumbnail>http://logostv.netii.net/AfricaBox%20Series.png</thumbnail>
-            </item>
-			
-			<item>
-            <title>MUSIC AFRICA</title>
-            <link>rtmp://vstreet.fms.visionip.tv/live//vstreet-live-tv-musicafrica-live-16x9-SDh</link>
-            <thumbnail>http://i.imgur.com/BvoEp64.png</thumbnail>
-            </item>
-			
-			<item>
-            <title>AFRIQUE MEDIA</title>
-            <link>rtmp://afm.streamakaci.com/afm/afm.stream live=1 timeout=60</link>
-            <thumbnail>http://www.streamakaci.com/blog/wp-content/uploads/2013/02/afriquemediatv.jpg</thumbnail>
-            </item>
+<item>
+<title>Hip TV</title>
+<link>http://wos.cr2.streamzilla.xlcdn.com/chunker/_definst_/sz%3DUn1ty%3Dwebwwwhiptv51845/chunklist.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hip_tv_ng.png</thumbnail>
+</item>
 
-            <item>
-            <title>TV FRANCOPHONIE</title>
-            <link>plugin://plugin.video.f4mTester/?url=http://5.39.42.241/live/Stream1/manifest.f4m</link>  
-            <thumbnail>http://www.centraltv.fr/wp-content/uploads/tv-francophonie.jpg</thumbnail>
-            </item>
+<item>
+<title>Ben Tv</title>
+<link>http://162.212.176.83:8080/map-ben.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
+</item>
+			
+<item>
+<title>Channels Television</title>
+<link>rtmp://channelstv.ids-africa.com:1935/live playpath=mobile1 swfUrl=http://m.channelstv.com/player.swf pageUrl=http://www.nigeriatv.net/2013/05/channels-tv-nigeria.html</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/channels_tv_ng.png</thumbnail>
+</item>
+
+<item>
+<title>Vox Africa TV</title>
+<link>http://nimlive1.giniko.com/voxafrica/voxafrica.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.giniko.com/watch.php?id=81</page>
+<referer>http://www.giniko.com/country.php?id=80</referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/voxafrica_afrique.png</thumbnail>
+</item>
 		
-		    <item>
-	        <title>Canal Algérie (Algerie)</title>
-            <link>$doregex[geturl]</link>
-            <thumbnail>http://www.mondial-2014-football.com/wp-content/uploads/2014/03/logo-canal-alg%C3%A9rie.png</thumbnail>
-            <x-forward>91.121.98.216</x-forward>
-            <regex>
-            <name>geturl</name>
-            <expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
-            <page></page>
-            </regex>    
-            <regex>
-            <name>getplayerid</name>
-            <expres>data-alias="canal-algerie" data-playerid="(.*?)"</expres>
-            <page>http://playtv.fr/television/</page>
-            </regex>    
-            </item>
+<item>
+<title>MITV</title>
+<link>rtmp://skylite.pointcdn.net/ app=skylite/ams/ playpath=mitv swfUrl=http://tv.filmover.com/jwp6/jwplayer.flash.swf pageUrl=http://www.africawebtv.com/2013/11/mitv-nigeria-online.html</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mitv_ng.png</thumbnail>
+</item>
+
+<item>
+<title>OGTV</title>
+<link>rtmp://77.92.76.135:1935/OGTV/livestream</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/oo/ogun_state_tv_ng.png</thumbnail>
+</item>
+
+<item>
+<title>TV Africa</title>
+<link>rtmp://skylite.pointcdn.net/ app=skylite/ams/ playpath=tvafrica swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://www.africawebtv.com/2013/11/tv-africa-ghana-live.html</link>
+<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/tovafrica.jpg</thumbnail>
+</item>
+
+<item>
+<title>Ghana TV</title>
+<link>rtmp://wms.myliveafricatv.com:1935/rtmp_mlalive/330/ playpath=mainstream swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://www.africawebtv.com/2013/11/gtv-ghana-news-live.html</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/ghana_tv.png</thumbnail>
+</item>
+
+<item>
+<title>Fusion Plus TV</title>
+<link>rtmp://master.inacdn.com:1935/SSDEL1 playpath=scrottimmy5154c026538de swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback.swf/[[DYNAMIC]]/1 pageUrl=http://www.africawebtv.com/2013/11/fusionplus-tv.html</link>
+<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/fusion-plustv.jpg</thumbnail>
+</item>
+
+<item>
+<title>NTA</title>
+<link>http://162.212.176.83:8080/map-nta.stream.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nta_international.png</thumbnail>
+</item>
+
+<item>
+<title>Tvc News</title>
+<link>http://uni2rtmp.tulix.tv:1935/tvcnews/myStream.sdp/playlist.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tv_continental_ng_news.png</thumbnail>
+</item>
+
+<item>
+<title>Arise News</title>
+<link>http://decisive_st-lh.akamaihd.net/i/decisive_1@143828/index_500_av-p.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/arise_news.png</thumbnail>
+</item>
+
+<item>
+<title>MFM TV</title>
+<link>http://wpc.AEA6.edgecastcdn.net/hls-live/20AEA6/mfm/mfm/mfm,250,500,.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mfm_tv_ng.png</thumbnail>
+</item>
+
+<item>
+<title>MFM LIVE</title>
+<link>http://wpc.AEA6.edgecastcdn.net/hls-live/20AEA6/mfmlive/mfmlive/mfmlive,150,250,500,.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mfm_tv_ng.png</thumbnail>
+</item>
+
+
 
 <channel>		
 		    <name>GENERALISTE+CINEMA</name>
