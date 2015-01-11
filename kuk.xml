@@ -282,7 +282,7 @@
 </item>
 
 <item> 
-<title>Star MoviesHD</title> 
+<title>MoviesHD</title> 
 <link>$doregex[url]</link>
 <regex> 
 <name>url</name> 
