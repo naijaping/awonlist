@@ -155,14 +155,15 @@
 </item>
 
 <item>
-<title>ilive new</title>
-<link>$doregex[getIlive]</link>
+<title> Youtube regex</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]&amp;list=PLl6IvhbhEqwwOBvbpTSNrwwyPKbizuvg-</link>
 <regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/38197/')</expres>
-<page></page>
+<name>id</name>
+<expres>watch\?v=([^"]+)<expres>
+<page>https://www.youtube.com/channel/UCEXGDNclvmg6RW0vipJYsTQ</page>
 </regex>
-</item>	
+<thumbnail></thumbnail>
+</item>
 	
 	
 	
