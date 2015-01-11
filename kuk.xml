@@ -281,15 +281,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/premier_league_tv.png</thumbnail>
 </item>
 
-<item>
-<title>test0</title>
-<link>$doregex[getIlive]</link>
-<regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/view/30007/watch-live-lsd-channel-for-free',False,False)</expres>
-<page></page>
-</regex>
-</item>
+
 
 </channel>
 </channels>
