@@ -110,7 +110,8 @@
 
 <item>
 <title>LTV</title>
-<link>rtmp://skylite.pointcdn.net playpath=skylite/ams/ltv swfUrl=http://tv.filmover.com/glow/player.swf pageUrl=http://www.nigeriatv.net/search/label/LTV%20Nigeria§1</link>
+<link>rtmp://skylite.pointcdn.net playpath=skylite/ams/ltv swfUrl=http://tv.filmover.com/glow/player.swf 
+pageUrl=http://www.nigeriatv.net/search/label/LTV%20Nigeria§1</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ll/lagos_television.png</thumbnail>
 </item>
 
