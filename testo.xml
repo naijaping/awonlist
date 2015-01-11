@@ -148,7 +148,7 @@
 </item>
 
 <item>
-<title>BEIN </title>
+<title>TV </title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
