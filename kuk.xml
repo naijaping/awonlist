@@ -281,16 +281,8 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/premier_league_tv.png</thumbnail>
 </item>
 
-<item> 
-<title>MoviesHD</title> 
-<link>$doregex[url]</link>
-<regex> 
-<name>url</name> 
-<expres>file: "([^"]*)</expres> 
-<page>http://tv4embed.com/uk/BBC-One-stream1.html</page> 
-</regex> 
-<thumbnail></thumbnail> 
-</item>
+
+
 
 </channel>
 </channels>
