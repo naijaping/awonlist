@@ -167,6 +167,7 @@
 <expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/38804',False,False)</expres>
 <page></page>
 </regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/disney_channel_de.png</thumbnail>
 </item>
 
 <item>
@@ -177,6 +178,7 @@
 <expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/65510',False,False)</expres>
 <page></page>
 </regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/boomerang_global.png</thumbnail>
 </item>
 		
 	
