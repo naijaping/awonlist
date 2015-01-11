@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channels>
+    <channels_info> <!-- this is opitonal -->
+      <title>MYFR.TV</title> <!-- if channels_info, a title is required, other elements are optional -->
+      <genre>News</genre>
+      <description>this is the descripton string</description>
+      <thumbnail>http://passion-xbmc.org/index.php?action=dlattach;attach=11707;type=avatar</thumbnail>
+      <fanart>http://residence-evolution-je.com/images/475mosaique_csat_horizons.gif</fanart>
+      <date>04.01.2013</date>
+      <credits>divingmule, Johnny Cache</credits>
+    </channels_info>
+	
+	<channel>
+    <name>AFRIQUE TV</name>
+    <thumbnail>http://www.lebouquetafricain.com/images/logo.png</thumbnail>
+    <fanart>http://community-links.googlecode.com/svn/icons/news-fanart.jpg</fanart>
+        <items>
+		
+		     <item>
+            <title>AFRICABOX TV</title>
+            <link>http://chkg.tdf-cdn.com/8038/index.m3u8</link>
+            <thumbnail>http://logostv.netii.net/AfricaBox%20TV.png</thumbnail>
+            </item>
+
+            <item>
+            <title>AFRICABOX SERIES</title>
+            <link>http://chkg.tdf-cdn.com/8037/index.m3u8</link>
+            <thumbnail>http://logostv.netii.net/AfricaBox%20Series.png</thumbnail>
+            </item>
+			
+			<item>
+            <title>MUSIC AFRICA</title>
+            <link>rtmp://vstreet.fms.visionip.tv/live//vstreet-live-tv-musicafrica-live-16x9-SDh</link>
+            <thumbnail>http://i.imgur.com/BvoEp64.png</thumbnail>
+            </item>
+			
+			<item>
+            <title>AFRIQUE MEDIA</title>
+            <link>rtmp://afm.streamakaci.com/afm/afm.stream live=1 timeout=60</link>
+            <thumbnail>http://www.streamakaci.com/blog/wp-content/uploads/2013/02/afriquemediatv.jpg</thumbnail>
+            </item>
+
+            <item>
+            <title>TV FRANCOPHONIE</title>
+            <link>plugin://plugin.video.f4mTester/?url=http://5.39.42.241/live/Stream1/manifest.f4m</link>  
+            <thumbnail>http://www.centraltv.fr/wp-content/uploads/tv-francophonie.jpg</thumbnail>
+            </item>
+		
+		    <item>
+	        <title>Canal Algérie (Algerie)</title>
+            <link>$doregex[geturl]</link>
+            <thumbnail>http://www.mondial-2014-football.com/wp-content/uploads/2014/03/logo-canal-alg%C3%A9rie.png</thumbnail>
+            <x-forward>91.121.98.216</x-forward>
+            <regex>
+            <name>geturl</name>
+            <expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
+            <page></page>
+            </regex>    
+            <regex>
+            <name>getplayerid</name>
+            <expres>data-alias="canal-algerie" data-playerid="(.*?)"</expres>
+            <page>http://playtv.fr/television/</page>
+            </regex>    
+            </item>
+
+<channel>		
+		    <name>GENERALISTE+CINEMA</name>
+            <thumbnail>https://blog.numericable.fr/wp-content/uploads/repaly_nc-1024x576.png</thumbnail>
+            <fanart>http://community-links.googlecode.com/svn/icons/news-fanart.jpg</fanart>
+			
+			 <subchannel>
+		         <name>AB1</name>
+                 <thumbnail>http://logostv.netii.net/AB1.png</thumbnail>
+                 <fanart>http://nsa33.casimages.com/img/2014/04/01/140401060259317697.png</fanart>
+                 <subitems>
+			          <subitem>
+				      <title>flux num</title>
+                      <link>http://ab1-hls.live.numericable.tv/live/hls/ab1/ipad.m3u8</link> 
+                      <thumbnail></thumbnail>
+				      </subitem>
+					  
+					  <subitem>
+				 <title>flux bis     [COLOR blue]430p[/COLOR]</title>
+                 <link>plugin://plugin.video.f4mTester/?url=http://dsam981q7uh6q.cloudfront.net/liveabs102/ab1.smil/playlist_b1296000manifest.f4m</link> 
+                 <thumbnail></thumbnail>
+				 </subitem>					  					  
+
+			
+			<subchannel>
+			<name>Action</name>
+            <thumbnail>http://logostv.netii.net/ACTION.png</thumbnail>
+            <fanart>http://www.cinepolar.com/upload/prehome/festiv-deauville-polar.jpg</fanart>
+            <subitems>
+			     <subitem>
+				 <title>flux bis     [COLOR blue]430p[/COLOR]</title>
+                 <link>http://dsam981q7uh6q.cloudfront.net/liveabs101/action.smil/chunklist_b1296000_slFRA.m3u8</link> 
+                 <thumbnail></thumbnail>
+				 </subitem>
+				 
+				 <subitem>
+				 <title>flux bis     [COLOR blue]240p[/COLOR]</title>
+                 <link>http://dsam981q7uh6q.cloudfront.net/liveabs101/action.smil/chunklist_b446000_slFRA.m3u8</link> 
+                 <thumbnail></thumbnail>
+				 </subitem>
+			</subchannel>
