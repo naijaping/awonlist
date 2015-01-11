@@ -154,7 +154,15 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mtv_us.png</thumbnail>
 </item>
 
-
+<item>
+<title>Disney</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/38804',False,False)</expres>
+<page></page>
+</regex>
+</item>
 	
 	
 	
