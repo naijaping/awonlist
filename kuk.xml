@@ -144,7 +144,7 @@
 </item>
 
 <item>
-<title>Mtv </title>
+<title>MTV</title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
