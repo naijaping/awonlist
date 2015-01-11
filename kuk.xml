@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <channels>
-    <channels_info> <!-- this is opitonal -->
-      <title>MYFR.TV</title> <!-- if channels_info, a title is required, other elements are optional -->
-      <genre>News</genre>
-      <description>this is the descripton string</description>
-      <thumbnail>http://passion-xbmc.org/index.php?action=dlattach;attach=11707;type=avatar</thumbnail>
-      <fanart>http://residence-evolution-je.com/images/475mosaique_csat_horizons.gif</fanart>
-      <date>04.01.2013</date>
-      <credits>divingmule, Johnny Cache</credits>
-    </channels_info>
-	
-	<channel>
-    <name>AFRIQUE TV</name>
+<channel>
+    <name>NAIJA TV</name>
     <thumbnail>http://www.lebouquetafricain.com/images/logo.png</thumbnail>
     <fanart>http://community-links.googlecode.com/svn/icons/news-fanart.jpg</fanart>
         <items>
