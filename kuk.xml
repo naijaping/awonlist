@@ -2,7 +2,7 @@
 
 <channels>
 <channel>
-    <name>NAIJA TV</name>
+    <name>Naija TV Channels</name>
     <thumbnail>http://www.lyngsat-logo.com/logo/flag/az/ng.png</thumbnail>
     <fanart>http://www.lyngsat-logo.com/logo/flag/az/ng.png</fanart>
     <items>
@@ -102,12 +102,10 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mfm_tv_ng.png</thumbnail>
 </item>
 
-
-
 <channel>		
-		    <name>GENERALISTE+CINEMA</name>
-            <thumbnail>https://blog.numericable.fr/wp-content/uploads/repaly_nc-1024x576.png</thumbnail>
-            <fanart>http://community-links.googlecode.com/svn/icons/news-fanart.jpg</fanart>
+<name>UK TV Channels</name>
+            <thumbnail>http://www.lyngsat-logo.com/logo/flag/az/uk.png</thumbnail>
+            <fanart>http://www.lyngsat-logo.com/logo/flag/az/uk.png</fanart>
 			
 			 <subchannel>
 		         <name>AB1</name>
