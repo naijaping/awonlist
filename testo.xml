@@ -142,7 +142,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/38197/')</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/38197/',False,False)</expres>
 <page></page>
 </regex>
 </item>
