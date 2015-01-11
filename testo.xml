@@ -131,5 +131,10 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/cnn_international_europe.png</thumbnail>
 </item>
 
+<item>
+<title>Prestige TV</title>
+<link>rtmp://edge.streamserver01.com/edge3/PrestigeTv playpath=PrestigeTv swfUrl=http://www.centraltv.fr/medias/files/centraltv.fr.swf pageUrl=http://www.centraltv.fr/ghana-television/prestige-tv</link>
+<thumbnail></thumbnail>
+</item>
 
 
