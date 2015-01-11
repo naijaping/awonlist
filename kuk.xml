@@ -151,6 +151,7 @@
 <expres>file: "(.*?)"<expres>
 <page>http://herer.tv/internacional/mtv/</page>
 </regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mtv_us.png</thumbnail>
 </item>
 </channel>
 </channels>
