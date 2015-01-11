@@ -281,6 +281,11 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/premier_league_tv.png</thumbnail>
 </item>
 
+<item>
+<title>Prestige TV</title>
+<link>rtmp://edge.streamserver01.com/edge3/PrestigeTv playpath=PrestigeTv swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://www.nigeriatv.net/search/label/PrestigeTV</link>
+<thumbnail></thumbnail>
+</item>
 
 </channel>
 </channels>
