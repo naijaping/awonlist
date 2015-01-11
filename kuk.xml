@@ -179,6 +179,13 @@
 <link>rtmp://204.107.26.252:8086/live/905.high.stream</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/press_tv.png</thumbnail>
 </item>
+
+<item>
+<title>France 24</title>
+<link>http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/france24_en/ls_satlink/b_,264,528,828,.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/france24_english.png</thumbnail>
+</item>
+
  </channel>  
    <channel>
     <name>Aramide's Cartoon</name>
