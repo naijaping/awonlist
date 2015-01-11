@@ -100,6 +100,14 @@
 <link>http://wpc.AEA6.edgecastcdn.net/hls-live/20AEA6/mfmlive/mfmlive/mfmlive,150,250,500,.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mfm_tv_ng.png</thumbnail>
 </item>
+
+<item>
+<title>eNCA (South Africa)</title>
+<link>http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/enca/ls_satlink/b_,264,528,828,.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/e_tv_news_channel.png</thumbnail>
+</item>
+	
+	
 </channel>
 
 <channel>		
