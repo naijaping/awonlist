@@ -1,8 +1,4 @@
 <?xml version="1.0" ?> 
-<channel>
-<name>ARamide TV</name>
-<thumbnail>http://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/225px-Flag_of_India.svg.png</thumbnail>
-<items>
 
 <item>
 <title>Nollywood Tv</title>
@@ -134,17 +130,4 @@
 <link>http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_,264,528,828,.m3u8</link>
 </item>
 
-</items>
-</channel>
 
-
-<items>
-<channel>
-<title>Test</title>
-<item>
-<title>Zee Tv</title>
-<link>http://cdn.nwk3.yupptv.tv/nwk3/smil:zeetv.smil/playlist.m3u8</link>
-<link>http://xbmc:xbmc@iptvdesi2.com/achannel6</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/zz/zee_tv.jpg</thumbnail>
-</item></items>
-</channel>
