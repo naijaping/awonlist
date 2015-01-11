@@ -225,20 +225,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/premier_league_tv.png</thumbnail>
 </item>
 
-<item>
-<title>Nick **http://usachannels.tv/nick_live.php**</title>
-<link>$doregex[get-rtmp] app=live playpath=$doregex[get-path] token=#yw%tt#w@kku swfUrl=http://prvservers.com/j/jwplayer.flash.swf pageUrl=http://prvservers.com/embed2.php live=1</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file:'(.*)'<expres>
-<page>http://prvservers.com/embed2.php?u=nick88&vw=620&vh=470&domain=usachannels.tv</page>
-</regex>
-<regex>
-<name>get-path</name>
-<expres>live\/(.*?)'</expres>
-<page>http://prvservers.com/embed2.php?u=nick88&vw=620&vh=470&domain=usachannels.tv</page>
-</regex>
-</item>	
+
 </channel>
 </channels>
 			
