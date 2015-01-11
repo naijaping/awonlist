@@ -147,14 +147,5 @@
 </regex>
 </item>
 
-<item>
-<title>TV0 </title>
-<link>$doregex[get-url]</link>
-<regex>
-<name>get-url</name>
-<expres>file: "(.*?)"<expres>
-<page>http://herer.tv/deportes/bein-sports/</page>
-</regex>
-</item>
 
 
