@@ -138,11 +138,11 @@
 </item>
 
 <item>
-<title>ilive</title>
+<title>ilive new</title>
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/65510/')</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/38197/')</expres>
 <page></page>
 </regex>
 </item>
