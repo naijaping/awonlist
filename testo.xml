@@ -134,5 +134,12 @@
 <link>http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_,264,528,828,.m3u8</link>
 </item>
 
+<item>
+<title>Zee Tv</title>
+<link>http://cdn.nwk3.yupptv.tv/nwk3/smil:zeetv.smil/playlist.m3u8</link>
+<link>http://xbmc:xbmc@iptvdesi2.com/achannel6</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/zz/zee_tv.jpg</thumbnail>
+</item>
+
 </items>
 </channel>
