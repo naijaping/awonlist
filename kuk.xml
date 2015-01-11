@@ -282,11 +282,11 @@
 </item>
 
 <item>
-<title>iguide ne</title>
+<title>iguide n</title>
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/view/30026/planetadeportesweb',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/view/30026/planetadeportesweb')</expres>
 <page></page>
 </regex>
 </item>
