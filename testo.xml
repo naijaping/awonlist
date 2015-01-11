@@ -153,7 +153,7 @@
 <regex>
 <name>get-url</name>
 <expres>file: "(.*?)"<expres>
-<page>http://herer.tv/deportes/bein-sports/</page>
+<page>http://tv4embed.com/uk/BBC-One-stream1.html</page>
 </regex>
 </item>
 
