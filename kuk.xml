@@ -105,8 +105,8 @@
 
 <channel>		
 <name>UK TV Channels</name>
-            <thumbnail>http://www.lyngsat-logo.com/logo/flag/az/uk.png</thumbnail>
-            <fanart>http://www.lyngsat-logo.com/logo/flag/az/uk.png</fanart>
+<thumbnail>http://www.lyngsat-logo.com/logo/flag/az/uk.png</thumbnail>
+<fanart>http://www.lyngsat-logo.com/logo/flag/az/uk.png</fanart>
 			
 <subchannel>
 <item>
@@ -133,21 +133,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_two_uk.png</thumbnail>
 </item>
 </subchannel>
+</channel>
+</channels>
 			
-			<subchannel>
-			<name>Action</name>
-            <thumbnail>http://logostv.netii.net/ACTION.png</thumbnail>
-            <fanart>http://www.cinepolar.com/upload/prehome/festiv-deauville-polar.jpg</fanart>
-            <subitems>
-			     <subitem>
-				 <title>flux bis     [COLOR blue]430p[/COLOR]</title>
-                 <link>http://dsam981q7uh6q.cloudfront.net/liveabs101/action.smil/chunklist_b1296000_slFRA.m3u8</link> 
-                 <thumbnail></thumbnail>
-				 </subitem>
-				 
-				 <subitem>
-				 <title>flux bis     [COLOR blue]240p[/COLOR]</title>
-                 <link>http://dsam981q7uh6q.cloudfront.net/liveabs101/action.smil/chunklist_b446000_slFRA.m3u8</link> 
-                 <thumbnail></thumbnail>
-				 </subitem>
-			</subchannel>
+			
