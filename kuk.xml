@@ -254,17 +254,6 @@
     <fanart>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports1.png</fanart>
 
 <item>
-<title>Sky Sport 1</title>
-<link>$doregex[getIlive]</link>
-<regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/68713')</expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports1.png</thumbnail>
-</item>
-
-<item>
 <title>BT Sport 1 HD</title>
 <link>$doregex[getIlive]</link>
 <regex>
