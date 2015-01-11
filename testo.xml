@@ -131,5 +131,11 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/cnn_international_europe.png</thumbnail>
 </item>
 
+<item>
+<title>Sky News</title>
+<link>http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/skynews/ls_satlink/b_828.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news_international.png</thumbnail>
+</item>
+
 
 
