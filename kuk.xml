@@ -155,11 +155,14 @@
 </item>
 
 <item>
-<title>shani test</title>
-			<link>http://Ignoreme</link>
-			<externallink>http://pastebin.com/raw.php?i=F0RFa97H&m3u</externallink>
+<title>iguide new</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/view/1/watch-live-HBO-channel-for-free',False,False)</expres>
+<page></page>
+</regex>
 </item>
-
 	
 	
 	
