@@ -133,7 +133,7 @@
 
 <item>
 <title>Prestige TV</title>
-<link>rtmp://edge.streamserver01.com/edge3/PrestigeTv&file=PrestigeTv swfUrl=http://www.centraltv.fr/medias/files/centraltv.fr.swf pageUrl=http://www.centraltv.fr/ghana-television/prestige-tv</link>
+<link>rtmp://89.248.162.148/rtp-live/sony.stream </link>
 <thumbnail></thumbnail>
 </item>
 
