@@ -107,7 +107,6 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/flag/az/uk.png</thumbnail>
 <fanart>http://www.lyngsat-logo.com/logo/flag/az/uk.png</fanart>
 			
-<subchannel>
 <item>
 <title>BBC ONE</title>
 <link>http://nimlive1.giniko.com/bbcone/bbcone.stream/playlist.m3u8$doregex[get-auth]</link>
@@ -131,7 +130,6 @@
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_two_uk.png</thumbnail>
 </item>
-</subchannel>
 </channel>
 </channels>
 			
