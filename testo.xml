@@ -137,4 +137,13 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news_international.png</thumbnail>
 </item>
 
+<item>
+<title>Mtv page url: herer.tv</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"<expres>
+<page>http://herer.tv/internacional/mtv/</page>
+</regex>
+</item>
 
