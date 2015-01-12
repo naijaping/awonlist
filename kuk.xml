@@ -61,7 +61,7 @@
 
 <item>
 <title>Ghana TV</title>
-<link>rtmp://wms.myliveafricatv.com:1935/rtmp_mlalive/330/ playpath=mainstream swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://www.africawebtv.com/2013/11/gtv-ghana-news-live.html</link>
+<link>rtmp://skylite.pointcdn.net playpath=skylite/ams/ghanatv swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/ghana_tv.png</thumbnail>
 </item>
 
