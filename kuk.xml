@@ -351,8 +351,8 @@
 </item>
 
 <item>
-<title>Prestige TV</title>
-<link></link>
+<title>BET</title>
+<link>rtmp://78.129.146.62:1935/edge3 playpath=BETUK swfUrl=http://awooze.com/player.swf pageUrl=http://awooze.com</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nat_geo_wild_us.png</thumbnail>
 </item>
 
