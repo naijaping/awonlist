@@ -352,7 +352,7 @@
 
 <item>
 <title>Prestige TV</title>
-<link>rtmp://78.129.189.30/edge3/PrestigeTv playpath=PrestigeTv swfUrl=http://www.awooze.com/player.swf</link>
+<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live playpath=saljazeera_eng_high swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com</link>
 <thumbnail></thumbnail>
 </item>
 
