@@ -265,7 +265,13 @@
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/cartoon_network_global.png</thumbnail>
 </item>
-		
+
+<item>
+<title>Nat Geo Wild</title>
+<link>rtmp://109.200.202.124/live playpath=animal swfUrl=http://www.tv-msn.com/player/player.swf pageUrl=http://tv-msn.com live=1 timeout=15</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nat_geo_wild_us.png</thumbnail>
+</item>
+
 </channel>  
    <channel>
     <name>Sport Channels</name>
