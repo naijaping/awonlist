@@ -167,6 +167,25 @@
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mtv_us.png</thumbnail>
 </item>
+
+<item>
+<title>MTV Hits</title>
+<link>http://hlsstr02.svc.iptv.rt.ru/hls/CH_MTVHITS/variant.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mtv_hits_uk.png</thumbnail>
+</item>
+
+<item>
+<title>Kiss TV</title>
+<link>http://csm-e.cds1.yospace.com/csm/live/86561716.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/kk/kiss_uk.png</thumbnail>
+</item>
+
+<item>
+<title>Smash Hits</title>
+<link>http://csm-e.cds1.yospace.com/csm/live/86561609.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/smash_hits_uk.png</thumbnail>
+</item>
+
 <item>
 <title>Al Jazeera</title>
 <link>http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/aljazeera_en/ls_satlink/b_,264,528,828,.m3u8</link>
