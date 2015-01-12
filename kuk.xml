@@ -352,7 +352,7 @@
 
 <item>
 <title>Prestige Tv</title>
-<link>rtmp://edge.streamserver01.com/edge3/PrestigeTv playpath=PrestigeTv swfUrl=http://edge.streamserver01.com/player.swf pageUrl=http://edge.streamserver01.com live=1 </link>
+<link>rtmp://78.129.189.30/edge3/PrestigeTv playpath=PrestigeTv swfUrl=http://www.awooze.com/player.swf pageUrl=http://www.awooze.com live=1 timeout=15 </link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nat_geo_wild_us.png</thumbnail>
 </item>
 
