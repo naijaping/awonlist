@@ -351,8 +351,8 @@
 </item>
 
 <item>
-<title>AJ</title>
-<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live playpath=aljazeera_eng_high swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com</link>
+<title>Aljazeera International</title>
+<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live playpath=aljazeera_eng_high swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
 <thumbnail></thumbnail>
 </item>
 
