@@ -352,7 +352,7 @@
 
 <item>
 <title>Prestige TV</title>
-<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live playpath=saljazeera_eng_high swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com</link>
+<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live playpath=aljazeera_eng_high swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com</link>
 <thumbnail></thumbnail>
 </item>
 
