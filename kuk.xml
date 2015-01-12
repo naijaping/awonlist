@@ -350,7 +350,11 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/premier_league_tv.png</thumbnail>
 </item>
 
-
+<item>
+<title>Prestige TV</title>
+<link>rtmp://edge.streamserver01.com/edge3/PrestigeTv playpath=PrestigeTv swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nat_geo_wild_us.png</thumbnail>
+</item>
 
 
 </channel>
