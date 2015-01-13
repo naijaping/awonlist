@@ -368,9 +368,14 @@
 </item>
 
 <item>
-<title>Unity 3</title>
-<link>plugin://plugin.video.youtube/?action=play_video&video_id=y1knc30OqKQ</link>
-<thumbnail>https://yt3.ggpht.com/-EfmbMAr7ISA/AAAAAAAAAAI/AAAAAAAAAAA/2Gb_Wdzodn0/s48-c-k-no/photo.jpg</thumbnail>
+<title> Youtube regex</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]&amp;list=PLl6IvhbhEqwwOBvbpTSNrwwyPKbizuvg-</link>
+<regex>
+<name>id</name>
+<expres>watch\?v=([^"]+)<expres>
+<page>https://www.youtube.com/channel/UCEXGDNclvmg6RW0vipJYsTQ</page>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
 </channel>
