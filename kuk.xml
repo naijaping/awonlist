@@ -368,8 +368,8 @@
 </item>
 
 <item>
-<title> Youtube regex</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]&amp;list=PLl6IvhbhEqwwOBvbpTSNrwwyPKbizuvg-</link>
+<title> Youtube </title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]&amp;list=PLl6IvhbhEqwwOBvbpTSNrwwyPKbizuvg</link>
 <regex>
 <name>id</name>
 <expres>watch\?v=([^"]+)<expres>
