@@ -367,7 +367,17 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>NTA</title>
+<link>http://nimlive1.giniko.com/ntatv/ntatv.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.giniko.com/watch.php?id=10</page>
+<referer>http://www.giniko.com/country.php?id=80</referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_one.png</thumbnail>
+</item>
 
 
 </channel>
