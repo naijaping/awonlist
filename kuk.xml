@@ -328,6 +328,17 @@
 </item>
 
 <item>
+<title>BT Sport 2 HD</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/68721',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bt_sport_2.png</thumbnail>
+</item>
+
+<item>
 <title>Sky Sport 1</title>
 <link>$doregex[getIlive]</link>
 <regex>
@@ -386,17 +397,6 @@
 <title>All football HD</title>
 <link>http://193.232.151.135/hls-live/livepkgr/_1040_/1040/1040-70.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/premier_league_tv.png</thumbnail>
-</item>
-
-<item>
-<title>ESPN</title>
-<link>$doregex[getIlive]</link>
-<regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/69029',False,False)</expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/espn_uk.png</thumbnail>
 </item>
 
 <item>
