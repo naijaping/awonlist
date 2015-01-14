@@ -417,6 +417,17 @@
 </item>
 
 <item>
+<title>LifeTime</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/57846',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
 <title>Test</title>
 <link>rtmp://rtmp.biggestplayer.me:1935/redirect playpath=185074 swfUrl=http://bernardotv.club/atdedead.swf live=true pageUrl=http://biggestplayer.me token=#atd%#$ZH</link>
 </item>
