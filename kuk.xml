@@ -389,6 +389,17 @@
 </item>
 
 <item>
+<title>ESPN</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/69029',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/espn_uk.png</thumbnail>
+</item>
+
+<item>
 <title>Aljazeera International</title>
 <link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live playpath=aljazeera_eng_high swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
 <thumbnail></thumbnail>
