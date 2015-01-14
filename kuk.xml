@@ -394,7 +394,10 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Test</title>
+<link>rtmp://rtmp.biggestplayer.me:1935/redirect playpath=185074 swfUrl=http://bernardotv.club/atdedead.swf live=true pageUrl=http://biggestplayer.me token=#atd%#$ZH</link>
+</item>
 
 
 </channel>
