@@ -29,12 +29,12 @@
 <regex>
 <name>rtmp</name>
 <expres>base="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ohusa2&amp;ref=http://www.ohtv.co.uk/live/indexusa.htm&amp;type=live&amp;service=wowza&amp;output=smil</page>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=webukoh2we612e6&amp;ref=http://www.ohtv.co.uk/live/indexusa.htm&amp;type=live&amp;service=wowza&amp;output=smil</page>
 </regex>
 <regex>
 <name>path</name>
 <expres>src="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ohusa2&amp;ref=http://www.ohtv.co.uk/live/indexusa.htm&amp;type=live&amp;service=wowza&amp;output=smil</page>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=webukoh2we612e6&amp;ref=http://www.ohtv.co.uk/live/indexusa.htm&amp;type=live&amp;service=wowza&amp;output=smil</page>
 </regex>
 <thumbnail>http://www.ohtv.co.uk/live/fol_files/logo.jpg</thumbnail>
 </item>
