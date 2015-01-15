@@ -437,7 +437,7 @@
 </item>
 
 
-<item>
+                        <item>
 			<title>hd</title>
 			<link>$doregex[get-link] timeout=20</link>
 				<regex>
@@ -445,6 +445,19 @@
 				<expres>stretching: "fill",
            file: '(.*?)'</expres>
 				<page>http://www.sportnews24hour.com/p/bein-sports-4.html</page>
+				</regex>  
+		       	</item>
+		       	
+		       	
+		       	
+		<item>
+			<title>Bein Sport 5</title>
+			<link>$doregex[get-link] timeout=20</link>
+				<regex>
+				<name>get-link</name>
+				<expres>stretching: "fill",
+           file: '(.*?)'</expres>
+				<page>http://www.sportnews24hour.com/p/bein-sports-5.html</page>
 				</regex>  
 			</item>
 			
