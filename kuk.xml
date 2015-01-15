@@ -427,15 +427,15 @@
 </item>
 
 <item>
-			<title>Show</title>
-			<link>$doregex[get-link] timeout=20</link>
-				<regex>
-				<name>get-link</name>
-				<expres>stretching: "fill",
-           file: '(.*?)'</expres>
-				<page>http://showsport-tv.com/update/bein11.html</page>
-				</regex>  
-			</item>
+<title>ilive new</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/view/29983/')</expres>
+<page></page>
+</regex>
+</item>
+
 </channel>
 </channels>
 			
