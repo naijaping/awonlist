@@ -427,11 +427,11 @@
 </item>
 
 <item>
-<title>iguide new</title>
+<title>iguide </title>
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/view/29983/watch-live-bn11-channel-for-free',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/view/29983/watch-live-bn11-channel-for-free')</expres>
 <page></page>
 </regex>
 </item>
