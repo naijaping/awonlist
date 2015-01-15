@@ -426,17 +426,16 @@
 <thumbnail></thumbnail>
 </item>
 
-<cname>MBC PRO SP3</cname>
-		<item>
-			<title>m3u8</title>
 
-				<link>$doregex[get-link]</link>
+		              <item>
+		              <title>BOO</title>
+                              <link>$doregex[get-link]</link>
 				<regex>
 				<name>get-link</name>
 				<expres>"path": "(.*?)"</expres>
 				<page>http://www.sportnews24hour.com/p/mbc-pro-sports3.html</page>
 				</regex> 
-		</item>
+		                 </item>
 
 
 </channel>
