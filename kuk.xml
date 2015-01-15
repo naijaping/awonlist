@@ -427,22 +427,7 @@
 </item>
 
 
-<item>
-			<title>hdo</title>
-			<link>$doregex[get-link]</link>
-				<regex>
-				<name>get-link</name>
-				<expres>stretching: "fill",
-           file: '(.*?)'</expres>
-				<page>http://www.sportnews24hour.com/p/bein-sports-11.html</page>
-				</regex>  
-			</item>
-			
-	<item>
-<title>ESPN</title>
-
-<link>rtmp://178.18.31.53:443/liverepeater playpath=185140 swfUrl=http://bernardotv.club/atdedead.swf live=true pageUrl=http://biggestplayer.me token=#atd%#$ZH</link>
-</item> 		
+	
 			
 			
 </channel>
