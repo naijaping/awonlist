@@ -416,6 +416,21 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Hip</title>
+<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://player.streamzilla.xlcdn.com/sz/Un1ty/jw/jwplayer.flash.swf pageUrl=http://player.streamzilla.xlcdn.com live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>base="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&file=webwwwhiptv51845&type=live&service=wowza&output=player</page>
+</regex>
+<regex>
+<name>path</name>
+<expres>src="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&file=webwwwhiptv51845&type=live&service=wowza&output=player</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 <item>
 <title>Test</title>
