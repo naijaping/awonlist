@@ -426,17 +426,28 @@
 <thumbnail></thumbnail>
 </item>
 
+                         <item>
+			<title>hdgoal  720p</title>
+			<link>$doregex[getQualityLink]</link>
 
-		              <item>
-		              <title>BOO</title>
-                              <link>$doregex[get-link]</link>
 				<regex>
-				<name>get-link</name>
-				<expres>"path": "(.*?)"</expres>
-				<page>http://www.sportnews24hour.com/p/mbc-pro-sports3.html</page>
-				</regex> 
-		                 </item>
-
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=1280x720\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=y1knc30OqKQ</page>
+				</regex>
+				
+				
+		</item>
 
 </channel>
 </channels>
