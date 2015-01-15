@@ -422,12 +422,12 @@
 <regex>
 <name>rtmp</name>
 <expres>base="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=webwwwhiptv51845&amp;ref=http://tv.ramalin.com/nig/hiptv.html&amp;type=live&amp;service=wowza&amp;output=sz</page>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=webwwwhiptv51845&amp;ref=http://tv.ramalin.com/nig/hiptv.html&amp;type=live&amp;service=wowza&amp;output=player','sz</page>
 </regex>
 <regex>
 <name>path</name>
 <expres>src="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=webwwwhiptv51845&amp;ref=http://tv.ramalin.com/nig/hiptv.html&amp;type=live&amp;service=wowza&amp;output=sz</page>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=webwwwhiptv51845&amp;ref=http://tv.ramalin.com/nig/hiptv.html&amp;type=live&amp;service=wowza&amp;output=player','sz</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
