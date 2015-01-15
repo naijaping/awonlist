@@ -433,7 +433,7 @@
 				<regex>
 				<name>get-link</name>
 				<expres>"path": "(.*?)"</expres>
-				<page>http://www.sportnews24hour.com/p/mbc-pro-sports3.html</page>
+				<page>http://www.sportnews24hour.com/p/mbc-pro-sports2.html</page>
 				</regex> 
 		</item>
                          
