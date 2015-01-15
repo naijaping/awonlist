@@ -427,13 +427,13 @@
 </item>
 
 <item>
-			<title>hduuu</title>
+			<title>Show</title>
 			<link>$doregex[get-link] timeout=20</link>
 				<regex>
 				<name>get-link</name>
 				<expres>stretching: "fill",
            file: '(.*?)'</expres>
-				<page>http://www.sportnews24hour.com/p/bein-sports-14.html</page>
+				<page>http://showsport-tv.com/update/bein11.html</page>
 				</regex>  
 			</item>
 </channel>
