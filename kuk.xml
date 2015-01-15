@@ -427,13 +427,13 @@
 </item>
 
 <item>
-			<title>m3u8</title>
+			<title>MBC1</title>
 
 				<link>$doregex[get-link]</link>
 				<regex>
 				<name>get-link</name>
 				<expres>"path": "(.*?)"</expres>
-				<page>http://www.sportnews24hour.com/p/mbc-pro-sports2.html</page>
+				<page>http://www.sportnews24hour.com/p/mbc-pro-sports1.html</page>
 				</regex> 
 		</item>
                          
