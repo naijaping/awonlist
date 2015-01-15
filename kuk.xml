@@ -427,15 +427,14 @@
 </item>
 
 <item>
-			<title>Bein HD</title>
-
-				<link>$doregex[get-link]</link>
+			<title>Bein HD USA</title>
+			<link>$doregex[get-link] timeout=20</link>
 				<regex>
 				<name>get-link</name>
-				<expres>"path": "(.*?)"</expres>
+				<expres>stretching: "fill",file: '(.*?)'</expres>
 				<page>http://www.sportnews24hour.com/p/bein-us.html</page>
-				</regex> 
-		</item>
+				</regex>  
+			</item>
                          
 </channel>
 </channels>
