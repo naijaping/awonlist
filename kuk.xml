@@ -427,7 +427,7 @@
 </item>
 
 <item>
-			<title>hd 12</title>
+			<title> Be 12</title>
 			<link>$doregex[get-link] timeout=20</link>
 				<regex>
 				<name>get-link</name>
