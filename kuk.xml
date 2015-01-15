@@ -444,7 +444,6 @@
 <expres>stretching: "fill", file: '(.*?)'</expres>
 <page>http://www.sportnews24hour.com/p/bein-sports-4.html</page>
 </regex>  
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>
 		       	
 		       	
