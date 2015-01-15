@@ -438,20 +438,15 @@
 
 
 <item>
-<title>Silver</title>
-<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://iafrica.tv/jwplayer6/jwplayer.flash.swf pageUrl=http://iafrica.tv  live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>base="(.*)"</expres>
-<page>rtmp://fml.12BC9.kappacdn.net/2012BC9/default/silverbird?c1dbb06e51ed818bd584ad5ff4a1bebfdb37724fd0200b1d31b7e2304557c97b7acd</page>
-</regex>
-<regex>
-<name>path</name>
-<expres>src="(.*)"</expres>
-<page>rtmp://fml.12BC9.kappacdn.net/2012BC9/default/silverbird?c1dbb06e51ed818bd584ad5ff4a1bebfdb37724fd0200b1d31b7e2304557c97b7acd</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hip_tv_ng.png</thumbnail>
-</item>	
+			<title>hd</title>
+			<link>$doregex[get-link] timeout=20</link>
+				<regex>
+				<name>get-link</name>
+				<expres>stretching: "fill",
+           file: '(.*?)'</expres>
+				<page>http://www.sportnews24hour.com/p/bein-sports-4.html</page>
+				</regex>  
+			</item>
 			
 			
 </channel>
