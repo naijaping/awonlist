@@ -463,13 +463,13 @@
 			
 			
 	        	<item>
-			<title>Bein Sport 11</title>
+			<title>Bein Sport </title>
 			<link>$doregex[get-link] timeout=20</link>
 				<regex>
 				<name>get-link</name>
 				<expres>stretching: "fill",
            file: '(.*?)'</expres>
-				<page>http://www.sportnews24hour.com/p/bein-sports-11.html</page>
+				<page>http://tv4embed.com/uk/btsport1-stream2.php</page>
 				</regex>  
 			</item>
 			
