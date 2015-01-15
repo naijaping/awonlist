@@ -426,19 +426,10 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>iguide </title>
-<link>$doregex[getIlive]</link>
-<regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/view/29983/watch-live-bn11-channel-for-free')</expres>
-<page></page>
-</regex>
-</item>
 
 <item>
-			<title>hd</title>
-			<link>$doregex[get-link] timeout=20</link>
+			<title>hdo</title>
+			<link>$doregex[get-link]</link>
 				<regex>
 				<name>get-link</name>
 				<expres>stretching: "fill",
