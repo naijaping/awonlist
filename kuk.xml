@@ -427,7 +427,7 @@
 </item>
 
 <item>
-			<title>hd 11</title>
+			<title>hd1</title>
 			<link>$doregex[get-link] timeout=20</link>
 				<regex>
 				<name>get-link</name>
@@ -435,7 +435,7 @@
            file: '(.*?)'</expres>
 				<page>http://www.sportnews24hour.com/p/bein-sports-11.html</page>
 				</regex>  
-			</item>
+			</item>	</item>
                          
 </channel>
 </channels>
