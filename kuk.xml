@@ -427,8 +427,9 @@
 </item>
 
 <item>
-<title>Test</title>
-<link>rtmp://rtmp.biggestplayer.me:1935/redirect playpath=185074 swfUrl=http://bernardotv.club/atdedead.swf live=true pageUrl=http://biggestplayer.me token=#atd%#$ZH </link>
+<title>sky sport 2</title>
+<link>rtmp://live.ertopen.com/live/rtmp://93.174.95.125:1935/edge/_definst_/on39ol6in4f2ewp playpath=rtmp://93.174.95.125:1935/edge/_definst_/on39ol6in4f2ewp</link>
+<thumbnail></thumbnail>
 </item>
 
 
