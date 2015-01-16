@@ -551,6 +551,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>
 
+<item>
 <title>hdcast</title>
 <link>rtmpe://46.246.29.162:1935/live/ playpath=Sporthdsky4 pageUrl=http://www.hdcast.org/ token=#yw%tt#w@kku timeout=15</link>
 </item>
