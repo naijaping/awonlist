@@ -467,16 +467,18 @@
 			
 			
 	        	
-<item>
-			<title>Test  11</title>
+	<item>
+			<title>11</title>
 			<link>$doregex[get-link] timeout=20</link>
 				<regex>
 				<name>get-link</name>
-				<expres>stretching: "fill", 
-	   file: '(.*?)'</expres>
+				<expres>stretching: "fill",
+           file: '(.*?)'</expres>
 				<page>http://showsport-tv.com/update/bein11.html</page>
 				</regex>  
-			</item>			
+				<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
+			</item>
+					
 			
 </channel>
 
