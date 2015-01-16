@@ -453,7 +453,7 @@
 		       	
 		       	
 
-		<item>
+		        <item>
 			<title>Bein Sport 5</title>
 			<link>$doregex[get-link] timeout=20</link>
 				<regex>
@@ -463,21 +463,21 @@
 				<page>http://www.sportnews24hour.com/p/bein-sports-5.html</page>
 				</regex>  
 				<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
-			</item>
+			         </item>
 			
 			
 	        	
-	<item>
-			<title>11</title>
-			<link>$doregex[get-link] timeout=20</link>
-				<regex>
-				<name>get-link</name>
-				<expres>stretching: "fill",
+<item>
+<title>Bein Sport 6</title>
+<link>$doregex[get-link] timeout=20</link>
+<regex>
+<name>get-link</name>
+<expres>stretching: "fill",
            file: '(.*?)'</expres>
-				<page>http://showsport-tv.com/update/bein11.html</page>
-				</regex>  
-				<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
-			</item>
+<page>http://www.sportnews24hour.com/p/bein-sports-6.html</page>
+</regex>  
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
+</item>	
 					
 			
 </channel>
