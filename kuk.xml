@@ -524,16 +524,9 @@
 </item>
 
 <item>
-<title>Bein Sport 13</title>
-<link>$doregex[get-link] timeout=20</link>
-<regex>
-<name>get-link</name>
-<expres>stretching: "fill",
-           file: '(.*?)'</expres>
-<page>http://www.sportnews24hour.com/p/bein-sports-13.html</page>
-</regex>  
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
-</item>	
+			<title>hdcast5</title>
+			<link>rtmp://80.82.78.22:443/liverepeater playpath=11 swfUrl=http://popeoftheplayers.pw/atdedead.swf live=1 pageUrl=http://popeoftheplayers.pw/player3.php?id=11&amp;width=600&amp;height=450 token=#atd%#$ZH timeout=20</link>
+		</item>
 
 			
 </channel>
