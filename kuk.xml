@@ -524,10 +524,10 @@
 </item>
 
 <item>
-			<title>hdcast5</title>
-			<link>rtmp://80.82.78.22:443/liverepeater playpath=11 swfUrl=http://popeoftheplayers.pw/atdedead.swf live=1 pageUrl=http://popeoftheplayers.pw/player3.php?id=11&amp;width=600&amp;height=450 token=#atd%#$ZH timeout=20</link>
-		</item>
+			<title>SPORT 3 HD</title>
 
+				<link>http://viasatlive2-i.akamaihd.net/hls/live/202775/tv3plus/mastererki1.m3u8|X-Forwarded-For=81.224.210.98</link>
+		</item>
 			
 </channel>
 </channels>
