@@ -557,12 +557,12 @@
 </item>
 
 <item>
-<title>Jordan Gini</title>
+<title>Gini</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>file: "([^"]*)</expres>
-<page>http://giniko.com/watch.php?id=186</page>
+<page>http://giniko.com/watch.php?id=214</page>
 </regex>
 <thumbnail>http://giniko.com/logos/190x110/186.jpg</thumbnail>
 </item>
