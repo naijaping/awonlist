@@ -552,15 +552,9 @@
 </item>
 
 <item>
-<title>Abu Dhabi Drama  ghana</title>
-<link>$doregex[url]<link>
-<regex>
-	<name>url</name>
-	<expres>parameters={src:"(.*?)"</expres>
-	<page>http://www.ghanalive.tv/gtv-sports/</page>
-	<referer>http://www.ghanalive.tv/</referer>
-</regex>
-</item>
+			<title>astro super sport 1</title>
+			<link>http://122.155.203.9:8081/get/assp1/playlist.m3u8</link>
+		</item>
 
 </channel>
 </channels>
