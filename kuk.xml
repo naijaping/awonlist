@@ -556,7 +556,16 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>
 
-
+<item>
+<title>Jordan Gini</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://giniko.com/watch.php?id=186</page>
+</regex>
+<thumbnail>http://giniko.com/logos/190x110/186.jpg</thumbnail>
+</item>
 
 </channel>
 </channels>
