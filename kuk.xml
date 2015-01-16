@@ -551,7 +551,15 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>
 
-
+<item>
+<title>Puthiyathalaimuraitv </title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file:'(.*?)'</expres>
+<page>http://showsport-tv.com/update/bein7.html</page>
+</regex>
+</item>
 </channel>
 </channels>
 			
