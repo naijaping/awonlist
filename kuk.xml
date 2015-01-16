@@ -524,9 +524,8 @@
 </item>
 
 <item>
-			<title>SPORT 3 HD</title>
-
-				<link>http://viasatlive2-i.akamaihd.net/hls/live/202775/tv3plus/mastererki1.m3u8|X-Forwarded-For=81.224.210.98</link>
+			<title>livehq</title>
+			<link>rtmp://213.136.71.43/live/beinsports1 timeout=15</link>
 		</item>
 			
 </channel>
