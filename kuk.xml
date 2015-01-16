@@ -567,6 +567,16 @@
 <thumbnail>http://giniko.com/logos/190x110/186.jpg</thumbnail>
 </item>
 
+<item>
+<title>Gano</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://www.ghanalive.tv/gtv</page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/hires/aa/abu_dhabi_tv.png</thumbnail>
+</item>
 </channel>
 </channels>
 			
