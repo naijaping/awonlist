@@ -486,7 +486,7 @@
 <name>get-link</name>
 <expres>stretching: "fill",
            file: '(.*?)'</expres>
-<page>http://www.sportnews24hour.com/p/bein-sports-7.html</page>
+<page>http://showsport-tv.com/update/bein7.html</page>
 </regex>  
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>				
