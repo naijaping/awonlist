@@ -512,10 +512,15 @@
 <name>get-link</name>
 <expres>stretching: "fill",
            file: '(.*?)'</expres>
-<page>http://showsport-tv.com/update/bein10.html</page>
+<page>http://www.sportnews24hour.com/p/bein-sports-10.html</page>
 </regex>  
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>	
+
+<item>
+<title>Bein  10</title>
+<link>rtmp://207.244.89.23/iguide playpath=ikq7alery10mswt swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGD timeout=20</link>
+</item>
 
 <item>
 <title>Bein  11</title>
@@ -523,11 +528,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>
 
-<item>
-			<title>iguideAR 10</title>
-				<link>rtmp://207.244.89.23/iguide playpath=ikq7alery10mswt swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGD timeout=20</link>
-				
-		</item>
+
 			
 </channel>
 </channels>
