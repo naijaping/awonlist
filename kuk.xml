@@ -551,6 +551,16 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>
 
+<item>
+<title>Abu Dhabi Drama  ghana</title>
+<link>$doregex[url]<link>
+<regex>
+	<name>url</name>
+	<expres>parameters={src:"(.*?)"</expres>
+	<page>http://www.ghanalive.tv/gtv-sports/</page>
+	<referer>http://www.ghanalive.tv/</referer>
+</regex>
+</item>
 
 </channel>
 </channels>
