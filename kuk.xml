@@ -508,6 +508,7 @@
 <item>
 <title>Bein  10</title>
 <link>rtmp://207.244.89.23/iguide playpath=ikq7alery10mswt swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGD timeout=20</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>
 
 <item>
@@ -522,6 +523,11 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>
 
+<item>
+			<title>m3u8</title>
+				<link>http://videos.streaming-hub.com/bein3.m3u8</link>
+				
+		</item>
 			
 </channel>
 </channels>
