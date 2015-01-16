@@ -551,16 +551,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>
 
-<item>
-			<title>CH1</title>
-				<link>$doregex[get-link]</link>
-				<regex>
-				<name>get-link</name>
-				<expres>"path": "(.*?)"</expres>
-				<page>http://www.sportnews24hour.com/p/bein-sports-1.html</page>
-				</regex> 
-		</item>
-			
+
 </channel>
 </channels>
 			
