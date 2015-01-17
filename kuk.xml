@@ -556,16 +556,11 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>
 
+
 <item>
-			<title>Test  111</title>
-			<link>$doregex[get-link] timeout=20</link>
-				<regex>
-				<name>get-link</name>
-				<expres>stretching: "fill",
-				file: '(.*?)'</expres>
-				<page>http://showsport-tv.com/update/bein1.html</page>
-				</regex>  
-			</item>
+<title>iguideAR 1</title>
+<link>rtmp://46.165.220.225/iguide playpath=kcei6bxb8npfsae swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGD timeout=20</link>
+</item>
 
 
 
