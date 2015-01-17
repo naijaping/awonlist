@@ -604,18 +604,20 @@
 <thumbnail></thumbnail>
 
 	
-</item>
 <item>
-<title>NBC HD</title>
-<link>$doregex[getIlive]</link>
+<title>El Sharq</title>
+<link>$doregex[url]<link>
 <regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/70065',False,False)</expres>
-<page></page>
+	<name>url</name>
+	<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
+	<page></page>
 </regex>
-<thumbnail></thumbnail>
+<regex>
+	<name>jsonurl</name>                                                      
+	<expres>fn.WebTV.*mediaUrl":"(.*?)"</expres>
+	<page>http://web.tv/embed/live/47027</page>
+</regex>
 </item>
-
 
 
 
