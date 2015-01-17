@@ -569,13 +569,13 @@
 
 
 <item>
-<title>Tooncast</title>
-<link>rtmp://$doregex[rtmpip]/live playpath=tooncastcomp?id=72018 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/fplayer.swf pageUrl=http://www.ucaster.eu live=1 timeout=20</link>
+<title>GTV</title>
+<link>rtmp://$doregex[rtmp]/live playpath=gtvsports_1200 conn=S:OK swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://p.jwpcdn.com live=1 timeout=20</link>
 <regex>
-<name>rtmpip</name>
+<name>rtmp</name>
 <expres>redirect=(.*)</expres>
-<page>http://www.ucaster.eu:1935/loadbalancer</page>
-<referer>http://www.ucaster.eu/static/scripts/fplayer.swf</referer>
+<page>http://www.ghanalive.tv/gtv-sports</page>
+<referer>http://p.jwpcdn.com/6/5/jwplayer.flash.swf</referer>
 </regex>
 </item>
 
