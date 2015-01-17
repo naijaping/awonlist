@@ -567,6 +567,16 @@
 </item>
 
 <item>
+<title>Fox Sport HD</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/opcion-6/frame')</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
 <title>ESPN USA</title>
 <link>$doregex[url]</link>
 <regex>
