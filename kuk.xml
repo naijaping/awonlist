@@ -98,7 +98,7 @@
 
 <item>
 <title>Ghana TV</title>
-<link>rtmp://skylite.pointcdn.net playpath=skylite/ams/ghanatv swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com</link>
+<link>rtmp://fml.12BC9.kappacdn.net/2012BC9 app=2012BC9/default/ playpath=ghanatv_1200?c1dbb06e51ed818bd584ad5ff4a1bebfdb37724fd0200b1d31b7e2304557c97b7acd swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://www.ghanalive.tv live=1 timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/ghana_tv.png</thumbnail>
 </item>
 
