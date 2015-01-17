@@ -561,7 +561,7 @@
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/sports-1/frame')</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/sports-1/')</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/astro_supersport_my.png</thumbnail>
