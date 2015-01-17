@@ -570,10 +570,10 @@
 
 <item>
 <title>GTVu</title>
-<link>$doregex[rtmp] conn=S:OK swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://p.jwpcdn.com live=1 timeout=20</link>
+<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://p.jwpcdn.com live=1 timeout=20</link>
 <regex>
 <name>rtmp</name>
-<expres>redirect=(.*)</expres>
+<expres>base="(.*)"</expres>
 <page>http://www.ghanalive.tv/gtv-sports</page>
 <referer>http://p.jwpcdn.com/6/5/jwplayer.flash.swf</referer>
 </regex>
