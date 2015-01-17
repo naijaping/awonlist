@@ -557,6 +557,17 @@
 </item>
 
 <item>
+<title>Super Sport</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/sports-2/frame')</expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/astro_supersport_my.png</thumbnail>
+</item>
+
+<item>
 <title>ESPN USA</title>
 <link>$doregex[url]</link>
 <regex>
@@ -566,7 +577,6 @@
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/corp/ee/espn_us.png</thumbnail>
 </item>
-
 
 <item>
 <title>iguideAR 1</title>
