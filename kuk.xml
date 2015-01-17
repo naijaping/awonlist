@@ -572,7 +572,7 @@
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/opcion-1/frame')</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/espnusa/frame')</expres>
 <page></page>
 </regex>
 </item>
