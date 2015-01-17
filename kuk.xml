@@ -556,15 +556,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>
 
-<item>
-<title>gano</title>
-<link>$doregex[get-rtmp] playpath=$doregex[get-playpath] pageUrl=http://www.ghanalive.tv/ live=1 swfVfy=1 timeout=10</link>
-<regex>
-<name>get-rtmp</name>
-<expres>meta base="(.*?)"</expres>
-<page>http://www.ghanalive.tv/gtv/</page>
-</regex>
-</item>
+
 
 
 
