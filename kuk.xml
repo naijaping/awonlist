@@ -567,7 +567,15 @@
 <link>http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&amp;profile=399&amp;lan=2&amp;rows=40&amp;f= .m3u8</link>
 </item>
 
-
+<item>
+<title>Bein Sport ES</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/opcion-1/frame')</expres>
+<page></page>
+</regex>
+</item>
 
 
 
