@@ -616,17 +616,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
 
-<title> Euro</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://cricfree.sx/update/euro2.php')</expres>
-<page></page>
-<referer></referer>
-</regex>
-</item>
 
 
 </channel>
