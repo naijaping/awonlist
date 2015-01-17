@@ -616,7 +616,7 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
 
 <title> Euro</title>
 <link>$doregex[reg1]</link>
