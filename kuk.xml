@@ -557,12 +557,12 @@
 </item>
 
 <item>
-<title>Medium</title>
-<link>$doregex[get-rtmp] playpath=$doregex[get-playpath] pageUrl=http://live-tv.im/dw-tv-arabia-live live=1 swfVfy=1 timeout=10</link>
+<title>gano</title>
+<link>$doregex[get-rtmp] playpath=$doregex[get-playpath] pageUrl=http://www.ghanalive.tv/ live=1 swfVfy=1 timeout=10</link>
 <regex>
 <name>get-rtmp</name>
 <expres>meta base="(.*?)"</expres>
-<page>http://www.metafilegenerator.de/DWelle/tv-arabia/flv/tv.smil</page>
+<page>http://www.ghanalive.tv/gtv/</page>
 </regex>
 </item>
 
