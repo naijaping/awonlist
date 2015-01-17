@@ -568,6 +568,43 @@
 </item>
 
 
+
+<item>
+<title>ZDF</title>
+<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=$doregex[swf] pageUrl=http://p.jwpcdn.com live=1 timeout=15</link>
+	<regex>
+		<name>rtmp</name>
+		<expres>file: "(.*?)"</expres>
+		<page>$doregex[stream]</page>
+	</regex>
+	<regex>
+		<name>path</name>
+		<expres>file: "(.*?)"</expres>
+		<page>$doregex[stream]</page>
+	</regex>
+		<regex>
+		<name>swf</name>
+		<expres>file: "(.*?)"</expres>
+		<page>$doregex[stream]</page>
+	</regex>
+	<regex>
+		<name>stream</name>
+		<expres>file: "(.*?)"</expres>
+		<page></page>
+	</regex>
+	<regex>
+	<name>encrypted</name>
+		<expres>file: "(.*?)"</expres>
+		<page>$doregex[unpacked]</page>
+	</regex>
+	<regex>
+		<name>unpacked</name>
+		<expres>file: "(.*?)"</expres>
+		<page>http://www.ghanalive.tv/gtv-sports/</page>
+	</regex>
+<thumbnail></thumbnail>
+</item>
+
 </channel>
 </channels>
 			
