@@ -557,7 +557,7 @@
 </item>
 
 <item>
-<title>Super Sport 1</title>
+<title>Super Sport </title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
