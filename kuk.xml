@@ -659,6 +659,11 @@
 <link>rtmp://142.4.217.26:1935/teledunet?idu=skylink/bein_sport_6_low</link>
 </item>
 
+<item>
+<title>Canal Sport</title>
+<link>http://cdnehlsdubaisports3.endavomedia.com/smil:dmilivedubaisports3hls.smil/playlist.m3u8</link>
+</item>
+
 
 </channel>
 </channels>
