@@ -654,7 +654,31 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/corp/ee/espn_us.png</thumbnail>
 </item>
 
+<item>
+<title>iphone-tv retry</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>(http.*?)"</expres>
+<page>$doregex[get-unpacked]</page>
+</regex>
+<regex>
+<name>get-unpacked</name>
+<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+<page>$doregex[get-decoded]</page>
+</regex>
+<regex>
+<name>get-decoded</name>
+<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres>
+<page>$doregex[get-first]</page>
+</regex>
 
+<regex>
+<name>get-first</name>
+<expres>eval\((decodeURIComponent.*\);)</expres>
+<page>http://en.iphone-tv.eu/stream/uk/8</page>
+</regex>
+</item>
 
 
 
