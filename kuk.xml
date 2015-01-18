@@ -644,8 +644,14 @@
 
 
 <item>
-<title>youtube</title>
-<link>plugin://plugin.video.youtube/?action=play_video&videoid=VYlQJbsVs48</link>
+<title>GTV Sports</title>
+<link>$doregex[get-rtmp] live=1</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file': '(rtmp.*)'</expres>
+<page>http://www.ghanalive.tv/gtv-sports/</page>
+<referer></referer>
+</regex>
 </item>
 
 
