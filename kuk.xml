@@ -642,16 +642,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/corp/ee/espn_us.png</thumbnail>
 </item>
 
-<item>
-<title>Ustream</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/opcion-11/frame')</expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
