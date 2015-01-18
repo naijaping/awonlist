@@ -655,15 +655,9 @@
 </item>
 
 <item>
-<title> 5</title>
-<link>$doregex[get-link] timeout=20</link>
-<regex>
-<name>get-link</name>
-<expres>file': '(rtmp.*)'</expres>
-<page>http://www.sportnews24hour.com/p/bein-sports-6.html</page>
-</regex>  
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
-</item>	
+<title>Bein Sports 6</title>
+<link>rtmp://142.4.217.26:1935/teledunet?idu=skylink/bein_sport_6_low</link>
+</item>
 
 
 </channel>
