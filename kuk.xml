@@ -674,7 +674,10 @@
 <link>rtmp://rtmp.myhdcast.com:1935/live playpath=mla9tod3H6P7KyEmUGSh swfUrl=http://cdn.myhdcast.com/player.swf pageUrl=http://myhdcast.com live=1 timeout=15</link>
  </item>               
 
-
+<item>
+<title>Zero</title>
+<link>rtmp://rtmp.zerocast.tv:1935/live playpath=3GdoAHRAxgZNzmQZL29l swfUrl=http://cdn.zerocast.tv/player.swf pageUrl=http://cdn.zerocast.tv live=1 timeout=15</link>
+</item>
 </channel>
 </channels>
 			
