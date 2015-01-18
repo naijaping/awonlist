@@ -651,7 +651,7 @@
 <expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/19094580/streams/live/playlist.m3u8')</expres>
 <page></page>
 </regex> 
-<thumbnail></thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/canalplus_es_plus1.png</thumbnail>
 </item>
 
 </channel>
