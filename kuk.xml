@@ -156,6 +156,18 @@
 </item>
 
 <item>
+<title>Adom TV Ghana</title>
+<link>$doregex[get-rtmp] live=1</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file': '(rtmp.*)'</expres>
+<page>http://www.ghanalive.tv/adome-tv/</page>
+<referer></referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/adom_tv_gh.png</thumbnail>
+</item>
+
+<item>
 <title>Ghana TV Sports</title>
 <link>rtmp://fml.12BC9.kappacdn.net/2012BC9 app=2012BC9/default/ playpath=gtvsports_1200?c1dbb06e51ed818bd584ad5ff4a1bebfdb37724fd0200b1d31b7e2304557c97b7acd swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://www.ghanalive.tv live=1 timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/ghana_tv.png</thumbnail>
@@ -643,16 +655,7 @@
 </item>
 
 
-<item>
-<title>GTV </title>
-<link>$doregex[get-rtmp] live=1</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file': '(rtmp.*)'</expres>
-<page>http://tv.ramalin.com/nig/hiptv.html/</page>
-<referer></referer>
-</regex>
-</item>
+
 
 
 </channel>
