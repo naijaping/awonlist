@@ -655,8 +655,8 @@
 </item>
 
 <item>
-<title> 7</title>
-<link>$doregex[get-link]  live=1 timeout=20</link>
+<title> 5</title>
+<link>$doregex[get-link] timeout=20</link>
 <regex>
 <name>get-link</name>
 <expres> file: '(.*?)'</expres>
