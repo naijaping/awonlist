@@ -644,12 +644,12 @@
 
 
 <item>
-<title>GTV Sports</title>
+<title>GTV </title>
 <link>$doregex[get-rtmp] live=1</link>
 <regex>
 <name>get-rtmp</name>
 <expres>file': '(rtmp.*)'</expres>
-<page>http://www.ghanalive.tv/tv-africa-stream/</page>
+<page>http://tv.ramalin.com/nig/hiptv.html/</page>
 <referer></referer>
 </regex>
 </item>
