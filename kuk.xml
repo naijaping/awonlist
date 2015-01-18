@@ -644,14 +644,8 @@
 
 
 <item>
-<title>totuu</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://zerocast.tv/embed.php?a=653')</expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
+<title>youtube</title>
+<link>plugin://plugin.video.youtube/?action=play_video&videoid=VYlQJbsVs48</link>
 </item>
 
 
