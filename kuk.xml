@@ -669,6 +669,12 @@
 <link>rtmp://142.4.217.26:1935/teledunet?idu=skylink/canal_plus_sport</link>
 </item>
 
+<item>
+<title>Testo</title>
+<link>rtmp://rtmp.myhdcast.com:1935/live playpath=mla9tod3H6P7KyEmUGSh swfUrl=http://cdn.myhdcast.com/player.swf pageUrl=http://myhdcast.com live=1 timeout=15</link>
+ </item>               
+
+
 </channel>
 </channels>
 			
