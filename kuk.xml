@@ -654,7 +654,16 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/corp/ee/espn_us.png</thumbnail>
 </item>
 
-
+<item>
+<title> 6</title>
+<link>$doregex[get-link]  live=1 timeout=20</link>
+<regex>
+<name>get-link</name>
+<expres> file': '(.*?)'</expres>
+<page>http://www.sportnews24hour.com/p/bein-sports-6.html</page>
+</regex>  
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
+</item>	
 
 
 </channel>
