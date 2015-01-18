@@ -644,7 +644,7 @@
 
 
 <item>
-<title>GTV Sports</title>
+<title>GTV Sport</title>
 <link>$doregex[get-rtmp] live=1</link>
 <regex>
 <name>get-rtmp</name>
