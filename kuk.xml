@@ -613,7 +613,7 @@
 <page></page>
 </regex>
 <thumbnail></thumbnail>
-
+</item>
 	
 <item>
 <title>El Sharq</title>
@@ -643,11 +643,7 @@
 </item>
 
 
-<item>
-				<title>+ UK \ Disney XD HD</title>
-				<link>rtmp://tv.tvsector.com/live/z020101.stream swfUrl=http://www.tvsector.com/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf pageUrl=http://www.tvsector.com/disney-xd-hd tcUrl=rtmp://tv.tvsector.com/live</link>
-				<thumbnail>http://images2.wikia.nocookie.net/__cb20091006155925/disney/images/thumb/2/2b/Disney_XD_logo.svg/800px-Disney_XD_logo.svg.png</thumbnail>
-			</item>
+
 
 </channel>
 </channels>
