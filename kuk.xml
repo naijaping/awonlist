@@ -649,7 +649,7 @@
 <regex>
 <name>get-rtmp</name>
 <expres>file': '(rtmp.*)'</expres>
-<page>http://www.ghanalive.tv/gtv-sports/</page>
+<page>http://www.iafrica.tv/dbn/</page>
 <referer></referer>
 </regex>
 </item>
