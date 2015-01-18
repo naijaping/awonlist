@@ -655,11 +655,11 @@
 </item>
 
 <item>
-<title> 6</title>
+<title> 7</title>
 <link>$doregex[get-link]  live=1 timeout=20</link>
 <regex>
 <name>get-link</name>
-<expres> file': '(.*?)'</expres>
+<expres> file: '(.*?)'</expres>
 <page>http://www.sportnews24hour.com/p/bein-sports-6.html</page>
 </regex>  
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
