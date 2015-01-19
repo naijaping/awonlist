@@ -727,7 +727,7 @@
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>file: '(.*?)'</expres>
+<expres>"path": "(.*?)"</expres>
 <page>http://www.awooze.com/index.php?view=home&id=184</page>
 </regex>
 <thumbnail>http://giniko.com/logos/190x110/11.jpeg</thumbnail>
