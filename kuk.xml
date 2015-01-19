@@ -704,6 +704,17 @@
 <link>rtmp://rtmp.zerocast.tv:1935/live playpath=TfRQx7deUAuncJwM047m swfUrl=http://cdn.zerocast.tv/player.swf pageUrl=http://zerocast.tv live=1 timeout=15</link>
 </item>
 
+<item>
+<title>NTA</title>
+<link>$doregex[get-rtmp] live=1</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file': '(rtmp.*)'</expres>
+<page>http://www.africawebtv.com/2013/11/nta-news24-nigeria-live.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
                 	
 </channel>
