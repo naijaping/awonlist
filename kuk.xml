@@ -728,7 +728,7 @@
 <regex>
 <name>url</name>
 <expres>(http.*?)"</expres>
-<page>http://www.africawebtv.com/2013/11/prestigetv-yoruba.html</page>
+<page>http://www.awooze.com/index.php?view=home&id=184</page>
 </regex>
 <thumbnail>http://giniko.com/logos/190x110/11.jpeg</thumbnail>
 </item>
