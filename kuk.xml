@@ -705,8 +705,15 @@
 </item>
 
 <item>
-<title>Bentv</title>
-<link>http://www.awooze.com/mobile/BenTV.m3u8 </link>
+<title>Awoos</title>
+<link>$doregex[get-rtmp] live=1</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file': '(rtmp.*)'</expres>
+<page>http://www.awooze.com/index.php?view=play&vidtype=2&channel=BenTV</page>
+<referer></referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/adom_tv_gh.png</thumbnail>
 </item>
                 	
 </channel>
