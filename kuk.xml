@@ -731,7 +731,18 @@
 <page>http://www.awooze.com/index.php?view=home&id=184</page>
 </regex>
 <thumbnail>http://giniko.com/logos/190x110/11.jpeg</thumbnail>
-</item>
+</item
+
+
+<item>
+<title>coolhd</title>
+<link>$doregex[get-link] timeout=20</link>
+<regex>
+<name>get-link</name>
+<expres>"file":"(.*?)"</expres>
+<page>http://www.awooze.com/index.php?view=home&id=184</page>
+</regex>  
+			</item>
 
 
                 	
