@@ -717,9 +717,9 @@
 </item>
 
 <item>
-<title>BelieveTV</title>
-<link>http://ios.streamserver01.com:8080/BelieveTV/mystream.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nta_international.png</thumbnail>
+<title>AJ</title>
+<link>http://ios.streamserver01.com:8080/Aljazeera/mystream.m3u8</link>
+<thumbnail></thumbnail>
 </item>
 
 
