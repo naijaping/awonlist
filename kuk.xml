@@ -694,6 +694,11 @@
 <link>rtmp://rtmp.zerocast.tv:1935/live playpath=hKsDbRGbWpJ2QX0P34fz swfUrl=http://cdn.zerocast.tv/player.swf pageUrl=http://cdn.zerocast.tv live=1 timeout=15</link>
 </item>	
 	
+<item>
+<title>Fox Sport UFC</title>
+<link>rtmp://rtmp.myhdcast.com:1935/live playpath=sp6 swfUrl=http://cdn.myhdcast.com/player.swf pageUrl=http://myhdcast.com live=1 timeout=15</link>
+</item>
+                	
 </channel>
 </channels>
 			
