@@ -723,7 +723,7 @@
 </item>
 
 <item>
-<title>Qatar Gin</title>
+<title>Qatar Ginik</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
