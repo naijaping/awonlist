@@ -722,6 +722,12 @@
 <thumbnail>http://i.imgur.com/xrPnaM9.jpg?1</thumbnail>
 </item>
 
+<item>
+<title>Press</title>
+<link>rtmp://78.129.189.30/edge3/PrestigeTv playpath=PrestigeTv swfUrl=http://awooze.com/player.swf pageUrl=http://awooze.com live=1 timeout=15</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nta_international.png</thumbnail>
+</item>
+
 
                 	
 </channel>
