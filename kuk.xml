@@ -703,6 +703,11 @@
 <title>AMC</title>
 <link>rtmp://rtmp.zerocast.tv:1935/live playpath=TfRQx7deUAuncJwM047m swfUrl=http://cdn.zerocast.tv/player.swf pageUrl=http://zerocast.tv live=1 timeout=15</link>
 </item>
+
+<item>
+<title>Aljezeera</title>
+<link>rtmp://aljazeeraflashlivefs.fplive.net:1935/aljazeeraflashlive-live playpath=aljazeera_eng_med swfUrl=http://cdn.shidurlive.com/player.swf pageUrl=http://cdn.shidurlive.com live=1 timeout=15</link>
+</item>
                 	
 </channel>
 </channels>
