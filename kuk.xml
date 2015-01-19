@@ -735,11 +735,11 @@
 
 
 <item>
-<title>coolhd</title>
+<title>cool</title>
 <link>$doregex[get-link] timeout=20</link>
 <regex>
 <name>get-link</name>
-<expres>file":"(.*?)"</expres>
+<expres>file: '(.*?)'</expres>
 <page>http://www.awooze.com/index.php?view=home&id=184</page>
 </regex>  
 			</item>
