@@ -710,11 +710,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nta_international.png</thumbnail>
 </item>
 
-<item>
-<title>BEN TV</title>
-<link>rtmp://edge.streamserver01.com/edge3/BenTV playpath=BenTV swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
-</item>
+
 
                 	
 </channel>
