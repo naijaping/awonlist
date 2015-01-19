@@ -722,16 +722,7 @@
 <thumbnail>http://i.imgur.com/xrPnaM9.jpg?1</thumbnail>
 </item>
 
-<item>
-<title>Qatar</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>"path": "(.*?)"</expres>
-<page>http://www.africawebtv.com/2013/11/prestigetv-yoruba.html</page>
-</regex>
-<thumbnail>http://giniko.com/logos/190x110/11.jpeg</thumbnail>
-</item
+
 
 
 
