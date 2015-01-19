@@ -689,7 +689,10 @@
 <link>rtmp://rtmp.zerocast.tv:1935/live playpath=Waz0WqvbqNHmt0gdzrsm swfUrl=http://cdn.zerocast.tv/player.swf pageUrl=http://cdn.zerocast.tv live=1 timeout=15</link>
 </item>	
 	
-	
+<item>
+<title>Bein Spanish</title>
+<link>rtmp://rtmp.zerocast.tv:1935/live playpath=hKsDbRGbWpJ2QX0P34fz swfUrl=http://cdn.zerocast.tv/player.swf pageUrl=http://cdn.zerocast.tv live=1 timeout=15</link>
+</item>	
 	
 </channel>
 </channels>
