@@ -723,11 +723,11 @@
 </item>
 
 <item>
-<title>Qatar Gini</title>
+<title>Qatar Gin</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>file: "([^"]*)</expres>
+<expres>m3u8(\?.*)"</expres>
 <page>http://www.africawebtv.com/2013/11/prestigetv-yoruba.html</page>
 </regex>
 <thumbnail>http://giniko.com/logos/190x110/11.jpeg</thumbnail>
