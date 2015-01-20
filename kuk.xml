@@ -725,14 +725,17 @@
 
 
 <item>
-<title>ohhhff</title>
-<link>$doregex[get-url]</link>
+<title>m0m</title>
+<link>$doregex[get-link] timeout=20</link>
 <regex>
-<name>get-url</name>
-<expres>file:'(.*?)'</expres>
-<page>http://www.africawebtv.com/2013/11/arise-news-tv.html</page>
-</regex>
-</item>
+<name>get-link</name>
+<expres>stretching: "fill",
+           file: '(.*?)'</expres>
+<page>http://www.filmover.com/news/arise.html</page>
+</regex>  
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
+</item>	
+	
 
 
 
