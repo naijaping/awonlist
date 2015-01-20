@@ -723,7 +723,13 @@
 </item>
 
 
-
+<streaminginfo>
+<item>
+<title>Prestige TV</title>
+<link>rtmp://edge.streamserver01.com/edge3/PrestigeTv playpath=PrestigeTv app=edge3/PrestigeTv swfUrl=http://tv.filmover.com/jwp5/player.swf live=true flashVer=WIN\16,0,0,257 pageUrl=http://www.africawebtv.com/2013/11/prestigetv-yoruba.html</link>
+<thumnail>http://i.imgur.com/xrPnaM9.jpg?1</thumnail>
+</item>
+</streaminginfo>
 
 
 
