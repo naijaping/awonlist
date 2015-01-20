@@ -728,7 +728,7 @@
 <regex>
 <name>get-url</name>
 <expres>file: "(.*?)"<expres>
-<page>http://www.nigeriatv.net/search/label/Arise%20TV</page>
+<page>http://www.africawebtv.com/2013/11/arise-news-tv.html</page>
 </regex>
 </item>
 
