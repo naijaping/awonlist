@@ -725,12 +725,11 @@
 
 
 <item>
-<title>m0m</title>
-<link>$doregex[get-link] timeout=20</link>
+<title>mim</title>
+<link>$doregex[get-link]</link>
 <regex>
 <name>get-link</name>
-<expres>stretching: "fill",
-           file: '(.*?)'</expres>
+<expres>file: '(.*?)'</expres>
 <page>http://www.filmover.com/news/arise.html</page>
 </regex>  
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
