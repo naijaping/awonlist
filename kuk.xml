@@ -723,12 +723,12 @@
 </item>
 
 <item>
-<title>Time</title>
+<title>Timeo</title>
 <link>$doregex[getURL]</link>
 <regex>
 <name>getURL</name>
 <expres>'file': '(.*)'<expres>
-<page>http://www.africawebtv.com/2013/11/arise-news-tv.html</page>
+<page>http://www.filmover.com/news/arise.html</page>
 </regex>
 </item>
 
