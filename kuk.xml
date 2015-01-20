@@ -725,12 +725,12 @@
 
 
 <item>
-<title>htm**</title>
+<title>ohhhff</title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
 <expres>file:'(.*?)'</expres>
-<page>http://www.filmover.com/news/arise.html</page>
+<page>http://www.africawebtv.com/2013/11/arise-news-tv.html</page>
 </regex>
 </item>
 
