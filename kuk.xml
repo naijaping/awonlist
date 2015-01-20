@@ -727,7 +727,7 @@
 <link>$doregex[getURL]</link>
 <regex>
 <name>getURL</name>
-<expres>'file': '(.*)'<expres>
+<expres>'file': '(.?*)'<expres>
 <page>http://www.filmover.com/news/arise.html</page>
 </regex>
 </item>
