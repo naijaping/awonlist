@@ -724,10 +724,10 @@
 
 <item>
 <title>Time</title>
-<link>$doregex[get-url]</link>
+<link>$doregex[getURL]</link>
 <regex>
-<name>get-url</name>
-<expres>file: "(.*?)"<expres>
+<name>getURL</name>
+<expres>'file': '(.*)'<expres>
 <page>http://www.africawebtv.com/2013/11/arise-news-tv.html</page>
 </regex>
 </item>
