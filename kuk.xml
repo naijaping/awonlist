@@ -723,7 +723,7 @@
 </item>
 
 <item>
-<title>times-now dittonews **http://news.dittotv.com/times-now/**</title>
+<title>Time</title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
