@@ -722,7 +722,15 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
 </item>
 
-
+<item>
+<title>times-now dittonews **http://news.dittotv.com/times-now/**</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"<expres>
+<page>http://www.filmover.com/news/arise.html</page>
+</regex>
+</item>
 
 
 
