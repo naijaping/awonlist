@@ -686,8 +686,14 @@
 </item>
 
 <item>
-<title>Fox Sport Live</title>
-<link>rtmp://rtmp.myhdcast.com:1935/live playpath=sp4 swfUrl=http://cdn.myhdcast.com/player.swf pageUrl=http://myhdcast.com live=1 timeout=15</link>
+<title>NBC Sport</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/70065',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
 </item>
             	
 <item>
