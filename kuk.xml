@@ -724,16 +724,7 @@
 </item>
 
 
-<item>
-<title>kobi</title>
-<link>$doregex[getIlive]</link>
-<regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/48043')</expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 	
 
