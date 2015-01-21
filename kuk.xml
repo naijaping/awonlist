@@ -717,15 +717,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
 </item>
 
-<item>
-<title>Continental TV</title>
-<link>
-rtmp://uni2rtmp.tulix.tv:1935/ app=tvcontinental playpath=myStream.sdp swfUrl=http://unistream2.tulix.tv/mediaplayer/player.swf pageUrl=http://tvcontinental.tv/livestreaming live=true timeout=15
-</link>
-<thumbnail>
-http://www.tvcontinental.tv/sites/all/themes/tb_nex/logo.png
-</thumbnail>
-</item>
+
 
 
 	
