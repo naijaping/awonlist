@@ -725,13 +725,11 @@
 
 
 <item>
-<title>Channels Television HD</title>
+<title>NTA</title>
 <link>
-plugin://plugin.video.youtube/?action=play_video&videoid=y1knc30OqKQ
+http://nimplus1.giniko.com/ntatv/ntatv.stream/playlist.m3u8
 </link>
-<thumbnail>
-https://yt3.ggpht.com/-EfmbMAr7ISA/AAAAAAAAAAI/AAAAAAAAAAA/2Gb_Wdzodn0/s48-c-k-no/photo.jpg
-</thumbnail>
+<thumbnail>http://www.nigeriamasterweb.com/7mbebe/ntaLogo.jpg</thumbnail>
 </item>
 	
 
