@@ -682,9 +682,9 @@
 </item>
 
 <item>
-			<title>nbcsn</title>
-			<link>rtmp://50.7.164.34:2555/stream/ playpath=mona1 swfUrl=http://embed.beststreams.ru/flowplayer-3.2.18.swf live=1 pageUrl=http://embed.beststreams.ru/v2.php?channel=mona1 timeout=20</link>
-		</item>
+<title>nbcs</title>
+<link>rtmp://50.7.164.34:2555/stream/ playpath=mona1 swfUrl=http://embed.beststreams.ru/flowplayer-3.2.18.swf live=1 pageUrl=http://embed.beststreams.ru/v2.php?channel=mona1 timeout=20</link>
+</item>
 
 
 </channel>
