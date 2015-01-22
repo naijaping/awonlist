@@ -682,7 +682,7 @@
 </item>
 
 <item>
-			<title>youtube 720p</title>
+			<title>youtube 7p</title>
 			<link>$doregex[getQualityLink]</link>
 
 				<regex>
@@ -698,7 +698,7 @@
 				<regex>
 				<name>getlink</name>
 				<expres>hlsvp": "(.*?)"</expres>
-				<page>https://www.youtube.com/watch?v=SrNpdcDyXXA</page>
+				<page>https://www.youtube.com/watch?v=VYlQJbsVs48</page>
 				</regex>
 		</item>
 
