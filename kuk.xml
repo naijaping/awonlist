@@ -681,9 +681,10 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
 </item>
 
-
-
-
+<item>
+<title>Bobo</title>
+<link>rtmp://$OPT:rtmp-raw=rtmp://nlrest.iguide.to/iguide/ playpath=4hbp89rc99mezls swfUrl=http://www.iguide.to/jwplayer-6.8/player.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGD</link>
+</item>
 
 
 	
