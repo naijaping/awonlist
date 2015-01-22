@@ -687,6 +687,20 @@
 <thumbnail>http://thenetworknigeria.com/wp-content/uploads/2014/09/hip.jpg</thumbnail>
 </item>
 
+
+<item>
+<title>Adoma</title>
+<link>$doregex[get-rtmp] live=1</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file': '(rtmp.*)'</expres>
+<page>http://www.ghanatvon.com/sports-tv-live.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
 </channel>
 </channels>
 			
