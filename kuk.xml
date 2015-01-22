@@ -681,7 +681,17 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
 </item>
 
-
+<item>
+<title>Channels TV</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>watch\?v=([^"]+)</expres>
+<page>https://www.youtube.com/channel/UCEXGDNclvmg6RW0vipJYsTQ</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 </channel>
 </channels>
