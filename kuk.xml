@@ -687,7 +687,7 @@
 				<regex>
 				<name>url</name>
 				<expres>file: "([^"]*)</expres>
-				<page>http://giniko.com/watch.php?id=10</page>
+				<page>http://giniko.com/watch.php?id=110</page>
 				</regex>
 				</item>
 
