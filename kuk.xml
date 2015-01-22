@@ -681,11 +681,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
 </item>
 
-<item>
-<title>Fox Sport 2</title>
-<link>rtmp://178.18.31.51:443/liverepeater playpath=183588 swfUrl=http://bernardotv.club/atdedead.swf </link>
-<thumbnail></thumbnail>
-</item>
+
 
 
 </channel>
