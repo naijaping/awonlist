@@ -681,7 +681,10 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
 </item>
 
-
+<item>
+<title>nbcsn0</title>
+<link>rtmpe://46.246.124.22:1935/live playpath=nbcsn0 swfUrl=http://prvservers.com/j/jwplayer.flash.swf pageUrl=http://prvservers.com/ token=#yw%tt#w@kku timeout=10</link>
+</item>
 
 
 </channel>
