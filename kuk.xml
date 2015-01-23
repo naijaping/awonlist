@@ -724,6 +724,34 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/adom_tv_gh.png</thumbnail>
 </item>
 
+
+<item>
+<title>Test</title>
+<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=$doregex[swf] pageUrl=http://castalba.tv swfVfy=true live=true timeout=10</link>
+
+<regex>
+<name>rtmp</name>
+<expres>'streamer': '([^']*)<expres>
+<page>http://castalba.tv/embed.php?cid=19045</page>
+<referer> http://canhome1a.blogspot.com/</referer>;
+</regex>
+
+<regex>
+<name>path</name>
+<expres>'file': '([^']*)<expres>
+<page>http://castalba.tv/embed.php?cid=19045</page>
+<referer> http://canhome1a.blogspot.com/</referer>;
+</regex>
+
+<regex>
+<name>swf</name>
+<expres>'flashplayer': "([^"]*)<expres>
+<page>http://castalba.tv/embed.php?cid=19045</page>
+<referer> http://canhome1a.blogspot.com/</referer>;
+<agent></agent>
+</regex>
+
+</item>
 </channel>
 </channels>
 			
