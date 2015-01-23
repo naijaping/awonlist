@@ -723,7 +723,7 @@
 <regex>
 <name>get-rtmp</name>
 <expres>file': '(rtmp.*)'</expres>
-<page>http://www.iafrica.tv/silver-bird/</page>
+<page>http://www.ghanalive.tv/joy-news/</page>
 <referer></referer>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/adom_tv_gh.png</thumbnail>
