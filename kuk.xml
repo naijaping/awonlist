@@ -694,6 +694,9 @@
 <thumbnail></thumbnail>
 </item>
 
+<item><title>[COLOR magenta]HLS[/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=I3hPgpTdo8o</link>
+</item>
 
 </channel>
 </channels>
