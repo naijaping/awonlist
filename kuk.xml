@@ -718,7 +718,7 @@
 </item>
 
 <item>
-<title>Adomo</title>
+<title>joy</title>
 <link>$doregex[get-rtmp] live=1</link>
 <regex>
 <name>get-rtmp</name>
