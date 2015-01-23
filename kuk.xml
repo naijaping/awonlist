@@ -717,7 +717,17 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Adomo</title>
+<link>$doregex[get-rtmp] live=1</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file': '(rtmp.*)'</expres>
+<page>http://www.iafrica.tv/silver-bird/</page>
+<referer></referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/adom_tv_gh.png</thumbnail>
+</item>
 
 </channel>
 </channels>
