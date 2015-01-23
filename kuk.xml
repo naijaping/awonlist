@@ -316,6 +316,17 @@
 </item>
 
 <item>
+<title>Disney XD</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/69893',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/disney_xd_us.png</thumbnail>
+</item>
+
+<item>
 <title>Boomerang</title>
 <link>$doregex[getIlive]</link>
 <regex>
