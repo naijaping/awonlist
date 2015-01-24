@@ -724,16 +724,9 @@
 <title>BET</title>
 <link>rtmp://93.174.95.125:1935/edge/_definst_/kexkxje3nqi6dtl playpath=kexkxje3nqi6dtl swfUrl=http://uppod.ru/player/uppod.swf pageUrl=http://uppod.ru</link> 
 <thumbnail></thumbnail>
+</item>
 
-<item>
-			<title>coolhd</title>
-			<link>$doregex[get-link] timeout=20</link>
-				<regex>
-				<name>get-link</name>
-				<expres>"image":"","file":"(.*?)"</expres>
-				<page>http://www.sportnews24hour.com/p/bein-sports-11.html</page>
-				</regex>  
-			</item>
+
 
 
 </channel>
