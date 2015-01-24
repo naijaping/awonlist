@@ -706,13 +706,6 @@
 </item>
 
 <item>
-<title>Hip TV Nigeria</title>
-<link>http://ngx.cr1.streamzilla.xlcdn.com/session/d324d9a1fed5fb79f6905c4b96ed0ef8/sz/Un1ty/wowza4/live/webwwwhiptv51845/chunklist.m3u8</link>
-<thumbnail>http://thenetworknigeria.com/wp-content/uploads/2014/09/hip.jpg</thumbnail>
-</item>
-
-
-<item>
 <title>GTV+</title>
 <link>rtmp://wms.streamafrik.com:1935/show_streamaflive/31/mainstream</link>
 <thumbnail></thumbnail>
@@ -729,14 +722,6 @@
 <link>http://esioslive6-i.akamaihd.net/hls/live/202892/AL_P_ESP1_FR_FRA/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
-
-
-<item>
-<title>BET</title>
-<link>rtmp://93.174.95.125:1935/edge/_definst_/kexkxje3nqi6dtl playpath=kexkxje3nqi6dtl swfUrl=http://uppod.ru/player/uppod.swf pageUrl=http://uppod.ru</link> 
-<thumbnail></thumbnail>
-</item>
-
 
 <item>
 <title>Adult Only TV</title>
