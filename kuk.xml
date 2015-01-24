@@ -724,6 +724,10 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/adom_tv_gh.png</thumbnail>
 </item>
 
+<item>
+<title>Ladi</title>
+<link>rtmp://wms.myliveafricatv.com:1935/ app=rtmp_mlalive/222 playpath=mainstream swfUrl=http://www.myliveafricatv.com/public/flash/player/wms/viewerModules/player/PlayerModule.swf?version=2.11.9 live=true timeout=15 pageUrl=http://www.myliveafricatv.com/show/tvafrica</link> 
+<thumbnail>http://www.myliveafricatv.com/public/files/shows/10/10001/222-540x304-000000.jpg</thumbnail>
 
 
 </channel>
