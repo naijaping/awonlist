@@ -726,7 +726,7 @@
 
 <item>
 <title>Cine</title>
-<link>rtmp://wms.myliveafricatv.com:1935/ app=rtmp_mlalive/317 playpath=mainstream swfUrl=http://www.myliveafricatv.com/public/flash/player/wms/viewerModules/player/PlayerModule.swf?version=2.11.9 live=true timeout=15 pageUrl=http://www.myliveafricatv.com/show/cine-afrik</link> 
+<link>http://rrr.sz.xlcdn.com/?account=Un1ty&file=webwwwhiptv51845&type=live&service=wowza&protocol=http&output=playlist.m3u8</link> 
 <thumbnail>http://www.myliveafricatv.com/public/files/shows/10/10001/222-540x304-000000.jpg</thumbnail>
 
 
