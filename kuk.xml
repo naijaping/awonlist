@@ -752,14 +752,10 @@
 <item>
 <title>FOX SPORTS 1</title>
 <link>rtmp://31.220.0.206/redirect/foxy1 swfUrl=http://www.flashtv.co/ePlayerr.swf token=%ZZri(nKa@#Z pageUrl=http://www.flashtv.co live=1 timeout=15</link>
-<thumbnail></thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fox_sports_us_1.png</thumbnail>
 </item> 
 
-<item>
-<title>FOX SPORTS </title>
-<link>rtmp://31.220.0.206/redirect/foxy swfUrl=http://www.flashtv.co/ePlayerr.swf token=%ZZri(nKa@#Z pageUrl=http://www.flashtv.co live=1 timeout=15</link>
-<thumbnail></thumbnail>
-</item> 
+
 
 </channel>
 </channels>
