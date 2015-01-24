@@ -725,8 +725,8 @@
 </item>
 
 <item>
-<title>Koga</title>
-<link>rtmp://156.obj.netromedia.net/ app=KogaTV playpath=KogaTV swfUrl=http://player.netromedia.com/flowplayer.commercial-3.2.18.swf live=true timeout=15 pageUrl=http://player.netromedia.com/?ID=f9bb50ae-fcd8-4e00-8804-c738605a9b60&iframe=true&autoPlay=true timeout=15</link> 
+<title>Kogi</title>
+<link>rtmp://w1.vmnode.pw:2195/live playpath=elite11 swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://hostaccess.org/7-SFE-SZE-HOSTACCESS/media/elite11.php live=true timeout=20 rtmp://w1.vmnode.pw:1935/live playpath=elite1 swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://hostaccess.org/7-SFE-SZE-HOSTACCESS/media/elite1.php live=true timeout=20</link> 
 <thumbnail>http://www.myliveafricatv.com/public/files/shows/10/10001/222-540x304-000000.jpg</thumbnail>
 
 
