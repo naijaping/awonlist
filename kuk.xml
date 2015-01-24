@@ -726,15 +726,14 @@
 <thumbnail></thumbnail>
 
 <item>
-			<title>Now</title>
-
-				<link>$doregex[get-link]</link>
+			<title>coolhd</title>
+			<link>$doregex[get-link] timeout=20</link>
 				<regex>
 				<name>get-link</name>
-				<expres>"path": "(.*?)"</expres>
-				<page>http://nowwatchtvlive.me/sky-sports-3-hd-live-sky-sports-3-wwe-raw-sky-sports-3-online/</page>
-				</regex> 
-		</item>
+				<expres>"image":"","file":"(.*?)"</expres>
+				<page>http://www.sportnews24hour.com/p/bein-sports-11.html</page>
+				</regex>  
+			</item>
 
 
 </channel>
