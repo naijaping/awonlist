@@ -714,7 +714,7 @@
 
 <item>
 <title>joy</title>
-<link>$doregex[rtmp] app=2012BC9/default/ playpath=$doregex[path] live=1</link>
+<link>$doregex[rtmp] playpath=$doregex[path] live=1</link>
 <regex>
 <name>path</name>
 <expres>file': '(rtmp.*)'</expres>
