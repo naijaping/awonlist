@@ -725,8 +725,8 @@
 </item>
 
 <item>
-<title>Cine</title>
-<link>http://rrr.sz.xlcdn.com/?account=Un1ty&file=webwwwhiptv51845&type=live&service=wowza&protocol=http&output=playlist.m3u8</link> 
+<title>Koga</title>
+<link>rtmp://156.obj.netromedia.net/ app=KogaTV playpath=KogaTV swfUrl=http://player.netromedia.com/flowplayer.commercial-3.2.18.swf live=true timeout=15 pageUrl=http://player.netromedia.com/?ID=f9bb50ae-fcd8-4e00-8804-c738605a9b60&iframe=true&autoPlay=true timeout=15</link> 
 <thumbnail>http://www.myliveafricatv.com/public/files/shows/10/10001/222-540x304-000000.jpg</thumbnail>
 
 
