@@ -728,27 +728,16 @@
 
 
 <item>
-<title>Dan Yari Oli</title>
-<link>$doregex[url]</link>
+<title>Adult Only TV</title>
+<link>$doregex[getIlive]</link>
 <regex>
-<name>url</name>
-<expres>file: "([^"]*)</expres>
-<page>http://giniko.com/watch.php?id=159</page>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/70346',False,False)</expres>
+<page></page>
 </regex>
+<thumbnail></thumbnail>
 </item>
 
-
-<item>
-<title>Dan Yari</title>
-<link>http://nimlive1.giniko.com/danyarloli/danyarloli.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=159</page>
-<referer>http://www.giniko.com/country.php?id=80</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/voxafrica_afrique.png</thumbnail>
-</item>
 
 </channel>
 </channels>
