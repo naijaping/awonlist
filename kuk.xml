@@ -712,17 +712,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>joy</title>
-<link>$doregex[rtmp] playpath=$doregex[path] live=1</link>
-<regex>
-<name>path</name>
-<expres>file': '(rtmp.*)'</expres>
-<page>http://www.ghanalive.tv/joy-news/</page>
-<referer></referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/adom_tv_gh.png</thumbnail>
-</item>
+
 
 <item>
 <title>hia</title>
