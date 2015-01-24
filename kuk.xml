@@ -17,12 +17,12 @@
 <regex>
 <name>rtmp</name>
 <expres>base="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=webwwwhiptv51845&amp;ref=http://tv.ramalin.com/nig/hiptv.html&amp;type=live&amp;service=wowza&amp;output=smil</page>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=webwwwhiptv51845&amp;ref=http://tv.ramalin.com/nig/hiptv.html&amp;type=live&amp;service=wowza&amp;output=smil&amp;type=vdox&amp;provider=vdox</page>
 </regex>
 <regex>
 <name>path</name>
 <expres>src="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=webwwwhiptv51845&amp;ref=http://tv.ramalin.com/nig/hiptv.html&amp;type=live&amp;service=wowza&amp;output=smil</page>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=webwwwhiptv51845&amp;ref=http://tv.ramalin.com/nig/hiptv.html&amp;type=live&amp;service=wowza&amp;output=smil&amp;type=vdox&amp;provider=vdox</page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hip_tv_ng.png</thumbnail>
 </item>
