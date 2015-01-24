@@ -714,9 +714,9 @@
 
 <item>
 <title>joy</title>
-<link>$doregex[get-rtmp] app=2012BC9/default/ playpath=$doregex[path] live=1</link>
+<link>$doregex[rtmp] app=2012BC9/default/ playpath=$doregex[path] live=1</link>
 <regex>
-<name>get-rtmp</name>
+<name>path</name>
 <expres>file': '(rtmp.*)'</expres>
 <page>http://www.ghanalive.tv/joy-news/</page>
 <referer></referer>
