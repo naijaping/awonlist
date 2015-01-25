@@ -785,7 +785,7 @@
 
 <item>
 <title>MSNBC0</title>
-<link>rtmp://d.cdn.msnbclive.eu/edge playpath=Tcbc_live swfUrl="http://msnbclive.eu/player.swf pageUrl=http://msnbclive.eu live=1 timeout=15</link>
+<link>rtmp://d.cdn.msnbclive.eu/edge playpath=Tcbc_live swfUrl="http://msnbclive.eu/player.swf pageUrl=http://msnbclive.eu live=true timeout=15</link>
 </item>
 
 
