@@ -785,7 +785,7 @@
 
 <item>
 <title>MSNBC</title>
-<link>rtmp://a.cdn.msnbclive.eu/edge/cbc_live swfUrl="http://msnbclive.eu/player.swf pageUrl=http://msnbclive.eu live=true </link>
+<link>rtmp://a.cdn.msnbclive.eu/edge/ playpath=cbc_live swfUrl="http://msnbclive.eu/player.swf pageUrl=http://msnbclive.eu live=true </link>
 </item>
 
 
