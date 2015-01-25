@@ -782,6 +782,11 @@
 <link>rtmp://origin.tikilive.com:1935/show_tikilive/38292/ playpath=mainstream swfUrl="http://tv.filmover.com/glow/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
 </item>
 
+<item>
+<title>DOD</title>
+<link>rtmpe://46.246.124.93:1935/live playpath=sskys2 swfUrl="http://hdcast.org/eplayer.swf pageUrl=http://hdcast.org live=1 token=#yw%tt#w@kku timeout=15</link>
+</item>
+
 
 
 </channel>
