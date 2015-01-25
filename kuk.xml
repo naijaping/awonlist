@@ -777,7 +777,10 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Vov</title>
+<link>rtmp://origin.tikilive.com:1935/show_tikilive/38292/ playpath=mainstream swfUrl="http://tv.filmover.com/glow/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
+</item>
 
 
 
