@@ -738,7 +738,7 @@
 
 <item>
 <title>pop</title>
-<link>rtmp://rtmp.popeoftheplayers.pw:1935/redirect playpath=11 swfUrl=http://popeoftheplayers.pw/atdedead.swf token=#atd%%#$ZH pageUrl=http://popeoftheplayers.pw/player3.php?id=11&amp;width=620&amp;height=490 live=1 flashVer=WIN\16,0,0,235 timeout=15</link>
+<link>rtmp://rtmp.popeoftheplayers.pw:1935/redirect playpath=11 swfUrl=http://popeoftheplayers.pw/atdedead.swf token=#atd%%#$ZH pageUrl=http://popeoftheplayers.pw/player3.php?id=11&amp;width=620&amp;height=490 live=1 timeout=15</link>
 <thumbnail></thumbnail>
 </item> 
 
