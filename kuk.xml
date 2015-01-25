@@ -713,11 +713,11 @@
 </item>
 
 <item>
-<title>Adult Only TV</title>
-<link>$doregex[getIlive]</link>
+<title>CBS Sport</title>
+<link>$doregex[url]</link>
 <regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/70346',False,False)</expres>
+<name>url</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/espn/frame')</expres>
 <page></page>
 </regex>
 <thumbnail></thumbnail>
