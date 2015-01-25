@@ -778,15 +778,7 @@
 </item>
 
 
-<item>
-<title>toti</title>
-<link>rtmp://75.126.73.58:1935/transmissao/ playpath=26hd swfUrl=http://www.mastertv.biz/sistema/new-player/Player.swf pageUrl=http://www.mastertv.biz/sistema/logado/index.php?stream=transmissao&amp;app=26hd</link>
-</item>
 
-<item>
-<title>MSNBC</title>
-<link>rtmp://msnbclive.eu/edge playpath=cbc_live swfUrl="http://msnbclive.eu/player.swf pageUrl=http://msnbclive.eu live=true </link>
-</item>
 
 
 </channel>
