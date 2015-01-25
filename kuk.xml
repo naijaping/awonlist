@@ -783,8 +783,8 @@
 </item>
 
 <item>
-<title>Dd</title>
-<link>rtmpe://46.246.124.93:1935/l playpath=sskys2 swfUrl="http://hdcast.org/eplayer.swf pageUrl=http://hdcast.org live=1 token=#yw%tt#w@kku</link>
+<title>MOM</title>
+<link>rtmpe://46.246.124.93:1935/live playpath=sskys2 pageUrl=http://hdcast.org/ token=#yw%tt#w@kku timeout=20</link>
 </item>
 
 
