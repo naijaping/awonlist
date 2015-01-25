@@ -784,8 +784,8 @@
 </item>
 
 <item>
-<title>MSNBC</title>
-<link>http://msnbclive.eu playpath=Tcbc_live swfUrl="http://msnbclive.eu/player.swf pageUrl=http://msnbclive.eu/ live=1 timeout=15</link>
+<title>MSNB</title>
+<link>http://msnbclive.eu playpath=Tcbc_live swfUrl="http://msnbclive.eu/player.swf pageUrl=http://msnbclive.eu live=1 timeout=15</link>
 </item>
 
 
