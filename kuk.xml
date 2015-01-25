@@ -785,7 +785,7 @@
 
 <item>
 <title>MSNBC</title>
-<link>rtmp://d.cdn.msnbclive.eu/edge playpath=cbc_live  swfUrl="http://msnbclive.eu/player.swf pageUrl=http://www.livenewschat.eu/canada/ live=true </link>
+<link>rtmp://d.cdn.newschat.tv/edge playpath=cbc_live  swfUrl="http://msnbclive.eu/player.swf pageUrl=http://www.livenewschat.eu/canada/ live=true </link>
 </item>
 
 
