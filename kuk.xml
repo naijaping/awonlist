@@ -498,13 +498,7 @@
 
 <item>
 <title>Bein Sport 2</title>
-<link>$doregex[get-link] timeout=20</link>
-<regex>
-<name>get-link</name>
-<expres>stretching: "fill",
-           file: '(.*?)'</expres>
-<page>http://www.sportnews24hour.com/p/bein-sports-2.html</page>
-</regex>  
+<link>rtmp://142.4.217.26:1935/teledunet?idu=skylink/bein_sport_2_low</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>
 
@@ -639,11 +633,6 @@
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/corp/ee/espn_us.png</thumbnail>
-</item>
-
-<item>
-<title>iguideAR 1</title>
-<link>rtmp://46.165.220.225/iguide playpath=kcei6bxb8npfsae swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGD timeout=20</link>
 </item>
 
 <item>
