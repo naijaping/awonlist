@@ -737,8 +737,8 @@
 </item> 
 
 <item>
-<title>popi</title>
-<link>rtmp://rtmp.popeoftheplayers.pw:1935/redirect playpath=11 swfUrl=http://popeoftheplayers.pw/stylish.swf token=#atd%%#$ZH pageUrl=http://popeoftheplayers.pw live=1 flashVer=WIN\16,0,0,235 timeout=15</link>
+<title>popu</title>
+<link>rtmp://rtmp.popeoftheplayers.pw:1935/redirect playpath=11 swfUrl=http://popeoftheplayers.pw/atdedead.swf token=#atd%%#$ZH pageUrl=http://popeoftheplayers.pw live=1 flashVer=WIN\16,0,0,235 timeout=15</link>
 <thumbnail></thumbnail>
 </item> 
 
