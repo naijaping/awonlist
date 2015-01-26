@@ -889,6 +889,41 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>BBC 3 HD</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/70302',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>BBC 4 HD</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/703332',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>BBC News HD</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/70340',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 </channel>
 </channels>
 			
