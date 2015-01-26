@@ -925,8 +925,8 @@
 </item>
 
 <item>
-<title>mudo</title>
-<link>rtmp-raw=rtmpe://46.246.124.86:1935/live/ playpath=sskys2 token=#yw%tt#w@kku pageUrl=http://www.hdcast.org/ timeout=10</link>
+<title>mudi</title>
+<link>rtmp://46.246.124.86:1935/live/ playpath=sskys2 token=#yw%tt#w@kku pageUrl=http://www.hdcast.org/ timeout=10</link>
 </item>
 	
 </channel>
