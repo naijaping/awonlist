@@ -925,8 +925,8 @@
 </item>
 
 <item>
-<title> Myo HD</title>
-<link>rtmpe://46.246.124.93:1935/live playpath=sskys2 swfUrl="http://hdcast.org/eplayer.swf live=1 pageUrl=http://hdcast.org/ token=#yw%tt#w@kku flashver=WIN/16,0,0,253 timeout=20</link>
+<title> Myo</title>
+<link>rtmpe://46.246.124.93:1935/live playpath=sskys2 live=1 pageUrl=http://hdcast.org/hichrawi  token=#yw%tt#w@kku flashver=WIN/16,0,0,253 timeout=20</link>
 </item>
 	
 </channel>
