@@ -926,7 +926,7 @@
 
 <item>
 <title> HD</title>
-<link>rtmp://$OPT:rtmp-raw=rtmpe://46.246.124.86:1935/live/ playpath=wspf1 pageUrl=http://www.hdcast.org/ hichrawi token=‪#‎yw‬%tt#w@kk<link>
+<link>rtmp://$OPT:rtmp-raw=rtmpe://46.246.124.86:1935/live/ playpath=wspf1 pageUrl=http://www.hdcast.org/ hichrawi token=‪#‎yw‬%tt#w@kku</link>
 <item>
 	
 </channel>
