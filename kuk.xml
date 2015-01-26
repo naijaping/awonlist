@@ -784,7 +784,7 @@
 
 <item>
 <title>003</title>
-<link>rtmpe://46.246.124.93:1935/l playpath=sskys2 pageUrl=http://hdcast.org/ token=#yw%tt#w@kku timeout=20</link>
+<link>rtmpe://46.246.124.93:1935/l playpath=sskys2 http://hdcast.org/eplayer.swf pageUrl=http://hdcast.org/ token=#yw%tt#w@kku timeout=20</link>
 </item>
 
 
