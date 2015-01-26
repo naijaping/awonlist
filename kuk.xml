@@ -930,20 +930,9 @@
 </item>
 	
 <item>
-<title>Adom TV Ghana</title>
-<link>$doregex[get-rtmp] app=2012BC9/default/ playpath=$doregex[path] conn=S:OK swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://www.ghanalive.tv live=1 timeout=15</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file': '(rtmp.*)'</expres>
-<page>http://www.ghanalive.tv/adome-tv/</page>
-<referer></referer>
-</regex>
-<regex>
-<name>path</name>
-<expres>src="(.*)"</expres>
-<page>http://www.ghanalive.tv/adome-tv/</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/adom_tv_gh.png</thumbnail>
+<title>Canal Sport HD</title>
+<link>http://lswb-de-08.servers.octoshape.net:1935/live/kanalsport_2000k/HD.m3u8</link>
+<thumbnail></thumbnail>
 </item>	
 	
 </channel>
