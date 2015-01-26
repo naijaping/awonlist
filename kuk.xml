@@ -845,6 +845,28 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Itv 3</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/70327',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Itv 4</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/70328',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 </channel>
 </channels>
 			
