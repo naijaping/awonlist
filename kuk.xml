@@ -784,7 +784,7 @@
 
 <item>
 <title>SK2</title>
-<link>rtmpe://46.246.124.93:1935/live playpath=sskys2 swfUrl="http://hdcast.org/eplayer.swf live=1 pageUrl=http://hdcast.org/ token=#yw%tt#w@kku timeout=20</link>
+<link>rtmp://46.246.124.93:1935/live playpath=sskys2 swfUrl="http://hdcast.org/eplayer.swf live=1 pageUrl=http://hdcast.org/ token=#yw%tt#w@kku timeout=20</link>
 </item>
 
 
