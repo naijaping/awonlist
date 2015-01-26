@@ -792,6 +792,10 @@
 <link>rtmp://rtmp.popeoftheplayers.pw:1935/redirect playpath=14 swfUrl="http://popeoftheplayers.pw/atdedead.swf pageUrl=http://popeoftheplayers.pw live=1 token=#atd%#$ZH timeout=15</link>
 </item>
 
+<item>
+<title>Sky Sport One</title>
+<link>rtmp://rtmp.popeoftheplayers.pw:1935/redirect playpath=11 swfUrl="http://popeoftheplayers.pw/atdedead.swf pageUrl=http://popeoftheplayers.pw live=1 token=#atd%#$ZH timeout=15</link>
+</item>
 
 <item>
 <title>PiP</title>
