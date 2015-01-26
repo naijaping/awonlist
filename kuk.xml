@@ -515,9 +515,6 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>
 
-
-
-
 <item>
 <title>Bein Sport 4</title>
 <link>$doregex[get-link] timeout=20</link>
@@ -711,6 +708,12 @@
 <link>http://esioslive6-i.akamaihd.net/hls/live/202892/AL_P_ESP1_FR_FRA/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+<title>Eurosport 2</title>
+<link>rtmp://31.220.0.206/redirect/euro2 swfUrl=http://www.flashtv.co/ePlayerr.swf token=%ZZri(nKa@#Z pageUrl=http://www.flashtv.co live=1 flashVer=WIN\16,0,0,235 timeout=15</link>
+<thumbnail></thumbnail>
+</item> 
 
 <item>
 <title>CBS Sport</title>
