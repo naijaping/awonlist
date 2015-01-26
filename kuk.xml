@@ -802,6 +802,12 @@
 <link>rtmp://rtmp.popeoftheplayers.pw:1935/redirect playpath=10 swfUrl="http://popeoftheplayers.pw/atdedead.swf pageUrl=http://popeoftheplayers.pw live=1 token=#atd%#$ZH timeout=15</link>
 </item>
 
+<item>
+<title>Golf</title>
+<link>rtmp://31.220.0.206/redirect/golfx swfUrl=http://www.flashtv.co/ePlayerr.swf token=%ZZri(nKa@#Z pageUrl=http://www.flashtv.co live=1 flashVer=WIN\16,0,0,235 timeout=15</link>
+<thumbnail></thumbnail>
+</item> 
+
 </channel>
 </channels>
 			
