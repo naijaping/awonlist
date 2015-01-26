@@ -930,8 +930,14 @@
 </item>
 	
 <item>
-<title>Canal Sport HD</title>
+<title>Kanal Sport HD</title>
 <link>http://lswb-de-08.servers.octoshape.net:1935/live/kanalsport_2000k/HD.m3u8</link>
+<thumbnail></thumbnail>
+</item>	
+
+<item>
+<title>Big Ten Network</title>
+<link>http://bigten247.cdnak.bigtenhd.neulion.com/nlds/btn2go/btnnetwork/as/live/btnnetwork_hd_3000.m3u8</link>
 <thumbnail></thumbnail>
 </item>	
 	
