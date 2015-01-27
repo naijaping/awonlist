@@ -2,9 +2,9 @@
 
 <channels>
 <channel>
-    <name>Naija TV Channels</name>
-    <thumbnail>http://www.lyngsat-logo.com/logo/flag/az/ng.png</thumbnail>
-    <fanart>http://www.lyngsat-logo.com/logo/flag/az/ng.png</fanart>
+<name>Naija TV Channels</name>
+<thumbnail>http://www.lyngsat-logo.com/logo/flag/az/ng.png</thumbnail>
+<fanart>http://www.lyngsat-logo.com/logo/flag/az/ng.png</fanart>
  <item>
 <title>Nollywood Tv</title>
 <link>http://162.212.176.83:8080/map-nollywood-roku.m3u8</link>
@@ -87,7 +87,12 @@
 
 <item>
 <title>Silverbird TV</title>
-<link>rtmp://fml.12BC9.kappacdn.net/2012BC9 app=2012BC9/default/ playpath=silverbird_1200?f1eca87ea8908fd73af769d925d7bb787d9aca5cd15a3e1f1dcbfd3b4a347d28335e08f0627cbb90e9008538b52fb8afbc22812ccb00d0879837 swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://www.ghanalive.tv live=1 timeout=15</link>
+<link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://www.iafrica.tv/dbn/ swfVfy=true live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>'file': '([^']*)<expres>
+<page>http://www.iafrica.tv/dbn/</page>
+</regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/silverbird_tv.png</thumbnail>
 </item>
 
@@ -940,23 +945,10 @@
 <thumbnail></thumbnail>
 </item>	
 
-<item>
-<title>DBN</title>
-<link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://www.iafrica.tv/dbn/ swfVfy=true live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>'file': '([^']*)<expres>
-<page>http://www.iafrica.tv/dbn/</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 
-<item>
-<title> 5</title>
-<link>http://mobilestreaming.ilive.to:1935/edge/gaxc30yqb6euez3/playplist.m3u8</link>
-<thumbnail></thumbnail>
-</item>	
+
+
 
 
 	
