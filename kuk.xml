@@ -165,12 +165,11 @@
 
 <item>
 <title>Adom TV Ghana</title>
-<link>$doregex[get-rtmp] live=1</link>
+<link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://www.ghanalive.tv/adome-tv/ swfVfy=true live=1 timeout=15</link>
 <regex>
-<name>get-rtmp</name>
-<expres>file': '(rtmp.*)'</expres>
+<name>rtmp</name>
+<expres>'file': '([^']*)<expres>
 <page>http://www.ghanalive.tv/adome-tv/</page>
-<referer></referer>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/adom_tv_gh.png</thumbnail>
 </item>
@@ -942,18 +941,6 @@
 </item>	
 
 <item>
-<title>dome</title>
-<link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://www.ghanalive.tv/adome-tv/ swfVfy=true live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>'file': '([^']*)<expres>
-<page>http://www.ghanalive.tv/adome-tv/</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
 <title>DBN</title>
 <link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://www.iafrica.tv/dbn/ swfVfy=true live=1 timeout=15</link>
 <regex>
@@ -964,16 +951,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>goooo</title>
-<link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://www.ghanatvon.com/hip-tv.html swfVfy=true live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>'file': '([^']*)<expres>
-<page>http://www.ghanatvon.com/hip-tv.html</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
