@@ -520,13 +520,7 @@
 
 <item>
 <title>Bein Sport 3</title>
-<link>$doregex[get-link] timeout=20</link>
-<regex>
-<name>get-link</name>
-<expres>stretching: "fill",
-           file: '(.*?)'</expres>
-<page>http://www.sportnews24hour.com/p/bein-sports-3.html</page>
-</regex>  
+<link>rtmp://85.159.237.249:1935/gigi1/_definst_ playpath=gigi1 swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.ws timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>
 
