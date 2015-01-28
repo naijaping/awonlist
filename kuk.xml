@@ -954,7 +954,7 @@
 
 <item>
 <title>BET</title>
-<link>rtmp://93.174.95.125:1935/edge/_definst_/kexkxje3nqi6dtl&amp;uid=lbPub swfUrl=http://uppod.ru/player/uppod.swf pageUrl=http://uppod.ru live=1 timeout=15</link>
+<link>rtmp://93.174.95.125:1935/edge/_definst_/kexkxje3nqi6dtl playpath=lbPub swfUrl=http://uppod.ru/player/uppod.swf pageUrl=http://uppod.ru live=1 timeout=15</link>
 <thumbnail></thumbnail>
 </item>
 
