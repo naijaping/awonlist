@@ -953,7 +953,7 @@
 
 
 <item>
-<title>TNT</title>
+<title>Movie</title>
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
