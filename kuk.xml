@@ -964,13 +964,13 @@
 </item>
 
 <item>
-<title>eman</title>
-<link>http://nimlive1.giniko.com/emmanuel/emmanuel.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>em</title>
+<link>http://nimplus1.giniko.com/emmanuel/emmanuel.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
 <page>http://www.giniko.com/watch.php?id=116</page>
-<referer>http://www.giniko.com</referer>
+<referer>http://www.giniko.com/country.php?id=80</referer>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/voxafrica_afrique.png</thumbnail>
 </item>
