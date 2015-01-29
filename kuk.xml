@@ -941,7 +941,16 @@
 </item>	
 
 
-                       
+<item>
+                        <title>Canal + Deportes</title>
+                        <link>$doregex[rtmp] playpath=deportes swfUrl=http://privado.streamingfreetv.net/embed/noreproductor.php pageUrl=http://privado.streamingfreetv.net live=1 timeout=20</link>
+                        <regex>
+                        <name>rtmp</name>
+                        <expres>"file.*(rtmp[^&]*)</expres>
+                        <page>http://privado.streamingfreetv.net/embed/embed.php?channel=deportes&amp;w=670&amp;h=400</page>
+                        <referer>http://streamingfreetv.net</referer>
+                        </regex>
+                        </item>                       
 	
 </channel>
 </channels>
