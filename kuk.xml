@@ -940,7 +940,7 @@
 <thumbnail></thumbnail>
 </item>	
 
-<title>SKY SPORTS 2</title>
+<title>SKY000</title>
 <link>$doregex[rtmp] playpath=$doregex[path] token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
 <regex>
 <name>rtmp</name>
