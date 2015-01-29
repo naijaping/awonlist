@@ -940,7 +940,7 @@
 <thumbnail></thumbnail>
 </item>	
 
-<title>SKY000</title>
+<title>S2</title>
 <link>$doregex[rtmp] playpath=$doregex[path] token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
 <regex>
 <name>rtmp</name>
@@ -951,7 +951,7 @@
 <regex>
 <name>path</name>
 <expres>id='(.*?)'</expres>
-<page>http://theactionlive.com/livegamecr.php?id=skys1</page>
+<page>http://theactionlive.com/livegamecr.php?id=ssx2</page>
 <referer>http://cricfree.sx</referer>
 </regex>
 <thumbnail></thumbnail>
