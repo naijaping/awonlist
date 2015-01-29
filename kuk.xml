@@ -626,7 +626,6 @@
 <regex>
 <name>url</name>
 <expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/opcion-3/frame')</expres>
-<referer>http://vipracing.tv</referer>
 <page></page>
 </regex>
 </item>
