@@ -940,24 +940,23 @@
 <thumbnail></thumbnail>
 </item>	
 
-<item>
-                        <title>Sky Sports 1</title>
-                        <link>$doregex[streamer] playpath=$doregex[file] token=#atd%#$ZH swfUrl=http://static.surk.tv/atdedead.swf pageUrl=http://biggestplayer.me/ live=true timeout=15</link>
-                        <regex>
-                        <name>streamer</name>
-                        <expres>streamer=([^&]*)</expres>
-                        <page>http://biggestplayer.me/streamcr.php?id=168193&amp;width=620&amp;height=490</page>
-                        <referer>http://theactionlive.com/livegamecr.php?id=sky1&amp;width=620&amp;height=490&amp;stretching=</referer>
-                        </regex>
-                        <regex>
-                        <name>file</name>
-                        <expres>"file=([^&]*)</expres>
-                        <page>http://biggestplayer.me/streamcr.php?id=168193&amp;width=620&amp;height=490</page>
-                        <referer>http://theactionlive.com/livegamecr.php?id=sky1&amp;width=620&amp;height=490&amp;stretching=</referer>
-                        </regex>
-                       
-                        <thumbnail>http://3.bp.blogspot.com/-b3q2g-UxZwI/UVWzFcsgA_I/AAAAAAAAFY8/nmBHsWYdLCM/s1600/sky_sports1.png</thumbnail>
-                        </item>
+
+<title>SKY SPORTS 2</title>
+<link>$doregex[rtmp] playpath=$doregex[path] token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>flashvars=.*=(rtmp[^&]*)</expres>
+<page>http://biggestplayer.me/streamcr.php?id=$doregex[path]</page>
+<referer>http://theactionlive.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>id='(.*?)'</expres>
+<page>http://theactionlive.com/livegamecr.php?id=sky1</page>
+<referer>http://cricfree.sx</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 </channel>
 </channels>
