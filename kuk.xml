@@ -801,7 +801,7 @@
 </item>	
 
 <item>
-<title>S2</title>
+<title>Suku</title>
 <link>$doregex[rtmp] playpath=$doregex[path] token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
 <regex>
 <name>rtmp</name>
