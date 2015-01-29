@@ -942,22 +942,17 @@
 
 
 
-<title>SKY SPORTS 2</title>
-<link>$doregex[rtmp] playpath=$doregex[path] token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>flashvars=.*=(rtmp[^&]*)</expres>
-<page>http://biggestplayer.me/streamcr.php?id=$doregex[path]</page>
-<referer>http://theactionlive.com</referer>
-</regex>
-<regex>
-<name>path</name>
-<expres>id='(.*?)'</expres>
-<page>http://theactionlive.com/livegamecr.php?id=ssx2</page>
-<referer>http://cricfree.sx</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+<item>
+                        <title>BEIN Ñ </title>
+                        <thumbnail>http://2.bp.blogspot.com/-2Qt5BZs-IeM/UuelEp7-7qI/AAAAAAAAEXs/msFB5nScTes/s1600/bein-sports-espa%C3%B1ol-en-vivo-online-web-gratis-ver.jpg</thumbnail>
+                        <link>rtmp://173.192.105.210/live playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/channel/24090 live=true timeout=15</link>
+                        <regex>
+                        <name>file</name>
+                        <expres>'file': '([^']*)</expres>
+                        <page>http://castalba.tv/channel/24090</page>
+                        </regex>
+                        <thumbnail></thumbnail>
+                        </item>
 
 	
 </channel>
