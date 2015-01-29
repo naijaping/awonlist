@@ -653,7 +653,7 @@
 </item>
 	
 <item>
-<title>asia</title>
+<title>ESPN DEPORTES</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -711,7 +711,7 @@
 
 <item>
 <title>FOX SPORTS 1</title>
-<link>rtmp://31.220.0.206/redirect/foxy1 swfUrl=http://www.flashtv.co/ePlayerr.swf token=%ZZri(nKa@#Z pageUrl=http://www.flashtv.co live=1 timeout=15</link>
+<link>http://ukstream.myftp.org:1935/edge1/foxsports1.stream/playlist.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fox_sports_us_1.png</thumbnail>
 </item> 
 
