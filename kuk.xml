@@ -957,15 +957,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-                        <title>VipRacing 03</title>
-                        <link>$doregex[getVipRacing]</link>
-                        <regex>
-                        <name>getVipRacing</name>
-                        <expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/opcion-3/frame')</expres>
-                        <page></page>
-                        </regex>
-                        </item>
+
 	
 </channel>
 </channels>
