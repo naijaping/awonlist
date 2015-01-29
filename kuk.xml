@@ -951,7 +951,7 @@
 <regex>
 <name>path</name>
 <expres>id='(.*?)'</expres>
-<page>http://theactionlive.com/livegamecr.php?id=ssx2</page>
+<page>http://theactionlive.com/livegamecr.php?id=skys1</page>
 <referer>http://cricfree.sx</referer>
 </regex>
 <thumbnail></thumbnail>
