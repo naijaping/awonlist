@@ -801,18 +801,18 @@
 </item>	
 
 <item>
-<title>Suku</title>
+<title>SKYUUU</title>
 <link>$doregex[rtmp] playpath=$doregex[path] token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
 <regex>
 <name>rtmp</name>
 <expres>flashvars=.*=(rtmp[^&]*)</expres>
 <page>http://biggestplayer.me/streamcr.php?id=$doregex[path]</page>
-<referer>http://theactionlive.com</referer>
+<referer>http://cricfree.sx</referer>
 </regex>
 <regex>
 <name>path</name>
 <expres>id='(.*?)'</expres>
-<page>http://theactionlive.com/livegamecr.php?id=skys1</page>
+<page>http://cricfree.sx/update/skys1.php</page>
 <referer>http://cricfree.sx</referer>
 </regex>
 <thumbnail></thumbnail>
