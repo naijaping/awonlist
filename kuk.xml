@@ -941,7 +941,7 @@
 </item>	
 
 
-<item>http://cricfree.sx/update/skys2.php
+
 <title>SKY SPORTS 2</title>
 <link>$doregex[rtmp] playpath=$doregex[path] token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
 <regex>
