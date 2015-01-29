@@ -958,16 +958,14 @@
 </item>
 
 <item>
-<title>rush</title>
-<link>http://nimlive1.giniko.com/cnltv/cnltv.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=44</page>
-<referer>http://www.giniko.com/country.php?id=80</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/voxafrica_afrique.png</thumbnail>
-</item>
+                        <title>VipRacing 03</title>
+                        <link>$doregex[getVipRacing]</link>
+                        <regex>
+                        <name>getVipRacing</name>
+                        <expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/opcion-3/frame')</expres>
+                        <page></page>
+                        </regex>
+                        </item>
 	
 </channel>
 </channels>
