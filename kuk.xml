@@ -626,6 +626,7 @@
 <regex>
 <name>url</name>
 <expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/opcion-3/frame')</expres>
+<referer>http://vipracing.tv</referer>
 <page></page>
 </regex>
 </item>
@@ -940,16 +941,6 @@
 <thumbnail></thumbnail>
 </item>	
 
-<item>
-                        <title>Teledeporte</title>
-                        <link>$doregex[rtmp] playpath=teledeporte swfUrl=http://privado.streamingfreetv.net/embed/noreproductor.php pageUrl=http://privado.streamingfreetv.net live=1 timeout=20</link>
-                        <regex>
-                        <name>rtmp</name>
-                        <expres>"file.*(rtmp[^&]*)</expres>
-                        <page>http://privado.streamingfreetv.net/embed/embed.php?channel=teledeporte&amp;w=670&amp;h=400</page>
-                        <referer>http://streamingfreetv.net</referer>
-                        </regex>
-                        </item>
 
                        
 	
