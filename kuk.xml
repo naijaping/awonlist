@@ -855,6 +855,25 @@
 </regex>
 </item>
 
+
+<item>
+<title>Euro </title>
+<link>rtmp://31.220.0.206/redirect/eur1x swfUrl=http://www.flashtv.co/ePlayerr.swf token=%ZZri(nKa@#Z pageUrl=http://www.flashtv.co live=1 flashVer=WIN\16,0,0,235 timeout=15</link>
+<thumbnail></thumbnail>
+</item> 
+
+<item>
+<title> CNBC News</title>
+<link>rtmp://$doregex[rtmp]/edge/ playpath=cnbc_live swfUrl=http://msnbclive.eu/player.swf pageUrl=http://www.livenewschat.eu/stocks/&id=b60d2a118c0ccb47b25f4f4187777f39 live=1 timeout=10</link>
+<regex>
+<name>rtmp</name>
+<expres>"best":"([^"]*)</expres>
+<page>http://msnbclive.eu/server.json</page>
+<referer>http://www.livenewschat.eu/stocks/</referer>
+</regex>
+</item>
+
+
 </channel>
 </channels>
 			
