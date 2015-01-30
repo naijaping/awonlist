@@ -873,11 +873,7 @@
 </regex>
 </item>
 
-<item>
-<title>TV3</title>
-<link>rtmp://wms.myliveafricatv.com:1935/ app=rtmp_mlalive/182 playpath=mainstream swfUrl=http://www.myliveafricatv.com/public/flash/player/wms/viewerModules/player/PlayerModule.swf?version=2.11.9 live=true timeout=15 pageUrl=http://www.myliveafricatv.com/show/tv3</link>
-<thumbnail>http://www.myliveafricatv.com/public/files/shows/10/10001/182-540x304-000000.jpg</thumbnail>
-</item>
+
 
 
 
