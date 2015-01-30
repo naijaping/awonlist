@@ -844,6 +844,17 @@
 <thumbnail></thumbnail>
 </item> 
 
+<item>
+<title> CBC News (Canada)</title>
+<link>rtmp://$doregex[rtmp]/edge/ playpath=cbc_live swfUrl=http://msnbclive.eu/player.swf pageUrl=http://www.livenewschat.eu/canada/&id=b60d2a118c0ccb47b25f4f4187777f39 live=1 timeout=10</link>
+<regex>
+<name>rtmp</name>
+<expres>"best":"([^"]*)</expres>
+<page>http://msnbclive.eu/server.json</page>
+<referer>http://www.livenewschat.eu/canada/</referer>
+</regex>
+</item>
+
 </channel>
 </channels>
 			
