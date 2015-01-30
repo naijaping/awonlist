@@ -867,9 +867,11 @@
 </regex>
 </item>
 
-
-
-
+<item>
+<title>SkoKO </title>
+<link>plugin://plugin.video.youtube/?action=play_video&videoid=VYlQJbsVs48</link>
+<thumbnail></thumbnail>
+</item> 
 
 </channel>
 </channels>
