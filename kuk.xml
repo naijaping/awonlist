@@ -837,13 +837,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
-<item>
-<title>Euro </title>
-<link>rtmp://31.220.0.206/redirect/eur1x swfUrl=http://www.flashtv.co/ePlayerr.swf token=%ZZri(nKa@#Z pageUrl=http://www.flashtv.co live=1 flashVer=WIN\16,0,0,235 timeout=15</link>
-<thumbnail></thumbnail>
-</item> 
-
 <item>
 <title> CBC News (Canada)</title>
 <link>rtmp://$doregex[rtmp]/edge/ playpath=cbc_live swfUrl=http://msnbclive.eu/player.swf pageUrl=http://www.livenewschat.eu/canada/&id=b60d2a118c0ccb47b25f4f4187777f39 live=1 timeout=10</link>
@@ -867,11 +860,6 @@
 </regex>
 </item>
 
-<item>
-<title>SkoKO </title>
-<link>plugin://plugin.video.youtube/?action=play_video&videoid=VYlQJbsVs48</link>
-<thumbnail></thumbnail>
-</item> 
 
 </channel>
 </channels>
