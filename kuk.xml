@@ -907,7 +907,16 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>BBC 1 HD</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/70233',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bt_sport_1.png</thumbnail>
+</item>
 
 </channel>
 </channels>
