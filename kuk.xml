@@ -895,9 +895,10 @@
 </item>
 
 
-<item>	
-<title>Sky Newso</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=VYlQJbsVs48</link>
+<item>
+<title>TVSN TV</title>
+<link>http://tvsn-lh.akamaihd.net/i/TVSN_1@175541/master.m3u8</link>
+<thumbnail></thumbnail>
 </item>
 
 </channel>
