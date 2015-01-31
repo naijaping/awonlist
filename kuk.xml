@@ -895,11 +895,11 @@
 </item>
 
 <item>
-<title>Guide </title>
+<title>Guide 3</title>
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/view/30296/watch-live-b2-channel-for-free')</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/view/30296/watch-live-b2-channel-for-free',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail></thumbnail>
