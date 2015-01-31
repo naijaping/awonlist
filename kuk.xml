@@ -895,7 +895,10 @@
 </item>
 
 
-
+<item>	
+<title>Sky Newso</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=VYlQJbsVs48</link>
+</item>
 
 </channel>
 </channels>
