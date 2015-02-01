@@ -909,8 +909,8 @@
 </item>
 
 <item>
-<title>RCCG</title>
-<link>rtmp://50.97.200.187/livewayvideo_play/27 swfUrl=http://www.livewayvideo.com/assets/swf/player/player-licensed.swf pageUrl=www.livewayvideo.com live=1 timeout=15 flashVer=WIN\16,0,0,257</link>
+<title>winners</title>
+<link>http://78.129.234.50:1935/live/winnerschapel/playlist.m3u8?DVR</link>
 <thumbnail></thumbnail>
 </item> 
 
