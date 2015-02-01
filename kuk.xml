@@ -920,8 +920,11 @@
 <thumbnail></thumbnail>
 </item> 
 
-
-
+<item>
+<title>Yoruba</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=mFYSlkJAwU8</link>
+<thumbnail></thumbnail>
+</item> 
 
 </channel>
 </channels>
