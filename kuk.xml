@@ -918,6 +918,11 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bt_sport_1.png</thumbnail>
 </item>
 
+<item>	
+<title>Yoruba hood</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=V0o3mMMNiSk</link>
+</item>
+
 </channel>
 </channels>
 			
