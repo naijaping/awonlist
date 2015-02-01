@@ -908,7 +908,11 @@
 <link>http://chuta.videocdn.scaleengine.net/chuta-iphone/play/chuta/playlist.m3u8</link>
 </item>
 
-
+<item>
+<title>RCCG</title>
+<link>rtmp://50.97.200.187/livewayvideo_play/27 swfUrl=http://www.livewayvideo.com/assets/swf/player/player-licensed.swf pageUrl=www.livewayvideo.com live=1 timeout=15</link>
+<thumbnail></thumbnail>
+</item> 
 
 </channel>
 </channels>
