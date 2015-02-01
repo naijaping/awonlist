@@ -863,25 +863,21 @@
 <expres>vi\/([^\/]*)<expres>
 <page>https://www.youtube.com/user/skynews</page>
 </regex>
-
 <regex>
 <name>get-m3u8</name>
 <expres>hlsvp":"(.*?)"</expres>
 <page>https://www.youtube.com/watch?v=$doregex[get-id]</page>
 </regex>
-
 <regex>
 <name>get-utf8-url</name>
 <expres>$pyFunction:'$doregex[get-m3u8]'.replace('\\/','/')</expres>
 <page></page>
 </regex>
-
 <regex>
 <name>get-url</name>
 <expres>$pyFunction:'$doregex[get-utf8-url]'.decode('utf-8')</expres>
 <page></page>
 </regex>
-
 <regex>
 <name>get-final-url</name>
 <expres>1080\n(.*)\n</expres>
@@ -900,23 +896,12 @@
 <thumbnail></thumbnail>
 </item>
 
-
 <item>
 <title>TVSN TV</title>
 <link>http://tvsn-lh.akamaihd.net/i/TVSN_1@175541/master.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>BBC 1 HD</title>
-<link>$doregex[getIlive]</link>
-<regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/70233',False,False)</expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bt_sport_1.png</thumbnail>
-</item>
 
 <item>	
 <title>Yoruba hood</title>
