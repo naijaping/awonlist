@@ -1005,7 +1005,7 @@
 
 <streaminginfo>
 <item>
-<title>New 1080p</title>
+<title> TV: Sky Sports New 1080p</title>
 <link>$doregex[get-utf8-url]</link>
 
 <regex>
@@ -1021,11 +1021,12 @@
 </regex>
 <regex>
 <name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=Nz2nmODzmlA&feature=player_embedded')</expres>
+<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=VYlQJbsVs48&list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU&index=1')</expres>
 <page></page>
 </regex>
 </item>
 </streaminginfo>
+
 
 
 </channel>
