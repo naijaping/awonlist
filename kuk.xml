@@ -1004,7 +1004,7 @@
 
 <streaminginfo>
 <item>
-<title>youtube LIVE TV: Sky Sports New 1080p</title>
+<title>Sky News 1080p</title>
 <link>$doregex[get-utf8-url]</link>
 
 <regex>
