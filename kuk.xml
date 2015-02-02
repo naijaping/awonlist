@@ -958,7 +958,7 @@
 </item> 
 
 <item>
-<title>youtube LIVE TV: Sky</title>
+<title>Channels Tv</title>
 <link>$doregex[get-utf8-url]</link>
 <regex>
 <name>get-utf8-url</name>
@@ -974,6 +974,27 @@
 <regex>
 <name>url-quote</name>
 <expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=y1knc30OqKQ&feature=player_embedded')</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>youtube LIVE TV: Sky</title>
+<link>$doregex[get-utf8-url]</link>
+<regex>
+<name>get-utf8-url</name>
+<expres>$pyFunction:'$doregex[get-m3u8]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-m3u8</name>
+<expres>hlsvp":"(.*?)"</expres>
+<page>$pyFunction:urllib.urlopen('http://www.proxyusa.info/browse.php?u=$doregex[url-quote]&b=4&f=http://www.proxyusa.info/').read()</page>
+<referer>http://www.proxyusa.info/browse.php/</referer>
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=VYlQJbsVs48&feature=player_embedded')</expres>
 <page></page>
 </regex>
 </item>
