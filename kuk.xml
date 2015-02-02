@@ -1021,7 +1021,7 @@
 </regex>
 <regex>
 <name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=eRcfW2KekaM&feature=player_embedded')</expres>
+<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=Nz2nmODzmlA&feature=player_embedded')</expres>
 <page></page>
 </regex>
 </item>
