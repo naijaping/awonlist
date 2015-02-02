@@ -999,6 +999,29 @@
 </regex>
 </item>
 
+<streaminginfo>
+<item>
+<title>youtube LIVE TV: France 24</title>
+<link>$doregex[get-utf8-url]</link>
+
+<regex>
+<name>get-utf8-url</name>
+<expres>$pyFunction:'$doregex[get-m3u8]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-m3u8</name>
+<expres>hlsvp":"(.*?)"</expres>
+<page>$pyFunction:urllib.urlopen('http://www.proxyusa.info/browse.php?u=$doregex[url-quote]&b=4&f=http://www.proxyusa.info/').read()</page>
+<!--referer>http://www.proxyusa.info/browse.php/</referer-->
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=leHwozBWAgk&index=5&list=PLodiYTZs9Vaqz3mt ywce3y-GE8XiRF0sU')</expres>
+<page></page>
+</regex>
+</item>
+</streaminginfo>
 
 
 
