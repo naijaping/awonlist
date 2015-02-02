@@ -958,7 +958,7 @@
 </item> 
 
 <item>
-<title>youtube LIVE TV:</title>
+<title>youtube LIVE TV: Sky</title>
 <link>$doregex[get-utf8-url]</link>
 
 <regex>
@@ -974,7 +974,7 @@
 </regex>
 <regex>
 <name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=SWB6wT0F92Q&feature=player_embedded')</expres>
+<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=VYlQJbsVs48&feature=player_embedded')</expres>
 <page></page>
 </regex>
 </item>
