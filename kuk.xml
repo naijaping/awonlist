@@ -1005,7 +1005,7 @@
 
 <streaminginfo>
 <item>
-<title>youtube New 1080p</title>
+<title>New 1080p</title>
 <link>$doregex[get-utf8-url]</link>
 
 <regex>
