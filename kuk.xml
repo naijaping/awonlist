@@ -958,7 +958,7 @@
 </item> 
 
 <item>
-<title>youtube LIVE TV: CBC 2</title>
+<title>youtube LIVE TV:</title>
 <link>$doregex[get-utf8-url]</link>
 
 <regex>
@@ -970,7 +970,7 @@
 <name>get-m3u8</name>
 <expres>hlsvp":"(.*?)"</expres>
 <page>$pyFunction:urllib.urlopen('http://www.proxyusa.info/browse.php?u=$doregex[url-quote]&b=4&f=http://www.proxyusa.info/').read()</page>
-<!--referer>http://www.proxyusa.info/browse.php/</referer-->
+<referer>http://www.proxyusa.info/browse.php/</referer>
 </regex>
 <regex>
 <name>url-quote</name>
