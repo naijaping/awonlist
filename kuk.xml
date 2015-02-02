@@ -927,6 +927,14 @@
 <thumbnail></thumbnail>
 </item> 
 
+<item>
+<title>  NG \ Channels TV \ -251d</title>
+<link>rtmp://idsafrica.flashwebtown.com:1935/idschannels playpath=mystream live=true timeout=60</link>
+<thumbnail>none</thumbnail>
+</item> 
+
+
+
 </channel>
 </channels>
 			
