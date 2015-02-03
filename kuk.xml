@@ -51,7 +51,7 @@
 
 <item>
 <title>Channels Television</title>
-<link>rtmp://channelstv.ids-africa.com:1935/live playpath=mobile1 swfUrl=http://m.channelstv.com/player.swf pageUrl=http://m.channelstv.com</link>
+<link>rtmp://channelstv.ids-africa.com:1935/live playpath=mobile1 swfUrl=http://m.channelstv.com/player.swf pageUrl=http://m.channelstv.com live=1 timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/channels_tv_ng.png</thumbnail>
 </item>
 
