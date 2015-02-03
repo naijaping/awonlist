@@ -1020,16 +1020,7 @@
 </item>
 </streaminginfo>
 
-<item>
-<title> Youtube regex</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]&amp;list=PLl6IvhbhEqwwOBvbpTSNrwwyPKbizuvg-</link>
-<regex>
-<name>id</name>
-<expres>watch\?v=([^"]+)<expres>
-<page>https://www.youtube.com/channel/UCEXGDNclvmg6RW0vipJYsTQ</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
