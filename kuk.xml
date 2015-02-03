@@ -68,6 +68,7 @@
 <expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=y1knc30OqKQ&feature=player_embedded')</expres>
 <page></page>
 </regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/channels_tv_ng.png</thumbnail>
 </item>
 
 <item>
