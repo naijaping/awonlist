@@ -326,7 +326,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/38804',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/38804/Disney_%28HD%29-live-stream-channel?pw=iu973j',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/disney_channel_de.png</thumbnail>
@@ -337,7 +337,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/65510',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/65510/Disney_Jr_%5BHD%5D-live-stream-channel?pw=iu973j',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/disney_junior_us.png</thumbnail>
@@ -370,7 +370,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/52991',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/52991/Nickelodeon-live-stream-channel?pw=iu973j',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nickelodeon_us.png</thumbnail>
@@ -381,7 +381,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/65750',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/65750/Cartoon_Network_%5BHD%5D-live-stream-channel?pw=iu973j',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/cartoon_network_global.png</thumbnail>
@@ -392,7 +392,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/69582',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/69582/Tom_and_Jerry%3A_Robin_Hood_and_His_Merry_Mouse-live-stream-channel?pw=iu973j',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail></thumbnail>
@@ -498,7 +498,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/68875',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/68875/Gol_TV_%28HD%29-live-stream-channel?pw=iu973j',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/gol_tv.png</thumbnail>
@@ -625,7 +625,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/70189',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/70189/Setenta_Sport_%28HD%29-live-stream-channel?pw=iu973j',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/setanta_sports_asia.png</thumbnail>
@@ -657,7 +657,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/68874',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/68874/Bein_Sport_USA_%28HD%29-live-stream-channel?pw=iu973j',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail></thumbnail>
@@ -871,42 +871,13 @@
 </regex>
 </item>
 
-<item>
-<title>Sky News Youtube </title>
-<link>$doregex[get-final-url]</link>
-<regex>
-<name>get-id</name>
-<expres>vi\/([^\/]*)<expres>
-<page>https://www.youtube.com/user/skynews</page>
-</regex>
-<regex>
-<name>get-m3u8</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=$doregex[get-id]</page>
-</regex>
-<regex>
-<name>get-utf8-url</name>
-<expres>$pyFunction:'$doregex[get-m3u8]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>$pyFunction:'$doregex[get-utf8-url]'.decode('utf-8')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-final-url</name>
-<expres>1080\n(.*)\n</expres>
-<page>$doregex[get-url]</page>
-</regex>
-</item>
 
 <item>
 <title>Nat0</title>
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/62652',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/62652/Nat_Geo_Wild__%5BHD%5D-live-stream-channel?pw=iu973j',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail></thumbnail>
@@ -1021,16 +992,7 @@
 </streaminginfo>
 
 
-<item>
-<title>BT Sport 1 HD</title>
-<link>$doregex[getIlive]</link>
-<regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/68713/Sky_Sport_1_%28HD%29-live-stream-channel?pw=iu973j',False,False)</expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bt_sport_1.png</thumbnail>
-</item>
+
 
 
 
