@@ -994,7 +994,7 @@
 
 <item>
 <title>TV</title>
-<link>http://89.212.240.49:11980/live/smil:366_0.smil/playlist.m3u8</link>
+<link>rtmp://185.82.215.6:2555/stream/mila1</link>
 <thumbnail></thumbnail>
 </item> 
 
