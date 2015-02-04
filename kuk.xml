@@ -994,7 +994,7 @@
 
 <item>
 <title>TV</title>
-<link>rtmp://185.82.215.6:2555/stream/mila1</link>
+<link>http://83.139.104.108/Content/HLS/Live/Channel(eurosport_2)/Stream(03)/index.m3u8</link>
 <thumbnail></thumbnail>
 </item> 
 
