@@ -994,7 +994,7 @@
 
 <item>
 <title>TV</title>
-<link>http://cdn-07.sdn.si/fox/fox.isml/fox-video%3D1500000-audio101%3D128000.m3u8</link>
+<link>http://89.212.240.49:11980/live/smil:365_0.smil/playlist.m3u8?authorization_key=hNj0mnLtB9O5rfIKuCVsX7oWASQayqZg&stream_id=0</link>
 <thumbnail></thumbnail>
 </item> 
 
