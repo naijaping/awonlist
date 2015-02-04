@@ -909,12 +909,6 @@
 
 
 <item>
-<title>Yoruba</title>
-<link></link>
-<thumbnail></thumbnail>
-</item> 
-
-<item>
 <title> 4 Music TV</title>
 <link>http://csm-e.cds1.yospace.com/csm/live/86550614.m3u8</link>
 <thumbnail></thumbnail>
@@ -922,7 +916,7 @@
 
 <item>
 <title>Magic TV</title>
-<link>http://csm-e.tm.yospace.com/csm/live/78581293.m3u8?partnerId=463604</link>
+<link>http://csm-e.cds1.yospace.com/csm/live/86561776.m3u8</link>
 <thumbnail></thumbnail>
 </item> 
 
@@ -933,8 +927,8 @@
 </item> 
 
 <item>
-<title>BOX Music TV</title>
-<link>http://csm-e.cds1.yospace.com/csm/live/78581259.m3u8</link>
+<title>The BOX Music </title>
+<link>http://csm-e.cds1.yospace.com/csm/live/86561631.m3u8</link>
 <thumbnail></thumbnail>
 </item> 
 
