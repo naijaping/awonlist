@@ -994,7 +994,7 @@
 
 <item>
 <title>TV</title>
-<link>http://83.139.104.108/Content/HLS/Live/Channel(eurosport_2)/Stream(03)/index.m3u8</link>
+<link>http://hlsstr02.svc.iptv.rt.ru/hls/CH_BLUEHUSTLER/variant.m3u8</link>
 <thumbnail></thumbnail>
 </item> 
 
