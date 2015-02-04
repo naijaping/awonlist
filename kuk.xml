@@ -994,7 +994,7 @@
 
 <item>
 <title>TV</title>
-<link></link>
+<link>rtmp://185.82.215.2:2555/stream/HQSPORTZ swfUrl=http://p.jwpcdn.com/6/7/jwplayer.flash.swf pageUrl=http://p.jwpcdn.com live=true timeout=15</link>
 <thumbnail></thumbnail>
 </item> 
 
