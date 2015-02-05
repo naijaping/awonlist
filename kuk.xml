@@ -980,30 +980,6 @@
 </streaminginfo>
 
 
-<streaminginfo>
-<item>
-<title>Aljazeera Eng</title>
-<link>$doregex[get-utf8-url]</link>
-
-<regex>
-<name>get-utf8-url</name>
-<expres>$pyFunction:'$doregex[get-m3u8]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-m3u8</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://www.proxyusa.info/browse.php?u=$doregex[url-quote]&b=4&f=http://www.proxyusa.info/').read()</page>
-<!--referer>http://www.proxyusa.info/browse.php/</referer-->
-</regex>
-<regex>
-<name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=sQNXMi4sM5U&list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU&index=1')</expres>
-<page></page>
-</regex>
-</item>
-</streaminginfo>
-
 <item>
 <title>NTV </title>
 <link>http://hlsstr02.svc.iptv.rt.ru/hls/CH_SPORT1/variant.m3u8</link>
@@ -1021,6 +997,41 @@
 <link>http://origin.live.web.tv.streamprovider.net/streams/a820629b8abc43c73c76b091086c138a_live_0_0/index.m3u8</link>
 <thumbnail></thumbnail>
 </item> 
+
+
+<item>
+<title>AJ</title>
+<link>$doregex[get-final-url]</link>
+<regex>
+<name>get-id</name>
+<expres>vi\/([^\/]*)<expres>
+<page>https://www.youtube.com/user/AlJazeeraEnglish</page>
+</regex>
+
+<regex>
+<name>get-m3u8</name>
+<expres>hlsvp":"(.*?)"</expres>
+<page>https://www.youtube.com/watch?v=$doregex[get-id]</page>
+</regex>
+
+<regex>
+<name>get-utf8-url</name>
+<expres>$pyFunction:'$doregex[get-m3u8]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-url</name>
+<expres>$pyFunction:'$doregex[get-utf8-url]'.decode('utf-8')</expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-final-url</name>
+<expres>1080\n(.*)\n</expres>
+<page>$doregex[get-url]</page>
+</regex>
+</item>
 
 
 
