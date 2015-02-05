@@ -999,7 +999,7 @@
 </item> 
 
 <item>
-<title>Sofra</title>
+<title>Sora</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
