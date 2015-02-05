@@ -982,7 +982,7 @@
 
 <streaminginfo>
 <item>
-<title>Aljazeera English</title>
+<title>Aljazeera </title>
 link>$doregex[get-utf8-url]</link>
 
 <regex>
