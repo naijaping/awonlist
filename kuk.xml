@@ -562,25 +562,13 @@
 
 <item>
 <title>Bein Sport 8</title>
-<link>$doregex[get-link] timeout=20</link>
-<regex>
-<name>get-link</name>
-<expres>stretching: "fill",
-           file: '(.*?)'</expres>
-<page>http://www.sportnews24hour.com/p/bein-sports-8.html</page>
-</regex>  
+<link>rtmpe://167.114.101.234:1935/live?idu=ghayth12345_61813917360/bein_sport_8_low</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>	
 	
 <item>
 <title>Bein Sport 9</title>
-<link>$doregex[get-link] timeout=20</link>
-<regex>
-<name>get-link</name>
-<expres>stretching: "fill",
-           file: '(.*?)'</expres>
-<page>http://www.sportnews24hour.com/p/bein-sports-9.html</page>
-</regex>  
+<link>rtmpe://167.114.101.234:1935/live?idu=ghayth12345_61813917360/bein_sport_9_low</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>	
 
