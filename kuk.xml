@@ -1003,7 +1003,7 @@
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
 <page></page>
 </regex>
 <regex>
