@@ -983,7 +983,8 @@
 <streaminginfo>
 <item>
 <title>Aljazeera English</title>
-<link>$doregex[get-utf8-url]</link>
+link>$doregex[get-utf8-url]</link>
+
 <regex>
 <name>get-utf8-url</name>
 <expres>$pyFunction:'$doregex[get-m3u8]'.replace('\\/','/')</expres>
@@ -997,12 +998,11 @@
 </regex>
 <regex>
 <name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=sQNXMi4sM5U&index=2&list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU')</expres>
+<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=VYlQJbsVs48&list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU&index=2')</expres>
 <page></page>
 </regex>
 </item>
 </streaminginfo>
-
 
 <item>
 <title>NTV </title>
