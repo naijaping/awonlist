@@ -982,7 +982,7 @@
 
 <item>
 <title>NTV </title>
-<link>http://hlsstr02.svc.iptv.rt.ru/hls/CH_SPORT1/variant.m3u8</link>
+<link>rtmp://aljazeeraflashlivefs.fplive.net:1935/aljazeeraflashlive-live/aljazeera_ara_high</link>
 <thumbnail></thumbnail>
 </item> 
 
