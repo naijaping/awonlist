@@ -999,15 +999,7 @@
 </item> 
 
 
-<item>
-			<title>coolhd</title>
-			<link>$doregex[get-link] timeout=20</link>
-				<regex>
-				<name>get-link</name>
-				<expres>"image":"","file":"(.*?)"</expres>
-				<page>http://www.sportnews24hour.com/p/bein-sports-6.html</page>
-				</regex>  
-			</item>
+
 
 
 
