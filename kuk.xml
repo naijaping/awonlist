@@ -997,7 +997,7 @@
 </regex>
 <regex>
 <name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=sQNXMi4sM5U&list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU&index=1')</expres>
+<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=sQNXMi4sM5U&index=2&list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU')</expres>
 <page></page>
 </regex>
 </item>
