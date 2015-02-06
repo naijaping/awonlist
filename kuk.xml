@@ -968,12 +968,6 @@
 <thumbnail></thumbnail>
 </item> 
 
-<item>
-<title>F0000</title>
-<link>http://cdn-01.sdn.si/sporttv2/sporttv2.m3u8</link>
-<thumbnail></thumbnail>
-</item> 
-
 
 <streaminginfo>
 <item>
@@ -998,7 +992,18 @@
 </item>
 </streaminginfo>
 
+<item>
+<title>Info sport 1</title>
+<link>http://cdn-01.sdn.si/sporttv1/sporttv1.m3u8</link>
+<thumbnail></thumbnail>
+</item> 
 
+
+<item>
+<title>Info sport 2</title>
+<link>http://cdn-01.sdn.si/sporttv2/sporttv2.m3u8</link>
+<thumbnail></thumbnail>
+</item> 
 
 
 
