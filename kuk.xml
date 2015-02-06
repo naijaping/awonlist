@@ -1013,7 +1013,7 @@
 
 <item>
 <title>TEST</title>
-<link>rtmp-raw=rtmp://85.25.151.154:1939/mnocotv.com/ntvfutbol pageUrl=http://api-vk.kulertv.ru</link>
+<link>rtmp://85.25.151.154:1939/mnocotv.com/ntvfutbol pageUrl=http://api-vk.kulertv.ru</link>
 <thumbnail></thumbnail>
 </item> 
 
