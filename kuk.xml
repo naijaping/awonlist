@@ -264,7 +264,7 @@
 
 
 <item>
-<title>Al Jazeerah HD</title>
+<title>Al Jazeera HD</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -285,19 +285,27 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/al_jazeera_english.png</thumbnail>
 </item>
 
-
-
-
-
-
-
-
-
-
 <item>
-<title>Sky News</title>
-<link>http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/skynews/ls_satlink/b_,828,528,264,.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news_international.png</thumbnail>
+<title>France 24</title>
+<link>$doregex[get-utf8-url]</link>
+
+<regex>
+<name>get-utf8-url</name>
+<expres>$pyFunction:'$doregex[get-m3u8]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-m3u8</name>
+<expres>hlsvp":"(.*?)"</expres>
+<page>$pyFunction:urllib.urlopen('http://www.proxyusa.info/browse.php?u=$doregex[url-quote]&b=4&f=http://www.proxyusa.info/').read()</page>
+<!--referer>http://www.proxyusa.info/browse.php/</referer-->
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=BFwedk4dBCc&index=5&list=PLodiYTZs9Vaqz3mt ywce3y-GE8XiRF0sU')</expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/france24_english.png</thumbnail>
 </item>
 
 <item>
@@ -341,11 +349,6 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/capital_tv_uk.png</thumbnail>
 </item>
 
-<item>
-<title>Al Jazeera</title>
-<link>http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/aljazeera_en/ls_satlink/b_,264,528,828,.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/al_jazeera_english.png</thumbnail>
-</item>
 
 <item>
 <title>Bloomberg TV</title>
@@ -357,12 +360,6 @@
 <title>Press TV</title>
 <link>rtmp://204.107.26.252:8086/live/905.high.stream</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/press_tv.png</thumbnail>
-</item>
-
-<item>
-<title>France 24</title>
-<link>http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/france24_en/ls_satlink/b_,264,528,828,.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/france24_english.png</thumbnail>
 </item>
 
 <item>
