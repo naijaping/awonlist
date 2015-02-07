@@ -204,9 +204,9 @@
 </channel>
 
 <channel>
-<name>Sky News</name>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news_international.png</thumbnail>
-<fanart>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news_international.png</fanart>
+<name>UK News Channels</name>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news.png</thumbnail>
+<fanart>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news.png</fanart>
 
 <item>
 <title>Sky News</title>
