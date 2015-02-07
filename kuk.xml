@@ -335,8 +335,8 @@
 
 <channel>
 <name>All UK Music</name>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mtv_us.png</thumbnail>
-<fanart>http://www.lyngsat-logo.com/logo/tv/mm/mtv_us.png</fanart>
+<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/02/uk-music.jpg</thumbnail>
+<fanart>http://www.cityflavourmagazine.com/wp-content/uploads/2015/02/uk-music.jpg</fanart>
  <item>
 
 <item>
@@ -374,7 +374,32 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/capital_tv_uk.png</thumbnail>
 </item>
 
- </channel>  
+<item>
+<title> 4 Music TV</title>
+<link>http://csm-e.cds1.yospace.com/csm/live/86550614.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/channel4_music.png</thumbnail>
+</item> 
+
+<item>
+<title>Magic TV</title>
+<link>http://csm-e.cds1.yospace.com/csm/live/86561776.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/magic_tv_uk.png</thumbnail>
+</item> 
+
+<item>
+<title>Heat TV</title>
+<link>http://csm-e.cds1.yospace.com/csm/live/86561584.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/heat_tv_uk.png</thumbnail>
+</item> 
+
+<item>
+<title>The BOX Music </title>
+<link>http://csm-e.cds1.yospace.com/csm/live/86561631.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/the_box_uk.png</thumbnail>
+</item> 
+</channel> 
+
+
  <channel>
  <name>Aramide's Cartoon</name>
  <thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/SPONGEBOB.jpg</thumbnail>
