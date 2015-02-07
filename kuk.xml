@@ -589,12 +589,6 @@
 </item>
 
 <item>
-<title>Aljazeera International</title>
-<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live playpath=aljazeera_eng_high swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>Bein Sport 1</title>
 <link>rtmpe://167.114.101.234:1935/live?idu=ghayth12345_61813917360/bein_sport_1_low</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
@@ -842,12 +836,6 @@
 </item>
 
 <item>
-<title>Golf</title>
-<link>rtmp://31.220.0.206/redirect/golfx swfUrl=http://www.flashtv.co/ePlayerr.swf token=%ZZri(nKa@#Z pageUrl=http://www.flashtv.co live=1 flashVer=WIN\16,0,0,235 timeout=15</link>
-<thumbnail></thumbnail>
-</item> 
-
-<item>
 <title>Sky F1 HD</title>
 <link>rtmp://31.220.0.206/redirect/fx1 swfUrl=http://www.flashtv.co/ePlayerr.swf token=%ZZri(nKa@#Z pageUrl=http://www.flashtv.co live=1 flashVer=WIN\16,0,0,235 timeout=15</link>
 <thumbnail></thumbnail>
@@ -944,11 +932,6 @@
 </item>
 
 
-<item>	
-<title>ACBN</title>
-<link>http://chuta.videocdn.scaleengine.net/chuta-iphone/play/chuta/playlist.m3u8</link>
-</item>
-
 <item>
 <title>Winners Chapel Uk</title>
 <link>http://78.129.234.50:1935/live/winnerschapel/playlist.m3u8?DVR</link>
@@ -960,79 +943,6 @@
 <link>rtmp://148424709.r.worldcdn.net/148424709/_definst_/ playpath=livestream swfUrl=http://www.davidoyedepoministries.org/wp-content/themes/domi-revamp/libs/flowplayer/flowplayer-3.2.18.swf pageUrl=http://www.davidoyedepoministries.org live=true timeout=15</link>
 <thumbnail></thumbnail>
 </item> 
-
-
-<item>
-<title> 4 Music TV</title>
-<link>http://csm-e.cds1.yospace.com/csm/live/86550614.m3u8</link>
-<thumbnail></thumbnail>
-</item> 
-
-<item>
-<title>Magic TV</title>
-<link>http://csm-e.cds1.yospace.com/csm/live/86561776.m3u8</link>
-<thumbnail></thumbnail>
-</item> 
-
-<item>
-<title>Heat TV</title>
-<link>http://csm-e.cds1.yospace.com/csm/live/86561584.m3u8</link>
-<thumbnail></thumbnail>
-</item> 
-
-<item>
-<title>The BOX Music </title>
-<link>http://csm-e.cds1.yospace.com/csm/live/86561631.m3u8</link>
-<thumbnail></thumbnail>
-</item> 
-
-<streaminginfo>
-<item>
-<title>LIVE TV: France 24</title>
-<link>$doregex[get-utf8-url]</link>
-
-<regex>
-<name>get-utf8-url</name>
-<expres>$pyFunction:'$doregex[get-m3u8]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-m3u8</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://www.proxyusa.info/browse.php?u=$doregex[url-quote]&b=4&f=http://www.proxyusa.info/').read()</page>
-<!--referer>http://www.proxyusa.info/browse.php/</referer-->
-</regex>
-<regex>
-<name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=BFwedk4dBCc&index=5&list=PLodiYTZs9Vaqz3mt ywce3y-GE8XiRF0sU')</expres>
-<page></page>
-</regex>
-</item>
-</streaminginfo>
-
-<streaminginfo>
-<item>
-<title> TV: Sky Sports New 1080p</title>
-<link>$doregex[get-utf8-url]</link>
-<regex>
-<name>get-utf8-url</name>
-<expres>$pyFunction:'$doregex[get-m3u8]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-m3u8</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://www.proxyusa.info/browse.php?u=$doregex[url-quote]&b=4&f=http://www.proxyusa.info/').read()</page>
-<!--referer>http://www.proxyusa.info/browse.php/</referer-->
-</regex>
-<regex>
-<name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=VYlQJbsVs48&list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU&index=1')</expres>
-<page></page>
-</regex>
-</item>
-</streaminginfo>
-
 
 <item>
 <title>NTV </title>
@@ -1053,35 +963,11 @@
 </item> 
 
 
-<streaminginfo>
-<item>
-<title>Al Jazeerah</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://godfather-proxy.com/index.php?q=$doregex[url-quote]&amp;hl=280').read()</page>
-<referer>http://godfather-proxy.com</referer>
-</regex>
-<regex>
-<name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=sQNXMi4sM5U&index=2&list=PLodiYTZs9Vaqz3mt ywce3y-GE8XiRF0sU')</expres>
-<page></page>
-</regex>
-</item>
-</streaminginfo>
-
 <item>
 <title>Info sport 1</title>
 <link>http://cdn-01.sdn.si/sporttv1/sporttv1.m3u8</link>
 <thumbnail></thumbnail>
 </item> 
-
 
 <item>
 <title>Info sport 2</title>
@@ -1097,7 +983,7 @@
 
 <item>
 <title>NTV Futbol</title>
-<link>http://tv7.sunduk.tv:1935/fullhd/ngrp:CH163.stream_all/chunklist_b2396000.m3u8</link>
+<link></link>
 </item>
 
 
