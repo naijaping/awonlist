@@ -489,6 +489,29 @@
 </item>
 
 </channel>  
+
+<channel>
+<name>Naija Churches Live</name>
+<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/02/naijachurch.jpg</thumbnail>
+<fanart>http://www.cityflavourmagazine.com/wp-content/uploads/2015/02/naijachurch.jpg</fanart>
+
+<item>
+<title>Winners Chapel Uk</title>
+<link>http://78.129.234.50:1935/live/winnerschapel/playlist.m3u8?DVR</link>
+<thumbnail></thumbnail>
+</item> 
+
+<item>
+<title>Winners Chapel NG</title>
+<link>rtmp://148424709.r.worldcdn.net/148424709/_definst_/ playpath=livestream swfUrl=http://www.davidoyedepoministries.org/wp-content/themes/domi-revamp/libs/flowplayer/flowplayer-3.2.18.swf pageUrl=http://www.davidoyedepoministries.org live=true timeout=15</link>
+<thumbnail></thumbnail>
+</item> 
+	
+	
+</channel>  
+
+
+
 <channel>
 <name>Sport Channels</name>
 <thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/02/allsports.jpg</thumbnail>
