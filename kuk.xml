@@ -286,7 +286,7 @@
 </item>
 
 <item>
-<title>France 24</title>
+<title>France 24 HD</title>
 <link>$doregex[get-utf8-url]</link>
 
 <regex>
@@ -312,6 +312,24 @@
 <title>Russia Today HD</title>
 <link>http://odna.octoshape.net/f3f5m2v4/cds/ch1_720p/chunklist.m3u8?Vd?u#bt!25</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rt_america.png</thumbnail>
+</item>
+
+<item>
+<title>Bloomberg TV</title>
+<link>http://cdn3.videos.bloomberg.com/btv/us/master.m3u8?b?b*t$</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bloomberg_tv_us.png</thumbnail>
+</item>
+
+<item>
+<title>Press TV</title>
+<link>rtmp://204.107.26.252:8086/live/905.high.stream</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/press_tv.png</thumbnail>
+</item>
+
+<item>
+<title>London Live</title>
+<link>http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master_900.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ll/london_live_uk.png</thumbnail>
 </item>
 
 <item>
@@ -349,30 +367,11 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/capital_tv_uk.png</thumbnail>
 </item>
 
-
-<item>
-<title>Bloomberg TV</title>
-<link>http://cdn3.videos.bloomberg.com/btv/us/master.m3u8?b?b*t$</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bloomberg_tv_us.png</thumbnail>
-</item>
-
-<item>
-<title>Press TV</title>
-<link>rtmp://204.107.26.252:8086/live/905.high.stream</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/press_tv.png</thumbnail>
-</item>
-
-<item>
-<title>London Live</title>
-<link>http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master_900.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ll/london_live_uk.png</thumbnail>
-</item>
-
  </channel>  
-   <channel>
-    <name>Aramide's Cartoon</name>
-    <thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/SPONGEBOB.jpg</thumbnail>
-    <fanart>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/SPONGEBOB.jpg</fanart>
+ <channel>
+ <name>Aramide's Cartoon</name>
+ <thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/SPONGEBOB.jpg</thumbnail>
+ <fanart>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/SPONGEBOB.jpg</fanart>
 
 <item>
 <title>Disney</title>
