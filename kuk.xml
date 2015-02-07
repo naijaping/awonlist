@@ -203,6 +203,10 @@
 
 </channel>
 
+<channel>
+<name>Sky News</name>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news_international.png</thumbnail>
+<fanart>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news_international.png</fanart>
 
 <item>
 <title>Sky News</title>
@@ -225,9 +229,7 @@
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news_international.png</thumbnail>
 </item>
-
-
-
+</channel>
 
 <channel>		
 <name>UK TV Channels</name>
