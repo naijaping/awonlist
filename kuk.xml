@@ -206,7 +206,7 @@
 <channel>
 <streaminginfo>
 <item>
-<title>Sky News</title>
+<Name>Sky News</Name>
 <link>$doregex[get-utf8-url]</link>
 <regex>
 <name>get-utf8-url</name>
