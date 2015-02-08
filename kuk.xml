@@ -1016,15 +1016,7 @@
 
 
 <item>
-<title>[COLOR=FF00FF00][B][I] VIPRACING [/I][/B][/COLOR]</title>
-<link>$doregex[getVipRacing]</link>
-<regex>
-<name>getVipRacing</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/')</expres>
-<page></page>
-</regex>
-<thumbnail>http://www.ligafutbol.net/wp-content/2010/02/Roja_Directa_logo.jpg</thumbnail>
-<fanart>http://www.ligafutbol.net/wp-content/2010/02/Roja_Directa_logo.jpg</fanart>
+
 </item>
 
 
