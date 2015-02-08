@@ -1016,14 +1016,9 @@
 
 
 <item>
-<title>CO</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/roja-2')</expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nbc_sports_network.png</thumbnail>
+<title>test 1</title>
+<link>http://Ignoreme</link>
+<externallink>http://pastebin.com/raw.php?i=Y4hSiAqK&m3u</externallink>
 </item>
 
 
