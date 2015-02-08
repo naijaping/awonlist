@@ -1046,8 +1046,20 @@
 <cookieJar></cookieJar>
 </regex>
 <thumbnail></thumbnail>
-	
 </item>
+
+
+<item>
+        <title>FOXO</title>
+        <link>$doregex[url]</link>
+        <regex>
+        <name>url</name>
+        <expres>file: "([^"]*)</expres>
+        <page>http://www.wezatv.com/dooball/fox.php</page>
+        </regex>
+        <thumbnail>http://farm3.static.flickr.com/2706/4101283686_6ca896592c.jpg</thumbnail>
+        <fanart>http://oi58.tinypic.com/2572hzt.jpg</fanart>
+        </item>
                        
 
 
