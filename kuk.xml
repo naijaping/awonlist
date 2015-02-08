@@ -1016,55 +1016,7 @@
 
 
 <item>
-<title>[COLOR=yellow][B][I] GOL TV (OPCION 3) [/I][/B][/COLOR]</title>
-<link>$doregex[get_redirect] playpath=goltvrincon_91ehv5g swfUrl=http://www.spasswitz.com/jwplayer5/addplayer/jwplayer.flash.swf live=true token=@@stop-stole@@ timeout=15 pageUrl=$doregex[get_frame]</link>
-<regex>
-<name>get_frame</name>
-<expres>iframe\ssrc="([^"]+)</expres>
-<page>http://www.dinozap.info/redirect/channel.php?id=111&width=680&height=390&autostart=true</page>
-<referer>http://www.dinozap.info/</referer>
-<agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>get_hidd1</name>
-<expres>type="hidden"\sid="ssx1".*?value="([^"]*)</expres>
-<page>$doregex[get_frame]</page>
-<referer>http://www.dinozap.info/redirect/channel.php?id=111&width=650&height=400&autostart=true</referer>
-<agent></agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>get_hidd2</name>
-<expres>type="hidden"\sid="ssx4".*?value="([^"]*)</expres>
-<page>$doregex[get_frame]</page>
-<referer>http://www.dinozap.info/redirect/channel.php?id=10&width=680&height=390&autostart=true</referer>
-<agent></agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>get_641</name>
-<expres>$pyFunction:base64.b64decode('$doregex[get_hidd1]')</expres>
-<page></page>
-<agent></agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>get_642</name>
-<expres>$pyFunction:base64.b64decode('$doregex[get_hidd2]')</expres>
-<page></page>
-<agent></agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>get_redirect</name>
-<expres>$pyFunction:('$doregex[get_642]').replace('redirect/','vod')</expres>
-<page></page>
-<agent></agent>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://clientes.goltelevision.com/sites/all/themes/golt_theme/css/images/logo_gol_t_r2.png</thumbnail>
-<fanart>http://enelareachica.com/wp-content/uploads/2013/02/barcelona-69588.jpg</fanart>
+
 </item>
 
 
