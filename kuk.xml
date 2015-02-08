@@ -1040,7 +1040,7 @@
         <regex>
         <name>url</name>
         <expres>"video_src" href="(.*?)"</expres>
-        <page>http://oneplay.tv/ver/canal/100/mtv-live</page>
+        <page>http://oneplay.tv/ver/canal/92/mtv-live</page>
         <agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
         <cookieJar></cookieJar>
         </regex>
