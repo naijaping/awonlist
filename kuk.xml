@@ -1007,6 +1007,10 @@
 </item>
 
 
+<item>
+<title>HOLL</title>
+<link>rtmp://54.69.149.190:1935/live playpath=myStream swfUrl=http://www.davidoyedepoministries.org/wp-content/themes/domi-revamp/libs/flowplayer/flowplayer.rtmp-3.2.13.swf pageUrl=http://www.davidoyedepoministries.org live=true timeout=15</link>
+</item>
 
 
 
