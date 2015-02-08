@@ -1016,16 +1016,7 @@
 
 
 <item>
-<title>[COLOR=yellow][B][I] GOL TV (OPCION 2)  [/I][/B][/COLOR]</title>
-<link>$doregex[rtmp] playpath=gol swfUrl=http://privado.streamingfreetv.net/embed/noreproductor.php pageUrl=http://privado.streamingfreetv.net live=1 timeout=20</link>
-<regex>
-<name>rtmp</name>
-<expres>"file.*(rtmp[^&]*)</expres>
-<page>http://privado.streamingfreetv.net/embed/embed.php?channel=gol&w=670&h=400</page>
-<referer>http://streamingfreetv.net</referer>
-</regex>
-<thumbnail>http://clientes.goltelevision.com/sites/all/themes/golt_theme/css/images/logo_gol_t_r2.png</thumbnail>
-<fanart>http://www.correodelorinoco.gob.ve/wp-content/uploads/2013/04/Liga-de-Campeones.jpg</fanart>
+
 </item>
 
 
