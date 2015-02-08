@@ -1006,6 +1006,16 @@
 <link>http://180.250.29.12/jhos/beib3_3/1421536739/playlist.m3u8</link>
 </item>
 
+<item>
+<title>TVI</title>
+<link>rtmp://$doregex[rtmpip]/live playpath=tvidiis?id=215510 conn=S:OK ccommand=gaolVanusPobeleVoKosata;TRUE;TRUE swfUrl=http://www.mipsplayer.com/content/scripts/fplayer.swf pageUrl=http://www.mipsplayer.com live=1 timeout=20</link>
+<regex>
+<name>rtmpip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.mipsplayer.com:1935/loadbalancer</page>
+<referer>http://www.mipsplayer.com/content/scripts/fplayer.swf</referer>
+</regex>
+</item>
 
 
 
