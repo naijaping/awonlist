@@ -1014,6 +1014,26 @@
 
 
 
+<item>
+<title>Bein Sports 1</title>
+<link>rtmp://$doregex[rtmpip]$doregex[path] swfUrl=http://wds.liveall.tv/jwplayer.flash.swf pageUrl=http://wds.liveall.tv live=1 timeout=15</link>
+<regex>
+<name>rtmpip</name>
+<expres>source src="http...(.*?).pull</expres>
+<page>http://liveall.tv/player.php?streampage=loof834duducmybm</page>
+<referer>http://liveall.tv</referer>
+<agent>iPhone</agent>
+</regex>
+<regex>
+<name>path</name>
+<expres>v_part = '(.*?)'</expres>
+<page>http://liveall.tv/player.php?streampage=loof834duducmybm</page>
+<referer>http://liveall.tv</referer>
+<agent>iPhone</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 </channel>
