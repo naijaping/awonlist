@@ -1016,16 +1016,14 @@
 
 
 <item>
-<title>[COLOR=yellow][B][I] CANAL + LIGA (TORRENT) [/I][/B][/COLOR]</title>
-<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Canal + Liga</link>
+<title>Bein English</title>
+<link>$doregex[url]</link>
 <regex>
-<name>url</name>    
-<expres>this.loadPlayer\("([^"]*)</expres>
-<page>http://torrent-tv.ru/torrent-online.php?translation=9387</page>
-<referer></referer>
+<name>url</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/bein-english/frame')</expres>
+<page></page>
 </regex>
-<thumbnail>http://ocbtv.es/onewebstatic/4598d431c2-logo-canal-%2B-liga%20(1).png</thumbnail>
-<fanart>http://www.fondoswiki.com/Uploads/fondoswiki.com/ImagenesGrandes/gol-cristiano-ronaldo-0.jpg</fanart>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nbc_sports_network.png</thumbnail>
 </item>
 
 
