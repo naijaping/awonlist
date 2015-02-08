@@ -1016,16 +1016,8 @@
 
 
 <item>
-<title>[COLOR=FF00FF00][B][I] SUPERTENNIS HD (TORRENT) [/I][/B][/COLOR]</title>
-<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Supertenishd</link>
-<thumbnail>http://3.bp.blogspot.com/-gou-7PRn1Ok/T4w6p3SdkqI/AAAAAAAAAi8/jUvDf-zJ248/s640/SuperTennis.JPG</thumbnail>
-<fanart>http://elpalco.la/wp-content/uploads/2014/06/00849.jpg</fanart>
-<regex>
-<name>url</name>    
-<expres>this.loadPlayer\("([^"]*)</expres>
-<page>http://torrent-tv.ru/torrent-online.php?translation=9217</page>
-<referer></referer>
-</regex>
+
+
 </item>
 
 
