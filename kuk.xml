@@ -999,40 +999,22 @@
 </item> 
 
  
-
-
 <item>
 <title>NTV Futbol</title>
 <link>http://180.250.29.12/jhos/beib3_3/1421536739/playlist.m3u8</link>
 </item>
 
 
-<item>
-<title>HOLL</title>
-<link>http://sanfran01.netcasterstream.com:8081/live/domihigh/playlist.m3u8</link>
-</item>
 
 
 
-<item>
-<title>Beinni</title>
-<link>rtmp://$doregex[rtmpip]$doregex[path] swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv live=1 timeout=15</link>
-<regex>
-<name>rtmpip</name>
-<expres>source src="http...(.*?).pull</expres>
-<page>http://leton.tv/player.php?streampage=zzzf38w</page>
-<referer>http://leton.tv</referer>
-<agent>iPhone</agent>
-</regex>
-<regex>
-<name>path</name>
-<expres>v_part = '(.*?)'</expres>
-<page>http://leton.tv/player.php?streampage=zzzf38w</page>
-<referer>http://leton.tv</referer>
-<agent>iPhone</agent>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
+
+
+
+
+
+
 
 
 
