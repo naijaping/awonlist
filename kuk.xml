@@ -515,7 +515,7 @@
 
 <item>
 <title>Winners Chapel NG</title>
-<link>rtmp://148424709.r.worldcdn.net/148424709/_definst_/ playpath=livestream swfUrl=http://www.davidoyedepoministries.org/wp-content/themes/domi-revamp/libs/flowplayer/flowplayer-3.2.18.swf pageUrl=http://www.davidoyedepoministries.org live=true timeout=15</link>
+<link>rtmp://54.69.149.190:1935/live playpath=myStream swfUrl=http://www.davidoyedepoministries.org/wp-content/themes/domi-revamp/libs/flowplayer/flowplayer.rtmp-3.2.13.swf pageUrl=http://www.davidoyedepoministries.org live=true timeout=15</link>
 <thumbnail></thumbnail>
 </item> 
 	
@@ -1009,7 +1009,7 @@
 
 <item>
 <title>HOLL</title>
-<link>rtmp://54.69.149.190:1935/live playpath=myStream swfUrl=http://www.davidoyedepoministries.org/wp-content/themes/domi-revamp/libs/flowplayer/flowplayer.rtmp-3.2.13.swf pageUrl=http://www.davidoyedepoministries.org live=true timeout=15</link>
+<link>http://sanfran01.netcasterstream.com:8081/live/domihigh/playlist.m3u8</link>
 </item>
 
 
