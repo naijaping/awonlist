@@ -1029,7 +1029,16 @@
 </item>
 
 
-
+<item>
+<title>IGUID</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/view/29264/watch-live-Vipracing2-channel-for-free',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_mx_sports3.png</thumbnail>
+</item>
 
 
 
