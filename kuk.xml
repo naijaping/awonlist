@@ -1044,7 +1044,9 @@
 <agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://www.chingonatv.com/wp-content/uploads/2013/11/azteca-13-hd.png</thumbnail></item>
+<thumbnail></thumbnail>
+	
+</item>
                        
 
 
