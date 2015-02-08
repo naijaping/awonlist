@@ -1026,15 +1026,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nbc_sports_network.png</thumbnail>
 </item>
 
-<item>
-<title>VipRacing 06</title>
-<link>$doregex[getVipRacing]</link>
-<regex>
-<name>getVipRacing</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/opcion-6')</expres>
-<page></page>
- </regex>
- </item>	
+	
 
 
 
