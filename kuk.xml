@@ -1016,17 +1016,15 @@
 
 
 <item>
-<title>IGUIDe</title>
-<link>$doregex[getIlive]</link>
+<title>CO</title>
+<link>$doregex[url]</link>
 <regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/view/29264/watch-live-Vipracing2-channel-for-free')</expres>
+<name>url</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/roja-2')</expres>
 <page></page>
-<referer>http://vipracing.tv/channel/roja-2</referer>
 </regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_mx_sports3.png</thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nbc_sports_network.png</thumbnail>
 </item>
-
 
 
 
