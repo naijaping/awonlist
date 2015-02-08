@@ -1026,6 +1026,16 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nbc_sports_network.png</thumbnail>
 </item>
 
+<item>
+<title>Bein 4h</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/opcion-4/frame')</expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nbc_sports_network.png</thumbnail>
+</item>
 
 
 
