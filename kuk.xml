@@ -1027,13 +1027,13 @@
 </item>
 
 <item>
-<title>Bein 4h0000</title>
+<title>BeinNOOO</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/opcion-6/frame')</expres>
-<page>http://max-deportv.net/?canal=16</page>
-<referer>http://max-deportv.net</referer>
+<page>http://www.iguide.to/embedplayer_new.php?width=650&height=400&channel=30074&autoplay=true</page>
+<referer>http://www.iguide.to</referer>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nbc_sports_network.png</thumbnail>
 </item>
