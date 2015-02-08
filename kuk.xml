@@ -1027,16 +1027,11 @@
 </item>
 
 <item>
-<title>BeinNOOO</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/opcion-6/frame')</expres>
-<page>http://www.iguide.to/embedplayer_new.php?width=650&height=400&channel=30074&autoplay=true</page>
-<referer>http://www.iguide.to</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nbc_sports_network.png</thumbnail>
-</item>
+<title>Winnerooooo</title>
+<link>rtmp://live1.iguide.to/redirect playpath=urivc4whnh377l3 swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf pageUrl=http://max-deportv.net/?canal=16 live=true timeout=15 token=#ed%h0#w18623jsda6523lDGD</link>
+<thumbnail></thumbnail>
+</item> 
+	
 
 
 
