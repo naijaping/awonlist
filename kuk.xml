@@ -1016,20 +1016,16 @@
 
 
 <item>
-<title> CINE STAR HD </title>
-<link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=live_cine_star live=1 timeout=20</link>
+<title>[COLOR=yellow][B][I] CANAL + LIGA (TORRENT) [/I][/B][/COLOR]</title>
+<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Canal + Liga</link>
 <regex>
-<name>getIP</name>
-<expres>function getEdgeServers.*"(.*?),<expres>
-<page>http://vaughnlive.tv/embed/video/cine_star?viewers=true&watermark=left&autoplay=true</page>
+<name>url</name>    
+<expres>this.loadPlayer\("([^"]*)</expres>
+<page>http://torrent-tv.ru/torrent-online.php?translation=9387</page>
+<referer></referer>
 </regex>
-<regex>
-<name>getCODE</name>
-<expres>vsVars.*= "0m0(.*?)"<expres>
-<page>http://vaughnlive.tv/embed/video/cine_star?viewers=true&watermark=left&autoplay=true</page>
-</regex>
-<thumbnail>http://payload.cargocollective.com/1/0/12188/127616/cinestar2.jpg</thumbnail>
-<fanart>https://www.berlinale.de/media/bilder/allgemeines/orte/kinos/Cinestar_Event_Cinema_IMG_367xVAR.jpg</fanart>
+<thumbnail>http://ocbtv.es/onewebstatic/4598d431c2-logo-canal-%2B-liga%20(1).png</thumbnail>
+<fanart>http://www.fondoswiki.com/Uploads/fondoswiki.com/ImagenesGrandes/gol-cristiano-ronaldo-0.jpg</fanart>
 </item>
 
 
