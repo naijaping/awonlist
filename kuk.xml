@@ -1016,55 +1016,20 @@
 
 
 <item>
-<title>[COLOR=yellow][B][I] CANAL + LIGA [/I][/B][/COLOR]</title>
-<link>$doregex[get_redirect] playpath=ttt_91481i5 swfUrl=http://www.spasswitz.com/jwplayer5/addplayer/jwplayer.flash.swf live=true token=@@stop-stole@@ timeout=15 pageUrl=$doregex[get_frame]</link>
+<link>rtmp://50.7.69.242:1935/verdirectotvedge/_definst_/ app=verdirectotvedge/_definst_/?xs=_we_$doregex[rtmp] playpath=6ik3cdsewu48nt1 swfUrl=http://www.9stream.com/player/player_embed_iguide.swf pageUrl=http://www.9stream.com token=$doregex[tok] conn=S:OK live=1 timeout=10 </link>
 <regex>
-<name>get_frame</name>
-<expres>iframe\ssrc="([^"]+)</expres>
-<page>http://www.dinozap.info/redirect/channel.php?id=111&width=650&height=400&autostart=true</page>
-<referer>http://www.dinozap.info/</referer>
-<agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
-<cookieJar></cookieJar>
+<name>rtmp</name>
+<expres>xs=_we_([^"]*)</expres>
+<page>http://www.9stream.com/embedplayer.php?width=650&height=400&channel=149 &autoplay=true</page>
+<referer>http://www.9stream.com</referer>
 </regex>
 <regex>
-<name>get_hidd1</name>
-<expres>type="hidden"\sid="ssx1".*?value="([^"]*)</expres>
-<page>$doregex[get_frame]</page>
-<referer>http://www.dinozap.info/redirect/channel.php?id=111&width=650&height=400&autostart=true</referer>
-<agent></agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>get_hidd2</name>
-<expres>type="hidden"\sid="ssx4".*?value="([^"]*)</expres>
-<page>$doregex[get_frame]</page>
-<referer>http://www.dinozap.info/redirect/channel.php?id=10&width=680&height=390&autostart=true</referer>
-<agent></agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>get_641</name>
-<expres>$pyFunction:base64.b64decode('$doregex[get_hidd1]')</expres>
-<page></page>
-<agent></agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>get_642</name>
-<expres>$pyFunction:base64.b64decode('$doregex[get_hidd2]')</expres>
-<page></page>
-<agent></agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>get_redirect</name>
-<expres>$pyFunction:('$doregex[get_642]').replace('redirect/','vod')</expres>
-<page></page>
-<agent></agent>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://ocbtv.es/onewebstatic/4598d431c2-logo-canal-%2B-liga%20(1).png</thumbnail>
-<fanart>http://www.fondoswiki.com/Uploads/fondoswiki.com/ImagenesGrandes/gol-cristiano-ronaldo-0.jpg</fanart>
+<name>tok</name>
+<expres>token":"([^."]*)</expres>
+<page>http://www.9stream.com/server1.php?id=1406278125</page>
+<referer>http://www.9stream.com</referer>
+</regex> 
+<thumbnail>http://www.canalplus.es/images/LABS/images/plus02b.png</thumbnail>
 </item>
 
 
