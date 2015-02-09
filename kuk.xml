@@ -1130,22 +1130,7 @@
     </item>
     
     
-    <item>
-    <title>canal</title>
-    <link>rtmp://50.7.69.242:1935/verdirectotvedge/_definst_/ app=verdirectotvedge/_definst_/?xs=_we_$doregex[rtmp] playpath=6scmatteuxea4y8 swfUrl=http://www.9stream.com/player/player_embed_iguide.swf pageUrl=http://www.9stream.com token=$doregex[tok] conn=S:OK live=1 timeout=10 </link>
-    <regex>
-    <name>rtmp</name>
-    <expres>xs=_we_([^"]*)</expres>
-    <page>http://www.9stream.com/embedplayer.php?width=650&height=400&channel=104 &autoplay=true</page>
-    <referer>http://www.9stream.com</referer>
-    </regex>
-    <regex>
-    <name>tok</name>
-    <expres>token":"([^."]*)</expres>
-    <page>http://www.9stream.com/server1.php?id=1423455522</page>
-    <referer>http://www.9stream.com</referer>
-    </regex>
-    </item>
+    
 
 
 </channel>
