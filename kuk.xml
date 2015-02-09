@@ -1093,7 +1093,17 @@
                        </regex>
                        </item>
 
-
+<item>
+<title>Toto 5</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/64232/NBC_Sport_Networks_%28HD%29-live-stream-channel?pw=iu973j',False,False)</expres>
+<page>http://www.streamlive.to/embed/64232&width=640&height=480&autoplay=true</page>
+<referer>http://www.streamlive.to/</referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports5.png</thumbnail>
+</item>
 
 
 
