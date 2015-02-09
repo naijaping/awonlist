@@ -1093,8 +1093,8 @@
                        </regex>
                        </item>
 
-<item>
-    <title>Canal + Toros Opcion 2</title>
+     <item>
+    <title>Toros Opcion 2</title>
     <link>rtmp://50.7.69.242:1935/verdirectotvedge/_definst_/ app=verdirectotvedge/_definst_/?xs=_we_$doregex[rtmp]    playpath=5fhl0ebuehp2u4b swfUrl=http://www.9stream.com/player/player_embed_iguide.swf pageUrl=http://www.9stream.com token=$doregex[tok] conn=S:OK live=1 timeout=10 </link>
     <regex>
     <name>rtmp</name>
