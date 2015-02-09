@@ -765,12 +765,6 @@
 </item>
 
 <item>
-<title>GTV+</title>
-<link>rtmp://wms.streamafrik.com:1935/show_streamaflive/31/mainstream</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>BIG 10 HD</title>
 <link>http://bigten247.cdnak.bigtenhd.neulion.com/nlds/btn2go/btnnetwork/as/live/btnnetwork_hd_3000.m3u8</link>
 <thumbnail></thumbnail>
