@@ -1094,15 +1094,22 @@
                        </item>
 
 <item>
-<title>Totomiii 5</title>
-<link>$doregex[getIlive]</link>
+<title>[COLOR=yellow][B][I] CANAL + [/I][/B][/COLOR]</title>
+<link>rtmp://50.7.69.242:1935/verdirectotvedge/_definst_/ app=verdirectotvedge/_definst_/?xs=_we_$doregex[rtmp] playpath=puktehqfpp8pd9r swfUrl=http://www.9stream.com/player/player_embed_iguide.swf pageUrl=http://www.9stream.com token=$doregex[tok] conn=S:OK live=1 timeout=10 </link>
 <regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/64232/NBC_Sport_Networks_%28HD%29-live-stream-channel?pw=iu973j')</expres>
-<page>http://www.streamlive.to/embed/64232&width=640&height=480&autoplay=true</page>
-<referer>http://www.streamlive.to/</referer>
+<name>rtmp</name>
+<expres>xs=_we_([^"]*)</expres>
+<page>http://www.9stream.com/embedplayer.php?width=650&height=400&channel=75&autoplay=true</page>
+<referer>http://www.9stream.com</referer>
 </regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports5.png</thumbnail>
+<regex>
+<name>tok</name>
+<expres>token":"([^."]*)</expres>
+<page>http://www.9stream.com/server1.php?id=1406278125</page>
+<referer>http://www.9stream.com</referer>
+</regex>
+<thumbnail>http://www.canalplus.es/images/LABS/images/plus02b.png</thumbnail>
+<fanart>http://img.xatakahome.com/2013/09/yomvi-7.jpg</fanart>
 </item>
 
 
