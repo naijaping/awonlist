@@ -1079,21 +1079,6 @@
  </item>
         
 
-<item>
-<title>Club Terror</title>
-<thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/club_terror_320.jpg</thumbnail>
-                        <link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=live_club_terror live=1 timeout=20</link>
-                        <regex>
-                        <name>getIP</name>
-                        <expres>function getEdgeServers.*"(.*?),</expres>
-                        <page>http://vaughnlive.tv/club_terror</page>
-                        </regex>
-                        <regex>
-                        <name>getCODE</name>
-                        <expres>vsVars.*= "0m0(.*?)"<expres>
-                        <page>http://vaughnlive.tv/club_terror</page>
-                        </regex>
-                        </item>
 
 
 
