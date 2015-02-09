@@ -1095,6 +1095,19 @@
 
 
 
+<item>
+<title>[COLOR=FF00FF00][B][I] CANAL+ 2  [/I][/B][/COLOR]</title>
+<link>$doregex[rtmp] playpath=verplus28r7m06v swfUrl=http://vercosasgratis.com/player.swf token=I2cqEa7BEQVUqIS-uPflsg pageUrl=http://vercosasgratis.com live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>'streamer', '(.*?)'</expres>
+<page>http://vercosasgratis.com/embed.php?a=6545&id=&width=650&height=400</page>
+</regex>
+<thumbnail>http://www.todotele.com/wp-content/uploads/2010/08/LOGO-CANAL+-Dos.jpg</thumbnail>
+<fanart>http://www.2.cinercia.es/wp-content/uploads/2014/11/bdcfb44651.jpg</fanart>
+</item>
+
+
 </channel>
 </channels>
 			
