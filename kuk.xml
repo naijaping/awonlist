@@ -1078,7 +1078,20 @@
  </regex>
  </item>
         
-
+<item>
+                        <title>[COLOR  lime]Alx[/COLOR]</title>
+                        <link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=live_alx_nxtv live=1 timeout=20</link>
+                        <regex>
+                        <name>getIP</name>
+                        <expres>function getEdgeServers.*"(.*?),<expres>
+                       <page>http://vaughnlive.tv/alx_nxtv</page>
+                       </regex>
+                       <regex>
+                       <name>getCODE</name>
+                       <expres>vsVars.*= "0m0(.*?)"<expres>
+                       <page>http://vaughnlive.tv/alx_nxtv</page>
+                       </regex>
+                       </item>
 
 
 
