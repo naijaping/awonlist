@@ -1079,17 +1079,17 @@
  </item>
         
 <item>
-                        <title>[COLOR  lime]Alx[/COLOR]</title>
-                        <link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=live_alx_nxtv live=1 timeout=20</link>
+                        <title>[COLOR  lime]mega[/COLOR]</title>
+                        <link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=mega_movieshd live=1 timeout=20</link>
                         <regex>
                         <name>getIP</name>
                         <expres>function getEdgeServers.*"(.*?),<expres>
-                       <page>http://vaughnlive.tv/alx_nxtv</page>
+                       <page>http://vaughnlive.tv/mega_movieshd</page>
                        </regex>
                        <regex>
                        <name>getCODE</name>
                        <expres>vsVars.*= "0m0(.*?)"<expres>
-                       <page>http://vaughnlive.tv/alx_nxtv</page>
+                       <page>http://vaughnlive.tv/mega_movieshd</page>
                        </regex>
                        </item>
 
