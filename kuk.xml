@@ -1083,7 +1083,16 @@
  </regex>
  </item>
         
-         
+
+<item>
+<title>Fight Channel</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"<expres>
+<page>http://herer.tv/musica/mtv/</page>
+</regex>
+</item>           
 
 
 </channel>
