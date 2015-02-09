@@ -1012,28 +1012,28 @@
 
 
 <item>
-        <title>MTV HD</title>
-        <link>$doregex[url]$doregex[analytics]|Cookie=$get_cookies$&amp;Referer=http://oneplay.tv/one-player/GrindPlayer.swf&amp;User-Agent=iPad</link>
-        <regex>
-        <name>analytics</name>
-        <expres></expres>
-        <page>http://live.oneplay.tv/analytics.php?id=429</page>
-        <referer>http://oneplay.tv/embed/?i=92&amp;n=MTV+LIVE&amp;w=100%&amp;h=480</referer>
-        <agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
-        <cookieJar></cookieJar>
-        </regex>
-        <regex>
-        <name>url</name>
-        <expres>"video_src" href="(.*?)"</expres>
-        <page>http://oneplay.tv/ver/canal/92/mtv-live</page>
-        <agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
-        <cookieJar></cookieJar>
-        </regex>
-        <thumbnail></thumbnail>
-        </item>	
+<title>MTV HD</title>
+<link>$doregex[url]$doregex[analytics]|Cookie=$get_cookies$&amp;Referer=http://oneplay.tv/one-player/GrindPlayer.swf&amp;User-Agent=iPad</link>
+<regex>
+<name>analytics</name>
+<expres></expres>
+<page>http://live.oneplay.tv/analytics.php?id=429</page>
+<referer>http://oneplay.tv/embed/?i=92&amp;n=MTV+LIVE&amp;w=100%&amp;h=480</referer>
+<agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>url</name>
+<expres>"video_src" href="(.*?)"</expres>
+<page>http://oneplay.tv/ver/canal/92/mtv-live</page>
+<agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+</item>	
 
 <item>
-<title>Azteca Novelas</title>
+<title>VH1</title>
 <link>$doregex[url]$doregex[analytics]|Cookie=$get_cookies$&amp;Referer=http://oneplay.tv/one-player/GrindPlayer.swf&amp;User-Agent=iPad</link>
 <regex>
 <name>analytics</name>
@@ -1079,55 +1079,56 @@
  </item>
         
 <item>
-                        <title>[COLOR  lime]mega[/COLOR]</title>
-                        <link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=live_mega_movieshd live=1 timeout=20</link>
-                        <regex>
-                        <name>getIP</name>
-                        <expres>function getEdgeServers.*"(.*?),<expres>
-                       <page>http://vaughnlive.tv/mega_movieshd</page>
-                       </regex>
-                       <regex>
-                       <name>getCODE</name>
-                       <expres>vsVars.*= "0m0(.*?)"<expres>
-                       <page>http://vaughnlive.tv/mega_movieshd</page>
-                       </regex>
-                       </item>
+<title>[COLOR  lime]mega[/COLOR]</title>
+<link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=live_mega_movieshd live=1 timeout=20</link>
+<regex>
+<name>getIP</name>
+<expres>function getEdgeServers.*"(.*?),<expres>
+<page>http://vaughnlive.tv/mega_movieshd</page>
+</regex>
+<regex>
+<name>getCODE</name>
+<expres>vsVars.*= "0m0(.*?)"<expres>
+<page>http://vaughnlive.tv/mega_movieshd</page>
+</regex>
+</item>
 
-     <item>
-    <title>Toros Opcion 2</title>
-    <link>rtmp://50.7.69.242:1935/verdirectotvedge/_definst_/ app=verdirectotvedge/_definst_/?xs=_we_$doregex[rtmp] playpath=5fhl0ebuehp2u4b swfUrl=http://www.9stream.com/player/player_embed_iguide.swf pageUrl=http://www.9stream.com token=$doregex[tok] conn=S:OK live=1 timeout=10 </link>
-    <regex>
-    <name>rtmp</name>
-    <expres>xs=_we_([^"]*)</expres>
-    <page>http://www.9stream.com/embedplayer.php?width=650&height=400&channel=97 &autoplay=true</page>
-    <referer>http://www.9stream.com</referer>
-    </regex>
-    <regex>
-    <name>tok</name>
-    <expres>token":"([^."]*)</expres>
-    <page>http://www.9stream.com/server1.php?id=1406278125</page>
-    <referer>http://www.9stream.com</referer>
-    </regex>
-    </item>
+
+<item>
+<title>Toros Opcion 2</title>
+<link>rtmp://50.7.69.242:1935/verdirectotvedge/_definst_/ app=verdirectotvedge/_definst_/?xs=_we_$doregex[rtmp] playpath=5fhl0ebuehp2u4b swfUrl=http://www.9stream.com/player/player_embed_iguide.swf pageUrl=http://www.9stream.com token=$doregex[tok] conn=S:OK live=1 timeout=10 </link>
+<regex>
+<name>rtmp</name>
+<expres>xs=_we_([^"]*)</expres>
+<page>http://www.9stream.com/embedplayer.php?width=650&height=400&channel=97 &autoplay=true</page>
+<referer>http://www.9stream.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^."]*)</expres>
+<page>http://www.9stream.com/server1.php?id=1406278125</page>
+<referer>http://www.9stream.com</referer>
+</regex>
+</item>
 
 
 
 <item>
-    <title>hustler</title>
-    <link>rtmp://50.7.69.242:1935/verdirectotvedge/_definst_/ app=verdirectotvedge/_definst_/?xs=_we_$doregex[rtmp] playpath=ulbirxt4st3gtdh swfUrl=http://www.9stream.com/player/player_embed_iguide.swf pageUrl=http://www.9stream.com token=$doregex[tok] conn=S:OK live=1 timeout=10 </link>
-    <regex>
-    <name>rtmp</name>
-    <expres>xs=_we_([^"]*)</expres>
-    <page>http://www.9stream.com/embedplayer.php?width=650&height=400&channel=159 &autoplay=true</page>
-    <referer>http://www.9stream.com</referer>
-    </regex>
-    <regex>
-    <name>tok</name>
-    <expres>token":"([^."]*)</expres>
-    <page>http://www.9stream.com/server1.php?id=1423455522</page>
-    <referer>http://www.9stream.com</referer>
-    </regex>
-    </item>
+<title>hustler</title>
+<link>rtmp://50.7.69.242:1935/verdirectotvedge/_definst_/ app=verdirectotvedge/_definst_/?xs=_we_$doregex[rtmp] playpath=ulbirxt4st3gtdh swfUrl=http://www.9stream.com/player/player_embed_iguide.swf pageUrl=http://www.9stream.com token=$doregex[tok] conn=S:OK live=1 timeout=10 </link>
+<regex>
+<name>rtmp</name>
+<expres>xs=_we_([^"]*)</expres>
+<page>http://www.9stream.com/embedplayer.php?width=650&height=400&channel=159 &autoplay=true</page>
+<referer>http://www.9stream.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^."]*)</expres>
+<page>http://www.9stream.com/server1.php?id=1423455522</page>
+<referer>http://www.9stream.com</referer>
+</regex>
+</item>
     
     
     
