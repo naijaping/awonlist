@@ -341,12 +341,7 @@
 
 <item>
 <title>MTV</title>
-<link>$doregex[get-url]</link>
-<regex>
-<name>get-url</name>
-<expres>file: "(.*?)"<expres>
-<page>http://herer.tv/internacional/mtv/</page>
-</regex>
+<link>http://83.139.104.108/Content/HLS/Live/Channel(mtv_music)/index.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mtv_us.png</thumbnail>
 </item>
 
@@ -1084,10 +1079,7 @@
  </item>
         
 
-<item>
-<title><title>Beinuuu</title>
-<link>http://83.139.104.108/Content/HLS/Live/Channel(mtv_music)/index.m3u8</link>
-</item>
+
 
 
 </channel>
