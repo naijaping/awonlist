@@ -1078,16 +1078,7 @@
  </regex>
  </item>
         
-<item>
-<title>Ten Action</title>
-<link>rtmp://$doregex[rtmpip]/live playpath=c247tenaction?id=24249 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv live=1 timeout=20</link>
-<regex>
-<name>rtmpip</name>
-<expres>redirect=(.*)</expres>
-<page>http://www.janjua.tv:1935/loadbalancer</page>
-<referer>http://www.janjua.tv/resources/scripts/eplayer.swf</referer>
-</regex>
-</item>    
+
 
 
 
