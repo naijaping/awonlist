@@ -1085,14 +1085,14 @@
         
 
 <item>
-<title>Fight Channel</title>
+<title>Fight Channelo</title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
 <expres>file: "(.*?)"<expres>
-<page>http://herer.tv/musica/mtv/</page>
+<page>http://herer.tv/deportes/fight-channel/</page>
 </regex>
-</item>           
+</item>       
 
 
 </channel>
