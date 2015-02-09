@@ -1060,15 +1060,29 @@
 
 
 <item>
-<title>Bein Ñ0</title>
-<link>$doregex[rtmp] playpath=ver8s6fdyg swfUrl=http://http://freetvcast.pw/player.swf token=#ed%h0#w@12Fuck pageUrl=http://freetvcast.pw live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>'streamer','(.*?)'</expres>
-<page>http://freetvcast.pw/embed.php?a=2696</page>
-</regex>
-<thumbnail></thumbnail>
-</item>       
+ <title>Bein Ñ Opcion 2</title>
+ <link>$doregex[rtmp] playpath=$doregex[path] swfUrl=$doregex[swf] pageUrl=http://castalba.tv swfVfy=true live=true timeout=10</link>
+ <regex>
+ <name>rtmp</name>
+ <expres>'streamer': '([^']*)<expres>
+ <page>http://castalba.tv/embed.php?cid=24090</page>
+ <referer>http://castalba.tv/</referer>
+ </regex>
+ <regex>
+ <name>path</name>
+ <expres>'file': '([^']*)<expres>
+ <page>http://castalba.tv/embed.php?cid=24090</page>
+ <referer>http://castalba.tv/</referer>
+ </regex>
+ <regex>
+ <name>swf</name>
+ <expres>'flashplayer': "([^"]*)<expres>
+ <page>http://castalba.tv/embed.php?cid=24090</page>
+ <referer>http://castalba.tv/</referer>
+ <agent></agent>
+ </regex>
+ </item>
+        
          
 
 
