@@ -1182,8 +1182,8 @@
 </item>	   
    
  <item>
-                        <title>beIN  Ñ  op.1</title>
-                        <link>$doregex[rtmp] playpath=ver8s6fdyg swfUrl=http://http://freetvcast.pw/player.swf token=Ja3HEppmi4XRK8m75te-AA pageUrl=http://freetvcast.pw live=1 timeout=15</link>
+                        <title>beIN  Ñ  op.10</title>
+                        <link>$doregex[rtmp] playpath=ver8s6fdyg swfUrl=http://freetvcast.pw/player.swf token=Ja3HEppmi4XRK8m75te-AA pageUrl=http://freetvcast.pw live=1 timeout=15</link>
                         <regex>
                         <name>rtmp</name>
                         <expres>'streamer', '(.*?)'</expres>
