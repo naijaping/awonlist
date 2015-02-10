@@ -1160,7 +1160,26 @@
    
 
     
-   
+<item>
+<title>FOXO HD</title>
+<link>$doregex[url]$doregex[analytics]|Cookie=$get_cookies$&amp;Referer=http://oneplay.tv/one-player/GrindPlayer.swf&amp;User-Agent=iPad</link>
+<regex>
+<name>analytics</name>
+<expres></expres>
+<page>http://live.oneplay.tv/analytics.php?id=397</page>
+<referer>http://oneplay.tv/embed/?i=89&amp;n=FOX+SPORT&amp;w=100%&amp;h=480</referer>
+<agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>url</name>
+<expres>"video_src" href="(.*?)"</expres>
+<page>http://oneplay.tv/ver/canal/89/fox-sport</page>
+<agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+</item>	   
    
 
 </channel>
