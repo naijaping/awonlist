@@ -1142,12 +1142,20 @@
         </regex>
         </item>
    
-   <item>
+<item>
 <title>[COLOR=yellow][B][I] GOL TV  [/I][/B][/COLOR]</title>
 <link>rtmp://207.244.77.15:1935/iguide playpath=kox4xy9poh2wkoo swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/embedplayer_new.php?width=600&height=390&channel=29992&autoplay=true token=#ed%h0#w18623jsda6523lDGD</link>
 <thumbnail>http://clientes.goltelevision.com/sites/all/themes/golt_theme/css/images/logo_gol_t_r2.png</thumbnail>
 <fanart>http://franciscosiglo21.files.wordpress.com/2010/12/espac3b1a-mundial-2010.jpg</fanart>
 </item>
+   
+   
+<item>
+<title>Test TV </title>
+<link>rtmp://207.244.77.15:1935/iguide playpath=ri42uqew9i85r8b swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/embedplayer_new.php?width=690&height=420&channel=22026&autoplay=true token=#ed%h0#w18623jsda6523lDGD</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>   
    
    
    
