@@ -1181,7 +1181,21 @@
 <thumbnail></thumbnail>
 </item>	   
 
-
+<item>
+                        <title>ESPN Deportes (PSN) - [COLOR green] Funcionando[/COLOR]</title>
+                        <thumbnail>http://3.bp.blogspot.com/-9L5QPnyvgds/UIByzahUSWI/AAAAAAAArpE/t9PpgnYRgQ0/s320/espn+deportes+online.jpg</thumbnail>
+                        <link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=live_psntv_espnd30 live=1 timeout=20</link>
+                        <regex>
+                        <name>getIP</name>
+                        <expres>function getEdgeServers.*"(.*?),<expres>
+                        <page>http://vaughnlive.tv/psntv_espnd30</page>
+                        </regex>
+                        <regex>
+                        <name>getCODE</name>
+                        <expres>vsVars.*= "0m0(.*?)"<expres>
+                        <page>http://vaughnlive.tv/psntv_espnd30</page>
+                        </regex>
+                        </item>
 
    
  
