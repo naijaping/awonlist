@@ -1124,7 +1124,10 @@
 </regex>
 </item>
     
-
+<item>
+       <title>BOXNATION</title>        
+       <link>rtmpe://46.246.124.24:1935/live/sboxn pageUrl=http://hdcast.org token=#yw%tt#w@kku</link>
+       </item>
 
 </channel>
 </channels>
