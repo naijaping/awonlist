@@ -1124,7 +1124,37 @@
 </regex>
 </item>
     
-
+<item>
+        <title>GolTV</title>
+ 
+        <link>rtmp://185.39.11.26:1735/ app=vod?token=$doregex[get-app] playpath=estadiodeportivoHD11_wk4xoa token=@@stop-stole@@ flashver=LNX%11,2,202,425 swfUrl=http://www.sunhd.info/jwplayer.5/addplayer/jwplayer.flash.swf live=true timeout=15 pageUrl=$doregex[get-iframe]</link>
+ 
+        <regex>
+        <name>get-app</name>
+        <expres>token=(.*)</expres>
+        <page>$doregex[get-decrypted-rtmp]</page>
+        </regex>
+ 
+        <regex>
+        <name>get-decrypted-rtmp</name>
+        <expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-url]")</expres>
+        <page></page>
+        </regex>
+ 
+        <regex>
+        <name>get-encrypted-url</name>
+        <expres>ssx4" value="(.*)"</expres>
+        <page>$doregex[get-iframe]</page>
+        <referer>http://www.estadio-deportivo.me/canal-1</referer>
+        </regex>
+ 
+        <regex>
+        <name>get-iframe</name>
+        <expres>src="(.*?)\"</expres>
+        <page>http://www.sunhd.info/channel.php?file=1133&amp;width=600&amp;height=390&amp;autostart=true</page>
+        <referer>http://www.estadio-deportivo.me/canal-1</referer>
+        </regex>
+        </item>
 
    
    
