@@ -1124,7 +1124,15 @@
 </regex>
 </item>
     
-
+<item>
+   <title>Fight Channel</title>
+   <link>$doregex[get-url]</link>
+   <regex>
+   <name>get-url</name>
+   <expres>file: "(.*?)"<expres>
+   <page>http://herer.tv/deportes/fight-channel/</page>
+   </regex>
+   </item>    
 
    
    
