@@ -1205,6 +1205,14 @@
 <fanart></fanart>
 </item>  
 
+
+<item>
+<title>Paramount</title>
+<link>rtmp://207.244.77.15:1935/iguide playpath=ne5tulphjoqojsa swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/embedplayer.php?width=650&height=400&channel=13876&autoplay=true token=#ed%h0#w18623jsda6523lDGD</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>   
+
 </channel>
 </channels>
 			
