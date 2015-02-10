@@ -1125,10 +1125,15 @@
 </item>
     
 <item>
-       <title>Canal + Deportes Opcion 2</title>  
-       <link>rtmp://91.235.143.111/live/ playpath=by929jcdw swfUrl=http://www.kingcast.tv/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://www.kingcast.tv/embed.php </link>
-       </item>
-
+<title>Sportmania (Necesario P2P-Stream)</title>            
+<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=</link>
+<regex>
+<name>url</name>  
+<expres>acestream://([^"]*)</expres>
+<page>http://www.livefootballol.com/channel/sportmania-acestream.html</page>
+<referer></referer>
+</regex>
+</item>
 
 </channel>
 </channels>
