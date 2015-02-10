@@ -1182,7 +1182,7 @@
 </item>	   
    
  <item>
-                        <title>beIN  Ñ  op.10</title>
+                        <title>beIN  Ño 1</title>
                         <link>$doregex[rtmp] playpath=ver8s6fdyg swfUrl=http://freetvcast.pw/player.swf token=#ed%h0#w@12Fuck pageUrl=http://freetvcast.pw live=1 timeout=15</link>
                         <regex>
                         <name>rtmp</name>
