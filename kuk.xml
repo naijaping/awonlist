@@ -1233,25 +1233,6 @@
 
 
 
-<item>
-                        <title>Sky Sports News</title>
-                        <link>
-                        $doregex[streamer] playpath=$doregex[file] swfUrl=http://www.flashtv.co/ePlayerr.swf pageUrl=http://www.flashtv.co/ live=true timeout=15 token=%ZZri(nKa@#Z</link>
-                        <regex>
-                        <name>streamer</name>
-                        <expres>'streamer','([^']*)</expres>
-                        <page>http://www.flashtv.co/embed.php?live=ssn&amp;vw=620&amp;vh=490</page>
-                        <referer>http://cricfree.sx/update/news.php</referer>
-                        </regex>
-                        <regex>
-                        <name>file</name>
-                        <expres>'file','([^']*)</expres>
-                        <page>http://www.flashtv.co/embed.php?live=ssn&amp;vw=620&amp;vh=490</page>
-                        <referer>http://cricfree.sx/update/news.php</referer>
-                        </regex>
-                       
-                        <thumbnail>http://hub.tv-ark.org.uk/images/skytv/sky_images/skysportsnews/skysportsnews_open1_2003b.jpg</thumbnail>
-                        </item>
 
 
 </channel>
