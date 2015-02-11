@@ -1232,7 +1232,16 @@
 </item>
 
 
-
+<item>
+<title>FOpp1</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://www.wezatv.com/dootv/channelthairath.php</page>
+</regex>
+<thumbnail></thumbnail>
+</item> 
 
 
 
