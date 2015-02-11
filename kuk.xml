@@ -1234,6 +1234,26 @@
 
 
 
+<item>	
+<title>SKY Sport News</title>
+<link>$doregex[rtmp] playpath=$doregex[path] token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>flashvars=.*=(rtmp[^&]*)</expres>
+<page>http://biggestplayer.me/streamcr.php?id=$doregex[path]</page>
+<referer>http://theactionlive.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>id='(.*?)'</expres>
+<page>http://theactionlive.com/livegamecr.php?id=skysxnews</page>
+<referer>http://cricfree.sx</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
 
 </channel>
 </channels>
