@@ -398,7 +398,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/38804/Disney_%28HD%29-live-stream-channel?pw=iu973j',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/38804/Disney_%28HD%29-live-stream-channel?pw=iu973j',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/disney_channel_de.png</thumbnail>
@@ -409,7 +409,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/65510/Disney_Jr_%5BHD%5D-live-stream-channel?pw=iu973j',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/65510/Disney_Jr_%5BHD%5D-live-stream-channel?pw=iu973j',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/disney_junior_us.png</thumbnail>
@@ -420,7 +420,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/69893',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/69893',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/disney_xd_us.png</thumbnail>
@@ -431,7 +431,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/65510',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/65510',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/boomerang_global.png</thumbnail>
@@ -442,7 +442,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/52991/Nickelodeon-live-stream-channel?pw=iu973j',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/52991/Nickelodeon-live-stream-channel?pw=iu973j',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nickelodeon_us.png</thumbnail>
@@ -453,7 +453,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/65750/Cartoon_Network_%5BHD%5D-live-stream-channel?pw=iu973j',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/65750/Cartoon_Network_%5BHD%5D-live-stream-channel?pw=iu973j',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/cartoon_network_global.png</thumbnail>
@@ -464,7 +464,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/69582/Tom_and_Jerry%3A_Robin_Hood_and_His_Merry_Mouse-live-stream-channel?pw=iu973j',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/69582/Tom_and_Jerry%3A_Robin_Hood_and_His_Merry_Mouse-live-stream-channel?pw=iu973j',False,False)</expres>
 <page></page>
 </regex>
 <thumbnail></thumbnail>
