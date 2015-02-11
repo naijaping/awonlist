@@ -1233,15 +1233,16 @@
 
 
 <item>
-<title>MUM000</title>
+<title>GOLTVooo</title>
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/68713/')</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view-now/68875/Gol_TV_%28HD%29-live-stream-channel?pw=iu973j')</expres>
 <page></page>
 </regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/disney_xd_us.png</thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/gol_tv.png</thumbnail>
 </item>
+
 
 
 
