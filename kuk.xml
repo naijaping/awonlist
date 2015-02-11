@@ -1248,7 +1248,16 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>NBCSN</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('hhttps://www.streamlive.to/view/70065/NBC_Sport_Network-live-stream-channel?pw=iu973j',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nbc_sports_network.png</thumbnail>
+</item>
 
 
 
