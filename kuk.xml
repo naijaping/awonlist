@@ -1220,6 +1220,12 @@
 <fanart></fanart>
 </item>  
 
+<item>
+<title>Direct</title>
+<link>rtmp://50.7.69.170:1935/direct2watch/_definst_/?xs=_we_NWN5dXFnb3Fodm1keGdlfDE0MjM2MTU1OTR8OTIuMC40MC4yMXw1NGRhOTg1YTAwMGVlfGM1ZjQzOTRmYjE5NTQ5NGEyNjgxZWIwZjk5NjFkZjFjNmViMjUwZjE playpath=5cyuqgoqhvmdxge swfUrl=http://www.direct2watch.com/player/player_embed_iguide.swf live=1 pageUrl=http://www.direct2watch.com/embedplayer.php?width=653&height=410&channel=15&autoplay=true token=3be2d98d05965f0a41a316a0aef08c4</link>
+<thumbnail></thumbnail>
+</item>
+
 
 </channel>
 </channels>
