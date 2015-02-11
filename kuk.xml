@@ -1233,24 +1233,7 @@
 
 
 
-<item>
-                        <title>Canal+ Deportes (9stream)</title>
-                        <link>rtmp://50.7.69.242:1935/verdirectotvedge/_definst_/ app=verdirectotvedge/_definst_/?xs=_we_$doregex[rtmp] playpath=mbfx0pnzzwuns0g swfUrl=http://www.9stream.com/player/player_embed_iguide.swf pageUrl=http://www.9stream.com token=$doregex[tok] conn=S:OK live=1 timeout=10 </link>
-                        <regex>
-                        <name>rtmp</name>
-                        <expres>xs=_we_([^"]*)</expres>
-                        <page>http://www.9stream.com/embedplayer.php?width=650&height=400&channel=154 &autoplay=true</page>
-                        <referer>http://www.9stream.com</referer>
-                        </regex>
-                        <regex>
-                        <name>tok</name>
-                        <expres>token":"([^."]*)</expres>
-                        <page>http://www.9stream.com/server1.php?id=1417277241</page>
- 
-                        <referer>http://www.9stream.com</referer>
-                        </regex>
-                        <thumbnail>http://3.bp.blogspot.com/-rOsfBHt7XIU/UQMlgPaSqNI/AAAAAAAAAI0/H5YNeFSW-do/s1600/plus-deportes.jpg</thumbnail>
-                        </item>
+
 
 
 
