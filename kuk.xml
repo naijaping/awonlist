@@ -626,7 +626,12 @@
 
 <item>
 <title>Bein Sport 2</title>
-<link>rtmpe://167.114.101.234:1935/live?idu=ghayth12345_61813917360/bein_sport_2_low</link>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/bein-en/frame')</expres>
+<page></page>
+</regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
 </item>
 
