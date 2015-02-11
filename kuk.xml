@@ -28,6 +28,12 @@
 </item>
 
 <item>
+<title>Koga TV</title>
+<link>rtmp://169.obj.netromedia.net/ app=KogaTV playpath=KogaTV swfUrl=http://player.netromedia.com/flowplayer.commercial-3.2.18.swf live=true timeout=15 pageUrl=http://player.netromedia.com</link>
+<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/02/kogatv.png</thumbnail>
+</item> 
+
+<item>
 <title>Ben Tv</title>
 <link>http://162.212.176.83:8080/map-ben.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
@@ -163,19 +169,6 @@
 <title>TV Continental</title>
 <link>http://77.92.76.135:1935/tvce/livestream/playlist.m3u8</link> 
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tv_continental_ng.png</thumbnail>
-</item>
-
-
-<item>
-<title>MFM TV</title>
-<link>http://wpc.AEA6.edgecastcdn.net/hls-live/20AEA6/mfm/mfm/mfm,250,500,.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mfm_tv_ng.png</thumbnail>
-</item>
-
-<item>
-<title>MFM LIVE</title>
-<link>http://wpc.AEA6.edgecastcdn.net/hls-live/20AEA6/mfmlive/mfmlive/mfmlive,150,250,500,.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mfm_tv_ng.png</thumbnail>
 </item>
 
 <item>
@@ -1259,7 +1252,7 @@
 <item>
 <title>Koga TV</title>
 <link>rtmp://169.obj.netromedia.net/ app=KogaTV playpath=KogaTV swfUrl=http://player.netromedia.com/flowplayer.commercial-3.2.18.swf live=true timeout=15 pageUrl=http://player.netromedia.com</link>
-<thumbnail></thumbnail>
+<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/02/kogatv.png</thumbnail>
 </item> 
 
 
