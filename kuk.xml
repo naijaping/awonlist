@@ -1095,14 +1095,14 @@
         <regex>
         <name>streamer</name>
         <expres>'streamer': '([^']*)</expres>
-        <page>http://castalba.tv/embed.php?cid=24089&amp;wh=650&amp;ht=450&amp;r=televall.com.mx</page>
-        <referer>http://tv.televall.com.mx/beinsporthd.html?width=650&amp;height=450</referer>
+        <page>http://castalba.tv/embed.php?cid=24089&amp;wh=650&amp;ht=450</page>
+        <referer>http://castalba.tv</referer>
         </regex>
         <regex>
         <name>file</name>
         <expres>'file': '([^']*)</expres>
-        <page>http://castalba.tv/embed.php?cid=24089&amp;wh=650&amp;ht=450&amp;r=televall.com.mx</page>
-        <referer>http://tv.televall.com.mx/beinsporthd.html?width=650&amp;height=450</referer>
+        <page>http://castalba.tv/embed.php?cid=24089&amp;wh=650&amp;ht=450</page>
+        <referer>http://castalba.tv</referer>
         </regex>
         </item>
         
