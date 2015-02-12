@@ -385,6 +385,12 @@
 <link>http://csm-e.cds1.yospace.com/csm/live/86561631.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/the_box_uk.png</thumbnail>
 </item> 
+
+<item>
+<title>Gold TV</title>
+<link>http://87.248.160.8/edge/smil:goldtv/playlist.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/gold_au.png</thumbnail>
+</item>   
 </channel> 
 
 
@@ -1353,11 +1359,7 @@
 </item>
 
 
-<item>
-<title>Gold TV</title>
-<link>http://87.248.160.8/edge/smil:goldtv/playlist.m3u8</link>
-<thumbnail></thumbnail>
-</item>   
+
 
 
 
