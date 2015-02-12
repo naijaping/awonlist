@@ -1286,17 +1286,17 @@
 
 
 <item> 
-<title>BBCooo</title>
-<link>http://$doregex[url]/live/374.high.stream/playlist.m3u8$doregex[key]</link>
+<title>E4</title>
+<link>http://$doregex[url]/live/65.low.stream/playlist.m3u8$doregex[key]</link>
 <regex>
 <name>url</name>
 <expres>low","url":"http:....([^\\]*)</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=374</page>
+<page>http://www.filmon.com/tv/channel/export?channel_id=65</page>
  </regex>
  <regex>
  <name>key</name>
  <expres>(\?id=.*?)"</expres>
- <page>http://www.filmon.com/tv/channel/export?channel_id=374</page>
+ <page>http://www.filmon.com/tv/channel/export?channel_id=65</page>
  </regex>
 <thumbnail></thumbnail>
 </item>
