@@ -1388,7 +1388,7 @@
  <expres>(\?id=.*?)"</expres>
  <page>http://www.filmon.com/tv/channel/export?channel_id=67</page>
  </regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.png</thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv2.png</thumbnail>
 </item>
 
 
