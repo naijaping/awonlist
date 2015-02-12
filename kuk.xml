@@ -1262,7 +1262,7 @@
 
 <item> 
         <title>BBC 3</title>
-        <link>http://$doregex[url]/live/29.low.stream/playlist.m3u8$doregex[key]</link>
+        <link>http://$doregex[url]/live/29.high.stream/playlist.m3u8$doregex[key]</link>
         <regex>
                 <name>url</name>
                 <expres>low","url":"http:....([^\\]*)</expres>
@@ -1277,21 +1277,7 @@
 </item>
 
 
-<item>
-<title>Filmon Source High</title>
-<link>rtmp://$doregex[url] app=live/$doregex[key] playpath=1766.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
-   <regex>
-     <name>url</name>
-     <expres>rtmp:....([^\\]*)</expres>
-     <page>http://www.filmon.com/tv/channel/export?channel_id=1766</page>
-   </regex>
-   <regex>
-     <name>key</name>
-     <expres>rtmp[^?]*(\?id=[^"]*)</expres>
-     <page>http://www.filmon.com/tv/channel/export?channel_id=1766</page>
-   </regex>
-<thumbnail>http://twofour54.com/media/thumbnail/partner-main/26aa74992bfff151940aa4c6079fafe4/20111117_infinity-1-Logo.png</thumbnail>
-</item>
+
 
 </channel>
 </channels>
