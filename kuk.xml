@@ -1262,16 +1262,16 @@
 
 <item> 
         <title>BBC One  LIVE  SIX NATION RUGBY UNION ( ITALY, FRANCE, ENGLAND, WALES, SCOTLAND, IRELAND )</title>
-        <link>http://$doregex[url]/live/14.low.stream/playlist.m3u8$doregex[key]</link>
+        <link>http://$doregex[url]/live/29.low.stream/playlist.m3u8$doregex[key]</link>
         <regex>
                 <name>url</name>
                 <expres>low","url":"http:....([^\\]*)</expres>
-                <page>http://www.filmon.com/tv/channel/export?channel_id=14</page>
+                <page>http://www.filmon.com/tv/channel/export?channel_id=29</page>
         </regex>
         <regex>
                 <name>key</name>
                 <expres>(\?id=.*?)"</expres>
-                <page>http://www.filmon.com/tv/channel/export?channel_id=14</page>
+                <page>http://www.filmon.com/tv/channel/export?channel_id=29</page>
         </regex>
         <thumbnail>http://static.filmon.com/couch/channels/14/big_logo.png</thumbnail>
 </item>
