@@ -1261,38 +1261,45 @@
 
 
 <item> 
-        <title>BBC 3</title>
-        <link>http://$doregex[url]/live/29.low.stream/playlist.m3u8$doregex[key]</link>
-        <regex>
-                <name>url</name>
-                <expres>low","url":"http:....([^\\]*)</expres>
-                <page>http://www.filmon.com/tv/channel/export?channel_id=29</page>
-        </regex>
-        <regex>
-                <name>key</name>
-                <expres>(\?id=.*?)"</expres>
-                <page>http://www.filmon.com/tv/channel/export?channel_id=29</page>
-        </regex>
-        <thumbnail>http://static.filmon.com/couch/channels/14/big_logo.png</thumbnail>
+<title>BBC 3</title>
+<link>http://$doregex[url]/live/29.low.stream/playlist.m3u8$doregex[key]</link>
+<regex>
+<name>url</name>
+<expres>low","url":"http:....([^\\]*)</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=29</page>
+</regex>
+<regex>
+<name>key</name>
+<expres>(\?id=.*?)"</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=29</page>
+</regex>
+<thumbnail>http://static.filmon.com/couch/channels/14/big_logo.png</thumbnail>
 </item>
 
 
 
 
 <item> 
-        <title>BBCooo</title>
-        <link>http://$doregex[url]/live/374.high.stream/playlist.m3u8$doregex[key]</link>
-        <regex>
-                <name>url</name>
-                <expres>low","url":"http:....([^\\]*)</expres>
-                <page>http://www.filmon.com/tv/channel/export?channel_id=374</page>
-        </regex>
-        <regex>
-                <name>key</name>
-                <expres>(\?id=.*?)"</expres>
-                <page>http://www.filmon.com/tv/channel/export?channel_id=374</page>
-        </regex>
-        <thumbnail></thumbnail>
+<title>BBCooo</title>
+<link>http://$doregex[url]/live/374.high.stream/playlist.m3u8$doregex[key]</link>
+<regex>
+<name>url</name>
+<expres>low","url":"http:....([^\\]*)</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=374</page>
+ </regex>
+ <regex>
+ <name>key</name>
+ <expres>(\?id=.*?)"</expres>
+ <page>http://www.filmon.com/tv/channel/export?channel_id=374</page>
+ </regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>Animal Planet</title>
+<link>http://sjc-uhls-proxy04.ustream.tv/watch/playlist.m3u8?cid=12762028</link>
+<thumbnail>http://www.logoeps.com/wp-content/uploads/AutoGen/4514eb7aef5d4506430fb5c3443fd281.jpg</thumbnail>
 </item>
 
 
