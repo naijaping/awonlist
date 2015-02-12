@@ -1279,7 +1279,7 @@
 <expres>(\?id=.*?)"</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=29</page>
 </regex>
-<thumbnail>http://static.filmon.com/couch/channels/14/big_logo.png</thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_three.png</thumbnail>
 </item>
 
 
