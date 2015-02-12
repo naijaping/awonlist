@@ -1262,7 +1262,7 @@
 
 <item> 
         <title>BBC 3</title>
-        <link>http://$doregex[url]/live/29.high.stream/playlist.m3u8$doregex[key]</link>
+        <link>http://$doregex[url]/live/29.low.stream/playlist.m3u8$doregex[key]</link>
         <regex>
                 <name>url</name>
                 <expres>low","url":"http:....([^\\]*)</expres>
