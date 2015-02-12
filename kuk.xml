@@ -1359,6 +1359,21 @@
 </item>
 
 
+<item> 
+<title>ITV 1</title>
+<link>http://$doregex[url]/live/11.low.stream/playlist.m3u8$doregex[key]</link>
+<regex>
+<name>url</name>
+<expres>low","url":"http:....([^\\]*)</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=11</page>
+ </regex>
+ <regex>
+ <name>key</name>
+ <expres>(\?id=.*?)"</expres>
+ <page>http://www.filmon.com/tv/channel/export?channel_id=11</page>
+ </regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.png</thumbnail>
+</item>
 
 
 
