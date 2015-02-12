@@ -982,32 +982,7 @@
 <thumbnail></thumbnail>
 </item> 
 
-<item>
-<title>NTV Spor</title>
-<link>http://origin.live.web.tv.streamprovider.net/streams/a820629b8abc43c73c76b091086c138a_live_0_0/index.m3u8</link>
-<thumbnail></thumbnail>
-</item> 
 
-
-<item>
-<title>Info sport 1</title>
-<link>http://cdn-01.sdn.si/sporttv1/sporttv1.m3u8</link>
-<thumbnail></thumbnail>
-</item> 
-
-<item>
-<title>Info sport 2</title>
-<link>http://cdn-01.sdn.si/sporttv2/sporttv2.m3u8</link>
-<thumbnail></thumbnail>
-</item> 
-
-<item>
-<title>Info sport 3</title>
-<link>http://cdn-01.sdn.si/sporttv3/sporttv3.m3u8</link>
-<thumbnail></thumbnail>
-</item> 
-
- 
 <item>
 <title>NTV Futbol</title>
 <link>http://180.250.29.12/jhos/beib3_3/1421536739/playlist.m3u8</link>
@@ -1035,27 +1010,6 @@
 </regex>
 <thumbnail></thumbnail>
 </item>	
-
-<item>
-<title>VH1</title>
-<link>$doregex[url]$doregex[analytics]|Cookie=$get_cookies$&amp;Referer=http://oneplay.tv/one-player/GrindPlayer.swf&amp;User-Agent=iPad</link>
-<regex>
-<name>analytics</name>
-<expres></expres>
-<page>http://live.oneplay.tv/analytics.php?id=437</page>
-<referer>http://oneplay.tv/embed/?i=94&amp;n=VH1&amp;w=100%&amp;h=480</referer>
-<agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>url</name>
-<expres>"video_src" href="(.*?)"</expres>
-<page>http://oneplay.tv/ver/canal/94/vh1</page>
-<agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 
 <item>
@@ -1152,7 +1106,7 @@
         </regex>
         </item>
         
-       <item>
+<item>
         <title>beI nnnnn</title>
         <link>$doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf live=true timeout=15 swfVfy=true pageUrl=http://castalba.tv/</link>
         <thumbnail></thumbnail>
@@ -1168,7 +1122,7 @@
         <page>http://castalba.tv/embed.php?cid=24090&amp;wh=650&amp;ht=450&amp;r=televall.com.mx</page>
         <referer>http://castalba.tv</referer>
         </regex>
-        </item> 
+        </item>        
         
         
         
@@ -1216,20 +1170,20 @@
 </item>	   
 
 <item>
-                        <title>ESPN Deportes (PSN) - [COLOR green] Funcionando[/COLOR]</title>
-                        <thumbnail>http://3.bp.blogspot.com/-9L5QPnyvgds/UIByzahUSWI/AAAAAAAArpE/t9PpgnYRgQ0/s320/espn+deportes+online.jpg</thumbnail>
-                        <link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=live_psntv_espnd30 live=1 timeout=20</link>
-                        <regex>
-                        <name>getIP</name>
-                        <expres>function getEdgeServers.*"(.*?),<expres>
-                        <page>http://vaughnlive.tv/psntv_espnd30</page>
-                        </regex>
-                        <regex>
-                        <name>getCODE</name>
-                        <expres>vsVars.*= "0m0(.*?)"<expres>
-                        <page>http://vaughnlive.tv/psntv_espnd30</page>
-                        </regex>
-                        </item>
+<title>ESPN Deportes (PSN) - [COLOR green] Funcionando[/COLOR]</title>
+<thumbnail>http://3.bp.blogspot.com/-9L5QPnyvgds/UIByzahUSWI/AAAAAAAArpE/t9PpgnYRgQ0/s320/espn+deportes+online.jpg</thumbnail>
+<link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=live_psntv_espnd30 live=1 timeout=20</link>
+<regex>
+<name>getIP</name>
+<expres>function getEdgeServers.*"(.*?),<expres>
+<page>http://vaughnlive.tv/psntv_espnd30</page>
+</regex>
+<regex>
+<name>getCODE</name>
+<expres>vsVars.*= "0m0(.*?)"<expres>
+<page>http://vaughnlive.tv/psntv_espnd30</page>
+</regex>
+</item>
 
    
 <item>
