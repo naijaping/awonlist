@@ -1371,6 +1371,27 @@
 </item>
 
 
+<item> 
+<title>[COLOR=FF00ff45]ITV 4[/COLOR]</title>
+<link>http://$doregex[url]/live/101.low.stream/playlist.m3u8$doregex[key]</link>
+<regex>
+<name>url</name>
+<expres>low","url":"http:....([^\\]*)</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=101</page>
+</regex>
+<regex>
+<name>key</name>
+<expres>(\?id=.*?)"</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=101</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
+
+
+
 
 <item>
 <title>NTV Music Naija</title>
