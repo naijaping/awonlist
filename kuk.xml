@@ -1421,7 +1421,11 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>TDN</title>
+<sportsdevil>http://shidurlive.com/embed/unitdn</sportsdevil>
+<referer>http://canales.televalltv.com</referer>
+</item>
 
 </channel>
 </channels>
