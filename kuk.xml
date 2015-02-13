@@ -1354,6 +1354,24 @@
 </item>
 
 
+<item> 
+<title>[COLOR=FF00ff45]ITV 3[/COLOR]</title>
+<link>http://$doregex[url]/live/26.low.stream/playlist.m3u8$doregex[key]</link>
+<regex>
+<name>url</name>
+<expres>low","url":"http:....([^\\]*)</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=26</page>
+</regex>
+<regex>
+<name>key</name>
+<expres>(\?id=.*?)"</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=26</page>
+</regex>
+<thumbnail>http://static.filmon.com/couch/channels/14/big_logo.png</thumbnail>
+</item>
+
+
+
 <item>
 <title>NTV Music Naija</title>
 <link>http://strfla15.streamakaci.com/lc2/lc2.stream/playlist.m3u8</link>
