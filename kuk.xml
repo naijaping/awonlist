@@ -1390,16 +1390,11 @@
 <thumbnail></thumbnail>
 </item>
 
-
-
 <item>
 <title>NTV Music Naija</title>
 <link>rtmp://78.129.189.30/edge3/LC2TV playpath=LC2TV app=edge3/LC2TV swfUrl=http://www.awooze.com/player.swf live=true flashVer=WIN\16,0,0,257 pageUrl=http://www.awooze.com</link>
 <thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/02/ntv2-naija.jpg</thumbnail>
 </item>
-
-
-
 
 <item>
 <title>Tesnbc</title>
@@ -1409,7 +1404,11 @@
 
 
 
-
+<item>
+<title>Music Naija</title>
+<link>rtmp://89.248.172.145:1935/edge/_definst_/0fm1lstybe4a0j4</link>
+<thumbnail>http://3.bp.blogspot.com/-e9pyWNNidUU/UfZuOJ1m_EI/AAAAAAAAANI/B45-HHf22hU/s200/Music+Africa.png</thumbnail>
+</item>
 
 </channel>
 </channels>
