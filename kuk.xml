@@ -1424,7 +1424,7 @@
 
 <item>
 <title>Sportoooni</title>
-<link>rtmp://89.248.171.90:443/liverepeater playpath=13 swfUrl="http://popeoftheplayers.pw/atdedead.swf pageUrl=http://popeoftheplayers.pw live=1 token=#atd%#$ZH timeout=15</link>
+<link>rtmpe://46.246.124.23:1935/l?token=play@1421451096 playpath=hbo3 swfUrl=http://hdcast.org/eplayer.swf live=1 flashver=WIN/16,0,0,257 timeout=15 token=play@1421451096 live=1swfVfy=1 pageUrl=http://www.hdcast.org/embedlive4.php?u=hbo3&vw=620&vh=470&domain=usachannels.tv</link>
 <thumbnail></thumbnail>
 </item> 
 
