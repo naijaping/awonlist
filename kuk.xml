@@ -1430,14 +1430,12 @@
 
 
 <item>
-<title>Bein Sports 1</title>
-<link>$doregex[Iguide]</link>
-<regex>
-<name>Iguide</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/embedplayer_simon.php?channel=30109',False,False,'http://www.iguide.to/')</expres>
-<page></page>
-</regex>
+<title>TNT</title>
+<link>rtmp://178.162.199.141/iguide playpath=b6ol767ctk1t6mb swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/embedplayer_new.php?width=650&height=400&channel=30109&autoplay=true token=#ed%h0#w18623jsda6523lDGD</link>
+<thumbnail></thumbnail>
 </item>
+
+
 
 
 
