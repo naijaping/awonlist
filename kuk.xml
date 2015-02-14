@@ -893,7 +893,7 @@
 
 <item>
 <title>Sky F1 HD</title>
-<link>rtmp://31.220.0.206/redirect/fx1 swfUrl=http://www.flashtv.co/ePlayerr.swf token=%ZZri(nKa@#Z pageUrl=http://www.flashtv.co live=1 flashVer=WIN\16,0,0,235 timeout=15</link>
+<link>rtmp://31.220.0.206/redirect/btt1 swfUrl=http://www.flashtv.co/ePlayerr.swf token=%ZZri(nKa@#Z pageUrl=http://www.flashtv.co live=1 flashVer=WIN\16,0,0,235 timeout=15</link>
 <thumbnail></thumbnail>
 </item> 
 
@@ -1421,12 +1421,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
-<item>
-<title>Sportoooni</title>
-<link>rtmpe://46.246.124.23:1935/l?token=play@1421451096 playpath=hbo3 swfUrl=http://hdcast.org/eplayer.swf live=1 flashver=WIN/16,0,0,257 timeout=15 token=play@1421451096 live=1swfVfy=1 pageUrl=http://www.hdcast.org/embedlive4.php?u=hbo3&vw=620&vh=470&domain=usachannels.tv</link>
-<thumbnail></thumbnail>
-</item> 
 
 
 
