@@ -1429,6 +1429,16 @@
 </item>
 
 
+<item>
+<title>Bein Sports 1</title>
+<link>$doregex[Iguide]</link>
+<regex>
+<name>Iguide</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/embedplayer_simon.php?channel=30493',False,False,'http://showsport-tv.com')</expres>
+<page></page>
+</regex>
+</item>
+
 
 
 </channel>
