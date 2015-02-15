@@ -1439,29 +1439,8 @@
 
 
 <item>
-<title>Bein 15</title>
-<link>rtmp://178.162.199.141/iguide playpath=xpu5psraywdo2y0 swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/embedplayer_new.php?width=650&height=400&channel=30507&autoplay=true token=#ed%h0#w18623jsda6523lDGD</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>Sky bundesliga</title>
-<link>$doregex[getIlive]</link>
-<regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.direct2watch.com/embedplayer.php?width=653&height=410&channel=15',False,False)</expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports2.png</thumbnail>
-</item>
-
-
-
-<item>
-<title>GEEE</title>
-<link>rtmp://edge01-01.nl.myvideo.ge/dvrh264/silk_sport/mp4:silk_sport swfUrl=http://www.myvideo.ge/dvr/dvrStretch2.swf?v=1.91 live=1 pageUrl=http://www.myvideo.ge/</link>
-<thumbnail></thumbnail>
+<title> beIN Sports 1 HD</title>
+<link>rtmpe://l.xuscacamusca.se/r/ playpath=1bn924 swfUrl=http://mybeststream.xyz/Y2Y0ODA3MDUwZGNjNzQ2YTFiYTc1MDJl/jwplayer.flash.swf pageUrl=http://mybeststream.xyz/ live=1 timeout=15</link>
 </item>
 
  
