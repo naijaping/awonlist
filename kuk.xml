@@ -1443,18 +1443,15 @@
 <link>rtmpe://l.xuscacamusca.se/r/ playpath=1bn924 swfUrl=http://mybeststream.xyz/Y2Y0ODA3MDUwZGNjNzQ2YTFiYTc1MDJl/jwplayer.flash.swf pageUrl=http://mybeststream.xyz/ live=1 timeout=15</link>
 </item>
 
-<item>
-<title> beIN Sports 3 HD</title>
-<link>rtmpe://l.xuscacamusca.se/r/ playpath=28145 swfUrl=http://mybeststream.xyz/Y2Y0ODA3MDUwZGNjNzQ2YTFiYTc1MDJl/jwplayer.flash.swf pageUrl=http://mybeststream.xyz/ live=1 timeout=15</link>
-</item>
+
 
 
 <item>
-<title>Bein Sports 1</title>
+<title>Bein Sports 3</title>
 <link>$doregex[Iguide]</link>
 <regex>
 <name>Iguide</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/embedplayer_simon.php?channel=30493',False,False,'http://showsport-tv.com/embed.php?ch=bein1')</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/embedplayer_simon.php?channel=30495',False,False,'http://showsport-tv.com/embed.php?ch=bein3')</expres>
 <page></page>
 </regex>
 </item>
