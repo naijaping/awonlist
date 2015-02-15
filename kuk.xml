@@ -1451,7 +1451,7 @@
 <link>$doregex[Iguide]</link>
 <regex>
 <name>Iguide</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/embedplayer_simon.php?channel=30495',False,False,'http://showsport-tv.com/embed.php?ch=bein3')</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/embedplayer_simon.php?width=650&height=450&channel=30495&autoplay=true',False,False,'http://showsport-tv.com/embed.php?ch=bein3')</expres>
 <page></page>
 </regex>
 </item>
