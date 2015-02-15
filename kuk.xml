@@ -1458,6 +1458,13 @@
 
 
 
+<item>
+<title>GEEE</title>
+<link>rtmp://edge01-01.nl.myvideo.ge/dvrh264/silk_sport/mp4:silk_sport swfUrl=http://www.myvideo.ge/dvr/dvrStretch2.swf?v=1.91 live=1 pageUrl=http://www.myvideo.ge/</link>
+<thumbnail></thumbnail>
+</item>
+
+
 
 </channel>
 </channels>
