@@ -1465,10 +1465,10 @@
 </item>
 
 <item>
-<title>Giko</title>
-<link>http://212.250.46.35:4244/bysid/15856 </link>
+<title>BBC ONE</title>
+<link>rtmp://31.220.0.206/redirect/bbcx1 swfUrl=http://www.flashtv.co/ePlayerr.swf token=%ZZri(nKa@#Z pageUrl=http://www.flashtv.co live=1 flashVer=WIN\16,0,0,235 timeout=15</link>
 <thumbnail></thumbnail>
-</item>
+</item> 
 
 </channel>
 </channels>
