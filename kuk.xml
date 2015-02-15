@@ -859,58 +859,8 @@
 </item> 
 
 <item>
-<title>Sky Sport 1</title>
-<link>rtmp://178.18.31.57:443/liverepeater/186925 swfUrl=http://bernardotv.club/atdedead.swf token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
-<thumbnail></thumbnail>
-</item> 
-
-<item>
-<title>SKY SPORTS 2</title>
-<link>rtmp://178.18.31.57:443/liverepeater/186926 swfUrl=http://bernardotv.club/atdedead.swf token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>SKY SPORTS 3</title>
-<link>rtmp://178.18.31.57:443/liverepeater/186603 swfUrl=http://bernardotv.club/atdedead.swf token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Sky Sport 4</title>
-<link>rtmp://31.220.0.206/redirect/skysports4 swfUrl=http://www.flashtv.co/ePlayerr.swf token=%ZZri(nKa@#Z pageUrl=http://www.flashtv.co live=1 flashVer=WIN\16,0,0,235 timeout=15</link>
-<thumbnail></thumbnail>
-</item> 
-
-<item>
-<title>Sky Sport 5</title>
-<link>rtmp://31.220.0.206/redirect/skysports5 swfUrl=http://www.flashtv.co/ePlayerr.swf token=%ZZri(nKa@#Z pageUrl=http://www.flashtv.co live=1 flashVer=WIN\16,0,0,235 timeout=15</link>
-<thumbnail></thumbnail>
-</item> 
-
-<item>
-<title>Vov</title>
-<link>rtmp://origin.tikilive.com:1935/show_tikilive/38292/ playpath=mainstream swfUrl="http://tv.filmover.com/glow/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
-</item>
-
-<item>
-<title>SK2</title>
-<link>rtmpe://46.246.124.93:1935/live playpath=sskys2 swfUrl="http://hdcast.org/eplayer.swf live=1 pageUrl=http://hdcast.org/ token=#yw%tt#w@kku flashver=WIN/16,0,0,253 timeout=20</link>
-</item>
-
-<item>
-<title>POP</title>
-<link>rtmp://rtmp.popeoftheplayers.pw:1935/redirect playpath=14 swfUrl="http://popeoftheplayers.pw/atdedead.swf pageUrl=http://popeoftheplayers.pw live=1 token=#atd%#$ZH timeout=15</link>
-</item>
-
-<item>
 <title>Sky Sport One</title>
 <link>rtmp://rtmp.popeoftheplayers.pw:1935/redirect playpath=11 swfUrl="http://popeoftheplayers.pw/atdedead.swf pageUrl=http://popeoftheplayers.pw live=1 token=#atd%#$ZH timeout=15</link>
-</item>
-
-<item>
-<title>PiP</title>
-<link>rtmp://rtmp.popeoftheplayers.pw:1935/redirect playpath=10 swfUrl="http://popeoftheplayers.pw/atdedead.swf pageUrl=http://popeoftheplayers.pw live=1 token=#atd%#$ZH timeout=15</link>
 </item>
 
 <item>
@@ -924,31 +874,6 @@
 <link>http://lswb-de-08.servers.octoshape.net:1935/live/kanalsport_2000k/HD.m3u8</link>
 <thumbnail></thumbnail>
 </item>	
-
-<item>
-<title>Big 5</title>
-<link>http://esioslive6-i.akamaihd.net/hls/live/202874/AL_P_ESP1_INTER_ENG/playlist_1000.m3u8</link>
-<thumbnail></thumbnail>
-</item>	
-
-<item>	
-<title>SKY </title>
-<link>$doregex[rtmp] playpath=$doregex[path] token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>flashvars=.*=(rtmp[^&]*)</expres>
-<page>http://biggestplayer.me/streamcr.php?id=$doregex[path]</page>
-<referer>http://theactionlive.com</referer>
-</regex>
-<regex>
-<name>path</name>
-<expres>id='(.*?)'</expres>
-<page>http://theactionlive.com/livegamecr.php?id=ss1rr</page>
-<referer>http://cricfree.sx</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 
 <item>	
 <title>SKY 3</title>
@@ -1004,17 +929,10 @@
 </item>
 
 <item>
-<title>TVSN TV</title>
-<link>http://tvsn-lh.akamaihd.net/i/TVSN_1@175541/master.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>NTV </title>
 <link>http://hlsstr02.svc.iptv.rt.ru/hls/CH_SPORT1/variant.m3u8</link>
 <thumbnail></thumbnail>
 </item> 
-
 
 <item>
 <title>NTV Futbol</title>
@@ -1122,47 +1040,24 @@
 </item>
     
 <item>
-        <title>beIN777</title>
-        <link>$doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf live=true timeout=15 swfVfy=true pageUrl=http://castalba.tv/</link>
-        <thumbnail></thumbnail>
-        <regex>
-        <name>streamer</name>
-        <expres>'streamer': '([^']*)</expres>
-        <page>http://castalba.tv/embed.php?cid=24089&amp;wh=650&amp;ht=450</page>
-        <referer>http://castalba.tv</referer>
-        </regex>
-        <regex>
-        <name>file</name>
-        <expres>'file': '([^']*)</expres>
-        <page>http://castalba.tv/embed.php?cid=24089&amp;wh=650&amp;ht=450</page>
-        <referer>http://castalba.tv</referer>
-        </regex>
-        </item>
-        
-<item>
-        <title>beI nnnnn</title>
-        <link>$doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf live=true timeout=15 swfVfy=true pageUrl=http://castalba.tv/</link>
-        <thumbnail></thumbnail>
-        <regex>
-        <name>streamer</name>
-        <expres>'streamer': '([^']*)</expres>
-        <page>http://castalba.tv/embed.php?cid=24090&amp;wh=650&amp;ht=450</page>
-        <referer>http://castalba.tv</referer>
-        </regex>
-        <regex>
-        <name>file</name>
-        <expres>'file': '([^']*)</expres>
-        <page>http://castalba.tv/embed.php?cid=24090&amp;wh=650&amp;ht=450&amp;r=televall.com.mx</page>
-        <referer>http://castalba.tv</referer>
-        </regex>
-        </item>        
+<title>beI nnnnn</title>
+<link>$doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf live=true timeout=15 swfVfy=true pageUrl=http://castalba.tv/</link>
+<thumbnail></thumbnail>
+<regex>
+<name>streamer</name>
+<expres>'streamer': '([^']*)</expres>
+<page>http://castalba.tv/embed.php?cid=24090&amp;wh=650&amp;ht=450</page>
+<referer>http://castalba.tv</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file': '([^']*)</expres>
+<page>http://castalba.tv/embed.php?cid=24090&amp;wh=650&amp;ht=450&amp;r=televall.com.mx</page>
+<referer>http://castalba.tv</referer>
+</regex>
+</item>        
         
         
-        
-        
-        
-        
-   
 <item>
 <title>[COLOR=yellow][B][I] GOL TV  [/I][/B][/COLOR]</title>
 <link>rtmp://207.244.77.15:1935/iguide playpath=kox4xy9poh2wkoo swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/embedplayer_new.php?width=600&height=390&channel=29992&autoplay=true token=#ed%h0#w18623jsda6523lDGD</link>
@@ -1226,27 +1121,6 @@
 <fanart></fanart>
 </item>   
 
-
-<item>
-<title>Benono</title>
-<link>rtmp://207.244.77.15:1935/iguide playpath=qqyjac2dvhuqtbn swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/embedplayer_new.php?width=650&height=400&channel=30276&autoplay=true token=#ed%h0#w18623jsda6523lDGD</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>  
-
-<item>
-<title>Direct Tv Sport</title>
-<link>rtmp://207.244.77.15:1935/iguide playpath=utifa3u3m1ktgd6 swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/embedplayer_new.php?width=650&height=400&channel=30263&autoplay=true token=#ed%h0#w18623jsda6523lDGD</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>  
-
-<item>
-<title>Direct tome</title>
-<link>rtmp://50.7.69.170:1935/direct2watch playpath=5cyuqgoqhvmdxge swfUrl=http://www.direct2watch.com/player/player_embed_iguide.swf live=1 pageUrl=http://www.direct2watch.com/embedplayer.php?width=653&height=410&channel=15&autoplay=true token=3be2d98d05965f0a41a316a0aef08c4</link>
-<thumbnail></thumbnail>
-</item>
-
 <item>
 <title>NBCSN</title>
 <link>$doregex[getIlive]</link>
@@ -1276,8 +1150,6 @@
 </item>
 
 
-
-
 <item> 
 <title>E4</title>
 <link>http://$doregex[url]/live/65.low.stream/playlist.m3u8$doregex[key]</link>
@@ -1285,12 +1157,12 @@
 <name>url</name>
 <expres>low","url":"http:....([^\\]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=65</page>
- </regex>
- <regex>
- <name>key</name>
- <expres>(\?id=.*?)"</expres>
- <page>http://www.filmon.com/tv/channel/export?channel_id=65</page>
- </regex>
+</regex>
+<regex>
+<name>key</name>
+<expres>(\?id=.*?)"</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=65</page>
+</regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/e4_uk.png</thumbnail>
 </item>
 
@@ -1302,12 +1174,12 @@
 <name>url</name>
 <expres>low","url":"http:....([^\\]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=2</page>
- </regex>
- <regex>
- <name>key</name>
- <expres>(\?id=.*?)"</expres>
- <page>http://www.filmon.com/tv/channel/export?channel_id=2</page>
- </regex>
+</regex>
+<regex>
+<name>key</name>
+<expres>(\?id=.*?)"</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=2</page>
+</regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/channel4_uk.png</thumbnail>
 </item>
 
@@ -1319,12 +1191,12 @@
 <name>url</name>
 <expres>low","url":"http:....([^\\]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=22</page>
- </regex>
- <regex>
- <name>key</name>
- <expres>(\?id=.*?)"</expres>
- <page>http://www.filmon.com/tv/channel/export?channel_id=22</page>
- </regex>
+</regex>
+<regex>
+<name>key</name>
+<expres>(\?id=.*?)"</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=22</page>
+</regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/channel5_uk.png</thumbnail>
 </item>
 
@@ -1336,12 +1208,12 @@
 <name>url</name>
 <expres>low","url":"http:....([^\\]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=370</page>
- </regex>
- <regex>
- <name>key</name>
- <expres>(\?id=.*?)"</expres>
- <page>http://www.filmon.com/tv/channel/export?channel_id=370</page>
- </regex>
+</regex>
+<regex>
+<name>key</name>
+<expres>(\?id=.*?)"</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=370</page>
+</regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/dave_uktv.png</thumbnail>
 </item>
 
@@ -1353,12 +1225,12 @@
 <name>url</name>
 <expres>low","url":"http:....([^\\]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=11</page>
- </regex>
- <regex>
- <name>key</name>
- <expres>(\?id=.*?)"</expres>
- <page>http://www.filmon.com/tv/channel/export?channel_id=11</page>
- </regex>
+</regex>
+<regex>
+<name>key</name>
+<expres>(\?id=.*?)"</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=11</page>
+</regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.png</thumbnail>
 </item>
 
@@ -1369,12 +1241,12 @@
 <name>url</name>
 <expres>low","url":"http:....([^\\]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=67</page>
- </regex>
- <regex>
- <name>key</name>
- <expres>(\?id=.*?)"</expres>
- <page>http://www.filmon.com/tv/channel/export?channel_id=67</page>
- </regex>
+</regex>
+<regex>
+<name>key</name>
+<expres>(\?id=.*?)"</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=67</page>
+</regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv2.png</thumbnail>
 </item>
 
@@ -1425,18 +1297,10 @@
 </item>
 
 <item>
-<title>Naija</title>
-<link>rtmp://178.162.199.141/iguide playpath=0u2zo1hvtizpff3 swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/embedplayer_new.php?width=650&height=400&channel=30357&autoplay=true token=#ed%h0#w18623jsda6523lDGD</link>
-<thumbnail>http://3.bp.blogspot.com/-e9pyWNNidUU/UfZuOJ1m_EI/AAAAAAAAANI/B45-HHf22hU/s200/Music+Africa.png</thumbnail>
-</item>
-
-
-<item>
 <title>USA NET</title>
 <link>rtmp://rtmp.myhdcast.com/redirect/jvZXQUYQmlsPirfiVK1G swfUrl=http://cdn.zerocast.tv/player/jwplayer.flash.swf pageUrl=http://zerocast.in/embed.php?a=19 token=OOG17t.x#K9Vh#|</link>
 <thumbnail></thumbnail>
 </item>
-
 
 <item>
 <title> beIN Sports 1 HD</title>
