@@ -1443,15 +1443,7 @@
 <link>rtmpe://l.xuscacamusca.se/r/ playpath=1bn924 swfUrl=http://mybeststream.xyz/Y2Y0ODA3MDUwZGNjNzQ2YTFiYTc1MDJl/jwplayer.flash.swf pageUrl=http://mybeststream.xyz/ live=1 timeout=15</link>
 </item>
 
-<item>
-<title>Bein Sports 2</title>
-<link>$doregex[Iguide]</link>
-<regex>
-<name>Iguide</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/view/30518/',False,False)</expres>
-<page></page>
-</regex>
-</item>
+
  
 
 </channel>
