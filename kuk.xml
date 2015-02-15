@@ -1464,7 +1464,11 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Giko</title>
+<link>rtmpe://46.246.29.160:1935/l swfUrl=http://hdcast.org/eplayer.swf live=1 pageUrl=http://www.hdcast.org/embedlive4.php?u=sskysf1&vw=650&vh=470&domain=cricbox.tv</link>
+<thumbnail></thumbnail>
+</item>
 
 </channel>
 </channels>
