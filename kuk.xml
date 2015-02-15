@@ -1458,6 +1458,21 @@
 </item>
 
 
+<item>
+<title>BTo HD</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<page>$pyFunction:urllib.urlopen('http://godfather-proxy.com/index.php?q=$doregex[getIlive]&amp;hl=280').read()</page>
+<referer>http://godfather-proxy.com</referer>
+</regex>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/68720/BT_Sport_1_%28HD%29-live-stream-channel?pw=iu973j',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bt_sport_1.png</thumbnail>
+</item>
+
 
 
 
