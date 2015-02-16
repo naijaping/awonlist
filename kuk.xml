@@ -1366,18 +1366,27 @@
 
 
 <item>
-<title>bibo</title>
+<title>BBC HD</title>
 <link>http://p21.sdn.si/bbcworld/bbcworld.m3u8</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>  
 
-     <item>
-                <title>BBC HD</title>
-                <link>rtmp://s6.webport.tv/live/ playpath=z010201.stream swfUrl="http://www.tvsector.com/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf pageUrl="http://www.tvsector.com/national-geographic-nat-geo-hd/"</link>
-                <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_hd_scan.jpg</thumbnail>
-	    </item>
- 
+ <item>
+<title>Hip TV</title>
+<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>base="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=webwwwhiptv51845&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
+</regex>
+<regex>
+<name>path</name>
+<expres>src="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=webwwwhiptv51845&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hip_tv_ng.png</thumbnail>
+</item>
 
 </channel>
 </channels>
