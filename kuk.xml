@@ -1372,16 +1372,11 @@
 <fanart></fanart>
 </item>  
 
-        <item>
-        <title>How I Met Your Mother</title>
-        <link>$doregex[rtmp] playpath=himym02 swfUrl=http://www.tgun.tv/menus/players/jwplayer/jwplayer.flash.swf pageUrl=http://www.tgun.tv live=1 timeout=15</link>
-        <regex>
-        <name>rtmp</name>
-        <expres>file: '(.*?)'</expres>
-        <page>http://www.tgun.tv/menus/players/dlock/playerindextab1.php?himym02</page>
-        <referer>http://www.tgun.tv</referer>
-        </regex>
-        </item>
+      <item>
+	        <title>DisneyXD HD</title>
+	        <link>rtmp://s6.webport.tv/live/ playpath=z020101.stream swfUrl="http://www.tvsector.com/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf pageUrl=http://www.tvsector.com/national-geographic-nat-geo-hd/</link>
+	        <thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/disney_xd_hd.jpg</thumbnail>
+	    </item>
 
 
  
