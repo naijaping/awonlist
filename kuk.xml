@@ -1328,18 +1328,26 @@
 
 
 <item>
-<title>F1 HD</title>
+<title>sk2 HD</title>
 <link>rtmp://31.220.0.206/redirect/skky2 swfUrl=http://www.flashtv.co/ePlayerr.swf token=%Zxri(nKa@#Z pageUrl=http://www.flashtv.co live=1 timeout=15</link>
 <thumbnail></thumbnail>
 </item> 
  
+<item>
+<title>sk4 HD</title>
+<link>rtmp://31.220.0.206/redirect/ssx4 swfUrl=http://www.flashtv.co/ePlayerr.swf token=%Zxri(nKa@#Z pageUrl=http://www.flashtv.co live=1 timeout=15</link>
+<thumbnail></thumbnail>
+</item> 
+
+
+
 <item>
 <title>BTXXX1</title>
 <link>rtmp://rtmp.popeoftheplayers.eu:1935/redirect playpath=13 swfUrl="http://popeoftheplayers.eu/stylish.swf pageUrl=http://popeoftheplayers.eu live=1 token=#atd%#$ZH timeout=15</link>
 </item>
 
 <item>
-<title>BTXXX1</title>
+<title>BTXXX2</title>
 <link>rtmp://rtmp.popeoftheplayers.eu:1935/redirect playpath=15 swfUrl="http://popeoftheplayers.eu/stylish.swf pageUrl=http://popeoftheplayers.eu live=1 token=#atd%#$ZH timeout=15</link>
 </item>
 
