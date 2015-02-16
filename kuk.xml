@@ -1372,7 +1372,7 @@
 <fanart></fanart>
 </item>  
 
-<item>
+        <item>
         <title>How I Met Your Mother</title>
         <link>$doregex[rtmp] playpath=himym02 swfUrl=http://www.tgun.tv/menus/players/jwplayer/jwplayer.flash.swf pageUrl=http://www.tgun.tv live=1 timeout=15</link>
         <regex>
