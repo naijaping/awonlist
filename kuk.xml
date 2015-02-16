@@ -1373,11 +1373,10 @@
 </item>  
 
      <item>
-	        <title>MGM HD</title>
-	        <link>rtmp://s6.webport.tv/live/ playpath=z020401.stream swfUrl="http://www.tvsector.com/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf"  pageUrl=http://www.tvsector.com/national-geographic-nat-geo-hd/</link>
-	        <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mgm_hd_uk.jpg</thumbnail>
+                <title>BBC HD</title>
+                <link>rtmp://s6.webport.tv/live/ playpath=z010201.stream swfUrl="http://www.tvsector.com/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf pageUrl="http://www.tvsector.com/national-geographic-nat-geo-hd/"</link>
+                <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_hd_scan.jpg</thumbnail>
 	    </item>
-
  
 
 </channel>
