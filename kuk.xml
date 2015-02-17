@@ -1468,7 +1468,7 @@
 
 <item>
 <title>lol3</title>
-<link>rtmp://208.53.133.178/ctv playpath=tom swfUrl=http://www.canaistv.net/swf/player.swf pageUrl=http://www.canaistv.net/tvamigos/tomejerry.html</link>
+<link>rtmp://208.53.133.178/ctv playpath=tom swfUrl=http://www.canaistv.net/swf/player.swf pageUrl=http://www.canaistv.net/tvamigos/tomejerry.html live=true timeout=15</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>   
@@ -1477,7 +1477,7 @@
 
 <item>
 <title> Test</title>
-<link>rtmp://208.53.133.122/tvamigos/ playpath=tom swfUrl=http://www.canaistv.net/swf/player.swf pageurl=http://carolineoliveira.com.br/tvamigos/tomejerry.html</link>
+<link>rtmp://208.53.133.178/tvamigos/ playpath=tom swfUrl=http://www.carolineoliveira.com.br/swf/player.swf pageurl=http://carolineoliveira.com.br/tvamigos/tomejerry.html</link>
 </item.
 
 </channel>
