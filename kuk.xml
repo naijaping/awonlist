@@ -480,7 +480,7 @@
 
 <item>
 <title>Tom and Jerry</title>
-<link>rtmp://208.53.133.122/tvamigos/ playpath=tom swfUrl=http://www.carolineoliveira.com.br/swf/player.swf pageUrl=http://carolineoliveira.com.br/tvamigos/tomejerry.html live=tue timeout=10</link>
+<link>rtmp://208.53.133.178/ctv playpath=tom swfUrl=http://www.canaistv.net/swf/player.swf pageUrl=http://www.canaistv.net/tvamigos/tomejerry.html live=true timeout=15</link>
 <thumbnail></thumbnail>
 </item>
 
@@ -1464,15 +1464,6 @@
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/planet_pop_uk.png</thumbnail>
 </item> 
-
-
-<item>
-<title>lol3</title>
-<link>rtmp://208.53.133.178/ctv playpath=tom swfUrl=http://www.canaistv.net/swf/player.swf pageUrl=http://www.canaistv.net/tvamigos/tomejerry.html live=true timeout=15</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>   
-
 
 
 <item>
