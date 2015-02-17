@@ -1491,20 +1491,20 @@
 <thumbnail>http://twofour54.com/media/thumbnail/partner-main/26aa74992bfff151940aa4c6079fafe4/20111117_infinity-1-Logo.png</thumbnail>
 </item>
 
-<item>
-<title>Filmon Source</title>
-<link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2612.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
-   <regex>
-     <name>url</name>
-     <expres>rtmp:....([^\\]*)</expres>
-     <page>http://www.filmon.com/tv/channel/export?channel_id=2612</page>
-   </regex>
-   <regex>
-     <name>key</name>
-     <expres>rtmp[^?]*(\?id=[^"]*)</expres>
-     <page>http://www.filmon.com/tv/channel/export?channel_id=2612</page>
-   </regex>
-<thumbnail>http://www.lyngsat-logo.com/hires/rr/rotana_masriya.png</thumbnail>
+<item> 
+<title>Channel 4</title>
+<link>http://$doregex[url]/live/2.low.stream/playlist.m3u8$doregex[key]</link>
+<regex>
+<name>url</name>
+<expres>low","url":"http:....([^\\]*)</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=2</page>
+</regex>
+<regex>
+<name>key</name>
+<expres>rtmp[^?]*(\?id=.*?)"</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=2</page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/channel4_uk.png</thumbnail>
 </item>
 
 </channel>
