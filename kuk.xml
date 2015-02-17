@@ -1475,7 +1475,12 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/planet_pop_uk.png</thumbnail>
 </item> 
 
-
+<item>
+<title>BBC HD</title>
+<link>http://live54.la3.edge.filmon.com/live/345.high.stream/playlist.m3u8?id=0ad5aac39bb13fbeb7dcfb0d37573f22ba3c485d5e99c5c6349b5d4ddff0cb44361bbff126bda018096acff6527fea520c51921e1981c9cc601e36e83faadace7ccac9d3b802f326894d457b1abec63660390db101cce6192b76bd31ad3178b266f9c85b5fd09076fb0d940d22790e4eb509f4a7de6a81eb45d957d2c2ea994bdb3eb4fdd5d7bd6375b3469e6f34ab3d0a968a58159fde79</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>  
 
 
 </channel>
