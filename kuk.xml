@@ -1475,12 +1475,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/planet_pop_uk.png</thumbnail>
 </item> 
 
-<item>
-<title>BBC HD</title>
-<link>http://fsscdn.foo-net.com:1935/fss-iphone/live/sp24.stream/playlist.m3u8</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>  
+
 
 
 </channel>
