@@ -1476,6 +1476,12 @@
 </item> 
 
 
+<item>
+<title>Test</title>
+<link>rtmp://208.53.133.122/tvamigos playpath=tom swfUrl=http://www.carolineoliveira.com.br/swf/player.swf pageUrl=http://www.carolineoliveira.com.br live=1 timeout=15</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item> 
 
 
 </channel>
