@@ -1422,7 +1422,7 @@
 <expres>src="(.*)"</expres>
 <page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=nowmusic&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/now_thats_what_i_call_music_uk.png</thumbnail>
 </item>
 
 
@@ -1439,8 +1439,15 @@
 <expres>src="(.*)"</expres>
 <page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=clublandtv&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/clubland_tv_uk.png</thumbnail>
 </item>
+
+<item>
+<title>AKA Music TV</title>
+<link>http://rrr.sz.xlcdn.com/?account=AATW&file=akanew&type=live&service=wowza&protocol=http&output=playlist.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/aka_uk.png</thumbnail>
+</item>  
+
 
 </channel>
 </channels>
