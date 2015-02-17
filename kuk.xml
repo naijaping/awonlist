@@ -234,6 +234,13 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news.png</thumbnail>
 </item>
 
+<item>
+<title>BBC World News HD</title>
+<link>http://p21.sdn.si/bbcworld/bbcworld.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_world_news.png</thumbnail>
+<fanart>http://www.lyngsat-logo.com/logo/tv/bb/bbc_world_news.png</fanart>
+</item>  
+
 
 
 <item>
@@ -1364,13 +1371,6 @@
 <fanart></fanart>
 </item>   
 
-
-<item>
-<title>BBC HD</title>
-<link>http://p21.sdn.si/bbcworld/bbcworld.m3u8</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>  
 
 <item>
 <title>Hip TV</title>
