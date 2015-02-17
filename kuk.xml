@@ -1372,7 +1372,7 @@
 <fanart></fanart>
 </item>  
 
- <item>
+<item>
 <title>Hip TV</title>
 <link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
 <regex>
@@ -1410,11 +1410,21 @@
 </item>
 
 <item>
-<title> TV HD</title>
-<link>http://198.179.30.110/live/1826.high.stream/playlist.m3u8</link>
+<title>Now Music</title>
+<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>base="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=nowmusic&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
+</regex>
+<regex>
+<name>path</name>
+<expres>src="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=nowmusic&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
+</regex>
 <thumbnail></thumbnail>
-<fanart></fanart>
-</item> 
+</item>
+
 
 </channel>
 </channels>
