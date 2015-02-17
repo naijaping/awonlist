@@ -1409,6 +1409,13 @@
 </regex>
 </item>
 
+<item>
+<title> HD</title>
+<link>rtmpe://46.246.124.31:1935/live/spremsp swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf token=#yw%tt#w@kku live=1 timeout=14 swfVfy=1 pageUrl=http://www.hdcast.org/embedlive2.php?u=spremsp&vw=854&vh=480</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item> 
+
 </channel>
 </channels>
 			
