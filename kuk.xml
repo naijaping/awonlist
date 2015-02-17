@@ -1477,7 +1477,7 @@
 
 <item>
 <title>BBC HD</title>
-<link>http://198.179.30.108/live/11.high.stream/playlist.m3u8?id=0ad5aac39bb13fbee06e247e25c67ed52537dd355ecdca9bbae391ed3c28d44639aee91909d6c79b5bd8bb8b610c4756b071d13f505fb0ecc9ff6381e16178761d97ef47cb1897dfae295373ac12335885ebf0a7898afd0d7208ec4b0a6be7c237de9478d8b43ebd8945719eb48ea94a4bb6738f1c0c6144ddb8711955533100ead99d33d187a58916a1e2220aedf01a5fee421c2dfc764f</link>
+<link>http://fsscdn.foo-net.com:1935/fss-iphone/live/sp24.stream/playlist.m3u8</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>  
