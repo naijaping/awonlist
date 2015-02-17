@@ -1466,7 +1466,12 @@
 </item> 
 
 
-
+<item>
+<title>lol3</title>
+<link>rtmp://208.53.133.178/ctv playpath=tom swfUrl=http://www.canaistv.net/swf/player.swf pageUrl=http://www.canaistv.net/tvamigos/tomejerry.html</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>   
 
 
 </channel>
