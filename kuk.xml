@@ -1493,15 +1493,15 @@
 
 <item> 
 <title>Channel 4</title>
-<link>http://$doregex[url]/live/2.low.stream/playlist.m3u8$doregex[key]</link>
+<link>http://$doregex[url]/live/2.high.stream/playlist.m3u8$doregex[key]</link>
 <regex>
 <name>url</name>
-<expres>low","url":"http:....([^\\]*)</expres>
+<expres>high","url":"http:....([^\\]*)</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=2</page>
 </regex>
 <regex>
 <name>key</name>
-<expres>rtmp[^?]*(\?id=.*?)"</expres>
+<expres>(\?id=.*?)"</expres>
 <page>http://www.filmon.com/tv/channel/export?channel_id=2</page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/channel4_uk.png</thumbnail>
