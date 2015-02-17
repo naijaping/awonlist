@@ -1473,6 +1473,14 @@
 <page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=ppop&amp;ref=http://tv.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/planet_pop_uk.png</thumbnail>
+</item> 
+
+
+<item>
+<title>Big Bang Theory HD</title>
+<link>rtmp://62.210.76.216/live playpath=thebigprodbang swfUrl=http://releases.flowplayer.org/5.5.1/flowplayer.swf pageUrl=http://www.stream4free.eu/the-big-bang-theory</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
 </item>  
 
 </channel>
