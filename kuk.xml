@@ -1477,10 +1477,9 @@
 
 
 <item>
-<title>Test</title>
-<link>rtmp://208.53.133.122/tvamigos playpath=tom swfUrl=http://www.carolineoliveira.com.br/swf/player.swf pageUrl=http://www.fancylive.com/tom-and-jerry-cartoon-live-tv-channel.php live=1 timeout=15</link>
+<title>Southpark HD</title>
+<link>http://62.210.76.216:8080/4be7ac1d63c48751141678028be34486f98c69ec0d9cafb6a0e0ddffca886c5c/hls/spark.m3u8|User-Agent=iPhone</link>
 <thumbnail></thumbnail>
-<fanart></fanart>
 </item> 
 
 
