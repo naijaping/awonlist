@@ -1493,15 +1493,15 @@
 
 <item>
 <title>FILMON SOURCE</title>
-<link>rtmp://$doregex[url]/live/?id=$doregex[key]/2.high.stream playpath=368.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com/ live=true timeout=15 swfVfy=1</link>
+<link>http://$doregex[url]/live/2.low.stream/playlist.m3u8$doregex[key]</link>
    <regex>
      <name>url</name>
-     <expres>\"qualit.*rtmp:....(.*?)\\</expres>
+     <expres>\"qualit.*http:....(.*?)\\</expres>
      <page>http://www.filmon.com/tv/channel/export?channel_id=2</page>
    </regex>
    <regex>
      <name>key</name>
-     <expres>\"qualit.*rtmp:.*?id=(.*?)\"</expres>
+     <expres>\"qualit.*http:.*?id=(.*?)\"</expres>
      <page>http://www.filmon.com/tv/channel/export?channel_id=2</page>
    </regex>
 <thumbnail>http://3alkanaba.com/uploads/channels/501ec_Aflam_rotana_242.jpg</thumbnail>
