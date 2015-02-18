@@ -1436,16 +1436,7 @@
 <link>rtmp://208.53.133.122/tvamigos/ playpath=tom swfUrl=http://www.carolineoliveira.com.br/swf/player.swf pageUrl=http://www.carolineoliveira.com.br/face/curta.html</link>
 </item>
 
-<item>
-        <title>[COLOR lime]Cartoon Network[/COLOR]</title>
-        <link>rtmp://$doregex[rtmpip]/live playpath=cartoon3014?id=71938 conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/fplayer.swf pageUrl=http://www.ucaster.eu live=1 timeout=20</link>
-        <regex>
-        <name>rtmpip</name>
-        <expres>redirect=(.*)</expres>
-        <page>http://www.ucaster.eu:1935/loadbalancer</page>
-        <referer>http://www.ucaster.eu/static/scripts/fplayer.swf</referer>
-        </regex>
-        </item>
+
 
 
 
