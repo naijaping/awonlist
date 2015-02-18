@@ -405,6 +405,72 @@
 </item> 
 
 <item>
+<title>Now Music TV</title>
+<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>base="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=nowmusic&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
+</regex>
+<regex>
+<name>path</name>
+<expres>src="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=nowmusic&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/now_thats_what_i_call_music_uk.png</thumbnail>
+</item>
+
+
+<item>
+<title>Clubland Music TV</title>
+<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>base="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=clublandtv&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
+</regex>
+<regex>
+<name>path</name>
+<expres>src="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=clublandtv&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/clubland_tv_uk.png</thumbnail>
+</item>
+
+<item>
+<title>AKA Music TV</title>
+<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://player.streamzilla.xlcdn.com/sz/AATW/jw/jwplayer.flash.swf pageUrl=http://player.streamzilla.xlcdn.com live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>base="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=akanew&amp;ref=http://player.streamzilla.xlcdn.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
+</regex>
+<regex>
+<name>path</name>
+<expres>src="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=akanew&amp;ref=http://player.streamzilla.xlcdn.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/aka_uk.png</thumbnail>
+</item>  
+
+
+<item>
+<title>Planet POP Music TV</title>
+<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>base="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=ppop&amp;ref=http://tv.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
+</regex>
+<regex>
+<name>path</name>
+<expres>src="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=ppop&amp;ref=http://tv.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/planet_pop_uk.png</thumbnail>
+</item> 
+
+<item>
 <title>Gold TV</title>
 <link>http://87.248.160.8/edge/smil:goldtv/playlist.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/gold_au.png</thumbnail>
@@ -1363,73 +1429,6 @@
 <cookieJar></cookieJar>
 </regex>
 </item>
-
-<item>
-<title>Now Music TV</title>
-<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>base="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=nowmusic&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-</regex>
-<regex>
-<name>path</name>
-<expres>src="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=nowmusic&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/now_thats_what_i_call_music_uk.png</thumbnail>
-</item>
-
-
-<item>
-<title>Clubland Music TV</title>
-<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>base="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=clublandtv&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-</regex>
-<regex>
-<name>path</name>
-<expres>src="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=clublandtv&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/clubland_tv_uk.png</thumbnail>
-</item>
-
-<item>
-<title>AKA Music TV</title>
-<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://player.streamzilla.xlcdn.com/sz/AATW/jw/jwplayer.flash.swf pageUrl=http://player.streamzilla.xlcdn.com live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>base="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=akanew&amp;ref=http://player.streamzilla.xlcdn.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-</regex>
-<regex>
-<name>path</name>
-<expres>src="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=akanew&amp;ref=http://player.streamzilla.xlcdn.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/aka_uk.png</thumbnail>
-</item>  
-
-
-<item>
-<title>Planet POP Music TV</title>
-<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>base="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=ppop&amp;ref=http://tv.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-</regex>
-<regex>
-<name>path</name>
-<expres>src="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=ppop&amp;ref=http://tv.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/planet_pop_uk.png</thumbnail>
-</item> 
-
 
 <item>
 <title> Test</title>
