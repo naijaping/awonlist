@@ -1436,6 +1436,19 @@
 <link>rtmp://208.53.133.122/tvamigos/ playpath=tom swfUrl=http://www.carolineoliveira.com.br/swf/player.swf pageUrl=http://www.carolineoliveira.com.br/face/curta.html</link>
 </item>
 
+
+
+<item>
+<title>Sponge</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/70401/Bob_the_Sponge_Channel-live-stream-channel?pw=iu973j',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 </channel>
 </channels>
 			
