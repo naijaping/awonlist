@@ -1456,14 +1456,10 @@
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/e_global_us.png</thumbnail>
- </item>
+</item>
 
 
-<item>
-<title>DisneyXD HD</title>
-<link>rtmp://s6.webport.tv/live/ playpath=z020101.stream swfUrl="http://www.tvsector.com/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf"  pageUrl=http://www.tvsector.com/national-geographic-nat-geo-hd/</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/disney_xd_hd.jpg</thumbnail>
- </item> 
+
 
                 
 
