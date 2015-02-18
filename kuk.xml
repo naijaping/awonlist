@@ -1014,25 +1014,6 @@
 
 
 <item>
-<title>Toros Opcion 2</title>
-<link>rtmp://50.7.69.242:1935/verdirectotvedge/_definst_/ app=verdirectotvedge/_definst_/?xs=_we_$doregex[rtmp] playpath=5fhl0ebuehp2u4b swfUrl=http://www.9stream.com/player/player_embed_iguide.swf pageUrl=http://www.9stream.com token=$doregex[tok] conn=S:OK live=1 timeout=10 </link>
-<regex>
-<name>rtmp</name>
-<expres>xs=_we_([^"]*)</expres>
-<page>http://www.9stream.com/embedplayer.php?width=650&height=400&channel=97 &autoplay=true</page>
-<referer>http://www.9stream.com</referer>
-</regex>
-<regex>
-<name>tok</name>
-<expres>token":"([^."]*)</expres>
-<page>http://www.9stream.com/server1.php?id=1406278125</page>
-<referer>http://www.9stream.com</referer>
-</regex>
-</item>
-
-
-
-<item>
 <title>hustler</title>
 <link>rtmp://50.7.69.242:1935/verdirectotvedge/_definst_/ app=verdirectotvedge/_definst_/?xs=_we_$doregex[rtmp] playpath=ulbirxt4st3gtdh swfUrl=http://www.9stream.com/player/player_embed_iguide.swf pageUrl=http://www.9stream.com token=$doregex[tok] conn=S:OK live=1 timeout=10 </link>
 <regex>
@@ -1107,23 +1088,7 @@
 <thumbnail></thumbnail>
 </item>	   
 
-<item>
-<title>ESPN Deportes (PSN) - [COLOR green] Funcionando[/COLOR]</title>
-<thumbnail>http://3.bp.blogspot.com/-9L5QPnyvgds/UIByzahUSWI/AAAAAAAArpE/t9PpgnYRgQ0/s320/espn+deportes+online.jpg</thumbnail>
-<link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=live_psntv_espnd30 live=1 timeout=20</link>
-<regex>
-<name>getIP</name>
-<expres>function getEdgeServers.*"(.*?),<expres>
-<page>http://vaughnlive.tv/psntv_espnd30</page>
-</regex>
-<regex>
-<name>getCODE</name>
-<expres>vsVars.*= "0m0(.*?)"<expres>
-<page>http://vaughnlive.tv/psntv_espnd30</page>
-</regex>
-</item>
 
-   
 <item>
 <title>CMD VIVO</title>
 <link>rtmp://207.244.77.15:1935/iguide playpath=b06v28xdlzby4xy swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/embedplayer_new.php?width=650&height=400&channel=30408&autoplay=true token=#ed%h0#w18623jsda6523lDGD</link>
