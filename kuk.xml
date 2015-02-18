@@ -1430,13 +1430,7 @@
 </regex>
 </item>
 
-<item>
-<title> Testo</title>
-<link>http://mss-v3-spbtv.msk.spbtv.com/288.isml/288-548k.m3u8</link>
-</item>
 
-
- 
 <item>
 <title>E! ENTERTAINMENT</title> 
 <link>$doregex[url]$doregex[analytics]|Cookie=$get_cookies$&amp;Referer=http://oneplay.tv/one-player/GrindPlayer.swf&amp;User-Agent=iPad</link>
@@ -1459,6 +1453,10 @@
 </item>
 
 
+<item>
+<title> Testo</title>
+<link>rtmp://198.27.75.99/app playpath=aitf swfUrl=http://www.tgun.tv/lock/player.swf live=1 pageUrl=http://www.tgun.tv/menus/players/playerindex5.php?aitf</link>
+</item>
 
 
                 
