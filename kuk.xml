@@ -1455,7 +1455,7 @@
 
 <item>
 <title> Testo</title>
-<link>rtmp-raw=rtmp://198.27.75.99/app playpath=aitf swfUrl=http://www.tgun.tv/lock/player.swf live=1 pageUrl=http://www.tgun.tv/menus/players/playerindex5.php?aitf</link>
+<link>rtmp://198.27.75.99/app playpath=seinfeld02 swfUrl=http://www.tgun.tv/lock/player.swf live=1 pageUrl=http://www.tgun.tv/menus/players</link>
 </item>
 
 
