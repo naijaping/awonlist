@@ -1499,6 +1499,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>AD Aloula Gini</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://giniko.com/watch.php?id=80</page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/hires/aa/abu_dhabi_tv.png</thumbnail>
+</item>
+
 
 </channel>
 </channels>
