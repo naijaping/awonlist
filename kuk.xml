@@ -1454,6 +1454,18 @@
 
 
 <item>
+<title>The Walking Dead</title>
+<link>$doregex[getlink]|User-Agent=iPhone</link>
+<regex>
+<name>getlink</name>
+<expres>source src="([^"]*)</expres>
+<page>http://www.stream4free.eu/the-walking-dead</page>
+</regex>
+<thumbnail>http://www.thelandofshadow.com/wp-content/uploads/2015/01/WalkingDeadLogo.jpg</thumbnail>
+</item>
+
+
+<item>
 <title>Test</title>
 <link></link>
 </item>
