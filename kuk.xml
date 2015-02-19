@@ -1501,7 +1501,7 @@
 
 <item>
 <title>itv1</title>
-<link>rtmp://95.141.43.53:1735/redirect playpath=tvb1 swfUrl=http://www.hdmytv.com/jwplayer5/addplayer/jwplayer.flash.swf pageUrl=http://www.hdcastream.com/control/addplayer1.php token=wowk</link>
+<link>rtmp://95.141.43.53:1735/redirect playpath=tvb1 swfUrl=http://www.hdmytv.com/jwplayer5/addplayer/jwplayer.flash.swf pageUrl=http://verdirectotv.com/canales/canal-plus-liga.html token=wowk</link>
 <thumbnail></thumbnail>
 </item>
 
