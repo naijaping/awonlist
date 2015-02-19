@@ -1473,7 +1473,19 @@
 <item>
 <title>Testo</title>
 <link></link>
-</item>               
+</item>   
+
+
+<item>
+<title>Simpson</title>
+<link>$doregex[getlink]|User-Agent=iPhone</link>
+<regex>
+<name>getlink</name>
+<expres>source src="([^"]*)</expres>
+<page>http://www.stream4free.eu/simpsons-hd</page>
+</regex>
+<thumbnail>http://www.thelandofshadow.com/wp-content/uploads/2015/01/WalkingDeadLogo.jpg</thumbnail>
+</item>
 
 
 </channel>
