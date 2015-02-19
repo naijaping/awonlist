@@ -1464,7 +1464,10 @@
         </regex>
         </item>
 
-
+<item>
+<title> ADEOLA</title>
+<link>rtmp://live61.la3.edge.filmon.com:1935/ app=live/?id=1ad5aac39bb13fbeb74863ba9c14825eb5f678f0e1d488f6ce89428c347f85693575757eda2c3fc481e1827bf88483feb55f035172e7aad81a81172c70a88120be9d4bdd8af934cd45242f5088fae4dabc52399df48bc4b5bb6cf78b68c39e9366415643fa1f5f9d632a32f577befc4d0ad7c96b1a68e86203e7e0a5c938763246038d8b478940ce44ab86bd3e42547eaa836246d6d31f3d pageUrl=https://www.filmon.com/ swfUrl=https://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf?v=28 conn=O:1 conn=O:0 playpath=560.high.stream buffer=96000000</link>
+</item>
                 
 
 
