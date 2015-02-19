@@ -1482,9 +1482,9 @@
 <regex>
 <name>getlink</name>
 <expres>source src="([^"]*)</expres>
-<page>http://www.stream4free.eu/simpsons-hd</page>
+<page>http://www.stream4free.eu/game-of-thrones</page>
 </regex>
-<thumbnail>http://www.thelandofshadow.com/wp-content/uploads/2015/01/WalkingDeadLogo.jpg</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
