@@ -1455,11 +1455,11 @@
 
 <item>
         <title>How I Met Your Mother</title>
-        <link>$doregex[rtmp] playpath=himym02 swfUrl=http://www.tgun.tv/menus/players/jwplayer/jwplayer.flash.swf pageUrl=http://www.tgun.tv live=1 timeout=15</link>
+        <link>$doregex[rtmp] playpath=280c6cab4 swfUrl=http://www.tgun.tv/menus/players/jwplayer/jwplayer.flash.swf pageUrl=http://www.tgun.tv live=1 timeout=15</link>
         <regex>
         <name>rtmp</name>
         <expres>file: '(.*?)'</expres>
-        <page>http://www.tgun.tv/menus/players/dlock/playerindextab1.php?himym02</page>
+        <page>http://www.tgun.tv/watch.php?vid=280c6cab4</page>
         <referer>http://www.tgun.tv</referer>
         </regex>
         </item>
