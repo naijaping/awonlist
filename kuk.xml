@@ -1472,7 +1472,7 @@
  
 <item>
 <title>Testo</title>
-<link>http://193.232.151.135/hls-live/livepkgr/_1040_/1040/1040-50.m3u8</link>
+<link>rtmpe://46.246.124.22:1935/live playpath=nbcsn0 swfUrl=http://prvservers.com/j/jwplayer.flash.swf pageUrl=http://prvservers.com/ token=#yw%tt#w@kku timeout=10</link>
 </item>   
 
 
