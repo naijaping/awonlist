@@ -902,17 +902,6 @@
 </item> 
 
 <item>
-<title>CBS Sport</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/espn/frame')</expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>FOX SPORTS 1</title>
 <link>$doregex[url]</link>
 <regex>
