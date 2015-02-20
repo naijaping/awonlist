@@ -1540,7 +1540,7 @@
 <regex>
 <name>url</name>
 <expres>file: "([^"]*)</expres>
-<page>http://www.tvone1.com/sky-sports-4/</page>
+<page>http://www.finecast.tv/channel.php?u=sky488</page>
 </regex>
 <thumbnail>http://giniko.com/logos/190x110/182.jpg</thumbnail>
 </item>
