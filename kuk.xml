@@ -1523,12 +1523,12 @@
 
 <item>
 <title>cartoon-network</title>
-<link>http://37.48.118.32/live/disney.stream/playlist.m3u8$doregex[get-auth]</link>
+<link>http://37.48.118.32/live/nick.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
-<page>http://www.tvone1.com/disney-channel/</page>
-<referer>http://www.finecast.tv/channel.php?u=disney</referer>
+<page>http://www.tvone1.com/nickelodeon/</page>
+<referer>http://www.finecast.tv/channel.php?u=nick666</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
