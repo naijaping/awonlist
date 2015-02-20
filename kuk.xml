@@ -1514,8 +1514,8 @@
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
-<page>http://www.finecast.tv/channel.php?u=disneyjr</page>
-<referer></referer>
+<page>http://www.tvone1.com/disney-junior</page>
+<referer>http://www.finecast.tv/channel.php?u=disneyjr</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
