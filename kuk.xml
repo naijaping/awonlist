@@ -541,7 +541,13 @@
 
 <item>
 <title>Cartoon Network</title>
-<link>http://37.48.118.32/live/cn.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yMC8yMDE1IDEyOjUyOjEzIFBNJmhhc2hfdmFsdWU9bXRVcm5ldnBJdTNwUEhYVjhhaFR5UT09JnZhbGlkbWludXRlcz0yMA==</link>
+<link>http://37.48.118.32/live/cn.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.tvone1.com/cartoon-network</page>
+<referer>http://www.finecast.tv/channel.php?u=cn888</referer>
+</regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/cartoon_network_global.png</thumbnail>
 </item>
 
