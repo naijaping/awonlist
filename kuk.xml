@@ -1507,22 +1507,47 @@
 
 
 <item>
-<title>hustler0000</title>
-<link>rtmp://50.7.69.242:1935/verdirectotvedge/_definst_/ app=verdirectotvedge/_definst_/?xs=_we_$doregex[rtmp] playpath=mbfx0pnzzwuns0g swfUrl=http://www.9stream.com/player/player_embed_iguide.swf pageUrl=http://www.9stream.com token=$doregex[tok] conn=S:OK live=1 timeout=10 </link>
+<title>Canal + 1</title>
+<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=$doregex[get-decrypted-ssx1] swfUrl=http://www.spasswitz.com/jwplayer5/addplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] live=1 timeout=15</link>
 <regex>
-<name>rtmp</name>
-<expres>xs=_we_([^"]*)</expres>
-<page>http://www.9stream.com/embedplayer.php?width=650&height=400&channel=154 &autoplay=true</page>
-<referer>http://www.9stream.com</referer>
+<name>get-rtmp</name>
+<expres>(.*)\/re</expres>
+<page>$doregex[get-decrypted-ssx4]</page>
 </regex>
 <regex>
-<name>tok</name>
-<expres>token":"([^."]*)</expres>
-<page>http://www.9stream.com/server1.php?id=1424416590</page>
-<referer>http://www.9stream.com</referer>
+<name>get-token</name>
+<expres>@(.*)</expres>
+<page>$doregex[get-decrypted-ssx4]</page>
+</regex>
+<regex>
+<name>get-decrypted-ssx4</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx4]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-encrypted-ssx4</name>
+<expres>ssx4" value="(.*)"</expres>
+<page>$doregex[get-iframe]</page>
+<referer>http://cinestrenostv.tv</referer>
+</regex>
+<regex>
+<name>get-iframe</name>
+<expres>src="(.*?)\"</expres>
+<page>http://www.dinostream.pw/channel.php?file=103355&amp;width=650&amp;height=400&amp;autostart=true</page>
+<referer>http://cinestrenostv.tv</referer>
+</regex>
+<regex>
+<name>get-decrypted-ssx1</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx1]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-encrypted-ssx1</name>
+<expres>ssx1" value="(.*)"</expres>
+<page>$doregex[get-iframe]</page>
+<referer>http://cinestrenostv.tv</referer>
 </regex>
 </item>
-
 
 
 
