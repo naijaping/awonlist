@@ -1508,7 +1508,17 @@
 <thumbnail></thumbnail>
 </item>        
 
-
+<item>
+<title>BIBOOOO</title>
+<link>http://37.48.118.32/live/disneyjr.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.finecast.tv/channel.php?u=disneyjr</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 </channel>
 </channels>
