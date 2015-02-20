@@ -496,12 +496,7 @@
 
 <item>
 <title>Disney JR</title>
-<link>$doregex[getIlive]</link>
-<regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/70698/Disney_Jr-live-stream-channel?pw=iu973j',False,False)</expres>
-<page></page>
-</regex>
+<link>http://37.48.118.32/live/disneyjr.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yMC8yMDE1IDEyOjQ4OjIyIFBNJmhhc2hfdmFsdWU9cEU3cXRyU2F2ZHNEQ2J1WlJPaW9YUT09JnZhbGlkbWludXRlcz0yMA==</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/disney_junior_us.png</thumbnail>
 </item>
 
