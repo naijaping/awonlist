@@ -531,11 +531,12 @@
 
 <item>
 <title>Nickelodeon</title>
-<link>$doregex[getIlive]</link>
+<link>http://37.48.118.32/live/nick.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/52991/Nickelodeon-live-stream-channel?pw=iu973j',False,False)</expres>
-<page></page>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.tvone1.com/nickelodeon/</page>
+<referer>http://www.finecast.tv/channel.php?u=nick666</referer>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nickelodeon_us.png</thumbnail>
 </item>
