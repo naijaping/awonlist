@@ -1534,6 +1534,19 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Aliraqiya Gini</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://www.tvone1.com/sky-sports-4/</page>
+</regex>
+<thumbnail>http://giniko.com/logos/190x110/182.jpg</thumbnail>
+</item>
+
+
+
 </channel>
 </channels>
 			
