@@ -1506,7 +1506,11 @@
 </item>
 
 
-
+<item>
+<title> Test</title>
+<link>rtmp://185.39.9.66:1735/vod?token=play@141151466301847 playpath=tvb1 swfUrl=http://www.hdmytv.com/jwplayer5/addplayer/jwplayer.flash.swf live=1 pageUrl=http://www.dinozap.info/redirect/embedredi.php swfVfy=true timeout=15 flashver=WIN\2013,0,0,214</link>
+<thumbnail></thumbnail>
+</item>
       
         
 
