@@ -351,8 +351,14 @@
  <item>
 
 <item>
-<title>MTV</title>
-<link>http://37.48.118.32/live/mtvmusic.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yMC8yMDE1IDEyOjU4OjIzIFBNJmhhc2hfdmFsdWU9NU14QjJkNm1iK0dUMU54MFk2Y1NoUT09JnZhbGlkbWludXRlcz0yMA==</link>
+<title>MTV Music</title>
+<link><link>http://37.48.118.32/live/mtvmusic.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.tvone1.com/mtv-music/</page>
+<referer>http://www.finecast.tv/channel.php?u=mtvmusic</referer>
+</regex></link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mtv_us.png</thumbnail>
 </item>
 
@@ -1524,12 +1530,12 @@
 
 <item>
 <title>Sky 1</title>
-<link>http://37.48.118.32/live/skysports11.stream/playlist.m3u8$doregex[get-auth]</link>
+<link>http://37.48.118.32/live/mtvmusic.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
-<page>http://www.tvone1.com/sky-sports-1/</page>
-<referer>http://www.finecast.tv/channel.php?u=sksport1</referer>
+<page>http://www.tvone1.com/mtv-music/</page>
+<referer>http://www.finecast.tv/channel.php?u=mtvmusic</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
