@@ -1500,15 +1500,27 @@
 </item>
 
 <item>
-<title>itv1</title>
-<link>rtmp://95.141.43.53:1735/redirect playpath=tvb1 swfUrl=http://www.businessapp1.pw/jwplayer5/addplayer/jwplayer.flash.swf pageUrl=http://www.dinostream.pw/channel.php?file=103330&amp;width=650&amp;height=400 token=wowk</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title> Test</title>
 <link>http://d1hya96e2cm7qi.cloudfront.net/Live/_definst_/sweetbcha1novD28_W_150.sdp/master.m3u8</link>
 <thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>hustler0000</title>
+<link>rtmp://50.7.69.242:1935/verdirectotvedge/_definst_/ app=verdirectotvedge/_definst_/?xs=_we_$doregex[rtmp] playpath=mbfx0pnzzwuns0g swfUrl=http://www.9stream.com/player/player_embed_iguide.swf pageUrl=http://www.9stream.com token=$doregex[tok] conn=S:OK live=1 timeout=10 </link>
+<regex>
+<name>rtmp</name>
+<expres>xs=_we_([^"]*)</expres>
+<page>http://www.9stream.com/embedplayer.php?width=650&height=400&channel=154 &autoplay=true</page>
+<referer>http://www.9stream.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^."]*)</expres>
+<page>http://www.9stream.com/server1.php?id=1424416590</page>
+<referer>http://www.9stream.com</referer>
+</regex>
 </item>
 
 
