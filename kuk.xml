@@ -1509,11 +1509,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title> Test</title>
-<link>http://37.48.118.32/live/bbc1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yMC8yMDE1IDExOjU1OjQzIEFNJmhhc2hfdmFsdWU9TUtoU2VIbzZnRGtlSEhJVmZUZGZzZz09JnZhbGlkbWludXRlcz0yMA==</link>
-<thumbnail></thumbnail>
-</item>
 
 <item>
 <title>Skyoo</title>
@@ -1547,11 +1542,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-			<title>stream4free</title>
-			<link>rtmp://195.154.188.161/live playpath=science swfUrl=http://releases.flowplayer.org/5.4.6/flowplayer.swf live=1 timeout=15 swfVfy=1 pageUrl=http://www.stream4free.eu/tv-sciences</link>
-		</item>
-		
 
 
 
