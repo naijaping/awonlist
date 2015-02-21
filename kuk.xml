@@ -1542,13 +1542,8 @@
 
 
 <item>
-<title>Play</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
-<regex>
-<name>getlink</name>
-<expres>source src="([^"]*)</expres>
-<page>http://www.stream4free.eu/sex-live</page>
-</regex>
+<title>Cartoon Network</title>
+<link>rtmp://195.154.188.161/live2/sex?e=1424499992 playpath=7QC30tRTzAkf311WlIrNCg  swfUrl=http://releases.flowplayer.org/5.5.1/flowplayer.swf pageUrl=http://www.stream4free.eu/sex-live</link>
 <thumbnail></thumbnail>
 </item>
 
