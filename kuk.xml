@@ -1556,8 +1556,30 @@
 </item>
 
 
+<item>
+<title>prem sport</title>
+<link>http://37.48.118.32/live/prem.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.tvone1.com/premier-sports/</page>
+<referer>http://www.finecast.tv/channel.php?u=premmmso</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
+<item>
+<title>ES sport2</title>
+<link>http://37.48.118.32/live/esnp22.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.tvone1.com/espn-2/</page>
+<referer>http://www.finecast.tv/channel.php?u=esnp22</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
