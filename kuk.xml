@@ -1416,7 +1416,7 @@
 
 
 <item>
-<title>CNBC ARAB</title>
+<title>Sahara TV</title>
 <link>$doregex[get-m3u8]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
 <regex>
 <name>get-m3u8</name>
@@ -1428,7 +1428,7 @@
 <regex>
 <name>get-page</name>
 <expres>"m3u8_url":"(.*?)"</expres>
-<page>http://new.livestream.com/accounts/10187302/events/3421219</page>
+<page>http://new.livestream.com/accounts/3504140/events/3828384</page>
 
 <cookieJar></cookieJar>
 </regex>
