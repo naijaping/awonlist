@@ -1587,7 +1587,10 @@
 <thumbnail>http://www.sportinmalta.com/wp-content/uploads/2010/11/One-Productions.jpg</thumbnail>
 </item>
 
-
+<item>
+    <title>Veetle addon</title>
+    <link>plugin://plugin.video.veetle/?channel=50686cb1bbaa9</link>
+    </item>
 
 
 
