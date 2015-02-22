@@ -1562,7 +1562,7 @@
 <link>http://37.48.118.32/live/playpath=$doregex[path]/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>path</name>
-expres>(http.*?)"<expres>
+<expres>http(.*?)"<expres>
 <page>http://www.tvone1.com/at-the-races/</page>
 <referer>http://www.finecast.tv/channel.php?u=atr</referer>
 </regex>
