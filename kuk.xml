@@ -1590,7 +1590,7 @@
 
 <item>
 <title>cart</title>
-<link>http://93.174.95.125:1935/edge/_definst_/q7cebb8hzk4psux/playlist.m3u8?xs=_we_cTdjZWJiOGh6azRwc3V4fDE0MjQ2MzUwNTJ8fDU0ZWEyNjljM2ZjOWN8ZTg0NTAzMjgwYWQ4OGJmYTZlZGNjY2Q2ZWZiNWY4ZWMzZTdhMTYzMw</link>
+<link>rtmp://93.174.95.125:1935/edge/_definst_/q7cebb8hzk4psux</link>
 <thumbnail></thumbnail>
 </item>
 
