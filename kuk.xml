@@ -1575,7 +1575,17 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>One TV</title>
+<link>rtmp://37.187.151.241/live playpath=$doregex[path] swfUrl=http://cdn.skylinewebcams.com/player/skylinewebcams.swf pageUrl=http://www.skylinewebcams.com live=1 timeout=10</link>
+<regex>
+<name>path</name>
+<expres>,url:'([^']*)</expres>
+<page>http://www.skylinewebcams.com/web-tv/malta/one.html?w=253</page>
+<referer>http://www.one.com.mt/index.php?id=1928</referer>
+</regex>
+<thumbnail>http://www.sportinmalta.com/wp-content/uploads/2010/11/One-Productions.jpg</thumbnail>
+</item>
 
 
 
