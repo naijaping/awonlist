@@ -1584,7 +1584,7 @@
 
 <item>
 <title>[COLOR=FF9370DB]Sky Racing World[/COLOR] [COLOR=FFFFFF00] AUSTRALIA[/COLOR]</title>
-<link>http://37.48.118.32/live/playpath=$doregex[path].stream/playlist.m3u8$doregex[get-auth]</link>
+<link>http://37.48.118.32/live/playpath=$doregex[path]/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
@@ -1594,17 +1594,7 @@
 <thumbnail></thumbnail>
 </item>
 
-                                 <item>
-                                <title>alkassOne</title>
-
-				<link>$doregex[get-link]</link>
-				<regex>
-				<name>get-link</name>
-				<expres>"path": "(.*?)"</expres>
-				<page>http://www.tvone1.com/at-the-races/</page>
-                                 <referer>http://www.finecast.tv/channel.php?u=atr</referer>
-				</regex> 
-		                </item>
+                                 
 
 
 
