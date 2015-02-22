@@ -1512,7 +1512,7 @@
 
 <item>
 <title>Skyoo</title>
-<link>http://37.48.118.32/live/skysports110.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yMC8yMDE1IDEyOjE3OjMzIFBNJmhhc2hfdmFsdWU9V0JheDZsSFFwcDJMYnB4YVN3YkFoQT09JnZhbGlkbWludXRlcz0yMA==</link>
+<link>http://37.48.118.32/live/skysports2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yMC8yMDE1IDEyOjE3OjMzIFBNJmhhc2hfdmFsdWU9V0JheDZsSFFwcDJMYnB4YVN3YkFoQT09JnZhbGlkbWludXRlcz0yMA==</link>
 <thumbnail></thumbnail>
 </item>
 
@@ -1538,7 +1538,7 @@
 
 <item>
 <title>Cartoon </title>
-<link>rtmpe://37.48.118.32:1935/live/ playpath=skysports2.stream pageUrl=http://www.finecast.tv/embed4.php?u=sksport2&vw=640&vh=450 live=1  swfVfy=http://www.finecast.tv/player6/jwplayer.flash.swf</link>
+<link>rtmpe://37.48.118.32:1935/live/ playpath=skysports2 pageUrl=http://www.finecast.tv/embed4.php?u=sksport2&vw=640&vh=450 live=1 swfUrl=http://www.finecast.tv/player6/jwplayer.flash.swf</link>
 <thumbnail></thumbnail>
 </item>
 
