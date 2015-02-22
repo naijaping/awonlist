@@ -1588,6 +1588,17 @@
 </item>
 
 
+<item>
+<title>totooo</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamx.tv/view/70730/Syfy_France_%28HD%29-live-stream-channel',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 </channel>
 </channels>
