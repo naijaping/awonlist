@@ -1590,7 +1590,7 @@
 
 <item>
 <title>BET</title>
-<link>rtmp://89.248.168.57/iguide playpath=rtmp://89.248.172.145:1935/edge/_definst_/q7cebb8hzk4psux swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf pageUrl="http://www.iguide.to/embedplayer_new.php?width=640&amp;height=480&amp;channel=70327 token=#ed%h0#w18623jsda6523lDGD</link>
+<link>rtmp://89.248.168.57/iguide playpath=q7cebb8hzk4psux swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf pageUrl="http://www.iguide.to/embedplayer_new.php?width=640&amp;height=480&amp;channel=70327 token=#ed%h0#w18623jsda6523lDGD</link>
 <thumbnail></thumbnail>
 </item>
 
