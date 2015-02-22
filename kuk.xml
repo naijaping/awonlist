@@ -1575,15 +1575,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-			<title>giniko</title>
-			<link>$doregex[url]</link>
-				<regex>
-				<name>url</name>
-				<expres>file: "([^"]*)</expres>
-				<page>http://www.finecast.tv/channel.php?u=atr5</page>
-				</regex>
-				</item>                         
 
 
 
