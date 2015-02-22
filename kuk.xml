@@ -608,32 +608,7 @@
 <thumbnail></thumbnail>
 </item> 
 	
-<item>
-<title>Rccg City of David Naija</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://godfather-proxy.com/index.php?q=$doregex[url-quote]&amp;hl=280').read()</page>
-<referer>http://godfather-proxy.com</referer>
-</regex>
-<regex>
-<name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=GfxTcKiALLA&index=2&list=PLodiYTZs9Vaqz3mt ywce3y-GE8XiRF0sU')</expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
-</item>	
-	
-	
 </channel>  
-
-
 
 <channel>
 <name>Sport Channels</name>
