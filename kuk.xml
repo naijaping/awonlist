@@ -1588,16 +1588,7 @@
 </item>
 
 
-<item>
-<title>totooo</title>
-<link>$doregex[getIlive]</link>
-<regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamx.tv/view/70730/')</expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 </channel>
