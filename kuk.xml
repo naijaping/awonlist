@@ -1435,7 +1435,7 @@
 
 <item>
 <title>Eurosporto</title>
-<link>rtmp://server.ppvmania.tv:1935/live playpath=channel6v swfUrl=http://hqzone.tv/jwplayer5/jwplayer/player.swf pageUrl=http://www.hqzone.tv/forums/view.php?pg=15 live=true timeout=10 swfVfy=true token=WY846p1E1g15W7s</link>
+<link>http://localhost:65007/?url=81&mode=6</link>
 <thumbnail></thumbnail>
 </item>
 
