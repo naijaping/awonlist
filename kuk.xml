@@ -1428,16 +1428,11 @@
 
 <item>
 <title>Eurosport</title>
-<link>rtmp://31.220.0.206/redirect/eurozddd swfUrl=http://www.flashtv.co/ePlayerr.swf token=%ZZri(nKa@#Z pageUrl=http://reytv.co/embedo.php?live=eurozddd&vw=620&vh=490 live=1 timeout=15</link>
+<link>rtmp://178.132.79.22:80/live playpath=skyf1 swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf pageUrl=http://reytv.co/embedo.php?live=skyf1&vw=620&vh=490 token=%ZZri(nKa@#Z</link>
 <thumbnail></thumbnail>
 </item>
 
 
-<item>
-<title>Eurosporto</title>
-<link>rtmp://31.220.0.206/redirect playpath=eurozddd swfUrl=http://flashtv.co/ePlayerr.swf pageUrl=http://reytv.co/embedo.php?live=eurozddd&vw=620&vh=490 token=%ZZri(nKa@#Z</link>
-<thumbnail></thumbnail>
-</item>
 
 
 
