@@ -1050,7 +1050,7 @@
         
 <item>
 <title>[COLOR  lime]mega[/COLOR]</title>
-<link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=live_mega_movieshd live=1 timeout=20</link>
+<link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=mega_movieshd live=1 timeout=20</link>
 <regex>
 <name>getIP</name>
 <expres>function getEdgeServers.*"(.*?),<expres>
