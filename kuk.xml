@@ -801,17 +801,6 @@
 </item>
 
 <item>
-<title>Setanta</title>
-<link>$doregex[getIlive]</link>
-<regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/70189/Setenta_Sport_%28HD%29-live-stream-channel?pw=iu973j',False,False)</expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/setanta_sports_asia.png</thumbnail>
-</item>
-
-<item>
 <title>NBCSN And CO</title>
 <link>$doregex[url]</link>
 <regex>
@@ -831,17 +820,6 @@
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/corp/ee/espn_us.png</thumbnail>
-</item>
-
-<item>
-<title>Bein HD USA</title>
-<link>$doregex[getIlive]</link>
-<regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/68874/Bein_Sport_USA_%28HD%29-live-stream-channel?pw=iu973j',False,False)</expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
 </item>
 	
 <item>
@@ -920,17 +898,6 @@
 </item> 
 
 <item>
-<title>Sky Sport One</title>
-<link>rtmp://rtmp.popeoftheplayers.pw:1935/redirect playpath=11 swfUrl="http://popeoftheplayers.pw/atdedead.swf pageUrl=http://popeoftheplayers.pw live=1 token=#atd%#$ZH timeout=15</link>
-</item>
-
-<item>
-<title>Sky F1 HD</title>
-<link>rtmp://31.220.0.206/redirect/btt1 swfUrl=http://www.flashtv.co/ePlayerr.swf token=%ZZri(nKa@#Z pageUrl=http://www.flashtv.co live=1 flashVer=WIN\16,0,0,235 timeout=15</link>
-<thumbnail></thumbnail>
-</item> 
-
-<item>
 <title>Kanal Sport HD</title>
 <link>http://lswb-de-08.servers.octoshape.net:1935/live/kanalsport_2000k/HD.m3u8</link>
 <thumbnail></thumbnail>
@@ -977,30 +944,10 @@
 </regex>
 </item>
 
-
-<item>
-<title>Nat0</title>
-<link>$doregex[getIlive]</link>
-<regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/70629/Nat_Geo_Wild-live-stream-channel?pw=iu973j',False,False)</expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>NTV </title>
-<link>http://hlsstr02.svc.iptv.rt.ru/hls/CH_SPORT1/variant.m3u8</link>
-<thumbnail></thumbnail>
-</item> 
-
 <item>
 <title>NTV Futbol</title>
 <link>http://180.250.29.12/jhos/beib3_3/1421536739/playlist.m3u8</link>
 </item>
-
-
 
 <item>
 <title>MTV HD</title>
@@ -1022,47 +969,6 @@
 </regex>
 <thumbnail></thumbnail>
 </item>	
-
-
-<item>
- <title>Bein Ñ Opcion 2</title>
- <link>$doregex[rtmp] playpath=$doregex[path] swfUrl=$doregex[swf] pageUrl=http://castalba.tv swfVfy=true live=true timeout=10</link>
- <regex>
- <name>rtmp</name>
- <expres>'streamer': '([^']*)<expres>
- <page>http://castalba.tv/embed.php?cid=24090</page>
- <referer>http://castalba.tv/</referer>
- </regex>
- <regex>
- <name>path</name>
- <expres>'file': '([^']*)<expres>
- <page>http://castalba.tv/embed.php?cid=24090</page>
- <referer>http://castalba.tv/</referer>
- </regex>
- <regex>
- <name>swf</name>
- <expres>'flashplayer': "([^"]*)<expres>
- <page>http://castalba.tv/embed.php?cid=24090</page>
- <referer>http://castalba.tv/</referer>
- <agent></agent>
- </regex>
- </item>
-        
-<item>
-<title>[COLOR  lime]mega[/COLOR]</title>
-<link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=mega_movieshd live=1 timeout=20</link>
-<regex>
-<name>getIP</name>
-<expres>function getEdgeServers.*"(.*?),<expres>
-<page>http://vaughnlive.tv/mega_movieshd</page>
-</regex>
-<regex>
-<name>getCODE</name>
-<expres>vsVars.*= "0m0(.*?)"<expres>
-<page>http://vaughnlive.tv/mega_movieshd</page>
-</regex>
-</item>
-
 
 <item>
 <title>hustler</title>
@@ -1107,7 +1013,6 @@
 <fanart>http://franciscosiglo21.files.wordpress.com/2010/12/espac3b1a-mundial-2010.jpg</fanart>
 </item>
    
-   
 <item>
 <title>HBO</title>
 <link>rtmp://207.244.77.15:1935/iguide playpath=0bf02qe6msgtu4s swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/view/1/HBO token=#ed%h0#w18623jsda6523lDGD</link>
@@ -1115,9 +1020,6 @@
 <fanart></fanart>
 </item>   
    
-   
-
-    
 <item>
 <title>ANIMAL PLANET</title>
 <link>$doregex[url]$doregex[analytics]|Cookie=$get_cookies$&amp;Referer=http://oneplay.tv/one-player/GrindPlayer.swf&amp;User-Agent=iPad</link>
