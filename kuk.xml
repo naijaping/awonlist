@@ -1437,19 +1437,6 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/e_global_us.png</thumbnail>
 </item>
 
-
-<item>
-<title>The Walking Dead</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
-<regex>
-<name>getlink</name>
-<expres>source src="([^"]*)</expres>
-<page>http://www.stream4free.eu/the-walking-dead</page>
-</regex>
-<thumbnail>http://www.thelandofshadow.com/wp-content/uploads/2015/01/WalkingDeadLogo.jpg</thumbnail>
-</item>
-
-
 <item>
 <title>Test</title>
 <link>http://87.245.214.43/streaming/sport1/16/tvrec/playlist.m3u8</link>
@@ -1462,7 +1449,7 @@
 
 
 <item>
-<title>Simpson</title>
+<title>Game Of The Throne</title>
 <link>$doregex[getlink]|User-Agent=iPhone</link>
 <regex>
 <name>getlink</name>
@@ -1472,9 +1459,19 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>The Walking Dead</title>
+<link>$doregex[getlink]|User-Agent=iPhone</link>
+<regex>
+<name>getlink</name>
+<expres>source src="([^"]*)</expres>
+<page>http://www.stream4free.eu/the-walking-dead</page>
+</regex>
+<thumbnail>http://www.thelandofshadow.com/wp-content/uploads/2015/01/WalkingDeadLogo.jpg</thumbnail>
+</item> 
 
 <item>
-<title>Tesiii</title>
+<title>France 3 live</title>
 <link>$doregex[getlink]|User-Agent=iPhone</link>
 <regex>
 <name>getlink</name>
