@@ -497,12 +497,12 @@
 
 <item>
 <title>Disney</title>
-<link>http://37.48.118.32/live/disney.stream/playlist.m3u8$doregex[get-auth]</link>
+<link>http://37.48.118.32/live/disneyy.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
 <page>http://www.tvone1.com/disney-channel/</page>
-<referer>http://www.finecast.tv/channel.php?u=disney</referer>
+<referer>http://www.finecast.tv/</referer>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/disney_channel_de.png</thumbnail>
 </item>
