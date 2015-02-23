@@ -1605,7 +1605,16 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>South Park</title>
+<link>$doregex[getlink]|User-Agent=iPhone</link>
+<regex>
+<name>getlink</name>
+<expres>source src="([^"]*)</expres>
+<page>http://www.stream4free.eu/south-park-hd</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
