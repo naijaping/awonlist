@@ -1427,11 +1427,9 @@
 
 
 <item>
-<title>Eur</title>
-<link>rtmp://rtmp.popeoftheplayers.eu:1935/redirect/28 swfUrl=http://popeoftheplayers.eu/stylish.swf pageUrl=http://popeoftheplayers.pw/ token=#atd%#$ZH </link>
-<thumbnail></thumbnail>
+<title>POP</title>
+<link>rtmp://rtmp.popeoftheplayers.eu:1935/redirect playpath=28 swfUrl="http://popeoftheplayers.eu/atdedead.swf pageUrl=http://popeoftheplayers.eu live=1 token=#atd%#$ZH timeout=15</link>
 </item>
-
 
 
 
