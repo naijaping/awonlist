@@ -1443,12 +1443,6 @@
 </item>
  
 <item>
-<title>Testo</title>
-<link>rtmp://50.7.164.34:2555/stream/ playpath=mona1 swfUrl=http://embed.beststreams.ru/flowplayer-3.2.18.swf live=1 pageUrl=http://embed.beststreams.ru/v2.php?channel=mona1 timeout=20</link>
-</item>   
-
-
-<item>
 <title>Game Of The Throne</title>
 <link>$doregex[getlink]|User-Agent=iPhone</link>
 <regex>
@@ -1471,55 +1465,32 @@
 </item> 
 
 <item>
-<title>France 3 live</title>
+<title>American Dad</title>
 <link>$doregex[getlink]|User-Agent=iPhone</link>
 <regex>
 <name>getlink</name>
 <expres>source src="([^"]*)</expres>
-<page>http://www.stream4free.eu/france-3-live</page>
+<page>http://www.stream4free.eu/american-dad</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
 
 <item>
-<title> Test</title>
+<title>South Park</title>
+<link>$doregex[getlink]|User-Agent=iPhone</link>
+<regex>
+<name>getlink</name>
+<expres>source src="([^"]*)</expres>
+<page>http://www.stream4free.eu/south-park-hd</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title> Zenga Tv</title>
 <link>http://d1hya96e2cm7qi.cloudfront.net/Live/_definst_/sweetbcha1novD28_W_150.sdp/master.m3u8</link>
 <thumbnail></thumbnail>
 </item>
-
-
-<item>
-<title>Skyoo</title>
-<link>http://37.48.118.32/live/skysports2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yMC8yMDE1IDEyOjE3OjMzIFBNJmhhc2hfdmFsdWU9V0JheDZsSFFwcDJMYnB4YVN3YkFoQT09JnZhbGlkbWludXRlcz0yMA==</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>Sky Movies</title>
-<link>http://37.48.118.32/live/mcrime.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yMC8yMDE1IDEyOjQzOjE0IFBNJmhhc2hfdmFsdWU9QzQyWURsREp6aVdBNS9URDBkYkhQdz09JnZhbGlkbWludXRlcz0yMA==</link>
-<thumbnail></thumbnail>
-</item>        
-
-<item>
-<title>Sky 1</title>
-<link>http://37.48.118.32/live/mtvmusic.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.tvone1.com/mtv-music/</page>
-<referer>http://www.finecast.tv/channel.php?u=mtvmusic</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>Cartoon </title>
-<link>rtmpe://37.48.118.32:1935/live/ playpath=skysports2 pageUrl=http://www.finecast.tv/embed4.php?u=sksport2&vw=640&vh=450 live=1 swfUrl=http://www.finecast.tv/player6/jwplayer.flash.swf</link>
-<thumbnail></thumbnail>
-</item>
-
 
 <item>
 <title>Sky Sport 2</title>
@@ -1591,27 +1562,7 @@
 </item>
 
 
-<item>
-<title>American Dad</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
-<regex>
-<name>getlink</name>
-<expres>source src="([^"]*)</expres>
-<page>http://www.stream4free.eu/american-dad</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
-<item>
-<title>South Park</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
-<regex>
-<name>getlink</name>
-<expres>source src="([^"]*)</expres>
-<page>http://www.stream4free.eu/south-park-hd</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 
 
