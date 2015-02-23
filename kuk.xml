@@ -1340,6 +1340,17 @@
 </item>
 
 <item>
+<title>Breaking Bad</title>
+<link>$doregex[getlink]|User-Agent=iPhone</link>
+<regex>
+<name>getlink</name>
+<expres>source src="([^"]*)</expres>
+<page>http://www.stream4free.eu/breaking-bad</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
 <title> Zenga Tv</title>
 <link>http://d1hya96e2cm7qi.cloudfront.net/Live/_definst_/sweetbcha1novD28_W_150.sdp/master.m3u8</link>
 <thumbnail></thumbnail>
