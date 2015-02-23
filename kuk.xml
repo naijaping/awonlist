@@ -1564,7 +1564,7 @@
 
 
 <item>
-<title>[COLOR=FF9370DB]Sky Racing World[/COLOR] [COLOR=FFFFFF00] AUSTRALIA[/COLOR]</title>
+<title>Sky Racing World</title>
 <link>http://37.48.118.32/live/$doregex[path].stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>path</name>
@@ -1594,7 +1594,16 @@
 </item>
 
 
-
+<item>
+<title>American Dad</title>
+<link>$doregex[getlink]|User-Agent=iPhone</link>
+<regex>
+<name>getlink</name>
+<expres>source src="([^"]*)</expres>
+<page>http://www.stream4free.eu/american-dad</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
