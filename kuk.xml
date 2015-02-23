@@ -1565,7 +1565,7 @@
 
 <item>
 <title>[COLOR=FF9370DB]Sky Racing World[/COLOR] [COLOR=FFFFFF00] AUSTRALIA[/COLOR]</title>
-<link>http://37.48.118.32/live/$doregex[path]/playlist.m3u8$doregex[get-auth]</link>
+<link>http://37.48.118.32/live/$doregex[path].stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>path</name>
 <expres>id='(.*?)'<expres>
