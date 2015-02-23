@@ -1431,6 +1431,17 @@
 <link>rtmp://rtmp.popeoftheplayers.eu:1935/redirect playpath=28 swfUrl="http://popeoftheplayers.eu/atdedead.swf pageUrl=http://popeoftheplayers.eu live=1 token=#atd%#$ZH timeout=15</link>
 </item>
 
+<item>
+<title>[COLOR=FF0084ff]BOX[/COLOR] [COLOR=FFFFFF00]NATION[/COLOR]</title>
+<link>http://37.48.118.32/live/boxnationn.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.tvone1.com/box-nation/</page>
+<referer>http://www.finecast.tv/channel.php?u=box</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
