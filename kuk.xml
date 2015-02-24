@@ -1443,18 +1443,7 @@
 <link>rtmp://rtmp.popeoftheplayers.eu:1935/redirect playpath=28 swfUrl="http://popeoftheplayers.eu/atdedead.swf pageUrl=http://popeoftheplayers.eu live=1 token=#atd%#$ZH timeout=15</link>
 </item>
 
-<item>
-<title> MSNBC</title>
-<link>rtmp://$doregex[rtmp]/edge/ playpath=msnbc_live swfUrl=http://msnbclive.eu/player.swf pageUrl=http://www.livenewschat.eu/politics/&id=b60d2a118c0ccb47b25f4f4187777f39 live=1 timeout=10</link>
-<regex>
-<name>rtmp</name>
-<expres>"best":"([^"]*)</expres>
-<page>http://msnbclive.eu/server.json</page>
-<referer>http://www.livenewschat.eu/politics/</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/msnbc.png</thumbnail>
-</item>
- 
+
 <item>
 <title> BBOC News</title>
 <link>rtmp://$doregex[rtmp]/edge/ playpath=bbcwn_live swfUrl=http://msnbclive.eu/player.swf pageUrl=http://www.livenewschat.eu/world/&id=b60d2a118c0ccb47b25f4f4187777f39 live=1 timeout=10</link>
