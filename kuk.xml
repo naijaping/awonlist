@@ -1440,6 +1440,7 @@
 <page>http://msnbclive.eu/server.json</page>
 <referer>http://www.livenewschat.eu/politics/</referer>
 </regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/msnbc.png</thumbnail>
 </item>
  
 <item>
