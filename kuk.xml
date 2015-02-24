@@ -1478,9 +1478,9 @@
 
 
 <item>
-<title>Gollll</title>
+<title>Dunamis TV Live</title>
 <link>rtmp://65.254.61.7:1935/live/dunamis2471 playpath=dunamis2471 swfUrl=http://www.dunamisgospel.org/StrobeMediaPlayback.swf pageUrl=http://www.dunamisgospel.org/ live=true timeout=15</link>
-<thumbnail></thumbnail>
+<thumbnail>http://i58.tinypic.com/2wrf8jt.png</thumbnail>
 </item> 
 
 
