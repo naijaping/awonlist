@@ -625,6 +625,12 @@
 <link>rtmp://54.69.149.190:1935/live playpath=myStream swfUrl=http://www.davidoyedepoministries.org/wp-content/themes/domi-revamp/libs/flowplayer/flowplayer.rtmp-3.2.13.swf pageUrl=http://www.davidoyedepoministries.org live=true timeout=15</link>
 <thumbnail></thumbnail>
 </item> 
+
+<item>
+<title>Dunamis TV Live</title>
+<link>rtmp://65.254.61.7:1935/live/dunamis2471 playpath=dunamis2471 swfUrl=http://www.dunamisgospel.org/StrobeMediaPlayback.swf pageUrl=http://www.dunamisgospel.org/ live=true timeout=15</link>
+<thumbnail>http://i58.tinypic.com/2wrf8jt.png</thumbnail>
+</item> 
 	
 </channel>  
 
@@ -1468,7 +1474,6 @@
 <thumbnail></thumbnail>
 </item> 
 
-
 <item>
 <title> TVo</title>
 <link>rtmp://78.129.189.30/edge3/GHADOM playpath=GHADOM app=edge3/GHADOM swfUrl=http://tv.filmover.com/jwp5/player.swf live=true flashVer=WIN\16,0,0,257 pageUrl=http://www.filmover.com/gh/adom.html</link>
@@ -1477,11 +1482,7 @@
 
 
 
-<item>
-<title>Dunamis TV Live</title>
-<link>rtmp://65.254.61.7:1935/live/dunamis2471 playpath=dunamis2471 swfUrl=http://www.dunamisgospel.org/StrobeMediaPlayback.swf pageUrl=http://www.dunamisgospel.org/ live=true timeout=15</link>
-<thumbnail>http://i58.tinypic.com/2wrf8jt.png</thumbnail>
-</item> 
+
 
 
 
