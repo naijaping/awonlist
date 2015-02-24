@@ -1455,6 +1455,17 @@
 </regex>
 </item>
 
+<item>
+<title>Zee TV (India)</title>
+<link>rtmp://$doregex[rtmp]/live playpath=ztvtvtvtvtv?id=177617 swfUrl=http://mips.tv/content/scripts/eplayer.swf pageUrl=http://mips.tv conn=S:OK live=1 swfVfy=1 timeout=10</link>
+<regex>
+<name>rtmp</name>
+<expres>.*redirect=([\.\d]+)</expres>
+<page>http://mips.tv:1935/loadbalancer</page>
+</regex>
+</item>
+
+
 
 
 
