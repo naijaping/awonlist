@@ -671,7 +671,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/68424/Sky_Sport_2_%28HD%29-live-stream-channel?pw=iu973j',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/68424/')</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_sports2.png</thumbnail>
@@ -682,7 +682,7 @@
 <link>$doregex[getIlive]</link>
 <regex>
 <name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/68714/Sky_Sport_3_%28HD%29-live-stream-channel?pw=iu973j',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/68714/Sky_Sport_3_%28HD%29-live-stream-channel?pw=iu973j')</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_mx_sports3.png</thumbnail>
@@ -1468,11 +1468,6 @@
 <thumbnail></thumbnail>
 </item> 
 
-<item>
-<title>Gollll</title>
-<link>rtmp://199.19.95.85:443/kuyo playpath=comecacas swfUrl=http://yukons.net/yplay2.swf pageUrl=http://yukons.net/embed/363336463644363536333631363336313733/a6198fd9a39cbc34549b7886bdeb97d8/645/395</link>
-<thumbnail></thumbnail>
-</item> 
 
 <item>
 <title> TVo</title>
