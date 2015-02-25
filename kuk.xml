@@ -1490,11 +1490,10 @@
 </item>
 
 <item>
-<title>Headlines Today</title>
-<link>http://212.83.144.124:9994/ playpath=13142580629 swfUrl=https://www.connectcast.tv/new-theme/assets/vendor/jwplayer/jwplayer.flash.swf pageUrl=http://connectcast.tv/embed/MRC1HD live=1 timeout=15</link>
-<thumbnail></thumbnail>
+<title>TV FRANCOPHONIE</title>
+<link>plugin://plugin.video.f4mTester/?url=http://cctv-lh.akamaihd.net/z/MRC1HD_live@125115/manifest.f4m</link>  
+<thumbnail>http://www.centraltv.fr/wp-content/uploads/tv-francophonie.jpg</thumbnail>
 </item>
-
 
 
 
