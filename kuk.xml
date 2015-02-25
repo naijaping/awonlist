@@ -1490,9 +1490,8 @@
 </item>
 
 <item>
-<title>TV FRANCOPHONIE</title>
-<link>http://www.bbc.co.uk/mediaselector/playlists/hls/mobile_wifi/ak/bbc3.m3u8</link>  
-<thumbnail>http://www.centraltv.fr/wp-content/uploads/tv-francophonie.jpg</thumbnail>
+<title>NTV Futbol</title>
+<link>http://tv7.sunduk.tv:1935/fullhd/ngrp:CH162.stream_all/chunklist_b2396000.m3u8</link>
 </item>
 
 
