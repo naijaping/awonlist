@@ -1491,7 +1491,7 @@
 
 <item>
 <title>TV FRANCOPHONIE</title>
-<link>plugin://plugin.video.f4mTester/?url=http://cctv-lh.akamaihd.net/z/MRC1HD_live@125115/manifest.f4m</link>  
+<link>http://www.bbc.co.uk/mediaselector/playlists/hls/mobile_wifi/ak/bbc3.m3u8</link>  
 <thumbnail>http://www.centraltv.fr/wp-content/uploads/tv-francophonie.jpg</thumbnail>
 </item>
 
