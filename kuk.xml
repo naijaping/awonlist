@@ -1491,12 +1491,7 @@
 
 <item>
 <title>Headlines Today</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=SIMPLE&amp;url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://cctv-lh.akamaihd.net/z/MRC1HD_live@125115/manifest.f4m')<expres>
-<page></page>
-</regex>
+<link>http://212.83.144.124:9994/;s.mp3&13142580629</link>
 <thumbnail></thumbnail>
 </item>
 
