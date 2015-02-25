@@ -1464,7 +1464,7 @@
 <regex>
 <name>path</name>
 <expres>"https://www.ustream.tv/embed/(.+?)"></expres>
-<page>http://www.ustream.tv/channel/6540154</page>
+<page>http://www.ustream.tv/channel/20017336</page>
 <referer> </referer>
 </regex>
 <thumbnail></thumbnail>
