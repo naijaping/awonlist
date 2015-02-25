@@ -1485,7 +1485,7 @@
 
 <item>
 <title> LC2</title>
-<link>rtmp://198.255.0.2:443/live?iSycXiFWSoteboNSXciyVlrrg9IPmULJ playpath=live_newzviewz swfUrl=http://vaughnlive.tv/4273403742/swf/VaughnSoftPlayer.swf live=1 pageUrl=http://vaughnlive.tv/</link>
+<link>rtmp://wowza04.sharp-stream.com/islamtv playpath=islamtv swfUrl=http://player.sharp-stream.com/player.swf live=1 pageUrl=http://www.centraltv.fr/angleterre-television/islam-channel</link>
 <thumbnail></thumbnail>
 </item>
 
