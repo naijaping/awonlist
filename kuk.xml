@@ -30,7 +30,7 @@
 
 <item>
 <title>Music Africa</title>
-<link>http://strfla15.streamakaci.com/lc2/lc2.stream/playlist.m3u8</link>
+<link>rtmpt://strfla13.streamakaci.com/lc2new/ playpath=lc2 swfUrl=http://lb.streamakaci.com/streamakaci/library/AkamaiMultiPlayer.swf pageUrl=http://lb.streamakaci.com live=true timeout=15</link>
 <thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/02/Music-Africa.png</thumbnail>
 </item>
 
@@ -1485,11 +1485,11 @@
 
 <item>
 <title> LC2</title>
-<link>rtmpt://strfla13.streamakaci.com/lc2new/ playpath=lc2 swfUrl=http://lb.streamakaci.com/streamakaci/library/AkamaiMultiPlayer.swf live=true pageUrl=http://lb.streamakaci.com</link>
+<link></link>
 <thumbnail></thumbnail>
 </item>
 
-rtmpt://strfla13.streamakaci.com/lc2new/lc2
+
 
 
 
