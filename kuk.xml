@@ -1529,7 +1529,7 @@
 <regex>
 <name>get-iframe</name>
 <expres>src="(.*?)\"</expres>
-<page>http://www.dinostream.pw/channel.php...0&amp;height=4 00&amp;autostart=true</page>
+<page>http://www.dinostream.pw/channel.php?c=103330&amp;height=400&amp;autostart=true</page>
 <referer>http://verdirectotv.com</referer>
 </regex>
 <regex>
