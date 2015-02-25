@@ -1484,14 +1484,14 @@
 
 
 <item>
-<title> LC2</title>
+<title>Islam Channel</title>
 <link>rtmp://wowza04.sharp-stream.com/islamtv playpath=islamtv swfUrl=http://player.sharp-stream.com/player.swf live=1 pageUrl=http://www.centraltv.fr/angleterre-television/islam-channel</link>
 <thumbnail></thumbnail>
 </item>
 
 <item>
 <title>TV</title>
-<link>rtmp://75.126.0.212/flash playpath=19563?MTQyNDgzNDQ1MTsyNTU5YjY5ODU0M2JhODc0NjRiN2VhY2Q0ZmM3ZjliYQ== swfUrl=http://static3.sawlive.tv/player.swf pageUrl=http://static3.sawlive.tv</link>
+<link> rtmp://stream.connectcast.tv/live playpath=mp4:CC-3429DC7B-636F-57E8-B72C-F6FD5A562169-16616_SD swfUrl=https://connectcast.tv/new-theme/assets/vendor/jwplayer/jwplayer.flash.swf pageUrl=https://connectcast.tv/zxcvbnmasdfg1234 live=1 timeout=10 </link>
 <thumbnail></thumbnail>
 </item> 
 
