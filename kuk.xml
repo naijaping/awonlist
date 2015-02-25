@@ -1476,7 +1476,11 @@
 <thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/PrestigeTV.jpg</thumbnail>
 </item>
 
-
+<item>
+<title>NASA TV</title>
+<link>http://public.infozen.cshls.lldns.net/infozen/public/public.m3u8</link>
+<thumbnail></thumbnail>
+</item> 
 
 
 
