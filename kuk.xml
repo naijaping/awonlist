@@ -1491,7 +1491,7 @@
 
 <item>
 <title>TV</title>
-<link>rtmp://stream.connectcast.tv/live playpath=mp4:CC-3429DC7B-636F-57E8-B72C-F6FD5A562169-16616_SD swfUrl=https://connectcast.tv/new-theme/assets/vendor/jwplayer/jwplayer.flash.swf pageUrl=https://connectcast.tv/zxcvbnmasdfg1234 live=1 timeout=10 </link>
+<link>rtmp://tv.futubox.com:1935/live/z050406.stream </link>
 <thumbnail></thumbnail>
 </item> 
 
