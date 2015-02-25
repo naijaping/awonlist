@@ -1486,7 +1486,7 @@
 <item>
 <title>Islam Channel</title>
 <link>rtmp://wowza04.sharp-stream.com/islamtv playpath=islamtv swfUrl=http://player.sharp-stream.com/player.swf live=1 pageUrl=http://www.centraltv.fr/angleterre-television/islam-channel</link>
-<thumbnail></thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/islam_channel.png</thumbnail>
 </item>
 
 <item>
@@ -1497,7 +1497,7 @@
 <expres>$pyFunction:urllib.quote_plus('http://cctv-lh.akamaihd.net/z/MRC1HD_live@125115/manifest.f4m?g=TOUTKODWNTRJ&amp;hdcore=3.5.0&amp;plugin=jwplayer-3.5.0.0|Referer=http://connectcast.tv/new-theme/assets/vendor/jwplayer/jwplayer.flash.swf')<expres>
 <page></page>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/canalplus_es_deportes_2_hd.png</thumbnail>
 </item>
 
 <item>
