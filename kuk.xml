@@ -1490,11 +1490,15 @@
 </item>
 
 <item>
-<title>TV</title>
-<link>rtmp://mi2.gv.filmon.com:8086/live/257.high.stream</link>
+<title>Headlines Today</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=SIMPLE&amp;url=$doregex[encodedurl]</link>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://cctv-lh.akamaihd.net/z/MRC1HD_live@125115/manifest.f4m')<expres>
+<page></page>
+</regex>
 <thumbnail></thumbnail>
-</item> 
-
+</item>
 
 
 
