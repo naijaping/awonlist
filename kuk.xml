@@ -1508,7 +1508,49 @@
 
 
 
-
+<item>
+<title>Canal + 1</title>
+<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=$doregex[get-decrypted-ssx1] swfUrl=http://www.spasswitz.com/jwplayer5/addplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] live=1 timeout=15</link>
+<regex>
+<name>get-rtmp</name>
+<expres>(.*)\/re</expres>
+<page>$doregex[get-decrypted-ssx4]</page>
+</regex>
+<regex>
+<name>get-token</name>
+<expres>@(.*)</expres>
+<page>$doregex[get-decrypted-ssx4]</page>
+</regex>
+<regex>
+<name>get-decrypted-ssx4</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx4]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-encrypted-ssx4</name>
+<expres>ssx4" value="(.*)"</expres>
+<page>$doregex[get-iframe]</page>
+<referer>http://cinestrenostv.tv</referer>
+</regex>
+<regex>
+<name>get-iframe</name>
+<expres>src="(.*?)\"</expres>
+<page>http://www.dinostream.pw/channel.php?file=103355&amp;width=650&amp;height=400&amp;autostart=true</page>
+<referer>http://cinestrenostv.tv</referer>
+</regex>
+<regex>
+<name>get-decrypted-ssx1</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx1]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-encrypted-ssx1</name>
+<expres>ssx1" value="(.*)"</expres>
+<page>$doregex[get-iframe]</page>
+<referer>http://cinestrenostv.tv</referer>
+</regex>
+</item>
+ 
 
 
 </channel>
