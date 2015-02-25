@@ -34,10 +34,6 @@
 <thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/02/Music-Africa.png</thumbnail>
 </item>
 
-
-
-
-
 <item>
 <title>Koga TV</title>
 <link>rtmp://169.obj.netromedia.net/ app=KogaTV playpath=KogaTV swfUrl=http://player.netromedia.com/flowplayer.commercial-3.2.18.swf live=true timeout=15 pageUrl=http://player.netromedia.com</link>
@@ -617,13 +613,13 @@
 <item>
 <title>Winners Chapel Uk</title>
 <link>http://78.129.234.50:1935/live/winnerschapel/playlist.m3u8?DVR</link>
-<thumbnail></thumbnail>
+<thumbnail>http://i61.tinypic.com/29cxgk4.jpg</thumbnail>
 </item> 
 
 <item>
 <title>Winners Chapel NG</title>
 <link>rtmp://54.69.149.190:1935/live playpath=myStream swfUrl=http://www.davidoyedepoministries.org/wp-content/themes/domi-revamp/libs/flowplayer/flowplayer.rtmp-3.2.13.swf pageUrl=http://www.davidoyedepoministries.org live=true timeout=15</link>
-<thumbnail></thumbnail>
+<thumbnail>http://i59.tinypic.com/opa0cx.jpg</thumbnail>
 </item> 
 
 <item>
