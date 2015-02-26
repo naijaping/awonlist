@@ -1508,7 +1508,7 @@
 
 <item>
 <title>Emmanuel TV</title>
-<link>rtmp://198.255.0.2:443/live?iSycXiFWSoteboNSXciyVlrrg9IPmULJ playpath=live_newzviewz swfUrl=http://vaughnlive.tv/4273403742/swf/VaughnSoftPlayer.swf live=1 pageUrl=http://vaughnlive.tv/embed/video/newzviewz?viewers=true&watermark=false&autoplay=true</link>
+<link>rtmp://channelstv.ids-africa.com:1935/live playpath=mobile1 swfUrl=http://m.channelstv.com/player.swf pageUrl=http://m.channelstv.com/windows/ live=1 timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/emmanuel_tv.png</thumbnail>
 </item>
 
