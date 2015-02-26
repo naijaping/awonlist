@@ -1512,8 +1512,16 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/emmanuel_tv.png</thumbnail>
 </item>
 
-
-
+                        <item>
+                        <title>C+ 1 </title>
+                        <link>$doregex[rtmp] playpath=ver97o7vbc swfUrl=http://1broadcastlive.com/player.swf token=zEIqvDJ4RMytigLo2izHdQ pageUrl=http://1broadcastlive.com live=1 timeout=15</link>
+                        <regex>
+                        <name>rtmp</name>
+                        <expres>'streamer', '(.*?)'</expres>
+                        <page>http://1broadcastlive.com/embed.php?a=48&id=&width=800&height=380</page>
+                        </regex>
+                        <thumbnail></thumbnail>
+                        </item>
 
  
 
