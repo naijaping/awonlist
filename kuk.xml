@@ -627,6 +627,12 @@
 <link>rtmp://65.254.61.7:1935/live/dunamis2471 playpath=dunamis2471 swfUrl=http://www.dunamisgospel.org/StrobeMediaPlayback.swf pageUrl=http://www.dunamisgospel.org/ live=true timeout=15</link>
 <thumbnail>http://i58.tinypic.com/2wrf8jt.png</thumbnail>
 </item> 
+
+<item>
+<title>Emmanuel TV</title>
+<link>http://118965-lh.akamaihd.net/i/etv_live@74820/master.m3u8?b=110-700</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/emmanuel_tv.png</thumbnail>
+</item>
 	
 </channel>  
 
@@ -1503,7 +1509,7 @@
 <item>
 <title>Emmanuel TV</title>
 <link>http://118965-lh.akamaihd.net/i/etv_live@74820/master.m3u8?b=110-700</link>
-<thumbnail>http://www.redzonesweeps.com/images/RZ_Wallpaper_1024.jpg</thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/emmanuel_tv.png</thumbnail>
 </item>
 
 
