@@ -902,13 +902,13 @@
 
 <item>
 <title>Eurosport</title>
-<link>http://37.48.118.32/live/eurosport1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yMC8yMDE1IDEyOjI1OjE5IFBNJmhhc2hfdmFsdWU9bzdhbGdtSFB4eEZjbnhXZjhReWNIUT09JnZhbGlkbWludXRlcz0yMA==</link>
+<link>http://37.48.118.32/live/eurosport1.stream/playlist.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/british_eurosport.png</thumbnail>
 </item>
 
 <item>
 <title>Eurosport 2</title>
-<link>http://37.48.118.32/live/eurosport2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yMC8yMDE1IDEyOjI3OjEzIFBNJmhhc2hfdmFsdWU9STA4NVhrZFdFelVZUkJyeE53RVVGUT09JnZhbGlkbWludXRlcz0yMA==</link>
+<link>http://37.48.118.32/live/eurosport2.stream/playlist.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/british_eurosport_2.png</thumbnail>
 </item> 
 
