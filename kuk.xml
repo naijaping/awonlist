@@ -1536,13 +1536,13 @@
                         <regex>
                         <name>streamer</name>
                         <expres>'streamer','([^']*)</expres>
-                        <page>http://www.flashtv.co/embed.php?live=ssn&amp;vw=620&amp;vh=490</page>
+                        <page>http://theactionlive.com/livegamecr.php?id=skysxnews&width=620&height=490</page>
                         <referer>http://cricfree.sx/update/news.php</referer>
                         </regex>
                         <regex>
                         <name>file</name>
                         <expres>'file','([^']*)</expres>
-                        <page>http://www.flashtv.co/embed.php?live=ssn&amp;vw=620&amp;vh=490</page>
+                        <page>http://theactionlive.com/livegamecr.php?id=skysxnews&width=620&height=490</page>
                         <referer>http://cricfree.sx/update/news.php</referer>
                         </regex>
                        
