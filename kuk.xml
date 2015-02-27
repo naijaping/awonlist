@@ -1512,17 +1512,22 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/emmanuel_tv.png</thumbnail>
 </item>
 
-                        <item>
-                        <title>C+ 1 </title>
-                        <link>$doregex[rtmp] playpath=ver97o7vbc swfUrl=http://1broadcastlive.com/player.swf token=zEIqvDJ4RMytigLo2izHdQ pageUrl=http://1broadcastlive.com live=1 timeout=15</link>
-                        <regex>
-                        <name>rtmp</name>
-                        <expres>'streamer', '(.*?)'</expres>
-                        <page>http://1broadcastlive.com/embed.php?a=48&id=&width=800&height=380</page>
-                        </regex>
-                        <thumbnail></thumbnail>
-                        </item>
-
+<item>
+<title>[COLOR=FF00FF00][B][I] CINEMAX HD [/I][/B][/COLOR]</title>
+<link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=live_newzviewz live=1 timeout=60</link>
+<regex>
+<name>getIP</name>
+<expres>function getEdgeServers.*"(.*?),<expres>
+<page>http://vaughnlive.tv//embed/video/newzviewz?viewers=true&watermark=false&autoplay=true</page>
+</regex>
+<regex>
+<name>getCODE</name>
+<expres>vsVars.*= "0m0(.*?)"<expres>
+<page>http://vaughnlive.tv//embed/video/newzviewz?viewers=true&watermark=false&autoplay=true</page>
+</regex>
+<thumbnail>http://bgonline-tv.com/wp-content/uploads/2013/01/113F4DBA-0168-E92E-91F4622A448162911.jpg</thumbnail>
+<fanart>http://www.cinescapeboxoffice.com/wp/wp-content/uploads/2.jpg</fanart>
+</item>                        
  
 
 
