@@ -1565,6 +1565,21 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/emmanuel_tv.png</thumbnail>
 </item>                
  
+ 
+ <item>
+                        <title>Simpsons Mania</title>
+                        <link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=live_simpson_mania live=1 timeout=20</link>
+                        <regex>
+                        <name>getIP</name>
+                        <expres>function getEdgeServers.*"(.*?),<expres>
+                        <page>http://vaughnlive.tv/simpson_mania</page>
+                        </regex>
+                        <regex>
+                        <name>getCODE</name>
+                        <expres>vsVars.*= "0m0(.*?)"<expres>
+                        <page>http://vaughnlive.tv/simpson_mania</page>
+                        </regex>
+                        </item>
 
 
 </channel>
