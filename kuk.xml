@@ -1299,7 +1299,7 @@
 <regex>
 <name>get-page</name>
 <expres>"m3u8_url":"(.*?)"</expres>
-<page>http://new.livestream.com/accounts/3504140/events/3828384</page>
+<page>http://new.livestream.com/accounts/3504140/events/3847341</page>
 
 <cookieJar></cookieJar>
 </regex>
