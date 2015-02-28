@@ -1565,16 +1565,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/emmanuel_tv.png</thumbnail>
 </item>                
  
- <item>
-                        <title>Francia: Canal 2</title>
-                        <link>http://max.myfrtv.com/222/m3u8/222.m3u8$doregex[get-token]</link>
-                        <regex>
-                        <name>get-token</name>
-                        <expres>enableOver.*(\?.*)</expres>
-                        <page>https://gb-free-proxy.cyberghostvpn.com/go/browse.php?u=http%3A%2F%2Fmyfrtv.com%2Fchannels%2F new-file&b=7&f=norefer</page>
-                        </regex>
-                        </item>
-                       
+     
 
 
 
