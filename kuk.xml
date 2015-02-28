@@ -1580,12 +1580,7 @@
 
 <item>
 <title>Throne</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
-<regex>
-<name>getlink</name>
-<expres>source src="([^"]*)</expres>
-<page>http://www.jtvleaks.eu/sex-live</page>
-</regex>
+<link>rtrtmp://62.210.82.111/live2 playpath=sex swfUrl=http://releases.flowplayer.org/5.5.1/flowplayer.swf live=1 pageUrl=http://www.jtvleaks.eu/sex-live</link>
 <thumbnail></thumbnail>
 </item>
 
