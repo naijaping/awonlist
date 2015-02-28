@@ -1565,17 +1565,16 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/emmanuel_tv.png</thumbnail>
 </item>                
  
- <item>
-<title>nv</title>
-<link>http://sport1.streamking.net/hls/OK50CtLzjmZ8g5P-zZb0Lw/1425120189/ntvplusfootball.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/emmanuel_tv.png</thumbnail>
-</item>     
-
-
+ 
 <item>
 <title>HBO Plus en vivo</title>
 <sportsdevil>http://www.shidurlive.com/embed/al-jazeera-english</sportsdevil>
 <referer>http://www.shidurlive.com</referer>
+</item>
+
+<item>
+<title>Bein sport : You need to install f4m_tester addon from Shani Repo</title>
+<link>plugin://plugin.video.f4mTester/?url=http://d1yjsz5fddyesn.cloudfront.net/livecf/foxar/manifest.f4m</link>
 </item>
 
 
