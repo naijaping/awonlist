@@ -1592,11 +1592,11 @@
     
     <item>
     <title>BT1</title>
-    <link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=bt sport 1 hd</link>
+    <link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=ote sport 1 hd</link>
     <regex>
     <name>url</name>    
     <expres>this.loadPlayer\("([^"]*)</expres>
-    <page>http://torrent-tv.ru/torrent-online.php?translation=10344</page>
+    <page>http://torrent-tv.ru/torrent-online.php?translation=11108</page>
     <referer></referer>
     </regex>
     </item>
