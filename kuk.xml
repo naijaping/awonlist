@@ -1593,7 +1593,7 @@
   
 <item>
 <title> Youtube regex</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]&amp;list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU</link>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]&amp;list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU&amp;index=1</link>
 <regex>
 <name>id</name>
 <expres>watch\?v=([^"]+)<expres>
