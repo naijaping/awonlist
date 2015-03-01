@@ -1593,7 +1593,7 @@
   
 <item>
 			<title>nbcsn0</title>
-			<link>rtmp://50.7.164.34:2555/stream/ playpath=mona1 swfUrl=http://embed.beststreams.ru/flowplayer-3.2.18.swf live=1 pageUrl=http://embed.beststreams.ru/v2.php?channel=mona1 timeout=20</link>
+			<link>rtmpe://46.246.124.22:1935/live playpath=nbcsn0 swfUrl=http://prvservers.com/j/jwplayer.flash.swf pageUrl=http://prvservers.com/ token=#yw%tt#w@kku timeout=10</link>
 		</item>
 
 
