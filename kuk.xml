@@ -1580,8 +1580,7 @@
 
 <item>
 <title>Throne</title>
-<link>http://198.179.30.109/live/113.high.stream/playlist.m3u8?id=0ad5aac39bb13fbe05a5a3379ee5065d92632e42c410f6f290eef4bdd4de5fbda303db16c0dfce4acf2b3cd39980e6312c4d52af698cae9530546a2086e2238b1f535d5d62299ad7d145ab86bf265bf517e5e36945bf4620b4dfc9969a55b381d4d00980df7b2fd4d68a2988c96a3188123188a98f36e7e4247bced5e09e383eb6d61e7f846701b3c5e93f842ab3d871512cb8de4bdeb473
- </link>
+<link>rtmpe://46.246.124.65:1935/live/sskys1 swfUrl=http://www.hdcast.org/j2/jwplayer.flash.swf token=#yw%tt#w@kku live=1 timeout=14 swfVfy=1 pageUrl=http://www.hdcast.org/embedlive2.php?u=sskys1&vw=854&vh=480</link>
 <thumbnail></thumbnail>
 </item>
 
