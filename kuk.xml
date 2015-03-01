@@ -1579,15 +1579,11 @@
 
 
 <item>
-<title>Breaki</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
-<regex>
-<name>getlink</name>
-<expres>source src="(.*?)</expres>
-<page>http://www.jtvleaks.eu/sex-live</page>
-</regex>
-<thumbnail></thumbnail>
+<title>p2p</title>
+<p2p>acestream://9d419645a4e5d6f91e9364db13ac89477e416ae9</p2p>
+<referer>http://www.shidurlive.com</referer>
 </item>
+
 
 
 </channel>
