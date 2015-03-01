@@ -1592,14 +1592,15 @@
   
   
 <item>
-<title> The Young Turks</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
+<title> Youtube regex</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]&amp;list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU</link>
 <regex>
 <name>id</name>
-<expres>data-context-item-id="([^"]+)<expres>
-<page>https://www.youtube.com/user/AlJazeeraEnglish/featured</page>
+<expres>watch\?v=([^"]+)<expres>
+<page>https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg</page>
 </regex>
-</item> 
+<thumbnail></thumbnail>
+</item>
 
 
 
