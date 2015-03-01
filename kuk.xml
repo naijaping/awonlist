@@ -286,7 +286,7 @@
 </regex>
 <regex>
 <name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=yaBXv1AD3Vo&index=2&list=PLodiYTZs9Vaqz3mt ywce3y-GE8XiRF0sU')</expres>
+<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=63zz6t3zdUs&index=2&list=PLodiYTZs9Vaqz3mt ywce3y-GE8XiRF0sU')</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/al_jazeera_english.png</thumbnail>
