@@ -1583,7 +1583,7 @@
 <link>$doregex[getlink]|User-Agent=iPhone</link>
 <regex>
 <name>getlink</name>
-<expres>source src="([^"].*?)</expres>
+<expres>source src="(.*?)</expres>
 <page>http://www.jtvleaks.eu/sex-live</page>
 </regex>
 <thumbnail></thumbnail>
