@@ -1578,17 +1578,7 @@
     </item>
     
     
-    <item>
-    <title>BT1</title>
-    <link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=ote sport 1 hd</link>
-    <regex>
-    <name>url</name>    
-    <expres>this.loadPlayer\("([^"]*)</expres>
-    <page>http://torrent-tv.ru/torrent-online.php?translation=11108</page>
-    <referer></referer>
-    </regex>
-    </item>
-    
+   
 <item>
 <title>Natgeo</title>
 <link>$doregex[getlink]|User-Agent=iPhone</link>
@@ -1599,7 +1589,17 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
-    
+  
+  
+<item>
+<title> The Young Turks</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>data-context-item-id="([^"]+)<expres>
+<page>https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg</page>
+</regex>
+</item>  
 
 
 
