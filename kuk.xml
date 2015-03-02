@@ -1615,9 +1615,15 @@
 </item>
 
 <item>
-<title>sob 2</title>
+<title>be1</title>
 <link>http://2co1.vp9.tv/chn/bin01/v.m3u8</link>
 </item>
+
+<item>
+<title>be2</title>
+<link>http://2co1.vp9.tv/chn/bin02/v.m3u8</link>
+</item>
+
 
 
 </channel>
