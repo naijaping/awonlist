@@ -1609,24 +1609,9 @@
 <link>rtmpe://46.246.124.89:1935/l playpath=sbt1 token=Fo5_n0w?U.rA6l3-70w47ch timeout=10 pageUrl=http://www.hdcast.org</link>
 </item>
 
-<item>
-<title>sob</title>
-<link>rtmp://89.248.168.57/iguide playpath=llkttxaeqsaqdgc swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf pageUrl=http://www.iguide.to/AMINE1313DZ token=#ed%h0#w18623jsda6523lDGD</link>
-</item>
 
 <item>
-<title>be1</title>
-<link>http://2co1.vp9.tv/chn/bin01/v.m3u8</link>
-</item>
-
-<item>
-<title>be2</title>
-<link>http://2co1.vp9.tv/chn/bin02/v.m3u8</link>
-</item>
-
-
-<item>
-<title>be3</title>
+<title>All Sport Report</title>
 <link>rtmp://freeview.fms.visionip.tv/live/sports_tonight-sports_tonight-live-25f-16x9-HD</link>
 </item>
 
