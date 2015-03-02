@@ -892,7 +892,7 @@
 
 <item>
 <title>Eurosport</title>
-<link>http://37.48.118.32/live/eurosport1.stream/playlist.m3u8</link>
+<link>http://esioslive6-i.akamaihd.net/hls/live/202874/AL_P_ESP1_INTER_ENG/playlist_1000.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/british_eurosport.png</thumbnail>
 </item>
 
@@ -1616,7 +1616,7 @@
 
 <item>
 <title>sob 2</title>
-<link>http://esioslive6-i.akamaihd.net/hls/live/202874/AL_P_ESP1_INTER_ENG/playlist_1000.m3u8</link>
+<link>http://198.27.94.105/hls/skysports1_1.m3u8</link>
 </item>
 
 
