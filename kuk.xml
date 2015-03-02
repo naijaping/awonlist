@@ -1644,6 +1644,18 @@
 
 
 
+<item>
+<title> The Young Turks</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>data-context-item-id="([^"]+)<expres>
+<page>https://www.youtube.com/user/skynews/featured</page>
+</regex>
+</item>
+
+
+
 </channel>
 </channels>
 			
