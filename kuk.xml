@@ -1643,7 +1643,7 @@
 
 <item>
 <title>BT2</title>
-<link>rtmp://31.220.0.206/live/ playpath=btt2 swfUrl=http://flashtv.co/ePlayerr.swf pageUrl=http://flashtv.co/embedo.php?live=btt2&vw=650&vh=480 token=%Zrey(nKa@#Z</link>
+<link>rtmp://31.220.0.206/redirect/btt2 swfUrl=http://flashtv.co/ePlayerr.swf pageUrl=http://flashtv.co/embedo.php?live=btt2&vw=650&vh=480 token=%Zrey(nKa@#Z</link>
 <thumbnail></thumbnail>
 </item>
 
