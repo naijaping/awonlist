@@ -1648,20 +1648,8 @@
 
 
 <item>
-<title>BT 1 HD</title>
-<link>$doregex[rtmp] playpath=$doregex[path] token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>flashvars=.*=(rtmp[^&]*)</expres>
-<page>http://biggestplayer.me/streamcr.php?id=$doregex[path]</page>
-<referer>http://theactionlive.com</referer>
-</regex>
-<regex>
-<name>path</name>
-<expres>id='(.*?)'</expres>
-<page>http://theactionlive.com/livegamecr.php?id=bt14u</page>
-<referer>http://sports4u.tv</referer>
-</regex>
+<title>BTo</title>
+<link>http://167.114.41.220:8080/btsp1/btsp1/index.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
