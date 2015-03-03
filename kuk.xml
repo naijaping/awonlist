@@ -1602,11 +1602,6 @@
 </item>
 
 <item>
-<title>TV</title>
-<link>http://198.27.94.105/hls/bt2_1.m3u8</link>
-</item>
-
-<item>
 <title> Youtube1</title>
 <link>rtmp://195.154.241.240:80/liverepeater playpath=300342 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co/stream.php?id=300342 token=Fo5_n0w?U.rA6l3-70w47ch</link>
 <thumbnail></thumbnail>
