@@ -1640,7 +1640,7 @@
 
 <item>
 <title>POPt</title>
-<link>rtmp://rtmp.popeoftheplayers.eu:1935/redirect playpath=16 swfUrl="http://popeoftheplayers.eu/atdedead.swf pageUrl=http://popeoftheplayers.eu live=1 token=#atd%#$ZH timeout=15</link>
+<link>rtmpe://46.246.124.87:1935/l playpath=llive1 swfUrl=http://player.prvservers.com/_.swf live=1 pageUrl=http://prvservers.com/ token=Fo5_nOw?U.rA613-70w47ch </link>
 </item>
 
 </channel>
