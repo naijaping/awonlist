@@ -1630,13 +1630,9 @@
 
 
 <item>
-<title> Youtube regex</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]&amp;list=PLl6IvhbhEqwwOBvbpTSNrwwyPKbizuvg-</link>
-<regex>
-<name>id</name>
-<expres>watch\?v=([^"]+)<expres>
-<page>https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg</page>
-</regex>
+<title> Youtube</title>
+<link>rtmp://195.154.241.240:80/liverepeater playpath=201073 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co/stream.php?id=201073 token=Fo5_n0w?U.rA6l3-70w47ch</link>
+
 <thumbnail></thumbnail>
 </item>
 
