@@ -660,11 +660,18 @@
 
 <item>
 <title>BT Sport 1 HD</title>
-<link>$doregex[getIlive]</link>
+<link>$doregex[rtmp] playpath=$doregex[path] token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
 <regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/68720/BT_Sport_1_%28HD%29-live-stream-channel?pw=iu973j',False,False)</expres>
-<page></page>
+<name>rtmp</name>
+<expres>flashvars=.*=(rtmp[^&]*)</expres>
+<page>http://biggestplayer.me/streamcr.php?id=$doregex[path]</page>
+<referer>http://theactionlive.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>id='(.*?)'</expres>
+<page>http://theactionlive.com/livegamecr.php?id=bt14u</page>
+<referer>http://sports4u.tv</referer>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bt_sport_1.png</thumbnail>
 </item>
