@@ -1630,9 +1630,8 @@
 
 
 <item>
-<title> Youtube</title>
-<link>rtmp://195.154.241.240:80/liverepeater playpath=201073 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co/stream.php?id=201073 token=Fo5_n0w?U.rA6l3-70w47ch</link>
-
+<title> Youtube1</title>
+<link>rtmp://195.154.241.240:80/liverepeater playpath=300342 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co/stream.php?id=300342 token=Fo5_n0w?U.rA6l3-70w47ch</link>
 <thumbnail></thumbnail>
 </item>
 
