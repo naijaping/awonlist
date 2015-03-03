@@ -1653,7 +1653,7 @@
 <name>path</name>
 <expres>id='(.*?)'</expres>
 <page>http://theactionlive.com/livegamecr.php?id=bt14u</page>
-<referer>freetvall.com</referer>
+<referer>http://tv4embed.com/</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
