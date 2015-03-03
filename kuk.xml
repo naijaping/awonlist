@@ -696,12 +696,7 @@
 
 <item>
 <title>Sky Sport 3</title>
-<link>$doregex[getIlive]</link>
-<regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/68714/Sky_Sport_3_%28HD%29-live-stream-channel?pw=iu973j')</expres>
-<page></page>
-</regex>
+<link>rtmp://rtmp.popeoftheplayers.eu:1935/redirect playpath=10 swfUrl="http://popeoftheplayers.eu/atdedead.swf pageUrl=http://popeoftheplayers.eu live=1 token=#atd%#$ZH timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_mx_sports3.png</thumbnail>
 </item>
 
