@@ -1644,6 +1644,55 @@
 </item>
 
 
+<item>
+<title>Igo2</title>
+<link>http://stream.ssh101.com/hls/090909.m3u8</link>
+</item>
+
+
+
+<item>
+<title>Streamlive regex</title>
+<link>rtmp://watch1.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+<regex>
+	<name>path</name>
+	<expres>file: "(.*).flv</expres>
+	<page>https://www.streamlive.to/view/69110</page>
+</regex>
+<regex>
+	<name>tok</name>
+	<expres>token":"([^"]*)</expres>
+	<page>$doregex[tokpg]</page>
+	<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+	<name>tokpg</name>
+	<expres>getJSON\("([^"]*)</expres>
+	<page>https://www.streamlive.to/view/69110</page>
+</regex>
+<regex>
+	<name>xs</name>
+	<expres>/(\?xs=.*?)"</expres>
+	<page>https://www.streamlive.to/view/69110</page>
+	<rawpost>captcha=$doregex[answer]</rawpost>
+	<referer>https://www.streamlive.to</referer>
+	<cookieJar></cookieJar>
+	<ignorecache/>
+</regex>
+<regex>
+	<name>answer</name>
+	<expres>$pyFunction:($doregex[captcha])</expres>
+	<page></page>
+</regex>
+<regex>
+	<name>captcha</name>
+	<expres>Question: (.*) =</expres>
+	<page>https://www.streamlive.to/view/69110</page>
+	<referer>http://www.streamlive.to</referer>
+	<cookieJar></cookieJar>
+</regex>
+</item>
+
 
 </channel>
 </channels>
