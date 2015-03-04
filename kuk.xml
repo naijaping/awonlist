@@ -1655,41 +1655,41 @@
 <title>Sky 1 HD</title>
 <link>rtmp://watch1.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
 <regex>
-	<name>path</name>
-	<expres>file: "(.*).flv</expres>
-	<page>https://www.streamlive.to/view/68713</page>
+<name>path</name>
+<expres>file: "(.*).flv</expres>
+<page>https://www.streamlive.to/view/68713</page>
 </regex>
 <regex>
-	<name>tok</name>
-	<expres>token":"([^"]*)</expres>
-	<page>$doregex[tokpg]</page>
-	<referer>https://www.streamlive.to</referer>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
 </regex>
 <regex>
-	<name>tokpg</name>
-	<expres>getJSON\("([^"]*)</expres>
-	<page>https://www.streamlive.to/view/68713</page>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>https://www.streamlive.to/view/68713</page>
 </regex>
 <regex>
-	<name>xs</name>
-	<expres>/(\?xs=.*?)"</expres>
-	<page>https://www.streamlive.to/view/68713</page>
-	<rawpost>captcha=$doregex[answer]</rawpost>
-	<referer>https://www.streamlive.to</referer>
-	<cookieJar></cookieJar>
-	<ignorecache/>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>https://www.streamlive.to/view/68713</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache/>
 </regex>
 <regex>
-	<name>answer</name>
-	<expres>$pyFunction:($doregex[captcha])</expres>
-	<page></page>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
 </regex>
 <regex>
-	<name>captcha</name>
-	<expres>Question: (.*) =</expres>
-	<page>https://www.streamlive.to/view/68713</page>
-	<referer>http://www.streamlive.to</referer>
-	<cookieJar></cookieJar>
+<name>captcha</name>
+<expres>Question: (.*) =</expres>
+<page>https://www.streamlive.to/view/68713</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
 </regex>
 </item>
 
@@ -1700,56 +1700,271 @@
 <title>Sky 2HD</title>
 <link>rtmp://watch1.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
 <regex>
-	<name>path</name>
-	<expres>file: "(.*).flv</expres>
-	<page>https://www.streamlive.to/view/68424</page>
+<name>path</name>
+<expres>file: "(.*).flv</expres>
+<page>https://www.streamlive.to/view/68424</page>
 </regex>
 <regex>
-	<name>tok</name>
-	<expres>token":"([^"]*)</expres>
-	<page>$doregex[tokpg]</page>
-	<referer>https://www.streamlive.to</referer>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
 </regex>
 <regex>
-	<name>tokpg</name>
-	<expres>getJSON\("([^"]*)</expres>
-	<page>https://www.streamlive.to/view/68424</page>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>https://www.streamlive.to/view/68424</page>
 </regex>
 <regex>
-	<name>xs</name>
-	<expres>/(\?xs=.*?)"</expres>
-	<page>https://www.streamlive.to/view/68424</page>
-	<rawpost>captcha=$doregex[answer]</rawpost>
-	<referer>https://www.streamlive.to</referer>
-	<cookieJar></cookieJar>
-	<ignorecache/>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>https://www.streamlive.to/view/68424</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache/>
 </regex>
 <regex>
-	<name>answer</name>
-	<expres>$pyFunction:($doregex[captcha])</expres>
-	<page></page>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
 </regex>
 <regex>
-	<name>captcha</name>
-	<expres>Question: (.*) =</expres>
-	<page>https://www.streamlive.to/view/68424</page>
-	<referer>http://www.streamlive.to</referer>
-	<cookieJar></cookieJar>
+<name>captcha</name>
+<expres>Question: (.*) =</expres>
+<page>https://www.streamlive.to/view/68424</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
+
+<item>
+<title>Sky 3 HD</title>
+<link>rtmp://watch1.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+<regex>
+<name>path</name>
+<expres>file: "(.*).flv</expres>
+<page>https://www.streamlive.to/view/68714</page>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>https://www.streamlive.to/view/68714</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>https://www.streamlive.to/view/68714</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache/>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>Question: (.*) =</expres>
+<page>https://www.streamlive.to/view/68714</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
+
+
+<item>
+<title>Sky 4 HD</title>
+<link>rtmp://watch1.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+<regex>
+<name>path</name>
+<expres>file: "(.*).flv</expres>
+<page>https://www.streamlive.to/view/68715</page>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>https://www.streamlive.to/view/68715</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>https://www.streamlive.to/view/68715</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache/>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>Question: (.*) =</expres>
+<page>https://www.streamlive.to/view/68715</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
+
+<item>
+<title>Sky 5 HD</title>
+<link>rtmp://watch1.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+<regex>
+<name>path</name>
+<expres>file: "(.*).flv</expres>
+<page>https://www.streamlive.to/view/68716</page>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>https://www.streamlive.to/view/68716</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>https://www.streamlive.to/view/68716</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache/>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>Question: (.*) =</expres>
+<page>https://www.streamlive.to/view/68716</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
+
+
+<item>
+<title>BT 1 HD</title>
+<link>rtmp://watch1.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+<regex>
+<name>path</name>
+<expres>file: "(.*).flv</expres>
+<page>https://www.streamlive.to/view/68720</page>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>https://www.streamlive.to/view/68720</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>https://www.streamlive.to/view/68720</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache/>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>Question: (.*) =</expres>
+<page>https://www.streamlive.to/view/68720</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
+
+<item>
+<title>BT 2 HD</title>
+<link>rtmp://watch1.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+<regex>
+<name>path</name>
+<expres>file: "(.*).flv</expres>
+<page>https://www.streamlive.to/view/68721</page>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token":"([^"]*)</expres>
+<page>$doregex[tokpg]</page>
+<referer>https://www.streamlive.to</referer>
+</regex>
+<regex>
+<name>tokpg</name>
+<expres>getJSON\("([^"]*)</expres>
+<page>https://www.streamlive.to/view/68721</page>
+</regex>
+<regex>
+<name>xs</name>
+<expres>/(\?xs=.*?)"</expres>
+<page>https://www.streamlive.to/view/68721</page>
+<rawpost>captcha=$doregex[answer]</rawpost>
+<referer>https://www.streamlive.to</referer>
+<cookieJar></cookieJar>
+<ignorecache/>
+</regex>
+<regex>
+<name>answer</name>
+<expres>$pyFunction:($doregex[captcha])</expres>
+<page></page>
+</regex>
+<regex>
+<name>captcha</name>
+<expres>Question: (.*) =</expres>
+<page>https://www.streamlive.to/view/68721</page>
+<referer>http://www.streamlive.to</referer>
+<cookieJar></cookieJar>
 </regex>
 </item>
 
 
       
-
 </channel>
-
-
 <channel>
-        <name>[COLOR blue]Especial Liga REAL MADRID - VILLAREAL :[/COLOR][COLOR aqua] 01/03/2015[/COLOR]</name>
-        <link>http://ignoreme</link>
-        <externallink>http://dl.dropboxusercontent.com/u/66945917/eventosdeportivos.xml</externallink>
-        <thumbnail></thumbnail>
-        </channel>
+
+<name>[COLOR blue]Especial Liga REAL MADRID - VILLAREAL :[/COLOR][COLOR aqua] 01/03/2015[/COLOR]</name>
+<link>http://ignoreme</link>
+<externallink>http://dl.dropboxusercontent.com/u/66945917/eventosdeportivos.xml</externallink>
+<thumbnail></thumbnail>
+</channel>
 
 </channels>
 			
