@@ -1652,7 +1652,7 @@
 
 
 <item>
-<title>Streamlive regex</title>
+<title>Sky 1 HD</title>
 <link>rtmp://watch1.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
 <regex>
 	<name>path</name>
@@ -1697,12 +1697,12 @@
 
 
 <item>
-<title>sky regex</title>
+<title>Sky 2HD</title>
 <link>rtmp://watch1.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
 <regex>
 	<name>path</name>
 	<expres>file: "(.*).flv</expres>
-	<page>http://www.uk-proxy.co.uk/w.php?u=rIm8rpi0aiUyFHgr09B30r%2FiXRAHsOsQNg%2F1Q8UtQss%3D&b=29&f=norefer</page>
+	<page>https://www.streamlive.to/view/68424</page>
 </regex>
 <regex>
 	<name>tok</name>
@@ -1713,12 +1713,12 @@
 <regex>
 	<name>tokpg</name>
 	<expres>getJSON\("([^"]*)</expres>
-	<page>http://www.uk-proxy.co.uk/w.php?u=rIm8rpi0aiUyFHgr09B30r%2FiXRAHsOsQNg%2F1Q8UtQss%3D&b=29&f=norefer</page>
+	<page>https://www.streamlive.to/view/68424</page>
 </regex>
 <regex>
 	<name>xs</name>
 	<expres>/(\?xs=.*?)"</expres>
-	<page>http://www.uk-proxy.co.uk/w.php?u=rIm8rpi0aiUyFHgr09B30r%2FiXRAHsOsQNg%2F1Q8UtQss%3D&b=29&f=norefer</page>
+	<page>https://www.streamlive.to/view/68424</page>
 	<rawpost>captcha=$doregex[answer]</rawpost>
 	<referer>https://www.streamlive.to</referer>
 	<cookieJar></cookieJar>
@@ -1732,7 +1732,7 @@
 <regex>
 	<name>captcha</name>
 	<expres>Question: (.*) =</expres>
-	<page>http://www.uk-proxy.co.uk/w.php?u=rIm8rpi0aiUyFHgr09B30r%2FiXRAHsOsQNg%2F1Q8UtQss%3D&b=29&f=norefer</page>
+	<page>https://www.streamlive.to/view/68424</page>
 	<referer>http://www.streamlive.to</referer>
 	<cookieJar></cookieJar>
 </regex>
