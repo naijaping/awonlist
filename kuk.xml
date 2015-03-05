@@ -1957,24 +1957,9 @@
 
 
 <item>
-<title> New 1080p</title>
-<link>$doregex[get-utf8-url]</link>
-<regex>
-<name>get-utf8-url</name>
-<expres>$pyFunction:'$doregex[get-m3u8]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-m3u8</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://www.proxyusa.info/browse.php?u=$doregex[url-quote]&b=4&f=http://www.proxyusa.info/').read()</page>
-<referer>http://www.proxyusa.info/browse.php/</referer>
-</regex>
-<regex>
-<name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=63zz6t3zdUs&feature=player_embedded')</expres>
-<page></page>
-</regex>
+<title>Rage Against The Machine - Woodstock 1999</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=63zz6t3zdUs</link>
+<thumbnail>http://static.rateyourmusic.com/album_images/21620145759ed8585ca6c8000fe04aa7/224979.jpg</thumbnail>
 </item>
 
 
