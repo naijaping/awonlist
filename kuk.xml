@@ -186,7 +186,7 @@
 
 <item>
 <title>Adom TV Ghana</title>
-<link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://www.ghanalive.tv/adome-tv/ swfVfy=true live=1 timeout=15</link>
+<link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf pageUrl=http://www.ghanalive.tv/adome-tv/ swfVfy=true live=1 timeout=15</link>
 <regex>
 <name>rtmp</name>
 <expres>'file': '([^']*)<expres>
