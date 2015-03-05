@@ -1958,24 +1958,7 @@
 
 <item>
 <title>158 DEPORTV</title>
-                        <link>http://$doregex[get-url]/DXTV/smil:DXTV.smil/playlist.m3u8?wmsAuthSign=$doregex[get-id]</link>
-                        <regex>
-                        <name>get-iframe</name>
-                        <expres>iframe-page" src="([^"]*)<expres>
-                        <page>http://streaming.deportv.gov.ar/</page>
-                        </regex>
-                        <regex>
-                        <name>get-id</name>
-                        <expres>m3u8\?wmsAuthSign=(.*?)'<expres>
-                        <page>$doregex[get-iframe]</page>
-                        <referer>http://streaming.deportv.gov.ar/</referer>
-                        </regex>
-                        <regex>
-                        <name>get-url</name>
-                        <expres>rtspLinkA' href='rtsp:\/\/(.*?)\/DXTV<expres>
-                        <page>$doregex[get-iframe]</page>
-                        <referer>http://streaming.deportv.gov.ar/</referer>
-                        </regex>
+<link>https://onedrive.live.com/?cid=3b56d63a71c1f5b8&id=3B56D63A71C1F5B8%211603&ithint=video,mp4&authkey=!AFX7RwPMCrYv3XI</link>
 </item>
 
 
