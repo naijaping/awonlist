@@ -1963,24 +1963,14 @@
 
 
 <item>
-<title>Sofra</title>
-<link>$doregex[url]</link>
+<title> Youtube regex</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]&amp;list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU</link>
 <regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
-<page></page>
+<name>id</name>
+<expres>watch\?v=([^"]+)<expres>
+<page>https://www.youtube.com/channel/UCEXGDNclvmg6RW0vipJYsTQ</page>
 </regex>
-<regex>
-<name>jsonurl</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>http://godfather-proxy.com/index.php?q=$doregex[url-quote]&hl=280</page>
-<referer>http://godfather-proxy.com</referer>
-</regex>
-<regex>
-<name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=_C5Oij_AD3g')</expres>
-<page></page>
-</regex>
+<thumbnail></thumbnail>
 </item>
 
 
