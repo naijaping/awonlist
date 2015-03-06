@@ -1961,6 +1961,26 @@
 <link>http://www.flavourweb.com/wp-content/uploads/2015/03/30-days-in-atlanta.mp4</link>
 </item>
 
+<item>
+			<title>youtube 720p</title>
+			<link>$doregex[getQualityLink]</link>
+
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=1280x720\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=SrNpdcDyXXA</page>
+				</regex>
+		</item>
 
 
       
