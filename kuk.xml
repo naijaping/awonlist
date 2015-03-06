@@ -1961,17 +1961,7 @@
 <link>http://www.flavourweb.com/wp-content/uploads/2015/03/30-days-in-atlanta.mp4</link>
 </item>
 
-<item>
-        <title>ASSP3</title>
-        <link>$doregex[url]</link>
-        <regex>
-        <name>url</name>
-        <expres>file: "([^"]*)</expres>
-        <page>http://www.wezatv.com/dooball/assp3.php</page>
-        </regex>
-        <thumbnail>http://1.bp.blogspot.com/-p-2hwxDXNOM/VAEzXkisNxI/AAAAAAAAHsA/c-UYlCiNNog/s1600/astro%2Bsupersport%2B3%2Blogo%2Bchannel.PNG</thumbnail>
-        <fanart>http://oi58.tinypic.com/2572hzt.jpg</fanart>
-        </item>
+
 
 
       
