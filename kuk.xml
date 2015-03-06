@@ -1967,7 +1967,7 @@
 <link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]&amp;list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU</link>
 <regex>
 <name>id</name>
-<expres>watch\?v=([^"]+)<expres>
+<expres>watch\?v="([^"]+)<expres>
 <page>https://www.youtube.com/channel/UCEXGDNclvmg6RW0vipJYsTQ</page>
 </regex>
 <thumbnail></thumbnail>
