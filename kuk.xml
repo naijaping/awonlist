@@ -1963,7 +1963,7 @@
 
 
 <item>
-<title> Youtube regex</title>
+<title> Youtube</title>
 <link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]&amp;list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU</link>
 <regex>
 <name>id</name>
