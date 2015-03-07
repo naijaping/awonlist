@@ -1969,9 +1969,22 @@
 </item>
 
 <item>
-<title>Bloomberg Asia</title>
-<link>plugin://plugin.video.f4mTester/?url=http://blivehd-lh.akamaihd.net/z/asia_1@143161/manifest.f4m?hdcore=1</link>
-</item>
+<title>Super Sport</title>
+<link>$doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf live=true timeout=15 swfVfy=true pageUrl=http://castalba.tv/</link>
+<thumbnail></thumbnail>
+<regex>
+<name>streamer</name>
+<expres>'streamer': '([^']*)</expres>
+<page>http://castalba.tv/embed.php?cid=22908&amp;wh=600&amp;ht=400</page>
+<referer>http://castalba.tv</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file': '([^']*)</expres>
+<page>http://castalba.tv/embed.php?cid=22908&amp;wh=600&amp;ht=400&amp;r=www.supersport490.net</page>
+<referer>http://castalba.tv</referer>
+</regex>
+</item>        
 
 
       
