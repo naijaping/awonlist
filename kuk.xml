@@ -1970,7 +1970,7 @@
 
 <item>
 <title>Asia</title>
-<link>plugin://plugin.video.f4mTester/?url=http://blivehd-lh.akamaihd.net/z/asia_1@143161/manifest.f4m</link>
+<link>plugin://plugin.video.f4mTester/?url=http://blivehd-lh.akamaihd.net/z/asia_1@143161/manifest.f4m?hdcore=1</link>
 </item>
 
 
