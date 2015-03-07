@@ -1963,13 +1963,8 @@
 
 
 <item>
-<title> Youtube</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]&amp;list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU</link>
-<regex>
-<name>id</name>
-<expres>watch\?v=([^"]+)<expres>
-<page>https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg</page>
-</regex>
+<title> Yoruba</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=KnuMRzxcJ_c</link>
 <thumbnail></thumbnail>
 </item>
 
