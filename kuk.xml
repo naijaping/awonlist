@@ -1969,9 +1969,8 @@
 </item>
 
 <item>
-<title>OGgg</title>
-<link>http://cdn3.videos.bloomberg.com/btv/asia/master.m3u8</link>
-<thumbnail></thumbnail>
+<title>Asia</title>
+<link>plugin://plugin.video.f4mTester/?url=http://blivehd-lh.akamaihd.net/z/asia_1@143161/manifest.f4m</link>
 </item>
 
 
