@@ -1976,12 +1976,12 @@
 <name>streamer</name>
 <expres>'streamer': '([^']*)</expres>
 <page>http://castalba.tv/embed.php?cid=22908&amp;wh=600&amp;ht=400</page>
-<referer>www.supersport490.net</referer>
+<referer>http://castalba.tv</referer>
 </regex>
 <regex>
 <name>file</name>
 <expres>'file': '([^']*)</expres>
-<page>http://castalba.tv/embed.php?cid=22908&amp;wh=600&amp;ht=400&amp;r=www.supersport490.net</page>
+<page>http://castalba.tv/embed.php?cid=22908&amp;wh=600&amp;ht=400</page>
 <referer>www.supersport490.net</referer>
 </regex>
 </item>        
