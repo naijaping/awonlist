@@ -2016,13 +2016,8 @@
 </item>
 
 <item>
-<title>NG</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
-<regex>
-<name>getlink</name>
-<expres>source src="([^"]*)</expres>
-<page>http://www.stream4free.eu/national-geographic</page>
-</regex>
+<title>NGo</title>
+<link>rtmp://94.23.218.224/live?token=HTPxJNiP65P5V6Lp1w_qPgExpired=1425236473 playpath=hollywood swfUrl=http://privado.streamingfreetv.net/embed/noreproductor.php?o=1&kpublica=29245 live=1 pageUrl=http://privado.streamingfreetv.net/embed/embed.php?channel=hollywood&w=670&h=400</link>
 <thumbnail></thumbnail>
 </item>
       
