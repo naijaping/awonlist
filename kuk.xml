@@ -1683,9 +1683,13 @@
 <name>answer</name>
 <expres>$pyFunction:($doregex[captcha])</expres>
 <page></page>
-</regex>
 <regex>
 <name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
 <expres>Question: (.*) =</expres>
 <page>https://www.streamlive.to/view/68713</page>
 <referer>http://www.streamlive.to</referer>
@@ -1728,9 +1732,13 @@
 <name>answer</name>
 <expres>$pyFunction:($doregex[captcha])</expres>
 <page></page>
-</regex>
 <regex>
 <name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
 <expres>Question: (.*) =</expres>
 <page>https://www.streamlive.to/view/68424</page>
 <referer>http://www.streamlive.to</referer>
@@ -1774,6 +1782,11 @@
 </regex>
 <regex>
 <name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
 <expres>Question: (.*) =</expres>
 <page>https://www.streamlive.to/view/68714</page>
 <referer>http://www.streamlive.to</referer>
@@ -1818,6 +1831,11 @@
 </regex>
 <regex>
 <name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
 <expres>Question: (.*) =</expres>
 <page>https://www.streamlive.to/view/68715</page>
 <referer>http://www.streamlive.to</referer>
@@ -1861,6 +1879,11 @@
 </regex>
 <regex>
 <name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
 <expres>Question: (.*) =</expres>
 <page>https://www.streamlive.to/view/68716</page>
 <referer>http://www.streamlive.to</referer>
@@ -1905,6 +1928,11 @@
 </regex>
 <regex>
 <name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
 <expres>Question: (.*) =</expres>
 <page>https://www.streamlive.to/view/68720</page>
 <referer>http://www.streamlive.to</referer>
@@ -1948,6 +1976,11 @@
 </regex>
 <regex>
 <name>captcha</name>
+<expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xcaptcha</name>
 <expres>Question: (.*) =</expres>
 <page>https://www.streamlive.to/view/68721</page>
 <referer>http://www.streamlive.to</referer>
@@ -1974,11 +2007,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>A titleo</title>
-<link>http://ohtv.bc.cdn.bitgravity.com/trailers/trailer_asimplepromise.mp4</link>
-<thumbnail></thumbnail>
-</item>
+
 
 <item>
 <title>A t2</title>
