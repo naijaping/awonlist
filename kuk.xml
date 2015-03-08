@@ -1977,7 +1977,13 @@
 <item>
 <title>A titleo</title>
 <link>http://ohtv.bc-s.cdn.bitgravity.com/cdn/_definst_/ohtv/secure/vod/in_a_wom_mind_pt1_HD.mp4</link>
-<thumbnail>a thumbnail</thumbnail>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>A t2</title>
+<link>http://ohtv.bc-s.cdn.bitgravity.com/cdn/_definst_/ohtv/secure/vod/in_a_wom_mind_pt1_HD.mp4</link>
+<thumbnail></thumbnail>
 </item>
       
 </channel>
