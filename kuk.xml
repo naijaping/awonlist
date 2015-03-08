@@ -2014,6 +2014,17 @@
 <link>http://ohtv.bc-s.cdn.bitgravity.com/cdn/_definst_/ohtv/secure/vod/in_a_wom_mind_pt1_HD.mp4/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+<title>NG</title>
+<link>$doregex[getlink]|User-Agent=iPhone</link>
+<regex>
+<name>getlink</name>
+<expres>source src="([^"]*)</expres>
+<page>http://www.stream4free.eu/national-geographic</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
       
 </channel>
 <channel>
