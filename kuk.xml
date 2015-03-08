@@ -2016,9 +2016,20 @@
 </item>
 
 <item>
-<title>NGo</title>
-<link>rtmp://94.23.218.224/live?token=HTPxJNiP65P5V6Lp1w_qPgExpired=1425236473 playpath=hollywood swfUrl=http://privado.streamingfreetv.net/embed/noreproductor.php?o=1&kpublica=29245 live=1 pageUrl=http://privado.streamingfreetv.net/embed/embed.php?channel=hollywood&w=670&h=400</link>
-<thumbnail></thumbnail>
+<title> hollywood</title>
+<link>$doregex[rtmp] playpath=$doregex[file] swfUrl=ttp://privado.streamingfreetv.net/embed/noreproductor.php?o=1&kpublica=29245 pageUrl=http://privado.streamingfreetv.net/embed/embed.php?channel=hollywood&w=670&h=400 swfVfy=true live=true timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>streamer=([^&]*)<expres>
+<page>http://privado.streamingfreetv.net/embed/embed.php?channel=hollywood&w=670&h=400</page>
+<referer>http://streamingfreetv.net/canales/hollywood/hollywood3.html</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>file=([^&]*)<expres>
+<page>http://privado.streamingfreetv.net/embed/embed.php?channel=hollywood&w=670&h=400</page>
+<referer>http://streamingfreetv.net/canales/hollywood/hollywood3.html</referer>
+</regex>
 </item>
       
 </channel>
