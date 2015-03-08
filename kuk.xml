@@ -1974,7 +1974,12 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>A title</title>
+<link>http://ignorame</link>
+<thumbnail>a thumbnail</thumbnail>
+<externallink>http://zoobaby.com.uy/uru.xml</externallink>
+</item>
       
 </channel>
 <channel>
