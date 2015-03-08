@@ -2016,20 +2016,9 @@
 </item>
 
 <item>
-<title> hollywood</title>
-<link>$doregex[rtmp] playpath=$doregex[file] swfUrl=ttp://privado.streamingfreetv.net/embed/noreproductor.php?o=1&kpublica=29245 pageUrl=http://privado.streamingfreetv.net/embed/embed.php?channel=hollywood&w=670&h=400 swfVfy=true live=true timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>streamer=([^&]*)<expres>
-<page>http://privado.streamingfreetv.net/embed/embed.php?channel=hollywood&w=670&h=400</page>
-<referer>http://streamingfreetv.net/canales/hollywood/hollywood3.html</referer>
-</regex>
-<regex>
-<name>file</name>
-<expres>file=([^&]*)<expres>
-<page>http://privado.streamingfreetv.net/embed/embed.php?channel=hollywood&w=670&h=400</page>
-<referer>http://streamingfreetv.net/canales/hollywood/hollywood3.html</referer>
-</regex>
+<title>HBO Plus en vivo</title>
+<sportsdevil>http://www.shidurlive.com/stream/4e6a67324d6a5a6d4e7a4132597a63314e7a4d3d/0c1eb48d7d76</sportsdevil>
+<referer>http://www.shidurlive.com</referer>
 </item>
       
 </channel>
