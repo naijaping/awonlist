@@ -2015,20 +2015,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
-
-<item>
-<title> Youtube regex</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]&amp;list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU</link>
-<regex>
-<name>id</name>
-<expres>watch\?v=([^"]+)<expres>
-<page>https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
 <item>
 <title>HBO Movie Plus  Latino</title>
 <sportsdevil>http://shidurlive.com/embed/hboplus</sportsdevil>
@@ -2074,6 +2060,18 @@
 <expres>hlsvp":"(.*?)"</expres>
 <page>https://www.youtube.com/watch?v=ZPKJeOdr7lA</page>
 </regex>
+</item>
+
+
+<item>
+<title> Youtube regex</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]&amp;list=PLl6IvhbhEqwwOBvbpTSNrwwyPKbizuvg-</link>
+<regex>
+<name>id</name>
+<expres>watch\?v=([^"]+)<expres>
+<page>https://www.youtube.com/channel/UCEXGDNclvmg6RW0vipJYsTQ</page>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
       
