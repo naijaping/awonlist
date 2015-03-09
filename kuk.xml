@@ -2049,18 +2049,25 @@
 
 
 <item>
-<title>youtube LIVE TV: AlJazeera HD</title>
-<link>$doregex[url]</link>
+<title>Television</title>
+<link>$doregex[get-utf8-url]</link>
 <regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
+<name>get-utf8-url</name>
+<expres>$pyFunction:'$doregex[get-m3u8]'.replace('\\/','/')</expres>
 <page></page>
 </regex>
 <regex>
-<name>jsonurl</name>
+<name>get-m3u8</name>
 <expres>hlsvp":"(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=ZPKJeOdr7lA</page>
+<page>$pyFunction:urllib.urlopen('http://www.proxyusa.info/browse.php?u=$doregex[url-quote]&b=4&f=http://www.proxyusa.info/').read()</page>
+<referer>http://www.proxyusa.info/browse.php/</referer>
 </regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=ZPKJeOdr7lA&feature=player_embedded')</expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/channels_tv_ng.png</thumbnail>
 </item>
 
       
