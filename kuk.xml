@@ -2030,7 +2030,7 @@
 
 
 <item>
-<title>HBO Plus Latino</title>
+<title>HBO Movie Plus  Latino</title>
 <sportsdevil>http://shidurlive.com/embed/hboplus</sportsdevil>
 <referer>http://www.moviespremiumhd.com</referer>
 </item>
@@ -2054,13 +2054,10 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>FOX</title>
-<link>http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&amp;profile=88&amp;lan=2&amp;rows=40&amp;f=.m3u8|User-Agent=stagefright</link>
-</item>
+
 
 <item>
-<title>WARNER</title>
+<title>WARNER MOVIES</title>
 <link>http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&amp;profile=92&amp;lan=2&amp;rows=40&amp;f=.m3u8|User-Agent=stagefright</link>
 </item>
 
