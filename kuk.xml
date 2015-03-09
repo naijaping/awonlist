@@ -2036,7 +2036,7 @@
 </item>
 
 <item>
-<title>StepFB Regex</title>
+<title>StepFB FOX 1</title>
 <link>$doregex[url]|User-Agent=iPad</link>
 <regex>
 <name>url</name>
@@ -2048,7 +2048,7 @@
 <regex>
 <name>linkcode</name>
 <expres>linkcode=(.*?)'</expres>
-<page>http://stepfb.com/live/movie/48/</page>
+<page>http://stepfb.com/live/movie/49/</page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail></thumbnail>
