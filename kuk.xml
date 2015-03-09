@@ -2065,43 +2065,7 @@
 </regex>
 </item>
 
-<item>
-<title>Canal + liga</title>
-<link>$doregex[get-decrypted-ssx4] app=vod/?token=play@$doregex[get-token] playpath=$doregex[get-decrypted-ssx1] flashver=WIN\2016,0,0,305 swfUrl=http://www.businessapp1.pw/jwplayer5/addplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] live=1 timeout=15</link>
-<regex>
-<name>get-token</name>
-<expres>@(.*)</expres>
-<page>$doregex[get-decrypted-ssx4]</page>
-</regex>
-<regex>
-<name>get-decrypted-ssx4</name>
-<expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx4]")</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-encrypted-ssx4</name>
-<expres>ssx4" value="(.*)"</expres>
-<page>$doregex[get-iframe]</page>
-<referer>http://verdirectotv.com</referer>
-</regex>
-<regex>
-<name>get-iframe</name>
-<expres>src="(.*?)\"</expres>
-<page>http://www.dinostream.pw/channel.php...0&amp;height=4 00&amp;autostart=true</page>
-<referer>http://verdirectotv.com</referer>
-</regex>
-<regex>
-<name>get-decrypted-ssx1</name>
-<expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx1]")</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-encrypted-ssx1</name>
-<expres>ssx1" value="(.*)"</expres>
-<page>$doregex[get-iframe]</page>
-<referer>http://verdirectotv.com</referer>
-</regex>
-</item> 
+
       
 </channel>
 <channel>
