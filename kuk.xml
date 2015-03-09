@@ -2047,6 +2047,7 @@
 <link>http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&amp;profile=92&amp;lan=2&amp;rows=40&amp;f=.m3u8|User-Agent=stagefright</link>
 </item>
 
+
 <item>
 <title>youtube LIVE TV: AlJazeera HD</title>
 <link>$doregex[url]</link>
@@ -2060,18 +2061,6 @@
 <expres>hlsvp":"(.*?)"</expres>
 <page>https://www.youtube.com/watch?v=ZPKJeOdr7lA</page>
 </regex>
-</item>
-
-
-<item>
-<title> Youtube regex</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]&amp;list=PLl6IvhbhEqwwOBvbpTSNrwwyPKbizuvg-</link>
-<regex>
-<name>id</name>
-<expres>watch\?v=([^"]+)<expres>
-<page>https://www.youtube.com/channel/UCEXGDNclvmg6RW0vipJYsTQ</page>
-</regex>
-<thumbnail></thumbnail>
 </item>
 
       
