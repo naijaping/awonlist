@@ -2066,7 +2066,7 @@
 </item>
 
 <item>
-			<title> 720p</title>
+			<title> 720pp</title>
 			<link>$doregex[getQualityLink]</link>
 
 				<regex>
