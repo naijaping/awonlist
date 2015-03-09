@@ -2037,12 +2037,12 @@
 
 
 <item>
-<title>youtube AlJazeera HD</title>
+<title>youtube HD</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
-<page>https://www.youtube.com/channel/UCEXGDNclvmg6RW0vipJYsTQ</page>
+<page></page>
 </regex>
 <regex>
 <name>jsonurl</name>
