@@ -2078,12 +2078,12 @@
 <name>get-file</name>
 <expres>"hlsvp":"(.*?)"</expres>
 <page>https://www.youtube.com/watch?v=$doregex[get-page]</page>
-<referer></referer>
+<referer>https://www.youtube.com</referer>
 </regex>
 <regex>
 <name>get-page</name>
 <expres>data-context-item-id="([^"]+)</expres>
-<page>https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg&index=5&list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU</page>
+<page>https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg</page>
 </regex>
 </item>
 
