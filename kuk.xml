@@ -884,22 +884,38 @@
 
 <item>
 <title>FOX SPORTS 1</title>
-<link>$doregex[url]</link>
+<link>$doregex[url]|User-Agent=iPad</link>
 <regex>
 <name>url</name>
-<expres>file: "([^"]*)</expres>
-<page>http://www.wezatv.com/dooball/fox.php</page>
+<expres>file: "(.*?)"</expres>
+<page>http://stepfb.com/stepfb.php?linkcode=$doregex[linkcode]</page>
+<cookieJar></cookieJar>
+<referer>http://stepfb.com/</referer>
+</regex>
+<regex>
+<name>linkcode</name>
+<expres>linkcode=(.*?)'</expres>
+<page>http://stepfb.com/live/movie/49/</page>
+<cookieJar></cookieJar>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fox_sports_us_1.png</thumbnail>
 </item> 
 
 <item>
 <title>Fox Sport 2</title>
-<link>$doregex[url]</link>
+<link>$doregex[url]|User-Agent=iPad</link>
 <regex>
 <name>url</name>
-<expres>file: "([^"]*)</expres>
-<page>http://www.wezatv.com/dooball/star.php</page>
+<expres>file: "(.*?)"</expres>
+<page>http://stepfb.com/stepfb.php?linkcode=$doregex[linkcode]</page>
+<cookieJar></cookieJar>
+<referer>http://stepfb.com/</referer>
+</regex>
+<regex>
+<name>linkcode</name>
+<expres>linkcode=(.*?)'</expres>
+<page>http://stepfb.com/live/movie/50/</page>
+<cookieJar></cookieJar>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fox_sports_it_2_hd.png</thumbnail>
 </item> 
@@ -2083,7 +2099,7 @@
 <regex>
 <name>get-page</name>
 <expres>data-context-item-id="([^"]+)</expres>
-<page>https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg</page>
+<page>https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ</page>
 </regex>
 </item>
 
