@@ -2083,7 +2083,7 @@
 <regex>
 <name>get-page</name>
 <expres>data-context-item-id="([^"]+)</expres>
-<page>https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ</page>
+<page>https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg</page>
 </regex>
 </item>
 
