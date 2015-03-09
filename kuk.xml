@@ -2067,7 +2067,7 @@
 
 
 <item>
-<title>AlHD</title>
+<title>AlHDD</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -2082,7 +2082,7 @@
 </regex>
 <regex>
 <name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=ZPKJeOdr7lA&amp;index=5&amp;list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU')</expres>
+<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=VYlQJbsVs48&amp;index=1&amp;list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU')</expres>
 <page></page>
 </regex>
 <thumbnail></thumbnail>
