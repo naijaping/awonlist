@@ -2035,21 +2035,26 @@
 <referer>http://www.moviespremiumhd.com</referer>
 </item>
 
-
 <item>
-<title>youtube HD</title>
-<link>$doregex[url]</link>
+<title>StepFB Regex</title>
+<link>$doregex[url]|User-Agent=iPad</link>
 <regex>
 <name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
-<page></page>
+<expres>file: "(.*?)"</expres>
+<page>http://stepfb.com/stepfb.php?linkcode=$doregex[linkcode]</page>
+<cookieJar></cookieJar>
+<referer>http://stepfb.com/</referer>
 </regex>
 <regex>
-<name>jsonurl</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=ANM-dq5USTc</page>
+<name>linkcode</name>
+<expres>linkcode=(.*?)'</expres>
+<page>http://stepfb.com/live/movie/108/</page>
+<cookieJar></cookieJar>
 </regex>
+<thumbnail></thumbnail>
 </item>
+
+
       
 </channel>
 <channel>
