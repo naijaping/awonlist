@@ -2066,7 +2066,7 @@
 </item>
 
 <item>
-<title>SkyHD</title>
+<title>SkyHDD</title>
 <link>$doregex[get-utf8-url]</link>
 <regex>
 <name>get-utf8-url</name>
@@ -2076,12 +2076,12 @@
 <regex>
 <name>get-m3u8</name>
 <expres>hlsvp":"(.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://www.justproxy.co.uk/index.php?q=$doregex[url-quote]&amp;hl=2ed&amp;f=http://www.justproxy.co.uk/').read()</page>
-<!--referer>http://www.justproxy.co.uk/index.php/</referer-->
+<page>$pyFunction:urllib.urlopen('http://www.justproxy.co.uk/index.php?q=$doregex[url-quote]&hl=2ed&f=http://www.justproxy.co.uk/').read()</page>
+<!--referer>http://www.justproxy.co.uk/</referer-->
 </regex>
 <regex>
 <name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=VYlQJbsVs48&amp;index=1&amp;list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU')</expres>
+<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=VYlQJbsVs48&index=1&list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU')</expres>
 <page></page>
 </regex>
 <thumbnail></thumbnail>
