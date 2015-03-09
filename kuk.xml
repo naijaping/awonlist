@@ -2049,28 +2049,21 @@
 
 
 <item>
-<title>Telev</title>
-<link>$doregex[get-utf8-url]</link>
-
+<title> hollywood</title>
+<link>$doregex[rtmp] playpath=$doregex[file] swfUrl=ttp://privado.streamingfreetv.net/embed/noreproductor.php?o=1&kpublica=29245 pageUrl=http://privado.streamingfreetv.net/embed/embed.php?channel=hollywood&w=670&h=400 swfVfy=true live=true timeout=15</link>
 <regex>
-<name>get-utf8-url</name>
-<expres>$pyFunction:'$doregex[get-m3u8]'.replace('\\/','/')</expres>
-<page></page>
+<name>rtmp</name>
+<expres>streamer=([^&]*)<expres>
+<page>http://privado.streamingfreetv.net/embed/embed.php?channel=hollywood&w=670&h=400</page>
+<referer>http://streamingfreetv.net/canales/hollywood/hollywood3.html</referer>
 </regex>
 <regex>
-<name>get-m3u8</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://www.proxyusa.info/browse.php?u=$doregex[url-quote]&b=4&f=http://www.proxyusa.info/').read()</page>
-<!--referer>http://www.proxyusa.info/browse.php/</referer-->
+<name>file</name>
+<expres>file=([^&]*)<expres>
+<page>http://privado.streamingfreetv.net/embed/embed.php?channel=hollywood&w=670&h=400</page>
+<referer>http://streamingfreetv.net/canales/hollywood/hollywood3.html</referer>
 </regex>
-<regex>
-<name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=ZPKJeOdr7lA&index=5&list=PLodiYTZs9Vaqz3mt ywce3y-GE8XiRF0sU')</expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/channels_tv_ng.png</thumbnail>
 </item>
-
       
 </channel>
 <channel>
