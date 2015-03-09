@@ -78,7 +78,7 @@
 </regex>
 <regex>
 <name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=y1knc30OqKQ&feature=player_embedded')</expres>
+<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=ANM-dq5USTc&feature=player_embedded')</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/channels_tv_ng.png</thumbnail>
