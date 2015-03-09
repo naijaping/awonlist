@@ -2034,6 +2034,22 @@
 <sportsdevil>http://shidurlive.com/embed/hboplus</sportsdevil>
 <referer>http://www.moviespremiumhd.com</referer>
 </item>
+
+
+<item>
+<title>youtube LIVE TV: AlJazeera HD</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>jsonurl</name>
+<expres>hlsvp":"(.*?)"</expres>
+<page>https://www.youtube.com/watch?v=ZPKJeOdr7lA</page>
+</regex>
+</item>
       
 </channel>
 <channel>
