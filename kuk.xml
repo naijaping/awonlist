@@ -2042,7 +2042,7 @@
 <regex>
 <name>url</name>
 <expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
-<page></page>
+<page>https://www.youtube.com/channel/UCEXGDNclvmg6RW0vipJYsTQ</page>
 </regex>
 <regex>
 <name>jsonurl</name>
