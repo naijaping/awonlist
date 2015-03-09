@@ -2048,7 +2048,7 @@
 <regex>
 <name>linkcode</name>
 <expres>linkcode=(.*?)'</expres>
-<page>http://stepfb.com/live/movie/108/</page>
+<page>http://stepfb.com/live/movie/48/</page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail></thumbnail>
