@@ -2066,27 +2066,7 @@
 </item>
 
 
-<item>
-<title>AlHDD</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://www.justproxy.co.uk/index.php?q=$doregex[url-quote]&amp;hl=2ed').read()</page>
-<referer>http://www.justproxy.co.uk</referer>
-</regex>
-<regex>
-<name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=VYlQJbsVs48&amp;index=1&amp;list=PLodiYTZs9Vaqz3mtywce3y-GE8XiRF0sU')</expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
       
 </channel>
 <channel>
