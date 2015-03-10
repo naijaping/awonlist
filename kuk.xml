@@ -2079,7 +2079,16 @@
 <link>http://109.123.70.24/lon1/mp4:hfujdgbp.stream/playlist.m3u8</link<thumbnail></thumbnail>
 </item>
 
-
+<item>
+                        <title>C+ 1 </title>
+                        <link>$doregex[rtmp] playpath=ver8vnjrnr swfUrl=http://1broadcastlive.com/player.swf token=zEIqvDJ4RMytigLo2izHdQ pageUrl=http://1broadcastlive.com live=1 timeout=15</link>
+                        <regex>
+                        <name>rtmp</name>
+                        <expres>'streamer', '(.*?)'</expres>
+                        <page>http://1broadcastlive.com/embed.php?a=2768&amp;id=&amp;width=650&amp;height=400</page>
+                        </regex>
+                        <thumbnail></thumbnail>
+                        </item>
                        
 
 
