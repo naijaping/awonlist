@@ -2057,13 +2057,6 @@
 </item>
 
 
-
-<item>
-<title>WARNER MOVIES</title>
-<link>http://200.38.126.38:8081/TPHLSWeb/M3U8LiveFile?format=2&amp;profile=92&amp;lan=2&amp;rows=40&amp;f=.m3u8|User-Agent=stagefright</link>
-</item>
-
-
 <item>
 <title> hollywood</title>
 <link>$doregex[rtmp] playpath=$doregex[file] swfUrl=ttp://privado.streamingfreetv.net/embed/noreproductor.php?o=1&kpublica=29245 pageUrl=http://privado.streamingfreetv.net/embed/embed.php?channel=hollywood&w=670&h=400 swfVfy=true live=true timeout=15</link>
