@@ -2102,14 +2102,14 @@
 </item>
 
 <item>
-<title>[COLOR=FF00FF00][B][I] EUROSPOR (TORRENT) [/I][/B][/COLOR]</title>
-<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=Eurosport</link>
+<title>[COLOR=FF00FF00][B][I] NTV PLUS FOOTBALL 1(TORRENT) [/I][/B][/COLOR]</title>
+<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=ntvplusfoobal1</link>
 <thumbnail>http://img2.wikia.nocookie.net/__cb20120329100033/logopedia/images/7/75/ESP_PLAYER_GGS_RVB.png</thumbnail>
 <fanart>http://www.bepadel.net/upload/new/6.jpg</fanart>
 <regex>
 <name>url</name>    
 <expres>this.loadPlayer\("([^"]*)</expres>
-<page>http://allfon.tv/?id=113#11</page>
+<page>http://allfon.tv/?id=19#11</page>
 <referer></referer>
 </regex>
 </item>
