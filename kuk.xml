@@ -2081,49 +2081,6 @@
 
 
 
-<item>  
-                        <title>foot[COLOR lime]Canal+ La Liga[/COLOR]</title>
-                        <link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=$doregex[get-decrypted-ssx1] swfUrl=http://www.thebestplayeronline.com/jwplayer5/addplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe]</link>
-                        <regex>
-                        <name>get-rtmp</name>
-                        <expres>(.*)\/re</expres>
-                        <page>$doregex[get-decrypted-ssx4]</page>
-                        </regex>
-                        <regex>
-                        <name>get-token</name>
-                        <expres>@(.*)</expres>
-                        <page>$doregex[get-decrypted-ssx4]</page>
-                        </regex>
-                        <regex>
-                        <name>get-decrypted-ssx4</name>
-                        <expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx4]")</expres>
-                        <page></page>
-                        </regex>
-                        <regex>
-                        <name>get-encrypted-ssx4</name>
-                        <expres>ssx4" value="(.*)"</expres>
-                        <page>$doregex[get-iframe]</page>
-                        <referer>http://www.foot-live.info/stream/</referer>
-                        </regex>
-                        <regex>
-                        <name>get-iframe</name>
-                        <expres>src="(.*?)\"</expres>
-                        <page>http://www.playerhd1.pw/channel.php?file=1872&width=640&height=360&autostart=true</page>
-                        <referer>http://www.foot-live.info/stream/</referer>
-                        <x-forward></x-forward>
-                        </regex>
-                        <regex>
-                        <name>get-decrypted-ssx1</name>
-                        <expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx1]")</expres>
-                        <page></page>
-                        </regex>
-                        <regex>
-                        <name>get-encrypted-ssx1</name>
-                        <expres>ssx1" value="(.*)"</expres>
-                        <page>$doregex[get-iframe]</page>
-                        <referer>http://www.foot-live.info/stream/</referer>
-                        </regex>
-                        </item>
 
 
 
