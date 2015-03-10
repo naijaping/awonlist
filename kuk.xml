@@ -2082,16 +2082,7 @@
 </item>
 
 
-<item>
-<title>Throne</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
-<regex>
-<name>getlink</name>
-<expres>source src="([^"]*)</expres>
-<page>http://www.stream4free.eu/sex-live</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
