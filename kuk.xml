@@ -281,7 +281,7 @@
 <regex>
 <name>jsonurl</name>
 <expres>hlsvp":"(.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://godfather-proxy.com/index.php?q=$doregex[url-quote]&amp;hl=280').read()</page>
+<page>$pyFunction:urllib.urlopen('http://godfather-proxy.com/index.php?q=$doregex[url-quote]&amp;hl=3cc').read()</page>
 <referer>http://godfather-proxy.com</referer>
 </regex>
 <regex>
