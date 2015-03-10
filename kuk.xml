@@ -2082,7 +2082,7 @@
 
 
 <item>  
-                        <title>foot[COLOR lime]Canal+ La Liga okkk[/COLOR]</title>
+                        <title>foot[COLOR lime]Canal+ La Liga[/COLOR]</title>
                         <link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=$doregex[get-decrypted-ssx1] swfUrl=http://www.thebestplayeronline.com/jwplayer5/addplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe]</link>
                         <regex>
                         <name>get-rtmp</name>
@@ -2108,7 +2108,7 @@
                         <regex>
                         <name>get-iframe</name>
                         <expres>src="(.*?)\"</expres>
-                        <page>http://www.playerhd1.pw/channel.php?file=1005&width=640&height=360&autostart=true</page>
+                        <page>http://www.playerhd1.pw/channel.php?file=1872&width=640&height=360&autostart=true</page>
                         <referer>http://www.foot-live.info/stream/</referer>
                         <x-forward>77.132.237.189</x-forward>
                         </regex>
