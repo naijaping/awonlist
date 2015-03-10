@@ -2082,19 +2082,19 @@
 <item>
  
  
-16.        <title>[COLOR blue]Peliculas (DVDRip)[/COLOR][COLOR white][/COLOR]</title>
+  <title>[COLOR blue]Peliculas (DVDRip)[/COLOR][COLOR white][/COLOR]</title>
  
  
-17.        <link>http://ignoreme</link>
+     <link>http://ignoreme</link>
  
  
-18.        <externallink>http://dl.dropboxusercontent.com/u/66945917/peliculasonline/Dvdrip.xml</externallink>
+      <externallink>http://dl.dropboxusercontent.com/u/66945917/peliculasonline/Dvdrip.xml</externallink>
  
  
-19.        <thumbnail></thumbnail>
+       <thumbnail></thumbnail>
  
  
-20.        </item>
+     </item>
 
 
 
