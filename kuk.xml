@@ -2110,7 +2110,7 @@
                         <expres>src="(.*?)\"</expres>
                         <page>http://www.playerhd1.pw/channel.php?file=1872&width=640&height=360&autostart=true</page>
                         <referer>http://www.foot-live.info/stream/</referer>
-                        <x-forward>77.132.237.189</x-forward>
+                        <x-forward></x-forward>
                         </regex>
                         <regex>
                         <name>get-decrypted-ssx1</name>
