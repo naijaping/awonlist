@@ -2116,17 +2116,7 @@
 </regex>
 </item>
 
-<item>
-        <title>DISCOVERY WORLD HD (ASIA)</title>
-        <link>$doregex[url]</link>
-        <regex>
-        <name>url</name>
-        <expres>file: "([^"]*)</expres>
-        <page>http://www.htvonline.com.vn/livetv/discovery-hd-3132336E61.html</page>
-        </regex>
-        <thumbnail>http://en.academic.ru/pictures/enwiki/68/DiscoveryHD.png</thumbnail>
-        <fanart>http://p1.pichost.me/640/11/1337035.jpg</fanart>
-        </item>
+
 
       
 </channel>
