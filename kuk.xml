@@ -2079,17 +2079,7 @@
 <link>http://109.123.70.24/lon1/mp4:hfujdgbp.stream/playlist.m3u8</link<thumbnail></thumbnail>
 </item>
 
-<item>
-                                <title>Gol T (opcion 01)</title>
-                                <link>rtmp://$doregex[rtmpip]/live playpath=reichg?id=220758 conn=S:OK swfUrl=http://www.mipsplayer.com/content/scripts/fplayer.swf pageUrl=http://www.mipsplayer.com live=1 timeout=20</link>
-                                <regex>
-                                        <name>rtmpip</name>
-                                        <expres>redirect=(.*)</expres>
-                                        <page>http://www.mipsplayer.com:1935/loadbalancer?220758</page>
-                                        <referer>http://www.mipsplayer.com/content/scripts/fplayer.swf</referer>
-                                </regex>
-                                <thumbnail></thumbnail>
-                        </item>
+
                        
 
 
