@@ -2176,6 +2176,30 @@
 <page>https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg</page>
 </regex>
 </item>
+
+
+
+<item>
+<title> ChNews</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
+<page></page>
+</regex>
+<regex>
+<name>jsonurl</name>
+<expres>"hlsvp":"(.*?)"</expres>
+<page>https://www.youtube.com/watch?v=$doregex[get-page]</page>
+<referer></referer>
+</regex>
+<regex>
+<name>get-page</name>
+<expres>data-context-item-id="([^"]+)</expres>
+<page>https://www.youtube.com/channel/UCEXGDNclvmg6RW0vipJYsTQ</page>
+</regex>
+</item>
+
                       
 
       
