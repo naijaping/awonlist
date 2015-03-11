@@ -2115,19 +2115,7 @@
     </regex>
     </item>
 
-                        <item>
-                        <title>televisa Gadalajara</title>
-                        <link>rtmp://$doregex[rtmpip]/live playpath=$doregex[file]id=ZPKJeOdr7lA conn=S:OK swfUrl=https://www.youtube.com/watch?v=ZPKJeOdr7lA pageUrl=https://www.youtube.com live=1 timeout=20</link>
-                        <regex>
-                        <name>rtmpip</name>
-                        <expres>redirect=(.*)</expres>
-                        <page>https://www.youtube.com/watch</page>
-                        <referer>https://www.youtube.com/watch</referer>
-                        </regex>
-                        </item>
- 
-
-
+                      
 
       
 </channel>
