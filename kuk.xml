@@ -2117,18 +2117,18 @@
     
     
      <item>
-        <title>youtube LIVE TV: AlJazeera HD</title>
-        <link>$doregex[url]</link>
-        <regex>
-            <name>url</name>
-            <expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
-            <page></page>
-        </regex>
-        <regex>
-            <name>jsonurl</name>
-            <expres>hlsvp":"(.*?)"</expres>
-            <page>https://www.youtube.com/watch?v=ZPKJeOdr7lA</page>
-        </regex>
+     <title>youtube LIVE TV: AlJazeera HD</title>
+     <link>$doregex[url]</link>
+     <regex>
+     <name>url</name>
+     <expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
+     <page></page>
+     </regex>
+     <regex>
+     <name>jsonurl</name>
+     <expres>hlsvp":"(.*?)"</expres>
+     <page>https://www.youtube.com/watch?v=ZPKJeOdr7lA</page>
+    </regex>
     </item>
 
 
@@ -2136,14 +2136,14 @@
 
 <item>
 <title> Sky News</title>
-<link>$doregex[get-m3u8]</link>
+<link>$doregex[url]</link>
 <regex>
-<name>get-m3u8</name>
+<name>url</name>
 <expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
 <page></page>
 </regex>
 <regex>
-<name>get-file</name>
+<name>jsonurl</name>
 <expres>"hlsvp":"(.*?)"</expres>
 <page>https://www.youtube.com/watch?v=$doregex[get-page]</page>
 <referer></referer>
