@@ -2139,7 +2139,7 @@
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
 <page></page>
 </regex>
 <regex>
