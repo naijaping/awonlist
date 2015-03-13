@@ -2163,10 +2163,20 @@
 
 
 <item>
-<title>ALJ</title>
-<utube>ZPKJeOdr7lA</utube>
+<title>COKO</title>
+<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>base="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=coko&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
+</regex>
+<regex>
+<name>path</name>
+<expres>src="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=coko&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
+</regex>
+<thumbnail></thumbnail>
 </item>
-
            
 
       
