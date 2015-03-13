@@ -2163,7 +2163,7 @@
 
 
 <item>
-<title>COKO</title>
+<title>COKO BAR TV</title>
 <link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
 <regex>
 <name>rtmp</name>
@@ -2175,7 +2175,7 @@
 <expres>src="(.*)"</expres>
 <page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=coko&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>http://i57.tinypic.com/2dirg5z.jpg</thumbnail>
 </item>
            
 
