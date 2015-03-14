@@ -2106,11 +2106,11 @@
 
 <item>
     <title>skypppp</title>
-    <link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=sky sport 1 hd</link>
+    <link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=sky sport 2 hd</link>
     <regex>
     <name>url</name>    
     <expres>this.loadPlayer\("([^"]*)</expres>
-    <page>http://torrent-tv.ru/torrent-online.php?translation=11829</page>
+    <page>http://torrent-tv.ru/torrent-online.php?translation=11738</page>
     <referer></referer>
     </regex>
     </item>
@@ -2178,10 +2178,6 @@
 <thumbnail>http://i58.tinypic.com/28i20i8.jpg</thumbnail>
 </item>
 
-<item>
-<title>[COLOR lime]Nick Jr[/COLOR]</title>
-<link>plugin://plugin.video.p2p-streams/?url=acestream://c27e8cb668a4d3794354435649c1bbffa6b5fed6&mode=1&name=acestream+title</link>
-</item>  
 
       
 </channel>
