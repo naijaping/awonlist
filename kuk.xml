@@ -2105,7 +2105,7 @@
 
 
 <item>
-    <title>skypppp</title>
+    <title>sky 2hddd</title>
     <link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=sky sport 2 hd</link>
     <regex>
     <name>url</name>    
