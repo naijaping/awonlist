@@ -2180,13 +2180,7 @@
 
 <item>
 <title>[COLOR lime]Nick Jr[/COLOR]</title>
-<link>$doregex[rtmp] playpath=nickjr swfUrl=http://privado.streamingfreetv.net/embed/noreproductor.php pageUrl=http://privado.streamingfreetv.net live=1 timeout=20</link>
-<regex>
-<name>rtmp</name>
-<expres>"file.*(rtmp[^&]*)</expres>
-<page>http://privado.streamingfreetv.net/embed/embed.php?channel=nickjr</page>
-<referer>http://streamingfreetv.net</referer>
-</regex>
+<link>plugin://plugin.video.p2p-streams/?url=acestream://c27e8cb668a4d3794354435649c1bbffa6b5fed6&mode=1&name=acestream+title</link>
 </item>  
 
       
