@@ -2179,11 +2179,16 @@
 </item>
 
 <item>
-	<title>[COLOR blue]Canal + Taquilla[/COLOR][COLOR white] - Ultima Actualización :[/COLOR][COLOR cyan]23 / 02 / 15[/COLOR]</title>
-	<link>http://ignoreme</link>
-	<externallink>http://pastebin.com/raw.php?i=RmGGvhTq</externallink>
-	<thumbnail></thumbnail>
-	</item>
+<title>[COLOR lime]Nick Jr[/COLOR]</title>
+<link>$doregex[rtmp] playpath=nickjr swfUrl=http://privado.streamingfreetv.net/embed/noreproductor.php pageUrl=http://privado.streamingfreetv.net live=1 timeout=20</link>
+<regex>
+<name>rtmp</name>
+<expres>"file.*(rtmp[^&]*)</expres>
+<page>http://privado.streamingfreetv.net/embed/embed.php?channel=nickjr</page>
+<referer>http://streamingfreetv.net</referer>
+</regex>
+</item>  
+
       
 </channel>
 <channel>
