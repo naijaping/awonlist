@@ -2178,6 +2178,11 @@
 <thumbnail>http://i58.tinypic.com/28i20i8.jpg</thumbnail>
 </item>
 
+<item>
+<title><![CDATA[ANTENA 3 HD(FULL HD)]]></title>
+<link><![CDATA[http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel01/antena_3_hd_1548K_1280x720_main.m3u8]]></link>
+<thumbnail><![CDATA[http://gradajoven.es/logo/logo/all\ANTENA 3.png]]></thumbnail>
+</item> 
       
 </channel>
 <channel>
@@ -2189,14 +2194,7 @@
 </channel>
 
 
-<channel>
-<items>
-<name>[COLOR blue]Italia[/COLOR]</name>
-<externallink>http://pastebin.com/raw.php?i=LMLvV3hX</externallink>
-<thumbnail/>
-<fanart/>
-</items>
-</channel>
+
 
 </channels>
 			
