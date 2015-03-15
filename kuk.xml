@@ -2196,12 +2196,7 @@
 </item>
 
 
-		<item>
-		<title>BBC One</title>
-			<title>high</title>
-			<link>plugin://plugin.video.f4mTester/?url=http%3A%2F%2Fzaphod-live.bbc.co.uk.edgesuite.net%2Fhds-live%2Flivepkgr%2F_definst_%2Fbbc1%2Fbbc1_1500.f4m%7CX-Forwarded-For%3D212.58.241.131</link>
-		</item>
-	</streaminginfo>
+		
       
       
 </channel>
