@@ -2207,15 +2207,10 @@
 </item>
 
 <item>
-<title>EUROSPORT</title>
-<link>rtmp://78.129.189.30/edge3 playpath=$doregex[path] swfUrl=http://www.awooze.com/player.swf pageUrl=http://www.awooze.com live=1 timeout=15</link>
-<regex>
-<name>path</name>
-<expres>src="(.*?)"</expres>
-<page>http://www.awooze.com/index.php?view=play&vidtype=2&channel=NTA24</page>
-<referer>http://www.awooze.com</referer>
-</regex>
-</item>		
+<title>naTV</title>
+<link>rtmp://78.129.189.30/edge3/NTA24 playpath=NTA24 app=edge3/NTA24 swfUrl=http://awooze.com/player.swf live=true flashVer=WIN\16,0,0,257 pageUrl=http://www.awooze.com timeout=15</link>
+<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/PrestigeTV.jpg</thumbnail>
+</item>	
       
       
 </channel>
