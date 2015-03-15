@@ -2195,7 +2195,11 @@
 <link>http://ohtv.bc-s.cdn.bitgravity.com/cdn/_definst_/ohtv/secure/vod/t2s_xtra_s4_ep1_HD28.mp4\/playlist.m3u8?&amp;e=1426519718&amp;h=809ad7eb9926475d0e471539722c0b27</link>
 </item>
 
-
+<item>
+<title>naTV</title>
+<link>rtmp://www.awooze.com/edge3/NTA24 playpath=NTA24 app=edge3/NTA24 swfUrl=http://www.awooze.com/player.swf live=true flashVer=WIN\16,0,0,257 pageUrl=http://www.awooze.com timeout=15</link>
+<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/PrestigeTV.jpg</thumbnail>
+</item>
 		
       
       
