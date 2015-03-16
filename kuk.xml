@@ -2079,31 +2079,6 @@
 <link>http://109.123.70.24/lon1/mp4:hfujdgbp.stream/playlist.m3u8</link<thumbnail></thumbnail>
 </item>
 
-
-<item>
-<title> Sky Newso</title>
-<link>$doregex[get-m3u8]</link>
-<regex>
-<name>get-m3u8</name>
-<expres>$pyFunction:'$doregex[get-file]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-file</name>
-<expres>"hlsvp":"(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=$doregex[get-page]</page>
-<referer></referer>
-</regex>
-<regex>
-<name>get-page</name>
-<expres>data-context-item-id="([^"]+)</expres>
-<page>https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ</page>
-</regex>
-</item>
-
-
-
-
 <item>
     <title>sky 2hddd</title>
     <link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=sky sport 2 hd</link>
