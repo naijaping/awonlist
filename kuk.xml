@@ -2197,13 +2197,26 @@
 
 <item>
 <title> NTAo</title>
-<link>$doregex[get-url]</link>
+<link>$doregex[get-url] timeout=15</link>
 <regex>
 <name>get-url</name>
 <expres>file': '(.*?)'<expres>
-<page>http://www.ghanatvon.com/the-africa-channel-tv.html</page>
+<page>http://www.ghanalive.tv/ghana-diaspora/</page>
 </regex>
 </item>
+
+
+<item>
+<title>port 4</title>
+<link>$doregex[get-link] timeout=20</link>
+<regex>
+<name>get-link</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.ghanatvon.com/the-africa-channel-tv.html</page>
+</regex>  
+<thumbnail></thumbnail>
+</item>  
+
 
 
 
