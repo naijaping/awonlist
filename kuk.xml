@@ -2196,12 +2196,12 @@
 </item>
 
 <item>
-<title> NTAI</title>
+<title> NTAo</title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
 <expres>file': '(.*?)'<expres>
-<page>http://www.ghanalive.tv/france-24/</page>
+<page>http://www.ghanatvon.com/the-africa-channel-tv.html</page>
 </regex>
 </item>
 
