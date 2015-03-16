@@ -2197,7 +2197,7 @@
 <link>$doregex[get-link]</link>
 <regex>
 <name>get-link</name>
-<expres>file: '(.*?)'</expres>
+<expres>file: "(.*?)"</expres>
 <page>http://www.filmover.com/news/arise.html</page>
 </regex>  
 <thumbnail></thumbnail>
