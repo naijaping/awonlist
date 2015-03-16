@@ -2197,7 +2197,7 @@
 
 <item>
 <title> NTAo</title>
-<link>$doregex[get-url] timeout=15</link>
+<link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
 <expres>file': '(.*?)'<expres>
@@ -2208,7 +2208,7 @@
 
 <item>
 <title>port 4</title>
-<link>$doregex[get-link] timeout=20</link>
+<link>$doregex[get-link]</link>
 <regex>
 <name>get-link</name>
 <expres>file: '(.*?)'</expres>
