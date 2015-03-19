@@ -2199,6 +2199,19 @@
 </item>
 
 
+
+
+<item>
+<title>Documentaires</title>
+<link>$doregex[getlink]|User-Agent=iPhone</link>
+<regex>
+<name>getlink</name>
+<expres>source src="([^"]*)</expres>
+<page>http://www.stream4free.eu/l-univers-et-ses-mysteres</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
       
 </channel>
 <channel>
