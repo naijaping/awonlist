@@ -2207,7 +2207,7 @@
 <regex>
 <name>getlink</name>
 <expres>source src="([^"]*)</expres>
-<page>http://www.stream4free.eu/l-univers-et-ses-mysteres</page>
+<page>http://www.stream4free.eu/weeds</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
