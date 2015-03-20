@@ -2212,6 +2212,30 @@
 <thumbnail></thumbnail>
 </item>
 
+
+<item>
+<title>beI nnus</title>
+<link>$doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf live=true timeout=15 swfVfy=true pageUrl=http://castalba.tv/</link>
+<thumbnail></thumbnail>
+<regex>
+<name>streamer</name>
+<expres>'streamer': '([^']*)</expres>
+<page>http://castalba.tv/embed.php?cid=24089&wh=600&ht=400</page>
+<referer>http://castalba.tv</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file': '([^']*)</expres>
+<page>http://castalba.tv/embed.php?cid=24089&wh=600&ht=400&r=intsports.net</page>
+<referer>http://castalba.tv</referer>
+</regex>
+</item>        
+        
+
+
+
+
+
       
 </channel>
 <channel>
