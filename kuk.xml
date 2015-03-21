@@ -2234,11 +2234,7 @@
 
 <item>
 <title>Silverbird TV</title>
-<link>$doregex[get-url]</link>
-<regex>
-<name>get-url</name>
-<expres>file': '(.*?)'<expres>
-<page>http://weeb.tv/online/mtvlivehd</page>
+<link>rtmp://95.211.215.133/channel/80541 playpath=live swfUrl=http://static.weeb.tv/player.swf live=1 pageUrl=http://weeb.tv/online/mtvlivehd</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/silverbird_tv.png </thumbnail>
 </item>
 
