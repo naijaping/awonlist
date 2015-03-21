@@ -2232,7 +2232,15 @@
 </item>        
         
 
-
+<item>
+<title>Silverbird TV</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file': '(.*?)'<expres>
+<page>http://weeb.tv/online/mtvlivehd</page>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/silverbird_tv.png </thumbnail>
+</item>
 
 
 
