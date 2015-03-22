@@ -2241,7 +2241,7 @@
 
 <item>
 <title>MMTV</title>
-<link>rtmp://95.211.215.133/channel/1455 playpath=live swfUrl=http://static.weeb.tv/player.swf live=1 pageUrl=http://weeb.tv/channel/tvppolonia</link>
+<link>rtmp://app.weeb.tv/live/ playpath=9 swfUrl=http://static.weeb.tv/player.swf pageUrl=http://weeb.tv/ swfVfy=true live=true</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/silverbird_tv.png </thumbnail>
 </item>
 
