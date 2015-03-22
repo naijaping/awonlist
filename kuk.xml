@@ -2234,7 +2234,7 @@
 
 <item>
 <title>S TV</title>
-<link>rtmpe://46.246.124.88/live playpath=nbcsnusa_usa swfUrl=http://ukcast.co/player//player.swf live=1 pageUrl=http://www.ukcast.co/ token=%ZZri(nKa@#Z timeout=15</link>
+<link>rtmp://aljazeeraflashlivefs.fplive.net:1935/aljazeeraflashlive-live?videoId=883816736001&amp;lineUpId=&amp;pubId=665003303001&amp;playerId=751182905001&amp;affiliateId=/aljazeera_eng_high?videoId=883816736001&amp;lineUpId=&amp;pubId=665003303001&amp;playerId=751182905001&amp;affiliateId=.flv live=1</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/silverbird_tv.png </thumbnail>
 </item>
 
