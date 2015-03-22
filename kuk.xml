@@ -2242,7 +2242,7 @@
 <item>
 <title>MMTV</title>
 <link>rtmp://app.weeb.tv/live/ playpath=9 swfUrl=http://static.weeb.tv/player.swf pageUrl=http://weeb.tv/ swfVfy=true live=true</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/silverbird_tv.png </thumbnail>
+<thumbnail> </thumbnail>
 </item>
 
 
