@@ -2239,16 +2239,7 @@
 </item>
 
 
-<item>
-<title> fuera de espana</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>$pyFunction:myFunctions.stream9('http://cinestrenostv.tv/canales/nacionales/GH/1.html')</expres>
-<page></page>
-<referer></referer>
-</regex>
-</item>
+
 
 
 
