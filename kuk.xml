@@ -2276,7 +2276,25 @@
 </item>
 
 
-
+<item>
+<title>FOX</title>
+<link>http://live.oneplay.tv/reproducir/$doregex[id].m3u8$doregex[req]|Cookie=$get_cookies$</link>
+<regex>
+<name>req</name>
+<expres>.()</expres>
+<page>http://live.oneplay.tv/analytics.php?id=$doregex[id]</page>
+<referer>http://oneplay.tv/embed/?i=24</referer>
+<cookiejar></cookiejar>
+</regex>
+<regex>
+<name>id</name>
+<expres>(\d+)\.m3u8</expres>
+<page>http://oneplay.tv/embed/?i=24</page>
+<referer>http://oneplay.tv/ver/canal/24/fox</referer>
+<cookiejar></cookiejar>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
