@@ -2309,6 +2309,10 @@
 <link>plugin://plugin.video.f4mTester/?url=http://cctv2-lh.akamaihd.net/z/lacasa2_live@125188/manifest.f4m</link>
 </item>
 
+<item>
+<title>Test</title>
+<link>rtmp://cdnvideo.webvideocore.net:1935/livenl playpath=out_arwob65kemo84wk0skoc swfUrl=http://play.webvideocore.net/player3.swf live=1 pageUrl=http://www.africawebtv.com/tv/nig/katv.html</link>
+</item>
 
 
       
