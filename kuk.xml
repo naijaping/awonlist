@@ -2306,9 +2306,9 @@
 
 <item>
     <title>Asianet News</title>
-    <link>$doregex[link]</link>
+    <link>$doregex[get-url]</link>
     <regex>
-        <name>link</name>
+        <name>get-url</name>
         <expres>file:'(.*?)'</expres>
         <page>http://www.africawebtv.com/tv/nig/katv.html</page>
     </regex>
