@@ -2309,7 +2309,7 @@
     <link>$doregex[get-link]</link>
     <regex>
         <name>get-link</name>
-        <expres>file:'(.*)'</expres>
+        <expres>file:'(.*?)'</expres>
         <page>http://www.africawebtv.com/tv/nig/katv.html</page>
     </regex>
     <thumbnail></thumbnail>
