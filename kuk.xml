@@ -1502,7 +1502,7 @@
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
 <name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://cctv2-lh.akamaihd.net/z/lacasa2_live@125188/manifest.f4m?g=TOUTKODWNTRJ&amp;hdcore=3.5.0&amp;plugin=jwplayer-3.5.0.0|Referer=http://connectcast.tv/jwplayer/AkamaiAdvancedJWStreamProvider.swf')<expres>
+<expres>$pyFunction:urllib.quote_plus('http://cctv2-lh.akamaihd.net/z/lacasa2_live@125188/manifest.f4m?g=TOUTKODWNTRJ&amp;hdcore=3.5.0&amp;plugin=jwplayer-3.5.0.0|Referer=https://connectcast.tv/jwplayer/v5/player.swf')<expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/canalplus_es_deportes_2_hd.png</thumbnail>
