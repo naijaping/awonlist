@@ -2306,7 +2306,7 @@
 
 <item>
 <title>BBC Three HD</title>
-<link>http://83.139.104.123/Content/HLS/Live/Channel(mtv_music)/Stream(03)/index.m3u8?b?b*t$</link>
+<link>http://81.23.58.184:8080/udp/0.0.0.0:20004</link>
 <thumbnail>http://i62.tinypic.com/2nc29p1.jpg</thumbnail>
 </item>
 
