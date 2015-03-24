@@ -2306,11 +2306,11 @@
 
 <item>
     <title>Asianet News</title>
-    <link>$doregex[get-url]</link>
+    <link>$doregex[get-link]</link>
     <regex>
-        <name>get-url</name>
-        <expres>file:'(.?)'</expres>
-        <page>http://www.africawebtv.com/nta-nigeria/</page>
+        <name>get-link</name>
+        <expres>file:'(.*)'</expres>
+        <page>http://www.africawebtv.com/tv/nig/katv.html</page>
     </regex>
     <thumbnail></thumbnail>
 </item>
