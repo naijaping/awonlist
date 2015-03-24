@@ -2305,14 +2305,8 @@
 
 
 <item>
-    <title>Asianet News</title>
-    <link>$doregex[get-url]</link>
-    <regex>
-        <name>get-url</name>
-        <expres>file:'(.*)'</expres>
-        <page>http://www.africawebtv.com/tv/nig/katv.html</page>
-    </regex>
-    <thumbnail></thumbnail>
+<title>Foxoooo</title>
+<link>plugin://plugin.video.f4mTester/?url=http://cctv2-lh.akamaihd.net/z/lacasa2_live@125188/manifest.f4m</link>
 </item>
 
 
