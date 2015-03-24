@@ -2304,6 +2304,19 @@
 </item>
 
 
+<item>
+    <title>Asianet News</title>
+    <link>$doregex[url]</link>
+    <regex>
+        <name>url</name>
+        <expres>file:'(.+?)'</expres>
+        <page>http://www.africawebtv.com/nta-nigeria/</page>
+    </regex>
+    <thumbnail></thumbnail>
+</item>
+
+
+
       
 </channel>
 <channel>
