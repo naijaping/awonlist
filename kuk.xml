@@ -2318,9 +2318,17 @@
 
 <item>
 <title>HONICK</title>
-<link>plugin://plugin.video.f4mTester/?url=http://cctv-lh.akamaihd.net/z/hoanick_live@125113/manifest.f4m</link>
+<link>http://cctv-lh.akamaihd.net/z/hoanick_live@125113/master.m3u8</link>
 </item>
       
+
+	
+	
+	
+	
+	
+	
+	
 </channel>
 <channel>
 
