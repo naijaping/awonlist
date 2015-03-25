@@ -1552,6 +1552,7 @@
 </item>
 
 
+
 <item>
     <title>sky</title>
     <link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=sky sport 1 hd</link>
@@ -2315,6 +2316,10 @@
 </item>
 
 
+<item>
+<title>HONICK</title>
+<link>plugin://plugin.video.f4mTester/?url=http://cctv-lh.akamaihd.net/z/hoanick_live@125113/manifest.f4m</link>
+</item>
       
 </channel>
 <channel>
