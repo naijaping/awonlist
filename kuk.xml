@@ -2306,7 +2306,7 @@
 
 <item>
 <title>BBC Three HD</title>
-<link>http://81.23.58.184:8080/udp/0.0.0.0:20004</link>
+<link>rtmp://s7.webport.tv/live playpath=z020102.stream swfUrl=http://www.tvsector.com/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf pageUrl=http://tvsector.com/ live=1 timeout=15</link>
 <thumbnail>http://i62.tinypic.com/2nc29p1.jpg</thumbnail>
 </item>
 
