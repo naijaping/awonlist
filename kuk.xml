@@ -2345,16 +2345,7 @@
 
 	
 	
-<item>
-<title>F1 MOTO GP (Movistar F1)</title>
-<link>$doregex[rtmp] playpath=f1motogp_xcq4rq swfUrl=http://www.businessapp1.pw/jwplayer5/addplayer/jwplayer.flash.swf pageUrl=http://www.businessapp1.pw live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>"file.*(rtmp[^&]*)</expres>
-<page>http://tv.verdirectotv.org/channel.php?file=103786&width=650&height=390&autostart=true</page>
-<referer>http://cinestrenostv.tv</referer>
-</regex>
-</item>
+
 
 	
 	
