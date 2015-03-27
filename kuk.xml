@@ -2351,7 +2351,7 @@
 <regex>
 <name>get-url</name>
 <expres>file: "(.*?)"<expres>
-<page>http://www.cnbcafrica.com/tv/cnbc-africa-live/</page>
+<page>http://www.ghanalive.tv/tv-africa-stream/</page>
 </regex>
 </item>	
 	
