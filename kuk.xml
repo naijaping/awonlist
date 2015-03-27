@@ -2347,10 +2347,7 @@
 	
 <item>
 <title> CNC</title>
-<link>$doregex[get-url]</link>
-<regex>
-<name>get-url</name>
-<expres>file': '(.*?)'<expres>
+<link>rtmp://94.102.51.75:443/liveedge/ playpath=AdomTV2SD swfUrl=http://turbocast.tv/images/player.swf pageUrl=http://micast.tv/chn2.php?ch=AdomTV2SD live=true timeout=15</link>
 <page>http://www.ghanalive.tv/tv-africa-stream/</page>
 </regex>
 </item>	
