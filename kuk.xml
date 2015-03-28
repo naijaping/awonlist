@@ -2399,7 +2399,7 @@
 <regex>
 <name>get-page</name>
 <expres>"m3u8_url":"(.*?)"</expres>
-<page>http://new.livestream.com/ondacadiz/directo</page>
+<page>http://new.livestream.com/accounts/3504140</page>
 <agent>Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/9537.53</agent>
 <cookieJar></cookieJar>
 </regex>
