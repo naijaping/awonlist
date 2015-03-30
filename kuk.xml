@@ -2423,7 +2423,7 @@
 <regex>
 <name>id</name>
 <expres>data-context-item-id="([^"]+)<expres>
-<page>https://www.youtube.com/channel/UCBnZ16ahKA2DZ_T5W0FPUXg</page>
+<page>https://www.youtube.com/user/TheChuChuTV/videos</page>
 </regex>
 </item>
 		
