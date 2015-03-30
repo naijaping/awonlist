@@ -2417,7 +2417,15 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_one.png</thumbnail>
 </item>
 	
-
+<item>
+<title> The Young Turks</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>data-context-item-id="([^"]+)<expres>
+<page>https://www.youtube.com/channel/UCBnZ16ahKA2DZ_T5W0FPUXg</page>
+</regex>
+</item>
 		
 	
 </channel>
