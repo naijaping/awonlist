@@ -2426,6 +2426,109 @@
 <page>https://www.youtube.com/user/TheChuChuTV/videos</page>
 </regex>
 </item>
+
+
+
+<item>
+<title>Sky Sport 2 DE</title>
+<link>$doregex[rtmp]/$doregex[path] token=Fo5_n0w?U.rA6l3-70w47ch swfUrl=http://player.hdcast.org/_.swf pageUrl=http://www.hdcast.org live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>(rtmpe:.*)'</expres>
+<page>http://www.hdcast.org/embedlive4.php?u=wspch19t</page>
+<referer>http://livesports15.ucoz.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>'file':.*?'(.*)'</expres>
+<page>http://www.hdcast.org/embedlive4.php?u=wspch19t</page>
+<referer>http://livesports15.ucoz.com</referer>
+</regex><thumbnail></thumbnail>
+</item>
+ 
+<item>http://cinestrenostv.tv/canales/canal-plus-accion.html
+<title>Canal+ Accion</title>
+<link>$doregex[get-decrypted-ssx4] app=redirect/?token=play@$doregex[get-token] playpath=$doregex[get-decrypted-ssx1] flashver=WIN\2016,0,0,305 swfUrl=http://www.businessapp1.pw/jwplayer5/addplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] live=1 timeout=15</link>
+<regex>
+<name>get-token</name>
+<expres>@(.*)</expres>
+<page>$doregex[get-decrypted-ssx4]</page>
+</regex>
+<regex>
+<name>get-decrypted-ssx4</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx4]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-encrypted-ssx4</name>
+<expres>ssx4" value="(.*)"</expres>
+<page>$doregex[get-iframe]</page>
+<referer>http://cinestrenostv.tv/canales/emision/accion.html</referer>
+<cookiejar></cookiejar>
+</regex>
+<regex>
+<name>get-iframe</name>
+<expres>src="(.*?)\"</expres>
+<page>http://tv.verdirectotv.org/channel.php?file=103879&amp;width=650&amp;height=400&amp;autostart=true</page>
+<referer>http://cinestrenostv.tv/canales/emision/accion.html</referer>
+<agent>Opera/9.50</agent>
+<cookiejar></cookiejar>
+</regex>
+<regex>
+<name>get-decrypted-ssx1</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx1]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-encrypted-ssx1</name>
+<expres>ssx1" value="(.*)"</expres>
+<page>$doregex[get-iframe]</page>
+<referer>http://cinestrenostv.tv/canales/emision/accion.html</referer>
+<cookiejar></cookiejar>
+</regex>
+</item>
+ 
+<item>http://cinestrenostv.tv/canales/documentales/nationalgeo.php
+<title>National Geographic Espana</title>
+<link>$doregex[get-decrypted-ssx4] app=redirect/?token=play@$doregex[get-token] playpath=$doregex[get-decrypted-ssx1] flashver=WIN\2016,0,0,305 swfUrl=http://www.businessapp1.pw/jwplayer5/addplayer/old/jwplayer.flash.swf pageUrl=$doregex[get-iframe] live=1 timeout=15</link>
+<regex>
+<name>get-token</name>
+<expres>@(.*)</expres>
+<page>$doregex[get-decrypted-ssx4]</page>
+</regex>
+<regex>
+<name>get-decrypted-ssx4</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx4]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-encrypted-ssx4</name>
+<expres>ssx4" value="(.*)"</expres>
+<page>$doregex[get-iframe]</page>
+<referer>http://cinestrenostv.tv</referer>
+<cookiejar></cookiejar>
+</regex>
+<regex>
+<name>get-iframe</name>
+<expres>src="(.*?)\"</expres>
+<page>http://tv.verdirectotv.org/channel.php?file=103877&amp;width=650&amp;height=400&amp;autostart=true</page>
+<referer>http://cinestrenostv.tv</referer>
+<agent>Opera/9.50</agent>
+<cookiejar></cookiejar>
+</regex>
+<regex>
+<name>get-decrypted-ssx1</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx1]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-encrypted-ssx1</name>
+<expres>ssx1" value="(.*)"</expres>
+<page>$doregex[get-iframe]</page>
+<referer>http://cinestrenostv.tv</referer>
+<cookiejar></cookiejar>
+</regex>
+</item>
 		
 	
 </channel>
