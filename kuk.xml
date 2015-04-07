@@ -2559,10 +2559,10 @@
 </item>
 
 <item><title>Africa</title>
-<link>$doregex[reg1]|Referer=http://www.iafrica.tv/ntai/</link>
+<link>$doregex[reg1]|Referer=http://www.ghanalive.tv/tv-africa-stream/</link>
 <regex><name>reg1</name>
 <expres>file': '([^']+)</expres>
-<page>http://www.iafrica.tv/ntai/</page>
+<page>http://www.ghanalive.tv/tv-africa-stream/</page>
 </regex>
 </item>
 
