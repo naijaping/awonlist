@@ -2548,6 +2548,15 @@
 <thumbnail>http://campus.316networks.com/images/MoF-pastor_1.gif</thumbnail>
 </item>
 
+<item>
+<title>Yoruwood</title>
+<link>$doregex[showyoutube]</link>
+<regex>
+<name>showyoutube</name>
+<expres>$pyFunction:xbmc.executebuiltin('ActivateWindow(10025,&quot;plugin://plugin.video.youtube/user/yorubahood/&quot;,return)')</expres>
+<page></page>
+</regex>
+</item>
 
 		
 	
