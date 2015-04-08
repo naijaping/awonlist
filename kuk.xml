@@ -2581,8 +2581,8 @@
                         
                         
 <item>
-<title> Mountain 1</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bclivehd-lh.akamaihd.net/z/noticiascaracol_1@125557/manifest.f4m?hdcore=3.4.0</link>
+<title>Caracol</title>
+<link>plugin://plugin.video.f4mTester/?url=http://bclivehd-lh.akamaihd.net/z/noticiascaracol_1@125557/manifest.f4m?hdcore=2.11.3</link>
 <thumbnail></thumbnail>
 </item>
 
