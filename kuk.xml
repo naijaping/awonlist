@@ -2582,7 +2582,7 @@
                         
 <item>
 <title> Mountain</title>
-<link>http://bclivehd-lh.akamaihd.net/i/noticiascaracol_1@125557/master.m3u8</link>
+<link>plugin://plugin.video.f4mTester/?url=http://bclivehd-lh.akamaihd.net/z/noticiascaracol_1@125557/manifest.f4m?hdcore=2.11.3</link>
 <thumbnail></thumbnail>
 </item>
 
