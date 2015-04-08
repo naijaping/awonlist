@@ -2566,10 +2566,16 @@
 </regex>
 </item>
 
-<item> 
-<title>Malta</title> 
-<link>rtmp://89.248.172.95/iguide playpath=436y4f7zhxnaiin swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/simple_tv token=#ed%h0#w18623jsda6523lDGD</link> 
-</item> 
+<title>Nasa TV HD</title>
+                        <link>http://iphone-streaming.ustream.tv/ustreamVideo/$doregex[path]/streams/live/playlist.m3u8</link>
+                        <regex>
+                        <name>path</name>
+                        <expres>"https://www.ustream.tv/embed/(.+?)"></expres>
+                        <page>http://www.ustream.tv/channel/18431556</page>
+                        <referer> </referer>
+                        </regex>
+                        <thumbnail></thumbnail>
+                        </item>
 
 
 		
