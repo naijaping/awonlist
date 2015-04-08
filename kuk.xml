@@ -2574,7 +2574,7 @@
                         <name>path</name>
                         <expres>"https://www.ustream.tv/embed/(.+?)"></expres>
                         <page>http://www.ustream.tv/channel/18431556</page>
-                        <referer> </referer>
+                        <referer>http://www.ustream.tv/channel/ait-tv1</referer>
                         </regex>
                         <thumbnail></thumbnail>
                         </item>
