@@ -2594,8 +2594,8 @@
 </item>
 
 <item>
-<title>ET</title>
-<link>http://ongoingevents-f.akamaihd.net/i/etnow_1_1@174554/master.m3u8</link>
+<title>ET Now</title>
+<link>plugin://plugin.video.f4mTester/?url=http://ongoingevents-f.akamaihd.net/z/etnow_1_1@174554/manifest.f4m?hdcore=2.11.3</link>
 <thumbnail></thumbnail>
 </item>
 
