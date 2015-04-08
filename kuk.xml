@@ -2578,6 +2578,18 @@
                         </regex>
                         <thumbnail></thumbnail>
                         </item>
+                        
+                        
+                        <item>
+                        <title>Discovery LAT 2</title>
+                        <link>$doregex[get-link]</link>
+                        <regex>
+                        <name>get-link</name>
+                        <expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/18431556/streams/live/playlist.m3u8')</expres>
+                        <page></page>
+                        </regex>
+                        </item>
+
 
 
 		
