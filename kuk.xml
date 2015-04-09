@@ -2632,8 +2632,21 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
-clone this paste	
-		
+
+
+<item>
+<title> americateve.com</title>
+<link>$doregex[get-page]</link>
+<regex>
+<name>get-page</name>
+<expres>"rtsp_url":"(.*?)"</expres>
+<page>http://new.livestream.com/accounts/5730046/events/2966225/player?width=960&amp;height=540&amp;autoPlay=true</page>
+<referer>http://www.americateve.com/vivo</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 	
 </channel>
 <channel>
