@@ -2588,24 +2588,42 @@
 <item>
 <title>IT 1</title>
 <link>http://94.198.255.211:5555/pl.m3u8?channel=89</link>
-<thumbnail></thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.png</thumbnail>
 </item>
 
 <item>
 <title>IT 2</title>
 <link>http://94.198.255.211:5555/pl.m3u8?channel=90</link>
-<thumbnail></thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv2.png</thumbnail>
 </item>
 
 <item>
 <title>IT 3</title>
 <link>http://94.198.255.211:5555/pl.m3u8?channel=91</link>
-<thumbnail></thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv3.png</thumbnail>
 </item>
 
 <item>
 <title>IT 4</title>
 <link>http://94.198.255.211:5555/pl.m3u8?channel=92</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv4.png</thumbnail>
+</item>
+
+<item>
+<title>E4</title>
+<link>http://94.198.255.211:5555/pl.m3u8?channel=93</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>4 More</title>
+<link>http://94.198.255.211:5555/pl.m3u8?channel=94</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Channel 4</title>
+<link>http://94.198.255.211:5555/pl.m3u8?channel=96</link>
 <thumbnail></thumbnail>
 </item>
 	
