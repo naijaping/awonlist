@@ -2575,13 +2575,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Cara00000</title>
-<link>http://94.198.255.211:5555/pl.m3u8?channel=89</link>
-<thumbnail></thumbnail>
-</item>
-
-
 <item><title>Atkin</title>
 <link>http://81.92.105.132:5555/pl.m3u8?channel=5&amp;key=$doregex[reg1]</link>
 <regex><name>reg1</name>
@@ -2593,17 +2586,28 @@
 
 
 <item>
-<title>Aiyyy</title>
-<link>http://81.92.105.132:5555/pl.m3u8?channel=90&amp;key=$doregex[reg1]</link>
-<regex><name>reg1</name>
-<expres>(?!["'\s]+)&amp;key=([^"]+)</expres>
-<page>http://alltv.ch/channels</page>
-<referer></referer>
-</regex>
+<title>IT 1</title>
+<link>http://94.198.255.211:5555/pl.m3u8?channel=89</link>
+<thumbnail></thumbnail>
 </item>
 
+<item>
+<title>IT 2</title>
+<link>http://94.198.255.211:5555/pl.m3u8?channel=90</link>
+<thumbnail></thumbnail>
+</item>
 
+<item>
+<title>IT 3</title>
+<link>http://94.198.255.211:5555/pl.m3u8?channel=91</link>
+<thumbnail></thumbnail>
+</item>
 
+<item>
+<title>IT 4</title>
+<link>http://94.198.255.211:5555/pl.m3u8?channel=92</link>
+<thumbnail></thumbnail>
+</item>
 		
 	
 </channel>
