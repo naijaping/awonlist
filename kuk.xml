@@ -2674,7 +2674,7 @@
 	
 <item>
 <title> MuMO</title>
-<link>rtmp://206.190.132.244/tvamigos playpath=tom.flv swfUrl=http://www.carolineoliveira.com.br/swf/player.swf pageUrl=http://www.carolineoliveira.com.br/face/curta.html live=true timeout=15</link>
+<link>rtmp://206.190.132.244/tvamigos playpath=tom swfUrl=http://www.carolineoliveira.com.br/swf/player.swf pageUrl=http://www.carolineoliveira.com.br/face/curta.html live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/msnbc.png</thumbnail>
 </item>	
 	
