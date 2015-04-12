@@ -2683,7 +2683,10 @@
 <link>http://tvenbcsn-i.Akamaihd.net//hls/live/218235/nbcsnx/4296k/prog.m3u8|X-Forwarded-For=66.171.228.102</link>
 </item>	
 
-
+<item>
+<title>GOLF</title>
+<link>tvegolf-i.Akamaihd.net/hls/live/218225/golfx/4296k/prog.m3u8|X-Forwarded-For=66.171.228.102</link>
+</item>	
 
 	
 </channel>
