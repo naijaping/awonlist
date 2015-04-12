@@ -2679,15 +2679,9 @@
 </item>	
 
 <item>
-<title>Warner LAT</title>
-                        <link>rtmp://$doregex[rtmpip]/live playpath=tutvhbodox?id=79636  conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/fplayer.swf pageUrl=http://www.ucaster.eu live=1 timeout=20</link>
-                        <regex>
-                        <name>rtmpip</name>
-                        <expres>redirect=(.*)</expres>
-                        <page>http://www.ucaster.eu:1935/loadbalancer</page>
-                        <referer>http://www.ucaster.eu/static/scripts/fplayer.swf</referer>
-                        </regex>
-                        </item>	
+<title>Warner</title>
+<link>http://secure.livechatinc.com/licence/1751341/open_chat.cgi?groups=0&amp;embedded=1&amp;session_id=S1428809971.0dd688b361</link>
+</item>	
 	
 </channel>
 <channel>
