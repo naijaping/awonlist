@@ -2698,6 +2698,11 @@
 <link>http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/2596k/prog.m3u8|X-Forwarded-For=67.212.175.123</link>
 </item>	
 
+<item>
+<title>720p</title>
+<link>http://cctv-lh.akamaihd.net/i/MRC1HD_live@125113/index_1080p_av-p.m3u8?sd=10&rebase=on</link>
+</item>	
+
 	
 </channel>
 <channel>
