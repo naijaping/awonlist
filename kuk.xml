@@ -2703,6 +2703,11 @@
 <link>http://cctv-lh.akamaihd.net/i/MRC1HD_live@125113/index_1080p_av-p.m3u8?sd=10&rebase=on</link>
 </item>	
 
+
+<item>
+<title>740p</title>
+<link>http://boomerang-h264-skygo.smooth.adaptive.level3.net/livefeed/bskyb/5609.isml/QualityLevels(500000)/manifest(format=m3u8-aapl).m3u8</link>
+</item>	
 	
 </channel>
 <channel>
