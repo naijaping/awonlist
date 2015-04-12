@@ -2706,7 +2706,7 @@
 
 <item>
 <title>740p</title>
-<link>http://itv1-h264-skygo.smooth.adaptive.level3.net/livefeed/bskyb/6000.isml/QualityLevels(500000)/manifest(format=m3u8-aapl).m3u8</link>
+<link>http://itv1-h264-skygo.smooth.adaptive.level3.net/livefeed/bskyb/6000.isml/QualityLevels(500000)/Fragments(video=416601214722555)/manifest(format=m3u8-aapl).m3u8</link>
 </item>	
 
 
