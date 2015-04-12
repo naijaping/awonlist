@@ -2689,8 +2689,13 @@
 </item>	
 
 <item>
-<title>GOLF</title>
+<title>GOLF 1080p</title>
 <link>http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/4296k/prog.m3u8|X-Forwarded-For=66.171.228.102</link>
+</item>	
+
+<item>
+<title>GOLF 720p</title>
+<link>http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/2596k/prog.m3u8|X-Forwarded-For=67.212.175.123</link>
 </item>	
 
 	
