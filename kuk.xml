@@ -2680,7 +2680,7 @@
 
 <item>
 <title>Warner LAT</title>
-                        <link>rtmp://$doregex[rtmpip]/live playpath=tutvhbodox410?id=79636  conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/fplayer.swf pageUrl=http://www.ucaster.eu live=1 timeout=20</link>
+                        <link>rtmp://$doregex[rtmpip]/live playpath=tutvhbodox?id=79636  conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/fplayer.swf pageUrl=http://www.ucaster.eu live=1 timeout=20</link>
                         <regex>
                         <name>rtmpip</name>
                         <expres>redirect=(.*)</expres>
