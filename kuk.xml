@@ -2677,7 +2677,17 @@
 <link>rtmp://206.190.132.244/tvamigos playpath=tom swfUrl=http://www.carolineoliveira.com.br/swf/player.swf pageUrl=http://www.carolineoliveira.com.br/face/curta.html live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/msnbc.png</thumbnail>
 </item>	
-	
+
+
+<title>Warner LAT</title>
+                        <link>rtmp://$doregex[rtmpip]/live playpath=tutvhbodox410?id=79636  conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/fplayer.swf pageUrl=http://www.ucaster.eu live=1 timeout=20</link>
+                        <regex>
+                        <name>rtmpip</name>
+                        <expres>redirect=(.*)</expres>
+                        <page>http://www.ucaster.eu:1935/loadbalancer</page>
+                        <referer>http://www.ucaster.eu/static/scripts/fplayer.swf</referer>
+                        </regex>
+                        </item>	
 	
 </channel>
 <channel>
