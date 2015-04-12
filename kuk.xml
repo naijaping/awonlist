@@ -2678,7 +2678,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/msnbc.png</thumbnail>
 </item>	
 
-
+<item>
 <title>Warner LAT</title>
                         <link>rtmp://$doregex[rtmpip]/live playpath=tutvhbodox410?id=79636  conn=S:OK swfUrl=http://www.ucaster.eu/static/scripts/fplayer.swf pageUrl=http://www.ucaster.eu live=1 timeout=20</link>
                         <regex>
