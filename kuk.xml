@@ -2709,6 +2709,10 @@
 <link>http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel01/antena_3_hd_1548K_1280x720_main.m3u8</link>
 </item>	
 
+<item>
+<title>750p</title>
+<link>rtmp://77.92.76.135:1935/tvce/livestream</link>
+</item>	
 
 	
 </channel>
