@@ -2711,7 +2711,7 @@
 
 <item>
 <title>CCTV </title>
-<link>plugin://plugin.video.f4mTester/?url=http://ak.live.cntv.cn/i/cctvxiyu_1@71834/manifest.f4m?hdcore=2.11.3|Referer=http://player.cntv.cn/[[IMPORT]]/livepassdl.conviva.com/ver/2.85.0.21474/LivePassModuleMain_telemetry.swf</link>
+<link>plugin://plugin.video.f4mTester/?url=http://ak.live.cntv.cn/z/cctvxiyu_1@71834/manifest.f4m?hdcore=2.11.3|Referer=http://player.cntv.cn/[[IMPORT]]/livepassdl.conviva.com/ver/2.85.0.21474/LivePassModuleMain_telemetry.swf</link>
 <thumbnail></thumbnail>
 </item>
 
