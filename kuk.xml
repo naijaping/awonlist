@@ -2521,25 +2521,10 @@
 </item>
 
 <item>
-<title>Buari</title>
+<title>winners ng</title>
 <link>http://sanfran01.netcasterstream.com:8081/live/domihigh/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
-
-
-<item>
-<title>30days</title>
-<link>http://167.114.65.74/hls/lt.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>days</title>
-<link>http://goo.gl/K4vEBF</link>
-<thumbnail></thumbnail>
-</item>
-
-
 
 
 <item>
@@ -2558,7 +2543,8 @@
 </regex>
 </item>
 
-<item><title>Africa</title>
+<item>
+<title>iAfrica</title>
 <link>$doregex[reg1]|Referer=http://www.ghanalive.tv/tv-africa-stream/</link>
 <regex><name>reg1</name>
 <expres>file': '([^']+)</expres>
@@ -2566,14 +2552,6 @@
 </regex>
 </item>
 
-
-
-                        
-<item>
-<title>Caracol</title>
-<link>plugin://plugin.video.f4mTester/?url=http://bclivehd-lh.akamaihd.net/z/noticiascaracol_1@125557/manifest.f4m?hdcore=2.11.3</link>
-<thumbnail></thumbnail>
-</item>
 
 <item><title>Atkin</title>
 <link>http://81.92.105.132:5555/pl.m3u8?channel=5&amp;key=$doregex[reg1]</link>
@@ -2667,9 +2645,9 @@
 
 
 <item>
-<title> MOMO</title>
+<title>NBCSN Diff Source</title>
 <link>rtmp://w3.vmnode.pw:2195/live playpath=nbcsn swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/nbcsn1.php live=true timeout=20</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/msnbc.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 	
 <item>
@@ -2708,12 +2686,6 @@
 <link>http://tvenbcsn-i.Akamaihd.net//hls/live/218235/nbcsnx/4296k/prog.m3u8|X-Forwarded-For=50.192.92.89</link>
 </item>	
 
-
-<item>
-<title>CCTV </title>
-<link>plugin://plugin.video.f4mTester/?url=http://ak.live.cntv.cn/z/cctvxiyu_1@71834/manifest.f4m?hdcore=2.11.3|Referer=http://player.cntv.cn/[[IMPORT]]/livepassdl.conviva.com/ver/2.85.0.21474/LivePassModuleMain_telemetry.swf</link>
-<thumbnail></thumbnail>
-</item>
 
 
 
