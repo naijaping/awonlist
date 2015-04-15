@@ -2688,10 +2688,14 @@
 
 
 <item>
-<title>780p</title>
+<title>Tvcacthup c4</title>
 <link>http://srv1.cdn.tvcatchup.com/channel4.m3u8?clientKey=cde34163fc3aef075e9722f20be57744-MTQyOTA5NzQxMg==&amp;channelid=4&amp;device=web&amp;channel=4</link>
 </item>	
 
+<item>
+<title>Tvcacthup c5</title>
+<link>http://srv1.cdn.tvcatchup.com/channel5.m3u8?clientKey=ef7f061913817d1ca7fc41284acb6d70-MTQyOTEwMDIxOQ==&channelid=5&device=web&channel=5</link>
+</item>	
 
 
 
