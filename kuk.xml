@@ -2722,7 +2722,7 @@
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
 <name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://ak.live.cntv.cn/z/cctvxiyu_1@71834/manifest.f4m?AUTH=ip=92.0.40.21&amp;hdcore=3.5.0&amp;plugin=jwplayer-3.5.0.0|Referer=http://player.cntv.cn/[[IMPORT]]/livepassdl.conviva.com/ver/2.85.0.21474/LivePassModuleMain_telemetry.swf')<expres>
+<expres>$pyFunction:urllib.quote_plus('http://ak.live.cntv.cn/z/cctvxiyu_1@71834/manifest.f4m?AUTH=ip=92.0.40.21&amp;st=1429075075&amp;exp=1429161475|Referer=http://player.cntv.cn/[[IMPORT]]/livepassdl.conviva.com/ver/2.85.0.21474/LivePassModuleMain_telemetry.swf')<expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/canalplus_es_deportes_2_hd.png</thumbnail>
