@@ -2710,11 +2710,10 @@
 
 
 <item>
-<title> Miracle Ministries</title>
-<link>http://ak.live.cntv.cn/i/cctvxiyu_1@71834/master.m3u8</link>
-<thumbnail>http://campus.316networks.com/images/MoF-pastor_1.gif</thumbnail>
+<title>CCTV </title>
+<link>plugin://plugin.video.f4mTester/?url=http://ak.live.cntv.cn/i/cctvxiyu_1@71834/manifest.f4m?hdcore=2.11.3</link>
+<thumbnail></thumbnail>
 </item>
-
 
 
 	
