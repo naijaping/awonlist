@@ -2693,10 +2693,15 @@
 </item>	
 
 <item>
-<title>soppi</title>
-<link></link>
-</item>	
-
+<title>freedom</title>
+<link>$doregex[showyoutube]</link>
+<regex>
+<name>showyoutube</name>
+<expres>$pyFunction:xbmc.executebuiltin('ActivateWindow(10025,&quot;plugin://plugin.video.youtube/user/freedomarenaAwake/&quot;,return)')</expres>
+<page></page>
+</regex>
+<thumbnail>http://i59.tinypic.com/2qtbb80.jpg</thumbnail>
+</item>
 
 
 
