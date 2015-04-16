@@ -2693,16 +2693,14 @@
 </item>	
 
 <item>
-<title>freedom</title>
-<link>$doregex[showyoutube]</link>
+<title>iguide</title>
+<link>$doregex[rtmpurl]</link>
 <regex>
-<name>showyoutube</name>
-<expres>$pyFunction:xbmc.executebuiltin('ActivateWindow(10025,&quot;plugin://plugin.video.youtube/user/freedomarenaAwake/&quot;,return)')</expres>
+<name>rtmpurl</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.iguide.to/view/30444',False,False)</expres>
 <page></page>
 </regex>
-<thumbnail>http://i59.tinypic.com/2qtbb80.jpg</thumbnail>
 </item>
-
 
 
 
