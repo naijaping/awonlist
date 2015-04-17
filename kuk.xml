@@ -2715,6 +2715,15 @@
 </item>	
 
 
+<item>
+<title>iA</title>
+<link>$doregex[reg1]|Referer=http://www.ghanalive.tv/adome-tv/</link>
+<regex><name>reg1</name>
+<expres>file': '([^']+)</expres>
+<page>http://www.ghanalive.tv/adome-tv/</page>
+</regex>
+</item>
+
 
 	
 </channel>
