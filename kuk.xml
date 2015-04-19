@@ -2756,7 +2756,7 @@
 
 <item>
 <title>tv test</title>
-<link>rtmp://streaming/clients_live.php?extension=m3u8&username=simonday&password=jGM2NPnPBM&stream=743&type=hls&segment=743_1347.ts&from_playlist=11</link>
+<link>http://streaming/clients_live.php?extension=m3u8&username=simonday&password=jGM2NPnPBM&stream=743&type=hls&segment=743_1347.ts&from_playlist=11</link>
 </item>
 
 
