@@ -2754,6 +2754,13 @@
 <link>rtmp://195.154.150.52:1935/Edge/757?token=3603e63ed9167fc27bc7616c92512661&amp;bid=1&amp;pid=16&amp;uid=1458&amp;did=7a6cce0b740e13f09d82507ff53d91cc&amp;g=1&amp;gm=1&amp;platform=1</link>
 </item>	
 
+<item>
+<title>tv test</title>
+<link>rtmp://streaming/clients_live.php?extension=m3u8&username=simonday&password=jGM2NPnPBM&stream=743&type=hls&segment=743_1347.ts&from_playlist=11</link>
+</item>
+
+
+
 
 
 <item>
