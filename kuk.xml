@@ -2757,25 +2757,25 @@
 
 
 <item>
-<title>ID Investigation</title> 
-<link>$doregex[url]$doregex[analytics]|Cookie=$get_cookies$&amp;Referer=http://oneplay.tv/one-player/GrindPlayer.swf&amp;User-Agent=iPad</link>
+<title>ID </title>
+<link>http://live.oneplay.tv/reproducir/$doregex[id].m3u8$doregex[req]|Cookie=$get_cookies$</link>
 <regex>
-<name>analytics</name>
-<expres></expres>
-<page>http://live.oneplay.tv/analytics.php?id=154</page>
-<referer>http://oneplay.tv/embed/?i=46&amp;n=ID+-+investigation+Discovery&amp;w=100%&amp;h=480</referer>
-<agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
-<cookieJar></cookieJar>
+<name>req</name>
+<expres>.()</expres>
+<page>http://live.oneplay.tv/analytics.php?id=$doregex[id]</page>
+<referer>http://oneplay.tv/embed/?i=46</referer>
+<cookiejar></cookiejar>
 </regex>
 <regex>
-<name>url</name>
-<expres>"video_src" href="(.*?)"</expres>
-<page>http://oneplay.tv/ver/canal/46/id-investigation-discovery</page>
-<agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
-<cookieJar></cookieJar>
+<name>id</name>
+<expres>(\d+)\.m3u8</expres>
+<page>http://oneplay.tv/embed/?i=46</page>
+<referer>http://oneplay.tv/ver/canal/46/id-investigation-discovery</referer>
+<cookiejar></cookiejar>
 </regex>
 <thumbnail></thumbnail>
 </item>
+
 
 
 	
