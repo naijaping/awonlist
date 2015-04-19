@@ -2757,10 +2757,25 @@
 
 
 <item>
-<title> tv test</title>
-<link>http://vplayer.nbcsports.com/p/BxmELC/nbcsports_embed/embed/select/J0HjrHdP56ni?autoPlay=false&amp;originalReferrer=http://prosoccertalk.nbcsports.com/2015/04/18/watch-premier-league-live-online-via-nbc-sports-live-extra-week-33/|X-Forwarded-For=50.192.92.89</link>
-</item>	
-
+<title>ID Investigation</title> 
+<link>$doregex[url]$doregex[analytics]|Cookie=$get_cookies$&amp;Referer=http://oneplay.tv/one-player/GrindPlayer.swf&amp;User-Agent=iPad</link>
+<regex>
+<name>analytics</name>
+<expres></expres>
+<page>http://live.oneplay.tv/analytics.php?id=154</page>
+<referer>http://oneplay.tv/embed/?i=46&amp;n=ID+-+investigation+Discovery&amp;w=100%&amp;h=480</referer>
+<agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>url</name>
+<expres>"video_src" href="(.*?)"</expres>
+<page>http://oneplay.tv/ver/canal/46/id-investigation-discovery</page>
+<agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
