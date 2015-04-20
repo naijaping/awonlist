@@ -2798,14 +2798,14 @@
 </item>
 
 <item>
-<title>Okin TV Yoruba Films</title>
-<link>$doregex[showyoutube]</link>
+<title>Arenavision 14</title>
+<link>rtmp://$doregex[rtmpip]/app/chivasss69s-channel swfUrl=https://streamup.com/assets/StreamupVideoChat.swf pageUrl=https://streamup.com live=1 timeout=15</link>
 <regex>
-<name>showyoutube</name>
-<expres>$pyFunction:xbmc.executebuiltin('ActivateWindow(10025,&quot;plugin://plugin.video.youtube/channel/UC6soW1N4F9DgdCVhHoXy2pw/&quot;,return)')</expres>
-<page></page>
+<name>rtmpip</name>
+<expres>(.*)</expres>
+<page>http://live.streamup.com:1935/redirect/?request=server</page>
 </regex>
-<thumbnail>http://i59.tinypic.com/2qtbb80.jpg</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
