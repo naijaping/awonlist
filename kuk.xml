@@ -2814,13 +2814,13 @@
 <name>rtmp</name>
 <expres>(rtmpe:.*)'</expres>
 <page>http://www.hdcast.org/embedlive4.php?u=sbt1</page>
-<referer>http://freecalcio.com/watch/bt-sport-1-live-stream.php</referer>
+<referer>http://freecalcio.com/</referer>
 </regex>
 <regex>
 <name>path</name>
 <expres>'file':.*?'(.*)'</expres>
 <page>http://www.hdcast.org/embedlive4.php?u=sbt1</page>
-<referer>http://freecalcio.com/watch/bt-sport-1-live-stream.php</referer>
+<referer>http://freecalcio.com/</referer>
 </regex><thumbnail></thumbnail>
 </item>
 
