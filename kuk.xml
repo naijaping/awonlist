@@ -2795,11 +2795,6 @@
 <link>http://46.105.122.74:8000/live/simonday/jGM2NPnPBM/72.ts|X-Forwarded-For=50.192.92.89</link>
 </item>
 
-<item>
-<title>Sportz</title>
-<link>http://sportztv.net:8000/live/10usd/sports@fontsbay.com/88.ts|</link>
-</item>
-
 
 <item>
 <title>Arenavision 14</title>
@@ -2810,6 +2805,24 @@
 <page>http://live.streamup.com:1935/redirect/?request=server</page>
 </regex>
 <thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>Sky DE</title>
+<link>$doregex[rtmp]/$doregex[path] token=Fo5_n0w?U.rA6l3-70w47ch swfUrl=http://player.hdcast.org/_.swf pageUrl=http://www.hdcast.org live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>(rtmpe:.*)'</expres>
+<page>http://www.hdcast.org/embedlive.php?u=mamahdbtsport1</page>
+<referer>http://mamahd.com/</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>'file':.*?'(.*)'</expres>
+<page>http://www.hdcast.org/embedlive.php?u=mamahdbtsport1</page>
+<referer>http://mamahd.com/</referer>
+</regex><thumbnail></thumbnail>
 </item>
 
 
