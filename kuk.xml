@@ -1280,28 +1280,6 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hip_tv_ng.png</thumbnail>
 </item>
 
-
-
-<item>
-<title>Sahara TV</title>
-<link>$doregex[get-m3u8]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
-<regex>
-<name>get-m3u8</name>
-<expres>76.*\s?(http.*?)\s</expres>
-<page>$doregex[get-page]</page>
-<agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>get-page</name>
-<expres>"m3u8_url":"(.*?)"</expres>
-<page>http://new.livestream.com/accounts/3504140/events/3847341</page>
-
-<cookieJar></cookieJar>
-</regex>
-</item>
-
-
 <item>
 <title>E! ENTERTAINMENT</title> 
 <link>$doregex[url]$doregex[analytics]|Cookie=$get_cookies$&amp;Referer=http://oneplay.tv/one-player/GrindPlayer.swf&amp;User-Agent=iPad</link>
@@ -1401,32 +1379,6 @@
 </item>
 
 <item>
-<title>Sky Sport 2</title>
-<link>http://37.48.118.32/live/skysports2201.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.tvone1.com/sky-sports-2/</page>
-<referer>http://www.finecast.tv/</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>prem sport</title>
-<link>http://37.48.118.32/live/premi.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.tvone1.com/premier-sports/</page>
-<referer>http://www.finecast.tv/</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
 <title>ES sport2</title>
 <link>http://37.48.118.32/live/esnp22.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
@@ -1434,25 +1386,6 @@
 <expres>m3u8(\?.*)"</expres>
 <page>http://www.tvone1.com/espn-2/</page>
 <referer>http://www.finecast.tv/channel.php?u=esnp22</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>Sky Racing World</title>
-<link>http://37.48.118.32/live/$doregex[path].stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>path</name>
-<expres>id='(.*?)'<expres>
-<page>http://www.tvone1.com/at-the-races/</page>
-<referer>http://www.finecast.tv/</referer>
-</regex>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.tvone1.com/at-the-races/</page>
-<referer>http://www.finecast.tv/</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
@@ -1561,33 +1494,6 @@
 <link>plugin://plugin.video.f4mTester/?url=http://d1yjsz5fddyesn.cloudfront.net/livecf/foxar/manifest.f4m</link>
 </item>
 
-
-
-<item>
-    <title>sky</title>
-    <link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=sky sport 1 hd</link>
-    <regex>
-    <name>url</name>    
-    <expres>this.loadPlayer\("([^"]*)</expres>
-    <page>http://torrent-tv.ru/torrent-online.php?translation=11584</page>
-    <referer></referer>
-    </regex>
-    </item>
-    
-    
-   
-<item>
-<title>Natgeo</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
-<regex>
-<name>getlink</name>
-<expres>source src="([^"]*)</expres>
-<page>http://www.jtvleaks.eu/national-geographic</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-  
-  
 <item>
 <title>Sky Sports 1</title>
 <link>$doregex[rtmp] playpath=$doregex[path] token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
@@ -1664,19 +1570,6 @@
 <title>sky4</title>
 <link>rtmpe://46.246.124.89:1935/l playpath=sskys4 token=Fo5_n0w?U.rA6l3-70w47ch timeout=10 pageUrl=http://www.hdcast.org</link>
 </item>
-
-<item>
-<title>Igo</title>
-<link>http://stream.ssh101.com/hls/888899990.m3u8</link>
-</item>
-
-
-<item>
-<title>Igo2</title>
-<link>http://stream.ssh101.com/hls/777788887.m3u8</link>
-</item>
-
-
 
 <item>
 <title>Sky 1 HD</title>
@@ -2021,13 +1914,6 @@
 <link>http://www.flavourweb.com/wp-content/uploads/2015/03/30-days-in-atlanta.mp4</link>
 </item>
 
-
-<item>
-<title> Yoruba</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=twxcahVXWGg</link>
-<thumbnail></thumbnail>
-</item>
-
 <item>
 <title> New Zealand vs Afghanistan | Cricket</title>
 <link>rtmpe://l.xuscacamusca.se/r/ playpath=fafasdfa116 swfUrl=http://mybeststream.xyz/MDc1YmEyNzUwMzc4MWNkYzM5NmY5ZGFm/jwplayer.flash.swf pageUrl=http://mybeststream.xyz/?id=28439&width=600&height=420 live=1 timeout=15</link>
@@ -2090,16 +1976,7 @@
 <link>http://109.123.70.24/lon1/mp4:hfujdgbp.stream/playlist.m3u8</link<thumbnail></thumbnail>
 </item>
 
-<item>
-    <title>sky 2hddd</title>
-    <link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=sky sport 2 hd</link>
-    <regex>
-    <name>url</name>    
-    <expres>this.loadPlayer\("([^"]*)</expres>
-    <page>http://torrent-tv.ru/torrent-online.php?translation=11738</page>
-    <referer></referer>
-    </regex>
-    </item>
+
     
     
      <item>
@@ -2209,21 +2086,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
-
-
-<item>
-<title>Documentaires</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
-<regex>
-<name>getlink</name>
-<expres>source src="([^"]*)</expres>
-<page>http://www.stream4free.eu/weeds</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
 <item>
 <title>beI nnus</title>
 <link>$doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf live=true timeout=15 swfVfy=true pageUrl=http://castalba.tv/</link>
@@ -2273,34 +2135,19 @@
 
 
 <item>
-    <title>toon</title>
-    <link>rtmp://rtmp.myhdcast.com/redirect/fo2FgVN6vw1izsjm5CqJ swfUrl=http://cdn.zerocast.tv/player/jwplayer.flash.swf pageUrl=http://zerocast.in/embed.php?a=2 token=OOG17t.x#K9Vh#|</link>
-    <thumbnail></thumbnail>
-</item>
-
-
-
-<item>
-    <title>tooni</title>
-    <link>http://88.150.210.146/iptv/6TSGFPWCF5/124/index.m3u8</link>
-    <thumbnail></thumbnail>
-</item>
-
-
-<item>
 <title>FOX</title>
 <link>http://live.oneplay.tv/reproducir/$doregex[id].m3u8$doregex[req]|Cookie=$get_cookies$</link>
 <regex>
 <name>req</name>
 <expres>.()</expres>
 <page>http://live.oneplay.tv/analytics.php?id=$doregex[id]</page>
-<referer>http://oneplay.tv/embed/?i=24</referer>
+<referer>http://oneplay.tv/embed/?i=89</referer>
 <cookiejar></cookiejar>
 </regex>
 <regex>
 <name>id</name>
 <expres>(\d+)\.m3u8</expres>
-<page>http://oneplay.tv/embed/?i=24</page>
+<page>http://oneplay.tv/embed/?i=89</page>
 <referer>http://oneplay.tv/ver/canal/24/fox</referer>
 <cookiejar></cookiejar>
 </regex>
