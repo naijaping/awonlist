@@ -2796,10 +2796,6 @@
 </item>
 
 
-
-
-
-
 <item>
 <title>Arenavision 14</title>
 <link>rtmp://$doregex[rtmpip]/app/chivasss69s-channel swfUrl=https://streamup.com/assets/StreamupVideoChat.swf pageUrl=https://streamup.com live=1 timeout=15</link>
@@ -2811,7 +2807,21 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Arenavision 114</title>
+<link>rtmp://$doregex[rtmpip]/app/$doregex[channelSlug] swfUrl=https://streamup.com/assets/StreamupVideoChat.swf pageUrl=https://streamup.com live=1 timeout=15</link>
+<regex>
+<name>rtmpip</name>
+<expres>(.*)</expres>
+<page>http://live.streamup.com:1935/redirect/?request=server</page>
+</regex>
+<regex>
+<name>channelSlug</name>
+<expres>streamup.com\/rooms\/(.*?)\/</expres>
+<page>http://www.arenavision.in/arenavision14</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
