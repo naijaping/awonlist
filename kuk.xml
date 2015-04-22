@@ -2821,8 +2821,7 @@
 <expres>'file':.*?'(.*)'</expres>
 <page>http://www.hdcast.org/embedlive4.php?u=sbt1</page>
 <referer>http://freecalcio.com</referer>
-</regex>
-<thumbnail></thumbnail>
+</regex><thumbnail></thumbnail>
 </item>
 
 
