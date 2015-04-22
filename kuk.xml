@@ -2796,7 +2796,7 @@
 </item>
 
 <item>
-<title>Sportz 2</title>
+<title>Sportz 1</title>
 <link>rtmp://195.154.168.217:80/liverepeater playpath=303035 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co.uk/streamn.php?id=303018&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
 </item>
 
@@ -2804,6 +2804,22 @@
 <title>Sportz 2</title>
 <link>rtmp://195.154.168.217:80/liverepeater playpath=303018 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co.uk/streamn.php?id=303018&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
 </item>
+
+<item>
+<title>Sportz 3</title>
+<link>rtmp://195.154.168.217:80/liverepeater playpath=303019 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co.uk/streamn.php?id=303018&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
+</item>
+
+<item>
+<title>Sportz 4</title>
+<link>rtmp://195.154.168.217:80/liverepeater playpath=303020 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co.uk/streamn.php?id=303018&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
+</item>
+
+<item>
+<title>Sportz 5</title>
+<link>rtmp://195.154.168.217:80/liverepeater playpath=303021 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co.uk/streamn.php?id=303018&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
+</item>
+
 
 
 
