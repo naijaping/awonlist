@@ -2712,6 +2712,10 @@
 <link>rtmp://62.210.93.190:1935/live playpath=757 swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf token=8b8d046894fb12ac8abdc11bd917df9d live=true pageUrl=https://www.livego.tv</link>
 </item>
 
+<item>
+<title>none</title>
+<link>http://llnw.live.simplestream.com/mediaexcel01/channel10/5/prog_index.m3u8</link>
+</item>
 
 
 
