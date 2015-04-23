@@ -2713,11 +2713,14 @@
 </item>
 
 <item>
-<title>none</title>
+<title>Channel 4 HD</title>
 <link>http://llnw.live.simplestream.com/mediaexcel01/channel04/5/prog_index.m3u8</link>
 </item>
 
-
+<item>
+<title>Channel 5 HD</title>
+<link>http://llnw.live.simplestream.com/mediaexcel01/channel05/5/prog_index.m3u8</link>
+</item>
 
 
 	
