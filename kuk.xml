@@ -2703,6 +2703,11 @@
 </item>
 
 <item>
+<title>BBC 3</title>
+<link>http://llnw.live.qvc.simplestream.com/mediaexcel01/channel06/5/prog_index.m3u8</link>
+</item>
+
+<item>
 <title>Token</title>
 <link>rtmp://62.210.93.190:1935/live playpath=757 swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf token=8b8d046894fb12ac8abdc11bd917df9d live=true pageUrl=https://www.livego.tv</link>
 </item>
