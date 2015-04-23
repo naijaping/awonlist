@@ -2699,7 +2699,7 @@
 
 <item>
 <title>Viasat</title>
-<link>http://hlsstr02.svc.iptv.rt.ru/hls/CH_VIASATSPORT/bw1500000/playlist.m3u8?utcstart=1429754879.5122654</link>
+<link>rtmp://195.154.243.50:80/liverepeater playpath=302567 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co.uk/streamn token=Fo5_n0w?U.rA6l3-70w47ch</link>
 </item>
 
 <item>
