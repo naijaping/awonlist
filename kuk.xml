@@ -2704,7 +2704,7 @@
 
 <item>
 <title>Token</title>
-<link>rtmp://62.210.93.190:1935/Edge/757 playpath=757 app=edge3/757 token=8b8d046894fb12ac8abdc11bd917df9d live=true pageUrl=https://www.livego.tv</link>
+<link>rtmp://62.210.93.190:1935/Edge/757 playpath=757 app=edge3/757 swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf token=8b8d046894fb12ac8abdc11bd917df9d live=true pageUrl=https://www.livego.tv</link>
 </item>
 
 
