@@ -2649,31 +2649,6 @@
 </item>
 
 <item>
-<title>Sportz 1</title>
-<link>rtmp://195.154.168.217:80/liverepeater playpath=303035 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co.uk/streamn.php?id=303018&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
-</item>
-
-<item>
-<title>Sportz 2</title>
-<link>rtmp://195.154.168.217:80/liverepeater playpath=303018 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co.uk/streamn.php?id=303018&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
-</item>
-
-<item>
-<title>Sportz 3</title>
-<link>rtmp://195.154.168.217:80/liverepeater playpath=303019 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co.uk/streamn.php?id=303018&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
-</item>
-
-<item>
-<title>Sportz 4</title>
-<link>rtmp://195.154.168.217:80/liverepeater playpath=303020 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co.uk/streamn.php?id=303018&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
-</item>
-
-<item>
-<title>Sportz 5</title>
-<link>rtmp://195.154.168.217:80/liverepeater playpath=303021 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co.uk/streamn.php?id=303018&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
-</item>
-
-<item>
 <title>Sportz 6</title>
 <link>rtmp://195.154.168.217:80/liverepeater playpath=303024 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co.uk/streamn.php?id=303018&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
 </item>
@@ -2750,28 +2725,24 @@
 </item>
 
 <item>
-<title>RDS 1</title>
-<link>http://ams-lp9.9c9media.com/hls-live/livepkgr/_definst_/liveeventNoDRM/RDSOpen8.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
-</item>
-
-<item>
-<title>RDs 2</title>
-<link>http://ams-lp10.9c9media.com/hls-live/livepkgr/_definst_/liveeventNoDRM/RDS2Open8.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
-</item>
-
-<item>
-<title>RDs Info</title>
-<link>http://ams-lp11.9c9media.com/hls-live/livepkgr/_definst_/liveeventNoDRM/RDSiOpen8.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
-</item>
-
-<item>
-<title> info</title>
-<link>http://ams-lp9.9c9media.com/hls-live/livepkgr/_definst_/liveeventNoDRM/tsnOpen8.m3u8</link>
+<title>DE</title>
+<link>$doregex[rtmp]/$doregex[path] token=Fo5_n0w?U.rA6l3-70w47ch swfUrl=http://player.hdcast.org/_.swf pageUrl=http://www.hdcast.org live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>(rtmpe:.*)'</expres>
+<page>http://goodcast.co.uk/streamn.php?id=303018</page>
+<referer></referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>'file':.*?'(.*)'</expres>
+<page>http://goodcast.co.uk/streamn.php?id=303018</page>
+<referer></referer>
+</regex>
 <thumbnail></thumbnail>
 </item>
+
+
 	
 </channel>
 <channel>
