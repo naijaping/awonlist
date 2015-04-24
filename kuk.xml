@@ -2724,7 +2724,7 @@
 
 <item>
 <title>BBC One</title>
-<link>http://50.7.69.186:1935/edge/_definst_/tuc280rbycwnsvs/manifest.m3u8?wowzasessionid=142623148</link>
+<link>http://50.7.69.186:1935/edge/_definst_/tuc280rbycwnsvs/manifest.m3u8?wowzasessionid=142623148|X-Forwarded-For=50.192.92.89</link>
 </item>
 
 
