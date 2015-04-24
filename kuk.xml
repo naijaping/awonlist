@@ -2674,6 +2674,11 @@
 </item>
 
 <item>
+<title>Sportz 6</title>
+<link>rtmp://195.154.168.217:80/liverepeater playpath=303022 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co.uk/streamn.php?id=303018&width=620&height=470 token=Fo5_n0w?U.rA6l3-70w47ch</link>
+</item>
+
+<item>
 <title>Arenavision 14</title>
 <link>rtmp://$doregex[rtmpip]/app/chivasss69s-channel swfUrl=https://streamup.com/assets/StreamupVideoChat.swf pageUrl=https://streamup.com live=1 timeout=15</link>
 <regex>
