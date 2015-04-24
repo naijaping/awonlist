@@ -2723,8 +2723,14 @@
 </item>
 
 <item>
-<title>BBC One</title>
+<title>A & E</title>
 <link>http://50.7.69.186:1935/edge/_definst_/tuc280rbycwnsvs/manifest.m3u8?wowzasessionid=1426231480|X-Forwarded-For=50.192.92.89</link>
+</item>
+
+
+<item>
+<title>NBC East</title>
+<link>http://50.7.69.186:1935/edge/_definst_/s5whw37nl7weedp/chunklist.m3u8?wowzasessionid=1420160473|X-Forwarded-For=50.192.92.89</link>
 </item>
 
 
