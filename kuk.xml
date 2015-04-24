@@ -717,7 +717,13 @@
 
 <item>
 <title>All football HD</title>
-<link>http://87.245.214.43/streaming/futbol/126/tvrec/playlist.m3u8</link>
+<link>plugin://plugin.video.p2p-streams/?url=$doregex[url]&amp;mode=1&amp;name=NTV+plus+sport+plus</link>
+<regex>
+<name>url</name>       
+<expres>this.loadPlayer\("([^"]*)</expres>
+<page>http://allfon.tv/?id=19#11</page>
+<referer></referer>
+</regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/premier_league_tv.png</thumbnail>
 </item>
 
