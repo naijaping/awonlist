@@ -2689,19 +2689,10 @@
 </item>
 
 <item>
-<title>BBC 3</title>
-<link>http://llnw.live.qvc.simplestream.com/mediaexcel01/channel06/5/prog_index.m3u8</link>
-</item>
-
-<item>
 <title>Token</title>
 <link>rtmp://62.210.93.190:1935/live playpath=757 swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf token=8b8d046894fb12ac8abdc11bd917df9d live=true pageUrl=https://www.livego.tv</link>
 </item>
 
-<item>
-<title>Channel 4 HD</title>
-<link>http://llnw.live.simplestream.com/mediaexcel01/channel04/5/prog_index.m3u8</link>
-</item>
 
 <item>
 <title>Fashion Tv</title>
@@ -2724,23 +2715,7 @@
 <link>http://50.7.69.186:1935/edge/_definst_/866l7jy73xntgpa/playlist.m3u8?wowzasessionid=1419879488|X-Forwarded-For=50.192.92.89</link>
 </item>
 
-<item>
-<title>DE</title>
-<link>$doregex[rtmp]/$doregex[path] token=Fo5_n0w?U.rA6l3-70w47ch swfUrl=http://cdn.goodcast.co/players.swf pageUrl=http://goodcast.co.uk/streamn.php?id=303018&width=620&height=470 live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>(rtmpe:.*)'</expres>
-<page>http://goodcast.co.uk/streamn.php?id=303018</page>
-<referer></referer>
-</regex>
-<regex>
-<name>path</name>
-<expres>'file':.*?'(.*)'</expres>
-<page>http://goodcast.co.uk/streamn.php?id=303018</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 	
