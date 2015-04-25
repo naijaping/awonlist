@@ -2717,8 +2717,9 @@
 </item>
 
 <item>
-<title>JIBO</title>
-<link>http://macedoniathebest.mine.nu:8000/live/MACEDONIA/THEBEST/93.ts</link>
+<title>Ghana TV Sports</title>
+<link>rtmp://cdn.totalplay.tv/stream playpath=z00089.stream swfUrl=http://totalplay.tv/player/player.swf pageUrl=http://totalplay.tv live=1 timeout=15</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/ghana_tv.png</thumbnail>
 </item>
 
 
