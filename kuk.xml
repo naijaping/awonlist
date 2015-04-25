@@ -2722,6 +2722,12 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/ghana_tv.png</thumbnail>
 </item>
 
+<item>
+<title>Stream SP</title>
+<link>http://stream.ssh101.com/hls/goldar.m3u8</link>
+</item>
+
+
 
 	
 </channel>
