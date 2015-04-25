@@ -2718,7 +2718,7 @@
 
 <item>
 <title>Ghana TV Sports</title>
-<link>rtmp://cdn.totalplay.tv/stream playpath=z00089.stream swfUrl=http://totalplay.tv/player/player.swf pageUrl=http://totalplay.tv/stream.php?n=z00089 live=true timeout=15</link>
+<link>rtmp://cdn.totalplay.tv/stream playpath=z00089 swfUrl=http://totalplay.tv/player/player.swf pageUrl=http://totalplay.tv/stream.php?n=z00089 live=true timeout=15</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/ghana_tv.png</thumbnail>
 </item>
 
