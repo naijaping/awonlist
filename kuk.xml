@@ -2733,7 +2733,7 @@
 </item>
 
 <item>
-<title>14</title>
+<title>Streamup</title>
 <link>rtmp://$doregex[rtmpip]/app/$doregex[channelSlug] swfUrl=https://streamup.com/assets/StreamupVideoChat.swf pageUrl=https://streamup.com live=1 timeout=15</link>
 <regex>
 <name>rtmpip</name>
