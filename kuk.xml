@@ -2758,7 +2758,7 @@
 
 <item>
 <title>Foxii</title>
-<link>plugin://plugin.video.f4mTester/?url=http://nbcstreamwest.nbcsports.com/nbc06/nbc-sports-live-extra0425133044.ism/manifest.f4m|X-Forwarded-For=206.190.129.237</link>
+<link>plugin://plugin.video.f4mTester/?url=http://nbcstreamwest.nbcsports.com/nbc06/nbc-sports-live-extra0425133044.ism/manifest.f4m?token=st=1430014868|X-Forwarded-For=206.190.129.237</link>
 </item>
 
 
