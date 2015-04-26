@@ -1385,18 +1385,6 @@
 </item>
 
 <item>
-<title>ES sport2</title>
-<link>http://37.48.118.32/live/esnp22.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.tvone1.com/espn-2/</page>
-<referer>http://www.finecast.tv/channel.php?u=esnp22</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>One TV</title>
 <link>rtmp://37.187.151.241/live playpath=$doregex[path] swfUrl=http://cdn.skylinewebcams.com/player/skylinewebcams.swf pageUrl=http://www.skylinewebcams.com live=1 timeout=10</link>
 <regex>
@@ -2765,7 +2753,12 @@
 
 <item>
 <title>My test</title>
-<link>http://nbcstreamwest.nbcsports.com/nbc06/nbc-sports-live-extra/4296k/prog.m3u8|X-Forwarded-For=206.190.129.237</link>
+<link>http://nbcstreamwest.nbcsports.com/nbc06/nbc-sports-live-extra/4296k/master.m3u8|X-Forwarded-For=206.190.129.237</link>
+</item>
+
+<item>
+<title>Foxii</title>
+<link>plugin://plugin.video.f4mTester/?url=http://nbcstreamwest.nbcsports.com/nbc06/nbc-sports-live-extra/4296k/manifest.f4m</link>
 </item>
 
 
