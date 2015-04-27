@@ -2771,6 +2771,11 @@
 <link>http://193.232.151.135/hls-live/streams/livepkgr/events/_1041_/1041/1041-70.m3u8|X-Forwarded-For=193.232.151.135</link>
 </item>
 	
+<item>
+<title>tvplayer</title>
+<link>http://live.cdn.tvplayer.com/mediaexcel01/channel04/5/prog_index.m3u8</link>
+</item>	
+	
 </channel>
 <channel>
 
