@@ -2783,7 +2783,7 @@
 
 <item>
 <title>Hd</title>
-<link>rtmpe://192.99.38.90:1935/goLive playpath=nbc01_augqlbj1 swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf flashver=WIN/16,0,0,305 timeout=15 token=OOG17t.x#K9Vh#| live=1swfVfy=1 pageUrl=http://zerocast.tv|X-Forwarded-For=50.192.92.89</link>
+<link>http://142.4.216.60:1935/edge/_definst_/rjxo8hz17q9waiq/cnn.m3u8?wowzasessionid=1758235421|X-Forwarded-For=50.192.92.89</link>
 </item>	
 	
 </channel>
