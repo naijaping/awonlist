@@ -2785,6 +2785,11 @@
 <title>Hd</title>
 <link>rtmp://37.48.86.43/1935/send/ss1hd.stream swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf pageUrl=http://rarehost.net/sketti74/bb1/ss1hd.php live=true timeout=20 token=WY846p1E1g15W7s</link>
 </item>	
+
+<item>
+<title>Hd2</title>
+<link>rtmp://37.49.224.215/live playpath=12817271 swfUrl=http://www.ppvbay.com/player.swf pageUrl=http://www.ppvbay.com/view.php?pg=elite1 live=true timeout=10 </link>
+</item>	
 	
 </channel>
 <channel>
