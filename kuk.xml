@@ -2804,10 +2804,7 @@
 
 <item>
 <title>Bein</title>
-<multilink>
-<link>rtmp://edge01-01.nl.myvideo.ge/dvrh264/silk_football/mp4:silk_football swfUrl=http://www.myvideo.ge/dvr/dvrStretch2.swf?v=1.91 live=1 pageUrl=http://www.myvideo.ge/ </link>
-<link>http://62.210.93.190:1935/edge/757 playpath=757 swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf live=1 pageUrl=https://www.livego.tv/video/524 timeout=10 </link>
-</multilink>
+<link>http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8 </link>
 </item>
 
 
