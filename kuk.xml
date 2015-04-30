@@ -2797,8 +2797,8 @@
 </item>	
 
 <item>
-<title>GolTv</title>
-<link>rtmp://31.7.56.254:1935/stream/ playpath=8QaZfLVfC9.stream swfUrl=http://thecdn.04stream.com/p/ooolo1.swf live=1 pageUrl=http://www.04stream.com/magellan timeout=10</link>
+<title>GolT</title>
+<link>http://62.210.93.190:1935/live playpath=757 swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf live=1 pageUrl=https://www.livego.tv timeout=10</link>
 </item>	
 	
 	
