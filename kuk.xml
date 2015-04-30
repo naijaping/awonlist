@@ -2794,7 +2794,12 @@
 <item>
 <title> XXX</title>
 <link>rtmp://edge01-01.nl.myvideo.ge/dvrh264/silk_football/mp4:silk_football swfUrl=http://www.myvideo.ge/dvr/dvrStretch2.swf?v=1.91 live=1 pageUrl=http://www.myvideo.ge/ </link>
-</item>		
+</item>	
+
+<item>
+<title>GolTv</title>
+<link>http://goltv-stream.fubotv.com.global.prod.fastly.net/UT-Origin/ngrp:golTV_all/chunklist_b1096000.m3u8</link>
+</item>	
 	
 	
 </channel>
