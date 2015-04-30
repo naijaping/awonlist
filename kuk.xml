@@ -2798,7 +2798,7 @@
 
 <item>
 <title>GolTv</title>
-<link>http://goltv-stream.fubotv.com.global.prod.fastly.net/UT-Origin/ngrp:golTV_all/chunklist_b1096000.m3u8</link>
+<link>rtmp://31.7.56.254:1935/stream/ playpath=8QaZfLVfC9.stream swfUrl=http://thecdn.04stream.com/p/ooolo1.swf live=1 pageUrl=http://www.04stream.com/magellan timeout=10</link>
 </item>	
 	
 	
