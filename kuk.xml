@@ -2821,15 +2821,7 @@
 
 
 
-<item>
-<title>Bein</title>
-<multilink>
-<title>BT 1</title>
-<link>rtmp://142.4.216.205/live/ch10 swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf pageUrl=http://rarehost.net/amember/vip/10.php live=true timeout=20 token=WY846p1E1g15W7s</link>
-<title>BT 1 Link 2</title>
-<link>rtmp://94.23.53.51:1935/send/ssnewshd.stream swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf pageUrl=http://rarehost.net/amember/vip/ssnewshd.php live=true timeout=20 token=WY846p1E1g15W7s</link>
-</multilink>
-</item>
+
 	
 	
 </channel>
