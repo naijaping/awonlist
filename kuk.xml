@@ -2813,7 +2813,12 @@
 <link>http://bit.do/3SXC</link>
 </item>	
 
-
+<item>
+<title>Espn</item>
+<link>rtmp://....</link>
+<link>http:/...m3u</link>
+<link>$doregex[rtmp] blah blah</link>
+</item>
 
 
 
