@@ -2814,9 +2814,9 @@
 </item>	
 
 <item>
-<title>Espn</item>
-<link>rtmp://....</link>
-<link>http:/...m3u</link>
+<title>Espn</title>
+<link>rtmp://yahoo</link>
+<link>http:/yahoo</link>
 <link>$doregex[rtmp] blah blah</link>
 </item>
 
