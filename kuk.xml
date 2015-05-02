@@ -2814,10 +2814,19 @@
 </item>	
 
 <item>
-<title>Espn</title>
-<link>rtmp://yahoo</link>
-<link>http:/google</link>
-<link>omoba</link>
+<title>MUBO TV</title>
+<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf pageUrl=https://www.livego.tv live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>base="(.*)"</expres>
+<page>https://www.livego.tv/video/524/9</page>
+</regex>
+<regex>
+<name>path</name>
+<expres>src="(.*)"</expres>
+<page>https://www.livego.tv/video/524/9</page>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
 
