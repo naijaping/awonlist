@@ -2848,6 +2848,11 @@
 <link>http://livehds.rasset.ie/hds-live/_definst_/rsw5/rsw5_576p/master.m3u8|X-Forwarded-For=188.226.135.134</link>
 </item>	
 
+<item>
+<title>NHD</title>
+<link>http://livehds.rasset.ie/hds-live/streams/events/_definst_/newsnow/newsnow_288pSeg140-Frag13962</link>
+</item>	
+
 	
 	
 </channel>
