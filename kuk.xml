@@ -2820,7 +2820,7 @@
 
 <item>
 <title>Lagos TV</title>
-<link>http://wpc.12bc9.kappacdn.net/hls-live/2012BC9/default/LAGOSTV/ltv_1200.m3u8?608edfab8a31cdb2906f767923e21035c7696807555fd6f720a8fbf339ecfd61dae2</link>
+<link>http://wpc.12bc9.kappacdn.net/hls-live/2012BC9/default/lagosTV/ltv_1200.m3u8?608edfab8a31cdb2906f767923e21035c7696807555fd6f720a8fbf339ecfd61dae2</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ll/lagos_television.png</thumbnail>
 </item>	
 
@@ -2848,10 +2848,7 @@
 <link>http://livehds.rasset.ie/hds-live/_definst_/rsw5/rsw5_576p/master.m3u8|X-Forwarded-For=188.226.135.134</link>
 </item>	
 
-<item>
-<title>NHD</title>
-<link>http://livehds.rasset.ie/hds-live/streams/events/_definst_/newsnow/newsnow_288p/master.m3u8</link>
-</item>	
+
 
 	
 	
