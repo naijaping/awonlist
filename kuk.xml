@@ -2845,9 +2845,14 @@
 
 <item>
 <title>RT Jr</title>
-<link>http://livehds.rasset.ie/hds-live/_definst_/rsw5/rsw5_576p/master.m3u8|X-Forwarded-For=188.226.135.134</link>
+<link>http://livehds.rasset.ie/hls-live/_definst_/rsw5/rsw5_540p.m3u8|X-Forwarded-For=188.226.135.134</link>
 </item>	
 
+
+<item>
+<title>RTP news</title>
+<link>http://livehls.rasset.ie/hls-live/_definst_/newsnow/newsnow_540p.m3u8</link>
+</item>
 
 <item>
 <title>HD0</title>
