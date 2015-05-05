@@ -2876,19 +2876,10 @@
 
 <item>
 <title>ly</title>
-<link>https://87.248.214.212.lon.llnw.net/mediaexcel01/channel01/5/prog_index.m3u8</link>
+<link>https://87.248.214.212:80.lon.llnw.net/mediaexcel01/channel01/5/prog_index.m3u8</link>
 </item>	
 
-<item>
-<title>Sub TV</title>
-<link>http://live.cdn.tvplayer.com/mediaexcel01/channel01/5/prog_index.m3u8?cdnKey=$doregex[key]</link>
-<regex>
-<name>key</name>
-<expres>cdnKey=(.*)</expres>
-<page>http://live.cdn.tvplayer.com/mediaexcel01/channel01/5/prog_index.m3u8</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 	
 	
 </channel>
