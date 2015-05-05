@@ -2872,6 +2872,12 @@
 <link>rtmp://w13.vmnode.pw:1935/live playpath=tsn swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/tsnmix.php live=true timeout=20</link>
 <link>http://80.77.52.6:4314/udp/230.0.4.1:12345</link>
 </item>	
+
+
+<item>
+<title>ly</title>
+<link>http://live.cdn.tvplayer.com/mediaexcel01/channel01/5/prog_index.m3u8</link>
+</item>	
 	
 	
 </channel>
