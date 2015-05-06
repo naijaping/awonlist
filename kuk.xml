@@ -2908,8 +2908,8 @@
 <regex>
 <name>get-urlunquote</name>
 <expres>$pyFunction:urllib.unquote_plus('$doregex[get-url]')</expres>
-<page></page>
-<referer></referer>
+<page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/89</page>
+<referer>http://tvplayer.com/watch/bbcone</referer>
 </regex>
 </item>
 
