@@ -2879,6 +2879,17 @@
 <link>https://llnw.live.simplestream.com/mediaexcel01/channel01/5/prog_index.m3u8</link>
 </item>	
 
+<item>
+<title>STV</title>
+<link>http://cdn.tvcatchup.com/bbcone.m3u8?cdnKey=$doregex[key]</link>
+<regex>
+<name>key</name>
+<expres>cdnKey=(.*)</expres>
+<page>http://cdn.tvcatchup.com/bbcone.m3u8</page>
+</regex>
+<thumbnail>http://www.sub.tv/wp-content/uploads/2014/05/wordpress_logo_dark2.png</thumbnail>
+</item>
+
 
 	
 	
