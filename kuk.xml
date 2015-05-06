@@ -2897,7 +2897,7 @@
 
 
 <item>
-<title> BBC One</title>
+<title> BBCOne</title>
 <link>$doregex[get-urlunquote]</link>
 <regex>
 <name>get-url</name>
@@ -2907,7 +2907,7 @@
 </regex>
 <regex>
 <name>get-urlunquote</name>
-<expres $pyFunction:urllib.unquote_plus('$doregex[get-url]')</expres>
+<expres $pyFunction:urllib.unquote('$doregex[get-url]')</expres>
 <page></page>
 <referer></referer>
 </regex>
