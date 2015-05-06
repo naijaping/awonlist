@@ -2887,7 +2887,7 @@
 
 <item>
 <title> BBC One</title>
-<link>$doregex[get-urlunquote]</link>
+<link>$doregex[get-urlquote]</link>
 <regex>
 <name>get-url</name>
 <expres>"stream":"(.*?)"</expres>
@@ -2895,8 +2895,8 @@
 <referer>http://tvplayer.com/watch/bbcone</referer>
 </regex>
 <regex>
-<name>get-urlunquote</name>
-<expres>$pyFunction:urllib.unquote('$doregex[get-url]')</expres>
+<name>get-urlquote</name>
+<expres>$pyFunction:urllib.quote('$doregex[get-url]')</expres>
 <page></page>
 <referer></referer>
 </regex>
