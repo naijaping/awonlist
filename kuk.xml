@@ -2897,7 +2897,7 @@
 
 
 <item>
-<title> BBC One</title>
+<title> BBC0</title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
