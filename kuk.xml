@@ -2884,7 +2884,7 @@
 <link>http://cdn.tvcatchup.com/bbcone.m3u8?cdnKey=$doregex[key]</link>
 <regex>
 <name>key</name>
-<expres>cdnKey=(.*?)</expres>
+<expres>cdnKey=(*?)</expres>
 <page>http://cdn.tvcatchup.com/bbcone.m3u8</page>
 </regex>
 <thumbnail></thumbnail>
