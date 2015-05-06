@@ -2881,11 +2881,11 @@
 
 <item>
 <title>STV</title>
-<link>http://srv2cdn.tvcatchup.com/bbcone.m3u8?clientKey=$doregex[key]</link>
+<link>http://cdn.tvcatchup.com/bbcone.m3u8?cdnKey=$doregex[key]</link>
 <regex>
 <name>key</name>
-<expres>clientKey=(.*)</expres>
-<page>http://srv2cdn.tvcatchup.com/bbcone.m3u8</page>
+<expres>cdnKey=(.*?)</expres>
+<page>http://cdn.tvcatchup.com/bbcone.m3u8</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
