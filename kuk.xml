@@ -2885,8 +2885,7 @@
 </item>
 
 
-<item>
-<title> BBC One</title>
+<title>BBCOne</title>
 <link>$doregex[get-urlunquote]</link>
 <regex>
 <name>get-url</name>
