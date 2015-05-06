@@ -2896,7 +2896,7 @@
 </regex>
 <regex>
 <name>get-urlunquote</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
+<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/').replace('https', 'http')</expres>
 <page></page>
 <referer></referer>
 </regex>
