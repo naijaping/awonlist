@@ -2917,6 +2917,21 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+			<title>master</title>
+			<link>plugin://plugin.video.f4mTester/?url=$doregex[get-urlencoded]&amp;auth=pvtoken=exp%3D9999999999%7Eacl%3D%252f%252a%7Edata%3DZXhwPTE0MDc3MjY1NDN+YWNsPSUyZip+ZGF0YT1wdmMsc35obWFjPTM0MjA3YTQ3MzY3Yzg3MDg1NzE4ODllYWFiNTY0ZGZiZWFkNmE1YzdlMGNhMGU4MmI0OWYwODdhY2I4YWJkZmY%3D%2196e4sdLWrezE46RaCBzzP43/LEM5en2KujAosbeDimQ%3D%7Ehmac%3D2AA3E9BD61EC957996CFAC754462A786C5ED62A96052B222DAC2C0035AEC7B66&hdntl=exp=1407726543~acl=%2f*~data=hdntl~hmac=8f4bbcfcf6fcfd5afd5cf47b275887c421990f8bde35e9f4da79540fa203fe45&als=0,2,0,0,0,NaN,0,0,0,30,f,53716579.66,53716589.97,t,s,UGLENDKFJKPW,2.11.3,30&hdcore=2.11.3</link>
+			<regex>
+				<name>get-urlencoded</name>
+				<expres>$pyFunction:urllib.quote_plus('$doregex[get-url]' '&amp;hdcore=2.11.3|X-Forwarded-For=77.132.237.189&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:30.0) Gecko/20100101 Firefox/30.0')</expres>
+				<page></page>
+			</regex>
+ 
+			<regex>
+				<name>get-url</name>
+				<expres>(.*)</expres>
+				<page>http://w...content-available-to-author-only...t.tv/get/nt1live/591997?getURL=1</page>
+			</regex>
+		</item>
 		
 
 </channel>
