@@ -2885,6 +2885,19 @@
 </item>
 
 
+<item>
+<title>Africa TV</title>
+<link>http://live.cdn.tvplayer.com/mediaexcel01/channel01/5/prog_index.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.tvplayer.com/watch/bbcone</page>
+<referer></referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/voxafrica_afrique.png</thumbnail>
+</item>
+
+
 
 	
 	
