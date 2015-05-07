@@ -2907,13 +2907,7 @@
 
 <item> 
 <title>THD</title>
-<link>http://iphone-streaming.ustream.tv/ustreamVideo/$doregex[path]/streams/live/playlist.flv</link>
-<regex>
-<name>path</name>
-<expres>"https://www.ustream.tv/embed/(.+?)"></expres>
-<page>http://www.ustream.tv/channel/9662930</page>
-<referer></referer>
-</regex>
+<link>http://live.cdn.tvplayer.com/mediaexcel01/channel03/5/prog_index.m3u8?e=1431033474&h=e37db93398d1eaca09ccc207ef3f2c30</link>
 <thumbnail></thumbnail>
 </item> 
 
