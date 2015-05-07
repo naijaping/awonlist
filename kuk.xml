@@ -2905,16 +2905,17 @@
 <link>http://apniapps.ddns.net:8080/sp1/sp0RT1/index.m3u8|X-Requested-With:ShockwaveFlash/17.0.0.169</link>
 </item>
 
-<item>
-<title>Nigeria</title>
-<link>$doregex[get-link]</link>
+<item> 
+<title>TV HD</title>
+<link>http://iphone-streaming.ustream.tv/ustreamVideo/$doregex[path]/streams/live/playlist.m3u8</link>
 <regex>
-<name>get-link</name>
-<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/9662930/streams/live/playlist.m3u8')</expres>
-<page></page>
-</regex> 
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/ait_national.png</thumbnail>
-</item>
+<name>path</name>
+<expres>"https://www.ustream.tv/embed/(.+?)"></expres>
+<page>http://www.ustream.tv/channel/9662930</page>
+<referer>http://www.moviespremiumhd.com/2015/04/sasshafilms.html</referer>
+</regex>
+<thumbnail></thumbnail>
+</item> 
 
 	
 	
