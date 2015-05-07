@@ -2912,7 +2912,7 @@
 <name>path</name>
 <expres>"https://www.ustream.tv/embed/(.+?)"></expres>
 <page>http://www.ustream.tv/channel/9662930</page>
-<referer> </referer>
+<referer>http://www.ustream.tv/channel/sasshaa-films</referer>
 </regex>
 <thumbnail></thumbnail>
 </item> 
