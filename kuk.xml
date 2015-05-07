@@ -2887,17 +2887,7 @@
 
 <item>
 <title>Tv9 Gujarati Live</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=tXybylqIyVM</page>
-</regex>
+<link>http://live.cdn.tvplayer.com/mediaexcel01/channel06/5/prog_index.m3u8?e=1426521614&h=0e209f87c6efb62a08a82f2b1bee3613</link>
 </item>
 
 
