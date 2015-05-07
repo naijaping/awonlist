@@ -2918,7 +2918,7 @@
 </item>
 
 <item>
-<title>mum</title>
+<title>muma</title>
 <link>http://live.cdn.tvplayer.com/mediaexcel01/channel02/5/prog_index.m3u8$doregex[get-token]</link>
 <regex>
 <name>get-token</name>
