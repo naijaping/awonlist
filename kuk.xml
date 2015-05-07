@@ -2917,15 +2917,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-			<title>giniko</title>
-			<link>$doregex[url]</link>
-				<regex>
-				<name>url</name>
-				<expres>file: "([^"]*)</expres>
-				<page>http://g...content-available-to-author-only...o.com/watch.php?id=190</page>
-				</regex>
-				</item>
+		
 
 </channel>
 <channel>
