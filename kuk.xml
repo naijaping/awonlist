@@ -2931,7 +2931,7 @@
                         <page>http://football-hd.com/index.php?ajax=invoke</page>
                         <referer>http://football-hd.com</referer>
                         <x-req>XMLHttpRequest</x-req>
-                        <post>lang:default,loc:modules/live_tv/LiveTV.ajax.php,met:getChannel,params:296</post>
+                        <post>lang:default,loc:modules/live_tv/LiveTV.ajax.php,met:getChannel,params:371</post>
                         <cookiejar>$doregex[cookie]</cookiejar>
                         </regex>
                         <regex>
