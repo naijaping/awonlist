@@ -2624,6 +2624,16 @@
 	</regex>
 	</item>
 	
+	<item>
+	<title>FRANCE 24</title> 
+	<link>$doregex[get-url]|User-Agent=extrawatch_agent</link> 
+	<thumbnail></thumbnail> 
+	<regex>
+	<name>get-url</name>
+	<expres>source src="([^"]*)</expres>
+	<page>http://www.stream4free.eu/france-24</page>
+	</regex>
+	</item>
 
 
 </channel>
