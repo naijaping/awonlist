@@ -2636,12 +2636,12 @@
 	</item>
 <item>
 <title>Captain News [Server:1]</title>
-<link>http://50.7.175.252:1940/chliveios/captainnews/chunklist_w$doregex[id].m3u8</link>
+<link>http://cctv2-lh.akamaihd.net/i/hoanick_live@$doregex[id]/master.m3u8</link>
 <regex>
 <name>id</name>
-<expres>chunklist_w([^.]*)</expres>
-<page>http://50.7.175.252:1940/chliveios/captainnews/playlist.m3u8</page>
-<referer>http://watchsuntv.com/tv_episodes/system/1.0/custom/js/jwplayer/jwplayer.flash.swf</referer>
+<expres>master([^.]*)</expres>
+<page>http://cctv2-lh.akamaihd.net/i/hoanick_live/master.m3u8</page>
+<referer>https://connectcast.tv/jwplayer/AkamaiAdvancedJWStreamProvider.swf</referer>
 </regex>
 <thumbnail></thumbnail>
 <fanart>http://imageshack.com/a/img812/451/wi78.jpg</fanart>
