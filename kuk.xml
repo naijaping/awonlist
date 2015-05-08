@@ -535,29 +535,6 @@
 <thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/SPONGEBOB.jpg</thumbnail>
 </item> 
 
-<item>
-<title>Disney</title>
-<link>http://37.48.118.32/live/disneyy.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.tvone1.com/disney-channel/</page>
-<referer>http://www.finecast.tv/</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/disney_channel_de.png</thumbnail>
-</item>
-
-<item>
-<title>Disney JR</title>
-<link>http://37.48.118.32/live/disneyjr.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.tvone1.com/disney-junior</page>
-<referer>http://www.finecast.tv/channel.php?u=disneyjr</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/disney_junior_us.png</thumbnail>
-</item>
 
 <item>
 <title>Disney XD</title>
@@ -581,29 +558,6 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/boomerang_global.png</thumbnail>
 </item>
 
-<item>
-<title>Nickelodeon</title>
-<link>http://37.48.118.32/live/nick.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.tvone1.com/nickelodeon/</page>
-<referer>http://www.finecast.tv/channel.php?u=nick666</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nickelodeon_us.png</thumbnail>
-</item>
-
-<item>
-<title>Cartoon Network</title>
-<link>http://37.48.118.32/live/cnet.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.tvone1.com/cartoon-network</page>
-<referer>http://www.finecast.tv/channel.php?u=cn888</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/cartoon_network_global.png</thumbnail>
-</item>
 
 <item>
 <title>Tom and Jerry</title>
@@ -1087,13 +1041,6 @@
 
 
 <item>
-<title>CMD VIVO</title>
-<link>rtmp://207.244.77.15:1935/iguide playpath=b06v28xdlzby4xy swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/embedplayer_new.php?width=650&height=400&channel=30408&autoplay=true token=#ed%h0#w18623jsda6523lDGD</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>   
-
-<item>
 <title>NBCSN</title>
 <link>$doregex[getIlive]</link>
 <regex>
@@ -1328,60 +1275,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>The Walking Dead</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
-<regex>
-<name>getlink</name>
-<expres>source src="([^"]*)</expres>
-<page>http://www.stream4free.eu/the-walking-dead</page>
-</regex>
-<thumbnail>http://www.thelandofshadow.com/wp-content/uploads/2015/01/WalkingDeadLogo.jpg</thumbnail>
-</item> 
-
-<item>
-<title>American Dad</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
-<regex>
-<name>getlink</name>
-<expres>source src="([^"]*)</expres>
-<page>http://www.stream4free.eu/american-dad</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>South Park</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
-<regex>
-<name>getlink</name>
-<expres>source src="([^"]*)</expres>
-<page>http://www.stream4free.eu/south-park-hd</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Breaking Bad</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
-<regex>
-<name>getlink</name>
-<expres>source src="([^"]*)</expres>
-<page>http://www.stream4free.eu/breaking-bad</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Man VS Wild</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
-<regex>
-<name>getlink</name>
-<expres>source src="([^"]*)</expres>
-<page>http://www.stream4free.eu/man-vs-wild-en</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 <item>
 <title> Zenga Tv</title>
@@ -1914,26 +1807,6 @@
 </item>
 
 <item>
-<title> New Zealand vs Afghanistan | Cricket</title>
-<link>rtmpe://l.xuscacamusca.se/r/ playpath=fafasdfa116 swfUrl=http://mybeststream.xyz/MDc1YmEyNzUwMzc4MWNkYzM5NmY5ZGFm/jwplayer.flash.swf pageUrl=http://mybeststream.xyz/?id=28439&width=600&height=420 live=1 timeout=15</link>
-<thumbnail></thumbnail>
-</item>
-
-
-
-<item>
-<title>A t2</title>
-<link>http://ohtv.bc-s.cdn.bitgravity.com/cdn/_definst_/ohtv/secure/vod/in_a_wom_mind_pt1_HD.mp4/playlist.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>HBO Movie Plus  Latino</title>
-<sportsdevil>http://shidurlive.com/embed/hboplus</sportsdevil>
-<referer>http://www.moviespremiumhd.com</referer>
-</item>
-
-<item>
 <title>StepFB FOX 1</title>
 <link>$doregex[url]|User-Agent=iPad</link>
 <regex>
@@ -1970,14 +1843,9 @@
 </regex>
 </item>
 
-<item>
-<title>dd national</title>
-<link>http://109.123.70.24/lon1/mp4:hfujdgbp.stream/playlist.m3u8</link<thumbnail></thumbnail>
-</item>
 
 
-    
-    
+   
      <item>
      <title>youtube LIVE TV: AlJazeera HD</title>
      <link>$doregex[url]</link>
@@ -2019,12 +1887,6 @@
 
 
 <item>
-<title> AJ HD</title>
-<link>http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtp1.smil/playlist.m3u8</link>
-</item>
-
-
-<item>
 <title>UN1TY CH-3</title>
 <link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
 <regex>
@@ -2054,30 +1916,8 @@
 
 <item>
 <title>LOST</title>
-<link>http://ohtv.bc-s.cdn.bitgravity.com/cdn/_definst_/ohtv/secure/vod/t2s_xtra_s4_ep1_HD28.mp4\/playlist.m3u8?&amp;e=1426519718&amp;h=809ad7eb9926475d0e471539722c0b27</link>
+<link>http://ohtv.bc-s.cdn.bitgravity.com/cdn/_definst_/ohtv/secure/vod/t2s_xtra_s4_ep1_HD28.mp4/playlist.m3u8?&amp;e=1426519718&amp;h=809ad7eb9926475d0e471539722c0b27</link>
 </item>
-
-<item>
-<title> NTAo</title>
-<link>$doregex[get-url]</link>
-<regex>
-<name>get-url</name>
-<expres>file': '(.*?)'<expres>
-<page>http://www.ghanalive.tv/ghana-diaspora/</page>
-</regex>
-</item>
-
-
-<item>
-<title>port 4</title>
-<link>$doregex[get-link]</link>
-<regex>
-<name>get-link</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.ghanatvon.com/the-africa-channel-tv.html</page>
-</regex>  
-<thumbnail></thumbnail>
-</item>  
 
 <item>
 <title>sTV</title>
@@ -2085,51 +1925,11 @@
 <thumbnail></thumbnail>
 </item>
 
+ 
 <item>
-<title>beI nnus</title>
-<link>$doregex[streamer] playpath=$doregex[file] swfUrl=http://static.castalba.tv/player5.9.swf live=true timeout=15 swfVfy=true pageUrl=http://castalba.tv/</link>
-<thumbnail></thumbnail>
-<regex>
-<name>streamer</name>
-<expres>'streamer': '([^']*)</expres>
-<page>http://castalba.tv/embed.php?cid=24089&wh=600&ht=400</page>
-<referer>http://castalba.tv</referer>
-</regex>
-<regex>
-<name>file</name>
-<expres>'file': '([^']*)</expres>
-<page>http://castalba.tv/embed.php?cid=24089&wh=600&ht=400&r=intsports.net</page>
-<referer>http://castalba.tv</referer>
-</regex>
-</item>        
-        
-
-<item>
-<title>S TV</title>
+<title>Mtv us</title>
 <link>rtmp://83.218.202.202/live swfUrl=http://webtv.md/swf/WebTV.swf playpath=wt_mtv.stream</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/silverbird_tv.png </thumbnail>
-</item>
-
-
-<item>
-<title> RCCG City Of Davids</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>"hlsvp":"(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=$doregex[get-page]</page>
-<referer></referer>
-</regex>
-<regex>
-<name>get-page</name>
-<expres>data-context-item-id="([^"]+)</expres>
-<page>https://www.youtube.com/channel/UCo6uyrnKYeeMZssK8fAlW8Q</page>
-</regex>
+<thumbnail></thumbnail>
 </item>
 
 
@@ -2166,58 +1966,11 @@
 <link>http://cctv2-lh.akamaihd.net/i/lacasa2_live@125188/master.m3u8</link>
 </item>
 
-<item>
-<title>ka</title>
-<link>rtmp://cdnvideo.webvideocore.net:1935/livenl playpath=out_arwob65kemo84wk0skoc swfUrl=http://play.webvideocore.net/player3.swf live=1 pageUrl=http://www.africawebtv.com/tv/nig/katv.html</link>
-</item>
 
 <item>
 <title>Test</title>
 <link>http://wpc.12bc9.kappacdn.net/hls-live/2012BC9/default/NTA/nta_1200.m3u8?608edfab8a31cdb2906f767923e21035c7696807555fd6f720a8fbf339ecfd61dae2</link>
 </item>
-
-
-
-
-
-<item>
-<title>Sahara TV</title>
-<link>$doregex[get-m3u8]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
-<regex>
-<name>get-m3u8</name>
-<expres>76.*\s?(http.*?)\s</expres>
-<page>$doregex[get-page]</page>
-<agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>get-page</name>
-<expres>"m3u8_url":"(.*?)"</expres>
-<page>http://new.livestream.com/accounts/3504140/events/3922738</page>
-
-<cookieJar></cookieJar>
-</regex>
-</item> 
-
-<item>
-<title>SAMAA TV</title>
-<link>http://samaatr.videocdn.scaleengine.net/samaatr-iphone/play/samaatr_264k.stream/playlist.m3u8</link>
-<thumbnail>http://www.iesandresbenitez.es/documentos/curso%201314/multideportes/multide.png</thumbnail>
-</item>
-     	
-<item>
-<title>DUNYA NEWS</title>
-<link>http://imob.dunyanews.tv:1935/live/smil:stream.smil/playlist.m3u8</link>
-<thumbnail>http://www.iesandresbenitez.es/documentos/curso%201314/multideportes/multide.png</thumbnail>
-</item>	
-
-<item>
-<title>DUNYA</title>
-<link>rtmp://live1.gv.edge.filmon.com:8086/live/14.high.stream</link>
-<thumbnail>http://www.iesandresbenitez.es/documentos/curso%201314/multideportes/multide.png</thumbnail>
-</item>	
-
-
 
 
 <item>
@@ -2419,48 +2172,6 @@
 </item>
 
 
-<item>
-<title>IT 1</title>
-<link>http://94.198.255.211:5555/pl.m3u8?channel=89</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.png</thumbnail>
-</item>
-
-<item>
-<title>IT 2</title>
-<link>http://94.198.255.211:5555/pl.m3u8?channel=90</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv2.png</thumbnail>
-</item>
-
-<item>
-<title>IT 3</title>
-<link>http://94.198.255.211:5555/pl.m3u8?channel=91</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv3.png</thumbnail>
-</item>
-
-<item>
-<title>IT 4</title>
-<link>http://94.198.255.211:5555/pl.m3u8?channel=92</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv4.png</thumbnail>
-</item>
-
-<item>
-<title>E4</title>
-<link>http://94.198.255.211:5555/pl.m3u8?channel=93</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>4 More</title>
-<link>http://94.198.255.211:5555/pl.m3u8?channel=94</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Channel 4</title>
-<link>http://94.198.255.211:5555/pl.m3u8?channel=96</link>
-<thumbnail></thumbnail>
-</item>
-	
 <item>
 <title> vercosasgratis.com</title>
 <link>rtmp://$doregex[rtmp] playpath=$doregex[path] swfUrl=http://vercosasgratis.com/player.swf token=#ed%h0#w@12Fuck pageUrl=$doregex[get-iframe] live=1 timeout=10</link>
@@ -2895,27 +2606,7 @@
 </regex>
 </item>
 
-<item>
-                        <title>ESPN OnePlay</title>
-                        <link>$doregex[url]$doregex[analytics]|Cookie=$get_cookies$&amp;Referer=http://oneplay.tv/one-player/GrindPlayer.swf&amp;User-Agent=iPad</link>
-                        <regex>
-                        <name>analytics</name>
-                        <expres></expres>
-                        <page>http://live.oneplay.tv/analytics.php?id=389</page>
-                        <referer>http://oneplay.tv/embed/?i=7&amp;n=ESPN&amp;w=100%&amp;h=480</referer>
-                        <agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
-                        <cookieJar></cookieJar>
-                        </regex>
-                        <regex>
-                        <name>url</name>
-                        <expres>"video_src" href="(.*?)"</expres>
-                        <page>http://oneplay.tv/ver/canal/7/ESPN</page>
-                        <agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
-                        <cookieJar></cookieJar>
-                        </regex>
-                        <thumbnail>http://z.cdn.entutele.com/media/channels/big/vh1-hd.gif</thumbnail>
-                </item>
-	
+
 
 </channel>
 <channel>
