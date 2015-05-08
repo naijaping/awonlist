@@ -2631,7 +2631,7 @@
 <name>get-url</name>
 <expres>(http.*?)"</expres>
 <page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ohusa2&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8|X-Forwarded-For=50.192.92.89&amp;format=jsonp&amp;callback=jQuery21003127479157410562_1425573090144&amp;_=1425573090145</page>
-<referer>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ohusa2&amp;type=live&amp;service=wowza&amp;output=player</referer>
+<referer>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ohusa2&amp;type=live&amp;service=wowza&amp;output=player|X-Forwarded-For=50.192.92.89</referer>
 <cookieJar></cookieJar>
 <agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
 </regex>
