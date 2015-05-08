@@ -2634,18 +2634,19 @@
 	<page>http://www.stream4free.eu/france-24</page>
 	</regex>
 	</item>
-<item>
-<title>Captain News [Server:1]</title>
-<link>http://cctv2-lh.akamaihd.net/i/hoanick_live@$doregex[id]/master.m3u8</link>
-<regex>
-<name>id</name>
-<expres>master([^.]*)</expres>
-<page>http://cctv2-lh.akamaihd.net/i/hoanick_live/master.m3u8</page>
-<referer>https://connectcast.tv/jwplayer/AkamaiAdvancedJWStreamProvider.swf</referer>
-</regex>
-<thumbnail></thumbnail>
-<fanart>http://imageshack.com/a/img812/451/wi78.jpg</fanart>
-</item>
+	
+	
+	<item>
+	<title>24</title> 
+	<link>$doregex[get-url]|User-Agent=extrawatch_agent</link> 
+	<thumbnail></thumbnail> 
+	<regex>
+	<name>get-url</name>
+	<expres>source src="([^"]*)</expres>
+	<page>http://www.stream4free.eu/sex-live</page>
+	</regex>
+	</item>
+
 
 </channel>
 <channel>
