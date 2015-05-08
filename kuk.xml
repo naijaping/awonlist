@@ -247,7 +247,11 @@
 <fanart>http://www.lyngsat-logo.com/logo/tv/bb/bbc_world_news.png</fanart>
 </item>  
 
-
+<item>
+<title>Islam Channel</title>
+<link>rtmp://wowza04.sharp-stream.com/islamtv playpath=islamtv swfUrl=http://player.sharp-stream.com/player.swf live=1 pageUrl=http://www.centraltv.fr/angleterre-television/islam-channel</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/islam_channel.png</thumbnail>
+</item>
 
 <item>
 <title>BBC ONE</title>
