@@ -2625,10 +2625,21 @@
 	</item>
 
 <item>
-		<title>Highst</title>
-		<link>http://aljazeera-doc-apple-live.adaptive.level3.net/apple/aljazeera/hq-doc/1600kStream.m3u8</link>
-		</item>
-
+<title> BBC One</title>
+<link>$doregex[get-urlunquote]&amp;stream_session=1430944834504569617</link>
+<regex>
+<name>get-url</name>
+<expres>"stream":"(.*?)"</expres>
+<page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/89</page>
+<referer>http://tvplayer.com/watch/bbcone</referer>
+</regex>
+<regex>
+<name>get-urlunquote</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
+<page></page>
+<referer></referer>
+</regex>
+</item>
 
 </channel>
 <channel>
