@@ -2620,58 +2620,13 @@
 	</item>
 	
 	
-	<item>
-	<title>24</title> 
-	<link>$doregex[get-url]|User-Agent=extrawatch_agent</link> 
-	<thumbnail></thumbnail> 
-	<regex>
-	<name>get-url</name>
-	<expres>source src="([^"]*)</expres>
-	<page>http://www.stream4free.eu/sex-live</page>
-	</regex>
-	</item>
-
-<item>
-<title> BBC One</title>
-<link>$doregex[get-urlunquote]</link>
-<regex>
-<name>get-url</name>
-<expres>"stream":"(.*?)"</expres>
-<page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/89</page>
-<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
-</regex>
-<regex>
-<name>get-urlunquote</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
-<page></page>
-<referer></referer>
-</regex>
-</item>
+	
 
 
 
-<item>Geoblocked to UK
-<title>ITV 1</title>
-<link>http://live.cdn.tvplayer.com$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>(.*5\/.*)</expres>
-<page>$doregex[url2]</page>
-<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
-</regex>
-<regex>
-<name>url2</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>stream":"(.*?)"</expres>
-<page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/204</page>
-<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
+
+
 
 </channel>
 <channel>
