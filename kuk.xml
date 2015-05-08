@@ -2613,7 +2613,7 @@
 	<name>get-url</name>
 	<expres>(http.*?)"</expres>
 	<page>http://live.cdn.tvplayer.com/mediaexcel01/channel02/5/prog_index.m3u8&amp;format=jsonp</page>
-	<referer>http://live.cdn.tvplayer.com/mediaexcel01/channel02/5/prog_index.m3u8</referer>
+	<referer>http://www.tvplayer.com/watch/bbctwo</referer>
 	<cookieJar></cookieJar>
 	<agent></agent>
 	</regex>
@@ -2623,7 +2623,8 @@
 	<page></page>
 	</regex>
 	</item>
-
+	
+<item>
 <title>720p</title>
 <link>$doregex[get-finalURL]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</link>
 <regex>
