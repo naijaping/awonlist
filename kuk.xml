@@ -2606,23 +2606,7 @@
 </regex>
 </item>
 
-<item>
-	<title>coko test</title>
-	<link>$doregex[get-finalURL]</link>
-	<regex>
-	<name>get-url</name>
-	<expres>(http.*?)"</expres>
-	<page>http://live.cdn.tvplayer.com/mediaexcel01/channel02/5/prog_index.m3u8&amp;format=jsonp</page>
-	<referer>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/90</referer>
-	<cookieJar></cookieJar>
-	<agent></agent>
-	</regex>
-	<regex>
-	<name>get-finalURL</name>
-	<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
-	<page></page>
-	</regex>
-	</item>
+
 	
 	<item>
 	<title>FRANCE 24</title> 
@@ -2647,6 +2631,29 @@
 	</regex>
 	</item>
 
+
+<item>Geoblocked to UK
+<title>ITV 1</title>
+<link>http://live.cdn.tvplayer.com$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>(.*5\/.*)</expres>
+<page>$doregex[url2]</page>
+<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
+</regex>
+<regex>
+<name>url2</name>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>jsonurl</name>
+<expres>stream":"(.*?)"</expres>
+<page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/204</page>
+<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 </channel>
 <channel>
