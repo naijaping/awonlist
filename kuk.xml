@@ -2624,7 +2624,10 @@
 	</regex>
 	</item>
 
-
+<item>
+		<title>High</title>
+		<link>http://aljazeera-doc-apple-live.adaptive.level3.net/apple/aljazeera/hq-doc/1200kStream.m3u8</link>
+		</item>
 
 
 </channel>
