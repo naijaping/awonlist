@@ -2926,6 +2926,16 @@
 <page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/90</page>
 </regex>
 </item>
+
+<item>
+	<title>Low</title>
+	<link>$doregex[stream] swfUrl=http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf pageUrl=http://assets.cdn.tvplayer.com live=1 timeout=15</link>
+	<regex>
+	<name>stream</name>
+	<expres>file: "(.*?)"</expres>
+	<page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/90<</page>
+	</regex>
+	</item>
 		
 
 </channel>
