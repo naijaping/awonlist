@@ -2607,13 +2607,13 @@
 </item>
 
 <item>
-	<title>Main</title>
+	<title>coko</title>
 	<link>$doregex[get-finalURL]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</link>
 	<regex>
 	<name>get-url</name>
 	<expres>(http.*?)"</expres>
-	<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=hiptvmain&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp&amp;callback=jQuery21003127479157410562_1425573090144&amp;_=1425573090145</page>
-	<referer>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=hiptvmain&amp;type=live&amp;service=wowza&amp;output=player</referer>
+	<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=coko&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp&amp;callback=jQuery21003127479157410562_1425573090144&amp;_=1425573090145</page>
+	<referer>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=coko&amp;type=live&amp;service=wowza&amp;output=player</referer>
 	<cookieJar></cookieJar>
 	<agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
 	</regex>
