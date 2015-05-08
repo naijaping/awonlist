@@ -2933,13 +2933,7 @@
 
 <item>
 	<title>Low</title>
-	<link>$doregex[stream] swfUrl=http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf pageUrl=http://assets.cdn.tvplayer.com live=1 timeout=15</link>
-	<regex>
-	<name>stream</name>
-	<expres>"file: "(.*?)"</expres>
-	<page>http://www.tvplayer.com/watch/bbcone<</page>
-	<referer></referer>
-	</regex>
+	<link>rtmp://62.210.82.111/live2/sex?e=1431066179&amp;st=JOFA8l8hmZkSiMgc8uhKmA</link>
 	</item>
 		
 
