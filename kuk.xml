@@ -2620,16 +2620,15 @@
 </item>
 
 <item>
-<title>SubTV</title>
-<link>http://srv2.cdn.tvcatchup.com/channel5.m3u8?streamKey=$doregex[key]</link>
+<title>Sub TV</title>
+<link>http://cdn.tvcatchup.com/channel5.m3u8?streamKey=$doregex[key]</link>
 <regex>
 <name>key</name>
 <expres>streamKey=(.*)</expres>
-<page>http://srv2.cdn.tvcatchup.com/channel5.m3u8</page>
+<page>http://cdn.tvcatchup.com/channel5.m3u8</page>
 </regex>
 <thumbnail>http://www.sub.tv/wp-content/uploads/2014/05/wordpress_logo_dark2.png</thumbnail>
 </item>
-
 
 
 </channel>
