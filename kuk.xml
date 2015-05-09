@@ -2616,7 +2616,7 @@
 
 <item> 
 <title>NBC Esat</title>
-<link>http://nbcstreameast.nbcsports.com/nbc10/92c5b029-04b9-42f6-bd63-6531826a577b/geo3-nbc-sports-live-extra0410134153-ua.ism/manifest.m3u8|X-Forwarded-For=50.192.92.89</link>
+<link>http://nbcstreameast.nbcsports.com/vod/8ab7d4fc-c3eb-4bf3-84ce-da847df97ed3/main-cam0411220807.ism/manifest(format=m3u8-aapl-v3,filtername=vodcut)|X-Forwarded-For=50.192.92.89</link>
 <thumbnail></thumbnail>
 </item>	
 
