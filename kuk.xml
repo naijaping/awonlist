@@ -2619,7 +2619,7 @@
 	</regex>
 	</item>
 	
-	
+<item>	
 <title>ITV 1</title>
 <link>http://live.cdn.tvplayer.com$doregex[url]</link>
 <regex>
