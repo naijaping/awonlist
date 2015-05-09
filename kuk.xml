@@ -2612,12 +2612,6 @@
 <link>http://live.cdn.tvplayer.com/mediaexcel05/channel09/5/prog_index.m3u8</link>
 <regex>
 <name>url</name>
-<expres>(.*5\/.*)</expres>
-<page>$doregex[url2]</page>
-<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
-</regex>
-<regex>
-<name>url2</name>
 <expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
 <page></page>
 </regex>
