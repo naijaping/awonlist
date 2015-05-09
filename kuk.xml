@@ -2608,25 +2608,8 @@
 </item>
 	
 <item>Geoblocked to UK
-<title>ITV 1</title>
-<link>http://live.cdn.tvplayer.com$doregex[m3u8]</link>
-<regex>
-<name>m3u8</name>
-<expres>(.*5\/.*)</expres>
-<page>$doregex[url2]</page>
-<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
-</regex>
-<regex>
-<name>url2</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>stream":"(.*?)"</expres>
-<page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/210</page>
-<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
-</regex>
+<title>ITV vo</title>
+<link>http://laganvpn12.plus.com:9981/stream/channelid/82</link>
 <thumbnail></thumbnail>
 </item>
 
