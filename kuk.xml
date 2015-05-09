@@ -2612,7 +2612,7 @@
 <link>http://live.cdn.tvplayer.com$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>(.*8\/.*)</expres>
+<expres>(.*5\/.*)</expres>
 <page>$doregex[url2]</page>
 <referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
 </regex>
