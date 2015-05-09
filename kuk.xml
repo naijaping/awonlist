@@ -2636,6 +2636,15 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Nome Canale</title>
+<link>http://81.92.105.132:5555/pl.m3u8?channel=90&amp;key=$doregex[reg1]</link>
+<regex><name>reg1</name>
+<expres>(?!["'\s]+)&amp;key=([^"]+)</expres>
+<page>http://alltv.ch/channels</page>
+<referer></referer>
+</regex>
+</item>
 
 
 
