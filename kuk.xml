@@ -101,6 +101,13 @@
 <link>rtmp://78.129.189.30/edge3/PrestigeTv playpath=PrestigeTv app=edge3/PrestigeTv swfUrl=http://www.awooze.com/player.swf live=true flashVer=WIN\16,0,0,257 pageUrl=http://www.awooze.com timeout=15</link>
 <thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/PrestigeTV.jpg</thumbnail>
 </item>
+
+<item>
+<title>Cartoon Network</title>
+<link>http://d1hya96e2cm7qi.cloudfront.net/Live/_definst_/sweetbcha1novD28_W_150.sdp/master.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/cartoon_network_global.png</thumbnail>
+</item>
+
 		
 <item>
 <title>MITV</title>
