@@ -2615,7 +2615,7 @@
 
 <item>Geoblocked to UK
 <title>ITVv</title>
-<link>http://live.cdn.tvplayer.com$doregex[url]</link>
+<link>http://llnw.live.simplestream.com$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>(.*5\/.*)</expres>
