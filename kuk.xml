@@ -2618,7 +2618,7 @@
 </regex>
 <regex>
 <name>url2</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
 <page></page>
 </regex>
 <regex>
