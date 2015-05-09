@@ -2615,11 +2615,16 @@
 </item>
 
 <item> 
-<title>NBC Esat</title>
-<link>http://38.102.162.246/hls/554bba747e174/stream/playlist.m3u8</link>
+<title>Esat</title>
+<link>http://38.102.162.246/hls/554bba747e174/stream.m3u8</link>
 <thumbnail></thumbnail>
 </item>	
 
+<item> 
+<title>Nort</title>
+<link>http://154.57.145.78/hls/5501bedfb6a26/stream.m3u8</link>
+<thumbnail></thumbnail>
+</item>	
 
 
 
