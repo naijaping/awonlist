@@ -2624,7 +2624,7 @@
 <link>http://cdn.tvcatchup.com/channel5.m3u8?streamKey=$doregex[key]</link>
 <regex>
 <name>key</name>
-<expres>streamKey=(.*)</expres>
+<expres>streamKey=(.*?)</expres>
 <page>http://cdn.tvcatchup.com/channel5.m3u8</page>
 </regex>
 <thumbnail>http://www.sub.tv/wp-content/uploads/2014/05/wordpress_logo_dark2.png</thumbnail>
