@@ -2597,30 +2597,18 @@
 </item>
 
 <item>
-<title>muma</title>
-<link>http://live.cdn.tvplayer.com/mediaexcel01/channel02/5/prog_index.m3u8$doregex[get-token]</link>
+<title>FRANCE 24</title> 
+<link>$doregex[get-url]|User-Agent=extrawatch_agent</link> 
+<thumbnail></thumbnail> 
 <regex>
-<name>get-token</name>
-<expres>(.*)</expres>
-<page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/90</page>
+<name>get-url</name>
+<expres>source src="([^"]*)</expres>
+<page>http://www.stream4free.eu/france-24</page>
 </regex>
 </item>
-
-
-	
-	<item>
-	<title>FRANCE 24</title> 
-	<link>$doregex[get-url]|User-Agent=extrawatch_agent</link> 
-	<thumbnail></thumbnail> 
-	<regex>
-	<name>get-url</name>
-	<expres>source src="([^"]*)</expres>
-	<page>http://www.stream4free.eu/france-24</page>
-	</regex>
-	</item>
 	
 <item>	
-<title>ITV 1</title>
+<title>113</title>
 <link>http://live.cdn.tvplayer.com$doregex[url]</link>
 <regex>
 <name>url</name>
