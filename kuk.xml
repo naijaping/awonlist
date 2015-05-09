@@ -2607,12 +2607,28 @@
 </regex>
 </item>
 	
-<item>	
-<title>129</title>
-<link>http://cdn.live.tvplayer.simplestream.com/coder8/coder.channels.channel12/hls/3/playlist.m3u8</link>
+<item>Geoblocked to UK
+<title>ITV 1</title>
+<link>http://live.cdn.tvplayer.com$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>(.*5\/.*)</expres>
+<page>$doregex[url2]</page>
+<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
+</regex>
+<regex>
+<name>url2</name>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>jsonurl</name>
+<expres>stream":"(.*?)"</expres>
+<page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/257</page>
+<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
+</regex>
 <thumbnail></thumbnail>
 </item>
-
 
 
 
