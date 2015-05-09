@@ -2614,7 +2614,7 @@
 </item>
 
 <item>Geoblocked to UK
-<title>ITV 1</title>
+<title>ITVv</title>
 <link>http://live.cdn.tvplayer.com$doregex[url]</link>
 <regex>
 <name>url</name>
