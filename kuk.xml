@@ -2627,8 +2627,8 @@
 </item>	
 
 <item> 
-<title>CEB</title>
-<link>http://vs-hds-uk-live.edgesuite.net/pool_2/live/cbeebies_hd/cbeebies_hd.isml/cbeebies_hd-audio_1%3D128000-video%3D3500000.m3u8</link>
+<title>CEB0</title>
+<link>rtmp://w3.vmnode.pw:2195/live playpath=nbcsn swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/nbcsn1.php live=true timeout=20 </link>
 <thumbnail></thumbnail>
 </item>	
 
