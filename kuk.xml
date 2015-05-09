@@ -2615,42 +2615,6 @@
 </item>
 	
 
-<item> 
-<title>i2</title>
-<link>http://srv2.cdn.tvcatchup.com/channel5.m3u8?clientKey=e52b8e55e81dee99a4e8fd5d38dcae0e-MTQzMTE3MDkwMQ==&channelid=5&device=web&channel=5</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>Geoblocked to UK
-<title>CEE</title>
-<link>http://live.cdn.tvplayer.com$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>(.*5\/.*)</expres>
-<page>$doregex[url2]</page>
-<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
-</regex>
-<regex>
-<name>url2</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>stream":"(.*?)"</expres>
-<page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/114</page>
-<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item> 
-<title>2doo</title>
-<link>http://live.cdn.tvplayer.com/16UEOJXE3G3K4V10MW24/3/playlist.m3u8?e=1431192483&amp;h=d21d38701e81ddd1e94880929afaa0e2 </link>
-<thumbnail></thumbnail>
-</item>
-
 
 
 
