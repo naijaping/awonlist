@@ -2609,7 +2609,7 @@
 	
 <item>Geoblocked to UK
 <title>ITV 1</title>
-<link>http://live.cdn.tvplayer.com$doregex[url]</link>
+<link>http://live.cdn.tvplayer.com/mediaexcel05$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>(.*5\/.*)</expres>
@@ -2624,7 +2624,7 @@
 <regex>
 <name>jsonurl</name>
 <expres>stream":"(.*?)"</expres>
-<page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/204</page>
+<page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/210</page>
 <referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
 </regex>
 <thumbnail></thumbnail>
