@@ -2690,7 +2690,7 @@
 <regex>
 <name>url</name>
 <expres>file: "([^"]*)</expres>
-<page>http://www.giniko.com/watch.php?id=189</page>
+<page>http://www.giniko.com/watch.php?id=27</page>
 </regex>
 </item>
 
