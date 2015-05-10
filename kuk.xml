@@ -2662,10 +2662,10 @@
 
 <item>
 <title>Try Try</title>
-<link>rtmp://94.23.53.51:1935/send$doregex[get-auth]/ss1.stream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://rarehost.net/site/vip/live.php?id=1 live=true timeout=20 </link>
+<link>rtmp://94.23.53.51:1935/send$doregex[get-auth]/ss1.stream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=true timeout=20 </link>
 <regex>
 <name>get-auth</name>
-<expres>send(\?.*)"</expres>
+<expres>stream(\?.*)"</expres>
 <page>http://rarehost.net/site/vip/live.php?id=1</page>
 <referer>http://hqzone.tv</referer>
 </regex>
