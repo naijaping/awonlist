@@ -2701,7 +2701,7 @@
 
 <item> 
 <title>Et</title>
-<link>http://live-streamtv.de/live/hlstv/tstreams/index.m3u8?page_id=16&auth=eb0537e0d20a259a2762e2be0804dc6c&c=itv3</link>
+<link>http://live-streamtv.de/live/hlstv/tstreams/index.m3u8?page_id=16&auth=eb0537e0d20a259a2762e2be0804dc6c&c=itv3|X-Forwarded-For=93.210.15.68</link>
 <thumbnail></thumbnail>
 </item>	
 
