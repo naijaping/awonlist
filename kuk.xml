@@ -2684,7 +2684,15 @@
 </item>
 
 
-
+<item>
+<title>Qa</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://rarehost.net/site/vip/live.php?id=2</page>
+</regex>
+</item>
 
 
 
