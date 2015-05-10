@@ -2700,8 +2700,18 @@
 </item>
 
 <item>
-<title>truuuu</title>
+<title>DMAX</title>
 <link>http://81.92.105.132:5555/pl.m3u8?channel=18&amp;key=$doregex[reg1]</link>
+<regex><name>reg1</name>
+<expres>(?!["'\s]+)&amp;key=([^"]+)</expres>
+<page>http://alltv.ch/channels</page>
+<referer></referer>
+</regex>
+</item>
+
+<item>
+<title>DMA</title>
+<link>http://81.92.105.132:5555/pl.m3u8?channel=35&amp;key=$doregex[reg1]</link>
 <regex><name>reg1</name>
 <expres>(?!["'\s]+)&amp;key=([^"]+)</expres>
 <page>http://alltv.ch/channels</page>
