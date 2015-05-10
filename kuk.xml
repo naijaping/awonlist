@@ -2665,7 +2665,7 @@
 <link>rtmp://94.23.53.51:1935/send$doregex[get-auth]/ss1.stream </link>
 <regex>
 <name>get-auth</name>
-<expres>file':'(.*?)'</expres>
+<expres>file':'(\?.*)'</expres>
 <page>http://rarehost.net/site/vip/live.php?id=1</page>
 <referer>http://rarehost.net</referer>
 </regex>
