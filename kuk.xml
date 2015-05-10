@@ -2662,10 +2662,10 @@
 
 <item>
 <title>Try Try</title>
-<link>rtmp://94.23.53.51:1935/send$doregex[get-auth]/ss1.stream</link>
+<link>rtmp://94.23.53.51:1935/send/ss1.stream$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
-<expres>send(\?.*)"</expres>
+<expres>stream(\?.*)"</expres>
 <page>http://rarehost.net/site/vip/live.php?id=1</page>
 <referer>http://hqzone.tv/site/</referer>
 </regex>
