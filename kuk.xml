@@ -2665,11 +2665,11 @@
 <link>rtmp://94.23.53.51:1935/send$doregex[get-auth]/ss1.stream</link>
 <regex>
 <name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
+<expres>send(\?.*)"</expres>
 <page>http://rarehost.net/site/vip/live.php?id=1</page>
 <referer>http://hqzone.tv</referer>
 </regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_one.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
