@@ -2660,13 +2660,20 @@
 </regex>
 </item>
 
-<item>Geoblocked to UK
-<title>ITV 1</title>
-<link>http://live.cdn.tvplayer.com/B4SCHSKSW1UM1TNTD5HQ/playlist.m3u8?e=1431235923&amp;h=50fc72533360a38ca4071bb8afd4184e</link>
-<thumbnail></thumbnail>
-</item>
-
-
+<item>
+			<title> (filmon high)</title>
+			<link>rtmp://$doregex[url] app=live/$doregex[key] playpath=11.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
+           <regex>
+            <name>url</name>
+            <expres>rtmp:....([^\\]*)</expres>
+            <page>http://www.filmon.com/tv/channel/export?channel_id=11</page>
+           </regex>
+           <regex>
+            <name>key</name>
+            <expres>rtmp[^?]*(\?id=[^"]*)</expres>
+            <page>http://www.filmon.com/tv/channel/export?channel_id=11</page>
+           </regex>
+		</item>
 
 
 
