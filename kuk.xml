@@ -2699,18 +2699,6 @@
 </regex>
 </item>
 
-<item>
-<title>BBC ONE</title>
-<link>http://10g.livecache.org/pull/fox/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.wezatv.com/dooball/fox.php</page>
-<referer>http://www.wezatv.com/dooball/fox.php</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 
 
 
