@@ -2716,7 +2716,7 @@
 <regex>
 <name>jsonurl</name>
 <expres>stream":"(.*?)"</expres>
-<page>http://live.cdn.tvplayer.com/mediaexcel01/channel05/5/prog_index.m3u8?e=1431301720&h=60d13d6e0bd2f74a8e5d0a0d7022679d</page>
+<page>http://www.tvplayer.com/watch/channel5</page>
 <referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
 </regex>
 <thumbnail></thumbnail>
