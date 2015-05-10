@@ -2661,19 +2661,16 @@
 </item>
 
 <item>
-			<title> (filmon high)</title>
-			<link>rtmp://$doregex[url] app=live/$doregex[key] playpath=11.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
-           <regex>
-            <name>url</name>
-            <expres>rtmp:....([^\\]*)</expres>
-            <page>http://www.filmon.com/tv/channel/export?channel_id=11</page>
-           </regex>
-           <regex>
-            <name>key</name>
-            <expres>rtmp[^?]*(\?id=[^"]*)</expres>
-            <page>http://www.filmon.com/tv/channel/export?channel_id=11</page>
-           </regex>
-		</item>
+<title>Try Try</title>
+<link>rtmp://94.23.53.51:1935/send$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>send(\?.*)"</expres>
+<page>http://rarehost.net/site/vip/live.php?id=1</page>
+<referer>http://rarehost.net</referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_one.png</thumbnail>
+</item>
 
 
 
