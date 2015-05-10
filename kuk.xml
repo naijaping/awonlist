@@ -2700,7 +2700,7 @@
 </item>
 
 <item>Geoblocked to UK
-<title>MUM</title>
+<title>MUMi</title>
 <link>http://live.cdn.tvplayer.com$doregex[url]</link>
 <regex>
 <name>url</name>
