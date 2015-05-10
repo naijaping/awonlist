@@ -2662,7 +2662,7 @@
 
 <item>
 <title>Try Try</title>
-<link>rtmp://94.23.53.51:1935/send/ss1.stream$doregex[get-auth]</link>
+<link>rtmp://94.23.53.51:1935/send$doregex[get-auth]/ss1.stream</link>
 <regex>
 <name>get-auth</name>
 <expres>stream(\?.*)"</expres>
