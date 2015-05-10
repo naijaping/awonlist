@@ -2712,7 +2712,7 @@
 
 <item>
 <title>DMA</title>
-<link>http://ak.live.hls.c4assets.com/hls/m4/master.m3u8 token=K7GpzV3Z1e9TtGTS6ZsBA+FG8dGrZGJlvgIm2l3cd4Aua35inYkPIlwpeJbHg50OZmnmJY+T9iSy7DVzzVNw+/9f4lf+bdhisRooh+xbr+e4YVWs20Xd8j/cp0UmZ3jaHSGbOMrttCkO4hlr/LuVhG8</link>
+<link>http://ak.live.hls.c4assets.com/hls/m4/master.m3u8|User-Agent=extrawatch_agent</link>
 </regex>
 </item>
 
