@@ -2711,11 +2711,7 @@
 
 <item>
 <title>DMA</title>
-<link>http://81.92.105.132:5555/pl.m3u8?channel=21&amp;key=$doregex[reg1]</link>
-<regex><name>reg1</name>
-<expres>(?!["'\s]+)&amp;key=([^"]+)</expres>
-<page>http://alltv.ch/channels</page>
-<referer></referer>
+<link> http://ak.live.hls.c4assets.com/hls/m4/master.m3u8</link>
 </regex>
 </item>
 
