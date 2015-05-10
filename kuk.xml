@@ -2706,7 +2706,7 @@
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
 <page>http://www.wezatv.com/dooball/fox.php</page>
-<referer>http://www.wezatv.com/</referer>
+<referer>http://www.wezatv.com/dooball/fox.php</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
