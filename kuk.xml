@@ -2700,16 +2700,16 @@
 </item>
 
 <item>
-			<title>coolhd</title>
-			<link>$doregex[get-link] timeout=20</link>
-				<regex>
-				<name>get-link</name>
-				<expres>"image":"","file":"(.*?)"</expres>
-				<page>http://www.sportnews24hour.com/p/bein-sports-1.html</page>
-				</regex>  
-			</item>
-
-
+<title>BBC ONE</title>
+<link>http://10g.livecache.org/pull/fox/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.wezatv.com/dooball/fox.php</page>
+<referer>http://www.wezatv.com/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
