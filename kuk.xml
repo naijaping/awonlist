@@ -2727,7 +2727,7 @@
 <regex>
 <name>url2</name>
 <expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
-<page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/89</page>
+<page></page>
 </regex>
 <regex>
 <name>jsonurl</name>
