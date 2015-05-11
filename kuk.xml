@@ -2737,7 +2737,7 @@
 </regex>
 <regex>
 <name>jsonurl</name>
-<expres>stream":"(.*?)"</expres>
+<expres>"stream":"(.*?)"</expres>
 <page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/258</page>
 <referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
 </regex>
