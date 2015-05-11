@@ -2712,7 +2712,7 @@
 
 <item>
 <title>DMA</title>
-<link>http://ak.live.hls.c4assets.com/hls/m4/master.m3u8</link>
+<link>http://ak.live.hls.c4assets.com/hls/m4/master.m3u8|X-Requested-With:ShockwaveFlash/17.0.0.169</link>
 </regex>
 </item>
 
