@@ -2724,7 +2724,7 @@
 <link>$doregex[get-urlunquote]</link>
 <regex>
 <name>get-url</name>
-<expres>"stream":"(.*?)"</expres>
+<expres>"stream":"(.*)"</expres>
 <page>http://ais.channel4.com/simulcast/m4?client=ios</page>
 <referer>http://www.channel4.com/now/m4</referer>
 </regex>
