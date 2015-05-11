@@ -2718,7 +2718,7 @@
 
 <item>Geoblocked to UK
 <title>ITVhh</title>
-<link>http://live.cdn.tvplayer.com$doregex[url]</link>
+<link>http://live.cdn.tvplayer.com$doregex[url]|User-Agent=extrawatch_agent</link>
 <regex>
 <name>url</name>
 <expres>(.*5\/.*)</expres>
