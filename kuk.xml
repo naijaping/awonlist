@@ -2717,6 +2717,32 @@
 </item>
 
 
+
+
+<item>Geoblocked to UK
+<title>geo</title>
+<link>http://ak.live.hls.c4assets.com$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>(.*5\/.*)</expres>
+<page>$doregex[url2]</page>
+<referer>http://adm.fwmrm.net/p/c4_simulcast_live/AdManager.swf</referer>
+</regex>
+<regex>
+<name>url2</name>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>jsonurl</name>
+<expres>stream":"(.*?)"</expres>
+<page>http://ais.channel4.com/simulcast/m4?client=ios</page>
+<referer>http://adm.fwmrm.net/p/c4_simulcast_live/AdManager.swf</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
 </channel>
 <channel>
 
