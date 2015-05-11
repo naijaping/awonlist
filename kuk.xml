@@ -2673,6 +2673,16 @@
 </item>
 
 
+<item><title>wezatv </title>
+<link>$doregex[reg1]</link>
+<regex><name>reg1</name>
+<expres>file:\s*'([^"']+)</expres>
+<page>http://rarehost.net/site/vip/live.php?id=1</page>
+<agent>Mozilla/5.0 (Windows NT 6.3; rv:35.0) Gecko/20100101 Firefox/35.0</agent>
+</regex>
+</item>
+
+
 <item>
 <title>Qatar</title>
 <link>$doregex[url]</link>
