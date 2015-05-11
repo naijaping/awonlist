@@ -2712,29 +2712,14 @@
 
 <item>
 <title>DMA</title>
-<link>http://ak.live.hls.c4assets.com/hls/m4/master.m3u8|User-Agent=extrawatch_agent</link>
+<link>http://ak.live.hls.c4assets.com/hds/m4/master.m3u8</link>
 </regex>
 </item>
 
 
 
 
-<item>
-<title> Huuu</title>
-<link>$doregex[get-urlunquote]</link>
-<regex>
-<name>get-url</name>
-<expres>"stream":"(.*)"</expres>
-<page>http://ais.channel4.com/simulcast/m4?client=ios</page>
-<referer>http://www.channel4.com/now/m4</referer>
-</regex>
-<regex>
-<name>get-urlunquote</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
-<page></page>
-<referer></referer>
-</regex>
-</item>
+
 
 
 </channel>
