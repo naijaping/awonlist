@@ -2698,15 +2698,7 @@
 </regex>
 </item>
 
-<item>
-<title>DMAX</title>
-<link>http://81.92.105.132:5555/pl.m3u8?channel=18&amp;key=$doregex[reg1]</link>
-<regex><name>reg1</name>
-<expres>(?!["'\s]+)&amp;key=([^"]+)</expres>
-<page>http://alltv.ch/channels</page>
-<referer></referer>
-</regex>
-</item>
+
 
 
 <item>
@@ -2716,10 +2708,20 @@
 </item>
 
 <item>
-<title>Stro</title>
+<title>NBA</title>
 <link>rtmp://w3.vmnode.pw:1935/live playpath=elite2 swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/elite2.php live=true timeout=20</link>
 </regex>
 </item>
+
+<item>
+<title>NBA2</title>
+<link>rtmp://w14.vmnode.pw:1935/live%20playpath=elite1%20swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf%20pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/elite1.php%20live=1%20timeout=10</link>
+</regex>
+</item>
+
+
+
+
 
 
 
