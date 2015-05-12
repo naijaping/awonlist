@@ -2721,28 +2721,7 @@
 </regex>
 </item>
 
-<item>Geoblocked to UK
-<title>ITV 1</title>
-<link>http://live.cdn.tvplayer.com$doregex[reg1]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</link>
-<regex>
-<name>reg1</name>
-<expres>(.*5\/.*)</expres>
-<page>$doregex[reg2]</page>
-<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
-</regex>
-<regex>
-<name>reg2</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>"stream":"(.*?)"</expres>
-<page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/93</page>
-<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
