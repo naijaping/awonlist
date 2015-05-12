@@ -2717,7 +2717,7 @@
 
 <item>
 <title>TOO</title>
-<link>http://srv1.cdn.tvcatchup.com/channel5.m3u8?clientKey=6b7de8e4b84397f49750e649df865a2e-MTQzMTM1NzEzOQ==&channelid=5&device=web&channel=5</link>
+<link>http://167.114.116.121:1935/live/skysportsnewshd/play.m3u8</link>
 </regex>
 </item>
 
