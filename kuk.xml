@@ -2454,21 +2454,6 @@
 </item>
 
 <item>
-<title>NTV 2 720p</title>
-<link>http://193.232.151.135/hls-live/streams/livepkgr/events/_1041_/1041/1041-70.m3u8|X-Forwarded-For=193.232.151.135</link>
-</item>
-	
-<item>
-<title>horror</title>
-<link>http://llnw.live.simplestream.com/coder4/coder.channels.channel6/hls/3/playlist.m3u8</link>
-</item>	
-
-<item>
-<title>BBC ENT</title>
-<link>http://81.92.105.135:5555/pl.m3u8?channel=143</link>
-</item>	
-
-<item>
 <title>Hd</title>
 <link>rtmp://37.48.86.43/1935/send/ss1hd.stream swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf pageUrl=http://rarehost.net/sketti74/bb1/ss1hd.php live=true timeout=20 token=WY846p1E1g15W7s</link>
 </item>	
@@ -2559,17 +2544,10 @@
 <link>http://80.77.52.6:4314/udp/230.0.4.1:12345</link>
 </item>	
 
-
-<item>
-<title>ly</title>
-<link>https://llnw.live.simplestream.com/mediaexcel01/channel01/5/prog_index.m3u8</link>
-</item>	
-
 <item>
 <title>Bob</title>
 <link>http://srv1.cdn.tvcatchup.com/bbcone.m3u8?clientKey=e29ec5782d15733668354923bf73f720-MTQzMDkyOTUzOQ==&channelid=1&device=web&channel=1</link>
 </item>
-
 
 <item>
 <title>RT JR</title>
@@ -2579,16 +2557,6 @@
 <item>
 <title>Male 5</title>
 <link>http://smarterapps.ddns.net:8080/sp5/sp5PkeY/index.m3u8|X-Requested-With:ShockwaveFlash/17.0.0.169</link>
-</item>
-
-<item>
-<title>Male 2</title>
-<link>http://smarterapps.ddns.net:8080/spTfor2/MnSsp2Two/index.m3u8|X-Requested-With:ShockwaveFlash/17.0.0.169</link>
-</item>
-
-<item>
-<title>Male 1</title>
-<link>http://apniapps.ddns.net:8080/sp1/sp0RT1/index.m3u8|X-Requested-With:ShockwaveFlash/17.0.0.169</link>
 </item>
 
 <item> 
@@ -2703,7 +2671,7 @@
 
 <item>
 <title>DMA</title>
-<link>http://ak.live.hls.c4assets.com/hls/m4/master.m3u8|X-Requested-With=ShockwaveFlash/17.0.0.169</link>
+<link>http://ak.live.hls.c4assets.com/hls/m4/master.m3u8</link>
 </regex>
 </item>
 
@@ -2719,6 +2687,10 @@
 </regex>
 </item>
 
+<item>
+<title>MTV</title>
+<link>http://46.61.226.18/hls/CH_C03_MTVLIVEHD/bw3000000/variant.m3u8</link>
+</item>
 
 
 
