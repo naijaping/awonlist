@@ -2715,7 +2715,7 @@
 
 <item>
 <title>NBA2</title>
-<link>rtmp://w14.vmnode.pw:1935/live%20playpath=elite1%20swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf%20pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/elite1.php%20live=1%20timeout=10</link>
+<link>rtmp://w14.vmnode.pw:1935/live playpath=elite1 swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/elite1.php live=1 timeout=10</link>
 </regex>
 </item>
 
