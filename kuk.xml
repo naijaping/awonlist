@@ -2653,7 +2653,7 @@
 
 <item>
 <title>DMA</title>
-<link>http://hlsstr04.svc.iptv.rt.ru/hls/CH_C03_NATGEOWILDHD/variant.m3u8?version=2</link>
+<link>http://hlsstr04.svc.iptv.rt.ru/hls/CH_C03_NATGEOWILDHD/variant.m3u8</link>
 </regex>
 </item>
 
