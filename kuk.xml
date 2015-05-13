@@ -2657,6 +2657,12 @@
 </regex>
 </item>
 
+<item>
+<title>nino</title>
+<link>rtmp://46.105.96.198:1935/send?wmsAuthSign=c2VydmVyX3RpbWU9NS8xMy8yMDE1IDI6MDA6NTEgUE0maGFzaF92YWx1ZT1zUmVabW9SN0NuRDBLYmdDQXRHQVVnPT0mdmFsaWRtaW51dGVzPTM=/premier.stream</link>
+</regex>
+</item>
+
 
 
 
