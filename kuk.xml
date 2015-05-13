@@ -2652,14 +2652,14 @@
 </item>
 
 <item>
-<title>DMA</title>
+<title>Natgwild</title>
 <link>http://hlsstr04.svc.iptv.rt.ru/hls/CH_C03_NATGEOWILDHD/variant.m3u8</link>
 </regex>
 </item>
 
 <item>
 <title>nino</title>
-<link>rtmp://46.105.96.198:1935/send?wmsAuthSign=c2VydmVyX3RpbWU9NS8xMy8yMDE1IDI6MDA6NTEgUE0maGFzaF92YWx1ZT1zUmVabW9SN0NuRDBLYmdDQXRHQVVnPT0mdmFsaWRtaW51dGVzPTM=/premier.stream</link>
+<link></link>
 </regex>
 </item>
 
