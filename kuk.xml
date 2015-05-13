@@ -2634,7 +2634,7 @@
 </item>
 
 <item>
-<title>DMA</title>
+<title>channel 5 test</title>
 <link>http://ak.live.hls.c4assets.com/hls/m4/master.m3u8</link>
 </regex>
 </item>
@@ -2650,6 +2650,13 @@
 <link>rtmp://w14.vmnode.pw:1935/live playpath=elite1 swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/elite1.php live=1 timeout=10</link>
 </regex>
 </item>
+
+<item>
+<title>DMA</title>
+<link>http://hlsstr04.svc.iptv.rt.ru/hls/CH_C03_NATGEOWILDHD/variant.m3u8?version=2</link>
+</regex>
+</item>
+
 
 
 
