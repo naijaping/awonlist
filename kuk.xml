@@ -2662,7 +2662,7 @@
 <link>$doregex[get-finalURL]|User-Agent=extrawatch_agent</link>
 <regex>
 <name>get-url</name>
-<expres>streaming_url":"(.*?)"</expres>
+<expres>http":"(.*?)"</expres>
 <page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=1heart1&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp</page>
 <referer>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=1heart1&amp;type=live&amp;service=wowza&amp;output=player</referer>
 <cookieJar></cookieJar>
