@@ -2663,7 +2663,7 @@
 <regex>
 <name>get-url</name>
 <expres>"(http.*?)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=eureka1&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp</page>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=eureka1&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=playlist.m3u8&amp;format=jsonp</page>
 <referer>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=eureka1&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</referer>
 <cookieJar></cookieJar>
 <agent></agent>
