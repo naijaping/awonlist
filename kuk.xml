@@ -2658,9 +2658,22 @@
 </item>
 
 <item>
-<title>nino</title>
-<link></link>
+<title>Tiwa N Tiwa TV</title>
+<link>$doregex[get-finalURL]|User-Agent=extrawatch_agent</link>
+<regex>
+<name>get-url</name>
+<expres>streaming_url":"(.*?)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=1heart1&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp</page>
+<referer>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=1heart1&amp;type=live&amp;service=wowza&amp;output=player</referer>
+<cookieJar></cookieJar>
+<agent></agent>
 </regex>
+<regex>
+<name>get-finalURL</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<thumbnail>http://i60.tinypic.com/2mhezqv.jpg</thumbnail>
 </item>
 
 
