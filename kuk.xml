@@ -2659,10 +2659,10 @@
 
 <item>
 <title>Livego</title>
-<link>$doregex[getcode] swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf pageUrl=https://www.livego.tv swfVfy=true flashVer=WIN\2013,0,0,214 timeout=15 live=true</link>
+<link>$doregex[getcode] swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf pageUrl=https://www.livego.tv swfVfy=true timeout=15 live=true</link>
 <regex>
 <name>getcode</name>
-<expres>file:\s*'([^'"]+)</expres>
+<expres>src:\s*'([^'"]+)</expres>
 <page>https://www.livego.tv/video/441/4</page>
 <referer>https://www.livego.tv/video/441/4</referer>
 <cookieJar>$doregex[applycaptcha]</cookieJar>
@@ -2670,9 +2670,9 @@
 <regex>
 <name>applycaptcha</name>
 <expres></expres>
-<page>https://www.livego.tv/register</page>
+<page>https://www.livego.tv/</page>
 <post>email:kolaolawale@gmail.com,password:aramide2007!,login_attempt_id:$doregex[get-epoc]<post>
-<referer>https://www.livego.tv/register</referer>
+<referer>https://www.livego.tv/</referer>
 <x-req>XMLHttpRequest</x-req>
 <cookieJar></cookieJar>
 </regex>
