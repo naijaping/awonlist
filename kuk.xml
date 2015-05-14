@@ -2217,19 +2217,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
-<item>
-<title>NBCSN Diff Source</title>
-<link>rtmp://w3.vmnode.pw:2195/live playpath=nbcsn swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/nbcsn1.php live=true timeout=20</link>
-<thumbnail></thumbnail>
-</item>
-	
-<item>
-<title>tomjerry</title>
-<link>rtmp://206.190.132.244/tvamigos playpath=tom swfUrl=http://www.carolineoliveira.com.br/swf/player.swf pageUrl=http://www.carolineoliveira.com.br/face/curta.html live=true timeout=15</link>
-<thumbnail></thumbnail>
-</item>	
-
 <item>
 <title>NBCSN 1080p</title>
 <link>http://tvenbcsn-i.Akamaihd.net//hls/live/218235/nbcsnx/4296k/prog.m3u8|X-Forwarded-For=66.171.228.102</link>
@@ -2276,18 +2263,6 @@
 </regex>
 </item>
 
-
-<item>
-<title>Dunamis</title>
-<link>rtmp://184.173.203.34:1935/live/dunamis2471</link>
-</item>	
-
-
-<item>
-<title>BEIN Spain</title>
-<link>http://dtv_hls_live-lh.akamaihd.net/i/dtvhls02_delivery@195673/index_4128_av-p.m3u8</link>
-</item>	
-
 <item>
 <title> 4 hD</title>
 <link>http://46.61.226.18/hls/CH_FUTBALL2HD/bw3000000/variant.m3u8?version=2</link>
@@ -2310,18 +2285,8 @@
 </item>
 
 <item>
-<title>Box Nation</title>
-<link>http://cdn.live.bn.simplestream.com/coder1/coder.channels.channel5/hls/playlist.m3u8</link>
-</item>
-
-<item>
 <title>Antena sport 3</title>
 <link>http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel01/antena_3_hd_1548K_1280x720_main.m3u8</link>
-</item>
-
-<item>
-<title>BBc Sport</title>
-<link>http://llnw.live.simplestream.com/coder2/coder.channels.channel5/hls/3/playlist.m3u8</link>
 </item>
 
 <item>
@@ -2362,39 +2327,6 @@
 <item>
 <title>QVC UK</title>
 <link>http://llnw.live.qvc.simplestream.com/hera/remote/qvcuk_primary_sdi5/3/prog_index.m3u8 </link>
-</item>
-
-<item>
-<title>Token</title>
-<link>rtmp://62.210.93.190:1935/live playpath=757 swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf token=8b8d046894fb12ac8abdc11bd917df9d live=true pageUrl=https://www.livego.tv</link>
-</item>
-
-
-<item>
-<title>Fashion Tv</title>
-<link>http://llnw.live.simplestream.com/coder6/coder.channels.channel8/hls/3/playlist.m3u8</link>
-</item>
-
-<item>
-<title>A & E</title>
-<link>http://50.7.69.186:1935/edge/_definst_/tuc280rbycwnsvs/manifest.m3u8?wowzasessionid=1426231480|X-Forwarded-For=50.192.92.89</link>
-</item>
-
-
-<item>
-<title>NBC East</title>
-<link>http://50.7.69.186:1935/edge/_definst_/s5whw37nl7weedp/chunklist.m3u8?wowzasessionid=1420160473|X-Forwarded-For=50.192.92.89</link>
-</item>
-
-<item>
-<title>CBS</title>
-<link>http://50.7.69.186:1935/edge/_definst_/866l7jy73xntgpa/playlist.m3u8?wowzasessionid=1419879488|X-Forwarded-For=50.192.92.89</link>
-</item>
-
-<item>
-<title>Ghana TV Sports</title>
-<link>rtmp://cdn.totalplay.tv/stream playpath=z00089 swfUrl=http://totalplay.tv/player/player.swf pageUrl=http://totalplay.tv/stream.php?n=z00089 live=true timeout=15</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/ghana_tv.png</thumbnail>
 </item>
 
 <item>
@@ -2439,46 +2371,9 @@
 </item>
 
 <item>
-<title>elite</title>
-<link>rtmp://w7.vmnode.pw:1935/live playpath=elite27 swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/elite27.php live=true timeout=20</link>
-</item>
-
-<item>
-<title>Fox Sport 2 AUs</title>
-<link>http://fsplive_hls-lh.akamaihd.net/i/fsp_hls_fs2sea_1@305331/index_1200_av-p.m3u8 </link>
-</item>
-
-<item>
-<title>NTV 1 720p</title>
-<link>http://193.232.151.135/hls-live/livepkgr/_1040_/1040/1040-70.m3u8|X-Forwarded-For=193.232.151.135</link>
-</item>
-
-<item>
-<title>Hd</title>
-<link>rtmp://37.48.86.43/1935/send/ss1hd.stream swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf pageUrl=http://rarehost.net/sketti74/bb1/ss1hd.php live=true timeout=20 token=WY846p1E1g15W7s</link>
-</item>	
-
-<item>
-<title>SUB TV XXX</title>
-<link>http://185.38.12.20:8088/private/</link>
-</item>	
-	
-<item>
-<title> XXX</title>
+<title>Silk SD</title>
 <link>rtmp://edge01-01.nl.myvideo.ge/dvrh264/silk_football/mp4:silk_football swfUrl=http://www.myvideo.ge/dvr/dvrStretch2.swf?v=1.91 live=1 pageUrl=http://www.myvideo.ge/ </link>
 </item>	
-
-<item>
-<title>GolT</title>
-<link>http://62.210.93.190:1935/edge/757 playpath=757 swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf live=1 pageUrl=https://www.livego.tv/video/524 timeout=10 </link>
-</item>	
-
-
-<item>
-<title>Bein</title>
-<link>rtmp://142.4.216.205/live/ch10 swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf pageUrl=http://rarehost.net/amember/vip/10.php live=true timeout=20 token=WY846p1E1g15W7s </link>
-</item>
-
 
 <item>
 <title>NBA HD</title>
@@ -2488,12 +2383,6 @@
 <item>
 <title>MTV BASE</title>
 <link>http://wpc.12bc9.kappacdn.net/hls-live/2012BC9/default/MTVBASE/mtvbase_1200.m3u8?608edfab8a31cdb2906f767923e21035c7696807555fd6f720a8fbf339ecfd61dae2</link>
-</item>	
-
-<item>
-<title>Lagos TV</title>
-<link>http://wpc.12bc9.kappacdn.net/hls-live/2012BC9/default/lagosTV/ltv_1200.m3u8?608edfab8a31cdb2906f767923e21035c7696807555fd6f720a8fbf339ecfd61dae2</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ll/lagos_television.png</thumbnail>
 </item>	
 
 <item>
@@ -2513,54 +2402,9 @@
 <link>rtmp://w11.vmnode.pw:1935/live playpath=elite52 swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/elite52.php live=true timeout=20</link>
 </item>	
 
-
-
-<item>
-<title>RT Jr</title>
-<link>http://livehls.rasset.ie/hls-live/_definst_/rsw5/rsw5_576p.m3u8</link>
-</item>	
-
-
-<item>
-<title>RTP news</title>
-<link>http://livehls.rasset.ie/hls-live/_definst_/newsnow/newsnow_540p.m3u8</link>
-</item>
-
-<item>
-<title>HD0</title>
-<link>http://80.77.52.6:4314/udp/230.0.4.1:12345</link>
-</item>	
-	
-	
-
-<item>
-<title>BT sport 1</title>
-<link>rtmp://w11.vmnode.pw:1935/live playpath=elite52 swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/elite52.php live=true timeout=20</link>
-<link>rtmp://w13.vmnode.pw:1935/live playpath=tsn swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/tsnmix.php live=true timeout=20</link>
-<link>http://80.77.52.6:4314/udp/230.0.4.1:12345</link>
-</item>	
-
-
-<item>
-<title>RT JR</title>
-<link>http://212.250.46.35:4252/bysid/9606</link>
-</item>
-
 <item>
 <title>Male 5</title>
 <link>http://smarterapps.ddns.net:8080/sp5/sp5PkeY/index.m3u8|X-Requested-With:ShockwaveFlash/17.0.0.169</link>
-</item>
-
-<item> 
-<title>NHL</title>
-<link>rtmp://skystreams.info:1935/live playpath=nhltv swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/nhltv.php live=true timeout=20</link>
-<thumbnail></thumbnail>
-</item> 
-
-<item> 
-<title>2d</title>
-<link>http://llnw.live.qvc.simplestream.com/hera/remote/qvcuk_primary_sdi8/live.m3u8</link>
-<thumbnail></thumbnail>
 </item>
 
 <item>
@@ -2573,18 +2417,6 @@
 <page>http://www.stream4free.eu/france-24</page>
 </regex>
 </item>
-
-<item> 
-<title>Esat</title>
-<link>http://38.102.162.246/hls/554bba747e174/stream.m3u8</link>
-<thumbnail></thumbnail>
-</item>	
-
-<item> 
-<title>Nort</title>
-<link>http://154.57.145.78/hls/5501bedfb6a26/stream.m3u8</link>
-<thumbnail></thumbnail>
-</item>	
 
 <item>
 <title> Silverbird TV</title>
@@ -2657,9 +2489,6 @@
 </regex>
 </item>
 
-
-
-
 <item>
 <title>Ad Sports 1 - UAE</title>
 <link>http://odna.octoshape.net/h5f3k7p8/cds/smil:adsport1hd/chunklist_b880000.m3u8</link>
@@ -2672,11 +2501,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>joy</title>
-<link>rtmp://78.129.189.30/edge3/RLMAD swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://www.filmover.com/gh/joy-news.html live=true timeout=15</link>
-<thumbnail></thumbnail>
-</item>
 
 
 
