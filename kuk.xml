@@ -2658,23 +2658,31 @@
 </item>
 
 <item>
-<title>Tiwa N Tiwa TV</title>
-<link>$doregex[get-url]|User-Agent=extrawatch_agent</link>
+<title>Livego</title>
+<link>$doregex[getcode] swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf pageUrl=https://www.livego.tv swfVfy=true flashVer=WIN\2013,0,0,214 timeout=15 live=true</link>
 <regex>
-<name>get-url</name>
-<expres>"(http.*?)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=eureka1&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=playlist.m3u8&amp;format=jsonp</page>
-<referer>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=eureka1&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</referer>
-<cookieJar></cookieJar>
-<agent></agent>
+<name>getcode</name>
+<expres>src:\s*'([^'"]+)</expres>
+<page>https://www.livego.tv/video/441/4</page>
+<referer>https://www.livego.tv/video/441/4</referer>
+<cookieJar>$doregex[applycaptcha]</cookieJar>
 </regex>
 <regex>
-<name>get-finalURL</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
+<name>applycaptcha</name>
+<expres></expres>
+<page>https://www.livego.tv/register</page>
+<post>email:kolaolawale@gmail.com,password:aramide2007!,login_attempt_id:$doregex[get-epoc]<post>
+<referer>https://www.livego.tv/register</referer>
+<x-req>XMLHttpRequest</x-req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>get-epoc</name>
+<expres>$epoctime$</expres>
 <page></page>
 </regex>
-<thumbnail>http://i60.tinypic.com/2mhezqv.jpg</thumbnail>
 </item>
+
 
 <item>
 <title>Ad Sports 1 - UAE</title>
