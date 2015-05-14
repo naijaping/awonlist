@@ -2501,16 +2501,17 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Channels 1</title>
-<link>$doregex[get-link]</link>
+<item> 
+<title>Channel 1</title>
+<link>http://iphone-streaming.ustream.tv/ustreamVideo/$doregex[path]/streams/live/playlist.m3u8</link>
 <regex>
-<name>get-link</name>
-<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/20343812/streams/live/playlist.m3u8')</expres>
-<page></page>
-</regex> 
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/ait_national.png</thumbnail>
-</item>
+<name>path</name>
+<expres>"https://www.ustream.tv/embed/(.+?)"></expres>
+<page>http://www.ustream.tv/channel/20343812</page>
+<referer> </referer>
+</regex>
+<thumbnail></thumbnail>
+</item> 
 
 
 
