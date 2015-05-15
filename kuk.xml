@@ -2501,6 +2501,11 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Ad2 - UAE</title>
+<link>rtmp://5.79.75.129:2195/live3/channel15a playpath=channel15a swfUrl=http://supremecater.com/player/src.swf token=Lvg4zyLafHmbd3Yt pageurl=http://www.plus1hd.com/forums/live_stream.php?cid=15&nid=e1 live=true timeout=10</link>
+<thumbnail></thumbnail>
+</item>
 
 
 </channel>
