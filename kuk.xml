@@ -2501,7 +2501,20 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+			<title>link4</title>
+				<link>$doregex[get-link]</link>
+				<regex>
+				<name>get-link</name>
+				<expres>$pyFunction:get_ustream('$doregex[get-delink]')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>get-delink</name>
+				<expres>source src="(.*?)"</expres>
+				<page>http://geekzombi.blogspot.com/2015/01/ustream8.html</page>
+				</regex>
+		</item>
 
 
 
