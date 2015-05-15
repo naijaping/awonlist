@@ -2501,30 +2501,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>210</title>
-<link>http://live.cdn.tvplayer.com$doregex[url]|User-Agent=extrawatch_agent</link>
-<regex>
-<name>url</name>
-<expres>(.*\/.*)</expres>
-<page>$doregex[url2]</page>
-<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
-</regex>
-<regex>
-<name>url2</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>"stream":"(.*?)"</expres>
-<page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/210</page>
-<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_two_uk.png</thumbnail>
-</item>
-
-
 
 
 </channel>
