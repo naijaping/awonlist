@@ -2506,7 +2506,7 @@
 <link>http://live.cdn.tvplayer.com$doregex[url]|User-Agent=extrawatch_agent</link>
 <regex>
 <name>url</name>
-<expres>(.*1\/.*)</expres>
+<expres>(.*9\/.*)</expres>
 <page>$doregex[url2]</page>
 <referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
 </regex>
