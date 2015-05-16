@@ -2508,9 +2508,9 @@
 </item>
 
 <item>
-<title>TRAKT : TV Collection</title>
+<title>Youtube My Subscription</title>
 <link>ignorme</link>
-<jsonrpc>plugin://plugin.video.genesis/?action=shows_trakt_collection</jsonrpc>
+<jsonrpc>plugin://plugin.video.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ</jsonrpc>
 </item>
 
 
