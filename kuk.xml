@@ -2507,7 +2507,11 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>TRAKT : TV Collection</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.genesis/?action=shows_trakt_collection</jsonrpc>
+</item>
 
 
 
