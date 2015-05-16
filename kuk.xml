@@ -2507,6 +2507,11 @@
 <thumbnail></thumbnail>
 </item>
 
+<item><title>Youtube My Subscription</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/user/TheOkinTv/&quot;,return</jsonrpc>
+</item>
+
 
 
 </channel>
