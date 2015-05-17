@@ -364,7 +364,7 @@
 </regex>
 <regex>
 <name>getCODE</name>
-<expres>vsVars.*= "0m0(.*?)"<expres>
+<expres>vsVars.*= "0n0(.*?)"<expres>
 <page>http://vaughnlive.tv//embed/video/newzviewz?viewers=true&watermark=false&autoplay=true</page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fox_news_channel.png</thumbnail>
@@ -455,72 +455,6 @@
 <title>The BOX Music </title>
 <link>http://csm-e.cds1.yospace.com/csm/live/86561631.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/the_box_uk.png</thumbnail>
-</item> 
-
-<item>
-<title>Now Music TV</title>
-<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>base="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=nowmusic&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-</regex>
-<regex>
-<name>path</name>
-<expres>src="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=nowmusic&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/now_thats_what_i_call_music_uk.png</thumbnail>
-</item>
-
-
-<item>
-<title>Clubland Music TV</title>
-<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>base="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=clublandtv&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-</regex>
-<regex>
-<name>path</name>
-<expres>src="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=clublandtv&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/clubland_tv_uk.png</thumbnail>
-</item>
-
-<item>
-<title>AKA Music TV</title>
-<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>base="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=akanew&amp;ref=http://tv.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-</regex>
-<regex>
-<name>path</name>
-<expres>src="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=akanew&amp;ref=http://tv.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/aka_uk.png</thumbnail>
-</item>  
-
-
-<item>
-<title>Planet POP Music TV</title>
-<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>base="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=ppop&amp;ref=http://tv.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-</regex>
-<regex>
-<name>path</name>
-<expres>src="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=AATW&amp;file=ppop&amp;ref=http://tv.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/planet_pop_uk.png</thumbnail>
 </item> 
 
 <item>
@@ -801,28 +735,6 @@
 </item>
 
 <item>
-<title>ESPN USA</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/espnusa/frame')</expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/corp/ee/espn_us.png</thumbnail>
-</item>
-	
-<item>
-<title>ESPN DEPORTES</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/opcion-1/frame')</expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/corp/ee/espn_us.png</thumbnail>
-</item>
-
-<item>
 <title>Dubai Sport</title>
 <link>http://cdnehlsdubaisports3.endavomedia.com/smil:dmilivedubaisports3hls.smil/playlist.m3u8</link>
 </item>
@@ -864,50 +776,6 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/british_eurosport_2.png</thumbnail>
 </item> 
 
-<item>
-<title>FOX SPORTS 1</title>
-<link>$doregex[url]|User-Agent=iPad</link>
-<regex>
-<name>url</name>
-<expres>file: "(.*?)"</expres>
-<page>http://stepfb.com/stepfb.php?linkcode=$doregex[linkcode]</page>
-<cookieJar></cookieJar>
-<referer>http://stepfb.com/</referer>
-</regex>
-<regex>
-<name>linkcode</name>
-<expres>linkcode=(.*?)'</expres>
-<page>http://stepfb.com/live/movie/49/</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fox_sports_us_1.png</thumbnail>
-</item> 
-
-<item>
-<title>Fox Sport 2</title>
-<link>$doregex[url]|User-Agent=iPad</link>
-<regex>
-<name>url</name>
-<expres>file: "(.*?)"</expres>
-<page>http://stepfb.com/stepfb.php?linkcode=$doregex[linkcode]</page>
-<cookieJar></cookieJar>
-<referer>http://stepfb.com/</referer>
-</regex>
-<regex>
-<name>linkcode</name>
-<expres>linkcode=(.*?)'</expres>
-<page>http://stepfb.com/live/movie/50/</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fox_sports_it_2_hd.png</thumbnail>
-</item> 
-
-<item>
-<title>Kanal Sport HD</title>
-<link>http://lswb-de-08.servers.octoshape.net:1935/live/kanalsport_2000k/HD.m3u8</link>
-<thumbnail></thumbnail>
-</item>	
-
 <item>	
 <title>SKY 3</title>
 <link>$doregex[rtmp] playpath=$doregex[path] token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
@@ -926,28 +794,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title> CBC News (Canada)</title>
-<link>rtmp://$doregex[rtmp]/edge/ playpath=cbc_live swfUrl=http://msnbclive.eu/player.swf pageUrl=http://www.livenewschat.eu/canada/&id=b60d2a118c0ccb47b25f4f4187777f39 live=1 timeout=10</link>
-<regex>
-<name>rtmp</name>
-<expres>"best":"([^"]*)</expres>
-<page>http://msnbclive.eu/server.json</page>
-<referer>http://www.livenewschat.eu/canada/</referer>
-</regex>
-</item>
-
-
-<item>
-<title> CNBC News</title>
-<link>rtmp://$doregex[rtmp]/edge/ playpath=cnbc_live swfUrl=http://msnbclive.eu/player.swf pageUrl=http://www.livenewschat.eu/stocks/&id=b60d2a118c0ccb47b25f4f4187777f39 live=1 timeout=10</link>
-<regex>
-<name>rtmp</name>
-<expres>"best":"([^"]*)</expres>
-<page>http://msnbclive.eu/server.json</page>
-<referer>http://www.livenewschat.eu/stocks/</referer>
-</regex>
-</item>
 
 <item>
 <title>NTV Futbol</title>
@@ -1222,7 +1068,6 @@
 <thumbnail></thumbnail>
 </item> 
  
-
 <item>
 <title>Hip TV</title>
 <link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
@@ -1406,11 +1251,6 @@
 </item>
 
 <item>
-<title>307</title>
-<link>rtmpe://46.246.124.89:1935/l playpath=sskys2 token=Fo5_n0w?U.rA6l3-70w47ch timeout=10 pageUrl=http://www.hdcast.org</link>
-</item>
-
-<item>
 <title>sbt1</title>
 <link>rtmpe://46.246.124.89:1935/l playpath=sbt1 token=Fo5_n0w?U.rA6l3-70w47ch timeout=10 pageUrl=http://www.hdcast.org</link>
 </item>
@@ -1419,12 +1259,6 @@
 <item>
 <title>All Sport Report</title>
 <link>rtmp://freeview.fms.visionip.tv/live/sports_tonight-sports_tonight-live-25f-16x9-HD</link>
-</item>
-
-
-<item>
-<title>Motor TV</title>
-<link>rtmp://mi2.gv.filmon.com:8086/live/262.high.stream</link>
 </item>
 
 <item>
@@ -1445,9 +1279,6 @@
 <link>rtmp://31.220.0.206/redirect/btt2 swfUrl=http://flashtv.co/ePlayerr.swf pageUrl=http://flashtv.co/embedo.php?live=btt2&vw=650&vh=480 token=%Zrey(nKa@#Z</link>
 <thumbnail></thumbnail>
 </item>
-
-
-
 
 <item>
 <title>sky2</title>
@@ -1801,12 +1632,6 @@
 </regex>
 </item>
 
-
-<item>
-<title>30 In</title>
-<link>http://www.flavourweb.com/wp-content/uploads/2015/03/30-days-in-atlanta.mp4</link>
-</item>
-
 <item>
 <title>StepFB FOX 1</title>
 <link>$doregex[url]|User-Agent=iPad</link>
@@ -2015,8 +1840,6 @@
 </regex>
 </item>
 
-
-	
 <item>
 <title> The Young Turks</title>
 <link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
@@ -2026,8 +1849,6 @@
 <page>https://www.youtube.com/user/TheChuChuTV/videos</page>
 </regex>
 </item>
-
-
 
 <item>
 <title>Sky Sport 2 DE</title>
@@ -2136,7 +1957,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
 <item>
 <title> Mountain of Fire & Miracle Ministries</title>
 <link>http://264624-lh.akamaihd.net/i/mof_flash@171983/master.m3u8</link>
@@ -2172,7 +1992,6 @@
 </regex>
 </item>
 
-
 <item>
 <title> vercosasgratis.com</title>
 <link>rtmp://$doregex[rtmp] playpath=$doregex[path] swfUrl=http://vercosasgratis.com/player.swf token=#ed%h0#w@12Fuck pageUrl=$doregex[get-iframe] live=1 timeout=10</link>
@@ -2196,7 +2015,6 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
-
 
 <item>
 <title> americateve.com</title>
