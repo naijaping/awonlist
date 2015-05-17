@@ -2506,7 +2506,7 @@
 <link>http://live.cdn.tvplayer.com$doregex[url]|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36</link>
 <regex>
 <name>url</name>
-<expres>(.*5\/.*)</expres>
+<expres>(.*\/.*)</expres>
 <page>$doregex[url2]</page>
 <referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
 <agent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36</agent>
