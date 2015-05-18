@@ -2319,30 +2319,31 @@
 <thumbnail></thumbnail>
 </item>
 
-
 <item>
-<title> N  TV</title>
-<link>$doregex[get-finalURL]|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36</link>
-<regex>
-<name>get-url</name>
-<expres>(http.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://godfather-proxy.com/index.php?q=$doregex[url-quote]&amp;hl=280').read()</page> 
-<referer>http://godfather-proxy.com</referer>
-</regex>
-<regex>
-<name>url-quote</name>
-<expres>$pyFunction:urllib.quote('http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=nollymv2&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp')</expres>
-<referer>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=nollymv2&amp;type=live&amp;service=wowza&amp;output=player</referer>
-<cookieJar></cookieJar>
-<agent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36</agent>
-</regex>
+<title>Tvcws</title>
+<link>$doregex[get-finalURL]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</link>
 <regex>
 <name>get-finalURL</name>
 <expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
 <page></page>
 </regex>
-<thumbnail>http://i60.tinypic.com/2mhezqv.jpg</thumbnail>
+<regex>
+<name>get-url</name>
+<expres>(http.*?)"</expres>
+<page>$pyFunction:urllib.urlopen('http://www.proxyusa.info/browse.php?u=$doregex[url-quote]amp;format=jsonp<&b=4&f=norefer/').read()</page>
+<referer>http://www.proxyusa.info/browse.php?u=http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=nollymv2&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8</referer>
+<cookieJar></cookieJar>
+<agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote('http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=nollymv2&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp')</expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tv_continental_ng_news.png</thumbnail>
 </item>
+
+
 
 
 
