@@ -2325,16 +2325,15 @@
 <regex>
 <name>get-url</name>
 <expres>(http.*?)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=nollymv2&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp</page>
-<referer>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=nollymv2&amp;type=live&amp;service=wowza&amp;output=player</referer>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=nollymv1&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp</page>
+<referer>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=nollymv1&amp;type=live&amp;service=wowza&amp;output=player</referer>
 <cookieJar></cookieJar>
 <agent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36</agent>
 </regex>
 <regex>
 <name>get-finalURL</name>
 <expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
-<page>$pyFunction:urllib.urlopen('http://godfather-proxy.com/index.php?q=$doregex[get-finalURL]&amp;hl=3cc').read()</page>
-<referer>http://godfather-proxy.com</referer>
+<page></page>
 </regex>
 <thumbnail></thumbnail>
 </item>
