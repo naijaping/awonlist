@@ -2333,7 +2333,7 @@
 <regex>
 <name>get-finalURL</name>
 <expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
-<page>$pyFunction:urllib.urlopen('http://godfather-proxy.com/index.php?q=$doregex[get-url]&amp;hl=3cc').read()</page>
+<page>$pyFunction:urllib.urlopen('http://godfather-proxy.com/index.php?q=$doregex[get-finalURL]&amp;hl=3cc').read()</page>
 <referer>http://godfather-proxy.com</referer>
 </regex>
 <thumbnail></thumbnail>
