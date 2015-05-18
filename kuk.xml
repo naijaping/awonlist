@@ -2331,7 +2331,7 @@
 <regex>
 <name>get-url</name>
 <expres>(http.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://www.webproxyusa.com/browse.php?u=$doregex[url-quote]').read()</page>
+<page>$pyFunction:urllib.urlopen('http://www.webproxyusa.com/browse.php?u=$doregex[url-quote]&amp;b=29').read()</page>
 <referer>http://www.webproxyusa.com/browse.php?u=http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=nollymv2&amp;type=live&amp;service=wowza&amp;output=player</referer>
 <cookieJar></cookieJar>
 <agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
