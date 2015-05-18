@@ -2337,7 +2337,7 @@
 </regex>
 <regex>
 <name>url-quote</name>
-<expres>$pyFunction:urllib.quote('http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=nollymv2&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp')</expres>
+<expres>$pyFunction:urllib.quote('http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=nollymv2&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=player')</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tv_continental_ng_news.png</thumbnail>
