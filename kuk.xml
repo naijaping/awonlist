@@ -2324,7 +2324,7 @@
 <link>$doregex[getcode] swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf pageUrl=https://www.livego.tv swfVfy=true timeout=15 flashVer=WIN\2013,0,0,214 live=true</link>
 <regex>
 <name>getcode</name>
-<expres>src="(.*)"</expres>
+<expres>src="(.*?)"</expres>
 <page>https://www.livego.tv/video/441/4</page>
 <referer>https://www.livego.tv/video/4</referer>
 <cookieJar>$doregex[applycaptcha]</cookieJar>
