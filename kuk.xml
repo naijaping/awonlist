@@ -2325,7 +2325,11 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rt_d_ru.png</thumbnail>
 </item>
 
-
+<item>
+<title>ITV1</title>
+<ftv>11</ftv>
+<thumbnail></thumbnail>
+</item>
 
 
 
