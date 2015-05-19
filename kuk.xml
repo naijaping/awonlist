@@ -2325,6 +2325,20 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rt_d_ru.png</thumbnail>
 </item>
 
+<item>
+<title>example</title>
+<link>$doregex[getdecodedurl]</link>
+<regex>
+<name>getdecodedurl</name>
+<expres $pyFunction:urllib.unquote('$doregex[geturl]')</expres>
+<page></page>
+</regex>
+<regex>
+<name>geturl</name>
+<expres>"file": "(.+?)"</expres>
+<page>https://www.livego.tv/video/283/9</page>
+</regex>
+</item>
 
 
 
