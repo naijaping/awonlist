@@ -2336,7 +2336,7 @@
 <regex>
 <name>geturl</name>
 <expres>"file": "(.+?)"</expres>
-<page>https://www.livego.tv/video/283/9</page>
+<page>http://ibakatv.com/silence</page>
 </regex>
 </item>
 
