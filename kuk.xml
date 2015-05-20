@@ -2324,14 +2324,14 @@
 <link>$doregex[getdecoded-rtmp] swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf pageUrl=https://www.livego.tv/video/441/4 live=1 timeout=15</link>
 <regex>
 <name>getdecoded-rtmp</name>
-<expres> $pyFunction:urllib.unquote('$doregex[get-rtmp]')</expres>
+<expres>$pyFunction:urllib.unquote('$doregex[get-rtmp]')</expres>
 <page>https://www.livego.tv/video/441/4</page>
 </regex>
 <regex>
 <name>get-rtmp</name>
 <expres>src: "(.*?)"</expres>
 <page>https://www.livego.tv/video/441/4</page>
-<referer>https://www.livego.tv/video/4</referer>
+<referer>https://www.livego.tv/watch/4</referer>
 <cookieJar>$doregex[applycaptcha]</cookieJar>
 </regex>
 <regex>
