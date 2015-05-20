@@ -2319,7 +2319,43 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>test</title>
+<link>$doregex[getdecoded-rtmp] swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf pageUrl=https://www.livego.tv/video/441/4 live=1 timeout=15</link>
+<regex>
+<name>getdecoded-rtmp</name>
+<expres>$pyFunction:urllib.unquote('$doregex[get-rtmp]')</expres>
+<page>https://www.livego.tv/video/441/4</page>
+</regex>
+<regex>
+<name>get-rtmp</name>
+<expres>src: "(.*?)"</expres>
+<page>https://www.livego.tv/video/441/4</page>
+<referer>https://www.livego.tv/watch/4</referer>
+<cookieJar>$doregex[LoginAndCookie]</cookieJar>
+</regex>
+<regex>
+<name>LoginAndCookie</name>
+<expres></expres>
+<page></page>
+<post>email:kolaolawale@gmail.com,password:aramide,login_attempt_id:$doregex[get-epoc]<post>
+<referer>https://www.livego.tv/register</referer>
+<x-req>XMLHttpRequest</x-req>
+<cookieJar>$doregex[init_nonnection]</cookieJar>
+</regex>
+<regex>
+<name>get-epoc</name>
+<expres>$epoctime$</expres>
+<page></page>
+</regex>
+<regex>
+<name>init_nonnection</name>
+<expres></expres>
+<page>https://www.livego.tv</page>
+<referer>https://www.livego.tv</referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
 
 
 
