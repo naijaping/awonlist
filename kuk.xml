@@ -2325,8 +2325,8 @@
 <thumbnail></thumbnail>
 <regex>
 <name>get-url</name>
-<expres>src: "(.*?)"</expres>
-<page>https://www.livego.tv/video/441/4</page>
+<expres>'file' :'(.*?)'</expres>
+<page>http://www.iafrica.tv/silver-bird/</page>
 </regex>
 </item>
 
