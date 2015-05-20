@@ -2325,7 +2325,7 @@
 <thumbnail></thumbnail>
 <regex>
 <name>get-url</name>
-<expres>'file' :'(.*?)'</expres>
+<expres>file' :'(.*?)'</expres>
 <page>http://www.ghanalive.tv/adome-tv/</page>
 </regex>
 </item>
