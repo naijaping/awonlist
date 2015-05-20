@@ -2325,7 +2325,7 @@
 <regex>
 <name>getdecoded-rtmp</name>
 <expres> $pyFunction:urllib.unquote('$doregex[get-rtmp]')</expres>
-<page>here write link of page</page>
+<page>https://www.livego.tv/video/441/4</page>
 </regex>
 <regex>
 <name>get-rtmp</name>
