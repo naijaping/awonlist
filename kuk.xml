@@ -2319,16 +2319,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>mutu</title>
-<link>$doregex[get-url]|Referer=http://www.ghanalive.tv/capital-tv/</link>
-<thumbnail></thumbnail>
-<regex>
-<name>get-url</name>
-<expres>file': '([^']+)</expres>
-<page>http://www.ghanalive.tv/capital-tv/</page>
-</regex>
-</item>
+
 
 
 
