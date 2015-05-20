@@ -2319,6 +2319,16 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>rtnctv</title>
+<link>$doregex[get-url]</link>
+<thumbnail></thumbnail>
+<regex>
+<name>get-url</name>
+<expres>src: "(.*?)"</expres>
+<page>http://www.oraoplay.com/webtv/rtnctv/</page>
+</regex>
+</item>
 
 
 
