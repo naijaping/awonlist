@@ -2331,6 +2331,22 @@
 <name>get-rtmp</name>
 <expres>src: "(.*?)"</expres>
 <page>https://www.livego.tv/video/441/4</page>
+<referer>https://www.livego.tv/video/4</referer>
+<cookieJar>$doregex[applycaptcha]</cookieJar>
+</regex>
+<regex>
+<name>applycaptcha</name>
+<expres></expres>
+<page>https://www.livego.tv/</page>
+<post>email:kolaolawale@gmail.com,password:aramide,login_attempt_id:$doregex[get-epoc]<post>
+<referer>https://www.livego.tv/</referer>
+<x-req>XMLHttpRequest</x-req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>get-epoc</name>
+<expres>$epoctime$</expres>
+<page></page>
 </regex>
 </item>
 
