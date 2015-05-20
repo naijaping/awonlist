@@ -2337,7 +2337,7 @@
 <regex>
 <name>LoginAndCookie</name>
 <expres></expres>
-<page></page>
+<page>https://www.livego.tv/plogin</page>
 <post>email:kolaolawale@gmail.com,password:aramide,login_attempt_id:$doregex[get-epoc]<post>
 <referer>https://www.livego.tv/register</referer>
 <x-req>XMLHttpRequest</x-req>
