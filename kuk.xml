@@ -2326,7 +2326,7 @@
 <regex>
 <name>get-url</name>
 <expres>src: "(.*?)"</expres>
-<page>http://www.oraoplay.com/webtv/rtnctv/</page>
+<page>https://www.livego.tv/video/441/4</page>
 </regex>
 </item>
 
