@@ -2319,6 +2319,20 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>test</title>
+<link>$doregex[getdecoded-rtmp] swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf pageUrl=https://www.livego.tv/video/441/4 live=1 timeout=15</link>
+<regex>
+<name>getdecoded-rtmp</name>
+<expres> $pyFunction:urllib.unquote('$doregex[get-rtmp]')</expres>
+<page>here write link of page</page>
+</regex>
+<regex>
+<name>get-rtmp</name>
+<expres>src: "(.*?)"</expres>
+<page>https://www.livego.tv/video/441/4</page>
+</regex>
+</item>
 
 
 
