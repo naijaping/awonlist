@@ -2325,7 +2325,7 @@
 <link>$doregex[reg1]|User-Agent=extrawatch_agent</link>
 <regex>
 <name>reg1</name>
-<expres>streamer:([^"]*)</expres>
+<expres>streamer:"(.*?)"</expres>
 <page>www.awooze.com/index.php?view=play&vidtype=2&channel=BelieveTV</page>
 </regex>
 <thumbnail></thumbnail>
