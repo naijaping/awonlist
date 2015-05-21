@@ -2319,20 +2319,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-		<title>wat</title>
-		<link>plugin://plugin.video.f4mTester/?url=$doregex[get-urlencoded]&amp;auth=pvtoken%3Dst%253D0000000000%257Eexp%253D9999999999%257Eacl%253D%25252f%25252a%257Edata%253DZXhwPTE0MDc3MjYzMzN%2BYWNsPSUyZip%2BZGF0YT1wdmMsc35obWFjPTFhMGE4NTk1NjBjOGRjNGVmNTIxZWQ4ZGExODc1MjRiMWYwYmJmMDUxMDFkMWU4ZDJlM2E5YmU1NjkwNjNjNWQ%253D%2521DICnlYvc%2FdmyS2FqMPqgEOeNAJFILRiYPxqjY4EHEys%253D%257Ehmac%253D6D960F9624EDF71727A75B6C360CD79C661CB96C62AF2B45286B5523B71D04D4%26hdntl%3Dexp%3D1407726333~acl%3D%252f*~data%3Dhdntl~hmac%3D90ab911ebe7c4fc6976777c6cd2874eedaec5da4128c8ed92817442dcae65afb%26hdcore%3D2.5.14%26als%3D0%2C2%2C0%2C0%2C0%2CNaN%2C0%2C0%2C0%2C19%2Cf%2C54125192%2C54064223.59%2Ct%2Cs%2CQHQOKBVWPVWK%2C2.7.6%2C19</link>
-		<regex>
-		<name>get-urlencoded</name>
-		<expres>$pyFunction:urllib.quote_plus('$doregex[get-url]'+'&amp;hdcore=2.5.14|X-Forwarded-For=77.132.237.189&amp;User-Agent=Mozilla%2F5.0%20(Windows%20NT%206.1%3B%20rv%3A30.0)%20Gecko%2F20100101%20Firefox%2F30.0')</expres>
-		<page></page>
-		</regex>
-		<regex>
-		<name>get-url</name>
-		<expres>(.*)</expres>
-		<page>http://www.wat.tv/get/hd1live/591997?getURL=1</page>
-		</regex>
-		</item>
+
 
 
 
