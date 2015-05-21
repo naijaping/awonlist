@@ -2320,7 +2320,16 @@
 </item>
 
 
-
+<item>
+<title>Bein Sport 2</title>
+<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres>src="(.*?)"</expres>
+<page>www.stream4free.eu/sex-live</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
