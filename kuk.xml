@@ -2325,7 +2325,7 @@
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>src="(.*?)"</expres>
+<expres>source src="([^"]*)</expres>
 <page>www.stream4free.eu/sex-live</page>
 </regex>
 <thumbnail></thumbnail>
