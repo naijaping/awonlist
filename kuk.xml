@@ -2322,7 +2322,7 @@
 
 <item>
 <title>Bein Sport 2</title>
-<link>$doregex[get-url]</link>
+<link>$doregex[get-url]|User-Agent=extrawatch_agent</link>
 <regex>
 <name>get-url</name>
 <expres>source src="([^"]*)</expres>
