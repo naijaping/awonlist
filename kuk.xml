@@ -2319,7 +2319,17 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<cname>TMC</cname>
+		<item>
+			<title>master</title>
+			<link>http://max.myfrtv.com/8211/m3u8/8211.m3u8$doregex[get-token]</link>
+				<regex>
+				<name>get-token</name>
+				<expres>(.*)</expres>
+				<page>http://myfrtv.com/channels/new-file/</page>
+				<x-forward>205.236.221.231</x-forward>
+				</regex>
+		</item>
 
 
 
