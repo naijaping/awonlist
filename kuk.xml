@@ -2321,16 +2321,25 @@
 
 
 <item>
-<title>Bein</title>
-<link>$doregex[reg1]|User-Agent=extrawatch_agent</link>
-<regex>
-<name>reg1</name>
-<expres>'file': '(.*)'</expres>
-<page>www.awooze.com/index.php?view=play&vidtype=2&channel=BelieveTV</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+			<title>youtube 720p</title>
+			<link>$doregex[getQualityLink]</link>
 
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=1280x720\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=sw4hmqVPe0E</page>
+				</regex>
+		</item>
 
 
 
