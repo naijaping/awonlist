@@ -2319,17 +2319,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<streaminginfo>
-		<cname>BBC Two</cname>
-		<item>
-			<title>giniko</title>
-			<link>$doregex[url]</link>
-				<regex>
-				<name>url</name>
-				<expres>file: "([^"]*)</expres>
-				<page>http://giniko.com/watch.php?id=190</page>
-				</regex>
-				</item>
 
 
 
