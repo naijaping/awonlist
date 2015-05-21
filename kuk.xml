@@ -2321,10 +2321,10 @@
 
 
 <item>
-<title>Bein Sport 2</title>
-<link>$doregex[get-url]|User-Agent=extrawatch_agent</link>
+<title>Bein</title>
+<link>$doregex[reg1]|User-Agent=extrawatch_agent</link>
 <regex>
-<name>get-url</name>
+<name>reg1</name>
 <expres>source src="([^"]*)</expres>
 <page>http://jtvstream.me/south-park-fr</page>
 </regex>
