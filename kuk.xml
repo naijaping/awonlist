@@ -2332,18 +2332,15 @@
 <thumbnail></thumbnail>
 </item>
 
-<item><title>High Playtv</title>
-<link>$doregex[geturl]</link>
-     <regex>
-        <name>geturl</name>
-        <expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
-        <page></page>
-    </regex>    
-    <regex>
-        <name>getplayerid</name>
-        <expres>data-alias="mfm-tv"\s*data-playerid="(.*?)"</expres>
-        <page>http://playtv.fr/television/</page>
-    </regex>    
+<item>
+        <title>Low FR Playtv</title>
+        <link>http://188.165.101.226:80/mobile/_definst_/i24-news_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
+        <regex>
+        <name>key</name>
+        <expres>sessionid=([^'"]*)</expres>
+        <page>http://m.playtv.fr/api/channels/i24-news/?preset=with_programme%2Cwith_streams</page>
+        <referer></referer>
+        </regex>
 </item>
 
 
