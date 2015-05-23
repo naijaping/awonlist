@@ -2332,6 +2332,19 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>News First</title>
+<link>http://live-4.viewer.dacast.com/i/dclive_1@104018/master.m3u8$doregex[token]</link>
+<regex>
+<name>token</name>
+<expres>(.*)</expres>
+<page>https://services.viewer.dacast.com/token/i/b/45804/c/56790</page>
+<referer>http://static.viewer.dacast.com</referer>
+</regex>
+</item>
+
+
+
 
  
 
