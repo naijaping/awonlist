@@ -2332,6 +2332,19 @@
 <thumbnail></thumbnail>
 </item>
 
+<item><title>High Playtv</title>
+<link>$doregex[geturl]</link>
+     <regex>
+        <name>geturl</name>
+        <expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
+        <page></page>
+    </regex>    
+    <regex>
+        <name>getplayerid</name>
+        <expres>data-alias="mfm-tv"\s*data-playerid="(.*?)"</expres>
+        <page>http://playtv.fr/television/</page>
+    </regex>    
+</item>
 
 
 
