@@ -2321,13 +2321,9 @@
 
 
 <item>
-<title>FRANC</title> 
-<link>$doregex[reg1]</link> 
-<regex>
-<name>reg1</name>
-<expres>file:="(.*)"</expres>
-<page>http://servotechstreaming.com/ravetv/index.php</page>
-</regex>
+<title>Rave TV</title> 
+<link>http://77.92.76.135:1935/ravetv/livestream/playlist.m3u8</link> 
+<thumbnail></thumbnail>
 </item>
 
 
