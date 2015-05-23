@@ -2338,7 +2338,7 @@
 <regex>
 <name>token</name>
 <expres>(.*)</expres>
-<page>https://services.viewer.dacast.com/token/i/b/45804/c/56790</page>
+<page>https://services.viewer.dacast.com/token/i/b/1724_c_28391</page>
 <referer>http://www.telesud.com/le-live-iframe</referer>
 </regex>
 </item>
