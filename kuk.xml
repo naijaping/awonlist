@@ -2388,6 +2388,7 @@
 <name>get-token</name>
 <expres>(.*)</expres>
 <page>http://services.viewer.dacast.com/token/z/b/1724/c/28391?flash</page>
+<referer>http://www.telesud.com/le-live-iframe</referer>
 </regex>
 </item>
 
