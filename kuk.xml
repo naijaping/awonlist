@@ -2343,7 +2343,20 @@
         </regex>
 </item>
 
-
+<item>
+	<title>MFM HD</title>
+	<link>$doregex[getURL]</link>
+	<regex>
+	<name>getURL</name>
+	<expres>$pyFunction:'$doregex[getLink]'.replace('\\/','/')</expres>
+	<page></page>
+	</regex>
+	<regex>
+	<name>getLink</name>
+	<expres>http":"(.*?)"</expres>
+	<page>http://m.playtv.fr/api/channels/mfm-tv/?preset=with_programme%2Cwith_streams</page>
+	</regex>
+	</item>
 
 
 
