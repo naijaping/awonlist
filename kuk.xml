@@ -2320,28 +2320,8 @@
 </item>
 
 
-<item>
-<title>TV1</title>
-<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://tv.filmover.com/jwp5/player.swf pageUrl=http://tv.filmover.com live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>base="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ait2&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
-<agent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36</agent>
-</regex>
-<regex>
-<name>path</name>
-<expres>src="(.*)"</expres>
-<page>$pyFunction:urllib.urlopen('http://www.proxyusa.info/browse.php?u=$doregex[url-quote]').read()</page>
-<referer>http://www.proxyusa.info/</referer>
-</regex>
-<regex>
-<name>url-quote</name>
-<expres>$pyFunction:urllib.quote('http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ait2&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil')</expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hip_tv_ng.png</thumbnail>
-</item>
+
+
 
 
 
