@@ -2362,16 +2362,6 @@
 	<page>http://m.playtv.fr/api/channels/mfm-tv/?preset=with_programme%2Cwith_streams</page>
 	</regex>
 	</item>
-<item>
-<title>News First</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>(.*)</expres>
-<page>http://www.telesud.com/le-live-iframe/</page>
-<referer>http://static.viewer.dacast.com</referer>
-</regex>
-</item>
 
 
 
