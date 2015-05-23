@@ -2327,7 +2327,7 @@
 <regex>
 <name>get-url</name>
 <expres>source file:="(.*?)"</expres>
-<page>http://servotechstreaming.com/ravetv/index.php</page>
+<page>http://servotechstreaming.com/ravetv/</page>
 </regex>
 </item>
 
