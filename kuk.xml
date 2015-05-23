@@ -2319,7 +2319,21 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Ohcoko</title>
+<link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://www.ohtv.co.uk/live/embed/mediaplayer.swf pageUrl=http://www.ohtv.co.uk live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>base="(.*)"<expres>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=coko&amp;ref=http://www.ohtv.co.uk/live/indexusa.htm&amp;type=live&amp;service=wowza&amp;output=smil</page>
+</regex>
+<regex>
+<name>path</name>
+<expres>src="(.*)"<expres>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=coko&amp;ref=http://www.ohtv.co.uk/live/indexusa.htm&amp;type=live&amp;service=wowza&amp;output=smil</page>
+</regex>
+<thumbnail>http://www.ohtv.co.uk/live/fol_files/logo.jpg</thumbnail>
+</item>
 
 
 
