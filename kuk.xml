@@ -2380,7 +2380,7 @@
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
 <name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://live-4.viewer.dacast.com/z/dclive_1@104018/manifest.f4m?g=XYTVLUTPTJTB&amp;hdcore=3.6&amp;plugin=jwplayer-3.4.0.0|Referer=http://player.dacast.com/js/dacast_player.js')<expres>
+<expres>$pyFunction:urllib.quote_plus('http://live-4.viewer.dacast.com/z/dclive_1@104018/manifest.f4m?g=XYTVLUTPTJTB&amp;hdcore=3.6&amp;plugin=jwplayer-3.4.0.0|Referer=http://www.telesud.com/le-live-iframe')<expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/canalplus_es_deportes_2_hd.png</thumbnail>
