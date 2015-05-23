@@ -2376,20 +2376,20 @@
 </item>
 
 <cname>test</cname>
-	<item>
-	<title>f4m</title>
-	<link>plugin://plugin.video.f4mTester/?url=$doregex[get-token-encoded]</link>
-    <regex>
-    <name>get-token-encoded</name>
-    <expres>$pyFunction:urllib.quote_plus('http://dcunilive4-lh.akamaihd.net/z/dclive_1@104018/manifest.f4m$doregex[get-token]')</expres>
-    <page>$doregex[get-token]</page>
-    </regex>
-    <regex>
-    <name>get-token</name>
-    <expres>(.*)</expres>
-    <page>http://services.viewer.dacast.com/token/z/b/1724/c/28391?flash</page>
-    </regex>
-	</item>
+<item>
+<title>f4m</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[get-token-encoded]</link>
+<regex>
+<name>get-token-encoded</name>
+<expres>$pyFunction:urllib.quote_plus('http://live-04.viewer.dacast.com/z/dclive_1@104018/manifest.f4m$doregex[get-token]')</expres>
+<page>$doregex[get-token]</page>
+</regex>
+<regex>
+<name>get-token</name>
+<expres>(.*)</expres>
+<page>http://services.viewer.dacast.com/token/z/b/1724/c/28391?flash</page>
+</regex>
+</item>
 
 
 
