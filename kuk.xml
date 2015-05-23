@@ -2326,7 +2326,7 @@
 <regex>
 <name>reg1</name>
 <expres>file:="(.*?)"</expres>
-<page>http://servotechstreaming.com/ravetv/</page>
+<page>http://servotechstreaming.com/ravetv/index.php</page>
 </regex>
 </item>
 
