@@ -2351,15 +2351,7 @@
 	</item>
 
 
-<item>
-<title>Dan Yari</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: "([^"]*)</expres>
-<page>http://www.giniko.com/watch.php?id=159</page>
-</regex>
-</item>
+
 
 
 </channel>
