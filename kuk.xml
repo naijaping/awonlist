@@ -2334,11 +2334,11 @@
 
 <item>
         <title>Low FR Playtv</title>
-        <link>http://188.165.101.226:80/mobile/_definst_/i24-news_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
+        <link>http://188.165.101.226:80/mobile/_definst_/mfm-tv_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
         <regex>
         <name>key</name>
         <expres>sessionid=([^'"]*)</expres>
-        <page>http://m.playtv.fr/api/channels/i24-news/?preset=with_programme%2Cwith_streams</page>
+        <page>http://m.playtv.fr/api/channels/mfm-tv/?preset=with_programme%2Cwith_streams</page>
         <referer></referer>
         </regex>
 </item>
