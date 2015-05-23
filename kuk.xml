@@ -2339,7 +2339,7 @@
 <name>token</name>
 <expres>(.*)</expres>
 <page>https://services.viewer.dacast.com/token/i/b/45804/c/56790</page>
-<referer>http://static.viewer.dacast.com</referer>
+<referer>http://www.telesud.com/le-live-iframe</referer>
 </regex>
 </item>
 
