@@ -2325,7 +2325,7 @@
 <link>$doregex[reg1]</link> 
 <regex>
 <name>reg1</name>
-<expres>file:="(.*?)"</expres>
+<expres>source file:="(.*?)"</expres>
 <page>http://servotechstreaming.com/ravetv/index.php</page>
 </regex>
 </item>
