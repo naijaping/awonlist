@@ -2398,8 +2398,24 @@ pageUrl=https://streamup.com live=1 timeout=15</link>
 <regex>
 <name>id</name>
 <expres>rooms/(.*?)-</expres>
+<page>http://www.arenavision.in/arenavision13</page>
+</regex>
+</item>
+
+<item>
+<title>Streamup</title>
+<link>rtmp://$doregex[rtmpip]/app/$doregex[channelSlug] swfUrl=https://streamup.com/assets/StreamupVideoChat.swf pageUrl=https://streamup.com live=1 timeout=15</link>
+<regex>
+<name>rtmpip</name>
+<expres>(.*)</expres>
+<page>http://live.streamup.com:1935/redirect/?request=server</page>
+</regex>
+<regex>
+<name>channelSlug</name>
+<expres>rooms\/(.*?)\/</expres>
 <page>https://streamup.com/gear</page>
 </regex>
+<thumbnail></thumbnail>
 </item>
 
 
