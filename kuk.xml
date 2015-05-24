@@ -2386,6 +2386,21 @@
 </regex>
 </item>
 
+<item>
+<title>ArenaVision 13 (streamup)</title>
+<link>rtmp://$doregex[get-ip]:1935/app playpath=$doregex[id]-channel  swfUrl=https://streamup.com/assets/StreamupVideoChat.swf
+pageUrl=https://streamup.com live=1 timeout=15</link>
+<regex>
+<name>get-ip</name>
+<expres>(.*)</expres>
+<page>https://streamup-lancer.herokuapp.com/api/redirect/$doregex[id]</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>rooms/(.*?)-</expres>
+<page>http://www.arenavision.in/arenavision13</page>
+</regex>
+</item>
 
 
 
