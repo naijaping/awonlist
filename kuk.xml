@@ -2412,7 +2412,7 @@ pageUrl=https://streamup.com live=1 timeout=15</link>
 </regex>
 <regex>
 <name>channelSlug</name>
-<expres>rooms/(.*?)</expres>
+<expres>rooms/(.*)</expres>
 <page>https://streamup.com/gear</page>
 </regex>
 <thumbnail></thumbnail>
