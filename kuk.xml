@@ -2405,7 +2405,21 @@
 
 
 
-
+<item>
+<title>Vip usa (Direct2Watch)</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.direct2watch.com/embedplayer.php?channel=$doregex[id]</page>
+<referer>http://vipracing.tv/</referer>
+</regex>
+<regex>
+<name>id</name>
+<expres>embed/(.*?)&amp;</expres>
+<page>http://vipracing.tv/channel/espnusa</page>
+<referer>http://vipracing.tv/</referer>
+</regex>
 
 
 
