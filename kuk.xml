@@ -2398,7 +2398,7 @@ pageUrl=https://streamup.com live=1 timeout=15</link>
 <regex>
 <name>id</name>
 <expres>rooms/(.*?)-</expres>
-<page>http://www.arenavision.in/arenavision13</page>
+<page>http://footy.ml/page/1</page>
 </regex>
 </item>
 
