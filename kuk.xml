@@ -2429,7 +2429,15 @@
 </regex>
 </item>
 
-
+<item>
+<title>Streamupooo</title>
+<link>rtmp://$doregex[get-ip]:1935/app playpath=morepowers-channel swfUrl=https://streamup.com/assets/StreamupVideoChat.swf pageUrl=https://streamup.com live=1 timeout=15</link>
+<regex>
+<name>get-ip</name>
+<expres>(.*)</expres>
+<page>https://streamup-lancer.herokuapp.com/api/redirect/morepowers</page>
+</regex>
+</item>
 
 
 
