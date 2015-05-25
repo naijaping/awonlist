@@ -2321,34 +2321,6 @@
 
 
 <item>
-<title>ch</title>
-<link>http://37.187.174.212:80/xepl-stadium1/index.m3u8?freeiptvlinks.com</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>ch222</title>
-<link>http://live-04.viewer.dacast.com/i/dclive_1@104018/master.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>News First</title>
-<link>http://live-4.viewer.dacast.com/i/dclive_1@104018/master.m3u8$doregex[token]</link>
-<regex>
-<name>token</name>
-<expres>(.*)</expres>
-<page>https://services.viewer.dacast.com/token/i/1724_c_28391</page>
-<referer>http://static.viewer.dacast.com</referer>
-</regex>
-</item>
-
-
-
-
- 
-
-<item>
 	<title>MFM HD</title>
 	<link>$doregex[getURL]</link>
 	<regex>
@@ -2364,10 +2336,7 @@
 	</item>
 
 
-<item>
-<title>News First</title>
-<link>http://www.xrxs.net/video/live-p12netw-2328.m3u8</link>
-</item>
+
 
 <cname>test</cname>
 <item>
@@ -2439,6 +2408,21 @@
 </regex>
 </item>
 
+<item>
+<title>Astro</title>
+<link>rtmp://$doregex[rtmpip]/app/$doregex[channelSlug] swfUrl=https://streamup.com/assets/StreamupVideoChat.swf pageUrl=https://streamup.com live=1 timeout=15</link>
+<regex>
+<name>rtmpip</name>
+<expres>(.*)</expres>
+<page>https://streamup-lancer.herokuapp.com/api/redirect/$doregex[channelSlug]</page> 
+</regex>
+<regex>
+<name>channelSlug</name>
+<expres>streamup.com\/rooms\/(.*?)\/</expres>
+<page>https://streamup.com/morepower</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
