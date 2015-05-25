@@ -2400,39 +2400,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/african_movie_channel_uk.png</thumbnail>
 </item>
 
-<item>
-<title>Sky News Youtube Playlist RegEx m3u8</title>
-<link>$doregex[get-final-url]</link>
-<regex>
-<name>get-id</name>
-<expres>vi\/([^\/]*)<expres>
-<page>https://www.youtube.com/user/skynews</page>
-</regex>
 
-<regex>
-<name>get-m3u8</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=$doregex[get-id]</page>
-</regex>
-
-<regex>
-<name>get-utf8-url</name>
-<expres>$pyFunction:'$doregex[get-m3u8]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-
-<regex>
-<name>get-url</name>
-<expres>$pyFunction:'$doregex[get-utf8-url]'.decode('utf-8')</expres>
-<page></page>
-</regex>
-
-<regex>
-<name>get-final-url</name>
-<expres>1080\n(.*)\n</expres>
-<page>$doregex[get-url]</page>
-</regex>
-</item>
 
 
 <item>
