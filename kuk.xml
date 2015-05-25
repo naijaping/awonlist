@@ -2400,60 +2400,8 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/african_movie_channel_uk.png</thumbnail>
 </item>
 
-<item>
-<title>Al Jazeera HD</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>"hlsvp":"(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=$doregex[get-page]</page>
-<referer></referer>
-</regex>
-<regex>
-<name>get-page</name>
-<expres>data-context-item-id="([^"]+)</expres>
-<page>https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg</page>
-</regex>
-<regex>
-<name>jsonurlfinal</name>
-<expres>1280x720\s*(.*?)\s</expres>
-<page>https://www.youtube.com/watch?v=$doregex[get-page]</page> 
-<referer></referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/al_jazeera_english.png</thumbnail>
-</item>
 
-<item>
-                        <title>Tru Sport 1 HD </title>
-                        <link>$doregex[url]</link>
-                        <regex>
-                        <name>url</name>
-                        <expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
-                        <page></page>
-                        </regex>
-                        <regex>
-                        <name>jsonurl</name>
-                        <expres>VIDEO_SRC":"(.*?)"</expres>
-                        <page>http://football-hd.com/index.php?ajax=invoke</page>
-                        <referer>http://football-hd.com</referer>
-                        <x-req>XMLHttpRequest</x-req>
-                        <post>lang:default,loc:modules/live_tv/LiveTV.ajax.php,met:getChannel,params:24</post>
-                        <cookiejar>$doregex[cookie]</cookiejar>
-                        </regex>
-                        <regex>
-                        <name>cookie</name>
-                        <expres></expres>
-                        <page>https://football-hd.com/</page>
-                        <cookiejar></cookiejar>
-                        </regex>
-                        <thumbnail></thumbnail>
-                        </item>
-                       
+
 
 </channel>
 <channel>
