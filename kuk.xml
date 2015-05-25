@@ -2405,8 +2405,8 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: "(.*?)"</expres>
-<page>http://www.tvcontinental.tv/livestreaming</page>
+<expres>src="(.*?)"</expres>
+<page>http://mitvonline.tv/live/</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
