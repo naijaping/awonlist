@@ -2429,7 +2429,7 @@
 </item>
 
 <item>
-                        <title>Sun Channel</title>
+                        <title>WWW HD </title>
                         <link>$doregex[url]</link>
                         <regex>
                         <name>url</name>
@@ -2442,7 +2442,7 @@
                         <page>http://football-hd.com/index.php?ajax=invoke</page>
                         <referer>http://football-hd.com</referer>
                         <x-req>XMLHttpRequest</x-req>
-                        <post>lang:default,loc:modules/live_tv/LiveTV.ajax.php,met:getChannel,params:15</post>
+                        <post>lang:default,loc:modules/live_tv/LiveTV.ajax.php,met:getChannel,params:37</post>
                         <cookiejar>$doregex[cookie]</cookiejar>
                         </regex>
                         <regex>
@@ -2453,7 +2453,6 @@
                         </regex>
                         <thumbnail></thumbnail>
                         </item>
-
 
 </channel>
 <channel>
