@@ -2420,11 +2420,6 @@
 <page>https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg</page>
 </regex>
 <regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurlfinal]'.replace('\/','/')</expres>
-<page></page>
-</regex>
-<regex>
 <name>jsonurlfinal</name>
 <expres>1280x720\s*(.*?)\s</expres>
 <page>https://www.youtube.com/watch?v=$doregex[get-page]</page> 
