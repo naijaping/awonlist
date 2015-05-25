@@ -2439,11 +2439,11 @@
 				</regex>
 				<regex>
 				<name>nuetralizeLink</name>
-				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
 				<page></page>
 				</regex>
 				<regex>
-				<name>getlink</name>
+				<name>jsonurl</name>
 				<expres>hlsvp": "(.*?)"</expres>
 				<page>https://www.youtube.com/watch?v=sw4hmqVPe0E</page>
 				</regex>
