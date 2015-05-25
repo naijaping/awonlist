@@ -2412,6 +2412,18 @@
 </item>
 
 
+<item>
+<title>src-tv</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>src="(.*?)"</expres>
+<page>http://www.stream4free.eu/sex-live</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
 
 
 
