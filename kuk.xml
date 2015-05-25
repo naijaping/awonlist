@@ -2402,6 +2402,40 @@
 
 
 
+<item>
+<title>HQ Youtube Bypass Geoblock</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[jsonurlfinal]'.replace('\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>jsonurlfinal</name>
+<expres>854x480\s*(.*?)\s</expres>
+<page>$pyFunction:urllib.urlopen('http://godfather-proxy.com/index.php?q=$doregex[url-quote-manifest]&amp;hl=280').read()</page> 
+<referer>http://godfather-proxy.com</referer>
+</regex>
+<regex>
+<name>url-quote-manifest</name>
+<expres>$pyFunction:urllib.quote('$doregex[jsonurl]'.replace('\/','/'))</expres>
+<page></page>
+</regex>
+<regex>
+<name>jsonurl</name>
+<expres>hlsvp":"(.*?)"</expres>
+<page>$pyFunction:urllib.urlopen('http://godfather-proxy.com/index.php?q=$doregex[url-quote]&amp;hl=280').read()</page> 
+<referer>http://godfather-proxy.com</referer>
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote('https://www.youtube.com/watch?v=sw4hmqVPe0E&amp;feature=player_embedded')</expres>
+<page></page>
+</regex>
+</item>
+
+
+
 
 
 </channel>
