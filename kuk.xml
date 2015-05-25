@@ -2422,11 +2422,6 @@
 <expres>data-context-item-id="([^"]+)</expres>
 <page>https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg</page>
 </regex>
-<regex>
-<name>url</name>
-<expres>720\n(.*)\n</expres>
-<page>$doregex[get-page]</page>
-</regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/al_jazeera_english.png</thumbnail>
 </item>
 
