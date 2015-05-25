@@ -2157,7 +2157,7 @@
 <regex>
 <name>rtmpip</name>
 <expres>(.*)</expres>
-<page>http://live.streamup.com:1935/redirect/?request=server</page>
+<page>https://streamup-lancer.herokuapp.com/api/redirect/$doregex[channelSlug]</page> 
 </regex>
 <regex>
 <name>channelSlug</name>
