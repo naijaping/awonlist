@@ -2423,7 +2423,7 @@
 <page>https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg</page>
 </regex>
 <regex>
-<name>jsonurl</name>
+<name>url</name>
 <expres>720\n(.*)\n</expres>
 <page>$doregex[get-page]</page>
 </regex>
