@@ -2425,7 +2425,7 @@
 <regex>
 <name>jsonurl</name>
 <expres>720\n(.*)\n</expres>
-<page>$doregex[url]</page>
+<page>$doregex[get-page]</page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/al_jazeera_english.png</thumbnail>
 </item>
