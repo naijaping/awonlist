@@ -2429,7 +2429,7 @@
 </item>
 
 <item>
-			<title>youtube 720p</title>
+			<title> 720p</title>
 			<link>$doregex[getQualityLink]</link>
 
 				<regex>
@@ -2439,16 +2439,21 @@
 				</regex>
 				<regex>
 				<name>nuetralizeLink</name>
-				<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
 				<page></page>
 				</regex>
 				<regex>
-				<name>jsonurl</name>
+				<name>getlink</name>
 				<expres>hlsvp": "(.*?)"</expres>
-				<page>https://www.youtube.com/watch?v=sw4hmqVPe0E</page>
+				<page>https://www.youtube.com/watch?v=$doregex[delink]</page>
 				</regex>
+				<regex>
+				<name>delink</name>
+				<expres>data-context-item-id="s*(.*?)\s</expres>
+				<page>http://www.youtube.com/user/AlalamTV2/featured</page>
+				</regex>
+				
 		</item>
-
 
 
 
