@@ -2436,6 +2436,23 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Globo SP4</title>
+<link>$doregex[rtmp] token=$doregex[tok] swfUrl=http://pxstream.tv/jwplayer.flash.swf pageUrl=http://pxstream.tv live=1 timeout=15</link>
+<regex>
+	<name>rtmp</name>
+	<expres>file: "(.*wmsAuthSign.*?)"</expres>
+	<page>http://pxstream.tv/embed.php?file=brasgro</page>
+	<referer>http://tvonlinegratis1.com</referer>
+</regex>
+<regex>
+	<name>tok</name>
+	<expres>securetoken: "(.*?)"</expres>
+	<page>http://pxstream.tv/embed.php?file=brasgro</page>
+	<referer>http://tvonlinegratis1.com</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
