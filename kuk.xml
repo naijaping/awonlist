@@ -2430,8 +2430,8 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: "(.*)"</expres>
-<page>http://www.raveng.tv/rave-tv-live/</page>
+<expres>file: "(.*?)"</expres>
+<page>http://servotechstreaming.com/ravetv/index.php</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
