@@ -2431,7 +2431,7 @@
 <regex>
 <name>reg1</name>
 <expres>src="(.*?)"</expres>
-<page>www.brasiltvs.com/Canais/GloboSP4.html</page>
+<page>http://www.brasiltvs.com/Canais/GloboSP4.html</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
