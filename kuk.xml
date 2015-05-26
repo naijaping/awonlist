@@ -2455,6 +2455,22 @@
 </item>
 
 
+<item>
+<title>CTH Stadium2</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[url]</link>
+<regex>
+	<name>url</name>
+	<expres>file: "(.*?)",</expres>
+	<page>$doregex[linkpg]</page>
+	<referer>http://www.khaozap.com</referer>
+</regex>
+<regex>
+	<name>linkpg</name>
+	<expres>dragon_player.*\n.*\n.*\n.*src="(.*?)"</expres>
+	<page>http://www.khaozap.com/ดูบอลออนไลน์/ดูบอลออนไลน์ช่อง-cth2-hd/</page>
+</regex>
+</item>
+
 
 </channel>
 <channel>
