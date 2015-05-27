@@ -2478,11 +2478,11 @@
 </item>
 
 <item>
-<title>Love World TV</title>
+<title>Love World </title>
 <link>$doregex[rtmp] swfUrl=http://www.loveworldtv.co.uk/wp-content/plugins/fv-wordpress-flowplayer/flowplayer/flowplayer.swf pageUrl=http://www.loveworldtv.co.uk/ live=1 timeout=15</link>
 <regex>
 <name>rtmp</name>
-<expres>rtmp="(.*?)"</expres>
+<expres>src="(.*?)"</expres>
 <page>www.loveworldtv.co.uk/watch-live</page>
 </regex>
 <thumbnail></thumbnail>
