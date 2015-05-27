@@ -2478,11 +2478,22 @@
 </item>
 
 <item>
-<title>UAE</title>
+<title>fusion plus</title>
 <link>http://46.231.178.170:1935/edge/43_135_live/chunklist_w1329022270.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
+
+<item>
+<title>Muh</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://play.inacdn.com/live/135?autoplay=true</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 </channel>
 <channel>
