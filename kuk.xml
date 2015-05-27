@@ -2477,6 +2477,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Love World</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>src:"(.*?)"</expres>
+<page>www.loveworldtv.co.uk/watch-live</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 </channel>
 <channel>
