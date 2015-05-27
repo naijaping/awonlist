@@ -2472,6 +2472,18 @@
 </item>
 
 
+<item>
+<title>Muhi</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://162.244.81.165/mystream/player.php?id=37&width=500&height=300&autostart=true</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
 </channel>
 <channel>
 
