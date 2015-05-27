@@ -2495,6 +2495,29 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Telesud</title>
+<link>$doregex[url]$doregex[token]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>jsonurl</name>
+<expres>hls":"(.*)"</expres>
+<page>http://json.dacast.com/b/1724/c/28391/jsonp/dacast.jsonget.dc1724_c_28391</page>
+<referer>http://www.telesud.com/le-live-iframe/</referer>
+</regex>
+<regex>
+<name>token</name>
+<expres>(.*)</expres>
+<page>https://services.dacast.com/token/i/b/1724/c/28391?_method=GET</page>
+<referer>http://www.telesud.com/le-live-iframe/</referer>
+</regex>
+<thumbnail>http://www.telesud.com/wp-content/themes/telesud/assets/images/telesud-logo.png</thumbnail>
+</item>
+
 </channel>
 <channel>
 
