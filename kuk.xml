@@ -2482,7 +2482,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>source src="(.*?)"</expres>
+<expres>rtmp="(.*?)"</expres>
 <page>www.loveworldtv.co.uk/watch-live</page>
 </regex>
 <thumbnail></thumbnail>
