@@ -2478,7 +2478,7 @@
 </item>
 
 <item>
-<title>Love World</title>
+<title>Love World TV</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
