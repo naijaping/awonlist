@@ -103,6 +103,12 @@
 </item>
 
 <item>
+<title>Rave TV</title> 
+<link>http://77.92.76.135:1935/ravetv/livestream/playlist.m3u8</link> 
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rave_tv_ng.png</thumbnail>
+</item>
+
+<item>
 <title>Cartoon Network</title>
 <link>http://d1hya96e2cm7qi.cloudfront.net/Live/_definst_/sweetbcha1novD28_W_150.sdp/master.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/cartoon_network_global.png</thumbnail>
@@ -2420,18 +2426,6 @@
 <name>channelSlug</name>
 <expres>streamup.com\/rooms\/(.*?)\/</expres>
 <page>https://streamup.com/morepower</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>Rave</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>file: "(.*?)"</expres>
-<page>http://servotechstreaming.com/ravetv/index.php</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
