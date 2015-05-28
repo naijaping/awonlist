@@ -2511,7 +2511,7 @@
 
 <item>
 <title>mfm regex</title>
-<link>$doregex[reg1]</link>
+<link>$doregex[reg1]|Referer=www.purpleturtle.tv/mfm.html</link>
 <regex>
 <name>reg1</name>
 <expres>file: "(.*?)"</expres>
