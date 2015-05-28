@@ -2499,11 +2499,12 @@
 
 <item>
 <title>try regex</title>
-<link>$doregex[reg1]|Referer=http://www.iafrica.tv/silver-bird/</link>
+<link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>'file': '(.*?)'</expres>
-<page>http://www.iafrica.tv/silver-bird/</page>
+<page>http://www.ghanalive.tv/gtv-sports/</page>
+<referer>http://www.ghanalive.tv/gtv-sports/</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
