@@ -2509,6 +2509,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>mfm regex</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.purpleturtle.tv/mfm.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 </channel>
 <channel>
