@@ -2515,7 +2515,7 @@
 <regex>
 <name>reg1</name>
 <expres>file: "(.*?)"</expres>
-<page>http://www.purpleturtle.tv/mfm.html</page>
+<page>http://webtv.mountainoffire.org/</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
