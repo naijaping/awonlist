@@ -2464,7 +2464,7 @@
 
 
 <item>
-<title>Muh</title>
+<title>Fusionplus regex</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
@@ -2498,16 +2498,7 @@
 </item>
 
 
-<item>
-<title>TVC</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>file: "(.*?)"</expres>
-<page>http://www.tvcnews.tv/?q=live-tv</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 </channel>
 <channel>
