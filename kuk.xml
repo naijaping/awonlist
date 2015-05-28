@@ -2499,7 +2499,7 @@
 
 <item>
 <title>try regex</title>
-<link>$doregex[reg1]</link>
+<link>$doregex[reg1]|Referer=http://www.iafrica.tv/silver-bird/</link>
 <regex>
 <name>reg1</name>
 <expres>'file': '(.*?)'</expres>
