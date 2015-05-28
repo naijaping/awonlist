@@ -2510,17 +2510,7 @@
 </item>
 
 
-<item>
-<title>treg</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>src="(.*?)"</expres>
-<page>http://www.hdmyt.info/channel.php?file=1019&width=640&height=360&autostart=true</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
