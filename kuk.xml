@@ -2514,7 +2514,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>streamer: "(.*?)"</expres>
+<expres>file: "(.*?)"</expres>
 <page>http://www.purpleturtle.tv/mfm.html</page>
 </regex>
 <thumbnail></thumbnail>
