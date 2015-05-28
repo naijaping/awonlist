@@ -2509,16 +2509,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>mfm regex</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>file: "(.*?)"</expres>
-<page>http://webtv.mountainoffire.org/</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 </channel>
 <channel>
