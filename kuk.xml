@@ -2509,6 +2509,23 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Castalba</title>
+<link>$doregex[rtmp] playpath=$doregex[id] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv live=true timeout=20</link>
+<regex>
+<name>rtmp</name>
+<expres>'streamer': '(.*?)'</expres>
+<page>http://castalba.tv/embed.php?cid=27122</page>
+<referer>http://vipracing.tv/</referer>
+</regex>
+<regex>
+<name>id</name>
+<expres>'file': '(.*?)'</expres>
+<page>http://castalba.tv/embed.php?cid=27122</page>
+<referer>http://vipracing.tv/</referer>
+</regex>
+</item>
+
 
 
 
