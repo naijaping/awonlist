@@ -2510,6 +2510,20 @@
 </item>
 
 
+<item>
+<title>tregex</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>src="(.*?)"</expres>
+<page>http://www.foot-live.info/stream/ch1.php</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
 
 </channel>
 <channel>
