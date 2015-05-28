@@ -2497,7 +2497,16 @@
 <thumbnail>http://www.telesud.com/wp-content/themes/telesud/assets/images/telesud-logo.png</thumbnail>
 </item>
 
-
+<item>
+<title>try regex</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>'file': '(.*?)'</expres>
+<page>http://www.iafrica.tv/silver-bird/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 </channel>
