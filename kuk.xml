@@ -2499,11 +2499,11 @@
 
 <item>
 <title>try regex</title>
-<link>$doregex[reg1]|Referer=http://www.ghanalive.tv/gtv-sports</link>
+<link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>'file': '(.*?)'</expres>
-<page>http://www.ghanalive.tv/gtv-sports/</page>
+<expres>data-stream="(.*?)"</expres>
+<page>http://streema.com/tv/MFM_Ministries_TV</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
