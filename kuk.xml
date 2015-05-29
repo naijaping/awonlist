@@ -2541,9 +2541,9 @@
 
 <item>
 <title>Ktmfm</title>
-<link>$doregex[reg1]</link>
+<link>$doregex[rtmp] swfUrl=http://www.purpleturtle.tv/jwplayer/player.swf pageUrl=http://www.purpleturtle.tv/ live=true timeout=15</link>
 <regex>
-<name>reg1</name>
+<name>rtmp</name>
 <expres>streamer: "(.*?)"</expres>
 <page>http://www.purpleturtle.tv/mfm/webtv/</page>
 <referer></referer>
