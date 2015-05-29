@@ -2540,7 +2540,7 @@
 
 
 <item>
-<title>Ktmfm</title>
+<title>Ktmf</title>
 <link>$doregex[reg1]|Referer=http://webtv.mountainoffire.org</link>
 <regex>
 <name>reg1</name>
