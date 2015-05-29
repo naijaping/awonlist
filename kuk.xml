@@ -2541,10 +2541,10 @@
 
 <item>
 <title>Ktmf</title>
-<link>$doregex[reg1]|Referer=http://webtv.mountainoffire.org</link>
+<link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>streamer: "(.*?)"</expres>
+<expres>file: "(.*?)"</expres>
 <page>http://www.purpleturtle.tv/mfm/webtv/</page>
 <referer></referer>
 </regex>
