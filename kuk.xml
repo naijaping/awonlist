@@ -2545,7 +2545,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>provider: "(.*?)"</expres>
+<expres>provider: rtmp "(.*?)"</expres>
 <page>http://www.purpleturtle.tv/mfm/webtv/</page>
 <referer></referer>
 </regex>
