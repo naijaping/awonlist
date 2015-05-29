@@ -2526,6 +2526,17 @@
 </regex>
 </item>
 
+<item>
+<title>trgex</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>src="(.*?)"</expres>
+<page>http://koga.tv/video.htm</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
