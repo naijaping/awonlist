@@ -2526,7 +2526,10 @@
 </regex>
 </item>
 
-
+<item><title>Youtube My Subscription</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/special/new_uploaded_videos_tv/</jsonrpc>
+</item>
 
 
 
