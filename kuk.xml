@@ -2531,7 +2531,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>streamer:"(.*?)"</expres>
+<expres>'file': '(.*?)'</expres>
 <page>http://www.awooze.com/index.php?view=play&vidtype=2&channel=Fusionplus</page>
 <referer></referer>
 </regex>
