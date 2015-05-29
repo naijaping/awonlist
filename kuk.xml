@@ -2541,7 +2541,7 @@
 
 <item>
 <title>Ktmfm</title>
-<link>$doregex[reg1]</link>
+<link>$doregex[reg1]|Referer=http://webtv.mountainoffire.org</link>
 <regex>
 <name>reg1</name>
 <expres>streamer: "(.*?)"</expres>
