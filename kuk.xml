@@ -2528,16 +2528,10 @@
 
 <item>
 <title>tryo</title>
-<link>$doregex[rtmp] playpath=$doregex[id] swfUrl=http://www.awooze.com/player.swf pageUrl=http://www.awooze.com/ live=true timeout=15</link>
+<link>$doregex[rtmp] playpath=PrestigeTv swfUrl=http://www.awooze.com/player.swf pageUrl=http://www.awooze.com/ flashVer=WIN\16,0,0,257 live=true timeout=15</link>
 <regex>
 <name>rtmp</name>
 <expres>streamer:"(.*?)"</expres>
-<page>http://www.awooze.com/index.php?view=play&vidtype=2&channel=PrestigeTv</page>
-<referer></referer>
-</regex>
-<regex>
-<name>id</name>
-<expres>file:"(.*?)"</expres>
 <page>http://www.awooze.com/index.php?view=play&vidtype=2&channel=PrestigeTv</page>
 <referer></referer>
 </regex>
