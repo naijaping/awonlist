@@ -2538,11 +2538,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>BBC Alba [TVPlayer Addon]</title>
-<link>ignorme</link>
-<jsonrpc>plugin://plugin.video.tvplayer/?url=236&amp;mode=200&amp;name=BBC+Alba+-+%5BCOLOR+white%5DSeo+BBC+ALBA%3A+This+is+BBC+ALBA%5B%2FCOLOR%5D&amp;iconimage=http%3A%2F%2Fstatic.simplestream.com%2Ftvplayer%2Flogos%2F150%2FInverted%2F236.png&amp;description=This+is+BBC+ALBA.+Sealladh+%C3%B9r+bho+Alba.+A+new+view+from+Scotland.%0A%0A%5BCOLOR+white%5DNEXT%3A%0ABlarag+a%27+Bho%5B%2FCOLOR%5D</jsonrpc>
-</item>
+
 
 
 
