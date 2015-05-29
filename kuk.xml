@@ -2539,17 +2539,6 @@
 </item>
 
 
-<item>
-<title>Love World Plus</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>'provider': "(.*?)"</expres>
-<page>http://www.metacdn.com/r/l/bedkcjfty/lwplus/embed</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 
 
