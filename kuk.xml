@@ -2541,9 +2541,9 @@
 
 <item>
 <title>Ktmfm</title>
-<link>$doregex[rtmp]</link>
+<link>$doregex[reg1]</link>
 <regex>
-<name>rtmp</name>
+<name>reg1</name>
 <expres>streamer: "(.*?)"</expres>
 <page>http://www.purpleturtle.tv/mfm/webtv/</page>
 <referer></referer>
