@@ -2624,7 +2624,7 @@
 
 
 <item> 
-<title>Nasa TV HD</title>
+<title>AIT TV</title>
 <link>http://iphone-streaming.ustream.tv/ustreamVideo/$doregex[path]/streams/live/playlist.m3u8</link>
 <regex>
 <name>path</name>
