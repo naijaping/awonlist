@@ -2624,7 +2624,29 @@
 
 
 
+<streaminginfo>
+		<cname>Toyor Al Janah</cname>
+		<item>
+			<title>youtube 360p</title>
+			<link>$doregex[getQualityLink]</link>
 
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=640x360\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=ANM-dq5USTc</page>
+				</regex>
+		</item>
+	</streaminginfo>
 
 
 
