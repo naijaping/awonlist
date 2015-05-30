@@ -2544,7 +2544,7 @@
 <regex>
 <name>reg1</name>
 <expres>file: "(.*?)"</expres>
-<page>www.malayalamtvhd.biz/2015/05/sports-all-in-one.html</page>
+<page>http://www.malayalamtvhd.biz/2015/05/sports-all-in-one.html</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
@@ -2557,7 +2557,7 @@
 <regex>
 <name>reg1</name>
 <expres>file: '(.*?)'</expres>
-<page>www.malayalamtvhd.biz/2015/05/bein-sports-hd.html</page>
+<page>http://www.malayalamtvhd.biz/2015/05/bein-sports-hd.html</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
