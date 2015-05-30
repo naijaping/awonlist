@@ -2538,7 +2538,17 @@
 </regex>
 </item>
 
-
+<item>
+<title>try</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.africawebtv.com/channels-tv-nigeria/</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
