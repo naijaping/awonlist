@@ -2557,6 +2557,11 @@
 <expres>data-context-item-id="([^"]+)</expres>
 <page>https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ</page>
 </regex>
+<regex>
+<name>url</name>
+<expres>720\n(.*)\n</expres>
+<page>$doregex[jsonurl]</page>
+</regex>
 </item>
 
 
