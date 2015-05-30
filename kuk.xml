@@ -2539,11 +2539,11 @@
 </item>
 
 <item>
-<title>try HD</title>
+<title>HD</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: "(.*?)"</expres>
+<expres>file: "(.*?)</expres>
 <page>www.malayalamtvhd.biz/2015/05/sports-all-in-one.html</page>
 <referer></referer>
 </regex>
