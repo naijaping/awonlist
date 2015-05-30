@@ -2623,17 +2623,7 @@
 </item>
 
 
-<item> 
-<title>AIT </title>
-<link>http://iphone-streaming.ustream.tv/ustreamVideo/$doregex[path]/streams/live/playlist.m3u8</link>
-<regex>
-<name>path</name>
-<expres>"https://www.ustream.tv/embed/(.+?)"></expres>
-<page>http://www.ustream.tv/channel/18431556</page>
-<referer> </referer>
-</regex>
-<thumbnail></thumbnail>
-</item> 
+
 
 
 
