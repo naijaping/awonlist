@@ -2558,9 +2558,14 @@
 <page>https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ</page>
 </regex>
 <regex>
+<regex>
+<name>get-url</name>
+<expres>$pyFunction:'$doregex[jsonurl]'.decode('utf-8')</expres>
+<page></page>
+</regex>	
 <name>url</name>
 <expres>720\n(.*)\n</expres>
-<page>$doregex[jsonurl]</page>
+<page>$doregex[get-url]</page>
 </regex>
 </item>
 
