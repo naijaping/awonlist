@@ -1873,91 +1873,7 @@
 </regex><thumbnail></thumbnail>
 </item>
  
-<item>http://cinestrenostv.tv/canales/canal-plus-accion.html
-<title>Canal+ Accion</title>
-<link>$doregex[get-decrypted-ssx4] app=redirect/?token=play@$doregex[get-token] playpath=$doregex[get-decrypted-ssx1] flashver=WIN\2016,0,0,305 swfUrl=http://www.businessapp1.pw/jwplayer5/addplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] live=1 timeout=15</link>
-<regex>
-<name>get-token</name>
-<expres>@(.*)</expres>
-<page>$doregex[get-decrypted-ssx4]</page>
-</regex>
-<regex>
-<name>get-decrypted-ssx4</name>
-<expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx4]")</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-encrypted-ssx4</name>
-<expres>ssx4" value="(.*)"</expres>
-<page>$doregex[get-iframe]</page>
-<referer>http://cinestrenostv.tv/canales/emision/accion.html</referer>
-<cookiejar></cookiejar>
-</regex>
-<regex>
-<name>get-iframe</name>
-<expres>src="(.*?)\"</expres>
-<page>http://tv.verdirectotv.org/channel.php?file=103879&amp;width=650&amp;height=400&amp;autostart=true</page>
-<referer>http://cinestrenostv.tv/canales/emision/accion.html</referer>
-<agent>Opera/9.50</agent>
-<cookiejar></cookiejar>
-</regex>
-<regex>
-<name>get-decrypted-ssx1</name>
-<expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx1]")</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-encrypted-ssx1</name>
-<expres>ssx1" value="(.*)"</expres>
-<page>$doregex[get-iframe]</page>
-<referer>http://cinestrenostv.tv/canales/emision/accion.html</referer>
-<cookiejar></cookiejar>
-</regex>
-</item>
- 
-<item>http://cinestrenostv.tv/canales/documentales/nationalgeo.php
-<title>National Geographic Espana</title>
-<link>$doregex[get-decrypted-ssx4] app=redirect/?token=play@$doregex[get-token] playpath=$doregex[get-decrypted-ssx1] flashver=WIN\2016,0,0,305 swfUrl=http://www.businessapp1.pw/jwplayer5/addplayer/old/jwplayer.flash.swf pageUrl=$doregex[get-iframe] live=1 timeout=15</link>
-<regex>
-<name>get-token</name>
-<expres>@(.*)</expres>
-<page>$doregex[get-decrypted-ssx4]</page>
-</regex>
-<regex>
-<name>get-decrypted-ssx4</name>
-<expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx4]")</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-encrypted-ssx4</name>
-<expres>ssx4" value="(.*)"</expres>
-<page>$doregex[get-iframe]</page>
-<referer>http://cinestrenostv.tv</referer>
-<cookiejar></cookiejar>
-</regex>
-<regex>
-<name>get-iframe</name>
-<expres>src="(.*?)\"</expres>
-<page>http://tv.verdirectotv.org/channel.php?file=103877&amp;width=650&amp;height=400&amp;autostart=true</page>
-<referer>http://cinestrenostv.tv</referer>
-<agent>Opera/9.50</agent>
-<cookiejar></cookiejar>
-</regex>
-<regex>
-<name>get-decrypted-ssx1</name>
-<expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx1]")</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-encrypted-ssx1</name>
-<expres>ssx1" value="(.*)"</expres>
-<page>$doregex[get-iframe]</page>
-<referer>http://cinestrenostv.tv</referer>
-<cookiejar></cookiejar>
-</regex>
-</item>
-
-<item>
+ <item>
 <title>winners ng</title>
 <link>http://sanfran01.netcasterstream.com:8081/live/domihigh/playlist.m3u8</link>
 <thumbnail></thumbnail>
@@ -2626,29 +2542,21 @@
 <title>Sky News Youtube Playlist RegEx m3u8</title>
 <link>$doregex[get-final-url]</link>
 <regex>
-<name>get-id</name>
-<expres>vi\/([^\/]*)<expres>
-<page>https://www.youtube.com/user/skynews</page>
+<name>get-page</name>
+<expres>data-context-item-id="([^"]+)</expres>
+<page>https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ</page>
 </regex>
-
 <regex>
-<name>get-m3u8</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=$doregex[get-id]</page>
+<name>jsonurl</name>
+<expres>"hlsvp":"(.*?)"</expres>
+<page>https://www.youtube.com/watch?v=$doregex[get-page]</page>
+<referer></referer>
 </regex>
-
-<regex>
-<name>get-utf8-url</name>
-<expres>$pyFunction:'$doregex[get-m3u8]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-
 <regex>
 <name>get-url</name>
-<expres>$pyFunction:'$doregex[get-utf8-url]'.decode('utf-8')</expres>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
 <page></page>
 </regex>
-
 <regex>
 <name>get-final-url</name>
 <expres>1080\n(.*)\n</expres>
