@@ -2539,12 +2539,12 @@
 </item>
 
 <item>
-<title>Sky News Youtube Playlist RegEx m3u8</title>
-<link>$doregex[get-final-url]</link>
+<title> Sky News</title>
+<link>$doregex[url]</link>
 <regex>
-<name>get-page</name>
-<expres>data-context-item-id="([^"]+)</expres>
-<page>https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ</page>
+<name>url</name>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
+<page></page>
 </regex>
 <regex>
 <name>jsonurl</name>
@@ -2553,16 +2553,11 @@
 <referer></referer>
 </regex>
 <regex>
-<name>get-url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
-<page></page>
+<name>get-page</name>
+<expres>data-context-item-id="([^"]+)</expres>
+<page>https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ</page>
 </regex>
-<regex>
-<name>get-final-url</name>
-<expres>1080\n(.*)\n</expres>
-<page>$doregex[get-url]</page>
-
-
+</item>
 
 
 
