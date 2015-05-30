@@ -2550,17 +2550,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Sport 2 HD</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres> file: '(.*?)'</expres>
-<page>http://www.malayalamtvhd.biz/2014/12/sky-sports-2.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 
 <item>
