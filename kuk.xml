@@ -2166,7 +2166,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres> src="(.*?)"</expres>
+<expres>source src="(.*?)"</expres>
 <page>http://lb.streamakaci.com/lc2/</page>
 <referer></referer>
 </regex>
