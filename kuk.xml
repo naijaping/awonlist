@@ -2637,7 +2637,7 @@
 				</regex>
 				<regex>
 				<name>nuetralizeLink</name>
-				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\/','/')</expres>
 				<page></page>
 				</regex>
 				<regex>
