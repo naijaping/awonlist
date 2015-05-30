@@ -2602,7 +2602,17 @@
 </item>
 
 
-
+<item>
+<title>BB World</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres> file: '(.*?)'</expres>
+<page>http://www.malayalamtvhd.biz/2014/07/bbc-world-news_18.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
