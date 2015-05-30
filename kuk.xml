@@ -2543,7 +2543,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: "(.*?)"</expres>
+<expres>file: "(\s.*?)"</expres>
 <page>http://www.malayalamtvhd.biz/2015/05/sports-all-in-one.html</page>
 <referer></referer>
 </regex>
