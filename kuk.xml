@@ -2538,7 +2538,89 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>MotoGP TV</title>
+<link>$doregex[rtmp] playpath=$doregex[path] token=Q!lrB@G1)ww(-dQ4J4 conn=S:$doregex[path] conn=S:$doregex[ts] conn=S:$doregex[tok] conn=S:V&amp;gt;JWhui^@2ESdu0?}&amp;gt;AN swfUrl=http://static.zoomtv.me/player/jwplayer.6.7.4.swf pageUrl=http://www.zoomtv.me live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>base="(.*?)"</expres>
+<page>http://www.zoomtv.me/$doregex[url]</page>
+<referer>http://static.zoomtv.me/player/jwplayer.6.7.4.swf</referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>path</name>
+<expres>src="(.*?)"  title</expres>
+<page>http://www.zoomtv.me/$doregex[url]</page>
+<referer>http://static.zoomtv.me/player/jwplayer.6.7.4.swf</referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>url</name>
+<expres>$pyFunction:urllib.unquote('$doregex[codedurl]')</expres>
+<page></page>
+</regex>
+<regex>
+<name>codedurl</name>
+<expres>file:  unescape.'(.*?)'</expres>
+<page>http://www.zoomtv.me/embed.php?v=$doregex[fid]&amp;vw=660&amp;vh=450</page>
+<rawpost>cx=$doregex[ohj]&amp;lg=1&amp;pid=$doregex[pid]</rawpost>
+<referer>http://www.vipleague.co</referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>$pyFunction:urllib.unquote('$doregex[codedtok]')</expres>
+<page></page>
+</regex>
+<regex>
+<name>codedtok</name>
+<expres>$doregex[tokvar] = unescape.'(.*?)'</expres>
+<page>http://www.zoomtv.me/embed.php?v=$doregex[fid]&amp;vw=660&amp;vh=450</page>
+<rawpost>cx=$doregex[ohj]&amp;lg=1&amp;pid=$doregex[pid]</rawpost>
+<referer>http://www.vipleague.co</referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tokvar</name>
+<expres>sg: (.*?),</expres>
+<page>http://www.zoomtv.me/embed.php?v=$doregex[fid]&amp;vw=660&amp;vh=450</page>
+<rawpost>cx=$doregex[ohj]&amp;lg=1&amp;pid=$doregex[pid]</rawpost>
+<referer>http://www.vipleague.co</referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>ts</name>
+<expres>$doregex[tsvar] = unescape.'(.*?)'</expres>
+<page>http://www.zoomtv.me/embed.php?v=$doregex[fid]&amp;vw=660&amp;vh=450</page>
+<rawpost>cx=$doregex[ohj]&amp;lg=1&amp;pid=$doregex[pid]</rawpost>
+<referer>http://www.vipleague.co</referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tsvar</name>
+<expres>ts: (.*?),</expres>
+<page>http://www.zoomtv.me/embed.php?v=$doregex[fid]&amp;vw=660&amp;vh=450</page>
+<rawpost>cx=$doregex[ohj]&amp;lg=1&amp;pid=$doregex[pid]</rawpost>
+<referer>http://www.vipleague.co</referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>fid</name>
+<expres>fid="(.*?)"</expres>
+<page>http://www.vipleague.co/motorsports/216340/1/motogp-tv---practices,-qualifying-and-races-streams-live-stream-online.html</page>
+</regex>
+<regex>
+<name>ohj</name>
+<expres>ohj = (.*?);</expres>
+<page>http://www.vipleague.co/motorsports/216340/1/motogp-tv---practices,-qualifying-and-races-streams-live-stream-online.html</page>
+</regex>
+<regex>
+<name>pid</name>
+<expres>pid=(.*?);</expres>
+<page>http://www.vipleague.co/motorsports/216340/1/motogp-tv---practices,-qualifying-and-races-streams-live-stream-online.html</page>
+</regex>
+</item>
 
 
 
