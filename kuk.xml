@@ -2629,7 +2629,7 @@
 <regex>
 <name>path</name>
 <expres>"https://www.ustream.tv/embed/(.+?)"></expres>
-<page>http://www.ustream.tv/channel/18431556</page>
+<page>http://www.ustream.tv/channel/33612432</page>
 <referer> </referer>
 </regex>
 <thumbnail></thumbnail>
