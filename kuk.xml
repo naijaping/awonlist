@@ -2560,7 +2560,7 @@
 <regex>
 <regex>
 <name>get-url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.decode('utf-8')</expres>
+<expres>$pyFunction:'$doregex[jsonurl]'</expres>
 <page></page>
 </regex>	
 <name>url</name>
