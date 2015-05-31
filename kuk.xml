@@ -2085,18 +2085,6 @@
 </item>
 
 <item>
-<title>Bein HD</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres> file: '(.*?)'</expres>
-<page>http://www.malayalamtvhd.biz/2015/05/bein-sports-hd.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>1 HD</title>
 <link>$doregex[reg1]</link>
 <regex>
