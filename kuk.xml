@@ -2176,16 +2176,21 @@
 
 
 <item>
-<title>da</title>
-<link>$doregex[reg1]|User-Agent=extrawatch_agent</link>
+<title>Adventure Time 2</title>
+<link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=live_lmshows_at live=1 timeout=60</link>
 <regex>
-<name>reg1</name>
-<expres>flash src="(.*?)"</expres>
-<page>http://www.stream4free.eu/sex-live</page>
-<referer></referer>
+<name>getIP</name>
+<expres>function getEdgeServers.*"(.*?),<expres>
+<page>http://vaughnlive.tv/embed/video/lmshows_at?viewers=true&watermark=false&autoplay=true</page>
 </regex>
-<thumbnail></thumbnail>
-</item> 
+<regex>
+<name>getCODE</name>
+<expres>vsVars.*= "0n0(.*?)"<expres>
+<page>http://vaughnlive.tv/embed/video/lmshows_at?viewers=true&watermark=false&autoplay=true</page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fox_news_channel.png</thumbnail>
+<fanart>http://www.lyngsat-logo.com/logo/tv/ff/fox_news_channel.png</fanart>
+</item>       
 
 
 </channel>
