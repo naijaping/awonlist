@@ -2211,7 +2211,7 @@
 <regex>
 <name>url</name>
 <expres>{file: '(.*?)'</expres>
-<page>http://www.pinit.tv/embedplayer.php?width=620&height=465&vkey=c0ae4b3e843dc7cbab0f&autoplay=true&subtitles=</page>
+<page>http://www.pinit.tv/embedplayer.php?width=620&amp;height=465&amp;vkey=c0ae4b3e843dc7cbab0f&amp;autoplay=true&amp;subtitles=</page>
 <referer>http://www.catiii.tv/jism-2-2012/</referer>
 </regex>
 </item>
