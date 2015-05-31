@@ -2173,6 +2173,18 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>egex</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>data-stream="(.*?)"</expres>
+<page>http://streema.com/tv/Chosen_TV</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 </channel>
