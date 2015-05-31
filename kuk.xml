@@ -2177,7 +2177,7 @@
 
 <item>
 <title>da</title>
-<link>$doregex[reg1]</link>
+<link>$doregex[reg1]|User-Agent=extrawatch_agent</link>
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>
