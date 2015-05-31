@@ -2205,6 +2205,18 @@
 </item>
 
 
+<item>
+<title>Once Upon aShanghai 2014</title>
+<link>$doregex[url]|timeout=60</link>
+<regex>
+<name>url</name>
+<expres>{file: '(.*?)'</expres>
+<page>http://www.pinit.tv/embedplayer.php?width=620&height=465&vkey=c0ae4b3e843dc7cbab0f&autoplay=true&subtitles=</page>
+<referer>http://www.catiii.tv/jism-2-2012/</referer>
+</regex>
+</item>
+
+
 </channel>
 <channel>
 
