@@ -2174,6 +2174,18 @@
 </item>
 
 
+<item>
+<title>dataHD</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>data-stream="(.*?)"</expres>
+<page>http://streema.com/tv/BBC_World_News</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 
