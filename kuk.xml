@@ -2181,12 +2181,12 @@
 <regex>
 <name>getIP</name>
 <expres>function getEdgeServers.*"(.*?),<expres>
-<page>http://vaughnlive.tv/embed/video/lmshows_at?viewers=true&watermark=false&autoplay=true</page>
+<page>http://vaughnlive.tv//embed/video/lmshows_at?viewers=true&watermark=false&autoplay=true</page>
 </regex>
 <regex>
 <name>getCODE</name>
 <expres>vsVars.*= "0n0(.*?)"<expres>
-<page>http://vaughnlive.tv/embed/video/lmshows_at?viewers=true&watermark=false&autoplay=true</page>
+<page>http://vaughnlive.tv//embed/video/lmshows_at?viewers=true&watermark=false&autoplay=true</page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fox_news_channel.png</thumbnail>
 <fanart>http://www.lyngsat-logo.com/logo/tv/ff/fox_news_channel.png</fanart>
