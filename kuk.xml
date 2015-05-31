@@ -2190,7 +2190,19 @@
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fox_news_channel.png</thumbnail>
 <fanart>http://www.lyngsat-logo.com/logo/tv/ff/fox_news_channel.png</fanart>
-</item>       
+</item> 
+
+
+<item>
+<title>Once Upon a Time in Shanghai 2014</title>
+<link>$doregex[url]|timeout=60</link>
+<regex>
+<name>url</name>
+<expres>{file: '(.*?)'</expres>
+<page>http://www.pinit.tv/embedplayer.php?width=620&amp;height=465&amp;vkey=9d5b0e361ce4f0b24d03&amp;autoplay=true&amp;subtitles=</page>
+<referer>http://www.catiii.tv/once-upon-a-time-in-shanghai-2014/</referer>
+</regex>
+</item>
 
 
 </channel>
