@@ -2176,9 +2176,15 @@
 
 
 <item>
-<title>Sponge Bob</title>
-<link>plugin://plugin.video.veetle/?channel=50686cb1bbaa9</link>
-<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/SPONGEBOB.jpg</thumbnail>
+<title>da</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/the-big-bang-theory</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
 </item> 
 
 
