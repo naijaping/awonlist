@@ -2211,8 +2211,8 @@
 <regex>
 <name>reg1</name>
 <expres>streamer=(.*?)</expres>
-<page>www.filmover.com/gh/gtv.html</page>
-<referer>http://www.ghanatvon.com/gtv-live-ghana.html/</referer>
+<page>http://www.filmover.com/gh/gtv.html</page>
+<referer></referer>
 </regex>
 </item>
 
