@@ -2124,6 +2124,26 @@
 </item>
 
 
+<item>
+<title>oneplay</title>
+<link>http://live.oneplay.tv/reproducir/$doregex[id].m3u8$doregex[req]|Cookie=$get_cookies$&amp;X-Requested-With=ShockwaveFlash/17.0.0.188&amp;Referer=http://oneplay.tv/embed/?i=24&amp;User-Agent=Mozilla/5.0 (IE 11.0; Windows NT 6.3; Trident/7.0; .NET4.0E; .NET4.0C; rv:11.0) like Gecko</link>
+<regex>
+<name>req</name>
+<expres>.()</expres>
+<page>http://live.oneplay.tv/analytics.php?id=$doregex[id]</page>
+<referer>http://oneplay.tv/embed/?i=24</referer>
+<cookiejar></cookiejar>
+</regex>
+<regex>
+<name>id</name>
+<expres>(\d+)\.m3u8</expres>
+<page>http://oneplay.tv/embed/?i=24</page>
+<referer>http://oneplay.tv/ver/canal/24/fox</referer>
+<cookiejar></cookiejar>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 
