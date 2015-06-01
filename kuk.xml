@@ -1473,50 +1473,14 @@
 </item>
 
 
-<item><title>Atkin</title>
+<item>
+<title>Atkin</title>
 <link>http://81.92.105.132:5555/pl.m3u8?channel=5&amp;key=$doregex[reg1]</link>
 <regex><name>reg1</name>
 <expres>(?!["'\s]+)&amp;key=([^"]+)</expres>
 <page>http://alltv.ch/channels</page>
 <referer></referer>
 </regex>
-</item>
-
-<item>
-<title> vercosasgratis.com</title>
-<link>rtmp://$doregex[rtmp] playpath=$doregex[path] swfUrl=http://vercosasgratis.com/player.swf token=#ed%h0#w@12Fuck pageUrl=$doregex[get-iframe] live=1 timeout=10</link>
-<regex>
-<name>get-iframe</name>
-<expres>var url = '(.*?)'</expres>
-<page>http://vercosasgratis.com/channel.php?file=13276&width=700&height=400&autostart=true</page>
-<referer>http://vercosasgratis.com/online.php?id=13276</referer>
-</regex>
-<regex>
-<name>rtmp</name>
-<expres>streamer','rtmp:\/\/(.*?)'</expres>
-<page>$doregex[get-iframe]</page>
-<referer>http://vercosasgratis.com/online.php?id=13276</referer>
-</regex>
-<regex>
-<name>path</name>
-<expres>'file', '(.*?)'</expres>
-<page>$doregex[get-iframe]</page>
-<referer>http://vercosasgratis.com/online.php?id=13276</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title> americateve.com</title>
-<link>$doregex[get-page]</link>
-<regex>
-<name>get-page</name>
-<expres>"rtsp_url":"(.*?)"</expres>
-<page>http://new.livestream.com/accounts/5730046/events/2966225/player?width=960&amp;height=540&amp;autoPlay=true</page>
-<referer>http://www.americateve.com/vivo</referer>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0</agent>
-</regex>
-<thumbnail></thumbnail>
 </item>
 
 <item>
@@ -1781,12 +1745,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Ad2 - UAE</title>
-<link>rtmp://5.79.75.129:2195/live3/channel15a playpath=channel15a swfUrl=http://supremecater.com/player/src.swf token=Lvg4zyLafHmbd3Yt pageurl=http://www.plus1hd.com/forums/live_stream.php?cid=15&nid=e1 live=true timeout=10</link>
-<thumbnail></thumbnail>
-</item>
-
 
 <item>
 	<title>MFM HD</title>
@@ -1828,7 +1786,7 @@
 </item>
 
 <item>
-<title>a+v</title>
+<title>TV Vera</title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
@@ -1918,12 +1876,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>fusion plus</title>
-<link>http://46.231.178.170:1935/edge/43_135_live/chunklist_w1329022270.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
 
 <item>
 <title>Fusionplus regex</title>
@@ -1969,23 +1921,6 @@
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Castalba</title>
-<link>$doregex[rtmp] playpath=$doregex[id] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv live=true timeout=20</link>
-<regex>
-<name>rtmp</name>
-<expres>'streamer': '(.*?)'</expres>
-<page>http://castalba.tv/embed.php?cid=27122</page>
-<referer>http://vipracing.tv/</referer>
-</regex>
-<regex>
-<name>id</name>
-<expres>'file': '(.*?)'</expres>
-<page>http://castalba.tv/embed.php?cid=27122</page>
-<referer>http://vipracing.tv/</referer>
-</regex>
 </item>
 
 <item>
@@ -2108,7 +2043,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
 <item>
 <title>3 HD</title>
 <link>$doregex[reg1]</link>
@@ -2120,8 +2054,6 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
-
-
 
 <item>
 <title>5 HD</title>
@@ -2150,25 +2082,12 @@
 
 
 <item>
-<title>HD</title>
+<title>NTV Musique Regex</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>
 <page>http://lb.streamakaci.com/lc2/</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>dataHD</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>data-stream="(.*?)"</expres>
-<page>http://streema.com/tv/BBC_World_News</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
