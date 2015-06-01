@@ -2210,7 +2210,7 @@
 <link>$doregex[reg1]|timeout=60</link>
 <regex>
 <name>reg1</name>
-<expres>{file: '(.*?)'</expres>
+<expres>file: '(.*?)'</expres>
 <page>www.filmover.com/gh/gtv.html</page>
 <referer>http://www.ghanatvon.com/gtv-live-ghana.html/</referer>
 </regex>
