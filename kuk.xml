@@ -2207,10 +2207,10 @@
 
 <item>
 <title>Once</title>
-<link>$doregex[reg1]|timeout=60</link>
+<link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: '(.*?)'</expres>
+<expres>streamer=(.*?)</expres>
 <page>www.filmover.com/gh/gtv.html</page>
 <referer>http://www.ghanatvon.com/gtv-live-ghana.html/</referer>
 </regex>
