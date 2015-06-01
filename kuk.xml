@@ -2205,16 +2205,7 @@
 </item>
 
 
-<item>
-<title>Once</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>streamer=(.*?)</expres>
-<page>http://www.filmover.com/gh/gtv.html</page>
-<referer></referer>
-</regex>
-</item>
+
 
 
 
