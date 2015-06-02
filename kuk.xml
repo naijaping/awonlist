@@ -2144,6 +2144,18 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Velugu Regex</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>href="(.*?)"</expres>
+<page>http://www.velugutv.com/</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 
