@@ -2149,7 +2149,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>src="(.*?)"</expres>
+<expres>source src="(.*?)"</expres>
 <page>http://www.metacdn.com/r/l/bedkcjfty/lwplus/embed</page>
 <referer></referer>
 </regex>
