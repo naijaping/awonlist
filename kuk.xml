@@ -2150,7 +2150,7 @@
 <regex>
 <name>reg1</name>
 <expres>data-rtmp="(.*?)"</expres>
-<page>http://www.velugutv.com/</page>
+<page>http://www.loveworldtv.co.uk/watch-live/</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
