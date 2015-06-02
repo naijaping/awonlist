@@ -1928,7 +1928,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>src="(.*?)"</expres>
+<expres>iframe src="(.*?)"</expres>
 <page>http://koga.tv/video.htm</page>
 <referer></referer>
 </regex>
