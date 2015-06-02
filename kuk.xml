@@ -2156,6 +2156,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>NTRegex</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>src="(.*?)"</expres>
+<page>http://usachannels.tv/nick_live.php</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
