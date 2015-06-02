@@ -2145,7 +2145,7 @@
 </item>
 
 <item>
-<title>Velugu Regex</title>
+<title>VeluRegex</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
