@@ -2145,11 +2145,11 @@
 </item>
 
 <item>
-<title>VeluRegex</title>
+<title>Regex</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: '(.*?)'</expres>
+<expres>data-rtmp="(.*?)"</expres>
 <page>http://www.velugutv.com/</page>
 <referer></referer>
 </regex>
