@@ -2156,22 +2156,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>2 DE</title>
-<link>$doregex[rtmp]/$doregex[path] token=Fo5_n0w?U.rA6l3-70w47ch swfUrl=http://player.hdcast.org/_.swf pageUrl=http://www.hdcast.org live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>(rtmpe:.*)'</expres>
-<page>http://hdcast.me/embed.php?id=kicnick</page>
-<referer>http://usachannels.tv</referer>
-</regex>
-<regex>
-<name>path</name>
-<expres>'file':.*?'(.*)'</expres>
-<page>http://hdcast.me/embed.php?id=kicnick</page>
-<referer>http://usachannels.tv</referer>
-</regex><thumbnail></thumbnail>
-</item>
+
 
 
 
