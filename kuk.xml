@@ -2145,7 +2145,7 @@
 </item>
 
 <item>
-<title>MiRegex</title>
+<title>egex</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
