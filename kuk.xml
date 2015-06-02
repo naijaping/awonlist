@@ -2149,7 +2149,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>data-rtmp="(.*?)"</expres>
+<expres>source src="(.*?)"</expres>
 <page>http://www.loveworldtv.co.uk/watch-live/</page>
 <referer></referer>
 </regex>
