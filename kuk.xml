@@ -2145,7 +2145,7 @@
 </item>
 
 <item>
-<title>loRegex</title>
+<title>MoRegex</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
