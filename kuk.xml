@@ -2151,7 +2151,7 @@
 <name>reg1</name>
 <expres>'netConnectionUrl': '(.*?)'</expres>
 <page>http://www.metacdn.com/r/l/bedkcjfty/lwplus/embed</page>
-<referer></referer>
+<referer>http://metacdn.sa.metacdn.com/flowplayer/3.2.16/flowplayer.rtmp-3.2.12-customised.swf</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
