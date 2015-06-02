@@ -2145,12 +2145,12 @@
 </item>
 
 <item>
-<title>MoRegex</title>
+<title>MiRegex</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.loveworldtv.co.uk/watch-live/</page>
+<expres>src="(.*?)"</expres>
+<page>http://www.metacdn.com/r/l/bedkcjfty/lwplus/embed</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
