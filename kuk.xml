@@ -2157,12 +2157,12 @@
 </item>
 
 <item>
-<title>Can HD</title>
+<title>CamoHD</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres> file: "(.*?)"</expres>
-<page>http://www.azulyblanco.net/genteve-canal-29/</page>
+<expres>source src="(.*?)"</expres>
+<page>http://live-streamtv.de/player.php?c=itv1&page_id=10</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
