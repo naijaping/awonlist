@@ -2189,7 +2189,7 @@
 
 
 <item>
-<title>cloneRegex</title>
+<title>clRegex</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
