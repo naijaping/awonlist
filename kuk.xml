@@ -2169,6 +2169,18 @@
 </item>
 
 
+<item>
+<title>0HD</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres> 'file': '(.*?)'</expres>
+<page>http://livetvchannelsfree.com/bollywoodmovies.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 
