@@ -2178,7 +2178,7 @@
 <referer>http://usachannels.tv/</referer>
 </regex>
 </item>
-clone this paste
+
 
 
 <item>
@@ -2187,6 +2187,18 @@ clone this paste
 <thumbnail></thumbnail>
 </item>
 
+
+<item>
+<title>cloneRegex</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>src=(.*?)"</expres>
+<page>http://tv4embed.com/usa/bbc-world-news-stream1.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
