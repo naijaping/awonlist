@@ -2157,16 +2157,28 @@
 </item>
 
 <item>
-<title>CamoHD</title>
-<link>$doregex[reg1]</link>
+<title>Nick</title>
+<link>$doregex[rtmp] token=$doregex[tok] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://hdcast.me live=1 timeout=15</link>
 <regex>
-<name>reg1</name>
-<expres>source src="(.*?)"</expres>
-<page>http://live-streamtv.de/player.php?c=itv1&page_id=10</page>
-<referer></referer>
+<name>rtmp</name>
+<expres>file: '(.*wmsAuthSign.*?)'</expres>
+<page>http://hdcast.me/embedplayer.php?id=kicnick</page>
+<referer>http://usachannels.tv</referer>
 </regex>
-<thumbnail></thumbnail>
+<regex>
+<name>tok</name>
+<expres>token":"(.*?)"</expres>
+<page>$doregex[tokn]</page>
+<referer>http://hdcast.me</referer>
+</regex>
+<regex>
+<name>tokn</name>
+<expres>getJSON."(.*?)"</expres>
+<page>http://hdcast.me/embedplayer.php?id=kicnick</page>
+<referer>http://usachannels.tv/</referer>
+</regex>
 </item>
+clone this paste
 
 
 <item>
