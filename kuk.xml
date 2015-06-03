@@ -2174,9 +2174,9 @@
 <link>$doregex[reg1] </link>
 <regex>
 <name>reg1</name>
-<expres> 'file': '(.*?)'</expres>
-<page>http://livetvchannelsfree.com/bollywoodmovies.html</page>
-<referer>http://www.longtailvideo.com/jwplayer/jwplayer.flash.swf</referer>
+<expres> playurl = '(.*?)'</expres>
+<page>http://zeenews.dittotv.com/?header=no</page>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
