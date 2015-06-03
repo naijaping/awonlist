@@ -2174,7 +2174,7 @@
 <link>$doregex[reg1] </link>
 <regex>
 <name>reg1</name>
-<expres> playurl = '(.*?)'</expres>
+<expres> file: "(.*?)"</expres>
 <page>http://zeenews.dittotv.com/?header=no</page>
 <referer></referer>
 </regex>
