@@ -2156,6 +2156,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Can HD</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.azulyblanco.net/genteve-canal-29/</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
