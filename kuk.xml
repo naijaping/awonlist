@@ -2171,12 +2171,12 @@
 
 <item>
 <title>0HD</title>
-<link>$doregex[reg1] swfUrl=http://www.longtailvideo.com/jwplayer/jwplayer.flash.swf </link>
+<link>$doregex[reg1] </link>
 <regex>
 <name>reg1</name>
 <expres> 'file': '(.*?)'</expres>
 <page>http://livetvchannelsfree.com/bollywoodmovies.html</page>
-<referer></referer>
+<referer>http://www.longtailvideo.com/jwplayer/jwplayer.flash.swf</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
