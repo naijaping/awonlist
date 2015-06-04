@@ -2200,7 +2200,16 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Sub TV</title>
+<link>http://srv2.cdn.tvcatchup.com/subtv_hi.m3u8?cdnKey=$doregex[key]</link>
+<regex>
+<name>key</name>
+<expres>cdnKey=(.*)</expres>
+<page>http://srv2.cdn.tvcatchup.com/subtv_hi.m3u8</page>
+</regex>
+<thumbnail>http://i61.tinypic.com/ad0ors.jpg</thumbnail>
+</item>
 
 
 
