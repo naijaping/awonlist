@@ -2205,7 +2205,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>src="(.*?)"</expres>
+<expres>iframe src="(.*?)"</expres>
 <page>http://www.sub.tv/watch-subtv-live/</page>
 <referer></referer>
 </regex>
@@ -2215,7 +2215,7 @@
 
 <item>
 <title>Vevo 3 HD</title>
-<link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch3/06/prog_index.m3u8</link>
+<link>http://77.107.72.86/Stream/</link>
 <thumbnail>http://i59.tinypic.com/14nedf8.jpg</thumbnail>
 </item>
 
