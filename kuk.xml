@@ -2205,7 +2205,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>iframe src="(.*?)"</expres>
+<expres>src="(.*?)"</expres>
 <page>http://77.107.72.86/Stream/</page>
 <referer></referer>
 </regex>
