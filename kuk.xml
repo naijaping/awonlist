@@ -2193,8 +2193,8 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>'link': '(.*?)'</expres>
-<page>http://www.cvmtv.com/live_stream.php</page>
+<expres></expres>
+<page></page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
