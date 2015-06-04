@@ -2189,11 +2189,11 @@
 
 
 <item>
-<title>clRegex</title>
+<title>gex</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: '(.*?)'</expres>
+<expres> file: '(.*?)'</expres>
 <page>http://www.mta.tv/live/</page>
 <referer></referer>
 </regex>
