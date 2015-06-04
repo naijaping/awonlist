@@ -2201,16 +2201,17 @@
 </item>
 
 <item>
-<title>Vevo 1 HD</title>
-<link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/appleman.m3u8</link>
-<thumbnail>http://i59.tinypic.com/14nedf8.jpg</thumbnail>
+<title>gex00</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>src="(.*?)"</expres>
+<page>http://www.sub.tv/watch-subtv-live/</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Vevo 2 HD</title>
-<link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch2/06/prog_index.m3u8</link>
-<thumbnail>http://i59.tinypic.com/14nedf8.jpg</thumbnail>
-</item>
 
 <item>
 <title>Vevo 3 HD</title>
