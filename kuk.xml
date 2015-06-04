@@ -2206,7 +2206,7 @@
 <regex>
 <name>reg1</name>
 <expres>iframe src="(.*?)"</expres>
-<page>http://www.sub.tv/watch-subtv-live/</page>
+<page>http://77.107.72.86/Stream/</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
