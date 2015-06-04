@@ -2193,8 +2193,8 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>src="(.*?)"</expres>
-<page>http://tv4embed.com/usa/bbc-world-news-stream2.html</page>
+<expres>curl'(.*?)'</expres>
+<page>http://www.cvmtv.com/live_stream.php</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
