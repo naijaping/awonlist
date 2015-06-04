@@ -2206,6 +2206,19 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Vivo 2 HD</title>
+<link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch2/06/prog_index.m3u8</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Vivo 3 HD</title>
+<link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch3/06/prog_index.m3u8</link>
+<thumbnail></thumbnail>
+</item>
+
+
 
 
 </channel>
