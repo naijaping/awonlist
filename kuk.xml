@@ -1184,12 +1184,6 @@
 </item>
 
 <item>
-<title>Emmanuel TV</title>
-<link>rtmp://channelstv.ids-africa.com:1935/live playpath=mobile1 swfUrl=http://m.channelstv.com/player.swf pageUrl=http://m.channelstv.com/windows/ live=1 timeout=15</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/emmanuel_tv.png</thumbnail>
-</item>
-
-<item>
 <title>Sky Sports News</title>
 <link>$doregex[rtmp] playpath=$doregex[path] token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
 <regex>
@@ -1209,21 +1203,9 @@
 
 
 <item>
-<title>Emmanuel</title>
-<link>http://37.48.118.32/live/itv2.stream/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/emmanuel_tv.png</thumbnail>
-</item>                
- 
- 
-<item>
 <title>HBO Plus en vivo</title>
 <sportsdevil>http://www.shidurlive.com/embed/al-jazeera-english</sportsdevil>
 <referer>http://www.shidurlive.com</referer>
-</item>
-
-<item>
-<title>Fox</title>
-<link>plugin://plugin.video.f4mTester/?url=http://d1yjsz5fddyesn.cloudfront.net/livecf/foxar/manifest.f4m</link>
 </item>
 
 <item>
@@ -1254,13 +1236,6 @@
 <title>All Sport Report</title>
 <link>rtmp://freeview.fms.visionip.tv/live/sports_tonight-sports_tonight-live-25f-16x9-HD</link>
 </item>
-
-<item>
-<title> Youtube1</title>
-<link>rtmp://195.154.241.240:80/liverepeater playpath=300342 swfUrl=http://cdn.goodcast.co/players.swf live=1 pageUrl=http://goodcast.co/stream.php?id=300342 token=Fo5_n0w?U.rA6l3-70w47ch</link>
-<thumbnail></thumbnail>
-</item>
-
 
 <item>
 <title>BBC1 Hdcast</title>
@@ -1442,12 +1417,6 @@
 </item>
  
  <item>
-<title>winners ng</title>
-<link>http://sanfran01.netcasterstream.com:8081/live/domihigh/playlist.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title> Mountain of Fire & Miracle Ministries</title>
 <link>http://264624-lh.akamaihd.net/i/mof_flash@171983/master.m3u8</link>
 <thumbnail>http://campus.316networks.com/images/MoF-pastor_1.gif</thumbnail>
@@ -1646,10 +1615,6 @@
 <link>rtmp://w11.vmnode.pw:1935/live playpath=elite52 swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/elite52.php live=true timeout=20</link>
 </item>	
 
-<item>
-<title>Male 5</title>
-<link>http://smarterapps.ddns.net:8080/sp5/sp5PkeY/index.m3u8|X-Requested-With:ShockwaveFlash/17.0.0.169</link>
-</item>
 
 <item>
 <title>FRANCE 24</title> 
