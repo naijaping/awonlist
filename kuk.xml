@@ -2193,8 +2193,8 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: "(.*?)"</expres>
-<page>http://www.purpleturtle.tv/mfm.html</page>
+<expres>file: '(.*?)'</expres>
+<page>http://www.mta.tv/live/</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
