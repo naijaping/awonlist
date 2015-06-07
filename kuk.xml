@@ -2183,7 +2183,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>var url = "(.*?)"</expres>
+<expres>url = "(.*?)"</expres>
 <page>http://tvcatchup.com/watch/subtv</page>
 <referer></referer>
 </regex>
