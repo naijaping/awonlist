@@ -2197,25 +2197,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/african_movie_channel_uk.png</thumbnail>
 </item>
 
-<item>
-<title>Chann</title>
-<title>WapTV Lagos</title>
-<link>$doregex[get-finalURL]|Cookie=$get_cookies$&amp;User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36</link>
-<regex>
-<name>get-url</name>
-<expres>(http.*?)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=chann1&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp</page>
-<referer>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=chann1&amp;type=live&amp;service=wowza&amp;output=player</referer>
-<cookieJar></cookieJar>
-<agent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36</agent>
-</regex>
-<regex>
-<name>get-finalURL</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<thumbnail>http://i58.tinypic.com/10okw8h.jpg</thumbnail>
-</item>
+
 
 
 
