@@ -2192,6 +2192,19 @@
 
 
 <item>
+<title>Winers</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres> file: '(.*?)'</expres>
+<page>http://centrepoint.christfaithmedia.co.uk/index.php/live/98/aXRAd2lubmVyc2NoYXBlbC5vcmcudWs=/118/420/320</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
 <title>MITV</title>
 <link>http://www.wigge.se:8001/1:0:1:46A:3:56:300000:0:0:0:</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/african_movie_channel_uk.png</thumbnail>
