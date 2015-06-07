@@ -2192,7 +2192,7 @@
 
 
 <item>
-<title>Wine</title>
+<title>Winer</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
