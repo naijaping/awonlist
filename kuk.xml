@@ -2196,7 +2196,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres> file: '(.*?)'</expres>
+<expres>streamer: '(.*?)'</expres>
 <page>http://centrepoint.christfaithmedia.co.uk/index.php/live/98/aXRAd2lubmVyc2NoYXBlbC5vcmcudWs=/118/420/320</page>
 <referer></referer>
 </regex>
