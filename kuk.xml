@@ -2215,7 +2215,17 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/peace_tv.png</thumbnail>
 </item>
 
-
+<item>
+<title>R2TV</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.royalrootstv.com/</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
