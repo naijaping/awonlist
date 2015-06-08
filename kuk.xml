@@ -2224,17 +2224,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>ebru</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>file: '(.*?)'</expres>
-<page>www.ebruafrica.tv/live-tv</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 
 
