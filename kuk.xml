@@ -2229,15 +2229,9 @@
 
 
 <item>
-<title>SRC</title>
-<link>$doregex[reg1]|User-Agent=extrawatch_agent</link>
-<regex>
-<name>reg1</name>
-<expres>src="(.*?)"</expres>
-<page>http://mercytelevision.org/</page>
-<referer></referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/r2_tv_ng.png</thumbnail>
+<title>Mercy TV</title>
+<link>http://82.80.192.27/dimd_MercyRepeat/_definst_/smil:Mercy.smil/chunklist_w1317462017_b864000.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mercy_tv_ng.png</thumbnail>
 </item>
 
 
