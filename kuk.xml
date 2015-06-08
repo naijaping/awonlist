@@ -2216,13 +2216,6 @@
 </item>
 
 <item>
-<title>mumu nta</title>
-<link>http://tv.muntumedia.com:1935/live/mp4:T_NTAI.mp4/playlist.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
 <title>GOD TV</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
@@ -2233,6 +2226,12 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
 </item> 
 
+
+<item>
+<title>mumu nta</title>
+<link>http://static.infomaniak.ch/dl/815ad5687a3d26d870d70fb908d35b95/557587f1/vodstatic/2041/banac4-arretdejeu-__album_arretdejeu_danslesbacsipad.31948.12.mp4?playlist=2582&start=81.897</link>
+<thumbnail></thumbnail>
+</item>
 
 
 
