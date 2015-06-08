@@ -2203,14 +2203,22 @@
 <thumbnail></thumbnail>
 </item>
 
-
-
-
-
 <item>
 <title>MITV</title>
 <link>http://www.wigge.se:8001/1:0:1:46A:3:56:300000:0:0:0:</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/african_movie_channel_uk.png</thumbnail>
+</item>
+
+<item>
+<title>peace</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>streamer=(.*?)</expres>
+<page>http://www.peacetv.in/live_peacetv.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
 
