@@ -2214,7 +2214,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>streamer=(.*?)</expres>
+<expres>file: '(.*?)'</expres>
 <page>http://www.peacetv.in/live_peacetv.html</page>
 <referer></referer>
 </regex>
