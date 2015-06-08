@@ -2228,6 +2228,18 @@
 </item>
 
 
+<item>
+<title>SRC</title>
+<link>$doregex[reg1]|User-Agent=extrawatch_agent</link>
+<regex>
+<name>reg1</name>
+<expres>src="(.*?)"</expres>
+<page>http://mercytelevision.org/</page>
+<referer></referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/r2_tv_ng.png</thumbnail>
+</item>
+
 
 
 
