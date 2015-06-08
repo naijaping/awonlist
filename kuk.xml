@@ -2217,7 +2217,7 @@
 
 <item>
 <title>R2TV</title>
-<link>$doregex[reg1]</link>
+<link>$doregex[reg1]|User-Agent=extrawatch_agent</link>
 <regex>
 <name>reg1</name>
 <expres>file: "(.*?)"</expres>
