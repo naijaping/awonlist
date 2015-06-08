@@ -2215,16 +2215,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/peace_tv.png</thumbnail>
 </item>
 
-<item>
-<title>Canal+ HD</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://nasatv-lh.akamaihd.net/z/NASA_101@319270/manifest.f4m?g=KJFWMGQGWWMT&amp;hdcore=3.7.0&amp;plugin=aasp-3.7.0.39.44')<expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/canalplus_es_deportes_2_hd.png</thumbnail>
-</item>
+
 
 
 
