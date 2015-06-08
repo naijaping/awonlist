@@ -2212,7 +2212,7 @@
 <item>
 <title>Peace TV</title>
 <link>rtmp://peace.fms.visionip.tv/live/ playpath=b2b-peace_usa-live-25f-4x3-sdh_1 swfUrl=http://www.peacetv.tv/templates/swf/player.swf pageUrl=http://www.peacetv.in/live_peacetv.html live=1 timeout=15 </link>
-<thumbnail></thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/peace_tv.png</thumbnail>
 </item>
 
 
