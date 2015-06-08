@@ -2211,13 +2211,7 @@
 
 <item>
 <title>peace</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.peacetv.in/live_peacetv.html</page>
-<referer></referer>
-</regex>
+<link>rtmp://peace.fms.visionip.tv/live/ </link>
 <thumbnail></thumbnail>
 </item>
 
