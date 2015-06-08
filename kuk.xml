@@ -2219,14 +2219,8 @@
 
 
 <item>
-<title>subooo</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>file: "(.*?)"</expres>
-<page>http://hitafrica.tv/</page>
-<referer></referer>
-</regex>
+<title>Hit Africa</title>
+<link>http://5.196.92.200/tvchannel/ngrp:hitafrica_all/chunklist_w697151075_b1804104.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
