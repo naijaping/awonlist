@@ -2219,8 +2219,14 @@
 
 
 <item>
-<title>mumu nta</title>
-<link>http://static.infomaniak.ch/vod/playlist/2041/2582/2582_playlist.xml</link>
+<title>subooo</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://hitafrica.tv/</page>
+<referer></referer>
+</regex>
 <thumbnail></thumbnail>
 </item>
 
