@@ -2215,16 +2215,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/peace_tv.png</thumbnail>
 </item>
 
-<item>
-<title>GOD TV</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://ooyalahd2-f.akamaihd.net/z/godtv03_delivery@17352/manifest.f4m?g=TCHENBETIHDT&amp;hdcore=2.10.3')<expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
-</item> 
+
 
 
 <item>
@@ -2233,6 +2224,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>subo</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file= "(.*?)"</expres>
+<page>http://www.ann7.com/livetv</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
