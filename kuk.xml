@@ -2225,21 +2225,14 @@
 <link>$doregex[get-link]</link>
 <regex>
 <name>get-link</name>
-<expres>file: '(.*?)'</expres>
+<expres>'file:\s*'([^']+)'</expres>
 <page>http://www.filmover.com/gh/adom.html</page>
 </regex>  
 <thumbnail></thumbnail>
 </item>
 
 
-<item><title>Test</title>
-<link>$doregex[reg1]</link>
-<regex><name>reg1</name>
-<expres>$pyFunction:arise.arise('http://www.filmover.com/gh/adom.html')</expres>
-<page></page>
-<referer></referer>
-</regex>
-</item>
+
 
 
 
