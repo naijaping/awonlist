@@ -2253,8 +2253,14 @@
 
 
 <item>
-<title>SONY</title>
+<title>Nat geo hd</title>
 <link>http://78.30.254.43:8989/udp/239.0.0.168:4000</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Nat geo hd</title>
+<link>http://iptv.euroremix.com:8000/live/TesT8555/99633/1302.ts </link>
 <thumbnail></thumbnail>
 </item>
 
