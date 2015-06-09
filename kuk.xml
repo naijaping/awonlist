@@ -2204,16 +2204,11 @@
 </item>
 
 <item>
-<title>Libration TV</title>
-<link>http://82.80.192.27/dimd_Live3Repeat/_definst_/smil:Live3.smil/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ll/liberation_tv_ng.png</thumbnail>
-</item>
+<title>MITV</title>
+<link>http://wpc.12bc9.kappacdn.net/hls-live/2012BC9/default/MITV/mit_1200.m3u8?608edfab8a31cdb2906f767923e21035c7696807555fd6f720a8fbf339ecfd61dae2</link>
+<thumbnail></thumbnail>
+</item>	
 
-<item>
-<title>Peace TV</title>
-<link>rtmp://peace.fms.visionip.tv/live/ playpath=b2b-peace_usa-live-25f-4x3-sdh_1 swfUrl=http://www.peacetv.tv/templates/swf/player.swf pageUrl=http://www.peacetv.in/live_peacetv.html live=1 timeout=15 </link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/pp/peace_tv.png</thumbnail>
-</item>
 
 
 
