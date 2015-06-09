@@ -2222,12 +2222,7 @@
 
 <item>
 <title>Arise News</title>
-<link>$doregex[get-link]</link>
-<regex>
-<name>get-link</name>
-<expres>'file:\s*'([^']+)'</expres>
-<page>http://www.filmover.com/gh/adom.html</page>
-</regex>  
+<link>http://78.30.254.43:8989/udp/239.0.0.196:4000</link>
 <thumbnail></thumbnail>
 </item>
 
