@@ -2290,7 +2290,7 @@
 <regex>
 <name>reg1</name>
 <expres>file: "(.*?)"</expres>
-<page>http://www.giniko.com/watch.php?id=190</page>
+<page>http://www.giniko.com/watch.php?id=189</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
