@@ -2267,13 +2267,7 @@
 
 <item>
 <title>Mali</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>source src="(.*)"</expres>
-<page>http://www.seriesubthai.com/player/embed.php?id=53564&width=728&height=450</page>
-<referer></referer>
-</regex>
+<link>http://www.seriesubthai.com/player/LoadingCircleYouTube.mp4</link>
 <thumbnail></thumbnail>
 </item>
 
