@@ -2285,11 +2285,11 @@
  
 
 <item>
-<title>Will000</title>
+<title>Willmu</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres> file: "(.*?)"</expres>
+<expres>file: "(.*?)"</expres>
 <page>http://www.giniko.com/watch.php?id=190</page>
 <referer></referer>
 </regex>
