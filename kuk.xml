@@ -2257,44 +2257,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Livego Regex</title>
-<link>$doregex[rtmp] swfUrl=https://www.livego.tv/swf/StrobeMediaPlayback.swf pageUrl=https://www.livego.tv$doregex[Logout] timeout=15 live=1</link>
-<regex>
-<name>rtmp</name>
-<expres>$pyFunction:urllib.unquote('$doregex[getcode]')</expres>
-<page></page>
-</regex>
-<regex>
-<name>getcode</name>
-<expres>src: "(.*?)"</expres>
-<page>https://www.livego.tv/video/40/8</page>
-<referer>https://www.livego.tv/</referer>
-<cookieJar>$doregex[Login]</cookieJar>
-</regex>
-<regex>
-<name>Login</name>
-<expres></expres>
-<page>https://www.livego.tv/plogin</page>
-<rawpost>email=kolaolawale%40gmail.com&amp;password=livegotv1</rawpost>
-<referer>https://www.livego.tv/</referer>
-<cookieJar>$doregex[Cookie]</cookieJar>
-</regex>
-<regex>
-<name>Cookie</name>
-<expres></expres>
-<page>https://www.livego.tv/</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>Logout</name>
-<expres></expres>
-<page>https://www.livego.tv/signout</page>
-<referer>https://www.livego.tv/</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
