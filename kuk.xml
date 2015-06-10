@@ -2246,48 +2246,17 @@
 </item>
 
 <item>
-<title>Niclo HD</title>
-<link>http://78.30.254.43:8989/udp/239.0.0.128:4000</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
 <title>Natgeo wild hd</title>
 <link>http://78.30.254.43:8989/udp/239.0.0.168:4000</link>
 <thumbnail></thumbnail>
 </item>
 
 <item>
-<title>Adventure Time 2</title>
-<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_lmshows_at live=1 timeout=20</link>
-<regex>
-<name>clearCode</name>
-<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
-<page></page>
-</regex>
-<regex>
-<name>getencoded</name>
-<expres>:mvnkey-(.*)</expres>
-<page>$doregex[getUrl]</page>
-</regex>
-<regex>
-<name>getserver</name>
-<expres>(.*?);</expres>
-<page>$doregex[getUrl]</page>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>(.*)</expres>
-<page>http://mvn.vaughnsoft.net/video/edge/live_craigtube$doregex[gettime]-$doregex[gettime].33434</page>
-</regex>
-<regex>
-<name>gettime</name>
-<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
-<page></page>
-</regex>
-<thumbnail>http://i58.tinypic.com/2qut4wh.jpg</thumbnail>
+<title>Niclo HD</title>
+<link>http://78.30.254.43:8989/udp/239.0.0.129:4000</link>
+<thumbnail></thumbnail>
 </item>
+
 
 
 
