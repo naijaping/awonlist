@@ -1740,8 +1740,8 @@
 </item>
 
 <item>
-<title>Mehtap-tv</title>
-<link>$doregex[reg1]</link>
+<title>TVcontinental</title>
+<link>$doregex[reg1]|User-Agent=extrawatch_agent</link>
 <regex>
 <name>reg1</name>
 <expres>file: "(.*?)"</expres>
