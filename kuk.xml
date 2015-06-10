@@ -2291,7 +2291,7 @@
 <name>reg1</name>
 <expres>file: "(.*?)"</expres>
 <page>http://www.giniko.com/watch.php?id=189</page>
-<referer></referer>
+<referer>http://www.giniko.com/country.php?id=217</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
