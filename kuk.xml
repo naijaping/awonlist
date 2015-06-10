@@ -2259,7 +2259,7 @@
 </item>
 
 <item>
-<title>Vaughn testv3</title>
+<title>Adventure Time 2</title>
 <link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_lmshows_at live=1 timeout=20</link>
 <regex>
 <name>clearCode</name>
@@ -2286,6 +2286,7 @@
 <expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
 <page></page>
 </regex>
+<thumbnail>http://i58.tinypic.com/2qut4wh.jpg</thumbnail>
 </item>
 
 
