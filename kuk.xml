@@ -1789,7 +1789,7 @@
 <regex>
 <name>channelSlug</name>
 <expres>streamup.com\/rooms\/(.*?)\/</expres>
-<page>https://streamup.com/morepower</page>
+<page>https://streamup.com/dhanaktv</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
@@ -2144,24 +2144,9 @@
 </regex>
 </item>
 
-
-
 <item>
 <title>tv2</title>
 <link>http://itv2liveandroid-i.akamaihd.net/hls/live/218400/itvlive/android/AndroidMain1200k.m3u8 </link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>gex</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres> file: '(.*?)'</expres>
-<page>http://www.mta.tv/live/</page>
-<referer></referer>
-</regex>
 <thumbnail></thumbnail>
 </item>
 
@@ -2176,20 +2161,6 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
-
-
-<item>
-<title>sub</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>url = "(.*?)"</expres>
-<page>http://tvcatchup.com/watch/subtv</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 
 <item>
 <title>mumu</title>
