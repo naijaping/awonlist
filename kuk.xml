@@ -2284,6 +2284,17 @@
 </item>
  
 
+<item>
+<title>Will000</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.giniko.com/watch.php?id=205</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
