@@ -2285,7 +2285,7 @@
  
 
 <item>
-			<title> 720p</title>
+			<title> 720p sky</title>
 			<link>$doregex[getQualityLink]</link>
 
 				<regex>
