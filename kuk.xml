@@ -2298,10 +2298,10 @@
 
 <item>
 <title>Islamo</title>
-<link>$doregex[reg1]|timeout=60</link>
+<link>$doregex[rtmp]</link>
 <regex>
-<name>reg1</name>
-<expres>'rtmp' 'file': "(.*?)"</expres>
+<name>rtmp</name>
+<expres>file': "(.*?)"</expres>
 <page>http://www.islamchannel.tv/</page>
 <referer></referer>
 </regex>
