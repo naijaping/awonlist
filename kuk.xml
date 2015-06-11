@@ -2285,13 +2285,23 @@
  
 
 <item>
-<title>Willmu</title>
-<link>$doregex[reg1]</link>
+<title>Mecca Live</title>
+<link>$doregex[url]</link>
 <regex>
-<name>reg1</name>
-<expres>file: "(.*?)"</expres>
-<page>http://www.giniko.com/watch.php?id=275</page>
+<name>url</name>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
+<page></page>
+</regex>
+<regex>
+<name>jsonurl</name>
+<expres>"hlsvp":"(.*?)"</expres>
+<page>https://www.youtube.com/watch?v=$doregex[get-page]</page>
 <referer></referer>
+</regex>
+<regex>
+<name>get-page</name>
+<expres>data-context-item-id="([^"]+)</expres>
+<page>https://www.youtube.com/channel/UCos52azQNBgW63_9uDJoPDA</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
