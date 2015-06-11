@@ -2298,13 +2298,7 @@
 
 <item>
 <title>Islami</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>'file': "(.*?)"</expres>
-<page>http://www.islamchannel.tv/</page>
-<referer></referer>
-</regex>
+<link>http://tx.sharp-stream.com/vidiphone.php?c=islamtv/islamtv.stream/playlist.m3u8</link>
 </item>
 
 
