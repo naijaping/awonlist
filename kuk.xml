@@ -2296,6 +2296,16 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Islamo</title>
+<link>$doregex[reg1]|timeout=60</link>
+<regex>
+<name>reg1</name>
+<expres>{file: '(.*?)'</expres>
+<page>http://www.islamchannel.tv/</page>
+<referer></referer>
+</regex>
+</item>
 
 
 </channel>
