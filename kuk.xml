@@ -2306,7 +2306,7 @@
 				<regex>
 				<name>delink</name>
 				<expres>data-context-item-id="s*(.*?)\s</expres>
-				<page>http://www.youtube.com/user/AlalamTV2/featured</page>
+				<page>https://www.youtube.com/user/skynews/featured</page>
 				</regex>
 				
 		</item>
