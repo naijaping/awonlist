@@ -2285,27 +2285,31 @@
  
 
 <item>
-<title>Mecca Live</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>"hlsvp":"(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=$doregex[get-page]</page>
-<referer></referer>
-</regex>
-<regex>
-<name>get-page</name>
-<expres>data-context-item-id="([^"]+)</expres>
-<page>https://www.youtube.com/channel/UCos52azQNBgW63_9uDJoPDA</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+			<title> 720p</title>
+			<link>$doregex[getQualityLink]</link>
 
+				<regex>
+				<name>getQualityLink</name>
+				<expres>RESOLUTION=1280x720\s*(.*?)\s</expres>
+				<page>$doregex[nuetralizeLink]</page>
+				</regex>
+				<regex>
+				<name>nuetralizeLink</name>
+				<expres>$pyFunction:'$doregex[getlink]'.replace('\\','')</expres>
+				<page></page>
+				</regex>
+				<regex>
+				<name>getlink</name>
+				<expres>hlsvp": "(.*?)"</expres>
+				<page>https://www.youtube.com/watch?v=$doregex[delink]</page>
+				</regex>
+				<regex>
+				<name>delink</name>
+				<expres>data-context-item-id="s*(.*?)\s</expres>
+				<page>http://www.youtube.com/user/AlalamTV2/featured</page>
+				</regex>
+				
+		</item>
 
 
 </channel>
