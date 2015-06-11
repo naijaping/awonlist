@@ -2301,7 +2301,7 @@
 <link>$doregex[reg1]|timeout=60</link>
 <regex>
 <name>reg1</name>
-<expres>'file': "(.*?)"</expres>
+<expres>'rtmp' 'file': "(.*?)"</expres>
 <page>http://www.islamchannel.tv/</page>
 <referer></referer>
 </regex>
