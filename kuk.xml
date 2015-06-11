@@ -2297,11 +2297,11 @@
 </item>
 
 <item>
-<title>Islamo</title>
-<link>$doregex[rtmp]</link>
+<title>Islami</title>
+<link>$doregex[reg1]</link>
 <regex>
-<name>rtmp</name>
-<expres>file': "(.*?)"</expres>
+<name>reg1</name>
+<expres>'file': "(.*?)"</expres>
 <page>http://www.islamchannel.tv/</page>
 <referer></referer>
 </regex>
