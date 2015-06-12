@@ -2241,6 +2241,18 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>mom</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://roku.afrikastv.com/astvdvr_walfch.php</page>
+<referer>http://roku.afrikastv.com/watchastv.php</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 
