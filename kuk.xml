@@ -2250,7 +2250,7 @@
 
 <item>
 <title>Get link</title>
-<link>http://162.212.176.80:8080/sat-lagostv.stream/playlist.m3u8</link>
+<link>http://162.212.176.80:1935/soundcityprem/sat-soundcityprem/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
