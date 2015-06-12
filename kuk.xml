@@ -2246,7 +2246,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: "(.*?)"</expres>
+<expres>file:\s*'([^'"]+)</expres>
 <page>http://roku.afrikastv.com/astvdvr_walfch.php</page>
 <referer></referer>
 </regex>
