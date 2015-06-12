@@ -2242,7 +2242,7 @@
 </item>
 
 <item>
-<title>Qatariiii</title>
+<title>Qata</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
