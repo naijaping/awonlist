@@ -2252,6 +2252,15 @@
 <page>http://roku.afrikastv.com/astvdvr_grtstv.php</page>
 <referer>http://roku.afrikastv.com/watchastv.php</referer>
 </regex>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
+<cookieJar>$doregex[Cookie]</cookieJar>
+</regex>
+<regex>
+<name>Cookie</name>
+<expres></expres>
+<page>http://roku.afrikastv.com</page>
+<cookieJar></cookieJar>
+</regex>
 <thumbnail></thumbnail>
 </item>
 
