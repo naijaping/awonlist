@@ -2301,7 +2301,7 @@
 <regex>
 <name>jsonurl</name>
 <expres>"stream":"(.*?)"</expres>
-<page>http://sapi.tvplayer.com/streamWeb.php?id=93</page>
+<page>http://sapi.tvplayer.com/streamWeb.php?id=92</page>
 <referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_three.png</thumbnail>
