@@ -2257,7 +2257,7 @@
 
 <item>
 <title>BONE</title>
-<link>$doregex[reg1] swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://roku.afrikastv.com/watchastv.phptimeout=15 live=1</link>
+<link>$doregex[reg1] swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://roku.afrikastv.com/ timeout=15 live=1</link>
 <regex>
 <name>reg1</name>
 <expres>$pyFunction:urllib.unquote('$doregex[getcode]')</expres>
