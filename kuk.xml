@@ -2256,11 +2256,16 @@
 
 
 <item>
-<title>BBONE</title>
-<link>http://astv10sec1.tulix.tv/tfmtv/tfm1.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>BONE</title>
+<link>$doregex[reg1] swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv swfVfy=true timeout=15 live=1</link>
 <regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
+<name>reg1</name>
+<expres>$pyFunction:urllib.unquote('$doregex[getcode]')</expres>
+<page></page>
+</regex>
+<regex>
+<name>getcode</name>
+<expres>file: "(.*?)"</expres>
 <page>http://roku.afrikastv.com/astvdvr_tfmtv.php</page>
 <referer>http://roku.afrikastv.com/watchastv.php</referer>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
