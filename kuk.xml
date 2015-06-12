@@ -2248,6 +2248,18 @@
 </item>
 
 
+<item>
+<title>Get link</title>
+<link>$doregex[get-link]</link>
+<regex>
+<name>get-link</name>
+<expres>file: "(.*?)"</expres>
+<page>http://roku.afrikastv.com/astvdvr_nollywoodpre.php?ch=nollywoodpre&id=0</page>
+<referer>http://roku.afrikastv.com/watchastv.php</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 
