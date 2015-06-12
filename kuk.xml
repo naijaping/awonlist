@@ -2255,7 +2255,17 @@
 </item>
 
 
-
+<item>
+<title>BBONE</title>
+<link>http://astv10sec1.tulix.tv/tfmtv/tfm1.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://roku.afrikastv.com/astvdvr_tfmtv.php</page>
+<referer>http://roku.afrikastv.com/watchastv.php</referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_one.png</thumbnail>
+</item>
 
 
 </channel>
