@@ -2248,7 +2248,7 @@
 <name>reg1</name>
 <expres>file: "(.*?)"</expres>
 <page>http://roku.afrikastv.com/astvdvr_walfch.php</page>
-<referer>http://roku.afrikastv.com/watchastv.php</referer>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
