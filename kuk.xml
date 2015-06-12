@@ -2246,6 +2246,17 @@
 <link>http://astv10sec3.tulix.tv/grtstv/grts.stream/playlist.m3u8</link>
 </item>
 
+<item>
+<title>BBTWO</title>
+<link>http://astv10sec3.tulix.tv/grtstv/grts.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://roku.afrikastv.com/astvdvr_grtstv.php</page>
+<referer>http://roku.afrikastv.com/watchastv.php</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
