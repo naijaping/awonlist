@@ -2242,13 +2242,8 @@
 </item>
 
 <item>
-<title>Qata</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: "(.*?)"</expres>
-<page>http://roku.afrikastv.com/astvdvr_lampfall.php?ch=lampfall&id=0</page>
-</regex>
+<title>Quuta</title>
+<link>http://astv10sec3.tulix.tv/grtstv/grts.stream/playlist.m3u8</link>
 </item>
 
 
