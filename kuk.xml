@@ -2285,11 +2285,11 @@
  
 <item>
 <title>BBWO</title>
-<link>http://162.212.170.80/lagostv/sat-lagostv.stream/chunklist.m3u8$doregex[get-auth]</link>
+<link>http://162.212.170.80/lagostv/sat-lagostv.stream/chunklist_w198378779.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
-<page>http://roku.afrikastv.com/watchastv.php</page>
+<page></page>
 <referer> http://roku.afrikastv.com/watchastv.php</referer>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_two_uk.png</thumbnail>
