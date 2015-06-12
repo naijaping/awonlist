@@ -2242,14 +2242,8 @@
 </item>
 
 <item>
-<title>mom</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>file:\s*'([^'"]+)</expres>
-<page>http://roku.afrikastv.com/astvdvr_walfch.php</page>
-<referer></referer>
-</regex>
+<title>momi</title>
+<link>http://tna2gb9.tulix.tv/hls/astv3waptv/f1b74a6af1a85860578b0cb2e4a42a6b/557bff16/wap.stream.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
