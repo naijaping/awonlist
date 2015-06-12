@@ -2285,7 +2285,7 @@
  
 <item>
 <title>BBWO</title>
-<link>http://astvrtmp.tulix.tv:1935/lagostv/sat-lagostv.stream/chunklist_w198378779.m3u8$doregex[get-auth]</link>
+<link>http://astv.tulix.tv:1935/lagostv/sat-lagostv.stream/chunklist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
