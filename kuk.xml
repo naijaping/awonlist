@@ -2254,25 +2254,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Movistar F1</title>
-<link>plugin://plugin.video.p2p-streams/?url=$doregex[hash]&amp;mode=1&amp;name=acestream+title</link>
-<regex>
-	<name>hash</name>
-	<expres>this.loadPlayer."(.*?)"<expres>                                           
-	<page>http://torrent-tv.ru/torrent-online.php?translation=11642</page>
-    <setcookie>BHC=$doregex[getCookie]</setcookie>
-    <referer>http://torrent-tv.ru/torrent-online.php?translation=11642</referer>
-</regex>
-<regex>
-	<name>getCookie</name>
-	<expres>x-bh-token:(.*?)\s<expres>                                           
-	<page>http://torrent-tv.ru/banhammer/pid</page>
-    <includeheaders></includeheaders>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 
 
 
