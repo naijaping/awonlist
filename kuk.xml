@@ -2243,7 +2243,7 @@
 
 <item>
 <title>LTv</title>
-<link>rtmp://208.75.224.165:1935/map-waptv/myStream.sdp</link>
+<link>rtmp://208.75.224.227:1935/map-waptv/myStream.sdp</link>
 <thumbnail></thumbnail>
 </item>
 
