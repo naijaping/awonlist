@@ -2249,7 +2249,7 @@
 
 <item>
 <title>Chan25</title>
-<link>rtsp://dimd-s.nsacdn.com/dimd_HomeTVRepeat/HomeTV_3</link>
+<link>http://wowza1.videos.movile.com:8080/live/smil:cinema_1.smil/playlist.m3u8?</link>
 <thumbnail></thumbnail>
 </item>
 
