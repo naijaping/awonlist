@@ -2242,8 +2242,14 @@
 </item>
 
 <item>
-<title>LTv</title>
+<title>Chan24</title>
 <link>http://myafricanmega3.tulix.tv:1935/map-channelstv/map-channelstv.stream/chunklist.m3u8</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Chan25</title>
+<link>http://myafricanmega.tulix.tv:1935/map-waptv/map-wap.stream/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
