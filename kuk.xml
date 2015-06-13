@@ -2249,7 +2249,7 @@
 
 <item>
 <title>Chan25</title>
-<link>http://myafricanmega.tulix.tv:1935/map-waptv/map-waptv.stream/chunklist.m3u8</link>
+<link>rtmp://myafricanmega.tulix.tv:1935/map-waptv/map-waptv.stream</link>
 <thumbnail></thumbnail>
 </item>
 
