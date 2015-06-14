@@ -2239,8 +2239,8 @@
 
 
 <item>
-<title>Get link</title>
-<link>rtsp://astvstream1.tulix.tv:1935/tfmtv/tfm.stream </link>
+<title>Glink</title>
+<link>rtsp://astvstream.tulix.tv:1935/sentv/sentv.stream</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hope_channel_international.png</thumbnail>
 </item>
 
