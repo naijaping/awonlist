@@ -2262,6 +2262,19 @@
 
 
 
+<item>
+<title>BBC</title>
+<link>http://astv10sec1.tulix.tv/soundcityprem/sat-soundcityprem/chunklist_w86469246.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://roku.afrikastv.com/watchastv.php</page>
+<referer>http://roku.afrikastv.com</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
 
 </channel>
 
