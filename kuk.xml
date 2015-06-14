@@ -2240,7 +2240,7 @@
 
 <item>
 <title>Glink</title>
-<link>rtsp://astvstream.tulix.tv:1935/sentv/sentv.stream</link>
+<link>http://astvstream.tulix.tv:1935/sentv/sentv.stream/playlist.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hope_channel_international.png</thumbnail>
 </item>
 
