@@ -2259,11 +2259,11 @@
 </item>
 
 <item>
-<title>Mute</title>
+<title>Mute0</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>src="(.*?)"</expres>
+<expres>src= "(.*?)"</expres>
 <page>http://africahometv.com/africa-hometv-en-direct</page>
 <referer></referer>
 </regex>
