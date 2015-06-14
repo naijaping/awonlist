@@ -2240,7 +2240,7 @@
 
 <item>
 <title>Get link</title>
-<link>http://bcliveuniv-lh.akamaihd.net/i/HopeInternational_1@193092/master.m3u8</link>
+<link>rtsp://astvstream1.tulix.tv:1935/tfmtv/tfm.stream </link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hope_channel_international.png</thumbnail>
 </item>
 
