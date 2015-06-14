@@ -2263,16 +2263,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Sport +</title>
-<link>$doregex[rtmp] swfUrl=http://www.lshstream.com/jw/jwplayer.flash.swf pageUrl=http://www.lshstream.com  live=1 timeout=15 token=SECURET0KEN#yw%.?()@W!</link>
-<regex>
-<name>rtmp</name>
-<expres>file:'(.*?)'</expres>
-<page>http://www.lshstream.com/embed.php?u=sportpluslsh</page>
-<referer>http://live.realstreamunited.com/</referer>
-</regex>
-</item>
+
 
 
 </channel>
