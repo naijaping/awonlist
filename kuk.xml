@@ -2248,13 +2248,7 @@
 
 <item>
 <title>BBC</title>
-<link>http://astv10sec1.tulix.tv/sentv/sentv.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://roku.afrikastv.com/astvdvr_sentv.php</page>
-<referer>http://swf.tulix.tv/jwplayer/jwplayer.flash.swf</referer>
-</regex>
+<link>http://tna2gb9.tulix.tv/hls/astv3rdvtv/e2bea32a9d883c4688ecebc33c1cac4e/557f59da/rdvtv.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
