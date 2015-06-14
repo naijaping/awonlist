@@ -2263,9 +2263,9 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>src= "(.*?)"</expres>
+<expres>src="(.*?)"</expres>
 <page>http://africahometv.com/africa-hometv-en-direct</page>
-<referer></referer>
+<referer>http://africahometv.com</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
