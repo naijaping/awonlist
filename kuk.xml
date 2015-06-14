@@ -2180,17 +2180,6 @@
 <thumbnail></thumbnail>
 </item>	
 
-
-
-
-
-<item>
-<title>Hit Africa</title>
-<link>http://5.196.92.200/tvchannel/ngrp:hitafrica_all/chunklist_w697151075_b1804104.m3u8</link>
-<thumbnail>http://i61.tinypic.com/xer9s.jpg</thumbnail>
-</item>
-
-
 <item>
 <title>Arise News</title>
 <link>http://78.30.254.43:8989/udp/239.0.0.196:4000</link>
@@ -2257,7 +2246,7 @@
 <item>
 <title>Get link</title>
 <link>http://bcliveuniv-lh.akamaihd.net/i/HopeInternational_1@193092/master.m3u8</link>
-<thumbnail></thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hope_channel_international.png</thumbnail>
 </item>
 
 
