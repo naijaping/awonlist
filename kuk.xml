@@ -2258,18 +2258,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Mute0</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>src="(.*?)"</expres>
-<page>http://africahometv.com/africa-hometv-en-direct</page>
-<referer>http://africahometv.com</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 
 <item>
 <title>SpeedChannel</title>
