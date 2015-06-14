@@ -2264,11 +2264,11 @@
 
 <item>
 <title>BBC</title>
-<link>http://astv10sec1.tulix.tv/soundcityprem/sat-soundcityprem/playlist.m3u8$doregex[get-auth]</link>
+<link>http://astv10sec1.tulix.tv/sentv/sentv.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
-<page>http://roku.afrikastv.com/watchastv.php</page>
+<page>http://roku.afrikastv.com/astvdvr_sentv.php</page>
 <referer>http://swf.tulix.tv/jwplayer/jwplayer.flash.swf</referer>
 </regex>
 <thumbnail></thumbnail>
