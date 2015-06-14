@@ -1584,11 +1584,6 @@
 </item>
 
 <item>
-<title>Silk SD</title>
-<link>rtmp://edge01-01.nl.myvideo.ge/dvrh264/silk_football/mp4:silk_football swfUrl=http://www.myvideo.ge/dvr/dvrStretch2.swf?v=1.91 live=1 pageUrl=http://www.myvideo.ge/ </link>
-</item>	
-
-<item>
 <title>NBA HD</title>
 <link>http://bit.do/3SXC</link>
 </item>	
@@ -2263,6 +2258,15 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Atkin</title>
+<link>http://81.92.105.132:5555/pl.m3u8?channel=35&amp;key=$doregex[reg1]</link>
+<regex><name>reg1</name>
+<expres>(?!["'\s]+)&amp;key=([^"]+)</expres>
+<page>http://alltv.ch/channels</page>
+<referer></referer>
+</regex>
+</item>
 
 
 
