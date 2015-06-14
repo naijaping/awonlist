@@ -2269,7 +2269,7 @@
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
 <page>http://roku.afrikastv.com/watchastv.php</page>
-<referer>http://roku.afrikastv.com</referer>
+<referer>http://swf.tulix.tv/jwplayer/jwplayer.flash.swf</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
