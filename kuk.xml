@@ -2233,7 +2233,7 @@
 
 <item>
 <title>Chan25</title>
-<link>http://astv10sec1.tulix.tv/sat-africahome/sat-africahome.stream/chunklist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNC8yMDE1IDc6NDk6MzUgUE0maGFzaF92YWx1ZT13aDRqVVAzdTFhQ0J5MGdiWXlGRU1nPT0mdmFsaWRtaW51dGVzPTE0NDA= </link>
+<link>rtsp://astvstream1.tulix.tv:1935/ext-arewa24/ext-arewa24.stream </link>
 <thumbnail></thumbnail>
 </item>
 
