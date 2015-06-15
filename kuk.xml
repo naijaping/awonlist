@@ -2271,6 +2271,19 @@
 </item>
 
 
+<item>
+<title>1TV</title>
+<link>http://nimplus1.giniko.com/bbcsport/bbcsport.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://dvrrtmp2.giniko.com/xml/bbcsport.plist</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
 
 </channel>
 
