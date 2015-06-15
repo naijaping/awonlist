@@ -220,6 +220,12 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/ghana_tv.png</thumbnail>
 </item>
 
+<item>
+<title>Lagos Television </title>
+<link>http://wpc.12bc9.kappacdn.net/hls-live/2012BC9/default/LagosTV/ltv_1200.m3u8?608edfab8a31cdb2906f767923e21035c7696807555fd6f720a8fbf339ecfd61dae2</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ll/lagos_television.png</thumbnail>
+</item>
+
 
 
 
@@ -2238,8 +2244,8 @@
 </item>
 
 <item>
-<title>LTV</title>
-<link>rtmp://astvstream1.tulix.tv:1935/lagostv/sat-lagostv.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
+<title>Silva</title>
+<link>rtmp://astvstream1.tulix.tv:1935/silverbird/sat-silverbird.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/soundcity_tv_ng.png</thumbnail>
 </item>
 
