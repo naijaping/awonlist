@@ -2257,8 +2257,8 @@
 </item>
 
 <item>
-<title>MITV</title>
-<link>rtmp://astvstream1.tulix.tv/aitint/aitint|X-Forwarded-For=66.171.228.102</link>
+<title>NTA</title>
+<link>rtmp://astvstream1.tulix.tv/ntaint/nta.stream  swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
 <thumbnail></thumbnail>
 </item>
 
