@@ -2248,9 +2248,9 @@
 
 
 <item>
-<title>Fashion A</title>
-<link>rtmp://astvstream1.tulix.tv:1935/fashionafrica/fashionafrica.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
-<thumbnail></thumbnail>
+<title>Fashion AIT</title>
+<link>rtmp://astvstream1.tulix.tv/aitint/aitint swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fashion_tv_fr.png</thumbnail>
 </item>
 
 <item>
