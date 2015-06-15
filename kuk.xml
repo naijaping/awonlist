@@ -2283,8 +2283,8 @@
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=68</page>
-<referer>http://dvrrtmp2.giniko.com/xml/tvcnews.plist</referer>
+<page>http://dvrrtmp2.giniko.com/xml/tvcnews.plist</page>
+<referer></referer>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/voxafrica_afrique.png</thumbnail>
 </item>
