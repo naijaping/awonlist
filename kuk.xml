@@ -2244,10 +2244,17 @@
 <thumbnail></thumbnail>
 </item>
 
+ 
 
 
 <item>
 <title>Mais</title>
+<link>rtmp://astvstream1.tulix.tv:1935/walfch/walftv.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Walf</title>
 <link>rtmp://astvstream3.tulix.tv/maisha/maisha swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
 <thumbnail></thumbnail>
 </item>
