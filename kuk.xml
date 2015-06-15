@@ -2258,7 +2258,7 @@
 
 <item>
 <title>MITV</title>
-<link>rtmp://tna2gb9.tulix.tv/waptv/wap.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
+<link>rtmp://astvstream3.tulix.tv/waptv/waptv swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
 <thumbnail></thumbnail>
 </item>
 
