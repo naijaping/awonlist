@@ -2238,9 +2238,9 @@
 </item>
 
 <item>
-<title>Sound</title>
-<link>rtmp://astvstream1.tulix.tv:1935/soundcityprem/sat-soundcityprem swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fashion_tv_fr.png</thumbnail>
+<title>LTV</title>
+<link>rtmp://astvstream1.tulix.tv:1935/lagostv/sat-lagostv.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/soundcity_tv_ng.png</thumbnail>
 </item>
 
 
