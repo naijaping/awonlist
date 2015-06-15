@@ -2267,15 +2267,6 @@
 </item>
 
 
-
-<item>
-<title>eapo</title>
-<link>http://nimplus1.giniko.com/bbcsport/bbcsport.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNS8yMDE1IDc6NDI6MzUgQU0maGFzaF92YWx1ZT0xVjAwWDMwYmVQM1NjS3ZIM2ljbXpnPT0mdmFsaWRtaW51dGVzPTI4ODA= </link>
-<thumbnail></thumbnail>
-</item>
-
-
-
 <item>
 <title>SpeedChannel</title>
 <link>$doregex[url]</link>
@@ -2289,14 +2280,8 @@
 </item>
 
 <item>
-<title>AL Sunna</title>
-<link>http://nimplus1.giniko.com/saudisunnah/saudisunnah.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=211</page>
-<referer></referer>
-</regex>
+<title>NUPE</title>
+<link>rtmp://astvstream1.tulix.tv/nollywoodpre/nollywoodpre swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
 <thumbnail></thumbnail>
 </item>
 
