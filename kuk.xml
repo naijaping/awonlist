@@ -2233,7 +2233,7 @@
 
 <item>
 <title>Chan250</title>
-<link>rtmp://astvstream1.tulix.tv:1935/ext-arewa24/ext-arewa24.stream </link>
+<link>rtmp://astvstream1.tulix.tv:1935/ext-arewa24/ext-arewa24.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
 <thumbnail></thumbnail>
 </item>
 
