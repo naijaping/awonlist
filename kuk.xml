@@ -2266,28 +2266,18 @@
 </item>
 
 <item>
-<title>Vox Africa TV</title>
-<link>http://nimplus1.giniko.com/bloomberg/bloomberg.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>VoxAfrica</title>
+<link>http://nimplus1.giniko.com/voxafrica/voxafrica.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
 <page>http://www.giniko.com/watch.php?id=211</page>
-<referer>http://dvrrtmp2.giniko.com/xml/bloomberg.plist</referer>
+<referer></referer>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/voxafrica_afrique.png</thumbnail>
 </item>
 
-<item>
-<title>Tvc</title>
-<link>http://nimplus1.giniko.com/tvcnews/tvcnews.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=211</page>
-<referer>http://dvrrtmp2.giniko.com/xml/tvcnews.plist</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/voxafrica_afrique.png</thumbnail>
-</item>
+
 
 
 </channel>
