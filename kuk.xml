@@ -2272,15 +2272,13 @@
 
 
 <item>
-<title>1TV</title>
-<link>http://nimplus1.giniko.com/bbcsport/bbcsport.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>rreteteetQatar</title>
+<link>$doregex[url]</link>
 <regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
 <page>http://dvrrtmp2.giniko.com/xml/bbcsport.plist</page>
-<referer></referer>
 </regex>
-<thumbnail></thumbnail>
 </item>
 
 
