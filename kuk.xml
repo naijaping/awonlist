@@ -2244,9 +2244,9 @@
 </item>
 
 <item>
-<title>TVC</title>
-<link>rtmp://astvstream1.tulix.tv/tvcnews/tvcnews.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/spice.png</thumbnail>
+<title>Ben</title>
+<link>rtmp://astvstream1.tulix.tv/bentv/bentv swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
+<thumbnail></thumbnail>
 </item>
 
 
