@@ -2238,19 +2238,6 @@
 </item>
 
 <item>
-<title>Chan250</title>
-<link>rtmp://astvstream1.tulix.tv:1935/ext-arewa24/ext-arewa24.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Ebony</title>
-<link>http://astv10sec1.tulix.tv/ebonylife/ebonylife.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNC8yMDE1IDExOjQ5OjE4IFBNJmhhc2hfdmFsdWU9Sk5HZVNTWU5YMllnWHBWUlBieGM5UT09JnZhbGlkbWludXRlcz0xNDQw</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
 <title>ATIa</title>
 <link>http://tna2gb9.tulix.tv/hls/astv1aitint/2bd0b8ce160859d85534cdf3736b6c03/557f647e/ext_aitint.stream.m3u8|X-Forwarded-For=66.171.228.102</link>
 <thumbnail></thumbnail>
@@ -2258,7 +2245,7 @@
 
 <item>
 <title>NTA</title>
-<link>rtmp://astvstream1.tulix.tv/ntaint/nta.stream  swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
+<link>rtmp://astvstream1.tulix.tv/ntaint/nta.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
 <thumbnail></thumbnail>
 </item>
 
