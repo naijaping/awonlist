@@ -2244,8 +2244,8 @@
 </item>
 
 <item>
-<title>NTA</title>
-<link>rtmp://astvstream1.tulix.tv/ntaint/nta.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
+<title>TVC</title>
+<link>rtmp://astvstream1.tulix.tv/tvcnews/tvcnews.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/spice.png</thumbnail>
 </item>
 
