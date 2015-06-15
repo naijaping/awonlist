@@ -572,6 +572,29 @@
 <link>http://118965-lh.akamaihd.net/i/etv_live@74820/master.m3u8?b=110-700</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/emmanuel_tv.png</thumbnail>
 </item>
+
+<item>
+<title> Pastor Adeboye NG</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
+<page></page>
+</regex>
+<regex>
+<name>jsonurl</name>
+<expres>"hlsvp":"(.*?)"</expres>
+<page>https://www.youtube.com/watch?v=$doregex[get-page]</page>
+<referer></referer>
+</regex>
+<regex>
+<name>get-page</name>
+<expres>data-context-item-id="([^"]+)</expres>
+<page>https://www.youtube.com/channel/UCHp4qCAPmz7-5BJ601FDFnA</page>
+</regex>
+<thumbnail>http://i58.tinypic.com/28kiv6r.jpg</thumbnail>
+</item>
+	
 	
 </channel>  
 
@@ -2266,20 +2289,8 @@
 </item>
 
 <item>
-<title>VoxAfrica</title>
-<link>http://nimplus1.giniko.com/voxafrica/voxafrica.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=211</page>
-<referer></referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/voxafrica_afrique.png</thumbnail>
-</item>
-
-<item>
-<title>ABTN</title>
-<link>http://nimplus1.giniko.com/abntv/abntv.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>BBW</title>
+<link>http://nimplus1.giniko.com/bbcworldnews/bbcworld/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
@@ -2288,6 +2299,8 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
+
+
 
 
 
