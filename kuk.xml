@@ -2248,8 +2248,8 @@
 
 
 <item>
-<title>Walf</title>
-<link>rtmp://astvstream1.tulix.tv:1935/walfch/walftv.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
+<title>Fashion A</title>
+<link>rtmp://astvstream1.tulix.tv:1935/fashionafrica/fashionafrica.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
 <thumbnail></thumbnail>
 </item>
 
