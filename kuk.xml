@@ -2250,6 +2250,13 @@
 </item>
 
 
+<item>
+<title>eap</title>
+<link>rtmp://astvstream1.tulix.tv/waptv/wap.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
+<thumbnail></thumbnail>
+</item>
+
+
 
 <item>
 <title>SpeedChannel</title>
