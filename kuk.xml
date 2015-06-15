@@ -2247,8 +2247,8 @@
 
 
 <item>
-<title>BBC0</title>
-<link>rtmp://astvstream3.tulix.tv/maisha/maisha</link>
+<title>Mais</title>
+<link>rtmp://astvstream3.tulix.tv/maisha/maisha swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
 <thumbnail></thumbnail>
 </item>
 
