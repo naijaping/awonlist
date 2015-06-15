@@ -2251,8 +2251,8 @@
 
 
 <item>
-<title>ATI</title>
-<link>rtmp://astvstream1.tulix.tv/aitint/aitint swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20|X-Forwarded-For=66.171.228.102</link>
+<title>ATIa</title>
+<link>http://tna2gb9.tulix.tv/hls/astv1aitint/2bd0b8ce160859d85534cdf3736b6c03/557f647e/ext_aitint.stream.m3u8|X-Forwarded-For=66.171.228.102</link>
 <thumbnail></thumbnail>
 </item>
 
