@@ -2251,7 +2251,7 @@
 
 <item>
 <title>BU</title>
-<link>http://myafricanmega.tulix.tv:1935/map-ben/map-ben/playlist.m3u8</link>
+<link>http://myafricanmega3.tulix.tv:1935/map-ben/map-ben/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
@@ -2262,8 +2262,8 @@
 </item>
 
 <item>
-<title>BEN TV</title>
-<link>rtmp://myafricanmega.tulix.tv:1935/map-ben/map-ben swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
+<title>Sport Plus Africa</title>
+<link>http://myafricanmega3.tulix.tv:1935/map-sportsplusafr/map-sportsplusafr/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
