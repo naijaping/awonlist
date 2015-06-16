@@ -2262,8 +2262,8 @@
 </item>
 
 <item>
-<title>ATN</title>
-<link>rtmp://myafricanmega3.tulix.tv:1935/map-ntaroku/map-nta.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
+<title>AoN</title>
+<link>rtmp://208.75.224.165:1935/map-voxafrica/myStream.sdp swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
 <thumbnail></thumbnail>
 </item>
 
