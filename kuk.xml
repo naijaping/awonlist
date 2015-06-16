@@ -2262,9 +2262,9 @@
 </item>
 
 <item>
-<title>BioTV</title>
-<link>http://uni6rtmp.tulix.tv/bioreports/bioreports.stream/playlist.m3u8</link>
-<thumbnail>http://i61.tinypic.com/112ajo9.jpg</thumbnail>
+<title>BEN TV</title>
+<link>rtmp://myafricanmega.tulix.tv:1935/map-ben/map-ben swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
+<thumbnail></thumbnail>
 </item>
 
 
