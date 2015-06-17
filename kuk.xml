@@ -2269,7 +2269,16 @@
 </item>
 
 
-
+<item>
+<title>Yupptv</title>
+<link>$doregex[url]|Referer=http://static.aka.yupp.yuppcdn.net/staticstorage/jwplayer/jw_6_12/jwplayer.flash.swf</link>
+<regex>
+<name>url</name>
+<expres>file:'(.*?)'<expres>
+<page>http://streams.yupptv.com/freechannelplayer.aspx?id=167</page>
+<referer>http://streams.yupptv.com/</referer>
+</regex>
+</item>
 
 
 
