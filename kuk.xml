@@ -2282,16 +2282,35 @@
 
 
 <item>
-<title>SpeedChannel</title>
-<link>$doregex[url]</link>
+<title>Mega-Kids Regex-Vaugahn 17-06-15</title>
+<link>rtmp://$doregex[getserver]/live?$doregex[clearCode] playpath=live_mega_kids live=1 timeout=20</link>
 <regex>
-<name>url</name>
-<expres>source src="(.*?)"<expres>
-<page>http://www.iyatv.com/playflash.php?id=ch191</page>
-<referer>http://www.iyatv.com/</referer>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4</agent>
+<name>clearCode</name>
+<expres>$pyFunction:'$doregex[getencoded]'.replace("0m0","").replace("0n0","")</expres>
+<page></page>
+</regex>
+<regex>
+<name>getencoded</name>
+<expres>:mvnkey-(.*)</expres>
+<page>$doregex[getUrl]</page>
+</regex>
+<regex>
+<name>getserver</name>
+<expres>(.*?);</expres>
+<page>$doregex[getUrl]</page>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>(.*)</expres>
+<page>http://mvn.vaughnsoft.net/video/edge/live_mega_kids$doregex[gettime]-$doregex[gettime].33434</page>
+</regex>
+<regex>
+<name>gettime</name>
+<expres>$pyFunction:str(int(round(time.time() * 1000)))</expres>
+<page></page>
 </regex>
 </item>
+
 
 
 
