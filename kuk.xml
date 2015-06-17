@@ -2281,7 +2281,7 @@
 
 <item>
 <title>Adifo</title>
-<link>http://admin.8packlive.tulix.tv/hls/afromusic/afromusic.stream.m3u8</link>
+<link>http://8packrtmp.tulix.tv:1935/channels/channels.stream/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
