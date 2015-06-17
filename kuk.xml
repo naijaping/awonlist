@@ -2262,6 +2262,13 @@
 
 
 <item>
+<title>test</title>
+<link>http://admin.8packlive.tulix.tv/hls/pleasure/pleasure.stream.m3u8</link>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
 <title>SpeedChannel</title>
 <link>$doregex[url]</link>
 <regex>
