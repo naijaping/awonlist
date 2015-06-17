@@ -2267,6 +2267,19 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>mona 1</title>
+<link>rtmp://astvstream3.tulix.tv/ssporthd3/ssporthd3</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>mona2</title>
+<link>rtmp://astvstream1.tulix.tv:1935/ext-supersportplus/ext-supersportplus.stream</link>
+<thumbnail></thumbnail>
+</item>
+
+
 
 <item>
 <title>SpeedChannel</title>
