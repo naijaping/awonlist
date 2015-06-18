@@ -2290,7 +2290,7 @@
 <link>rtmp://liveedge.sportsdonkey.club/send$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
-<expres>send(\?.*)"</expres>
+<expres>send(\?.*)"/ss1hd.stream</expres>
 <page>http://www.giniko.com/watch.php?id=211</page>
 <referer></referer>
 </regex>
