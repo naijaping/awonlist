@@ -2281,7 +2281,17 @@
 </item>
 
 
-
+<item>
+<title>NTA Giniko</title>
+<link>http://astv10sec1.tulix.tv/sentv/sentv.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.giniko.com/watch.php?id=211</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
