@@ -2264,7 +2264,7 @@
 
 <item>
 <title>monall</title>
-<link>rtmp://astvstream.tulix.tv:1935/sentv/sentv.stream</link>
+<link>http://astv10sec2.tulix.tv/waptv/wap.stream/playlist.m3u8</link>
 <thumbnail>http://i57.tinypic.com/2ypf88o.jpg</thumbnail>
 </item>
 
@@ -2283,7 +2283,7 @@
 
 <item>
 <title>NTA Giniko</title>
-<link>http://astv10sec1.tulix.tv/sentv/sentv.stream/playlist.m3u8$doregex[get-auth]</link>
+<link>http://astv10sec2.tulix.tv/waptv/wap.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
