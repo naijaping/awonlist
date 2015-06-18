@@ -2275,7 +2275,7 @@
 
 <item>
 <title>NT</title>
-<link>http://astv10sec2.tulix.tv/waptv/wap.stream/playlist.m3u8$doregex[get-auth]</link>
+<link>http://astv10sec1.tulix.tv/ext-r2tv/ext-r2tv.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
@@ -2285,17 +2285,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>NT0</title>
-<link>http://astv10sec1.tulix.tv/aitint/ext_aitint.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=211</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 </channel>
