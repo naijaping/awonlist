@@ -2261,14 +2261,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
-<item>
-<title>monall</title>
-<link>http://astv10sec2.tulix.tv/waptv/wap.stream/playlist.m3u8</link>
-<thumbnail>http://i57.tinypic.com/2ypf88o.jpg</thumbnail>
-</item>
-
-
 <item>
 <title>Yupptv</title>
 <link>$doregex[url]|Referer=http://static.aka.yupp.yuppcdn.net/staticstorage/jwplayer/jw_6_12/jwplayer.flash.swf</link>
@@ -2282,7 +2274,7 @@
 
 
 <item>
-<title>NTA Giniko</title>
+<title>NT</title>
 <link>http://astv10sec2.tulix.tv/waptv/wap.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
@@ -2293,6 +2285,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>NT0</title>
+<link>http://astv10sec1.tulix.tv/aitint/ext_aitint.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.giniko.com/watch.php?id=211</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 </channel>
