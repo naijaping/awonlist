@@ -2291,8 +2291,26 @@
 </item>
 
 <item>
-<title>Nuku</title>
-<link>http://live.tvplayer.com/channel5/5/prog_index.m3u8</link>
+<title>AIT International</title>
+<link>$doregex[get-finalURL]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</link>
+<regex>
+<name>get-finalURL</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-url</name>
+<expres>(http.*?)"</expres>
+<page>$pyFunction:urllib.urlopen('http://www.proxyusa.info/browse.php?u=$doregex[url-quote]').read()</page>
+<referer>http://www.proxyusa.info/browse.php?u=http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ait2&amp;type=live&amp;service=wowza&amp;output=player</referer>
+<cookieJar></cookieJar>
+<agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote('http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ait2&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp')</expres>
+<page></page>
+</regex>
 <thumbnail></thumbnail>
 </item>
 
