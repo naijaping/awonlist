@@ -2291,8 +2291,8 @@
 </item>
 
 <item>
-<title>N0Ti</title>
-<link>http://nimplus1.giniko.com/cnnint/cnnint.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>N0T</title>
+<link>http://nimplus1.giniko.com/tvcnews/tvcnews.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
