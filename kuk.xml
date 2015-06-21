@@ -2292,7 +2292,7 @@
 
 <item>
 <title>mapHD</title>
-<link>rtmp://mellitvrtmp.tulix.tv:1935/m-eurod/m-eurod.stream</link>
+<link>http://mellitv.10gb3.tulix.tv/hls/startv/startv.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
