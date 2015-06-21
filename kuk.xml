@@ -2297,6 +2297,16 @@
 </item>
 
 
+<item>
+<title>Tre</title>
+<link>$doregex[reg1]|referrer=http://www.ghanalive.tv/gtv/</link>
+<regex>
+<name>reg1</name>
+<expres>'file': '(.*?)'</expres>
+<page>http://www.ghanalive.tv/gtv/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
