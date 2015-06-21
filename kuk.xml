@@ -2213,7 +2213,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>'streamer','(.*?)'</expres>
+<expres>src='(.*?)'</expres>
 <page>http://www.ogtv.com.ng/watch-live-tv/</page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rave_tv_ng.png</thumbnail>
