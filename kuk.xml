@@ -2061,19 +2061,6 @@
 
 
 <item>
-<title>BB World</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres> file: '(.*?)'</expres>
-<page>http://www.malayalamtvhd.biz/2014/07/bbc-world-news_18.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
 <title>NTV Musique Regex</title>
 <link>$doregex[reg1]</link>
 <regex>
@@ -2085,25 +2072,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
-<item>
-<title>Adventure Time 2</title>
-<link>rtmp://$doregex[getIP]/live?$doregex[getCODE] playpath=live_lmshows_at live=1 timeout=60</link>
-<regex>
-<name>getIP</name>
-<expres>function getEdgeServers.*"(.*?),<expres>
-<page>http://vaughnlive.tv//embed/video/lmshows_at?viewers=true&watermark=false&autoplay=true</page>
-</regex>
-<regex>
-<name>getCODE</name>
-<expres>vsVars.*= "0n0(.*?)"<expres>
-<page>http://vaughnlive.tv//embed/video/lmshows_at?viewers=true&watermark=false&autoplay=true</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fox_news_channel.png</thumbnail>
-<fanart>http://www.lyngsat-logo.com/logo/tv/ff/fox_news_channel.png</fanart>
-</item> 
-
-
 <item>
 <title>Once Upon a Time in Shanghai 2014</title>
 <link>$doregex[reg1]|timeout=60</link>
@@ -2113,27 +2081,6 @@
 <page>http://www.pinit.tv/embedplayer.php?width=620&amp;height=465&amp;vkey=9d5b0e361ce4f0b24d03&amp;autoplay=true&amp;subtitles=</page>
 <referer>http://www.catiii.tv/once-upon-a-time-in-shanghai-2014/</referer>
 </regex>
-</item>
-
-
-<item>
-<title>oneplay</title>
-<link>http://live.oneplay.tv/reproducir/$doregex[id].m3u8$doregex[req]|Cookie=$get_cookies$&amp;X-Requested-With=ShockwaveFlash/17.0.0.188&amp;Referer=http://oneplay.tv/embed/?i=24&amp;User-Agent=Mozilla/5.0 (IE 11.0; Windows NT 6.3; Trident/7.0; .NET4.0E; .NET4.0C; rv:11.0) like Gecko</link>
-<regex>
-<name>req</name>
-<expres>.()</expres>
-<page>http://live.oneplay.tv/analytics.php?id=$doregex[id]</page>
-<referer>http://oneplay.tv/embed/?i=24</referer>
-<cookiejar></cookiejar>
-</regex>
-<regex>
-<name>id</name>
-<expres>(\d+)\.m3u8</expres>
-<page>http://oneplay.tv/embed/?i=24</page>
-<referer>http://oneplay.tv/ver/canal/24/fox</referer>
-<cookiejar></cookiejar>
-</regex>
-<thumbnail></thumbnail>
 </item>
 
 <item>
@@ -2161,7 +2108,7 @@
 
 <item>
 <title>tv2</title>
-<link>http://itv2liveandroid-i.akamaihd.net/hls/live/218400/itvlive/android/AndroidMain1200k.m3u8 </link>
+<link>http://itv2liveandroid-i.akamaihd.net/hls/live/itvlive/android/AndroidMain1200k.m3u8 </link>
 <thumbnail></thumbnail>
 </item>
 
@@ -2188,12 +2135,6 @@
 <link>http://78.30.254.43:8989/udp/239.0.0.51:4000</link>
 <thumbnail></thumbnail>
 </item>
-
-<item>
-<title>MITV</title>
-<link>http://wpc.12bc9.kappacdn.net/hls-live/2012BC9/default/MITV/mit_1200.m3u8?608edfab8a31cdb2906f767923e21035c7696807555fd6f720a8fbf339ecfd61dae2</link>
-<thumbnail></thumbnail>
-</item>	
 
 <item>
 <title>Arise News</title>
@@ -2238,11 +2179,6 @@
 <vaughn>lmshows_at</vaughn>
 </item>
 
-<item>
-<title>Chan24</title>
-<link>http://myafricanmega3.tulix.tv:1935/map-channelstv/map-channelstv.stream/chunklist.m3u8</link>
-<thumbnail></thumbnail>
-</item>
 
 <item>
 <title>Yupptv</title>
@@ -2268,30 +2204,9 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>mHD</title>
-<link>http://admin.8packlive.tulix.tv/hls/gtvtv/gtvtv.stream.m3u8</link>
-<thumbnail></thumbnail>
-</item>
 
 
-<item>
-<title>Sky1</title>
-<link>$doregex[rtmp] playpath=$doregex[path] token=#atd%#$ZH pageUrl=http://biggestplayer.me live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>flashvars=.*=(rtmp[^&]*)</expres>
-<page>http://biggestplayer.me/streamcr.php?id=$doregex[path]</page>
-<referer>http://theactionlive.com</referer>
-</regex>
-<regex>
-<name>path</name>
-<expres>id='(.*?)'</expres>
-<page>http://theactionlive.com/livegamecr.php?id=sx1</page>
-<referer>http://cricfree.sx</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
