@@ -2287,7 +2287,7 @@
 <regex>
 <name>path</name>
 <expres>id='(.*?)'</expres>
-<page>http://theactionlive.com/livegamecr.php?id=sx1&width=620&height=490&stretching=</page>
+<page>http://theactionlive.com/livegamecr.php?id=sx1</page>
 <referer>http://cricfree.sx</referer>
 </regex>
 <thumbnail></thumbnail>
