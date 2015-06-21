@@ -2206,17 +2206,15 @@
 
 
 
-'streamer','
-
 <item>
-<title>Rave TV</title> 
-<link>$doregex[reg1]</link>
+<title>NBCSN An</title>
+<link>$doregex[url]</link>
 <regex>
-<name>reg1</name>
-<expres>src='(.*?)'</expres>
-<page>http://www.ogtv.com.ng/watch-live-tv/</page>
+<name>url</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/opcion-2/frame')</expres>
+<page></page>
 </regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rave_tv_ng.png</thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nbc_sports_network.png</thumbnail>
 </item>
 
 
