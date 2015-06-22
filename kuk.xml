@@ -2179,7 +2179,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
 <item>
 <title>Vaughan</title>       
 <vaughn>lmshows_at</vaughn>
@@ -2210,19 +2209,11 @@
 <thumbnail></thumbnail>
 </item>
 
-
-
 <item>
-<title>NBCSN An</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/opcion-2/frame')</expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nbc_sports_network.png</thumbnail>
+<title>NikoHD</title>
+<link>http://prepublish.f.qaotic.net/a07/ngrp:gh_channel1-100033_all/playlist_b496000.m3u8</link>
+<thumbnail></thumbnail>
 </item>
-
 
 
 
