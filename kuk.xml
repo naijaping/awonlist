@@ -687,6 +687,12 @@
 </item>
 
 <item>
+<title>Random Sport 1</title>
+<link>rtmp://w13.vmnode.pw:1935/live playpath=tsn swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/tsnmix.php live=true timeout=20</link>
+<thumbnail>http://i59.tinypic.com/2a0dfr8.jpg</thumbnail>
+</item>
+
+<item>
 <title>Bein Sport 1</title>
 <link>rtmpe://167.114.101.234:1935/live?idu=ghayth12345_61813917360/bein_sport_1_low</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
