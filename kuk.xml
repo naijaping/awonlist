@@ -1116,12 +1116,12 @@
 <regex>
 <name>rtmp</name>
 <expres>base="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=hiptv_3&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=webwwwhiptv51845&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
 </regex>
 <regex>
 <name>path</name>
 <expres>src="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=hiptv_3&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=webwwwhiptv51845&amp;ref=http://www.filmover.com&amp;type=live&amp;service=wowza&amp;output=smil</page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hip_tv_ng.png</thumbnail>
 </item>
