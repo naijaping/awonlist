@@ -2273,7 +2273,7 @@
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
 <name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://live-04.viewer.dacast.com/z/dclive_1@104018/manifest.f4m?g=LBPBJSCYNPUJ&amp;hdcore=3.6&amp;plugin=jwplayer-3.4.0.0')<expres>
+<expres>$pyFunction:urllib.quote_plus('http://live-04.viewer.dacast.com/z/dclive_1@104018/manifest.f4m?g=LBPBJSCYNPUJ&amp;hdntl=exp=1435130023&amp;hdcore=3.6&amp;plugin=jwplayer-3.4.0.0')<expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
