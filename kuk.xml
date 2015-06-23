@@ -2251,6 +2251,16 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>TP</title>
+<link>http://200.38.126.38:8081/TPMHLSWeb/M3U8LiveFile?a=$doregex[b64]&amp;f=.m3u8</link>
+<regex>
+<name>b64</name>
+<expres>$pyFunction:base64.b64encode("format=1&amp;lan=2&amp;rows=99&amp;session=wqm17khh1abq67g&amp;profile=107")</expres>
+<page></page>
+</regex>
+</item>
+
 </channel>
 
 
