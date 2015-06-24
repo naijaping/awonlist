@@ -2271,6 +2271,18 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>IBrod TV</title>
+<link>$doregex[rtmp] swfUrl=http://cdn.miplayer.net/player/jwplayer.flash.swf token=OOG17t.x#K9Vh#| pageUrl=http://miplayer.net live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>file: '(.*?)'<expres>
+<page>http://miplayer.net/embedplayer.php?id=ibrodtv1</page>
+<referer>http://www.ibrodtv.net</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 </channel>
