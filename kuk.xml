@@ -2272,22 +2272,22 @@
 <title>Animal Planet Ustream</title>
 <link>$doregex[url]</link>
 <regex>
-	<name>url</name>
-	<expres>uhls","url":"(.*?)"</expres>                                           
-	<page>http://$doregex[host]/1/ustream?connectionId=$doregex[cid]</page>
-	<referer>http://www.ustream.tv</referer>
+<name>url</name>
+<expres>uhls","url":"(.*?)"</expres>                                           
+<page>http://$doregex[host]/1/ustream?connectionId=$doregex[cid]</page>
+<referer>http://www.ustream.tv</referer>
 </regex>
 <regex>
-	<name>host</name>
-	<expres>host":"(.*?)"</expres>                                           
-	<page>http://r45917422-1-12762028-channel-live.ums.ustream.tv/1/ustream?type=viewer&amp;appId=11&amp;appVersion=2&amp;media=12762028&amp;application=channel</page>
-	<referer>http://www.ustream.tv</referer>
+<name>host</name>	
+<expres>host":"(.*?)"</expres>                                           
+<page>http://r45917422-1-12762028-channel-live.ums.ustream.tv/1/ustream?type=viewer&amp;appId=11&amp;appVersion=2&amp;media=12762028&amp;application=channel&amp;|X-Forwarded-For=67.212.175.123</page>
+<referer>http://www.ustream.tv</referer>
 </regex>
 <regex>
-	<name>cid</name>
-	<expres>Id":"(.*?)"</expres>                                           
-	<page>http://r45917422-1-12762028-channel-live.ums.ustream.tv/1/ustream?type=viewer&amp;appId=11&amp;appVersion=2&amp;media=12762028&amp;application=channel</page>
-	<referer>http://www.ustream.tv</referer>
+<name>cid</name>
+<expres>Id":"(.*?)"</expres>                                           
+<page>http://r45917422-1-12762028-channel-live.ums.ustream.tv/1/ustream?type=viewer&amp;appId=11&amp;appVersion=2&amp;media=12762028&amp;application=channel&amp;|X-Forwarded-For=67.212.175.123</page>
+<referer>http://www.ustream.tv</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
