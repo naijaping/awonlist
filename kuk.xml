@@ -2269,16 +2269,28 @@
 
 
 <item>
-<title>GOD TV</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<title>Animal Planet Ustream</title>
+<link>$doregex[url]</link>
 <regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://live-04.viewer.dacast.com/z/dclive_1@104018/manifest.f4m?g=LBPBJSCYNPUJ&amp;hdntl=exp=1435130023&amp;hdcore=3.6&amp;plugin=jwplayer-3.4.0.0')<expres>
-<page></page>
+	<name>url</name>
+	<expres>uhls","url":"(.*?)"</expres>                                           
+	<page>http://$doregex[host]/1/ustream?connectionId=$doregex[cid]</page>
+	<referer>http://www.ustream.tv</referer>
 </regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
-</item> 
-<item>
+<regex>
+	<name>host</name>
+	<expres>host":"(.*?)"</expres>                                           
+	<page>http://r45917422-1-12762028-channel-live.ums.ustream.tv/1/ustream?type=viewer&amp;appId=11&amp;appVersion=2&amp;media=12762028&amp;application=channel</page>
+	<referer>http://www.ustream.tv</referer>
+</regex>
+<regex>
+	<name>cid</name>
+	<expres>Id":"(.*?)"</expres>                                           
+	<page>http://r45917422-1-12762028-channel-live.ums.ustream.tv/1/ustream?type=viewer&amp;appId=11&amp;appVersion=2&amp;media=12762028&amp;application=channel</page>
+	<referer>http://www.ustream.tv</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 </channel>
 
