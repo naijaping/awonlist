@@ -2285,6 +2285,20 @@
 
 
 
+<item>
+<title>Will00000</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>{file: "(.*?)"</expres>
+<page>http://www.canlitvlive.com/tvizle.php?t=1&tv=cnbc-e-canli-yayin-izle</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
 </channel>
 
 
