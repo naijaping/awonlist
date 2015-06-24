@@ -2196,19 +2196,6 @@
 </regex>
 </item>
 
-
-<item>
-<title>NT</title>
-<link>http://astv10sec1.tulix.tv/ext-r2tv/ext-r2tv.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=211</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 <item>
 <title>MUMUNI 1</title>
 <link>http://pvr.tvip.ga/0430.m3u8|X-Forwarded-For=85.5.87.218</link>
@@ -2255,16 +2242,6 @@
 <title>MUMUNI 8</title>
 <link>http://pvr.tvip.ga/0406.m3u8|X-Forwarded-For=85.5.87.218</link>
 <thumbnail></thumbnail>
-</item>
-
-<item>
-<title>TP</title>
-<link>http://200.38.126.38:8081/TPMHLSWeb/M3U8LiveFile?a=$doregex[b64]&amp;f=.m3u8</link>
-<regex>
-<name>b64</name>
-<expres>$pyFunction:base64.b64encode("format=1&amp;lan=2&amp;rows=99&amp;session=wqm17khh1abq67g&amp;profile=107")</expres>
-<page></page>
-</regex>
 </item>
 
 
