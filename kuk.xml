@@ -2277,8 +2277,8 @@
 <regex>
 <name>reg1</name>
 <expres>file: '(.*?)'</expres>
-<page>http://hitafrica.tv/tv/</page>
-<referer>http://hitafrica.tv/jwplayer/jwplayer.flash.swf</referer>
+<page></page>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
