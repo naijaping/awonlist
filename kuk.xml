@@ -2289,10 +2289,10 @@
 <regex>
 <name>reg1</name>
 <expres>var stream = "(.*?)"</expres>
-<page>http://www.malayalamtvhd.biz/2015/06/gol-tv.html</page>
+<page></page>
 <referer></referer>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/gol_tv.png</thumbnail>
 </item>
 
 
