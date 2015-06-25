@@ -2286,17 +2286,15 @@
 
 
 <item>
-<title>Will00000</title>
+<title>Picasa</title>
 <link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>{file: "(.*?)"</expres>
-<page>http://www.canlitvlive.com/tvizle.php?t=1&tv=cnbc-e-canli-yayin-izle</page>
-<referer></referer>
+<regex><name>reg1</name>
+<expres>src=["'](https.*?picasa.+?)["']</expres>
+<page>https://www.leoplayer.com/mobileplayer?geturl=3756381&amp;hd=720p</page>
+<referer>http://www.sm285.com</referer>
+<agent>Mozilla</agent>
 </regex>
-<thumbnail></thumbnail>
 </item>
-
 
 
 </channel>
