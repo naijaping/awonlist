@@ -2285,16 +2285,7 @@
 
 
 
-<item>
-<title>Picasa</title>
-<link>$doregex[reg1]</link>
-<regex><name>reg1</name>
-<expres>src=["'](https.*?picasa.+?)["']</expres>
-<page>https://www.leoplayer.com/mobileplayer?geturl=3756381&amp;hd=720p</page>
-<referer>http://www.sm285.com</referer>
-<agent>Mozilla</agent>
-</regex>
-</item>
+
 
 
 </channel>
