@@ -2272,13 +2272,9 @@
 </item>
 
 <item>
-<title>Fox</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>{file:"(.*?)"</expres>
-<page>http://www.canlitvlive.com/izle/cartoon-network.html</page>
-</regex>
+<title>Fox SportsDevil</title>
+<sportsdevil>http://www.canlitvlive.com/izle/fox-tv.html</sportsdevil>
+<referer>http://www.canlitvlive.com/</referer>
 </item>
 
 <item>
