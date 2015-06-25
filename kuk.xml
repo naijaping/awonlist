@@ -2279,13 +2279,7 @@
 
 <item>
 <title>T0ooohk</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>file: '(.*?)'</expres>
-<page></page>
-<referer></referer>
-</regex>
+<link>rtmp://208.75.224.165:1935/map-alquraan/map-alquraan.stream</link>
 <thumbnail></thumbnail>
 </item>
 
