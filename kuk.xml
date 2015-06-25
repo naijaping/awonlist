@@ -2272,6 +2272,16 @@
 </item>
 
 <item>
+<title>Fox</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>{file:"(.*?)"</expres>
+<page>http://www.canlitvlive.com/izle/cartoon-network.html</page>
+</regex>
+</item>
+
+<item>
 <title>T0ooohk</title>
 <link>$doregex[reg1]</link>
 <regex>
