@@ -2059,7 +2059,7 @@
 <regex>
 <name>reg1</name>
 <expres> file: '(.*?)'</expres>
-<page>http://www.malayalamtvhd.biz/2015/02/sky-sports-5.html</page>
+<page>http://www.malayalamtvhd.biz/2015/06/gol-tv.html</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
@@ -2283,6 +2283,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>0HD</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres> file: '(.*?)'</expres>
+<page>http://www.malayalamtvhd.biz/2015/06/gol-tv.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
