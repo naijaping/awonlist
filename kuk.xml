@@ -2273,13 +2273,7 @@
 
 <item>
 <title>IBrod TV</title>
-<link>$doregex[rtmp] swfUrl=http://cdn.miplayer.net/player/jwplayer.flash.swf token=OOG17t.x#K9Vh#| pageUrl=http://miplayer.net live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>file: '(.*?)'<expres>
-<page>http://miplayer.net/embedplayer.php?id=ibrodtv1</page>
-<referer>http://www.ibrodtv.net</referer>
-</regex>
+<link>http://5.196.92.200/tvchannel/ngrp:hitafrica_all/chunklist_w1598960741_b1805385.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
