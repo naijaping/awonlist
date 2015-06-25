@@ -2288,7 +2288,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres> file: '(.*?)'</expres>
+<expres>var stream = "(.*?)"</expres>
 <page>http://www.malayalamtvhd.biz/2015/06/gol-tv.html</page>
 <referer></referer>
 </regex>
