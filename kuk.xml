@@ -2318,7 +2318,17 @@
 </regex>
 </item>
 
-
+<item>
+<title>Cup</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: '(.*?)'</expres>
+<page>http://centrepoint.christfaithmedia.co.uk/index.php/live2/98/aXRAd2lubmVyc2NoYXBlbC5vcmcudWs=/118/420/320</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 </channel>
