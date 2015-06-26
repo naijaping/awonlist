@@ -2339,7 +2339,7 @@
 <item>
     <title>RUV TV (Iceland)</title>
     <link>rtmp://ruvruverllivefs.fplive.net/ruvruverllive-live/ playpath=stream3 swfUrl=http://www.ruv.is/files/spilari/player.swf pageUrl=http://www.ruv.is/ruv</link>
-	<link>http://sip-live.hds.adaptive.level3.net/hls-live/ruv-ruverl/_definst_/live.m3u8|X-Forwarded-For=130.208.69.26 </link>
+	<link>http://sip-live.hds.adaptive.level3.net/hls-live/ruv-ruverl/_definst_/live.m3u8|X-Forwarded-For=212.30.218.130</link>
     <thumbnail>http://esctoday.com/wp-content/uploads/2012/06/Iceland-RUV.png</thumbnail>
     </item>
 
