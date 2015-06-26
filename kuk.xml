@@ -2337,17 +2337,7 @@
 </item>
 
 
-<item>
-<title>CupRUTV</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.ruv.is/ruv</page>
-<referer>http://www.ruv.is/sites/all/themes/at_ruv/scripts/ruv-stream.php?channel=ruv</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 </channel>
