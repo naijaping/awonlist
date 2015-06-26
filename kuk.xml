@@ -2336,12 +2336,18 @@
 <thumbnail></thumbnail>
 </item>
 
+
 <item>
-    <title>RUV TV (Iceland)</title>
-    <link>rtmp://ruvruverllivefs.fplive.net/ruvruverllive-live/ playpath=stream3 swfUrl=http://www.ruv.is/files/spilari/player.swf pageUrl=http://www.ruv.is/ruv</link>
-	<link>http://sip-live.hds.adaptive.level3.net/hls-live/ruv-ruverl/_definst_/live.m3u8|X-Forwarded-For=212.30.218.130</link>
-    <thumbnail>http://esctoday.com/wp-content/uploads/2012/06/Iceland-RUV.png</thumbnail>
-    </item>
+<title>CupRUTV</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.ruv.is/ruv</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 </channel>
