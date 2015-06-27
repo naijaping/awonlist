@@ -2347,12 +2347,12 @@
 
 
 <item>
-<title>NTA Giniko</title>
+<title>NTA G</title>
 <link>http://nimplus1.giniko.com/ntatv/ntatvlive.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=211</page>
+<page>http://bit.ly/1LNoGly</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
