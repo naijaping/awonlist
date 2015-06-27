@@ -2346,7 +2346,17 @@
 
 
 
-
+<item>
+<title>Copi</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.information.tv/WatchLive/FlashPlayer/?id=1</page>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 </channel>
