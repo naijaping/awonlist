@@ -2333,12 +2333,11 @@
 
 <item>
 <title>Cupio</title>
-<link>$doregex[reg1]</link>
+<link>$doregex[reg1]|User-Agent=extrawatch_agent</link>
 <regex>
 <name>reg1</name>
 <expres>videoLink ='(.*?)'</expres>
 <page>http://www.eboundservices.com/iframe/new/iframe_hamariweb.php?stream=express&width=472&height=325&clip=express&syndicate=8888</page>
-<agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
 </regex>
 <thumbnail></thumbnail>
 </item>
