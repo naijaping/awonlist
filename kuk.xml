@@ -2325,6 +2325,7 @@
 <expres>m3u8(\?.*)"</expres>
 <page>http://bit.ly/1LNoGly</page>
 <agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
