@@ -2283,25 +2283,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Mamagi</title>
-<link>http://astv10sec3.tulix.tv/nollywoodpre/nollywoodpre/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=211</page>
-<agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>T0pok</title>
-<link>http://srv1.cdn.tvcatchup.com/subtv_hi.m3u8?streamKey=5597705f226842c36582fb3c13ac6454-30cde6649103adc1d6c5e7d5cdd85b98&time=1435295744143</link>
-<thumbnail></thumbnail>
-</item>
-
 
 <item>
 <title>VOX HD</title>
