@@ -2366,6 +2366,7 @@
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
 <page>http://www.eboundservices.com/iframe/new/iframe_hamariweb.php?stream=express&width=472&height=325&clip=express&syndicate=8888</page>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
