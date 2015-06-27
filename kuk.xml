@@ -2347,14 +2347,14 @@
 
 
 <item>
-<title>Copi</title>
+<title>The Word Network</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>file: "(.*?)"</expres>
 <page>http://www.giniko.com/watch.php?id=58</page>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/the_word_network.png</thumbnail>
 </item>
 
 
