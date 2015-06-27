@@ -2318,7 +2318,7 @@
 </item>
 
 <item>
-<title>Cup000</title>
+<title>Express</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -2326,9 +2326,6 @@
 <page>http://www.eboundservices.com/iframe/new/iframe_hamariweb.php?stream=express&width=472&height=325&clip=express&syndicate=8888</page>
 <agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4</agent>
 </regex>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
 </item>
  
 
