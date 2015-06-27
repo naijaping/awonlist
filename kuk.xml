@@ -2349,7 +2349,7 @@
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>file: "(.*?)"</expres>
+<expres>{file: "(.*?)"</expres>
 <page>http://www.purpleturtle.tv/mfm/webtv/</page>
 <referer></referer>
 </regex>
