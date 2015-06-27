@@ -2344,18 +2344,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Cupilo</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: "(.*?)"</expres>
-<page>http://www.purpleturtle.tv/mfm/webtv/</page>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
-<referer>http://www.purpleturtle.tv/jwplayer/player.swf</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
