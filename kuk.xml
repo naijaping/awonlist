@@ -2359,6 +2359,18 @@
 </item>
 
 
+<item>
+<title>NTA 2</title>
+<link>http://nimplus1.giniko.com/ntatv/ntatvlive.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.eboundservices.com/iframe/new/iframe_hamariweb.php?stream=express&width=472&height=325&clip=express&syndicate=8888</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 </channel>
 
 
