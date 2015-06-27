@@ -2322,7 +2322,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>var videoLink ='(.*?)'</expres>
+<expres>videoLink ='(.*?)'</expres>
 <page>http://www.eboundservices.com/iframe/new/iframe_hamariweb.php?stream=express&width=472&height=325&clip=express&syndicate=8888</page>
 <referer></referer>
 </regex>
