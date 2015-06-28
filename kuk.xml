@@ -2379,7 +2379,6 @@
 </regex>
 <thumbnail></thumbnail>
 </item> 
-<item>
 
 
 <item>
@@ -2388,7 +2387,16 @@
 </item>
 
 
-
+<item>
+<title>GOTV</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://dstvdm_hd1_hds-lh.akamaihd.net/z/SS2_1@27052/manifest.f4m?&amp;hdcore=3.3.0&amp;plugin=aasp-3.3.0.99.43&amp;maxbitrate=1300')<expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item> 
 
 
 
