@@ -2358,7 +2358,7 @@
 </item>
 
 <item>
-<title>Super Sport 2/title>
+<title>Super Sport 2</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
 <name>encodedurl</name>
