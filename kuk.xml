@@ -2375,11 +2375,11 @@
 </item>
 
 <item>
-<title>Super Sport 2/title>
+<title>Super Sport 2</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
 <name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://scache.fptplay.net.vn/livez/vtv9_2500.stream/manifest.f4m?&amp;hdcore=3.3.0&amp;plugin=aasp-3.3.0.99.43')<expres>
+<expres>$pyFunction:urllib.quote_plus('http://scache.fptplay.net.vn/live/z/vtv9_2500.stream/manifest.f4m?')<expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/supersport2.png</thumbnail>
