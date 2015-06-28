@@ -2376,10 +2376,10 @@
 
 <item>
 <title>GeoNew</title>
-<link>$doregex[get-rtmp]</link>
+<link>$doregex[get-link]</link>
 <regex>
-<name>get-rtmp</name>
-<expres>streamer:"(.*?)"<expres>
+<name>get-link</name>
+<expres>'file': '(.*?)'<expres>
 <page>http://www.awooze.com/index.php?view=play&vidtype=2&channel=BenTV</page>
 <referer></referer>
 </regex>
