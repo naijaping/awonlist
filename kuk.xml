@@ -2381,7 +2381,7 @@
 <name>get-link</name>
 <expres>'file': '(.*?)'<expres>
 <page>http://www.awooze.com/index.php?view=play&vidtype=2&channel=BenTV</page>
-<referer></referer>
+<referer>http://www.awooze.com/player.swf</referer>
 </regex>
 </item>
 
