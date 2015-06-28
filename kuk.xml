@@ -2345,18 +2345,18 @@
 </item>
 
 
-
 <item>
-<title>NTA G</title>
-<link>http://nimplus1.giniko.com/ntatv/ntatvlive.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>Cupu</title>
+<link>$doregex[reg1]</link>
 <regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://bit.ly/1LNoGly</page>
-<referer></referer>
+<name>reg1</name>
+<expres>stream = "(.*?)"</expres>
+<page>http://www.malayalamtvhd.biz/2015/05/cartoon-network.html</page>
+<agent></agent>
 </regex>
 <thumbnail></thumbnail>
 </item>
+
 
 
 
