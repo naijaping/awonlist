@@ -2351,6 +2351,12 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Cool TV</title>
+<link>rtmp://westream.we-tv.tv:1935/live/CoolTV_low</link>
+<thumbnail></thumbnail>
+</item>
+
 
 
 
