@@ -2375,8 +2375,8 @@
 </item>
 
 <item>
-<title>GeoNews</title>
-<link>$doregex[get-rtmp] swfUrl=http://www.awooze.com/player.swf pageUrl=http://www.awooze.com/index.php?view=play&vidtype=2&channel=BenTV live=1 timeout=20</link>
+<title>GeoNew</title>
+<link>$doregex[get-rtmp]</link>
 <regex>
 <name>get-rtmp</name>
 <expres>streamer:"(.*?)"<expres>
