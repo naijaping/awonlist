@@ -2374,7 +2374,16 @@
 </regex>
 </item>
 
-
+<item>
+<title>GeoNews</title>
+<link>$doregex[get-rtmp] app=liverepeater playpath=194037 flashVer=WIN\2013.0.0.214 token=deadsoon%%7 swfUrl=http://bernardotv.club/player6.swf pageUrl=http://biggestplayer.me/stream.php?id=194037&width=600&height=430 live=1</link>
+<regex>
+<name>get-rtmp</name>
+<expres>streamer=(.*?)&amp;<expres>
+<page>http://biggestplayer.me/stream.php?id=194037&width=600&height=430</page>
+<referer>http://desistreams.tv/embed/geo_news.php</referer>
+</regex>
+</item>
 
 
 
