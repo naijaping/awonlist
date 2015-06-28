@@ -2350,8 +2350,8 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>stream = "(.*?)"</expres>
-<page>http://www.malayalamtvhd.biz/2015/05/cartoon-network.html</page>
+<expres>file: '(.*?)'</expres>
+<page>http://www.malayalamtvhd.biz/2015/04/live-football-stream.html</page>
 <agent></agent>
 </regex>
 <thumbnail></thumbnail>
