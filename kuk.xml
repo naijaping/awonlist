@@ -2377,9 +2377,13 @@
 
 	
 <item>
-<title>TBu</title>
-<link>http://myafricanmega3.tulix.tv:1935/map-channelstv/map-channelstv.stream/playlist.m3u8</link>
-<thumbnail></thumbnail>
+<title>CBN</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>$pyFunction:urllib.quote_plus('http://bcliveuniv-lh.akamaihd.net/z/iptv1_1@194050/manifest.f4m?videoId=3575741462001&amp;lineUpId=&a mp;pubId=734546207001&amp;playerId=2196082720001&a mp;affiliateId=&amp;g=HPIKKKMDXPMH&amp;hdcore=3.4. 0')</expres>
+<page></page>
+</regex>
 </item>
  
 
