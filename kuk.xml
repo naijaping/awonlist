@@ -2375,13 +2375,13 @@
 </item>
 
 <item>
-<title>GeoNew</title>
-<link>$doregex[get-link]</link>
+<title>GeoNews</title>
+<link>$doregex[get-rtmp] playpath=BenTV app=edge3/BenTV swfUrl=http://www.awooze.com/player.swf live=true flashVer=WIN\16,0,0,257 pageUrl=http://www.awooze.com timeout=15</link>
 <regex>
-<name>get-link</name>
-<expres>'file': '(.*?)'<expres>
+<name>get-rtmp</name>
+<expres>streamer:"(.*?)"<expres>
 <page>http://www.awooze.com/index.php?view=play&vidtype=2&channel=BenTV</page>
-<referer>http://www.awooze.com/player.swf</referer>
+<referer></referer>
 </regex>
 </item>
 
