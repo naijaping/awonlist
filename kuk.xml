@@ -2385,8 +2385,13 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
 </item> 
 <item>
-
-
+	
+<item>
+<title>TBu</title>
+<link>http://myafricanmega3.tulix.tv:1935/map-cineafrik/map-cineafrik/playlist.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tbn_tv_us.png</thumbnail>
+</item>
+ 
 
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
