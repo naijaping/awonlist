@@ -2376,12 +2376,12 @@
 
 <item>
 <title>Africa Magic</title>
-<link>http://live1.greenlie.org:8081/live/bbcone-hq/playlist.m3u8$doregex[get-auth]</link>
+<link>http://live1.greenlie.org:8081/live/foxsports2-hq/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
 <page>http://www.giniko.com/watch.php?id=211</page>
-<agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+<agent></agent>
 <referer></referer>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/africa_magic_world_za.png</thumbnail>
