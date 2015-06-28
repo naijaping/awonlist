@@ -2362,7 +2362,7 @@
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
 <name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://dstvdm_hd1_hds-lh.akamaihd.net/z/SS3_1@27052/manifest.f4m?&amp;hdcore=3.3.0&amp;plugin=aasp-3.3.0.99.43')<expres>
+<expres>$pyFunction:urllib.quote_plus('http://dstvdm_hd1_hds-lh.akamaihd.net/z/SS3_1@27053/manifest.f4m?&amp;hdcore=3.3.0&amp;plugin=aasp-3.3.0.99.43')<expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/supersport2.png</thumbnail>
