@@ -2374,6 +2374,17 @@
 </regex>
 </item>
 
+<item>
+<title>GOD TV</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://hdliveextra-vh.akamaihd.net/z/HD/video_sports/NBCU_Sports_Group_-_nbcsports/500/919/2015-04-12T06-34-27.733Z--54.7,__712798,__113641,__414430,,.mp4.csmil/manifest.f4m?hdcore=3.1&amp;b=0-4000')<expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
+</item> 
+<item>
 
 
 
