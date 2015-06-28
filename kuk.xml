@@ -2369,7 +2369,17 @@
 <link>http://46.61.226.18/hls/CH_FUTBALL3HD/bw3000000/variant.m3u8</link>
 </item>
 
-
+<item>
+<title>GOD TV</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://dstvdm_hd1_hds-lh.akamaihd.net/z/SS2_1@27052/manifest.f4m?&amp;hdcore=3.3.0&amp;plugin=aasp-3.3.0.99.43')<expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
+</item> 
+<item>
 
 
 </channel>
