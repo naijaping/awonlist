@@ -2273,7 +2273,7 @@
 
 <item>
 <title>Fox SportsDevil</title>
-<sportsdevil>http://fancystreams.com/tom-and-jerry-cartoon.php</sportsdevil>
+<sportsdevil>http://www.malayalamtvhd.biz/2015/06/copa-america-2015.html?m=0</sportsdevil>
 <referer>http://www.canlitvlive.com/</referer>
 </item>
 
@@ -2345,17 +2345,7 @@
 </item>
 
 
-<item>
-<title>Cupu</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.malayalamtvhd.biz/2015/04/live-football-stream.html</page>
-<agent></agent>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
