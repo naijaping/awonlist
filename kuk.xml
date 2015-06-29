@@ -2392,6 +2392,84 @@
 <link>rtmp://westream.we-tv.tv:1935/live/_definst_/mp4:CoolTV</link>
 </item>
  
+ 
+ 
+ 
+ <item>
+<title>New oneplay no captcha</title>
+<link>$doregex[finalurl]|Cookie=$get_cookies$&amp;Referer=http://p.jwpcdn.com/6/12/jwplayer.flash.swf&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</link>
+<regex>
+	<name>finalurl</name>
+	<expres>file: "(.*?)"</expres>
+	<page>http://oneplay.tv/embed/embed.php?s=$doregex[url]</page>
+	<referer>http://oneplay.tv/embed/</referer>
+	<cookieJar></cookieJar>
+</regex>
+<regex>
+	<name>url</name>
+	<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
+	<page></page>
+</regex>
+<regex>
+	<name>jsonurl</name>
+	<expres>(http.*?)"</expres>
+	<page>http://oneplay.tv/embed/chp</page>
+	<rawpost>type=chp&amp;action=SELF&amp;channelID=88&amp;w=100%25&amp;h=480</rawpost>
+	<referer>http://oneplay.tv/embed/</referer>
+	<cookieJar>$doregex[cookie]</cookieJar>
+</regex>
+<regex>
+	<name>cookie</name>
+	<expres></expres>
+	<page>$doregex[iframe]</page>
+	<referer>http://oneplay.tv</referer>
+	<cookieJar></cookieJar>
+</regex>
+<regex>
+	<name>iframe</name>
+	<expres>embed.*?iframe src="(.*?)"</expres>
+	<page>http://oneplay.tv/ver/canal/94/vh1</page>
+	<cookiejar></cookiejar>
+</regex>	
+</item>
+
+<item>
+<title>Cinecanal</title>
+<link>$doregex[finalurl]|Cookie=$get_cookies$&amp;Referer=http://p.jwpcdn.com/6/12/jwplayer.flash.swf&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</link>
+<regex>
+	<name>finalurl</name>
+	<expres>file: "(.*?)"</expres>
+	<page>http://oneplay.tv/embed/embed.php?s=$doregex[url]</page>
+	<referer>http://oneplay.tv/embed/</referer>
+	<cookieJar></cookieJar>
+</regex>
+<regex>
+	<name>url</name>
+	<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
+	<page></page>
+</regex>
+<regex>
+	<name>jsonurl</name>
+	<expres>(http.*?)"</expres>
+	<page>http://oneplay.tv/embed/chp</page>
+	<rawpost>type=chp&amp;action=SELF&amp;channelID=88&amp;w=100%25&amp;h=480</rawpost>
+	<referer>http://oneplay.tv/embed/</referer>
+	<cookieJar>$doregex[cookie]</cookieJar>
+</regex>
+<regex>
+	<name>cookie</name>
+	<expres></expres>
+	<page>$doregex[iframe]</page>
+	<referer>http://oneplay.tv</referer>
+	<cookieJar></cookieJar>
+</regex>
+<regex>
+	<name>iframe</name>
+	<expres>embed.*?iframe src="(.*?)"</expres>
+	<page>http://oneplay.tv/ver/canal/94/vh1</page>
+	<cookiejar></cookiejar>
+</regex>	
+</item>
 
  
  
