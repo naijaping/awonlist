@@ -2383,11 +2383,11 @@
  
  
 <item>
-<title>Wazo</title>
-<link>$doregex[reg1]</link>
+<title>Wazoo</title>
+<link>$doregex[url]</link>
 <regex>
-<name>reg1</name>
-<expres>file: "(.*?)"</expres>
+<name>url</name>
+<expres>file: '(.*?)'</expres>
 <page>http://wazobiatv.tv/live/</page>
 <referer></referer>
 </regex>
