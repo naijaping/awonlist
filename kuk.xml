@@ -2385,6 +2385,8 @@
 <item>
 <title>Salam</title>
 <link>http://ak.live.hls.c4assets.com/hls/c4/master.m3u8</link>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+<referer>http://www.channel4.com/now/c4</referer>
 <thumbnail></thumbnail>
 </item>
  
