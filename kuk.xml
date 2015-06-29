@@ -2382,7 +2382,17 @@
 </item>
  
  
-
+<item>
+<title>Ghana TV</title>
+<link>$doregex[m3u8]</link>
+<regex>
+<name>m3u8</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.cooltv.cool/live/</page>
+<agent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36</agent>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/ghana_tv.png</thumbnail>
+</item>
  
 
 
