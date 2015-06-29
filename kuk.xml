@@ -2381,7 +2381,10 @@
 <link>rtmp://cdnvideo.webvideocore.net:1935/livenl playpath=out_arwob65kemo84wk0skoc swfUrl=http://play.webvideocore.net/player3.swf live=1 pageUrl=http://www.africawebtv.com/tv/nig/katv.html</link>
 </item>
  
- 
+ <item>
+<title>Wazobiatv</title>
+<link>rtmp://westream.we-tv.tv:1935/live/_definst_/mp4:WazobiaTV</link>
+</item>
 
  
 
