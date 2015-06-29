@@ -2414,7 +2414,7 @@
 	<name>jsonurl</name>
 	<expres>(http.*?)"</expres>
 	<page>http://oneplay.tv/embed/chp</page>
-	<rawpost>type=chp&amp;action=SELF&amp;channelID=88&amp;w=100%25&amp;h=480</rawpost>
+	<rawpost>type=chp&amp;action=SELF&amp;channelID=44&amp;w=100%25&amp;h=480</rawpost>
 	<referer>http://oneplay.tv/embed/</referer>
 	<cookieJar>$doregex[cookie]</cookieJar>
 </regex>
@@ -2452,7 +2452,7 @@
 	<name>jsonurl</name>
 	<expres>(http.*?)"</expres>
 	<page>http://oneplay.tv/embed/chp</page>
-	<rawpost>type=chp&amp;action=SELF&amp;channelID=88&amp;w=100%25&amp;h=480</rawpost>
+	<rawpost>type=chp&amp;action=SELF&amp;channelID=44&amp;w=100%25&amp;h=480</rawpost>
 	<referer>http://oneplay.tv/embed/</referer>
 	<cookieJar>$doregex[cookie]</cookieJar>
 </regex>
