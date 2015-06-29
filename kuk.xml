@@ -2383,17 +2383,17 @@
  
  
 <item>
-<title>Wazoo</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: '(.*?)'</expres>
-<page>http://wazobiatv.tv/live/</page>
-<referer></referer>
-</regex>
+<title>Wazo</title>
+<link>http://westream.we-tv.tv:1935/live/smil:WazobiaTV.smil/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
  
+ 
+ <item>
+<title>Cool</title>
+<link>http://westream.we-tv.tv:1935/live/smil:CoolTV.smil/playlist.m3u8</link>
+<thumbnail></thumbnail>
+</item>
  
  
 
