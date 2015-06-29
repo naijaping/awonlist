@@ -2399,7 +2399,7 @@
 <title>Adom TV Ghana</title>
 <link>$doregex[reg1]</link>
 <regex><name>reg1</name>
-<expres>file: "([^']+)</expres>
+<expres>file: "([^"]+)</expres>
 <page>http://wazobiatv.tv/live/</page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/adom_tv_gh.png</thumbnail>
