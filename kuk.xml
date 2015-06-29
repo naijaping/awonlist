@@ -2381,20 +2381,32 @@
 <link>rtmp://cdnvideo.webvideocore.net:1935/livenl playpath=out_arwob65kemo84wk0skoc swfUrl=http://play.webvideocore.net/player3.swf live=1 pageUrl=http://www.africawebtv.com/tv/nig/katv.html</link>
 </item>
  
-<item>
-<title>Kaaba and Masjid Al-Haram</title>
+ 
+ <item>
+<title>Kaaba Live</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
 <page></page>
 </regex>
 <regex>
 <name>jsonurl</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=Yu2lmo3TrfY</page>
+<expres>"hlsvp":"(.*?)"</expres>
+<page>https://www.youtube.com/watch?v=$doregex[get-page]</page>
+<referer></referer>
 </regex>
+<regex>
+<name>get-page</name>
+<expres>data-context-item-id="([^"]+)</expres>
+<page>https://www.youtube.com/channel/UCos52azQNBgW63_9uDJoPDA</page>
+</regex>
+<thumbnail></thumbnail>
 </item>
+ 
+ 
+ 
+
  
  
 
