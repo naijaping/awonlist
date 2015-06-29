@@ -2382,8 +2382,8 @@
 </item>
  
  
- <item>
-<title>Kaaba Live</title>
+<item>
+<title>Kaaba Live 1</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -2399,7 +2399,7 @@
 <regex>
 <name>get-page</name>
 <expres>data-context-item-id="([^"]+)</expres>
-<page>https://www.youtube.com/channel/UCos52azQNBgW63_9uDJoPDA</page>
+<page>https://www.youtube.com/watch?v=Yu2lmo3TrfY</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
