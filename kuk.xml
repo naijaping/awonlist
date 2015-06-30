@@ -2451,7 +2451,7 @@
 <regex>
 <name>rtmp</name>
 <expres>file: '(.*?)'<expres>
-<page>http://miplayer.net/embed.php?id=itv111505</page>
+<page>http://miplayer.net/embedplayer.php?id=itv111505</page>
 <referer>http://usachannels.tv/</referer>
 </regex>
 <thumbnail></thumbnail>
