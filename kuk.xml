@@ -2439,6 +2439,16 @@
 <referer>http://www.tvone1.com</referer>
 </item> 
  
+ <item><title>lshunter.tv</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/lshunter.tv.cfg&amp;mode=1</jsonrpc>
+<thumbnail></thumbnail>
+</item>
+<item><title>cricket</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=tv/cricket.cfg&amp;mode=1</jsonrpc>
+<thumbnail>http://www.etcbb.com/wp-content/uploads/2015/01/cup-match1.jpg</thumbnail>
+</item>
  
  
 
