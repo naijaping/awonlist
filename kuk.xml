@@ -2446,13 +2446,13 @@
 </item>
  
 <item>
-<title>Film3</title>
-<link>$doregex[reg1]</link>
+<title>IBrod TV</title>
+<link>$doregex[rtmp] swfUrl=http://cdn.miplayer.net/player/jwplayer.flash.swf token=OOG17t.x#K9Vh#| pageUrl=http://miplayer.net live=1 timeout=15</link>
 <regex>
-<name>reg1</name>
-<expres>file:"(.*?)"</expres>
-<page>http://thevideos.tv/embed-oagqjvyba96d-728x410.html</page>
-<referer></referer>
+<name>rtmp</name>
+<expres>file: '(.*?)'<expres>
+<page>http://miplayer.net/embed.php?id=itv111505</page>
+<referer>http://usachannels.tv/itv1_live.php</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
