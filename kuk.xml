@@ -2445,7 +2445,17 @@
 <referer>http://www.tvone1.com</referer>
 </item>
  
- 
+<item>
+<title>Film3</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file:"(.*?)"</expres>
+<page>http://thevideos.tv/embed-oagqjvyba96d-728x410.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
  
 
  
