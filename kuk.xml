@@ -2457,10 +2457,13 @@
 <thumbnail></thumbnail>
 </item>
  
-
+<item>
+<title>Baby</title>
+<link>http:// 212.193.149.65/hls/CH_BABYTV/bw1500000.variant.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tbn_tv_us.png</thumbnail>
+</item>
  
  
-
 
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
