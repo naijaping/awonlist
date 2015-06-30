@@ -2445,7 +2445,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file:"(.*?)"</expres>
+<expres>{ file:"(.*?)"</expres>
 <page>http://thevideos.tv/embed-oagqjvyba96d-728x410.html</page>
 <referer></referer>
 </regex>
