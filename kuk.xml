@@ -2435,9 +2435,16 @@
 
 <item>
 <title>SportsDevil</title>
-<sportsdevil>http://www.tvone1.com/disney-channel//</sportsdevil>
+<sportsdevil>http://www.tvone1.com/disney-channel/</sportsdevil>
 <referer>http://www.tvone1.com</referer>
 </item> 
+ 
+ <item>
+<title>SportsDevil3</title>
+<sportsdevil>http://www.tvone1.com/e-entertainement/</sportsdevil>
+<referer>http://www.tvone1.com</referer>
+</item>
+ 
  
  
 
