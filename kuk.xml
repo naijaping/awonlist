@@ -2453,12 +2453,7 @@
 </item>
  
  
-<item> LINK=http://www.wesalurdu.tv/
-<title>WESAL URDU</title>
-<link>rtmp://188.40.138.23/live/ playpath=wesu_lq?gcd=wesalurdu.tv&e=1435517600&st=-7IoMDU3a6uaDAKDlSUsXA swfUrl=http://pwlstation.com/jwplayer/player.swf pageUrl=http://www.wesalurdu.tv/
-</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ww/wesal_tv_urdu.png</thumbnail>
-</item>
+
 
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
