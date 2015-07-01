@@ -2484,9 +2484,9 @@
 
 <item>
 <title>Seinfeld</title>
-<link>$doregex[file]</link>
+<link>$doregex[reg1]</link>
 <regex>
-<name>file</name>
+<name>reg1</name>
 <expres>source src="(.*?)"</expres>
 <page>https://arconaitv.me/seinfeld/</page>
 </regex>
