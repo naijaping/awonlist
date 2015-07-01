@@ -2475,7 +2475,7 @@
 <regex>
 <name>get-url</name>
 <expres>"src":"(.*?)"<expres>
-<page>http://admin.ohtvbox.com/od-videos.json?dataUrls=false&page=3</page>
+<page>http://admin.ohtvbox.com//od-videos/989.json</page>
 <referer>http://admin.ohtvbox.com</referer>
 </regex>
 <thumbnail></thumbnail>
