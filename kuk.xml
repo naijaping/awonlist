@@ -2234,6 +2234,12 @@
 
 
 <item>
+<title>MUMUNI 7</title>
+<link>http://pvr.tvip.ga/0236.m3u8|X-Forwarded-For=85.5.87.218</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
 <title>MUMUNI 8</title>
 <link>http://pvr.tvip.ga/0406.m3u8|X-Forwarded-For=85.5.87.218</link>
 <thumbnail></thumbnail>
@@ -2265,19 +2271,6 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
-
-<item>
-<title>Fox SportsDevil</title>
-<sportsdevil>http://www.malayalamtvhd.biz/2015/06/copa-america-2015.html?m=0</sportsdevil>
-<referer>http://www.canlitvlive.com/</referer>
-</item>
-
-<item>
-<title>T0ooohk</title>
-<link>http://myafricanmega3.tulix.tv:1935/map-wordnet/map-wordnet/playlist.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
 
 <item>
 <title>VOX HD</title>
