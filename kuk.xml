@@ -2463,7 +2463,17 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>juiiii</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file":"(.*?)"</expres>
+<page>http://www.dittotv.com/livetv/kashi-vishwanath-temple</page>
+<referer>http://www.dittotv.com</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
