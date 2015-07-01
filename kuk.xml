@@ -2446,7 +2446,22 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/baby_tv_asia.png</thumbnail>
 </item>
 
-
+<item>
+<title>zee-phhp</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('\u0026','&')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-url</name>
+<expres>file":"(.*?)"<expres>
+<page>http://www.dittotv.com/livetv/zee-phhp</page>
+<referer>http://www.dittotv.com</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
