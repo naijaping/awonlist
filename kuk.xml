@@ -2482,7 +2482,16 @@
 </item>
 
 
-
+<item>
+<title>Seinfeld</title>
+<link>$doregex[file]</link>
+<regex>
+<name>file</name>
+<expres>source src="(.*?)"</expres>
+<page>https://arconaitv.me/seinfeld/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 <channel>
