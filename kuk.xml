@@ -2481,7 +2481,22 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Videoweed</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>url=(.*?)&amp;</expres>
+<page>http://www.videoweed.es/api/player.api.php?file=1cd85f1eb8571&amp;key=$doregex[id]</page>
+<referer>http://www.videoweed.es</referer>	
+</regex>
+<regex>
+<name>id</name>
+<expres>fkz="(.*?)"</expres>
+<page>http://embed.videoweed.es/embed.php?v=1cd85f1eb8571</page>
+<referer>http://www.videoweed.es</referer>	
+</regex>
+</item>
 
 
 
