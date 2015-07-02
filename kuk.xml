@@ -2484,7 +2484,21 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Top Gear</title>
+<link>rtmp://$doregex[rtmpip]/app/$doregex[channelSlug] swfUrl=https://streamup.com/assets/StreamupVideoChat.swf pageUrl=https://streamup.com live=1 timeout=15</link>
+<regex>
+<name>rtmpip</name>
+<expres>(.*)</expres>
+<page>https://streamup-lancer.herokuapp.com/api/redirect/$doregex[channelSlug]</page> 
+</regex>
+<regex>
+<name>channelSlug</name>
+<expres>streamup.com\/rooms\/(.*?)\/</expres>
+<page>https://streamup.com/TempoTV</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
