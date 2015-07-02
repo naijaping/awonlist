@@ -2482,15 +2482,14 @@
 </item>
 
 
-<item>
-<title>Seinfeld</title>
-<link>$doregex[reg1]</link>
+<title>calle13</title>
+<link>$doregex[get-rtmp] playpath=calle13 swfUrl=http://tutelehd.com/player.swf token=0fea41113b03061a pageUrl=http://tutelehd.com/embed/embed.php?channel=calle13&amp;w=670&amp;h=400/ live=true timeout=20</link>
 <regex>
-<name>reg1</name>
-<expres>source src="(.*?)"</expres>
-<page>https://arconaitv.me/seinfeld/</page>
+<name>get-rtmp</name>
+<expres>streamer', '(.*)'</expres>
+<page>http://tutelehd.com/embed/embed.php?channel=calle13&amp;w=670&amp;h=400</page>
+<referer>http://pontucanal.net/player.php?c=calle13&amp;w=670&amp;h=400</referer>
 </regex>
-<thumbnail></thumbnail>
 </item>
 
 
