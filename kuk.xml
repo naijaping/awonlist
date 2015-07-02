@@ -2485,7 +2485,7 @@
 </item>
 
 <item>
-<title>Top Gear</title>
+<title>Tempo</title>
 <link>rtmp://$doregex[rtmpip]/app/$doregex[channelSlug] swfUrl=https://streamup.com/assets/StreamupVideoChat.swf pageUrl=https://streamup.com live=1 timeout=15</link>
 <regex>
 <name>rtmpip</name>
@@ -2500,7 +2500,17 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>mup</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>SRC="(.*?)"</expres>
+<page>http://privatestream.tv/streamsp.js?width=640&height=480</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
