@@ -2466,6 +2466,18 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>W0000</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://live.net.sa/live/af/index.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 
