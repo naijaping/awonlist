@@ -2453,19 +2453,6 @@
 </regex>
 </item>
 
-
-<item>
-<title>Willuu</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.africawebtv.com/tv-africa-ghana/</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 <item>
 <title>W0000</title>
 <link>$doregex[reg1]</link>
@@ -2478,10 +2465,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Cokk</title>
-<link>http://tutelehd.com/embed/embed.php?channel=Hollywood&w=670&h=400</link>
-</item>
+
 
 
 
