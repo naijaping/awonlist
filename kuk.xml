@@ -2484,7 +2484,22 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Vidto</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>360p",file:"(.*?)"</expres>
+<page>$doregex[get-unpacked]</page>
+</regex>
+<regex>
+<name>get-unpacked</name>
+<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+<page>http://vidto.me/embed-4gp3sipn4jyv-640x360.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
