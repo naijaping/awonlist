@@ -2481,7 +2481,7 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
 <title>calle13</title>
 <link>$doregex[get-rtmp] playpath=calle13 swfUrl=http://tutelehd.com/player.swf token=0fea41113b03061a pageUrl=http://tutelehd.com/embed/embed.php?channel=calle13&amp;w=670&amp;h=400/ live=true timeout=20</link>
 <regex>
