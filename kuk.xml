@@ -2455,13 +2455,13 @@
 
 
 <item>
-<title>Cup00</title>
-<link>$doregex[url]</link>
+<title>Cupid</title>
+<link>$doregex[get-rtmp] playpath=InformationTV swfUrl=http://www.awooze.com/player.swf pageUrl=http://www.awooze.com/index.php?view=play&vidtype=2&channel=InformationTV live=true timeout=15</link>
 <regex>
-<name>url</name>
-<expres>'file': '(.*?)'</expres>
+<name>get-rtmp</name>
+<expres>streamer:"(.*)"</expres>
 <page>http://www.awooze.com/index.php?view=play&vidtype=2&channel=InformationTV</page>
-<agent></agent>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
