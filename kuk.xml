@@ -2449,7 +2449,7 @@
 <name>get-rtmp</name>
 <expres>streamer', '(.*)'</expres>
 <page>http://tutelehd.com/embed/embed.php?channel=Hollywood&w=670&h=400</page>
-<referer>http://pontucanal.net</referer>
+<referer>http://pontucanal.net/player.php?c=hollywood&w=670&h=400</referer>
 </regex>
 </item>
 
