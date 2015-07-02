@@ -2114,7 +2114,7 @@
 
 <item>
 <title>tv2</title>
-<link>http://itv2liveandroid-i.akamaihd.net/hls/live/itvlive/android/AndroidMain1200k.m3u8 </link>
+<link>http://itv2liveandroid-i.akamaihd.net/hls/live/itvlive/android/AndroidMain_1200k.m3u8 </link>
 <thumbnail></thumbnail>
 </item>
 
@@ -2131,51 +2131,8 @@
 </item>
 
 <item>
-<title>mumu</title>
-<link>http://78.56.73.169:4022/udp/239.2.3.114:1234</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>mumu geo wild</title>
-<link>http://78.30.254.43:8989/udp/239.0.0.51:4000</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Arise News</title>
-<link>http://78.30.254.43:8989/udp/239.0.0.196:4000</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Cbs Reality</title>
-<link>http://78.30.254.43:8989/udp/239.0.0.91:4000</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>discovery</title>
-<link>http://78.30.254.43:8989/udp/239.0.0.47:4000</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Niclo</title>
-<link>http://78.30.254.43:8989/udp/239.0.0.86:4000</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>Natgeo wild hd</title>
 <link>http://78.30.254.43:8989/udp/239.0.0.168:4000</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Niclo HD</title>
-<link>http://78.30.254.43:8989/udp/239.0.0.124:4000</link>
 <thumbnail></thumbnail>
 </item>
 
@@ -2402,12 +2359,6 @@
 </item>
  
 <item>
-<title>Boom</title>
-<link>http://tinyurl.com/hack-sat-com-OSN-Sports-2-HD</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/baby_tv_asia.png</thumbnail>
-</item>
-
-<item>
 <title>zee-phhp</title>
 <link>$doregex[url]</link>
 <regex>
@@ -2454,19 +2405,6 @@
 </item>
 
 <item>
-<title>W0000</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>file: "(.*?)"</expres>
-<page>http://live.net.sa/live/af/index.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
 <title>Seinfeld</title>
 <link>$doregex[file]</link>
 <regex>
@@ -2484,33 +2422,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Tempo</title>
-<link>rtmp://$doregex[rtmpip]/app/$doregex[channelSlug] swfUrl=https://streamup.com/assets/StreamupVideoChat.swf pageUrl=https://streamup.com live=1 timeout=15</link>
-<regex>
-<name>rtmpip</name>
-<expres>(.*)</expres>
-<page>https://streamup-lancer.herokuapp.com/api/redirect/$doregex[channelSlug]</page> 
-</regex>
-<regex>
-<name>channelSlug</name>
-<expres>streamup.com\/rooms\/(.*?)\/</expres>
-<page>https://streamup.com/TempoTV</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
-<item>
-<title>mup</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>SRC="(.*?)"</expres>
-<page>http://privatestream.tv/streamsp.js?width=640&height=480</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
