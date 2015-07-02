@@ -2454,7 +2454,17 @@
 </item>
 
 
-
+<item>
+<title>Willuu</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.africawebtv.com/tv-africa-ghana/</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
