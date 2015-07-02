@@ -2459,7 +2459,7 @@
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>file: &quot;(.*?)&quot;,</expres>
+<expres>{ file: &quot;(.*?)&quot;,</expres>
 <page>http://www.awooze.com/index.php?view=play&vidtype=2&channel=InformationTV</page>
 <referer></referer>
 </regex>
