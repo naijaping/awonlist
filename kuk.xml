@@ -2456,12 +2456,12 @@
 
 <item>
 <title>Cup00</title>
-<link>$doregex[reg1]</link>
+<link>$doregex[url]</link>
 <regex>
-<name>reg1</name>
+<name>url</name>
 <expres>'file': '(.*?)'</expres>
 <page>http://www.awooze.com/index.php?view=play&vidtype=2&channel=InformationTV</page>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+<agent></agent>
 </regex>
 <thumbnail></thumbnail>
 </item>
