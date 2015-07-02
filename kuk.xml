@@ -2459,7 +2459,7 @@
 <link>$doregex[get-rtmp] playpath=InformationTV app=edge3/InformationTV swfUrl=http://www.awooze.com/player.swf pageUrl=http://www.awooze.com live=true flashVer=WIN\16,0,0,257 timeout=15</link>
 <regex>
 <name>get-rtmp</name>
-<expres>streamer:"(.*?)"</expres>
+<expres>streamer:"(.*)"</expres>
 <page>http://www.awooze.com/index.php?view=play&vidtype=2&channel=InformationTV</page>
 <referer></referer>
 </regex>
