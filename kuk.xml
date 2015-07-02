@@ -2493,6 +2493,19 @@
 </item>
 
 
+<item>
+<title>AY</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file:"(.*?)"</expres>
+<page>http://thevideos.tv/embed-jrxtizcd7195-728x410.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
 <link>http://ignoreme</link>
