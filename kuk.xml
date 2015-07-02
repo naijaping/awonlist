@@ -2494,13 +2494,13 @@
 
 
 <item>
-<title>AYO</title>
+<title>AYO Atlanta</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>,{file:"(.*?)"</expres>
 <page>http://thevideos.tv/embed-jrxtizcd7195-728x410.html</page>
-<referer></referer>
+<referer>http://putlocker.is/watch-30-days-in-atlanta-online-free-putlocker.html</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
