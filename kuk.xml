@@ -2394,7 +2394,7 @@
 </item>
 
 <item>
-<title>Hollywood</title>
+<title>Hollywoode</title>
 <link>$doregex[rtmp] playpath=Hollywood token=$doregex[tok] flashVer=WIN\18,0,0,194 swfVfy=1 swfUrl=http://tutelehd.com/player.swf pageUrl=http://tutelehd.com live=1 timeout=20</link>
 <regex>
 <name>rtmp</name>
