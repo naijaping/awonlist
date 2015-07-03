@@ -2395,12 +2395,18 @@
 
 <item>
 <title>Hollywood</title>
-<link>$doregex[get-rtmp] playpath=Hollywood swfUrl=http://tutelehd.com/player.swf token=0fea41113b03061a pageUrl=http://tutelehd.com/embed/embed.php?channel=Hollywood&w=670&h=400 live=true timeout=20</link>
+<link>$doregex[rtmp] playpath=Hollywood token=$doregex[tok] flashVer=WIN\18,0,0,194 swfVfy=1 swfUrl=http://tutelehd.com/player.swf pageUrl=http://tutelehd.com live=1 timeout=20</link>
 <regex>
-<name>get-rtmp</name>
-<expres>streamer', '(.*?)'</expres>
-<page>http://tutelehd.com/embed/embed.php?channel=Hollywood&w=670&h=400</page>
-<referer>http://pontucanal.net/player.php?c=hollywood&w=670&h=400</referer>
+<name>rtmp</name>
+<expres>streamer', '(.*)'</expres>
+<page>http://tutelehd.com/embed/embed.php?channel=Hollywood</page>
+<referer>http://tutelehd.com</referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>token', '(.*?)'</expres>
+<page>http://tutelehd.com/embed/embed.php?channel=Hollywood</page>
+<referer>http://tutelehd.com</referer>
 </regex>
 </item>
 
