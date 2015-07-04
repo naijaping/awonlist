@@ -2433,7 +2433,7 @@
 <link>http://31.220.40.116:80/LiveEdge/eEntUS/chunklist_w1306502634_b1000000.m3u8?token=$doregex[tok]</link>
 <regex>
 <name>tok</name>
-<expres>token=(.*?)</expres>
+<expres>token=(.*?)'</expres>
 <page>http://31.220.40.116</page>
 </regex>
 </item>
