@@ -2469,9 +2469,9 @@
 </item>
 
 <title>tuko</title>
-<link>$doregex[url]/link>
+<link>$doregex[reg1]/link>
 <regex>
-<name>url</name>
+<name>reg1</name>
 <expres>var hlsURL = '(.*?)'</expres>
 <page>http://acanlinks.com/secureplayer/player.php?ch=rtssecure1.stream_HD</page>
 </regex>
