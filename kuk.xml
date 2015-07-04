@@ -2473,7 +2473,7 @@
 <link>$doregex[reg1]link>
 <regex>
 <name>reg1</name>
-<expres>var hlsURL = '(.*?)'</expres>
+<expres>hlsURL = '(.*?)'</expres>
 <page>http://acanlinks.com/secureplayer/player.php?ch=rtssecure1.stream_HD</page>
 </regex>
 </item>
