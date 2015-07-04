@@ -2484,14 +2484,14 @@
 <regex>
 <name>get-url</name>
 <expres>(http.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://www.uswebproxy.com/browse.php?u=$doregex[url-quote]&b=4&f=norefer').read()</page>
-<referer>http://www.uswebproxy.com/browse.php?u=http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ait&amp;type=live&amp;service=wowza&amp;output=player</referer>
+<page>$pyFunction:urllib.urlopen('http://www.uswebproxy.com/browse.php?u=$doregex[url-quote]&amp;b=4&amp;f=norefer').read()</page>
+<referer>http://www.uswebproxy.com/browse.php?u=http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ait_3&amp;type=live&amp;service=wowza&amp;output=player</referer>
 <cookieJar></cookieJar>
 <agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
 </regex>
 <regex>
 <name>url-quote</name>
-<expres>$pyFunction:urllib.quote('http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ait&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp')</expres>
+<expres>$pyFunction:urllib.quote('http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ait_3&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp')</expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/ait_international.png</thumbnail>
