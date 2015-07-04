@@ -2469,10 +2469,15 @@
 </item>
 
 <item>
-<title>kobod</title>
-<link>http://31.220.40.100:80/LiveEdge/FoxSports1HD/chunklist_w231183099_b1000000.m3u8?token=3f5173559eb52f82aa04b441d3795aa1</link>
+<title>KRAL POP</title>
+<link>http://mn-l.mncdn.com/kralpop_live/kralpop1/playlist.m3u8?token=$doregex[tok]</link>
+<regex>
+<name>tok</name>
+<expres>token=(.*?)'</expres>
+<page>http://www.tvyo.com/canli-tv/kral-pop-tv</page>
+</regex>
+<thumbnail></thumbnail>
 </item>
-
 
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
