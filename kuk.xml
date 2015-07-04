@@ -2468,7 +2468,7 @@
 <link>http://80.80.160.168/live/9/live.m3u8</link>
 </item>
 
-<title> RTS1</title>
+<title>tuko</title>
 <link>$doregex[url]/link>
 <regex>
 <name>url</name>
