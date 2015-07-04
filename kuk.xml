@@ -2470,12 +2470,7 @@
 
 <item>
 <title>tuko</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>var hlsURL = '(.*?)'</expres>
-<page>http://acanlinks.com/secureplayer/player.php?ch=rtssecure1.stream_HD</page>
-</regex>
+<link>http://pebbles108-lh.akamaihd.net/i/vox_1@97466/index_900_av-p.m3u8|X-Forwarded-For=195.186.136.21</link>
 </item>
 
 <channel>
