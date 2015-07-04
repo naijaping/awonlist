@@ -2470,12 +2470,7 @@
 
 <item>
 <title>KRAL POP</title>
-<link>http://mn-l.mncdn.com/kralpop_live/kralpop1/playlist.m3u8?token=$doregex[tok]</link>
-<regex>
-<name>tok</name>
-<expres>token=(.*?)'</expres>
-<page>http://www.tvyo.com/canli-tv/kral-pop-tv</page>
-</regex>
+<link>http://kurehdlivesp-lh.akamaihd.net/i/kureSTVSP_1@50491/index_270_av-b.m3u8?sd=10&rebase=on</link>
 <thumbnail></thumbnail>
 </item>
 
