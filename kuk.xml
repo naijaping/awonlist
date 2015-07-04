@@ -2468,15 +2468,13 @@
 <link>http://80.80.160.168/live/9/live.m3u8</link>
 </item>
 
-<item>
-<title>Avrupa TV</title>
-<link>$doregex[url]</link>
+<title> RTS1</title>
+<link>$doregex[url]/link>
 <regex>
 <name>url</name>
-<expres>file: '(.*m3u8.*?)'</expres>
-<page>http://www.kure.tv/kanallar/samanyolu-avrupa-tv/canli-yayin</page>
+<expres>var hlsURL = '(.*?)'</expres>
+<page>http://acanlinks.com/secureplayer/player.php?ch=rtssecure1.stream_HD</page>
 </regex>
-<thumbnail></thumbnail>
 </item>
 
 <channel>
