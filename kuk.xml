@@ -2470,7 +2470,7 @@
 
 <item>
 <title>tuko</title>
-<link>$doregex[reg1]link>
+<link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>hlsURL = '(.*?)'</expres>
