@@ -2484,7 +2484,7 @@
 <regex>
 <name>get-url</name>
 <expres>(http.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://proxyusa.org/browse.php?u=$doregex[url-quote]&amp;?gtnjs=1&amp;b=28').read()</page>
+<page>$pyFunction:urllib.urlopen('http://proxyusa.org/browse.php?u=$doregex[url-quote]//?gtnjs=1&amp;b=28').read()</page>
 <referer>http://proxyusa.org/browse.php?u=http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ait_3&amp;type=live&amp;service=wowza&amp;output=player</referer>
 <cookieJar></cookieJar>
 <agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
