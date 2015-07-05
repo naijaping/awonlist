@@ -2482,13 +2482,8 @@
 
 
 <item>
-<title>Eurosport  </title>
-<link>$doregex[getVipRacing]</link>
-<regex>
-<name>getVipRacing</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/eurosport-2/frame')</expres>
-<page></page>
-</regex>
+<title>Europut  </title>
+<link>http://pebbles110-lh.akamaihd.net/i/sf1_1@97474/master.m3u8|X-Forwarded-For=85.5.87.218</link>
 </item>
  
 
