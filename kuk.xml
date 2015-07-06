@@ -2492,7 +2492,7 @@
 <regex>
 <name>path</name>
 <expres>src="(.*)"</expres>
-<page>http://rrr.sz.xlcdn.com.prx2.unblocksit.es/?account=Un1ty&file=ait_3&type=live&service=wowza&output=player</page>
+<page>http://rrr.sz.xlcdn.com.prx2.unblocksit.es/?account=Un1ty&file=ait_3&type=live&service=wowza&output=smil</page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hip_tv_ng.png</thumbnail>
 </item>
