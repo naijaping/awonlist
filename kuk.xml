@@ -2472,11 +2472,7 @@
 
 <item>
 <title>Bein Ñ - VipRacing </title>
-<link>$doregex[getVipRacing]</link>
-<regex>
-<name>getVipRacing</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/espnusa/frame')</expres>
-<page></page>
+<link>http://pebbles124-lh.akamaihd.net/i/itv1_1@137791/master.m3u8|X-Forwarded-For=195.186.145.47</link>
 </regex>
 </item>
 
