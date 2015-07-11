@@ -2471,10 +2471,15 @@
 
 
 <item>
-<title>KUT1080p</title>
-<link>http://nlds208.cdnak.neulion.com/nlds/univision/as/live/udn_hd_3000/20150711/07/1708.mp4?nltid=univisiondeportes&nltdt=0|X-Forwarded-For=66.171.228.102</link>
+<title>nbc</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://tvenbcsn-lh.akamaihd.net/z/nbcnbcsn_1@122537/manifest.f4m?&amp;hdcore=3.5.0&amp;g=IVOCBOFYKGSE& amp;hdntl=exp=1425691116')<expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
 </item>
-
 
 
 
