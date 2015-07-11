@@ -2475,12 +2475,16 @@
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
 <name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://tvenbcsn-lh.akamaihd.net/z/nbcnbcsn_1@122537/manifest.f4m?&amp;hdcore=3.5.0&amp;g=IVOCBOFYKGSE& amp;hdntl=exp=1425691116')<expres>
+<expres>$pyFunction:urllib.quote_plus('http://tvenbcsn-lh.akamaihd.net/i/nbcnbcsn_1@122537/manifest.f4m?&amp;hdcore=3.5.0&amp;g=IVOCBOFYKGSE& amp;hdntl=exp=1425691116')<expres>
 <page></page>
 </regex>
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>NBCSN 720p</title>
+<link>http://tvenbcsn-i.Akamaihd.net/hls/live/122537/nbcnbcsn/2596k/prog.m3u8|X-Forwarded-For=66.171.228.102</link>
+</item>	
 
 
 
