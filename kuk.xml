@@ -2439,6 +2439,29 @@
 </item>
 
 <item>
+<title>Fox1 (Cricfree- Biggestplayer)</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "(.*?)"</expres>
+<page>http://biggestplayer.me/streamcr.php?id=$doregex[id]</page>
+<referer>http://theactionlive.com</referer>
+</regex>
+<regex>
+<name>id</name>
+<expres>id='(.*?)'</expres>
+<page>http://theactionlive.com/livegamecr.php?id=$doregex[get-id]</page>
+<referer>http://cricfree.sx</referer>
+</regex>
+<regex>
+<name>get-id</name>
+<expres>id='(.*?)'</expres>
+<page>http://cricfree.sx/update/fox1.php</page>
+<referer>http://cricfree.sx</referer>
+</regex>
+</item>
+
+<item>
 <title>cebo</title>
 <link>http://pebbles105-lh.akamaihd.net/i/cnn_1@97501/master.m3u8|X-Forwarded-For=85.5.87.218</link>
 </item>
