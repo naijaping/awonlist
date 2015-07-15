@@ -2503,6 +2503,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Nikisino</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.malayalamtvhd.in/2015/07/nickelodeon.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
