@@ -2491,7 +2491,17 @@
 <link>http://globe2.midomed.com:80/live/omar59kdj/KBjiyWtKu1/250.ts</link>
 </item>
 
-
+<item>
+<title>Disino</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.malayalamtvhd.in/2015/07/disney.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
