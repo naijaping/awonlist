@@ -2520,14 +2520,11 @@
 <link>http://82.137.248.21:1935/Drama/DramaLive2/chunklist_w42072395.m3u8</link>
 </item>
 
-<item>
-<title>Foo</title>
-<link>http://pebbles103-lh.akamaihd.net/i/bbc1hd_1@97412/master.m3u8|X-Forwarded-For=81.17.18.52</link>
-</item>
+
 
 <item>
 <title>sky</title>
-<link>http://pebbles124-lh.akamaihd.net/i/bbc2_1@137786/master.m3u8|X-Forwarded-For=81.17.18.52</link>
+<link>http://pebbles125-lh.akamaihd.net/i/russia_1@137797/master.m3u8|X-Forwarded-For=81.17.18.52</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news.png</thumbnail>
 </item>
 
