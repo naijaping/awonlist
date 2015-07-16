@@ -2527,13 +2527,14 @@
 
 <item>
 <title>sky</title>
-<link>http://pebbles106-lh.akamaihd.net/i/skynews_1@97511/master.m3u8|X-Forwarded-For=81.17.18.52</link>
+<link>http://pebbles113-lh.akamaihd.net/i/bbc3_1@97575/master.m3u8|X-Forwarded-For=81.17.18.52</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news.png</thumbnail>
 </item>
 
 <item>
 <title>vol</title>
 <link>http://pebbles111-lh.akamaihd.net/i/channel4hd_1@97441/master.m3u8|X-Forwarded-For=81.17.18.52</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news.png</thumbnail>
+
 </item>
 
 
