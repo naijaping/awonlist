@@ -2517,13 +2517,7 @@
 
 <item>
 <title>Football 2</title>
-<link>$doregex[get-url] </link>
-<regex>
-<name>get-url</name>
-<expres>file: "(.*?)",\n.*\n.*Sky Sports 1</expres>
-<page>http://www.malayalamtvhd.in/p/sports-all-in-one.html</page>
-<referer>http://www.malayalamtvhd.in</referer>
-</regex>
+<link>http://46.235.189.65/hls/CH_NATGEOWILD/bw1500000/playlist.m3u8</link>
 </item>
 
 
