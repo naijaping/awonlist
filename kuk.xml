@@ -2520,7 +2520,7 @@
 <link>$doregex[get-url] </link>
 <regex>
 <name>get-url</name>
-<expres>file: "(.*?)",\n.*\n.*Gol TV</expres>
+<expres>file: "(.*?)",\n.*\n.*Sky Sports 1</expres>
 <page>http://www.malayalamtvhd.in/p/sports-all-in-one.html</page>
 <referer>http://www.malayalamtvhd.in</referer>
 </regex>
