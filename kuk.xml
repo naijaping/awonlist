@@ -2515,6 +2515,16 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Football 2</title>
+<link>$doregex[get-url] </link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)",\n.*\n.*Gol TV</expres>
+<page>http://www.malayalamtvhd.in/p/sports-all-in-one.html</page>
+<referer>http://www.malayalamtvhd.in</referer>
+</regex>
+</item>
 
 
 
