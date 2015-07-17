@@ -2532,18 +2532,7 @@
 
 <item>
 <title>P2pCast</title>
-<link>$doregex[decoded-url]|Referer=http://cdn.p2pcast.tv/jwplayer.flash.swf&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</link>
-<regex>
-<name>decoded-url</name>
-<expres>$pyFunction:base64.b64decode('$doregex[get-enc]')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-enc</name>
-<expres>turl = "(.*?)"</expres>
-<page>http://p2pcast.tv/stream.php?id=276</page>
-<refer>http://p2pcast.tv/</referer>
-</regex>
+<link>http://ak-goltv-us-en-stream.fubo.tv/UT-Origin/ngrp:golTV_all/chunklist_b1096000.m3u8</link>
 </item>
 
 
