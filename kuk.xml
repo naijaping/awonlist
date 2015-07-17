@@ -2532,7 +2532,7 @@
 
 <item>
 <title>Fn1</title>
-<link>http://dtv_hls_live-lh.akamaihd.net/i/dtvhls02_delivery@195673/index_4128_av-p.m3u8|X-Forwarded-For=50.192.92.89</link>
+<link>rtmp://tv.tvsector.com/live playpath=z050001.stream swfUrl=http://www.tvsector.com/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf pageUrl=http://www.tvsector.com/animal-planet-hd/ timeout=60</link>
 </item>
 
 
