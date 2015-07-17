@@ -2275,7 +2275,6 @@
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
 <page>http://bit.ly/1LNoGly</page>
-<agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
 <agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
 <referer></referer>
 </regex>
@@ -2292,19 +2291,6 @@
 <page>http://www.eboundservices.com/iframe/new/iframe_hamariweb.php?stream=express&width=472&height=325&clip=express&syndicate=8888</page>
 <agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
 </regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>Wazobia</title>
-<link>rtmp://westream.we-tv.tv:1935/live/WazobiaTV_low</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Cool TV</title>
-<link>rtmp://westream.we-tv.tv:1935/live/CoolTV_low</link>
 <thumbnail></thumbnail>
 </item>
 
@@ -2502,11 +2488,6 @@
 <link>http://82.137.248.21:1935/Drama/DramaLive2/chunklist_w42072395.m3u8</link>
 </item>
 
-<item>
-<title>AB</title>
-<link>http://nimplus1.giniko.com/smilechild/smilechild.stream/playlist.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news.png</thumbnail>
-</item>
 
 <item>
 <title>Letontv</title>
@@ -2518,6 +2499,18 @@
 </regex>
 </item>
 
+<item>
+<title>TV</title>
+<link>http://nimplus1.giniko.com/bbcsport/bbcsport.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://bit.ly/1LNoGly</page>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
