@@ -2534,7 +2534,25 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news.png</thumbnail>
 </item>
 
-
+<item>
+<title>Bein Sports 1</title>
+<link>rtmp://$doregex[rtmpip]$doregex[path] swfUrl=http://files.leton.tv/jwplayer.flash.swf pageUrl=http://leton.tv live=1 timeout=15</link>
+<regex>
+<name>rtmpip</name>
+<expres>source src="http...(.*?).pull</expres>
+<page>http://leton.tv/player.php?streampage=calle13</page>
+<referer>http://leton.tv</referer>
+<agent>iPhone</agent>
+</regex>
+<regex>
+<name>path</name>
+<expres>v_part = '(.*?)'</expres>
+<page>http://leton.tv/player.php?streampage=calle13</page>
+<referer>http://leton.tv</referer>
+<agent>iPhone</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
