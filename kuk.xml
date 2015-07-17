@@ -2519,22 +2519,7 @@
 </item>
 
 
-<item>
-<title>wom</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\u0026','&')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>"src":"(.*?)"<expres>
-<page>http://admin.ohtvbox.com/od-videos.json?dataUrls=true</page>
-<referer>http://admin.ohtvbox.com</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 <channel>
