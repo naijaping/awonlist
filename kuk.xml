@@ -2529,7 +2529,7 @@
 </regex>
 <regex>
 <name>get-url</name>
-<expres>"src":"(.*?)",\n.*\n.*A WOMANS MIND PART 3<expres>
+<expres>"src":"(.*?)","id":25,"name":"A WOMANS MIND PART 3"<expres>
 <page>http://admin.ohtvbox.com/od-videos.json?dataUrls=true</page>
 <referer>http://admin.ohtvbox.com</referer>
 </regex>
