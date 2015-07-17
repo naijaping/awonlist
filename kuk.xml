@@ -368,6 +368,12 @@
 </item>
 
 <item>
+<title>ABC News</title>
+<link>http://abclive.abcnews.com/i/abc_live3@136329/master.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news.png</thumbnail>
+</item>
+
+<item>
 <title> MSNBC</title>
 <link>rtmp://$doregex[rtmp]/edge/ playpath=msnbc_live swfUrl=http://msnbclive.eu/player.swf pageUrl=http://www.livenewschat.eu/politics/&id=b60d2a118c0ccb47b25f4f4187777f39 live=1 timeout=10</link>
 <regex>
@@ -2520,21 +2526,21 @@
 <link>http://82.137.248.21:1935/Drama/DramaLive2/chunklist_w42072395.m3u8</link>
 </item>
 
-
-
-<item>
-<title>AB</title>
-<link>http://abclive.abcnews.com/i/abc_live3@136329/master.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news.png</thumbnail>
-</item>
-
 <item>
 <title>AB</title>
 <link>http://nimplus1.giniko.com/smilechild/smilechild.stream/playlist.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news.png</thumbnail>
 </item>
 
-
+<item>
+<title>Letontv</title>
+<link>$doregex[get-rtmp] swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://leton.tv/</link>
+<regex>
+<name>get-rtmp</name>
+<expres>$pyFunction:get_leton_rtmp('http://leton.tv/player.php?streampage=calle13','http://leton.tv/')</expres>
+<page></page>
+</regex>
+</item>
 
 
 
