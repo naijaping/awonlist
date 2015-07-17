@@ -2536,6 +2536,23 @@
 
 
 
+<item>
+<title>Simpsons RegEx **http://leton.tv/player.php?streampage=wwsimpsons**</title>
+<link>rtmp$doregex[getRTMP]$doregex[getPATH] swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 timeout=15</link>
+<regex>
+<name>getRTMP</name>
+<expres>rce src="http(.*?)w</expres>
+<page>http://leton.tv/player.php?streampage=calle13</page>
+<agent>iPad</agent>
+</regex>
+<regex>
+<name>getPATH</name>
+<expres>\/(w.*?)'</expres>
+<page>http://leton.tv/player.php?streampage=calle13</page>
+<agent>iPad</agent>
+</regex>
+</item>
+
 
 
 <channel>
