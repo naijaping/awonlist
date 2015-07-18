@@ -2524,15 +2524,9 @@
 <thumbnail></thumbnail>
 </item>
 
-
-<item>
-<title>Fn2</title>
-<link>http://113.160.49.34/lives/origin03/foxhd.isml/foxhd-2096k.m3u8|X-Forwarded-For=50.192.92.89</link>
-</item>
-
 <item>
 <title>P2pCast</title>
-<link>http://ak-goltv-us-en-stream.fubo.tv/UT-Origin/ngrp:golTV_all/chunklist_b1096000.m3u8</link>
+<link>http://ak-goltv-us-en-stream.fubo.tv/UT-Origin/ngrp:golTV_all/chunklist_b1096000.m3u8|X-Forwarded-For=50.192.92.89</link>
 </item>
 
 
