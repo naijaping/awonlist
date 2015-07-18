@@ -2501,7 +2501,7 @@
 
 <item>
 <title>TV</title>
-<link>http://nimplus1.giniko.com/smilechild/smilechild.stream/playlist.m3u8$doregex[get-auth]</link>
+<link>http://nimplus1.giniko.com/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
@@ -2524,10 +2524,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>P2pCast</title>
-<link>http://ak-goltv-us-en-stream.fubo.tv/UT-Origin/ngrp:golTV_all/chunklist_b1096000.m3u8|X-Forwarded-For=50.192.92.89</link>
-</item>
+
 
 
 <channel>
