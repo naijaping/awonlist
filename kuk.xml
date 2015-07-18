@@ -2484,7 +2484,7 @@
 </item>
 
 <item>
-<title>Football 2</title>
+<title>Foo2</title>
 <link>http://82.137.248.21:1935/Drama/DramaLive2/chunklist_w42072395.m3u8</link>
 </item>
 
@@ -2522,6 +2522,12 @@
 <cookiejar></cookiejar>
 </regex>
 <thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>Foo1</title>
+<link>rtmp://astvstream1.tulix.tv:1935/africable/africable</link>
 </item>
 
 
