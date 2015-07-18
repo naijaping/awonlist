@@ -2525,7 +2525,7 @@
 <name>url</name>
 <expres>file: "(.*?)"</expres>
 <page>http://www.asiamediaglobal.org/android/andy/play_movie.php?gen_id=1&movie_id=210</page>
-<referer>http://www.asiamediaglobal.org/android/andy/channel_list.php?pack_is=24</referer>
+<referer>http://www.asiamediaglobal.org</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
