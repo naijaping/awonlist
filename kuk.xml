@@ -2522,13 +2522,13 @@
 </item>
 
 <item>
-<title>Game</title>
-<link>$doregex[getlink]</link>
+<title>mum</title>
+<link>$doregex[reg1]</link>
 <regex>
-<name>getlink</name>
-<expres>source src="([^"]*)</expres>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
 <page>http://www.asiamediaglobal.org/android/andy/play_live.php?&cid=182&pack_id=24</page>
-<referer>www.asiamediaglobal.org/android/andy/play_live.php?&cid=182</referer>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
