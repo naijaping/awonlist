@@ -2520,7 +2520,7 @@
 
 <item>
 <title>lyc</title>
-<link>$doregex[uri]</link>
+<link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>file: "(.*?)"</expres>
