@@ -2519,7 +2519,7 @@
 </item>
 
 <item>
-<title>Game Of The </title>
+<title>Game</title>
 <link>$doregex[getlink]</link>
 <regex>
 <name>getlink</name>
