@@ -2440,6 +2440,9 @@
 </regex>
 </item>
 
+
+
+
 <item>
 <title>cebo</title>
 <link>http://pebbles105-lh.akamaihd.net/i/cnn_1@97501/master.m3u8|X-Forwarded-For=85.5.87.218</link>
@@ -2525,6 +2528,7 @@
 <name>getlink</name>
 <expres>source src="([^"]*)</expres>
 <page>http://www.asiamediaglobal.org/android/andy/play_live.php?&cid=182&pack_id=24</page>
+<referer>www.asiamediaglobal.org/android/andy/play_live.php?&cid=182</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
