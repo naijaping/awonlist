@@ -2519,8 +2519,8 @@
 </item>
 
 <item>
-<title>Game Of The Throne</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
+<title>Game Of The </title>
+<link>$doregex[getlink]</link>
 <regex>
 <name>getlink</name>
 <expres>source src="([^"]*)</expres>
