@@ -2530,6 +2530,17 @@
 </item>
 
 
+<item>
+<title>Gameof</title>
+<link>$doregex[getlink]</link>
+<regex>
+<name>getlink</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.asiamediaglobal.org/android/andy/play_live.php?&cid=182&pack_id=24</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 <channel>
