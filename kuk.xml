@@ -2528,7 +2528,7 @@
 <name>reg1</name>
 <expres>file: "(.*?)"</expres>
 <page>http://www.asiamediaglobal.org/android/andy/play.php?date=1437242400&cid=182&datec=2015-07-18&timec=23:30</page>
-<referer></referer>
+<referer>http://jwpsrv.com/library/JMFubNs4EeO+BCIACmOLpg.js</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
