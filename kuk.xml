@@ -2527,7 +2527,7 @@
 
 <item>
 <title>Foo1</title>
-<link>http://brightcove03-f.akamaihd.net/joizde_live_1@130261/master.m3u8</link>
+<link>http://brightcove03-f.akamaihd.net/joizde_live_1@130261/master.m3u8|X-Forwarded-For=195.186.145.47</link>
 </item>
 
 
