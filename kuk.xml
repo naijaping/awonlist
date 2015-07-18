@@ -2535,7 +2535,7 @@
 <link>$doregex[getlink]</link>
 <regex>
 <name>getlink</name>
-<expres>source src="(.*?)"</expres>
+<expres>adSrc1 = "(.*?)"</expres>
 <page>http://www.asiamediaglobal.org/android/andy/play_live.php?&cid=182&pack_id=24</page>
 </regex>
 <thumbnail></thumbnail>
