@@ -2519,8 +2519,14 @@
 </item>
 
 <item>
-<title>M</title>
-<link>http://113.160.49.34/lives/origin03/hbohd.isml/hbohd-2096k.m3u8</link>
+<title>lyc</title>
+<link>$doregex[uri]</link>
+<regex>
+<name>url</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.asiamediaglobal.org/android/andy/play_movie.php?gen_id=1&movie_id=210</page>
+<referer></referer>
+</regex>
 <thumbnail></thumbnail>
 </item>
 
