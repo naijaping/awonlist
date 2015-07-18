@@ -2532,12 +2532,7 @@
 
 <item>
 <title>Gameof</title>
-<link>$doregex[getlink]</link>
-<regex>
-<name>getlink</name>
-<expres>adSrc1 = "(.*?)"</expres>
-<page>http://www.asiamediaglobal.org/android/andy/play_live.php?&cid=182&pack_id=24</page>
-</regex>
+<link>http://play.amgiptv.com/africanmovievxtv/6c48b2f210356cedd6dce86e5ebaa77a.sdp/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
