@@ -2525,7 +2525,8 @@
 <name>url</name>
 <expres>file: "(.*?)"</expres>
 <page>http://www.asiamediaglobal.org/android/andy/play_movie.php?gen_id=1&movie_id=210</page>
-<referer>http://www.asiamediaglobal.org</referer>
+<referer>http://www.asiamediaglobal.org/android/andy/channel_list.php?pack_is=24</referer>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
 </regex>
 <thumbnail></thumbnail>
 </item>
