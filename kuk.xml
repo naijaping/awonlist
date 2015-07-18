@@ -2519,10 +2519,16 @@
 </item>
 
 <item>
-<title>lyco</title>
-<link>http://livestream.5centscdn.com/aitvxtv/0d5add458f4d058fc1109ee3850e7253.sdp/playlist.m3u8</link>
+<title>Game Of The Throne</title>
+<link>$doregex[getlink]|User-Agent=iPhone</link>
+<regex>
+<name>getlink</name>
+<expres>source src="([^"]*)</expres>
+<page>http://www.asiamediaglobal.org/android/andy/play_live.php?&cid=182&pack_id=24</page>
+</regex>
 <thumbnail></thumbnail>
 </item>
+
 
 
 
