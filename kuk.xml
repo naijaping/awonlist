@@ -2520,14 +2520,7 @@
 
 <item>
 <title>lyco</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>file: "(.*?)"</expres>
-<page>http://www.asiamediaglobal.org/android/andy/play_movie.php?gen_id=1&movie_id=210</page>
-<referer>http://www.asiamediaglobal.org/android/andy/play_movie.php?gen_id=1&movie_id=210</referer>
-<agent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36</agent>
-</regex>
+<link>http://push-18.5centscdn.com/mp4/Kacheriaarambam-3.mp4</link>
 <thumbnail></thumbnail>
 </item>
 
