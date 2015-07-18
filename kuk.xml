@@ -2526,9 +2526,9 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>source src="(.*?)"</expres>
+<expres>source src= "(.*?)"</expres>
 <page>http://www.asiamediaglobal.org/android/andy/play_live.php?&cid=182&pack_id=24</page>
-<referer>http://www.asiamediaglobal.org/android/andy/</referer>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
