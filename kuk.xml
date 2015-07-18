@@ -1726,19 +1726,6 @@
 </item>
 
 <item>
-<title>Ad Sports 1 - UAE</title>
-<link>http://odna.octoshape.net/h5f3k7p8/cds/smil:adsport1hd/chunklist_b880000.m3u8</link>
-<thumbnail></thumbnail>
-</item>
- 
-<item>
-<title>Ad Sports 2 - UAE</title>
-<link>http://odna.octoshape.net/h5f3k7p8/cds/smil:adsport2hd/chunklist_b880000.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
 	<title>MFM HD</title>
 	<link>$doregex[getURL]</link>
 	<regex>
