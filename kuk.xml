@@ -2519,7 +2519,7 @@
 </item>
 
 <item>
-<title>lyca</title>
+<title>lyco</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
