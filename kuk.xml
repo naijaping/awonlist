@@ -2501,19 +2501,6 @@
 </item>
 
 <item>
-<title>fliving</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>"netConnectionUrl":"(.*?)"</expres>
-<page>http://srv-104.skylinewebcams.com/live.php</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
 <title>Sky Sports 1</title>
 <link>rtmp://srv-104.skylinewebcams.com/live swfUrl=http://srv-104.skylinewebcams.com/player/player.swf pageUrl=http://srv-104.skylinewebcams.com timeout=15 live=1</link>
 </item>
