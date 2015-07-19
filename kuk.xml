@@ -2520,7 +2520,7 @@
 <name>rtmp</name>
 <expres>netConnectionUrl:'(.*?)'</expres>
 <page>http://fliving.tv/site/live-streaming</page>
-<referer></referer>
+<referer>http://srv-104.skylinewebcams.com/live.php</referer>
 </regex>
 </item>
 
