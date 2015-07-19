@@ -2235,6 +2235,12 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Fouy</title>
+<link>http://80.77.52.6:3917/udp/226.0.0.7:12345</link>
+</item>
+
+
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
 <link>http://ignoreme</link>
