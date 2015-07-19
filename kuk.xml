@@ -2192,14 +2192,9 @@
 
 
 <item>
-<title>connect</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file=(.*?)&provider</expres>
-<page>http://connectcast.tv/geatv26</page>
-<referer></referer>
-</regex>
+<title>MU0</title>
+<link>http://pvr.tvip.ga/0425.m3u8|X-Forwarded-For=85.5.87.218</link>
+<thumbnail></thumbnail>
 </item>
 
 
