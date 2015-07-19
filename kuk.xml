@@ -2547,12 +2547,12 @@
 
 
 <item>
-<title>miiiim</title>
+<title>mm</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.asiamediaglobal.org/android/andy/play_live.php?cid=181</page>
+<expres>file: "(.*?)"</expres>
+<page>http://www.asiamediaglobal.org/android/andy/playsp.php?vid=16</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
