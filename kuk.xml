@@ -2196,7 +2196,7 @@
 <link>plugin://plugin.video.f4mTester/?url=$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>content="(.*?)"</expres>
+<expres>file=(.*?)</expres>
 <page>http://connectcast.tv/geatv26</page>
 <referer></referer>
 </regex>
