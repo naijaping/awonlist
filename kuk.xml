@@ -2512,6 +2512,18 @@
 <thumbnail></thumbnail>
 </item>
 
+
+<item>
+<title>Sky Sports 1</title>
+<link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/7/jwplayer.flash.swf pageUrl=http://fliving.tv timeout=15 live=true</link>
+<regex>
+<name>rtmp</name>
+<expres>"netConnectionUrl":"(.*?)"</expres>
+<page>http://srv-104.skylinewebcams.com/live.php</page>
+<referer></referer>
+</regex>
+</item>
+
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
 <link>http://ignoreme</link>
