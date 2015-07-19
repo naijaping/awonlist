@@ -2505,9 +2505,9 @@
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>netConnectionUrl:'(.*?)'</expres>
+<expres>"netConnectionUrl":"(.*?)"</expres>
 <page>http://srv-104.skylinewebcams.com/live.php</page>
-<referer>http://fliving.tv/site/live-streaming</referer>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
