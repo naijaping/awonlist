@@ -2573,17 +2573,15 @@
 
 
 <item>
-<title>Lebi</title>
-<link>$doregex[url]</link>
+<title>9XM</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>"url":"(.*?)"</expres>
-<page>https://api.lebaraplay.com/api/v1/program_events/5e1ac734-1ae8-4853-9bd0-0250348c5679/stream?protocol=hls&amp;audio_codec=mp4a&amp;video_codec=h264&amp;screen_width=1280&amp;screen_height=720&amp;drm=adobedrm&amp;device_id=701362c3-e09f-197d-5f82-9cdf7c180d78&amp;client_id=spbtv-web&amp;client_version=0.1.0&amp;locale=en_GB&amp;timezone=7200</page>
-<cookiejar></cookiejar>
+<expres>rtmp = "(.*?)"</expres>
+<page>http://hellotv.in/livetv/play?classid=183640&amp;parentId=0&amp;name=All%20Channels</page>
+<referer>http://hellotv.in</referer>
 </regex>
-<thumbnail></thumbnail>
 </item>
-
 
 
 <channel>
