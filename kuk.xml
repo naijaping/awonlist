@@ -2500,6 +2500,17 @@
 </regex>
 </item>
 
+<item>
+<title>fliving</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>netConnectionUrl:'(.*?)'</expres>
+<page>http://srv-104.skylinewebcams.com/live.php</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
