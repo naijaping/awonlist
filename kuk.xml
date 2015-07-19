@@ -2518,7 +2518,7 @@
 <link>$doregex[rtmp] swfUrl=http://srv-104.skylinewebcams.com/player/player.swf pageUrl=http://srv-104.skylinewebcams.com timeout=15 live=true</link>
 <regex>
 <name>rtmp</name>
-<expres>"netConnectionUrl":"(.*?)"</expres>
+<expres>netConnectionUrl:'(.*?)'</expres>
 <page>http://srv-104.skylinewebcams.com/live.php</page>
 <referer></referer>
 </regex>
