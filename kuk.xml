@@ -2502,7 +2502,7 @@
 
 <item>
 <title>Sky Sports 1</title>
-<link>rtmp://srv-104.skylinewebcams.com/live swfUrl=http://srv-104.skylinewebcams.com/player/player.swf pageUrl=http://srv-104.skylinewebcams.com timeout=15 live=1</link>
+<link>http://37.187.169.72/live.m3u8?a=s9ptqfquep8sdbvfmbmainpin6</link>
 </item>
 
 <channel>
