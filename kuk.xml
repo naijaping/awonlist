@@ -2546,6 +2546,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>miolll</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>data-url="(.*?)"</expres>
+<page>http://www.asiamediaglobal.org/android/andy/radio_list.php?r_id=9</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 <channel>
