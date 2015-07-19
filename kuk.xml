@@ -2565,7 +2565,7 @@
 <regex>
 <name>reg1</name>
 <expres>rtmp = "(.*?)"</expres>
-<page>http://hellotv.in/livetv/play?classid=183640&parentId=0&name=All%20Channels</page>
+<page></page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
