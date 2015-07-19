@@ -2561,11 +2561,11 @@
 
 <item>
 <title>miiiim</title>
-<link>$doregex[reg1]</link>
+<link>$doregex[url]</link>
 <regex>
-<name>reg1</name>
+<name>url</name>
 <expres>source src="(.*?)"</expres>
-<page>http://www.asiamediaglobal.org/android/andy/play_live.php?cid=113</page>
+<page>http://www.asiamediaglobal.org/android/andy/play_live.php?&cid=181</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
