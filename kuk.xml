@@ -1610,7 +1610,7 @@
 <regex>
 <name>channelSlug</name>
 <expres>streamup.com\/rooms\/(.*?)\/</expres>
-<page>https://streamup.com/dhanaktv</page>
+<page>https://streamup.com/max7a220</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
@@ -1721,65 +1721,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>1 HD</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres> file: '(.*?)'</expres>
-<page>http://www.malayalamtvhd.biz/2015/02/sky-sports-1.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>2 HD</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres> file: '(.*?)'</expres>
-<page>http://www.malayalamtvhd.biz/2015/02/sky-sports-f1.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>3 HD</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres> file: '(.*?)'</expres>
-<page>http://www.malayalamtvhd.biz/2015/05/sky-sports-3.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>4 HD</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres> file: '(.*?)'</expres>
-<page>http://www.malayalamtvhd.biz/2015/02/sky-sports-4.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>5 HD</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres> file: '(.*?)'</expres>
-<page>http://www.malayalamtvhd.biz/2015/02/sky-sports-5.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 
 <item>
@@ -1834,17 +1775,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Will</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres> file: '(.*?)'</expres>
-<page>http://www.malayalamtvhd.biz/2015/04/live-football-stream.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 <item>
 <title>Natgeo wild hd</title>
@@ -1924,7 +1854,7 @@
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>hls","url":"(.*?)"</expres>                                           
+<expres>uhls","url":"(.*?)"</expres>                                           
 <page>http://$doregex[host]/1/ustream?connectionId=$doregex[cid]</page>
 <referer>http://www.ustream.tv</referer>
 </regex>
