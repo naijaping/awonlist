@@ -2522,13 +2522,13 @@
 </item>
 
 <item>
-<title>mum</title>
+<title>mu00m</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: "(.*?)"</expres>
-<page>http://www.asiamediaglobal.org/android/andy/play.php?date=1437242400&cid=182&datec=2015-07-18&timec=23:30</page>
-<referer>http://jwpsrv.com/library/JMFubNs4EeO+BCIACmOLpg.js</referer>
+<expres>source src="(.*?)"</expres>
+<page>http://www.asiamediaglobal.org/android/andy/play_live.php?cid=182</page>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
