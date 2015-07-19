@@ -2191,6 +2191,18 @@
 </item>
 
 
+<item>
+<title>connect</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>content="(.*?)"</expres>
+<page>http://connectcast.tv/geatv26</page>
+<referer></referer>
+</regex>
+</item>
+
+
 
 
 <channel>
