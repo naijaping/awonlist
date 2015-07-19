@@ -2240,6 +2240,22 @@
 <link>http://80.77.52.6:3917/udp/226.0.0.7:12345</link>
 </item>
 
+<item>
+<title>Fouy2</title>
+<link>http://80.77.52.6:3917/udp/226.0.0.8:12345</link>
+</item>
+
+<item>
+<title>Fouy3</title>
+<link>http://80.77.52.6:3917/udp/226.0.0.9:12345</link>
+</item>
+
+<item>
+<title>Fouy4</title>
+<link>http://80.77.52.6:3917/udp/226.0.0.10:12345</link>
+</item>
+
+
 
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
