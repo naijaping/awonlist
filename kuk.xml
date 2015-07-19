@@ -1610,7 +1610,7 @@
 <regex>
 <name>channelSlug</name>
 <expres>streamup.com\/rooms\/(.*?)\/</expres>
-<page>https://streamup.com/max7a220</page>
+<page>https://streamup.com/s0ccerTV</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
