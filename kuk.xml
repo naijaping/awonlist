@@ -2560,12 +2560,12 @@
 
 
 <item>
-<title>tamil</title>
-<link>$doregex[reg1]</link>
+<title>mm2</title>
+<link>$doregex[url]</link>
 <regex>
-<name>reg1</name>
-<expres>rtmp = "(.*?)"</expres>
-<page></page>
+<name>url</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.asiamediaglobal.org/android/andy/play_movie.php?movie_id=334</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
