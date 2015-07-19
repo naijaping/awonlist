@@ -2552,7 +2552,7 @@
 <regex>
 <name>url</name>
 <expres>file: "(.*?)"</expres>
-<page>http://www.asiamediaglobal.org/android/andy/playsp.php?vid=16</page>
+<page>http://www.asiamediaglobal.org/android/andy/play_movie.php?gen_id=10</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
