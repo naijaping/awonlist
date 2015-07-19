@@ -2583,6 +2583,18 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Leb00</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>"url":"(.*?)"</expres>
+<page>https://api.lebaraplay.com/api/v1/program_events/96243169-483a-48bb-a3f4-6c958365fdd9/stream?protocol=hls&amp;audio_codec=mp4a&amp;video_codec=h264&amp;screen_width=1280&amp;screen_height=720&amp;drm=adobedrm&amp;device_id=760226bf-c5e2-ccd1-93fc-6c1b7f22249b&amp;client_id=spbtv-web&amp;client_version=0.1.0&amp;locale=en_GB&amp;timezone=7200</page>
+<cookiejar></cookiejar>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
 <link>http://ignoreme</link>
