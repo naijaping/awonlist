@@ -2534,20 +2534,7 @@
 </item>
 
 <item>
-<title>Giii</title>
-<link>http://direct.sharp-stream.com/1075.mp3</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>Ga</title>
-<link>http://play.amgiptv.com/africanmovievxtv/6c48b2f210356cedd6dce86e5ebaa77a.sdp/playlist.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>miolll</title>
+<title>107.5</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
