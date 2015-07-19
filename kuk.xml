@@ -2262,7 +2262,7 @@
 
 <item>
 <title>WapTV Lagos</title>
-<link>http://astv10sec2.tulix.tv/waptv/wap.stream/playlist.m3u8$doregex[get-auth]</link>
+<link>http://astv10sec1.tulix.tv/btsport1/btsport1.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
