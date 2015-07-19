@@ -2283,12 +2283,6 @@
 
 
 <item>
-<title>TBN</title>
-<link>http://acaooyalahd2-lh.akamaihd.net/i/TBN04_delivery@186242/master.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tbn_tv_us.png</thumbnail>
-</item>
-
-<item>
 <title>Pop</title>
 <link>http://livestream-f.akamaihd.net/i/6092655_4012368_10035fee_1@64435/master.m3u8?dw=100&amp;__b__=678&amp;hdnea=$doregex[st]</link>
 <regex>
@@ -2303,28 +2297,7 @@
 <link>rtmp://cdnvideo.webvideocore.net:1935/livenl playpath=out_arwob65kemo84wk0skoc swfUrl=http://play.webvideocore.net/player3.swf live=1 pageUrl=http://www.africawebtv.com/tv/nig/katv.html</link>
 </item>
  
-<item>
-<title>Wa</title>
-<link>rtmp://westream.we-tv.tv:1935/live/_definst_/mp4:WazobiaTV</link>
-</item>
 
-<item>
-<title>Co</title>
-<link>rtmp://westream.we-tv.tv:1935/live/_definst_/mp4:CoolTV</link>
-</item>
-
-<item>
-<title>SportsDevil</title>
-<sportsdevil>http://www.tvone1.com/disney-channel/</sportsdevil>
-<referer>http://www.tvone1.com</referer>
-</item> 
- 
- <item>
-<title>SportsDevil2</title>
-<sportsdevil>http://www.tvone1.com/sky-movies-sci-fi-horror/</sportsdevil>
-<referer>http://www.tvone1.com</referer>
-</item>
- 
 <item>
 <title>IBrod TV</title>
 <link>$doregex[rtmp] swfUrl=http://cdn.miplayer.net/player/jwplayer.flash.swf token=OOG17t.x#K9Vh#| pageUrl=http://miplayer.net live=1 timeout=15</link>
@@ -2372,22 +2345,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Hollywoode</title>
-<link>$doregex[rtmp] playpath=Hollywood token=$doregex[tok] flashVer=WIN\18,0,0,194 swfVfy=1 swfUrl=http://tutelehd.com/player.swf pageUrl=http://tutelehd.com live=1 timeout=20</link>
-<regex>
-<name>rtmp</name>
-<expres>streamer', '(.*)'</expres>
-<page>http://tutelehd.com/embed/embed.php?channel=Hollywood</page>
-<referer>http://tutelehd.com</referer>
-</regex>
-<regex>
-<name>tok</name>
-<expres>token', '(.*?)'</expres>
-<page>http://tutelehd.com/embed/embed.php?channel=Hollywood</page>
-<referer>http://tutelehd.com</referer>
-</regex>
-</item>
+
 
 <item>
 <title>Seinfeld</title>
@@ -2440,36 +2398,13 @@
 </regex>
 </item>
 
-
-
-
-<item>
-<title>cebo</title>
-<link>http://pebbles105-lh.akamaihd.net/i/cnn_1@97501/master.m3u8|X-Forwarded-For=85.5.87.218</link>
-</item>
-
 <item>
 <title>kobotlc</title>
 <link>http://80.80.160.168/live/2/live.m3u8</link>
 </item>
 
 <item>
-<title>koboshow</title>
-<link>http://80.80.160.168/live/7/live.m3u8</link>
-</item>
-
-<item>
-<title>kobodiscov</title>
-<link>http://80.80.160.168/live/8/live.m3u8</link>
-</item>
-
-<item>
-<title>kobodisci</title>
-<link>http://pebbles105-lh.akamaihd.net/i/nickcc_1@97455/master.m3u8|X-Forwarded-For=195.186.145.47</link>
-</item>
-
-<item>
-<title>koi</title>
+<title>koiespn</title>
 <link>http://93.174.95.125:1935/edge/_definst_/xoaaohmeuajfeyf/playlist.m3u8?wowzasessionid=1419879934</link>
 </item>
 
@@ -2489,18 +2424,6 @@
 </regex>
 </item>
 
-<item>
-<title>TV</title>
-<link>http:///playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://bit.ly/1LNoGly</page>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 <item>
 <title>Lebara</title>
@@ -2514,12 +2437,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
-<item>
-<title>M 1</title>
-<link>http://uk.stream.yo.tv/livehttporigin/Channel4_720p.stream/master.m3u8</link>
-<thumbnail></thumbnail>
-</item>
 
 <item>
 <title>mu00m</title>
