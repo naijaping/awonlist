@@ -2261,6 +2261,19 @@
 </item>
 
 
+<item>
+<title>Timelife1</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.shadownet.biz/channels/usa/lifetime.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
 
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
