@@ -2203,7 +2203,7 @@
 </item>
 
 <item>
-<title>E!</title>
+<title>B1</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -2214,6 +2214,18 @@
 <thumbnail></thumbnail>
 </item>
 
+
+<item>
+<title>B2</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.shadownet.biz/channels/uktv/bt-sport2.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
