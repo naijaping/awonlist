@@ -683,12 +683,7 @@
 
 <item>
 <title>GOLTV</title>
-<link>$doregex[getIlive]</link>
-<regex>
-<name>getIlive</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/68875/Gol_TV_%28HD%29-live-stream-channel?pw=iu973j',False,False)</expres>
-<page></page>
-</regex>
+<link>http://goltv-stream.fubotv.com.global.prod.fastly.net/UT-Origin/ngrp:golTV_all/playlist.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/gol_tv.png</thumbnail>
 </item>
 
