@@ -2302,7 +2302,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>"file": "(.*?)"</expres>
+<expres>,"file": "(.*?)"</expres>
 <page>https://embed-tv.com/api/player.swf?id=3003</page>
 <referer>https://embed-tv.com</referer>
 </regex>
