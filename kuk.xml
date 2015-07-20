@@ -2299,10 +2299,10 @@
 
 <item>
 <title>Test</title>
-<link>$doregex[get-link]</link>
+<link>$doregex[reg1]</link>
 <regex>
-<name>get-link</name>
-<expres>"file": "(.*?)"</expres>
+<name>reg1</name>
+<expres>file": "(.*?)"</expres>
 <page>https://embed-tv.com/api/player.swf?id=3003</page>
 <referer></referer>
 </regex>
