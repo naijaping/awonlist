@@ -2299,13 +2299,7 @@
 
 <item>
 <title>Boxn1</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>src='(.*?)'</expres>
-<page>http://www.shadownet.biz/channels/uktv/box-nation.html</page>
-<referer></referer>
-</regex>
+<link>http://rogerslive-i.akamaihd.net/hls/live/202800/event/index.m3u8?vd?u#bt!25</link>
 <thumbnail></thumbnail>
 </item>
 
