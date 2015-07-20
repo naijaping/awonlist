@@ -2090,19 +2090,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
-<item>
-<title>mu00m</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.asiamediaglobal.org/android/andy/play_live.php?cid=182</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 <item>
 <title>107.5</title>
 <link>$doregex[reg1]</link>
