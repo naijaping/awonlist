@@ -2298,8 +2298,14 @@
 </item>
 
 <item>
-<title>Boxn1</title>
-<link>http://rogerslive-i.akamaihd.net/hls/live/202800/event/index.m3u8|X-Forwarded-For=209.239.112.104</link>
+<title>Test</title>
+<link>$doregex[get-link]</link>
+<regex>
+<name>get-link</name>
+<expres>"file": "(.*?)"</expres>
+<page>https://embed-tv.com/api/player.swf?id=3003</page>
+<referer></referer>
+</regex>
 <thumbnail></thumbnail>
 </item>
 
