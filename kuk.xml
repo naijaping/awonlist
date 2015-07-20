@@ -2202,6 +2202,18 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>E!</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.shadownet.biz/channels/usa/e-tv.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 
