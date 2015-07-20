@@ -2208,7 +2208,7 @@
 <regex>
 <name>url</name>
 <expres>source src="(.*?)"</expres>
-<page>http://www.shadownet.biz/channels/usa/e-tv.html</page>
+<page>http://www.shadownet.biz/channels/uktv/bt-sport1.html</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
