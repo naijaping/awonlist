@@ -2299,7 +2299,7 @@
 
 <item>
 <title>Boxn1</title>
-<link>http://rogerslive-i.akamaihd.net/hls/live/202800/event/index.m3u8?vd?u#bt!25</link>
+<link>http://rogerslive-i.akamaihd.net/hls/live/202800/event/index.m3u8|X-Forwarded-For=209.239.112.104</link>
 <thumbnail></thumbnail>
 </item>
 
