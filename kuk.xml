@@ -2191,10 +2191,16 @@
 
 
 <item>
-<title>sportnet 360</title>
-<link>http://nlds187.cdnak.neulion.com/nlds/sportsnetnow/sn_360/as/live/sn_world_hd_ipad.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sportsnet_360.png</thumbnail>
-</item>   
+<title>ros</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.shadownet.biz/channels/usa/espn2.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
