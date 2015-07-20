@@ -2227,6 +2227,21 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>G1</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.shadownet.biz/channels/usa/goltv.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
+
 
 
 <channel>
