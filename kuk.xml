@@ -2273,6 +2273,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>MLB1</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.shadownet.biz/channels/usa/mlb-network.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 <channel>
