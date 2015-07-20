@@ -2297,6 +2297,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Boxn1</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>src='(.*?)'</expres>
+<page>http://www.shadownet.biz/channels/uktv/box-nation.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
