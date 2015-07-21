@@ -2123,6 +2123,19 @@
 <thumbnail>http://i59.tinypic.com/alra0m.jpg</thumbnail>
 </item>
 
+
+<item>
+<title>Beno</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>{file:"(.*?)"</expres>
+<page>http://www.ghanalive.tv/adome-tv/</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
 <link>http://ignoreme</link>
