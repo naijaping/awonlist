@@ -2311,17 +2311,11 @@
 </item>
 
 <item>
-<title>Tesi</title>
-<link>http://astv10sec1.tulix.tv/ebonylife/ebonylife.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yMS8yMDE1IDQ6NDU6NTIgQU0maGFzaF92YWx1ZT1sdUJGQ1JOc1laTGorSE1PenNMTDRnPT0mdmFsaWRtaW51dGVzPTE0NDA=</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>Ben</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>,{ file: "(.*?)"</expres>
+<expres>,{    file: "(.*?)"</expres>
 <page>http://bentelevision.com/live/</page>
 <referer></referer>
 </regex>
