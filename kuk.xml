@@ -2299,7 +2299,7 @@
 
 <item>
 <title>Test</title>
-<link>rtsp://astvstream1.tulix.tv/tvcnews/tvcnews.stream</link>
+<link>rtmp://astvstream1.tulix.tv/tvcnews/tvcnews.stream</link>
 <thumbnail></thumbnail>
 </item>
 
