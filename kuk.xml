@@ -1973,6 +1973,18 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>prime</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.asiamediaglobal.org/android/andy/play_live.php?cid=141</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 <item>
 <title>ros</title>
