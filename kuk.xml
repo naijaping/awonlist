@@ -141,17 +141,6 @@
 </item>
 
 <item>
-<title>Silverbird TV</title>
-<link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://www.iafrica.tv/dbn/ swfVfy=true live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>'file': '([^']*)<expres>
-<page>http://www.iafrica.tv/dbn/</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/silverbird_tv.png</thumbnail>
-</item>
-
-<item>
 <title>AIT Nigeria</title>
 <link>$doregex[get-link]</link>
 <regex>
@@ -162,17 +151,6 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/ait_national.png</thumbnail>
 </item>
 
-<item>
-<title>TV Africa</title>
-<link>rtmp://fml.12BC9.kappacdn.net/2012BC9 app=2012BC9/default/ playpath=tvafrica_1200?f1eca87ea8908fd73af769d925d7bb787d9aca5cd15a3e1f1dcbfd3b4a347d28335e08f0627cbb90e9008538b52fb8afbc22812ccb00d0879837 swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://www.ghanalive.tv live=1 timeout=15</link>
-<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/tovafrica.jpg</thumbnail>
-</item>
-
-<item>
-<title>Ghana TV</title>
-<link>rtmp://fml.12BC9.kappacdn.net/2012BC9 app=2012BC9/default/ playpath=ghanatv_1200?f1eca87ea8908fd73af769d925d7bb787d9aca5cd15a3e1f1dcbfd3b4a347d28335e08f0627cbb90e9008538b52fb8afbc22812ccb00d0879837 swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://www.ghanalive.tv live=1 timeout=15</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/ghana_tv.png</thumbnail>
-</item>
 
 <item>
 <title>Fusion Plus TV</title>
@@ -427,18 +405,6 @@
 <thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/02/uk-music.jpg</thumbnail>
 <fanart>http://www.cityflavourmagazine.com/wp-content/uploads/2015/02/uk-music.jpg</fanart>
  <item>
-
-<item>
-<title>MTV Music</title>
-<link><link>http://37.48.118.32/live/mtvmusic.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.tvone1.com/mtv-music/</page>
-<referer>http://www.finecast.tv/channel.php?u=mtvmusic</referer>
-</regex></link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mtv_us.png</thumbnail>
-</item>
 
 <item>
 <title>MTV Hits</title>
@@ -926,178 +892,6 @@
 <fanart></fanart>
 </item>   
    
-<item>
-<title>ANIMAL PLANET</title>
-<link>$doregex[url]$doregex[analytics]|Cookie=$get_cookies$&amp;Referer=http://oneplay.tv/one-player/GrindPlayer.swf&amp;User-Agent=iPad</link>
-<regex>
-<name>analytics</name>
-<expres></expres>
-<page>http://live.oneplay.tv/analytics.php?id=262</page>
-<referer>http://oneplay.tv/embed/?i=74&amp;n=ANIMAL+PLANET&amp;w=100%&amp;h=480</referer>
-<agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>url</name>
-<expres>"video_src" href="(.*?)"</expres>
-<page>http://oneplay.tv/ver/canal/74/animal-planet</page>
-<agent>Mozilla/5.0 (Windows NT 6.2; rv:34.0) Gecko/20100101 Firefox/34.0</agent>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail></thumbnail>
-</item>	   
-
-
-<item> 
-<title>BBC 3</title>
-<link>http://$doregex[url]/live/29.low.stream/playlist.m3u8$doregex[key]</link>
-<regex>
-<name>url</name>
-<expres>low","url":"http:....([^\\]*)</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=29</page>
-</regex>
-<regex>
-<name>key</name>
-<expres>(\?id=.*?)"</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=29</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_three.png</thumbnail>
-</item>
-
-
-<item> 
-<title>E4</title>
-<link>http://$doregex[url]/live/65.low.stream/playlist.m3u8$doregex[key]</link>
-<regex>
-<name>url</name>
-<expres>low","url":"http:....([^\\]*)</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=65</page>
-</regex>
-<regex>
-<name>key</name>
-<expres>(\?id=.*?)"</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=65</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ee/e4_uk.png</thumbnail>
-</item>
-
-
-<item> 
-<title>Channel 4</title>
-<link>http://$doregex[url]/live/2.low.stream/playlist.m3u8$doregex[key]</link>
-<regex>
-<name>url</name>
-<expres>low","url":"http:....([^\\]*)</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=2</page>
-</regex>
-<regex>
-<name>key</name>
-<expres>(\?id=.*?)"</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=2</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/channel4_uk.png</thumbnail>
-</item>
-
-
-<item> 
-<title>Channel 5</title>
-<link>http://$doregex[url]/live/22.low.stream/playlist.m3u8$doregex[key]</link>
-<regex>
-<name>url</name>
-<expres>low","url":"http:....([^\\]*)</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=22</page>
-</regex>
-<regex>
-<name>key</name>
-<expres>(\?id=.*?)"</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=22</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/channel5_uk.png</thumbnail>
-</item>
-
-
-<item> 
-<title>Dave</title>
-<link>http://$doregex[url]/live/370.low.stream/playlist.m3u8$doregex[key]</link>
-<regex>
-<name>url</name>
-<expres>low","url":"http:....([^\\]*)</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=370</page>
-</regex>
-<regex>
-<name>key</name>
-<expres>(\?id=.*?)"</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=370</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/dave_uktv.png</thumbnail>
-</item>
-
-
-<item> 
-<title>ITV 1</title>
-<link>http://$doregex[url]/live/11.low.stream/playlist.m3u8$doregex[key]</link>
-<regex>
-<name>url</name>
-<expres>low","url":"http:....([^\\]*)</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=11</page>
-</regex>
-<regex>
-<name>key</name>
-<expres>(\?id=.*?)"</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=11</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv_uk.png</thumbnail>
-</item>
-
-<item> 
-<title>ITV 2</title>
-<link>http://$doregex[url]/live/67.low.stream/playlist.m3u8$doregex[key]</link>
-<regex>
-<name>url</name>
-<expres>low","url":"http:....([^\\]*)</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=67</page>
-</regex>
-<regex>
-<name>key</name>
-<expres>(\?id=.*?)"</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=67</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv2.png</thumbnail>
-</item>
-
-
-<item> 
-<title>[COLOR=FF00ff45]ITV 3[/COLOR]</title>
-<link>http://$doregex[url]/live/26.low.stream/playlist.m3u8$doregex[key]</link>
-<regex>
-<name>url</name>
-<expres>low","url":"http:....([^\\]*)</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=26</page>
-</regex>
-<regex>
-<name>key</name>
-<expres>(\?id=.*?)"</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=26</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv3.png</thumbnail>
-</item>
-
-
-<item> 
-<title>[COLOR=FF00ff45]ITV 4[/COLOR]</title>
-<link>http://$doregex[url]/live/101.low.stream/playlist.m3u8$doregex[key]</link>
-<regex>
-<name>url</name>
-<expres>low","url":"http:....([^\\]*)</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=101</page>
-</regex>
-<regex>
-<name>key</name>
-<expres>(\?id=.*?)"</expres>
-<page>http://www.filmon.com/tv/channel/export?channel_id=101</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv4.png</thumbnail>
-</item>
 
 <item>
 <title>NTV Music Naija</title>
@@ -2320,6 +2114,12 @@
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>Four</title>
+<link>http://besmenaas-s.akamaihd.net/live/233716_233717/besmena01s.isml/Manifest?primaryToken=1436471507_bcb23e6920bc1635ccf5e9fa0e5160ab</link>
 </item>
 
 <channel>
