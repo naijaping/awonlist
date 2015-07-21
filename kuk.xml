@@ -2111,17 +2111,6 @@
 </item>
 
 <item>
-<title>Canal +</title>
-<sportsdevil>http://cinestrenostv.tv/canales/canal-plus-1.html</sportsdevil>
-<referer>http://cinestrenostv.tv</referer>
-<thumbnail>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS6YW7FjokcNz-9hPKb57F3TcP-Ur4W9u0wkCxpWGhZ3d-O3OTy</thumbnail>
-
-</item>
-
-
-
-
-<item>
 <title>Beno</title>
 <link>$doregex[url]</link>
 <regex>
