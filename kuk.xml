@@ -2299,7 +2299,7 @@
 
 <item>
 <title>Test</title>
-<link>rtsp://astvstream1.tulix.tv/aitint/aitint</link>
+<link>rtmp://astvstream1.tulix.tv/ntaint/nta.stream</link>
 <thumbnail></thumbnail>
 </item>
 
