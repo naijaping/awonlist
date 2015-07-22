@@ -2172,25 +2172,12 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>mumo</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>'file': "(.*?)"</expres>
-<page>http://sportsaccess.se/euplayer.php?ch=02&server=03</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
 
 <item>
 <title>club</title>
-<link>$doregex[get-url] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15</link>
+<link>$doregex[url] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15</link>
 <regex>
-<name>get-url</name>
+<name>url</name>
 <expres>'file': "(.*?)"</expres>
 <page>http://sportsaccess.se/usplayer.php?ch=01&server=01</page>
 <referer>http://sportsaccess.se/index.php?pg=usa</referer>
