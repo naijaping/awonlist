@@ -2201,7 +2201,7 @@
 <name>get-accesskey</name>
 <expres></expres>
 <page>http://sportsaccess.se/index.php?pg=main</page>
-<rawpost>vb_login_username=bse777&amp;vb_login_password=qwertyuiop<rawpost>
+<post>vb_login_username=bse777&amp;vb_login_md5password=qwertyuiop</post>
 <referer>http://sportsaccess.se/</referer>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
 <cookieJar></cookieJar>
