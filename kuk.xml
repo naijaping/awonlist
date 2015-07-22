@@ -2166,6 +2166,12 @@
 <thumbnail>http://www.lyngsat-logo.com/hires/nn/nba_tv.png</thumbnail>
 </item>
 
+<item>
+<title>NHL TV</title>
+<link>http://smb.cdnak.neulion.com/fs1/mobile/video/nldsdvr/nhl/bruins/as/live/bruins_hd_1600.m3u8</link>
+<thumbnail>http://members.shaw.ca/gerryphinney/images/nhl.png</thumbnail>
+</item>
+
 
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
