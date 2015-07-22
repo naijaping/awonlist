@@ -2160,17 +2160,13 @@
 </regex>
 </item>
 
-<item>
-<title>NHL Network</title>
-<link>http://smb.cdnak.neulion.com/fs/nhl/mobile/iphone/video/nhlnetwork/ipad_1840.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/nn/nhl_network.png</thumbnail>
+
+<title>Nollywood TV</title>
+<link>http://nlds174.neulion.com/nlds/nhlvc/bos_632593/as/live/bos_632593_hd_3000.m3u8</link>
+<thumbnail>http://i59.tinypic.com/xndr34.jpg</thumbnail>
 </item>
 
-<item>
-<title>NHL TV</title>
-<link>http://smb.cdnak.neulion.com/fs1/mobile/video/nldsdvr/nhl/bruins/as/live/bruins_hd_1600.m3u8</link>
-<thumbnail>http://members.shaw.ca/gerryphinney/images/nhl.png</thumbnail>
-</item>
+
 
 
 
