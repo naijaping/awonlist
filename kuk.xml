@@ -2172,6 +2172,15 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Popi</title>
+<link>http://ak-cred-fubotv-us-en-stream.fubo.tv/UT-Origin/ngrp:fuboTV-Origin_all/playlist.m3u8?hdnts=$doregex[st]</link>
+<regex>
+<name>st</name>
+<expres>hdnts=(.*?)"</expres>
+<page>https://www.fubo.tv/channel/fuboTV_Network</page>
+</regex>
+</item>
 
 
 
