@@ -2179,7 +2179,7 @@
 <regex>
 <name>url</name>
 <expres>'file': "(.*?)"</expres>
-<page>http://sportsaccess.se/usplayer.php?ch=01&amp;server=01</page>
+<page>http://sportsaccess.se/usplayer.php?ch=01&server=01</page>
 <referer>http://sportsaccess.se/index.php?pg=usa</referer>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
 <cookieJar>$doregex[accesskey]</cookieJar>
