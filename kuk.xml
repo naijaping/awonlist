@@ -2174,12 +2174,7 @@
 
 <item>
 <title>Popi</title>
-<link>http://ak-cred-fubotv-us-en-stream.fubo.tv/UT-Origin/ngrp:fuboTV-Origin_all/playlist.m3u8?hdnts=$doregex[st]</link>
-<regex>
-<name>st</name>
-<expres>hdnts=(.*?)"</expres>
-<page>https://www.fubo.tv/channel/fuboTV_Network</page>
-</regex>
+<link>http://ak-cred-fubotv-us-en-stream.fubo.tv/UT-Origin/ngrp:fuboTV-Origin_all/playlist.m3u8?hdnts=ip%3D85.5.87.218~st%3D1437559475~exp%3D1437559595~acl%3D%2F*~hmac%3D4436f5968a5f85f869cd9a4a496a06a04dc08543d711ac5c7e31560641681131</link>
 </item>
 
 
