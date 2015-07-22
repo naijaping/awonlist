@@ -2166,7 +2166,7 @@
 <regex>
 <name>url</name>
 <expres>source src="(.*?)"</expres>
-<page>http://www.asiamediaglobal.org/android/andy/play_live.php?cid=180</page>
+<page>http://www.asiamediaglobal.org/android/andy/play_live.php?cid=181</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
