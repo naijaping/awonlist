@@ -2179,13 +2179,13 @@
 <regex>
 <name>url</name>
 <expres>'file': "(.*?)"</expres>
-<page>http://sportsaccess.se/usplayer.php?ch=01&server=01</page>
+<page>http://sportsaccess.se/usplayer.php?ch=01&amp;server=01</page>
 <referer>http://sportsaccess.se/index.php?pg=usa</referer>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
-<cookieJar>$doregex[Login]</cookieJar>
+<cookieJar>$doregex[accesskey]</cookieJar>
 </regex>
 <regex>
-<name>Login</name>
+<name>accesskey</name>
 <expres></expres>
 <page>http://sportsaccess.se/index.php?pg=main</page>
 <post>vb_login_username=bse777&amp;vb_login_password=qwertyuiop</post>
