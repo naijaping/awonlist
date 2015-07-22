@@ -2195,15 +2195,22 @@
 <page>http://sportsaccess.se/usplayer.php?ch=01&server=01</page>
 <referer>http://sportsaccess.se/index.php?pg=usa</referer>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
-<cookieJar>$doregex[get-accesskey]</cookieJar>
+<cookieJar>$doregex[Login]</cookieJar>
 </regex>
 <regex>
-<name>get-accesskey</name>
+<name>Login</name>
 <expres></expres>
 <page>http://sportsaccess.se/index.php?pg=main</page>
 <post>vb_login_username=bse777&amp;vb_login_md5password=qwertyuiop</post>
 <referer>http://sportsaccess.se/</referer>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
+<cookieJar>$doregex[Cookie]</cookieJar>
+</regex>
+<regex>
+<name>Cookie</name>
+<expres></expres>
+<page>http://sportsaccess.se/</page>
+<cookieJar></cookieJar>
+</regex>
 <cookieJar></cookieJar>
 </regex>
 </item>
