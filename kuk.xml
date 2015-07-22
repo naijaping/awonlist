@@ -2186,15 +2186,10 @@
 
 
 <item>
-<title>egex</title>
-<link>$doregex[url] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://sportsaccess.se timeout=15 live=1</link>
+<title>megex</title>
+<link>$doregex[reg1] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://sportsaccess.se timeout=15 live=1</link>
 <regex>
-<name>url</name>
-<expres>$pyFunction:urllib.unquote('$doregex[getcode]')</expres>
-<page></page>
-</regex>
-<regex>
-<name>getcode</name>
+<name>reg1</name>
 <expres>'file': "(.*?)"</expres>
 <page>http://sportsaccess.se/euplayer.php?ch=02&server=03</page>
 <referer>http://sportsaccess.se/index.php?pg=main</referer>
