@@ -2161,15 +2161,15 @@
 </item>
 
 <item>
-<title>NBATV</title>
-<link>http://nba247.cdnak.nbahd.neulion.com/mobile/nba/nba247/as/live/ipad_1840.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/nn/nba_tv.png</thumbnail>
+<title>Real Madrid TV</title>
+<link>http://rmtv1live.realmadrid.com/streams/rmtv1ipad/rmtv1ipad.m3u8</link>
+<thumbnail>http://upload.wikimedia.org/wikipedia/en/a/ae/Realmadrid-TV.jpg</thumbnail>
 </item>
 
 <item>
-<title>NHL TV</title>
-<link>http://smb.cdnak.neulion.com/fs1/mobile/video/nldsdvr/nhl/bruins/as/live/bruins_hd_1600.m3u8</link>
-<thumbnail>http://members.shaw.ca/gerryphinney/images/nhl.png</thumbnail>
+<title>Pro Wrestling TV</title>
+<link>rtmp://80.93.53.88:1935/live/wrestling.stream</link>
+<thumbnail>http://www.pro-wrestling.tv/images/pwtv2012-1.png</thumbnail>
 </item>
 
 
