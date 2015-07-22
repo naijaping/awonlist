@@ -2173,12 +2173,12 @@
 </item>
 
 <item>
-<title>mumu</title>
+<title>mumi</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>'file':(.*?)'</expres>
-<page>http://sportsaccess.se/usplayer.php?ch=01&server=01</page>
+<page>http://sportsaccess.se/usplayer.php?ch=01</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
