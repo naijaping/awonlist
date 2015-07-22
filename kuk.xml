@@ -2185,37 +2185,10 @@
 </item>
 
 
-<item>
-<title>megex</title>
-<link>$doregex[reg1] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://sportsaccess.se timeout=15 live=1</link>
-<regex>
-<name>reg1</name>
-<expres>'file': "(.*?)"</expres>
-<page>http://sportsaccess.se/euplayer.php?ch=02&server=03</page>
-<referer>http://sportsaccess.se/index.php?pg=usa</referer>
-<cookieJar>$doregex[Login]</cookieJar>
-</regex>
-<regex>
-<name>Login</name>
-<expres></expres>
-<page>http://sportsaccess.se/login.php?do=login</page>
-<post>vb_login_username=bse777&amp;vb_login_password=qwertyuiop</post>
-<referer>http://sportsaccess.se/index.php?pg=main</referer>
-<cookieJar>$doregex[Cookie]</cookieJar>
-</regex>
-<regex>
-<name>Cookie</name>
-<expres></expres>
-<page>http://sportsaccess.se/</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<thumbnail></thumbnail>
-</item>
 
 <item>
-<title> sportsdonkey.club</title>
-<link>$doregex[get-url] live=1 timeout=15 flashVer=WIN\2016,0,0,305</link>
+<title>club</title>
+<link>$doregex[get-url] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15</link>
 <regex>
 <name>get-url</name>
 <expres>'file': "(.*?)"</expres>
