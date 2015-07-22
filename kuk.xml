@@ -2189,7 +2189,7 @@
 <expres></expres>
 <page>http://sportsaccess.se/login.php?do=login</page>
 <rawpost>vb_login_username=bse777&amp;vb_login_password=qwertyuiop</rawpost>
-<referer>http://sportsaccess.se/index.php?pg=main</referer>
+<referer>http://sportsaccess.se/</referer>
 <cookieJar>$doregex[Cookie]</cookieJar>
 </regex>
 <regex>
