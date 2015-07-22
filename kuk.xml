@@ -2174,7 +2174,7 @@
 
 
 <item>
-<title>club</title>
+<title>clubi</title>
 <link>$doregex[url] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15</link>
 <regex>
 <name>url</name>
@@ -2190,10 +2190,10 @@
 <page>http://sportsaccess.se/login.php?do=login</page>
 <rawpost>vb_login_username=bse777&amp;vb_login_password=qwertyuiop</rawpost>
 <referer>http://sportsaccess.se/</referer>
-<cookieJar>$doregex[Cookie]</cookieJar>
+<cookieJar>$doregex[cookieuser]</cookieJar>
 </regex>
 <regex>
-<name>Cookie</name>
+<name>cookieuser</name>
 <expres></expres>
 <page>http://sportsaccess.se/</page>
 <cookieJar></cookieJar>
