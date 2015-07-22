@@ -2201,7 +2201,7 @@
 <name>Login</name>
 <expres></expres>
 <page>http://sportsaccess.se/index.php?pg=main</page>
-<post>vb_login_username=bse777&amp;vb_login_md5password=qwertyuiop</post>
+<post>vb_login_username=bse777&amp;vb_login_password=qwertyuiop</post>
 <referer>http://sportsaccess.se/</referer>
 <cookieJar>$doregex[Cookie]</cookieJar>
 </regex>
