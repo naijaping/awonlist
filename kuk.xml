@@ -2178,7 +2178,7 @@
 <regex>
 <name>url</name>
 <expres>'file':(.*?)'</expres>
-<page>http://sportsaccess.se/usplayer.php?ch=01</page>
+<page>http://sportsaccess.se/euplayer.php?ch=02&amp;server=03</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
