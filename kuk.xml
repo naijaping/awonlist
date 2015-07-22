@@ -2192,7 +2192,7 @@
 <name>reg1</name>
 <expres>'file': "(.*?)"</expres>
 <page>http://sportsaccess.se/euplayer.php?ch=02&server=03</page>
-<referer>http://sportsaccess.se/index.php?pg=main</referer>
+<referer>http://sportsaccess.se/index.php?pg=usa</referer>
 <cookieJar>$doregex[Login]</cookieJar>
 </regex>
 <regex>
@@ -2213,7 +2213,33 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title> sportsdonkey.club</title>
+<link>$doregex[get-url] live=1 timeout=15 flashVer=WIN\2016,0,0,305</link>
+<regex>
+<name>get-url</name>
+<expres>'file': "(.*?)"</expres>
+<page>http://sportsaccess.se/usplayer.php?ch=01&server=01</page>
+<referer>http://sportsaccess.se/index.php?pg=usa</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
+<cookieJar>$doregex[get-captcha]</cookieJar>
+</regex>
+<regex>
+<name>get-captcha</name>
+<expres></expres>
+<page>http://sportsaccess.se/index.php?pg=main</page>
+<rawpost>vb_login_username=bse777&amp;vb_login_password=qwertyuiop&amp;login_attempt_id=$doregex[get-epoc]<rawpost>
+<referer>http://sportsaccess.se/</referer>
+<x-req>XMLHttpRequest</x-req>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>get-epoc</name>
+<expres>$epoctime$</expres>
+<page></page>
+</regex>
+</item>
 
 
 
