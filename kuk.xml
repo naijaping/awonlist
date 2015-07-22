@@ -2201,7 +2201,7 @@
 <name>applycaptcha</name>
 <expres></expres>
 <page>http://sportsaccess.se/index.php?pg=main</page>
-<post>vb_login_username: bse777,vb_login_password:aramide,login_attempt_id:$doregex[get-epoc]<post>
+<post>vb_login_username:bse777,vb_login_password:qwertyuiop,login_attempt_id:$doregex[get-epoc]<post>
 <referer>http://sportsaccess.se/index.php?pg=main</referer>
 <x-req>XMLHttpRequest</x-req>
 <cookieJar></cookieJar>
@@ -2213,6 +2213,39 @@
 </regex>
 </item>
 
+
+<item>
+<title>egex</title>
+<link>$doregex[url] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://sportsaccess.se timeout=15 live=1</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:urllib.unquote('$doregex[getcode]')</expres>
+<page></page>
+</regex>
+<regex>
+<name>getcode</name>
+<expres>'file': "(.*?)"</expres>
+<page>http://sportsaccess.se/euplayer.php?ch=02&server=03</page>
+<referer>http://sportsaccess.se/index.php?pg=main</referer>
+<cookieJar>$doregex[Login]</cookieJar>
+</regex>
+<regex>
+<name>Login</name>
+<expres></expres>
+<page>https://www.livego.tv/plogin</page>
+<rawpost>vb_login_username=bse777&amp;vb_login_password=qwertyuiop</rawpost>
+<referer>http://sportsaccess.se/index.php?pg=main</referer>
+<cookieJar>$doregex[Cookie]</cookieJar>
+</regex>
+<regex>
+<name>Cookie</name>
+<expres></expres>
+<page>http://sportsaccess.se/</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
