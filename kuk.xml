@@ -2173,7 +2173,7 @@
 </item>
 
 <item>
-<title>mumi</title>
+<title>mumo</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
