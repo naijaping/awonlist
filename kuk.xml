@@ -2198,10 +2198,10 @@
 <cookieJar>$doregex[get-captcha]</cookieJar>
 </regex>
 <regex>
-<name>get-captcha</name>
+<name>get-accesskey</name>
 <expres></expres>
 <page>http://sportsaccess.se/index.php?pg=main</page>
-<rawpost>vb_login_username=bse777&amp;vb_login_password=qwertyuiop&amp;login_attempt_id=$doregex[get-epoc]<rawpost>
+<rawpost>vb_login_username=bse777&amp;vb_login_password=qwertyuiop&amp;vb_login_md5password_utf=$doregex[get-epoc]<rawpost>
 <referer>http://sportsaccess.se/</referer>
 <x-req>XMLHttpRequest</x-req>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
