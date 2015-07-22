@@ -2123,10 +2123,43 @@
 </item>
 
 <item>
-<title>Potiu</title>
-<link>rtmp://37.48.83.131/live?wmsAuthSign=c2VydmVyX3RpbWU9Ni8zMC8yMDE1IDM6MTc6NTAgUE0maGFzaF92YWx1ZT16V3R0c3hpSWIwN3kyWXVubU5OaXhRPT0mdmFsaWRtaW51dGVzPTIw/bt11.stream?wmsAuthSign=c2VydmVyX3RpbWU9Ni8zMC8yMDE1IDM6MTc6NTAgUE0maGFzaF92YWx1ZT16V3R0c3hpSWIwN3kyWXVubU5OaXhRPT0mdmFsaWRtaW51dGVzPTIw</link>
-<thumbnail>http://i59.tinypic.com/2a0dfr8.jpg</thumbnail>
+<title>A&E</title>
+<link>rtmp://109.200.202.124/live?wmsAuthSign=$doregex[auth]$doregex[id] playpath=ae_1 swfUrl=http://www.tvmsn.com/player/player.swf pageUrl=http://www.tv-msn.com timeout=15 live=1 token=cc9bfb62db43975c</link>
+<regex>
+<name>auth</name>
+<expres>$pyFunction:'$doregex[get-auth]'.replace('"','').replace(',','')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-auth</name>
+<expres>var $doregex[vcod] = \[(.*?)\]</expres>
+<page>http://www.tv-msn.com/ae.php
+</page>
+<referer>http://www.tv-msn.com</referer>
+</regex>
+<regex>
+<name>vcod</name>
+<expres>join\(""\) \+ (.*?)\.join</expres>
+<page>http://www.tv-msn.com/ae.php
+</page>
+<referer>http://www.tv-msn.com</referer>
+</regex>
+<regex>
+<name>id</name>
+<expres>id=$doregex[vid]\>(.*?)\<</expres>
+<page>http://www.tv-msn.com/ae.php
+</page>
+<referer>http://www.tv-msn.com</referer>
+</regex>
+<regex>
+<name>vid</name>
+<expres>ById\("(.*?)"</expres>
+<page>http://www.tv-msn.com/ae.php
+</page>
+<referer>http://www.tv-msn.com</referer>
+</regex>
 </item>
+
  
 
 
