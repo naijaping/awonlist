@@ -2161,9 +2161,15 @@
 </item>
 
 <item>
-<title>Nollywood TV</title>
-<link>http://nlds126.cdnak.neulion.com/nlds/nhl/mapleleafs/as/live/mapleleafs_hd_3000.m3u8</link>
-<thumbnail>http://i59.tinypic.com/xndr34.jpg</thumbnail>
+<title>Trace</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.shadownet.biz/channels/other/trace-sports.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
 
