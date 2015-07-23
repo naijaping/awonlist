@@ -2182,6 +2182,17 @@
 <referer></referer>
 </regex>
 </item>
+
+<item>
+<title>dom</title>
+<link>rtmp://liveedge.sportsdonkey.club/send$doregex[get-auth]/ss2hd.stream</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.giniko.com/watch.php?id=95</page>
+<referer></referer>
+</regex>
+</item>
  
  
 <item>
