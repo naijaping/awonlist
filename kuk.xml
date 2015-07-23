@@ -2181,8 +2181,8 @@
 <link>rtmp://liveedge.sportsdonkey.club/send?wmsAuthSign=$doregex[auth]/ss1hd.stream</link>
 <regex>
 <name>auth</name>
-<expres>wmsAuthSign=(.*?)'</expres>
-<page>http://sportsdonkey.club/site/live/?id=23</page>
+<expres>wmsAuthSign=(.*?)"</expres>
+<page>http://www.giniko.com/watch.php?id=27</page>
 <referer></referer>
 </regex>
  </item>
