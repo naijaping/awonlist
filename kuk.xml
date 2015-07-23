@@ -2178,10 +2178,10 @@
 
 <item>
 <title>do</title>
-<link>rtmp://liveedge.sportsdonkey.club/send?wmsAuthSign=$doregex[auth]/ss1hd.stream</link>
+<link>rtmp://liveedge.sportsdonkey.club/send?wmsAuthSign=$doregex[auth]</link>
 <regex>
 <name>auth</name>
-<expres>wmsAuthSign=(.*?)"</expres>
+<expres>wmsAuthSign=(.*?)"/ss1hd.stream</expres>
 <page>http://www.giniko.com/watch.php?id=95</page>
 <referer></referer>
 </regex>
