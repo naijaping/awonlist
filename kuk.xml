@@ -2171,8 +2171,8 @@
 </item>
 
 <item>
-<title>Puao</title>
-<link>rtmp://liveedge.sportsdonkey.club/send?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yMy8yMDE1IDEyOjA4OjEzIFBNJmhhc2hfdmFsdWU9cnhEQ0lORDBtR04yVko5c0xzdTY1QT09JnZhbGlkbWludXRlcz02MA==/ss1hd.stream</link>
+<title>Puo</title>
+<link>rtmp://liveedge.sportsdonkey.club/send?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yMy8yMDE1IDEyOjIwOjIzIFBNJmhhc2hfdmFsdWU9K3lOaUJDeGkyL0VsRVNzaTUvb3cydz09JnZhbGlkbWludXRlcz02MA==/ss1hd.stream</link>
 </item>
 
 
@@ -2182,7 +2182,7 @@
 <regex>
 <name>auth</name>
 <expres>wmsAuthSign=(.*?)"</expres>
-<page>http://www.giniko.com/watch.php?id=27</page>
+<page>http://www.giniko.com/watch.php?id=95</page>
 <referer></referer>
 </regex>
  </item>
