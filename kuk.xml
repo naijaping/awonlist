@@ -2162,17 +2162,14 @@
 
 <item>
 <title>Poi</title>
-<link>http://nlds16.cdnllnwnl.neulion.com/nlds/nba/nba247/as/live/nba247_hd_ipad.m3u8</link>
+<link>http://nlds16.cdnllnwnl.neulion.com/nlds/nba/nba247/as/live/nba247_hd/chuncklist.m3u8</link>
 </item>
 
-<item>
-<title>nba</title>
-<link>http://nba247.cdnak.nbahd.neulion.com/mobile/nba/nba247/as/live/ipad_1840.m3u8</link>
-</item>
+
 
 <item>
 <title>Nd0</title>
-<link>http://edge-us.wow.mivo.tv/mivotvjkt/more2_240p/playlist.m3u8$doregex[get-auth]</link>
+<link>$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
