@@ -2175,12 +2175,7 @@
 <link>rtmp://liveedge.sportsdonkey.club/send?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yMy8yMDE1IDEyOjA4OjEzIFBNJmhhc2hfdmFsdWU9cnhEQ0lORDBtR04yVko5c0xzdTY1QT09JnZhbGlkbWludXRlcz02MA==/ss1hd.stream</link>
 </item>
 
-<item>
-<title>Pulalo</title>
-<link>rtmp://liveedge.sportsdonkey.club/send?wmsAuthSign=c2VydmVyX3RpbWU9Ni85LzIwMTUgNzo0NToyOSBQTSZoYXNoX3ZhbHVlPUR3eXpvWjYwblBLcVVGNDl2Vlg4OFE9PSZ2YWxpZG1pbnV0ZXM9Mw==/ss2hd.stream live=true timeout=20</link>
-</item>
- 
- 
+
 <item>
 <title>doni</title>
 <link>rtmp://liveedge.sportsdonkey.club/send?wmsAuthSign=$doregex[auth]/ss1hd.stream</link>
