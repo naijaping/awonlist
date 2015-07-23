@@ -2177,7 +2177,7 @@
 <link>rtmp://liveedge.sportsdonkey.club/send?wmsAuthSign=$doregex[auth]/ss2hd.stream</link>
 <regex>
 <name>auth</name>
-<expres>send/?wmsAuthSign=(.*?)"</expres>
+<expres>m3u8\?wmsAuthSign=(.*?)"</expres>
 <page>http://www.giniko.com/watch.php?id=95</page>
 <referer></referer>
 </regex>
