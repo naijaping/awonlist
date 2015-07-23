@@ -2178,7 +2178,7 @@
 <link>$doregex[url] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://sportsaccess.se live=1 timeout=15</link>
 <regex>
 <name>url</name>
-<expres>file': "(.*?)"</expres>
+<expres>'file': "(.*?)"</expres>
 <page>http://sportsaccess.se/usplayer.php?ch=01&server=01</page>
 <referer>http://sportsaccess.se/index.php?pg=usa</referer>
 <cookieJar>$doregex[Login]</cookieJar>
