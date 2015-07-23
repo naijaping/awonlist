@@ -2218,6 +2218,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Football_report_network</title>
+<link>http://fubotv-origin.fubotv.com.a.prod.fastly.net/UT-Origin/ngrp:FootballReport_all/playlist.m3u8?hdnts=$doregex[tok]</link>
+<regex>
+<name>tok</name>
+<expres>"token":"(.*?)"</expres>
+<page>https://api.fubo.tv/public/edgeauth/token</page>
+<referer>https://www.fubo.tv</referer>
+</regex>
+</item>
+
  
 
 
