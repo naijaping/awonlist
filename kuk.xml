@@ -2182,7 +2182,16 @@
 </item>
  
  
- 
+<item>
+<title>don</title>
+<link>rtmp://liveedge.sportsdonkey.club/send?wmsAuthSign=$doregex[auth]</link>
+<regex>
+<name>auth</name>
+<expres>$pyFunction:'$doregex[get-auth]'.replace('"','').replace(',','')</expres>
+<page>http://sportsdonkey.club/site/live/?id=13</page>
+<referer>http://sportsdonkey.club/site/live/</referer>
+</regex>
+ </item>
 
 
 <channel>
