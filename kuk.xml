@@ -2159,18 +2159,6 @@
 </regex>
 </item>
 
-<item>
-<title>Poi</title>
-<link>http://nlds16.cdnllnwnl.neulion.com/nlds/nba/nba247/as/live/nba247_hd/chuncklist.m3u8</link>
-</item>
-
-
-<item>
-<title>Putooo</title>
-<link>http://nba247.cdnak.nbahd.neulion.com/mobile/nba/nba247/as/live/ipad_1840.m3u8</link>
-</item>
-
-
 
 <item>
 <title>do</title>
@@ -2213,7 +2201,7 @@
 
 <item>
 <title>MUMU</title>
-<link></link>
+<link>rtmp://liveedge.sportsdonkey.club/send?wmsAuthSign=c2VydmVyX3RpbWU9NS8xMS8yMDE1IDY6NTY6MjYgUE0maGFzaF92YWx1ZT1Ha0k0UWppZkJIcytwVUZOSE9lS0lRPT0mdmFsaWRtaW51dGVzPTIyJmlkPTE=/ss2hd.stream</link>
 <thumbnail></thumbnail>
 </item>
 
