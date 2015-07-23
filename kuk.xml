@@ -2171,17 +2171,18 @@
 </item>
 
 <item>
-<title>MLB Network</title>
-<link>http://edge-us.nim.mivo.tv/shine/shine_mobile.smil/playlist.m3u8$doregex[get-auth]</link>
+<title>Nd0</title>
+<link>http://edge-us.wow.mivo.tv/mivotvjkt/more2_240p/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
-<page>http://sportsaccess.se/usplayer.php?ch=03&server=01</page>
+<page>http://bit.ly/1LNoGly</page>
 <agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
-<referer>http://sportsaccess.se/index.php?pg=usa</referer>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
+
 
 
 
