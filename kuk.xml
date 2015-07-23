@@ -2186,8 +2186,8 @@
 <link>rtmp://liveedge.sportsdonkey.club/send?wmsAuthSign=$doregex[auth]</link>
 <regex>
 <name>auth</name>
-<expres>$pyFunction:'$doregex[get-auth]'.replace('"','').replace(',','')</expres>
-<page>http://www.tv-msn.com/ae.php</page>
+<expres>wmsAuthSign=(.*?)'</expres>
+<page>http://sportsdonkey.club/site/live/?id=23</page>
 <referer></referer>
 </regex>
  </item>
