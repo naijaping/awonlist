@@ -2171,7 +2171,7 @@
 <agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
 <referer>http://sportsaccess.se/index.php?pg=usa</referer>
 </regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nfl_network_us.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
