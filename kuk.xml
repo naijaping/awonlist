@@ -2177,7 +2177,7 @@
 
 
 <item>
-<title>doni</title>
+<title>do</title>
 <link>rtmp://liveedge.sportsdonkey.club/send?wmsAuthSign=$doregex[auth]/ss1hd.stream</link>
 <regex>
 <name>auth</name>
