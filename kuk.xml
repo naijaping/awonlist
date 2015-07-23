@@ -2191,6 +2191,18 @@
 <link>rtmp://liveedge.sportsdonkey.club/send?wmsAuthSign=c2VydmVyX3RpbWU9Ni85LzIwMTUgOTozMjo1MyBQTSZoYXNoX3ZhbHVlPWhXMytlQytvQmgvNkFZaU5LbmJLb0E9PSZ2YWxpZG1pbnV0ZXM9Mw==/ss1hd.stream</link>
 </item>
  
+ 
+ 
+ <item>
+<title>Yupptvo</title>
+<link>$doregex[url]|Referer=http://static.aka.yupp.yuppcdn.net/staticstorage/jwplayer/jw_6_12/jwplayer.flash.swf</link>
+<regex>
+<name>url</name>
+<expres>file:'(.*?)'<expres>
+<page>http://streams.yupptv.com/freechannelplayer.aspx?id=42</page>
+<referer>http://streams.yupptv.com/</referer>
+</regex>
+</item>
 
 
 <channel>
