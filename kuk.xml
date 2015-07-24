@@ -2239,18 +2239,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Tooo</title>
-<link>http://liveedge.sportsdonkey.club/send/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://bit.ly/1LNoGly</page>
-<agent></agent>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
