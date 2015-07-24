@@ -2225,6 +2225,7 @@
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
 <page>http://bit.ly/1LNoGly</page>
+<referer>http://sportsdonkey.club/site/live/</referer>
 <agent></agent>
 <referer></referer>
 </regex>
