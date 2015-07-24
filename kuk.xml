@@ -2216,12 +2216,28 @@
  
 
 
+<item>
+<title>Tel68</title>
+<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/68.m3u8</link>
+<thumbnail></thumbnail>
+</item>
 
+<item>
+<title>Tel69</title>
+<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/69.m3u8</link>
+<thumbnail></thumbnail>
+</item>
 
 
 <item>
-<title>Testii</title>
+<title>Telnba</title>
 <link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/70.m3u8</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Tel71</title>
+<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/71.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
