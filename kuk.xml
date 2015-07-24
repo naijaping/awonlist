@@ -1202,11 +1202,6 @@
 </item>
 
 <item>
-<title>SNE</title>
-<link>rtmp://w13.vmnode.pw:1935/live playpath=tsn swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/tsnmix.php live=true timeout=20</link>
-</item>
-
-<item>
 <title>Viasat Sport</title>
 <link>http://46.61.226.18/hls/CH_C06_VIASATSPORTHD/bw3000000/variant.m3u8?version=2</link>
 </item>
@@ -1294,24 +1289,6 @@
 <name>get-unpacked</name>
 <expres>$pyFunction:get_unpacked('http://shoof.alkass.net/shoof/live/live_2.php','(eval.*)' )</expres>
 <page></page>
-</regex>
-</item>
-
-<item>
-<title>channel 5 test</title>
-<link>http://ak.live.hls.c4assets.com/hls/m4/master.m3u8</link>
-</regex>
-</item>
-
-<item>
-<title>NBA</title>
-<link>rtmp://w3.vmnode.pw:1935/live playpath=elite2 swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/elite2.php live=true timeout=20</link>
-</regex>
-</item>
-
-<item>
-<title>NBA2</title>
-<link>rtmp://w14.vmnode.pw:1935/live playpath=elite1 swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/elite1.php live=1 timeout=10</link>
 </regex>
 </item>
 
@@ -2268,7 +2245,7 @@
 
 <item>
 <title>poko</title>
-<link>http://fsplive_hls-lh.akamaihd.net/i/fsp_hls_fssea_1@305330/master.m3u8</link>
+<link>http://fsplive_hls-lh.akamaihd.net/i/fsp_hls_fssea_1@305330/master.m3u8|X-Forwarded-For=67.212.175.123</link>
 <thumbnail></thumbnail>
 </item>
 
