@@ -2224,7 +2224,7 @@
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
-<page>http://bit.ly/1LNoGly</page>
+<page>http://sportsaccess.se/usplayer.php?ch=03&server=01</page>
 <agent></agent>
 <referer></referer>
 </regex>
@@ -2232,31 +2232,7 @@
 </item>
 
 
-<item>
-<title>Test2</title>
-<link>http://liveedge.sportsdonkey.club/send/playlist.m3u8$doregex[get-auth]/ss2hd.stream</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://bit.ly/1LNoGly</page>
-<agent></agent>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
-<item>
-<title>Test3</title>
-<link>http://liveedge.sportsdonkey.club/send/playlist.m3u8$doregex[get-auth]/ss3hd.stream</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://bit.ly/1LNoGly</page>
-<agent></agent>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 
 <channel>
