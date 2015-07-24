@@ -2214,27 +2214,17 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/gol_tv.png</thumbnail>
 </item>
  
-
+ 
 <item>
-<title>k4</title>
-<link>rtmp://37.187.167.166:2195/live/sky4?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yNC8yMDE1IDk6MTc6NDggQU0maGFzaF92YWx1ZT1uZ3BLT0tuSVBzbHk2RDhuTkZIYzFBPT0mdmFsaWRtaW51dGVzPTYw=</link>
+<title>b1</title>
+<link>rtmp://37.187.167.166:2195/live/btsports1?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yNC8yMDE1IDk6MTc6NDggQU0maGFzaF92YWx1ZT1uZ3BLT0tuSVBzbHk2RDhuTkZIYzFBPT0mdmFsaWRtaW51dGVzPTYw=</link>
 </item>
 
 <item>
-<title>k5</title>
-<link>rtmp://37.187.167.166:2195/live/sky5?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yNC8yMDE1IDk6MTc6NDggQU0maGFzaF92YWx1ZT1uZ3BLT0tuSVBzbHk2RDhuTkZIYzFBPT0mdmFsaWRtaW51dGVzPTYw=</link>
+<title>b1</title>
+<link>rtmp://37.187.167.166:2195/live/btsports2?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yNC8yMDE1IDk6MTc6NDggQU0maGFzaF92YWx1ZT1uZ3BLT0tuSVBzbHk2RDhuTkZIYzFBPT0mdmFsaWRtaW51dGVzPTYw=</link>
 </item>
 
-<item>
-<title>knews</title>
-<link>rtmp://37.187.167.166:2195/live/skynews?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yNC8yMDE1IDk6MTc6NDggQU0maGFzaF92YWx1ZT1uZ3BLT0tuSVBzbHk2RDhuTkZIYzFBPT0mdmFsaWRtaW51dGVzPTYw=</link>
-</item>
-
-
-<item>
-<title>kf1</title>
-<link>rtmp://37.187.167.166:2195/live/skyf1?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yNC8yMDE1IDk6MTc6NDggQU0maGFzaF92YWx1ZT1uZ3BLT0tuSVBzbHk2RDhuTkZIYzFBPT0mdmFsaWRtaW51dGVzPTYw=</link>
-</item>
 
 
 <channel>
