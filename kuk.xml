@@ -2226,7 +2226,19 @@
 </item>
 
 <item>
-<title>Testii2</title>
+<title>Test72</title>
+<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/72.m3u8</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Test73</title>
+<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/73.m3u8</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Telfc</title>
 <link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/121.m3u8</link>
 <thumbnail></thumbnail>
 </item>
