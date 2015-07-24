@@ -2214,6 +2214,11 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/gol_tv.png</thumbnail>
 </item>
  
+<item>
+<title>Te</title>
+<link>rtmp://37.187.172.168:1935/static/discovery_121 timeout=10</link>
+<thumbnail></thumbnail>
+</item>
 
 
 
