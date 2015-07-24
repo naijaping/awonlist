@@ -2267,6 +2267,13 @@
 
 
 <item>
+<title>poko</title>
+<link>http://iptv.wssiptv.com:80/live/wssiptvdotcom/Uysi8iOity965sSwqes/34.ts </link>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
 <title>Test2</title>
 <link>http://37.187.167.166:2195/live/sky5/playlist.m3u8$doregex[get-auth]</link>
 <regex>
