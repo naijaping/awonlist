@@ -2214,11 +2214,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/gol_tv.png</thumbnail>
 </item>
  
-<item>
-<title>Te</title>
-<link>rtmp://37.187.172.168:1935/static/discovery_121 timeout=10</link>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
@@ -2232,7 +2228,7 @@
 
 <item>
 <title>Test2</title>
-<link>http://37.187.167.166:2195/live/fs1/playlist.m3u8$doregex[get-auth]</link>
+<link>http://37.187.167.166:2195/live/sky1/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
