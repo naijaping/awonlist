@@ -2214,7 +2214,10 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/gol_tv.png</thumbnail>
 </item>
  
- 
+ <item>
+<title>F2</title>
+<link>http://37.187.167.166:2195/live?wmsAuthSign=c2VydmVyX3RpbWU9Ni85LzIwMTUgNzo0NTowMyBQTSZoYXNoX3ZhbHVlPWFoVXl1UW5aUVpOZlZwUkxBbUk3U1E9PSZ2YWxpZG1pbnV0ZXM9Mw</link>
+</item>
 
 
 <channel>
