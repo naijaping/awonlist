@@ -2260,17 +2260,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Ntai</title>
-<link>$doregex[url]|Referer=http://www.iafrica.tv/ntai</link>
-<regex>
-<name>url</name>
-<expres>'file': '(.*?)'</expres>
-<page>http://www.iafrica.tv/ntai/</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
