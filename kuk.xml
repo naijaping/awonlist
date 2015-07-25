@@ -2254,8 +2254,8 @@
 </item>
 
 <item>
-<title>NB ALT</title>
-<link>http://liveedge.sportsdonkey.club/send/playlist.m3u8$doregex[get-auth]/ss1hd.stream&amp;eb=1&amp;pu=http://sportsdonkey.club/site/live/?id=13</link>
+<title>NBALT</title>
+<link>http://liveedge.sportsdonkey.club/send/playlist.m3u8$doregex[get-auth]==/ss1hd.stream</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
