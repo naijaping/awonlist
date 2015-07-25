@@ -2261,8 +2261,8 @@
 </item>
 
 <item>
-<title>Nta</title>
-<link>$doregex[url]</link>
+<title>Ntai</title>
+<link>$doregex[url]|Referer=http://www.iafrica.tv/ntai</link>
 <regex>
 <name>url</name>
 <expres>'file': '(.*?)'</expres>
