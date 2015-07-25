@@ -2094,8 +2094,8 @@
 </item>
 
 <item>
-<title>b es</title>
-<link>http://ak-cred-bein-us-es-stream.fubo.tv/UT-Origin/ngrp:BeInSports_ES_all/chunklist_b2628000.m3u8?hdnts=$doregex[tok]</link>
+<title>b esp</title>
+<link>http://ak-cred-bein-us-es-stream.fubo.tv/UT-Origin/ngrp:BeInSports_ES_all/chunklist_b2128000.m3u8?hdnts=$doregex[tok]</link>
 <regex>
 <name>tok</name>
 <expres>"token":"(.*?)"</expres>
