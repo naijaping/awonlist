@@ -2030,17 +2030,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Ben</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>,{    file: "(.*?)"</expres>
-<page>http://bentelevision.com/live/</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 <item>
 <title>MUMU</title>
