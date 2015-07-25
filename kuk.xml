@@ -2260,7 +2260,11 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>VOX AFRICA TV</title>
+<link>rtmp://astvstream1.tulix.tv/voxafrica/voxafrica.stream swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/voxafrica_afrique.png</thumbnail>
+</item>
 
 
 
