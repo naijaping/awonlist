@@ -2107,7 +2107,7 @@
 
 <item>
 <title>b us</title>
-<link>http://ak-cred-bein-us-en-stream.fubo.tv/UT-Origin/ngrp:BeInSports_EN_all/chunklist_b378000.m3u8?hdnts=$doregex[tok]</link>
+<link>http://ak-cred-bein-us-en-stream.fubo.tv/UT-Origin/ngrp:BeInSports_EN_all/chunklist_b4628000.m3u8?hdnts=$doregex[tok]</link>
 <regex>
 <name>tok</name>
 <expres>"token":"(.*?)"</expres>
@@ -2116,6 +2116,7 @@
 <thumbnail></thumbnail>
 </regex>
 </item>
+
 
 <item>
 <title>espn</title>
