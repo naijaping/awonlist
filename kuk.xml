@@ -2237,12 +2237,6 @@
 </item>
 
 <item>
-<title>Tel75</title>
-<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/75.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>Tel76</title>
 <link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/76.m3u8</link>
 <thumbnail></thumbnail>
@@ -2300,6 +2294,12 @@
 <item>
 <title>Tel103</title>
 <link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/103.m3u8</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Tel130</title>
+<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/130.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
