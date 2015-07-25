@@ -2088,68 +2088,6 @@
 </item>
 
 <item>
-<title>Beno</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>{file:"(.*?)"</expres>
-<page>http://www.ghanalive.tv/adome-tv/</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>A&E</title>
-<link>rtmp://109.200.202.124/live?wmsAuthSign=$doregex[auth]$doregex[id] playpath=ae_1 swfUrl=http://www.tvmsn.com/player/player.swf pageUrl=http://www.tv-msn.com timeout=15 live=1 token=cc9bfb62db43975c</link>
-<regex>
-<name>auth</name>
-<expres>$pyFunction:'$doregex[get-auth]'.replace('"','').replace(',','')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-auth</name>
-<expres>var $doregex[vcod] = \[(.*?)\]</expres>
-<page>http://www.tv-msn.com/ae.php</page>
-<referer>http://www.tv-msn.com</referer>
-</regex>
-<regex>
-<name>vcod</name>
-<expres>join\(""\) \+ (.*?)\.join</expres>
-<page>http://www.tv-msn.com/ae.php
-</page>
-<referer>http://www.tv-msn.com</referer>
-</regex>
-<regex>
-<name>id</name>
-<expres>id=$doregex[vid]\>(.*?)\<</expres>
-<page>http://www.tv-msn.com/ae.php
-</page>
-<referer>http://www.tv-msn.com</referer>
-</regex>
-<regex>
-<name>vid</name>
-<expres>ById\("(.*?)"</expres>
-<page>http://www.tv-msn.com/ae.php
-</page>
-<referer>http://www.tv-msn.com</referer>
-</regex>
-</item>
-
-
-<item>
-<title>do</title>
-<link>rtmp://liveedge.sportsdonkey.club/send?wmsAuthSign=$doregex[auth]/ss2hd.stream</link>
-<regex>
-<name>auth</name>
-<expres>wmsAuthSign=(.*?)"</expres>
-<page>http://bit.ly/1LNoGly</page>
-<referer></referer>
-</regex>
-</item>
-
-
- <item>
 <title>MUMU</title>
 <link>rtmp://liveedge.sportsdonkey.club/send?wmsAuthSign=c2VydmVyX3RpbWU9NS8xMS8yMDE1IDY6NTY6MjYgUE0maGFzaF92YWx1ZT1Ha0k0UWppZkJIcytwVUZOSE9lS0lRPT0mdmFsaWRtaW51dGVzPTIyJmlkPTE==/ss2hd.stream</link>
 <thumbnail></thumbnail>
@@ -2322,6 +2260,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Nta</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>{file:"(.*?)"</expres>
+<page>http://www.iafrica.tv/ntai/</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
