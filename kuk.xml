@@ -2242,8 +2242,8 @@
 
 
 <item>
-<title>NiT00</title>
-<link>http://nimplus1.giniko.com/ntatv/ntatvlive.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>Nn</title>
+<link>http://247hd.eu.01.cdnstreams.in:8081/view/channel4/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
