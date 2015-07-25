@@ -2094,31 +2094,6 @@
 </item>
 
 <item>
-<title>b esp</title>
-<link>http://ak-cred-bein-us-es-stream.fubo.tv/UT-Origin/ngrp:BeInSports_ES_all/chunklist_b2128000.m3u8?hdnts=$doregex[tok]</link>
-<regex>
-<name>tok</name>
-<expres>"token":"(.*?)"</expres>
-<page>https://api.fubo.tv/public/edgeauth/token</page>
-<referer>https://www.fubo.tv</referer>
-<thumbnail></thumbnail>
-</regex>
-</item>
-
-<item>
-<title>b us</title>
-<link>http://ak-cred-bein-us-en-stream.fubo.tv/UT-Origin/ngrp:BeInSports_EN_all/chunklist_b4628000.m3u8?hdnts=$doregex[tok]</link>
-<regex>
-<name>tok</name>
-<expres>"token":"(.*?)"</expres>
-<page>https://api.fubo.tv/public/edgeauth/token</page>
-<referer>https://www.fubo.tv</referer>
-<thumbnail></thumbnail>
-</regex>
-</item>
-
-
-<item>
 <title>espn</title>
 <link>$doregex[get-url] </link>
 <regex>
@@ -2248,8 +2223,6 @@
 </item>
 
 
-
-
 <item>
 <title>NBALT</title>
 <link>http://195.154.156.55/send/playlist.m3u8$doregex[get-auth]/ss1hd.stream</link>
@@ -2270,29 +2243,7 @@
 </item>
 
 
-<item>
-<title>Bein Sport Spain 1080 HD</title>
-<link>http://ak-cred-bein-us-es-stream.fubo.tv/UT-Origin/ngrp:BeInSports_ES_all/chunklist_b4628000.m3u8?hdnts=$doregex[tok]</link>
-<regex>
-<name>tok</name>
-<expres>"token":"(.*?)"</expres>
-<page>https://api.fubo.tv/public/edgeauth/token</page>
-<referer>https://www.fubo.tv</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_espanol.png</thumbnail>
-</item>
 
-<item>
-<title>Bein Sport Spain 720 HD</title>
-<link>http://ak-cred-bein-us-es-stream.fubo.tv/UT-Origin/ngrp:BeInSports_ES_all/chunklist_b2128000.m3u8?hdnts=$doregex[tok]</link>
-<regex>
-<name>tok</name>
-<expres>"token":"(.*?)"</expres>
-<page>https://api.fubo.tv/public/edgeauth/token</page>
-<referer>https://www.fubo.tv</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_espanol.png</thumbnail>
-</item>
 
 
 
