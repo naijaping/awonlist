@@ -2106,7 +2106,17 @@
 </item>
  
  
+<item>
+<title>Tel72nfl</title>
+<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/72.m3u8</link>
+<thumbnail></thumbnail>
+</item>
 
+<item>
+<title>Tel73nhl</title>
+<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/73.m3u8</link>
+<thumbnail></thumbnail>
+</item>
  
  
 <item>
@@ -2116,20 +2126,8 @@
 </item>
 
 <item>
-<title>Tel78</title>
-<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/78.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>Tel79</title>
 <link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/79.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Tel80</title>
-<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/80.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
