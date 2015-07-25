@@ -2311,8 +2311,8 @@
 
 
 <item>
-<title>NiT</title>
-<link>http://247hd.eu.02.cdnstreams.in:8081/view/channel4/playlist.m3u8$doregex[get-auth]</link>
+<title>NiT0</title>
+<link>http://nimplus1.giniko.com/africtele/africtele.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
