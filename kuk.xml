@@ -2251,13 +2251,13 @@
 
 <item>
 <title>NBALT</title>
-<link>http://195.154.156.55/send/playlist.m3u8$doregex[get-auth]/ss4hd.stream</link>
+<link>http://195.154.156.55/send/playlist.m3u8$doregex[get-auth]/ss1hd.stream</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
 <page>http://bit.ly/1LNoGly</page>
 <agent></agent>
-<referer></referer>
+<referer>http://sportsdonkey.club/site/live/?id=13</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
