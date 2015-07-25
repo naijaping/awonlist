@@ -2265,7 +2265,7 @@
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>{file:"(.*?)"</expres>
+<expres>'file': '(.*?)'</expres>
 <page>http://www.iafrica.tv/ntai/</page>
 <referer></referer>
 </regex>
