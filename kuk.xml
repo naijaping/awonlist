@@ -2316,9 +2316,9 @@
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
-<page>www.247hd.tv/forums/player.php?loc=eu&node=01&stream=channel4</page>
+<page>http://bit.ly/1LNoGly</page>
 <agent></agent>
-<referer>http://www.247hd.tv/forums/view.php?pg=cbtemplate#</referer>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
