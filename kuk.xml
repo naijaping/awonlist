@@ -2185,6 +2185,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Avrupa TV</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: '(.*m3u8.*?)'</expres>
+<page>http://www.kure.tv/kanallar/samanyolu-avrupa-tv/canli-yayin</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 <channel>
