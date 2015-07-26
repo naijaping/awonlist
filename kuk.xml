@@ -2197,13 +2197,13 @@
 </item>
 
 <item>
-<title>Av</title>
+<title>Av0</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>'file': "(.*m3u8.*?)"</expres>
-<page>http://sportsaccess.se/usplayer.php?ch=02&server=2</page>
-<referer>http://sportsaccess.se/index.php?pg=usa</referer>
+<page>www.247hd.tv/forums/player.php?loc=eu&node=01&stream=channel4</page>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
