@@ -2161,17 +2161,7 @@
 </item>
 
 
-<item>
-<title>20</title>
-<link>$doregex[get-url] </link>
-<regex>
-<name>get-url</name>
-<expres>{file: "(.*?)"</expres>
-<page>http://www.stream2watch.co/streams/25630/1</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
@@ -2187,7 +2177,17 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Soka</title>
+<link>http://67.159.54.138:1935/Edge/207/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://bit.ly/1LNoGly</page>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+<referer></referer>
+</regex>
+</item>
 
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
