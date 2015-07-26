@@ -2180,7 +2180,7 @@
 
 <item>
 <title>Time</title>
-<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel5_1200</link>
+<link>rtmp://37.187.167.166:2195/live?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yNS8yMDE1IDE6MTA6NDQgUE0maGFzaF92YWx1ZT1ndGpDRzRBemRzOHkxeEpHUDJPZjlRPT0mdmFsaWRtaW51dGVzPTM=/racinguk swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf pageUrl=http://straighthost.com/billing/vip/live.php?id=8 live=true timeout=20 token=WY846p1E1g15W7s</link>
 </item>
 
 <item>
