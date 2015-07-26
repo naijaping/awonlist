@@ -2179,8 +2179,14 @@
 </item>
 
 <item>
-<title>Soundi</title>
-<link>rtmp://astvstream1.tulix.tv/voxafrica/voxafrica.stream</link>
+<title>Agi</title>
+<link>http://liveedge.sportsdonkey.club/send/ss1hd.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>file: "(m3u8.*?)"</expres>
+<page>http://www.giniko.com/watch.php?id=190</page>
+<referer></referer>
+</regex>
 <thumbnail></thumbnail>
 </item>
 
