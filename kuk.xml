@@ -2156,7 +2156,7 @@
 
 
 <item>LINK=http://www.kure.tv/kanallar/kure-tv-medine/canli-yayin
-<title>TV Med</title>
+<title>TV Medu</title>
 <link>$doregex[url]</link>
 <regex>
 <name>tok</name>
