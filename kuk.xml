@@ -2160,11 +2160,6 @@
 </regex>
 </item>
 
-
-
-
-
-
 <item>
 <title>figh</title>
 <link>http://stream.primetime.to/hls/foxhd.m3u8</link>
@@ -2174,6 +2169,19 @@
 <item>
 <title>fi</title>
 <link></link>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>LINK=http://www.kure.tv/kanallar/kure-tv-medine/canli-yayin
+<title>TV Medine</title>
+<link>http://kurehdlivesp-lh.akamaihd.net/i/kure_Medine_SP_1@153288/master.m3u8?$doregex[tok]</link>
+<regex>
+        <name>tok</name>
+        <expres>(hdnea.*?)'</expres>
+        <page>http://www.kure.tv/kanallar/kure-tv-medine/canli-yayin</page>
+        <referer>http://www.kure.tv</referer>
+</regex>
 <thumbnail></thumbnail>
 </item>
 
