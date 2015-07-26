@@ -2157,12 +2157,12 @@
 
 <item>LINK=http://www.kure.tv/kanallar/kure-tv-medine/canli-yayin
 <title>TV Medin0</title>
-<link>http://vodhd.kure.tv/i/f/2015/07/24/21783/yemek-samanyolu-tv-gulenay-ile-pasta-borek-meyveli-tart-tarifi_,270,360,480,p.mp4.csmil/master.m3u8?$doregex[tok]</link>
+<link>$doregex[url]</link>
 <regex>
-        <name>tok</name>
-        <expres>(hdnea.*?)'</expres>
-        <page>http://www.kure.tv/kanallar/kure-tv-medine/canli-yayin</page>
-        <referer>http://www.kure.tv</referer>
+<name>tok</name>
+<expres>file: '(.*?hdnea.*?)'</expres>
+<page>http://www.kure.tv/kanallar/kure-tv-medine/canli-yayin</page>
+<referer>http://www.kure.tv</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
