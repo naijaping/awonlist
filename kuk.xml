@@ -2188,6 +2188,11 @@
 <link>http://planetiptv-test.ddns.net:9088/sdtv/uktv/planet/iptv/BT_Sport_Extra?auth=test+test</link>
 </item>
 
+<item>
+<title>Mob</title>
+<link>http://109.169.54.54:1935/edge/1169/playlist.m3u8?token=a3e6b4e40ca0341dcd6ba9dbfd9b2443&bid=11&pid=5&uid=59114&did=02d304daabf40e4b4b1dd92946362974&g=1&gm=1&platform=3</link>
+</item>
+
 
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
