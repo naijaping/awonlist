@@ -2175,7 +2175,7 @@
 
 <item>LINK=http://www.kure.tv/kanallar/kure-tv-medine/canli-yayin
 <title>TV Medine</title>
-<link>http://kurehdlivesp-lh.akamaihd.net/i/kure_Medine_SP_1@153288/master.m3u8?$doregex[tok]</link>
+<link>http://vodhd.kure.tv/i/f/2015/07/24/21783/yemek-samanyolu-tv-gulenay-ile-pasta-borek-meyveli-tart-tarifi_,270,360,480,p.mp4.csmil/master.m3u8?$doregex[tok]</link>
 <regex>
         <name>tok</name>
         <expres>(hdnea.*?)'</expres>
