@@ -2193,6 +2193,11 @@
 </regex>
 </item>
 
+<item>
+<title>Mobf1</title>
+<link>http://planetiptv-test.ddns.net:9088/sdtv/skyuk/planet/iptv/Sky_Sports_F1?auth=test+test</link>
+</regex>
+</item>
 
 
 <channel>
