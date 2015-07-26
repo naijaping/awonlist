@@ -2182,8 +2182,8 @@
 
  
 <item>
-<title>Mr 2</title>
-<link>http://37.187.167.166:2195/live/tsn1/playlist.m3u8$doregex[get-auth]</link>
+<title>Mr22</title>
+<link>http://37.187.167.166:2195/live/tsn2/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
