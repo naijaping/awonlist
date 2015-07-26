@@ -2178,14 +2178,15 @@
 <thumbnail></thumbnail>
 </item>
 
-
-
- 
-
-
 <item>
 <title>Mobbt</title>
 <link>http://planetiptv-test.ddns.net:9088/sdtv/uktv/planet/iptv/BT_Sport_ESPN?auth=test+test</link>
+</regex>
+</item>
+
+<item>
+<title>Mobbtxtra</title>
+<link>http://planetiptv-test.ddns.net:9088/sdtv/uktv/planet/iptv/BT_Sport_Extra?auth=test+test</link>
 </regex>
 </item>
 
