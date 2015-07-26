@@ -2159,8 +2159,8 @@
 <title>TV Medu</title>
 <link>$doregex[url]</link>
 <regex>
-<name>tok</name>
-<expres>file: '(.*m3u8.*?)'</expres>
+<name>url</name>
+<expres>file: '(.*hdnea.*?)'</expres>
 <page>http://www.kure.tv/kanallar/kure-tv-medine/canli-yayin</page>
 <referer>http://www.kure.tv</referer>
 </regex>
