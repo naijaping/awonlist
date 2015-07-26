@@ -2160,7 +2160,7 @@
 <link>$doregex[url]</link>
 <regex>
 <name>tok</name>
-<expres>file: '(.*?hdnea.*?)'</expres>
+<expres>file: '(.*hdnea.*?)'</expres>
 <page>http://www.kure.tv/kanallar/kure-tv-medine/canli-yayin</page>
 <referer>http://www.kure.tv</referer>
 </regex>
