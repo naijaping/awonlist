@@ -2179,15 +2179,13 @@
 </item>
 
 <item>
-<title>Mobbt</title>
-<link>http://planetiptv-test.ddns.net:9088/sdtv/uktv/planet/iptv/BT_Sport_ESPN?auth=test+test</link>
-</regex>
+<title>Time</title>
+<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel5_1200</link>
 </item>
 
 <item>
 <title>Mobbtxtra</title>
 <link>http://planetiptv-test.ddns.net:9088/sdtv/uktv/planet/iptv/BT_Sport_Extra?auth=test+test</link>
-</regex>
 </item>
 
 
