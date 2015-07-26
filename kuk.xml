@@ -2161,6 +2161,18 @@
 </item>
 
 
+<item>
+<title>20</title>
+<link>$doregex[get-url] </link>
+<regex>
+<name>get-url</name>
+<expres>{ file: "(.*?)"</expres>
+<page>http://www.stream2watch.co/streams/25630/1</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 <item>
