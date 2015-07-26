@@ -2190,7 +2190,7 @@
 
 <item>
 <title>Skuki</title>
-<link>http://37.187.167.166:2195/live/premiersports/playlist.m3u8$doregex[get-auth]</link>
+<link>http://37.187.167.166:2195/live/premsports/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
