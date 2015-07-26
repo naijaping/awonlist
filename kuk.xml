@@ -2154,19 +2154,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
-<item>LINK=http://www.kure.tv/kanallar/kure-tv-medine/canli-yayin
-<title>TV Medio</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: '(.*m3u8.*?)'</expres>
-<page>http://www.kure.tv/samanyolutv</page>
-<referer>http://www.kure.tv</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 <item>
 <title>Avrupa TV</title>
 <link>$doregex[url]</link>
