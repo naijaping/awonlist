@@ -2210,8 +2210,8 @@
 
 
 <item>
-<title>Ag</title>
-<link>http://usa.02.cdnstreams.in:8081/view/ch16/playlist.m3u8$doregex[get-auth]</link>
+<title>Ag0</title>
+<link>http://247hd.eu.01.cdnstreams.in:8081/view/channel4/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>file: "(m3u8.*?)"</expres>
