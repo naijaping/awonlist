@@ -2169,6 +2169,11 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>fi</title>
+<link>rtmp://beinsportgeolivefs.fplive.net:1935/beinsportgeolive-live playpath=beinsport_eng_4 swfurl=http://sportsinfonet.info/player/Player.swf live=true timeout=15 </link>
+<thumbnail></thumbnail>
+</item>
 
 
 
