@@ -2197,7 +2197,7 @@
 </item>
 
 <item>
-<title>Av0</title>
+<title>Avun</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
