@@ -2178,17 +2178,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Agua</title>
-<link>http://46.23.68.242:1935/tv/apna/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>(m3u8.*?)"</expres>
-<page>http://www.giniko.com/watch.php?id=190</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 <channel>
