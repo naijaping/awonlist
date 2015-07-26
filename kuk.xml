@@ -2181,17 +2181,7 @@
 
 
  
-<item>
-<title>Mobatlantic</title>
-<link>http://planetiptv-test.ddns.net:9088/sdtv/skyuk/planet/iptv/Sky_Atlantic_UK?auth=test+test</link>
-</regex>
-</item>
 
-<item>
-<title>Mobplanet</title>
-<link>http://planetiptv-test.ddns.net:9088/sdtv/skyuk/planet/iptv/Sky_Atlantic_UK?auth=test+test</link>
-</regex>
-</item>
 
 <item>
 <title>Mobf1</title>
