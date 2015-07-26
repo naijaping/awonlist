@@ -2202,7 +2202,7 @@
 <regex>
 <name>url</name>
 <expres>'file': "(.*m3u8.*?)"</expres>
-<page>http://sportsaccess.se/usplayer.php?ch=03&server=2</page>
+<page>http://sportsaccess.se/usplayer.php?ch=02&server=2</page>
 <referer>http://sportsaccess.se/index.php?pg=usa</referer>
 </regex>
 <thumbnail></thumbnail>
