@@ -2199,17 +2199,32 @@
 <link>http://37.187.172.168:8080/tsn_1_DVusgyPcRY/index.m3u8</link>
 </item>
 
-<
+
 <item>
 <title>hb</title>
 <link>http://istariptv.dyndns-ip.com:2200/Spain/CANAL-LIGA-HD/index.m3u8</link>
 </item>
 
 
+<item>
+<title>hb1</title>
+<link>http://istariptv.dyndns-ip.com:2200/NL-Fox-Sports1/index.m3u8</link>
+</item>
 
+<item>
+<title>hb2</title>
+<link>http://istariptv.dyndns-ip.com:2200/NL-Fox-Sports2/index.m3u8</link>
+</item>
 
+<item>
+<title>hb3</title>
+<link>http://istariptv.dyndns-ip.com:2200/NL-Fox-Sports3/index.m3u8</link>
+</item>
 
-
+<item>
+<title>hb4</title>
+<link>http://istariptv.dyndns-ip.com:2200/NL-Fox-Sports4/index.m3u8</link>
+</item>
 
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
