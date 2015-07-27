@@ -2195,10 +2195,29 @@
 </item>
 
 <item>
-<title>Jef 3</title>
+<title>Jef t1</title>
+<link>http://37.187.172.168:8080/tsn_1_DVusgyPcRY/index.m3u8</link>
+</item>
+
+<item>
+<title>Jef t2</title>
+<link>http://37.187.172.168:8080/tsn_2_LCYfpi7d1q/index.m3u8</link>
+</item>
+
+<item>
+<title>Jef t3</title>
 <link>http://37.187.172.168:8080/tsn_3_Rn4WHjevFa/index.m3u8</link>
 </item>
 
+<item>
+<title>Jef t4</title>
+<link>http://37.187.172.168:8080/tsn_4_afje0tNknC/index.m3u8</link>
+</item>
+
+<item>
+<title>Jef bn</title>
+<link>http://37.187.172.168:8080/box_nation_9tyqskZnEb/index.m3u8</link>
+</item>
 
 <item>
 <title>Jefs 1</title>
@@ -2225,6 +2244,20 @@
 <link>http://37.187.172.168:8080/sky_sports_5_hd_Wij8cI9hTO/index.m3u8</link>
 </item>
 
+<item>
+<title>Jefs f1</title>
+<link>http://37.187.172.168:8080/skysportsf_1hd_n1zNYdE6Wp/index.m3u8</link>
+</item>
+
+<item>
+<title>Jefs euro2</title>
+<link>http://37.187.172.168:8080/euro_sport_2_ULZSeW1Rh9/index.m3u8</link>
+</item>
+
+<item>
+<title>Jefs nitoon</title>
+<link>http://37.187.172.168:8080/nicktoon_yQUqk2aC5Y/index.m3u8</link>
+</item>
 
 
 
