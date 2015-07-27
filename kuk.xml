@@ -2199,90 +2199,14 @@
 <link>http://37.187.172.168:8080/tsn_1_DVusgyPcRY/index.m3u8</link>
 </item>
 
-<item>
-<title>Jef t2</title>
-<link>http://37.187.172.168:8080/tsn_2_LCYfpi7d1q/index.m3u8</link>
-</item>
-
-<item>
-<title>Jef t3</title>
-<link>http://37.187.172.168:8080/tsn_3_Rn4WHjevFa/index.m3u8</link>
-</item>
-
-<item>
-<title>Jef t4</title>
-<link>http://37.187.172.168:8080/tsn_4_afje0tNknC/index.m3u8</link>
-</item>
-
-<item>
-<title>Jef bn</title>
-<link>http://37.187.172.168:8080/box_nation_9tyqskZnEb/index.m3u8</link>
-</item>
-
-<item>
-<title>Jefs 1</title>
-<link>http://37.187.172.168:8080/sky_sports_1_hd_Bmscaij961/index.m3u8</link>
-</item>
-
-<item>
-<title>Jefs 2</title>
-<link>http://37.187.172.168:8080/sky_sports_2_hd_tOVkzoD0gF/index.m3u8</link>
-</item>
-
-<item>
-<title>Jefs 3</title>
-<link>http://37.187.172.168:8080/sky_sports_3_hd_jW1FzHQhvI/index.m3u8</link>
-</item>
-
-<item>
-<title>Jefs 4</title>
-<link>http://37.187.172.168:8080/sky_sports_4_hd_7uq8TFvCbE/index.m3u8</link>
-</item>
-
-<item>
-<title>Jefs 5</title>
-<link>http://37.187.172.168:8080/sky_sports_5_hd_Wij8cI9hTO/index.m3u8</link>
-</item>
-
-<item>
-<title>Jefs f1</title>
-<link>http://37.187.172.168:8080/skysportsf_1hd_n1zNYdE6Wp/index.m3u8</link>
-</item>
-
-<item>
-<title>Jefs euro2</title>
-<link>http://37.187.172.168:8080/euro_sport_2_ULZSeW1Rh9/index.m3u8</link>
-</item>
-
+<
 <item>
 <title>Jenitoon</title>
 <link>http://istariptv1.dyndns-ip.com:2200/UK/Sky-MUTV/master.m3u8</link>
 </item>
 
 
-<item>
-<title>woomi</title>
-<link>$doregex[get-finalURL]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</link>
-<regex>
-<name>get-finalURL</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>(http.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://67.159.5.242/browse.php?u=$doregex[url-quote]&amp;idx=1&amp;p=404').read()</page>
-<referer>http://67.159.5.242/browse.php?u=http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ait_3&amp;type=live&amp;service=wowza&amp;output=player</referer>
-<cookieJar></cookieJar>
-<agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
-</regex>
-<regex>
-<name>url-quote</name>
-<expres>$pyFunction:urllib.quote('http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ait_3&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp')</expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
