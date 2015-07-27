@@ -2207,15 +2207,16 @@
 
 
 <item>
-<title>kingo</title>
+<title>1 Music Africa</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>"file": "(.*?)"</expres>
-<page>https://embed-tv.com/api/url?id=2027</page>
-<referer></referer>
+<expres>"url":"(.*?)"</expres>
+<page>https://api.lebaraplay.com/api/v1/program_events/6500fa/07a7c63b-4cc8-4dbc-8652-1154457fd1d3/stream?protocol=hls&amp;audio_codec=mp4a&amp;video_codec=h264&amp;screen_width=1280&amp;screen_height=720&amp;drm=adobedrm&amp;device_id=701362c3-e09f-197d-5f82-9cdf7c180d78&amp;client_id=spbtv-web&amp;client_version=0.1.0&amp;locale=en_GB&amp;timezone=7200</page>
+<agent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36</agent>
+<cookiejar></cookiejar>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/num/1music_ng.png</thumbnail>
 </item>
 
 
