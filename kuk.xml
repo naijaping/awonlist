@@ -2213,7 +2213,7 @@
 <name>tok</name>
 <expres>token=(.*?)"</expres>
 <page>https://embed-tv.com/api/player.swf?id=2027</page>
-<referer></referer>
+<referer>https://embed-tv.com</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
