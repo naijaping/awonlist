@@ -2261,7 +2261,7 @@
 
 
 <item>
-<title>wood</title>
+<title>woo</title>
 <link>$doregex[get-finalURL]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</link>
 <regex>
 <name>get-finalURL</name>
@@ -2271,7 +2271,7 @@
 <regex>
 <name>get-url</name>
 <expres>(http.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://67.159.5.242/browse.php?u=$doregex[url-quote]').read()</page>
+<page>$pyFunction:urllib.urlopen('http://67.159.5.242/browse.php?u=$doregex[url-quote]&amp;idx=1&amp;p=404').read()</page>
 <referer>http://67.159.5.242/browse.php?u=http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=nollymtv_3&amp;type=live&amp;service=wowza&amp;output=player</referer>
 <cookieJar></cookieJar>
 <agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
