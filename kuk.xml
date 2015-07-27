@@ -2194,7 +2194,10 @@
 <link>http://planetiptv-test.ddns.net:9088/hbird/sdtv/planet/iptv/Nickelodeon_Europe?auth=test+test</link>
 </item>
 
-
+<item>
+<title>Sport Time TV</title>
+<link>http://37.187.172.168:8080/tsn_3_Rn4WHjevFa/index.m3u8</link>
+</item>
 
 
 
