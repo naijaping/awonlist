@@ -2226,6 +2226,11 @@
 <link>http://istariptv1.dyndns-ip.com:2200/NL-Fox-Sports4/index.m3u8</link>
 </item>
 
+<item>
+<title>tele 2m</title>
+ <link>plugin://plugin.video.zeus/?url=http%3A%2F%2Fzeusrepo.com%2Falpha%2Fchannel.php%3Flink%3Dsky_atlantic&mode=3&name=%5BCOLOR+lime%5DSKY+ATLANTIC%5B%2FCOLOR%5D&iconimage=http%3A%2F%2Fs6.postimg.org%2F5206hu3dt%2Fskyatlantic.png&description=</link>
+</item>
+
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
 <link>http://ignoreme</link>
