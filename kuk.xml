@@ -2206,7 +2206,17 @@
 </item>
 
 
-
+<item>
+<title>king</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>"file": "(.*m3u8.*?)"</expres>
+<page>https://embed-tv.com/api/player.swf?id=2027</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
