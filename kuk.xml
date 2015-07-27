@@ -2213,7 +2213,7 @@
 <name>url</name>
 <expres>"file": "(.*?)"</expres>
 <page>https://embed-tv.com/api/player.swf?id=2027</page>
-<referer>https://embed-tv.com</referer>
+<referer>https://embed-tv.com/api/url?id=2027</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
