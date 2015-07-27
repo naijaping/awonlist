@@ -2211,7 +2211,7 @@
 <link>http://s154.embed-tv.com:80/session/14752ff4-34a5-11e5-9df2-005056bc06d1/nvnv5a/2027/index.m3u8?token=$doregex[tok]</link>
 <regex>
 <name>tok</name>
-<expres>token=(.*?)"</expres>
+<expres>token=(.*)"</expres>
 <page>https://embed-tv.com/api/player.swf?id=2027</page>
 <referer>https://embed-tv.com</referer>
 </regex>
