@@ -2184,9 +2184,20 @@
 </item>
 
 <item>
-<title>Mobbtxt</title>
+<title>Mobbtxtxd</title>
 <link>http://istariptv1.dyndns-ip.com:2200/UK/Sky-Disney-XD-HD/index.m3u8</link>
 </item>
+
+<item>
+<title>Mobbtxtjnr</title>
+<link>http://istariptv1.dyndns-ip.com:2200/UK/Sky-Disney-Junior-HD/index.m3u8</link>
+</item>
+
+<item>
+<title>Mobbtxtnick</title>
+<link>http://istariptv1.dyndns-ip.com:2200/UK/Sky-Nickelodeon-HD/index.m3u8</link>
+</item>
+
 
 
 <item>
@@ -2206,19 +2217,7 @@
 </item>
 
 
-<item>
-<title>hb1</title>
-<link>http://istariptv1.dyndns-ip.com:2200/NL-Fox-Sports1/index.m3u8</link>
-</item>
 
-<item>
-<title>hb2</title>
-<link>http://istariptv1.dyndns-ip.com:2200/NL-Fox-Sports2/index.m3u8</link>
-</item>
-
-<item>
-<title>hb3</title>
-<link>http://istariptv1.dyndns-ip.com:2200/NL-Fox-Sports3/index.m3u8</link>
 </item>
 
 <item>
