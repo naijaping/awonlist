@@ -2253,6 +2253,16 @@
 </item>
 
 
+<item>
+<title>TF0</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>"file": "(.*?)"</expres>
+<page>https://embed-tv.com/api/player.swf?id=4018</page>
+<referer>https://embed-tv.com/</referer>
+</regex>
+</item>
 
 
 
