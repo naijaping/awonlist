@@ -2257,11 +2257,11 @@
 </item>
 
 <item>
-<title>espn 2</title>
+<title>espno</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>source src="(.*m3u8.*?)"</expres>
+<expres>source src="(.*?)"</expres>
 <page>http://www.shadownet.biz/channels/usa/espn2.html</page>
 <referer></referer>
 </regex>
