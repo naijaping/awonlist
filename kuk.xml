@@ -2247,7 +2247,7 @@
 </regex>
 <regex>
 <name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://embed-tv.com/api/player.swf?id=2027')</expres>
+<expres>$pyFunction:urllib.quote('https://embed-tv.com/api/player.swf?id=4018')</expres>
 <page></page>
 </regex>
 </item>
