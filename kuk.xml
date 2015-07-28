@@ -2124,17 +2124,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>espn2</title>
-<link>$doregex[get-url] </link>
-<regex>
-<name>get-url</name>
-<expres>file: "(.*?)",\n.*\n.*Espn 2</expres>
-<page>http://www.malayalamtvhd.in/p/sports-all-in-one.html</page>
-<referer>http://www.malayalamtvhd.in</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/gol_tv.png</thumbnail>
-</item>
 
 <item>
 <title>fi</title>
