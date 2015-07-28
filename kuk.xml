@@ -31,13 +31,13 @@
 <item>
 <title>Music Africa</title>
 <link>rtmpt://strfla13.streamakaci.com/lc2new/ playpath=lc2 swfUrl=http://lb.streamakaci.com/streamakaci/library/AkamaiMultiPlayer.swf pageUrl=http://lb.streamakaci.com live=true timeout=15</link>
-<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/02/Music-Africa.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 <item>
 <title>Koga TV</title>
 <link>rtmp://169.obj.netromedia.net/ app=KogaTV playpath=KogaTV swfUrl=http://player.netromedia.com/flowplayer.commercial-3.2.18.swf live=true timeout=15 pageUrl=http://player.netromedia.com</link>
-<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/02/kogatv.png</thumbnail>
+<thumbnail></thumbnail>
 </item> 
 
 <item>
@@ -2231,23 +2231,13 @@
 <title>Zeus</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.zeus/?url=http%3A%2F%2Fzeusrepo.com%2Falpha%2Fchannel.php%3Flink%3Dsky_atlantic&mode=3&name=%5BCOLOR+lime%5DSKY+ATLANTIC%5B%2FCOLOR%5D&iconimage=http%3A%2F%2Fs6.postimg.org%2F5206hu3dt%2Fskyatlantic.png&description=</jsonrpc>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
 </item>
 
 
 
 
-<item>
-<title>MLBoo</title>
-<link>http://37.48.118.32:1935/live/discoveryi.stream/playlist.m3u8$doregex[get-auth] swfUrl=http://www.finecast.tv/player6/jwplayer.flash.swf flashver=WIN/2017,0,0,134 live=1 timeout=14 swfVfy=1 pageUrl=http://www.finecast.tv/embed4.php?u=discoveryi&vw=640&vh=450</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://bit.ly/1LNoGly</page>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
-<referer></referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mlb_network.png</thumbnail>
-</item>
+
 
 
 <item>
