@@ -2237,8 +2237,8 @@
 
 
 <item>
-<title>MLBio</title>
-<link>http://37.48.118.32:1935/live/discoveryi.stream/playlist.m3u8$doregex[get-auth] http://www.finecast.tv/player6/jwplayer.flash.swf flashver=WIN/2017,0,0,134 live=1 timeout=14 swfVfy=1 pageUrl=http://www.finecast.tv/embed4.php?u=discoveryi&vw=640&vh=450</link>
+<title>MLBoo</title>
+<link>http://37.48.118.32:1935/live/discoveryi.stream/playlist.m3u8$doregex[get-auth] swfUrl=http://www.finecast.tv/player6/jwplayer.flash.swf flashver=WIN/2017,0,0,134 live=1 timeout=14 swfVfy=1 pageUrl=http://www.finecast.tv/embed4.php?u=discoveryi&vw=640&vh=450</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
