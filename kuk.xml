@@ -2234,7 +2234,21 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
 </item>
 
-
+<title>TF1</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>"file": "(.*?)"</expres>
+<page>http://www.justproxy.co.uk/index.php</page>
+<referer>http://www.justproxy.co.uk</referer>
+<rawpost>q=$doregex[url-quote]&amp;hl%5Binclude_form%5D=on&amp;hl%5Baccept_cookies%5D=on&amp;hl%5Bshow_images%5D=on&amp;hl%5Bshow_referer%5D=on&amp;hl%5Bbase64_encode%5D=on&amp;hl%5Bstrip_meta%5D=on&amp;hl%5Bsession_cookies%5D=on</rawpost>
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote('https://embed-tv.com/api/player.swf?id=2027')</expres>
+<page></page>
+</regex>
+</item>
 
 
 
