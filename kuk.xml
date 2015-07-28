@@ -2250,8 +2250,8 @@
 
 
 <item>
-<title>B 1</title>
-<link>http://37.48.83.131:1935/live/ee.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>B1</title>
+<link>http://37.48.83.131:1935/live/ee.stream/playlist.m3u8?wowzasessionid=462177518&$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
