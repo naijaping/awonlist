@@ -2237,8 +2237,8 @@
 
 
 <item>
-<title>MLBo</title>
-<link>http://arabic.dynns.com:1935/arabic/NileSport/chunklist_w499764461.m3u8$doregex[get-auth]</link>
+<title>MLBi</title>
+<link>http://techstream.dynns.com:1935/ind/netgeowild/chunklist_w403964450.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
