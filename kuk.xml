@@ -2233,6 +2233,22 @@
 <jsonrpc>plugin://plugin.video.zeus/?url=http%3A%2F%2Fzeusrepo.com%2Falpha%2Fchannel.php%3Flink%3Dsky_atlantic&mode=3&name=%5BCOLOR+lime%5DSKY+ATLANTIC%5B%2FCOLOR%5D&iconimage=http%3A%2F%2Fs6.postimg.org%2F5206hu3dt%2Fskyatlantic.png&description=</jsonrpc>
 </item>
 
+
+
+
+<item>
+<title>MLB</title>
+<link>http://arabic.dynns.com:1935/arabic/AlManar/chunklist_w1173875276.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://bit.ly/1LNoGly</page>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+<referer></referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mlb_network.png</thumbnail>
+</item>
+
 <channel>
 <name>[COLOR=FF00ff45]HDSSS[/COLOR]</name>
 <link>http://ignoreme</link>
