@@ -2234,6 +2234,8 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
 </item>
 
+
+<item>
 <title>TF1</title>
 <link>$doregex[url]</link>
 <regex>
