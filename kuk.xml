@@ -2227,8 +2227,8 @@
 </item>
 
 
-<item>
-<title>BBC Alba [TVPlayer Addon]</title>
+<item> [TVPlayer Addon]
+<title>Zeus</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.zeus/?url=http%3A%2F%2Fzeusrepo.com%2Falpha%2Fchannel.php%3Flink%3Dsky_atlantic&mode=3&name=%5BCOLOR+lime%5DSKY+ATLANTIC%5B%2FCOLOR%5D&iconimage=http%3A%2F%2Fs6.postimg.org%2F5206hu3dt%2Fskyatlantic.png&description=</jsonrpc>
 </item>
