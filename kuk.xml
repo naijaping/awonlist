@@ -2256,7 +2256,17 @@
 </regex>
 </item>
 
-
+<item>
+<title>espn 2</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*m3u8.*?)"</expres>
+<page>http://www.shadownet.biz/channels/usa/espn2.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
