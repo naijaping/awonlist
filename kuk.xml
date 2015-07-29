@@ -2242,7 +2242,16 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+                <title>BT Sport 1 HD</title>
+                <thumbnail>http://sevenleague.co.uk/wp-content/uploads/2013/02/bt_sport-logo1.jpg</thumbnail>
+                <link>rtmp://37.187.167.166:2195/live?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xOC8yMDE1IDk6NTM6NTEgUE0maGFzaF92YWx1ZT0zRm43N0ZNZVVWMFpBU2lialVCK05nPT0mdmFsaWRtaW51dGVzPTM=/btsports1</link>
+        </item>
+        <item>
+                <title>BT Sport 2 HD</title>
+                <thumbnail>http://sevenleague.co.uk/wp-content/uploads/2013/02/bt_sport-logo1.jpg</thumbnail>
+                <link>rtmp://37.187.167.166:2195/live?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xOC8yMDE1IDk6NTM6NTEgUE0maGFzaF92YWx1ZT0zRm43N0ZNZVVWMFpBU2lialVCK05nPT0mdmFsaWRtaW51dGVzPTM=/btsports2</link>
+        </item>
 
 
 
