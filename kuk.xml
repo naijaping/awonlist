@@ -2239,7 +2239,17 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>ant</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "(.*?)"</expres>
+<page>http://streamcloud.eu/m8k6d2dh1qxl/Ant-Man__2015_.avi.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
