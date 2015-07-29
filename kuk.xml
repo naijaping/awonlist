@@ -2240,12 +2240,12 @@
 </item>
 
 <item>
-<title>Puta</title>
+<title>Put</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>'file': "(.*m3u8.*?)"</expres>
-<page>http://goo.gl/0FXhSi</page>
+<page>http://goo.gl/lkomEP</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
