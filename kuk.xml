@@ -2251,7 +2251,17 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Muta</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>'file': "(.*m3u8.*?)"</expres>
+<page>http://www.247hd.tv/forums/player.php?loc=eu&amp;node=01&amp;stream=channel4</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
