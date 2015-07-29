@@ -2240,14 +2240,8 @@
 </item>
 
 <item>
-<title>ant</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: "(.*?)"</expres>
-<page>http://streamcloud.eu/m8k6d2dh1qxl/Ant-Man__2015_.avi.html</page>
-<referer>http://streamcloud.eu</referer>
-</regex>
+<title>anot</title>
+<link>http://cdn7.streamcloud.eu:8080/rtv74rvpp6oax3ptxzzifrpk6ekuo2exchlcmgz5veoopu76luzacxkga4/video.mp4</link>
 <thumbnail></thumbnail>
 </item>
 
