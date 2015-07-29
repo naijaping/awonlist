@@ -2193,8 +2193,8 @@
 </item>
 
 <item>
-<title>obi</title>
-<link>http://212.40.98.161/intlivedrm/mtva/mtv4live_international.smil/playlist.m3u8</link>
+<title>obu</title>
+<link>rtmp://198.50.154.178:1935/live playpath=skysports1hdg swfUrl=http://www.kodistreams.tv/player.swf pageUrl=http://www.kodistreams.tv/view.php?pg=skysports1hd live=1 timeout=10</link>
 </item>
 
 <item>
