@@ -2246,7 +2246,7 @@
 <name>url</name>
 <expres>file: "(.*?)"</expres>
 <page>http://streamcloud.eu/m8k6d2dh1qxl/Ant-Man__2015_.avi.html</page>
-<referer></referer>
+<referer>http://streamcloud.eu</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
