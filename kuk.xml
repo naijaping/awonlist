@@ -2240,12 +2240,12 @@
 </item>
 
 <item>
-<title>PotLuck TV</title>
+<title>Potlo</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>'file': "(.*m3u8.*?)"</expres>
-<page>http://sportsaccess.se/usplayer.php?c=ch01&a=sportsaccess&s=02</page>
+<page>http://sportsaccess.se/usplayer.php?c=ch01&amp;a=sportsaccess&amp;s=02</page>
 <referer>http://sportsaccess.se/index.php?pg=usa</referer>
 </regex>
 <thumbnail></thumbnail>
