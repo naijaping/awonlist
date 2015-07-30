@@ -2239,7 +2239,7 @@
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>{file:"(.*?)"</expres>
+<expres>file:"(.*e-tv3.*?)"</expres>
 <page>http://www2.iransima.ir/</page>
 <referer></referer>
 </regex>
