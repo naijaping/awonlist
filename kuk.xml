@@ -2235,11 +2235,11 @@
 </item>
 
 <item>
-<title>Irano</title>
+<title>Irani</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>file:"(.*?)"</expres>
+<expres>{file:"(.*?)"</expres>
 <page>http://www2.iransima.ir/</page>
 <referer></referer>
 </regex>
