@@ -2234,6 +2234,17 @@
 <link></link>
 </item>
 
+<item>
+<title>NTVRegex</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>{file:"(rtmp.*?)"</expres>
+<page>http://www2.iransima.ir/</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
