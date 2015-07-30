@@ -2235,12 +2235,12 @@
 </item>
 
 <item>
-<title>Irani</title>
-<link>$doregex[url]</link>
+<title>Irann</title>
+<link>http://cdn2.iransima.ir/e-tv3/tv3-300k.stream/playlist.m3u8$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>file:"(.*e-tv3.*?)"</expres>
-<page>http://www2.iransima.ir/</page>
+<expres>m3u8(\?.*)"</expres>
+<page>http://bit.ly/1LNoGly</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
