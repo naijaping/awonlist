@@ -2211,39 +2211,26 @@
                 <thumbnail>http://360player.sportalsports.com/hd/img/fb_sportalhd.png</thumbnail>
                 <link>http://pri.cdn.bg:2001/fls/sportal_tv_hd.stream/playlist.m3u8</link>
         </item>
-        <item>
-                <title>At The Races</title>
-                <thumbnail>http://www.wrexhamafc.co.uk/cms_images/atr-logo-43207-1346768_478x359.jpg</thumbnail>
-                <link>http://31.220.40.114:80/LiveEdge/attheraces.stream/chunklist_w917931901_b1000000.m3u8?token=d63cf43fc7d44590398c564e3d88e276</link>
-        </item>
+        
+        
        <item>
                <title>ESPN 1 HD</title>
                <thumbnail>http://www.ashlandhome.net/SIB/images/espn_hd.png</thumbnail>
                <link>http://80.80.160.168/live/6/live.m3u8</link>
        </item>
-        <item>
-                <title>Boxnation HD</title>
-                <thumbnail>https://upload.wikimedia.org/wikipedia/commons/c/c3/BoxNation_logo.jpg</thumbnail>
-                <link>rtmp://37.187.167.166:2195/live?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xOS8yMDE1IDQ6NDc6NDggUE0maGFzaF92YWx1ZT1HeUFCOFJXMW05VC9yYUlscGVtaTBBPT0mdmFsaWRtaW51dGVzPTM=//boxnation</link>
-        </item>
+        
        <item>
                <title>WWE LIVE HD</title>
                <thumbnail>http://vignette3.wikia.nocookie.net/wweallstars/images/e/e5/WWE.png/revision/latest?cb=20110320232231</thumbnail>
                <link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/138.m3u8</link>
        </item>
-        <item>
-                <title>ArenaSport</title>
-                <link>http://118.97.167.19/jhos/arena//Playlist.m3u8</link>
-        </item>
+        
        <item>
                <title>Sportsnet 360</title>
                <thumbnail>http://allhabs.net/wp-content/uploads/2013/11/sportsnet_ca_short.png</thumbnail>
                <link>http://nlds187.cdnak.neulion.com/nlds/sportsnetnow/sn_360/as/live/sn_360_hd_ipad.m3u8</link>
        </item>
-       <item>
-               <title>NBA TV</title>
-               <link>http://istariptv.dyndns-ip.com:2200/US/NBA-TV/index.m3u8</link>
-       </item>
+       
        <item>
                <title>TRT Spor</title>
                <link>http://trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/master.m3u8?byLuca</link>
