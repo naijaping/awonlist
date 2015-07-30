@@ -2234,6 +2234,18 @@
 <link></link>
 </item>
 
+<item>
+<title>Iran</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file:"(.*m3u8.*?)"</expres>
+<page>http://www2.iransima.ir/</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 
