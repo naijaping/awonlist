@@ -2227,12 +2227,12 @@
 </item>
 
 <item>
-<title>NFL Network</title>
+<title>NFL</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>'file': "(.*m3u8.*?)"</expres>
-<page>http://sportsaccess.se/usaplay.php?c=ch01&a=sportsaccess&s=02</page>
+<page>http://sportsaccess.se/euplay.php?c=ch02&a=sportsaccess&s=03</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
