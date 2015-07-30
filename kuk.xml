@@ -2241,7 +2241,7 @@
 <name>reg1</name>
 <expres>{file:"(rtmp.*?)"</expres>
 <page>http://www2.iransima.ir/</page>
-<referer></referer>
+<referer>http://www2.iransima.ir</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
