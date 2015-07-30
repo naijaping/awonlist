@@ -2235,7 +2235,7 @@
 </item>
 
 <item>
-<title>Iran</title>
+<title>Irano</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
