@@ -2173,16 +2173,6 @@
 <link>http://93.174.95.125:1935/edge/_definst_/xoaaohmeuajfeyf/playlist.m3u8?wowzasessionid=1419879934</link>
 </item>
 
-<item>
-<title>obu</title>
-<link>http://198.50.154.178:1935/live/skysports1hdg/playlist.m3u8</link>
-</item>
-
-<item>
-<title>hb4</title>
-<link>http://istariptv1.dyndns-ip.com:2200/NL-Fox-Sports4/index.m3u8</link>
-</item>
-
 
 <item> [TVPlayer Addon]
 <title>Zeus</title>
@@ -2217,6 +2207,24 @@
 <title>My Test </title>
 <link>http://54.177.195.82/server/play/fs1ctg/3964000/prog.m3u8?anv=1427415219896|X-Forwarded-For=66.171.228.102</link>
 </item>
+
+
+</item>
+        <item>
+                <title>SKY Bundesliga DE</title>
+                <thumbnail>http://www.stream2watch.co/images/thumbs/sky%20bundesliga%20live%20stream.png</thumbnail>
+                <link>http://balkanstream.com/stream/SKYbundes/rajko/rajko#sthash.FQsAAPpp.dpuf</link>
+        </item>
+        <item>
+                <title>SKY Sport 1 DE</title>
+                <thumbnail>https://upload.wikimedia.org/wikipedia/de/0/0c/Sky_Sport_1_off-air_2011.png</thumbnail>
+                <link>http://balkanstream.com/stream/SKYsport01/rajko/rajko#sthash.FQsAAPpp.dpuf</link>
+        </item>
+        <item>
+                <title>SKY Sport 2 DE</title>
+                <thumbnail>http://www.sheromeda.com/medias/images/sky-de-sport-2.png</thumbnail>
+                <link>http://balkanstream.com/stream/SKYsport02/rajko/rajko#sthash.FQsAAPpp.dpuf</link>
+        </item>
 
 
 
