@@ -2227,40 +2227,16 @@
 </item>
 
 <item>
-<title>Vogo</title>
-<link>http://eu.03.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8?wmsAuthSign=$doregex[auth]$doregex[sid]</link>
-<regex>
-<name>auth</name>
-<expres>$pyFunction:'$doregex[get-auth]'.replace('"','').replace(',','')</expres>
-<page></page>
-</regex>
+<title>02 HD</title>
+<link>http://eu.03.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8[get-auth]</link>
 <regex>
 <name>get-auth</name>
-<expres>var $doregex[vcod] = \[(.*?)\]</expres>
-<page>http://karwan.tv/live/vin-tv/vin-tv.php</page>
-<referer>http://karwan.tv/</referer>
-<regex>
-<name>vcod</name>
-<expres>join\(""\) \+ (.*?)\.join</expres>
-<page>http://karwan.tv/live/vin-tv/vin-tv.php</page>
-<referer>http://karwan.tv/</referer>
-</regex>
-<regex>
-<name>sid</name>
-<expres>id=$doregex[vid]\&gt;(.*?)&lt;</expres>
-<page>http://karwan.tv/live/vin-tv/vin-tv.php</page>
-<referer>http://karwan.tv/</referer>
-</regex>
-<regex>
-<name>vid</name>
-<expres>ById\("(.*?)"</expres>
-<page>http://karwan.tv/live/vin-tv/vin-tv.php</page>
-<referer>http://karwan.tv/</referer>
+<expres>m3u8(\?.*)"</expres>
+<page>http://bit.ly/1LNoGly</page>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+<referer></referer>
 </regex>
 </item>
-
-
-
 
 
 </channel>
