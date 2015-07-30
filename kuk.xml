@@ -2113,25 +2113,6 @@
 </item>
 
 <item>
-<title>bundeso</title>
-<link>http://134.19.185.204:1935/livedge/sskys1/playlist.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>119liga</title>
-<link></link>
-<thumbnail>http://i61.tinypic.com/2ypcf11.jpg</thumbnail>
-</item>
-
-
-<item>
-<title>fi</title>
-<link>rtmp://37.187.167.166:2195/live?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yNS8yMDE1IDEyOjQ1OjAwIFBNJmhhc2hfdmFsdWU9d2hJTDU3NU0wRitDRUFCUVd0N1dlUT09JnZhbGlkbWludXRlcz0z/racinguk swfUrl=http://p.jwpcdn.com/6/11/jwplayer.flash.swf pageUrl=http://straighthost.com/billing/vip/live.php?id=8 live=true timeout=20</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>Avrupa TV</title>
 <link>$doregex[url]</link>
 <regex>
@@ -2194,7 +2175,7 @@
 
 <item>
 <title>obu</title>
-<link>rtmp://198.50.154.178:1935/live playpath=skysports1hdg swfUrl=http://www.kodistreams.tv/player.swf pageUrl=http://www.kodistreams.tv/view.php?pg=skysports1hd live=1 timeout=10</link>
+<link>http://198.50.154.178:1935/live/skysports1hdg/playlist.m3u8</link>
 </item>
 
 <item>
@@ -2233,27 +2214,10 @@
 
 
 <item>
-                <title>BT Sport 1 HD</title>
-                <thumbnail>http://sevenleague.co.uk/wp-content/uploads/2013/02/bt_sport-logo1.jpg</thumbnail>
-                <link>rtmp://37.187.167.166:2195/live?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xOC8yMDE1IDk6NTM6NTEgUE0maGFzaF92YWx1ZT0zRm43N0ZNZVVWMFpBU2lialVCK05nPT0mdmFsaWRtaW51dGVzPTM=/btsports1</link>
-        </item>
-        <item>
-                <title>BT Sport 2 HD</title>
-                <thumbnail>http://sevenleague.co.uk/wp-content/uploads/2013/02/bt_sport-logo1.jpg</thumbnail>
-                <link>rtmp://37.187.167.166:2195/live?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xOC8yMDE1IDk6NTM6NTEgUE0maGFzaF92YWx1ZT0zRm43N0ZNZVVWMFpBU2lialVCK05nPT0mdmFsaWRtaW51dGVzPTM=/btsports2</link>
-        </item>
-
-
-
-<item>
 <title>My Test </title>
 <link>http://54.177.195.82/server/play/fs1ctg/3964000/prog.m3u8?anv=1427415219896|X-Forwarded-For=66.171.228.102</link>
 </item>
 
-<item>
-<title>My Test2</title>
-<link>http://live-edge01.telecentro.net.ar:1935/live/tvphd-720/playlist.m3u8?</link>
-</item>
 
 
 </channel>
