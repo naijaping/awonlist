@@ -2236,22 +2236,11 @@
 
 
 
-<item>
-<title>MLBo</title>
-<link>http://37.48.83.131/live/abc77/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://bit.ly/1LNoGly</page>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
-<referer></referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mlb_network.png</thumbnail>
-</item>
+
  
 
 
- <item>
+<item>
 <title>nik00</title>
 <link>http://usa.02.cdnstreams.in:6034/sportsaccess/ch11/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8zMS8yMDE1IDc6MjQ6MjAgQU0maGFzaF92YWx1ZT1rQStvcHV1V0Ftc3Bzc3N6VFJRWm5RPT0mdmFsaWRtaW51dGVzPTE%3D&wowzasessionid=397700061</link>
 </item>
