@@ -2216,16 +2216,15 @@
        
 
 
-<item>
-<title>NFLNetwork</title>
-<link>$doregex[url]</link>
+item>
+<title>luku</title>
+<link>http://eu.03.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8?wmsAuthSign=$doregex[auth]</link>
 <regex>
-<name>url</name>
-<expres>'file': "(.*m3u8.*?)"</expres>
+<name>auth</name>
+<expres>wmsAuthSign=(.*?)"</expres>
 <page>http://sportsaccess.se/usplayer.php?w=3&c=ch03&a=sportsaccess&x=03</page>
-<referer></referer>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>http://i59.tinypic.com/2a0dfr8.jpg</thumbnail>
 </item>
 
 
