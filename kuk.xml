@@ -2218,19 +2218,13 @@
 
 <item>
 <title>luku</title>
-<link>http://eu.03.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8?wmsAuthSign=$doregex[auth]</link>
+<link>http://eu.03.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8?wmsAuthSign=$doregex[auth]&amp;wowzasessionid=981053194</link>
 <regex>
 <name>auth</name>
 <expres>wmsAuthSign=(.*?)"</expres>
 <page>http://sportsaccess.se/usplayer.php?w=3&c=ch03&a=sportsaccess&x=03</page>
 </regex>
 <thumbnail>http://i59.tinypic.com/2a0dfr8.jpg</thumbnail>
-</item>
-
-
-<item>
-<title>Mobili</title>
-<link>rtmp://usa.03.cdnstreams.in:6034/sportsaccess/ch03?wmsAuthSign=c2VydmVyX3RpbWU9Ny8zMS8yMDE1IDY6MzY6MzAgQU0maGFzaF92YWx1ZT14MEdZQ2tqdUM4elBFMWgrN1U1Ty9RPT0mdmFsaWRtaW51dGVzPTE%3D&wowzasessionid=981053194</link>
 </item>
 
 <item>
