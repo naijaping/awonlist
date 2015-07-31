@@ -2233,22 +2233,9 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Mubuuu</title>
-<link>http://usa.03.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8zMS8yMDE1IDY6MzY6MzAgQU0maGFzaF92YWx1ZT14MEdZQ2tqdUM4elBFMWgrN1U1Ty9RPT0mdmFsaWRtaW51dGVzPTE%3D&wowzasessionid=981053194</link>
-</item>
 
-<item>
-<title>Aguu</title>
-<link>http://usa.03.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>file: "(m3u8.*?)"</expres>
-<page>http://www.giniko.com/watch.php?id=190</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
+
 
 
 
