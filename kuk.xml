@@ -2240,6 +2240,24 @@
 
 
 <item>
+<title>mututu</title>
+<link>$doregex[auth] $doregex[id]</link>
+<regex>
+<name>auth</name>
+<expres>'file': "(.*wmsAuthSign.*?)"</expres>
+<page>http://sportsaccess.se/usplayer.php?w=3&c=ch03&a=sportsaccess&x=03</page>
+</regex>
+<regex>
+<name>sid</name>
+<expres>wowzasessionid=(.*?)"</expres>
+<page>http://sportsaccess.se/usplayer.php?w=3&c=ch03&a=sportsaccess&x=03</page>
+<referer></referer>
+<regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
 <title>[COLOR=yellow][B][I] SIC [/I][/B][/COLOR]</title>
 <link>$doregex[rtmp] token=$doregex[tok] swfUrl=http://pxstream.tv/jwplayer.flash.swf pageUrl=http://pxstream.tv live=1 timeout=15</link>
 <regex>
