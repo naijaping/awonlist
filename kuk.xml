@@ -2232,6 +2232,16 @@
 </item>
 
 
+<item>
+<title>Vinoo</title>
+<link>$doregex[auth]</link>
+<regex>
+<name>auth</name>
+<expres>'file': "(.*wmsAuthSign.*?)"</expres>
+<page>http://sportsaccess.se/euplay.php?c=ch03&a=sportsaccess&s=03</page>
+</regex>
+</item>
+
 
  
 
