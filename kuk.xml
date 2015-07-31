@@ -2215,32 +2215,10 @@
         
        
        
- <item>
- <title>TRT Spor</title>
- <link>http://trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/master.m3u8?byLuca</link>
- </item>
+ 
 
 
-<item>
-<title>Vin-Tv</title>
-<link>http://eu.03.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8?wmsAuthSign=$doregex[auth]</link>
-<regex>
-<name>auth</name>
-<expres>wmsAuthSign=(.*?)"</expres>
-<page>http://sportsaccess.se/euplay.php?c=ch03&a=sportsaccess&s=03</page>
-</regex>
-</item>
 
-
-<item>
-<title>olomele</title>
-<link>http://usa.02.cdnstreams.in:6034/sportsaccess/ch11/playlist.m3u8?wmsAuthSign=$doregex[auth]</link>
-<regex>
-<name>auth</name>
-<expres>wmsAuthSign=(.*?)"</expres>
-<page>http://sportsaccess.se/usaplay.php?c=ch11&a=sportsaccess&s=02</page>
-</regex>
-</item>
 
 
 
