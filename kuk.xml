@@ -2216,7 +2216,7 @@
        
 
 
-item>
+<item>
 <title>luku</title>
 <link>http://eu.03.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8?wmsAuthSign=$doregex[auth]</link>
 <regex>
