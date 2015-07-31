@@ -2237,9 +2237,16 @@
 
 
 <item>
-<title>MLBNet</title>
-<link>rtmp://37.48.83.131/live?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMTUgMjoyNDo1NCBBTSZoYXNoX3ZhbHVlPXJtam9YbEpHb2pqSW5UMFUyS0xiekE9PSZ2YWxpZG1pbnV0ZXM9MjA=/abc77</link>
-<thumbnail></thumbnail>
+<title>MLBo</title>
+<link>http://37.48.83.131/live/abc77/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://bit.ly/1LNoGly</page>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+<referer></referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mlb_network.png</thumbnail>
 </item>
  
 
