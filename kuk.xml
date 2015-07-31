@@ -2216,14 +2216,14 @@
        
 
 <item>
-<title>Luko</title>
+<title>Lukom</title>
 <link>http://eu.03.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8?wmsAuthSign=$doregex[auth]</link>
 <regex>
 <name>auth</name>
 <expres>wmsAuthSign=(.*?)"</expres>
-<page>http://karwan.tv/live/vin-tv/vin-tv.php</page>
+<page>http://karwan.tv/vin-tv.html</page>
 </regex>
-<thumbnail>http://i59.tinypic.com/2a0dfr8.jpg</thumbnail>
+<thumbnail></thumbnail>
 </item>
  
 
