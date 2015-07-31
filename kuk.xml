@@ -2233,14 +2233,15 @@
 
 
 <item>
-<title>Vinoo</title>
-<link>$doregex[auth]</link>
+<title>olomele</title>
+<link>http://usa.02.cdnstreams.in:6034/sportsaccess/ch11/playlist.m3u8?wmsAuthSign=$doregex[auth]</link>
 <regex>
 <name>auth</name>
-<expres>'file': "(.*wmsAuthSign.*?)"</expres>
-<page>http://sportsaccess.se/euplay.php?c=ch03&a=sportsaccess&s=03</page>
+<expres>wmsAuthSign=(.*?)"</expres>
+<page>http://sportsaccess.se/usaplay.php?c=ch11&a=sportsaccess&s=02</page>
 </regex>
 </item>
+
 
 
  
