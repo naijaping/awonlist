@@ -2215,16 +2215,7 @@
         
        
 
-<item>
-<title>Lukom</title>
-<link>http://eu.03.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8?wmsAuthSign=$doregex[auth]</link>
-<regex>
-<name>auth</name>
-<expres>wmsAuthSign=(.*?)"</expres>
-<page>http://karwan.tv/vin-tv.html</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
  
 
 
