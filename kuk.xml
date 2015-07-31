@@ -2237,8 +2237,8 @@
 
 
 <item>
-<title>MLBNetwork</title>
-<link>http://usa.02.cdnstreams.in:6034/sportsaccess/ch11/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8zMS8yMDE1IDc6MjQ6MjAgQU0maGFzaF92YWx1ZT1rQStvcHV1V0Ftc3Bzc3N6VFJRWm5RPT0mdmFsaWRtaW51dGVzPTE%3D&wowzasessionid=1419872183</link>
+<title>MLBNet</title>
+<link>rtmp://37.48.83.131/live?wmsAuthSign=c2VydmVyX3RpbWU9Ni84LzIwMTUgMjoyNDo1NCBBTSZoYXNoX3ZhbHVlPXJtam9YbEpHb2pqSW5UMFUyS0xiekE9PSZ2YWxpZG1pbnV0ZXM9MjA=/abc77</link>
 <thumbnail></thumbnail>
 </item>
  
