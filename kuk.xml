@@ -2217,7 +2217,7 @@
 
 
 <item>
-<title>lukuu</title>
+<title>loko</title>
 <link>http://eu.03.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8?wmsAuthSign=$doregex[auth]$doregex[sid]</link>
 <regex>
 <name>auth</name>
@@ -2226,8 +2226,8 @@
 </regex>
 <regex>
 <name>sid</name>
-<expres>wowzasessionid=([^'"]*)</expres>
-<page>http://sportsaccess.se/</page>
+<expres>wowzasessionid=[0-9]+)"</expres>
+<page>http://sportsaccess.se/usplayer.php?w=3&c=ch03&a=sportsaccess&x=03</page>
 <referer></referer>
 <regex>
 <thumbnail></thumbnail>
