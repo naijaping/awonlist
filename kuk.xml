@@ -2222,28 +2222,11 @@
 
 
 <item>
-<title>Tifkoo</title>
-<link>http://usa.02.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8zMC8yMDE1IDExOjUxOjU0IFBNJmhhc2hfdmFsdWU9VDc2bXljN3hMTTdGVWFkTTFoc2tvZz09JnZhbGlkbWludXRlcz0x</link>
+<title>Tigoo</title>
+<link>http://usa.02.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8?wmsAuthSign=wmsAuthSign=c2VydmVyX3RpbWU9Ny8zMC8yMDE1IDExOjU5OjUwIFBNJmhhc2hfdmFsdWU9M0o2WnFpTW1LVE9qbHJTclRpclluUT09JnZhbGlkbWludXRlcz02MA==</link>
 </item>
 
-<item>
-<title>Haba TV</title>
-<link>$doregex[get-finalURL]|Cookie=$get_cookies$&amp;User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36</link>
-<regex>
-<name>get-url</name>
-<expres>(http.*?)"</expres>
-<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=kicc_3&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp&amp;callback=jQuery21003127479157410562_1425573090144&amp;_=1425573090145</page>
-<referer>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=kicc_3&amp;type=live&amp;service=wowza&amp;output=player</referer>
-<cookieJar></cookieJar>
-<agent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36</agent>
-</regex>
-<regex>
-<name>get-finalURL</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<thumbnail>http://i61.tinypic.com/vd0ewi.jpg</thumbnail>
-</item>
+
  
 
 
