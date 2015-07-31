@@ -2262,6 +2262,26 @@
 <link>http://46.249.213.93/iPhone/HLS_TS/broadcast/hotshots-tablet.3gp/hotshots-tablet.3gp-mr649k.m3u8</link>
 </item>
 
+<item>
+<title>GloboVision</title>
+<link>$doregex[final-url]</link>
+<regex>
+<name>final-url</name>
+<expres>(.*)#</expres>
+<page>$doregex[url]&amp;redirect=0</page>
+</regex>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-url</name>
+<expres>mpegURL.*"(http.*hls&amp;auth.*?)"</expres>
+<page>http://www.dailymotion.com/embed/video/xio7e2</page>
+<referer>http://www.dailymotion.com/</referer>
+</regex>
+</item>
 
 
 </channel>
