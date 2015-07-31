@@ -2218,7 +2218,7 @@
 
 <item>
 <title>loko</title>
-<link>http://eu.03.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8?wmsAuthSign=$doregex[auth]$doregex[sid]</link>
+<link>http://eu.03.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8?wmsAuthSign=$doregex[auth]&amp;wowzasessionid=$doregex[ ]</link>
 <regex>
 <name>auth</name>
 <expres>wmsAuthSign=(.*?)"</expres>
@@ -2233,18 +2233,29 @@
 <thumbnail></thumbnail>
 </item>
 
-
-
-
-
- 
-
-
 <item>
 <title>nik00</title>
 <link>http://usa.02.cdnstreams.in:6034/sportsaccess/ch11/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8zMS8yMDE1IDc6MjQ6MjAgQU0maGFzaF92YWx1ZT1rQStvcHV1V0Ftc3Bzc3N6VFJRWm5RPT0mdmFsaWRtaW51dGVzPTE%3D&wowzasessionid=397700061</link>
 </item>
 
+
+
+<title>[COLOR=yellow][B][I] SIC [/I][/B][/COLOR]</title>
+<link>$doregex[rtmp] token=$doregex[tok] swfUrl=http://pxstream.tv/jwplayer.flash.swf pageUrl=http://pxstream.tv live=1 timeout=15</link>
+<regex>
+        <name>rtmp</name>
+        <expres>file: "(.*wmsAuthSign.*?)"</expres>
+        <page>http://pxstream.tv/embedrouter.php?file=sic7dias</page>
+        <referer>http://www.meocanaltv.com</referer>
+</regex>
+<regex>
+        <name>tok</name>
+        <expres>securetoken: "(.*?)"</expres>
+        <page>http://pxstream.tv/embedrouter.php?file=sic7dias</page>
+        <referer>http://www.meocanaltv.com</referer>
+   <thumbnail>http://famososnaweb.com.br/wp-content/uploads/2014/06/SIC.jpg</thumbnail>
+        </regex>
+</item>
 
 
 </channel>
