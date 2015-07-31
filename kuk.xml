@@ -2262,6 +2262,38 @@
 <link>http://46.249.213.93/iPhone/HLS_TS/broadcast/hotshots-tablet.3gp/hotshots-tablet.3gp-mr649k.m3u8</link>
 </item>
 
+<item>
+<title>Mobatlantic</title>
+<link>http://planetiptv-test.ddns.net:9088/sdtv/skyuk/planet/iptv/Sky_Atlantic_UK?auth=test+test</link>
+</item>
+
+<item>
+<title>Mobplanet</title>
+<link>http://planetiptv-test.ddns.net:9088/sdtv/skyuk/planet/iptv/Sky_Atlantic_UK?auth=test+test</link>
+</item>
+
+<item>
+<title>Mobf1</title>
+<link>http://planetiptv-test.ddns.net:9088/sdtv/skyuk/planet/iptv/Sky_Sports_F1?auth=test+test</link>
+</regex>
+</item>
+
+<item>
+<title>Mobbt</title>
+<link>http://planetiptv-test.ddns.net:9088/sdtv/uktv/planet/iptv/BT_Sport_ESPN?auth=test+test</link>
+</item>
+
+<item>
+<title>Mobbtxtra</title>
+<link>http://planetiptv-test.ddns.net:9088/sdtv/uktv/planet/iptv/BT_Sport_Extra?auth=test+test</link>
+</item>
+
+<item>
+<title>Sport Time TV</title>
+<link>rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel5_1200</link>
+</item>
+
+
 
 </channel>
 
