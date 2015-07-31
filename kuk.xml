@@ -2218,40 +2218,14 @@
 
 <item>
 <title>loko</title>
-<link>http://eu.03.cdnstreams.in:6034/sportsaccess/ch03/playlist.m3u8?wmsAuthSign=$doregex[auth]&amp;wowzasessionid=$doregex[ ]</link>
-<regex>
-<name>auth</name>
-<expres>wmsAuthSign=(.*?)"</expres>
-<page>http://sportsaccess.se/usplayer.php?w=3&c=ch03&a=sportsaccess&x=03</page>
-</regex>
-<regex>
-<name>sid</name>
-<expres>wowzasessionid=[0-9]+)"</expres>
-<page>http://sportsaccess.se/usplayer.php?w=3&c=ch03&a=sportsaccess&x=03</page>
-<referer></referer>
-<regex>
+<link>http://tna2gb9.tulix.tv/hls/astv1lagostv/4c81490260c571e435bd1d3fc4f7e1c2/55bd53e2/sat-lagostv.stream.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
 
 
 
-<item>
-<title>mututu</title>
-<link>$doregex[auth] $doregex[id]</link>
-<regex>
-<name>auth</name>
-<expres>'file': "(.*wmsAuthSign.*?)"</expres>
-<page>http://sportsaccess.se/usplayer.php?w=3&c=ch03&a=sportsaccess&x=03</page>
-</regex>
-<regex>
-<name>sid</name>
-<expres>wowzasessionid=(.*?)"</expres>
-<page>http://sportsaccess.se/usplayer.php?w=3&c=ch03&a=sportsaccess&x=03</page>
-<referer></referer>
-<regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 <item>
