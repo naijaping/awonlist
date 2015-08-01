@@ -2254,7 +2254,17 @@
 </regex>
 </item>
 
-
+<item>
+<title>hbo</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.malayalamtvhd.in/2015/07/hbo.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
