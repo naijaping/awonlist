@@ -2387,7 +2387,7 @@
 </item>
 
 <item>
-<title> FOXiu</title>
+<title>follu</title>
 <link>$doregex[url] live=1 timeout=15 flashVer=WIN\2016,0,0,305</link>
 <regex>
 <name>url</name>
