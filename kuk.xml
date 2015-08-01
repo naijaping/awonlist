@@ -2391,7 +2391,7 @@
 <link>$doregex[url] live=1 timeout=15 flashVer=WIN\2016,0,0,305</link>
 <regex>
 <name>url</name>
-<expres>'file': "(.*?)"</expres>
+<expres>'file': "(.*m3u8.*?)"</expres>
 <page>http://sportsaccess.se/usplayer.php?c=ch01&amp;a=sportsaccess&amp;x=02&amp;w=1</page>
 <referer>http://sportsaccess.se/index.php?pg=usa</referer>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
