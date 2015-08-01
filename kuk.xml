@@ -2274,12 +2274,12 @@
 
 
 <item>
-<title>xux</title>
+<title>xuxo</title>
 <link>http://$doregex[get-rtmp] live=1 timeout=15 flashVer=WIN\2016,0,0,305</link>
 <regex>
 <name>get-rtmp</name>
 <expres>'file': "http:\/\/(.*?)"</expres>
-<page>http://sportsaccess.se/usplayer.php?w=12&c=ch12&a=sportsaccess&x=02&w=12</page>
+<page>http://sportsaccess.se/usplayer.php?w=12&amp;c=ch12&amp;a=sportsaccess&amp;x=02&amp;w=12</page>
 <referer>http://sportsaccess.se/index.php?pg=usa</referer>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
 <cookieJar>$doregex[get-captcha]</cookieJar>
