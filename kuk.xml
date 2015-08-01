@@ -1967,45 +1967,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
-<item>
-<title>ETB1</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.shadownet.biz/channels/usa/bet.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>markhall1</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.shadownet.biz/channels/usa/hallmark.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>Timelife1</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.shadownet.biz/channels/usa/lifetime.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 <item>
 <title>MLB1</title>
 <link>$doregex[url]</link>
@@ -2017,19 +1978,6 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
-
-<item>
-<title>Timeshow1</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.shadownet.biz/channels/usa/showtime.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 
 <item>
 <title>MUMU</title>
@@ -2386,11 +2334,12 @@
 </regex>
 </item>
 
-<item>
-<title>Sky</title>
-<link>rtmp://37.48.118.32:1935/live?wmsAuthSign=c2VydmVyX3RpbWU9Ny8zMS8yMDE1IDExOjU0OjQzIFBNJmhhc2hfdmFsdWU9bUQ0eUlwUGU5R0NPekdjT1FrMWg5Zz09JnZhbGlkbWludXRlcz0x/natgeoww.stream swfUrl=http://www.finecast.tv/player6/jwplayer.flash.swf flashver=WIN/2018,0,0,209 live=1 timeout=14 swfVfy=1 pageUrl=http://www.finecast.tv/embed4.php?u=natgeohd&vw=640&vh=450</link>
+<item> [TVPlayer Addon]
+<title>skyuu</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.stalker/?tmp=1&genre_name=%5B%27All%27%5D&title=National+Geographic+Channel&cmd=ffrt2+http%3A%2F%2Flocalhost%2Fch%2F2819&portal=%7B%22name%22%3A+%22NFPS%22%2C+%22parental%22%3A+%22false%22%2C+%22url%22%3A+%22http%3A%2F%2Fportal.iptvprivateserver.tv%22%2C+%22mac%22%3A+%22%22%2C+%22serial%22%3A+null%2C+%22password%22%3A+%220000%22%7D&mode=play&logo_url=http%3A%2F%2Fportal.iptvprivateserver.tv%2Fstalker_portal%2Fmisc%2Flogos%2F320%2F897.png&</jsonrpc>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
 </item>
-
 
 
 </channel>
