@@ -2387,16 +2387,8 @@
 </item>
 
 <item>
-<title>Sky Action</title>
-<link>http://31.220.40.114:80/LiveEdge/movaction.stream/chunklist_w438877241_b1000000.m3u8?token=$doregex[id] live=1 timeout=15 flashVer=WIN\2016,0,0,305</link>
-<regex>
-<name>id</name>
-<expres>token=(.*?)'</expres>
-<page>http://sportsdonkey.club/site/live/?id=232</page>
-<referer>http://sportsdonkey.club/site/live/</referer>
-<x-forward>92.0.40.21</x-forward>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
-</regex>
+<title>SkyAction</title>
+<link>http://31.220.41.102/LiveEdge/UFCNetworkLA/playlist.m3u8?token=2217c7df8ca53f86299a7b6e6b9dd025</link>
 </item>
 
 
