@@ -2388,6 +2388,18 @@
 </item>
 
 
+<item>
+<title>Bein Sport Spain 1080 HD</title>
+<link>http://ak-cred-bein-us-es-stream.fubo.tv/UT-Origin/ngrp:BeInSports_ES_all/chunklist_b4628000.m3u8?hdnts=$doregex[tok]</link>
+<regex>
+<name>tok</name>
+<expres>"token":"(.*?)"</expres>
+<page>https://api.fubo.tv/public/edgeauth/token</page>
+<referer>https://www.fubo.tv</referer>
+<x-forward>67.159.5.242</x-forward>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_espanol.png</thumbnail>
+</item>
 
 
 
