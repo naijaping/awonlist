@@ -2336,7 +2336,7 @@
 
 <item>
 <title>mutes</title>
-<link>$doregex[rtmp] live=1 timeout=15 pageUrl=http://www.tvtuga.com securetoken=$doregex[tok]</link>
+<link>$doregex[rtmp] live=1 timeout=15 pageUrl=http://www.tvtuga.com token=$doregex[tok]</link>
 <regex>
 <name>rtmp</name>
 <expres>file: "(.*?)"</expres>
