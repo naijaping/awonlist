@@ -2387,17 +2387,27 @@
 </item>
 
 <item>
-<title>Racing UK HD</title>
-<link>http://usa.01.cdnstreams.in:6034/sportsaccess/ch01/playlist.m3u8$doregex[get-auth]</link>
+<title> FOXiu</title>
+<link>http://$doregex[url] live=1 timeout=15 flashVer=WIN\2016,0,0,305</link>
 <regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://bit.ly/1LNoGly</page>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
-<referer></referer>
+<name>url</name>
+<expres>'file': "(.*?)"</expres>
+<page>http://sportsaccess.se/usplayer.php?c=ch01&amp;a=sportsaccess&amp;x=02&amp;w=1</page>
+<referer>http://sportsaccess.se/index.php?pg=usa</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
+<cookieJar>$doregex[get-captcha]</cookieJar>
+</regex>
+<regex>
+<name>get-captcha</name>
+<expres></expres>
+<page>http://sportsaccess.se/login.php?do=login</page>
+<rawpost>vb_login_username=bse777&amp;vb_login_password=qwertyuiop&amp;s=&amp;do=login&amp;vb_login_md5password=6eea9b7ef19179a06954edd0f6c05ceb&amp;vb_login_md5password_utf=6eea9b7ef19179a06954edd0f6c05ceb<rawpost>
+<referer>http://sportsaccess.se/index.php?pg=main</referer>
+<x-req>XMLHttpRequest</x-req>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
+<cookieJar></cookieJar>
 </regex>
 </item>
-
 
 
 
