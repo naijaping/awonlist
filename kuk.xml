@@ -2273,28 +2273,7 @@
 </item>
 
 
-<item>
-<title>xuxo</title>
-<link>http://$doregex[get-rtmp] live=1 timeout=15 flashVer=WIN\2016,0,0,305</link>
-<regex>
-<name>get-rtmp</name>
-<expres>'file': "http:\/\/(.*?)"</expres>
-<page>http://sportsaccess.se/usplayer.php?w=12&amp;c=ch12&amp;a=sportsaccess&amp;x=02&amp;w=12</page>
-<referer>http://sportsaccess.se/index.php?pg=usa</referer>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
-<cookieJar>$doregex[get-captcha]</cookieJar>
-</regex>
-<regex>
-<name>get-captcha</name>
-<expres></expres>
-<page>http://sportsaccess.se/login.php?do=login</page>
-<rawpost>vb_login_username=bse777&amp;vb_login_password=&amp;s=&amp;do=login&amp;vb_login_md5password=6eea9b7ef19179a06954edd0f6c05ceb&amp;vb_login_md5password_utf=6eea9b7ef19179a06954edd0f6c05ceb<rawpost>
-<referer>http://sportsaccess.se/index.php?pg=main</referer>
-<x-req>XMLHttpRequest</x-req>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
-<cookieJar></cookieJar>
-</regex>
-</item>
+
 
 
 </channel>
