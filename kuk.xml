@@ -2258,11 +2258,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>kuko151</title>
-<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/151.m3u8</link>
-<thumbnail></thumbnail>
-</item>
+
 
 <item>
 <title>kuko152</title>
@@ -2276,7 +2272,23 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>kuko154</title>
+<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/154.m3u8</link>
+<thumbnail></thumbnail>
+</item>
 
+<item>
+<title>kuko155</title>
+<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/155.m3u8</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>kuko156</title>
+<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/156.m3u8</link>
+<thumbnail></thumbnail>
+</item>
 
 
 <item>
