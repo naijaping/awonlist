@@ -2370,18 +2370,6 @@
 </regex>
 </item>
 
-<item>
-<title>hbo</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.malayalamtvhd.in/2015/07/hbo.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 <title>Mbc2</title>
 <link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://iptv-planet.com/swfs/player.swf live=1 timeout=15 pageUrl=http://iptv-planet.com/embed.php</link>
 <regex>
@@ -2395,6 +2383,29 @@
 <expres>'file': '(.*?)'</expres>
 <page>http://iptv-planet.com/embed.php?id=Hi_mbc2</page>
 <referer>http://iptv-planet.com</referer>
+</regex>
+</item>
+
+<item>
+<title>mumumi</title>
+<link>$doregex[url] live=1 timeout=15 flashVer=WIN\2016,0,0,305</link>
+<regex>
+<name>url</name>
+<expres>'file': "(.*m3u8.*?)"</expres>
+<page>http://sportsaccess.se/usplayer.php?c=ch01&amp;a=sportsaccess&amp;x=02&amp;w=1</page>
+<referer>http://sportsaccess.se/index.php?pg=usa</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
+<cookieJar>$doregex[get-captcha]</cookieJar>
+</regex>
+<regex>
+<name>get-captcha</name>
+<expres></expres>
+<page>http://sportsaccess.se/login.php?do=login</page>
+<rawpost>vb_login_username=bse777&amp;vb_login_password=qwertyuiop&amp;s=&amp;do=login&amp;vb_login_md5password=6eea9b7ef19179a06954edd0f6c05ceb&amp;vb_login_md5password_utf=6eea9b7ef19179a06954edd0f6c05ceb<rawpost>
+<referer>http://sportsaccess.se/index.php?pg=main</referer>
+<x-req>XMLHttpRequest</x-req>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
+<cookieJar></cookieJar>
 </regex>
 </item>
 
