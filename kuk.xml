@@ -2335,13 +2335,18 @@
 </item>
 
 <item>
-<title>mutest</title>
-<link>$doregex[url]</link>
+<title>mutes</title>
+<link>$doregex[rtmp] live=1 timeout=15 pageUrl=http://www.tvtuga.com securetoken=$doregex[tok]</link>
 <regex>
-<name>url</name>
+<name>rtmp</name>
 <expres>file: "(.*?)"</expres>
 <page>http://www.tvtuga.com/fox-life/</page>
 <referer></referer>
+</regex>
+<regex>
+<name>tok</name>
+<expres>securetoken: "(.*?)"</expres>
+<page>http://www.tvtuga.com/fox-life/</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
