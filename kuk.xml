@@ -2388,22 +2388,7 @@
 </item>
 
 
-<item>http://www2.iransima.ir
-<title>Iransima</title>
-<link>$doregex[rtmp] swfUrl=http://www2.iransima.ir/templates/total/player/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://www2.iransima.ir token=$doregex[tok]</link>
-<regex>
-<name>rtmp</name>
-<expres>{file:"(.*?)"</expres>
-<page>http://www2.iransima.ir/</page>
-<referer>http://www2.iransima.ir/</referer>
-</regex>
-<regex>
-<name>tok</name>
-<expres>securetoken:"(.*?)"</expres>
-<page>http://www2.iransima.ir/</page>
-<referer>http://www2.iransima.ir/</referer>
-</regex>
-</item>
+
 
 
 </channel>
