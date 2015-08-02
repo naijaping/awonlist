@@ -2376,7 +2376,7 @@
 <regex>
 <name>get-reg2</name>
 <expres>file":"(.*?)"<expres>
-<page> /livetv/etc</page>
+<page>http://www.dittotv.com/livetv/etc</page>
 <referer>http://www.dittotv.com</referer>
 </regex>
 <thumbnail></thumbnail>
