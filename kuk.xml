@@ -2322,14 +2322,19 @@
 <thumbnail></thumbnail>
 </item>
 
+
+
+
 <item>
-<title>Prestigo</title>
-<link>rtmp://skystreams.info/vod/ppvs/UFC.190.PPV.Rousey.vs.Correia.HDTV.x264-Ebi.mp4</link>
+<title>key</title>
+<link>http://srv2.cdn.tvcatchup.com/subtv_hi.m3u8?streamKey=$doregex[key]</link>
+<regex>
+<name>key</name>
+<expres>"url": "(.*?)"</expres>
+<page>http://77.107.72.86/Stream/</page>
+</regex>
 <thumbnail></thumbnail>
 </item>
-
-
-
 
 
 
