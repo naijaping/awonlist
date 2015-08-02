@@ -2322,19 +2322,20 @@
 <thumbnail></thumbnail>
 </item>
 
-
-
 <item>
-<title>miniooo</title>
-<link>http://sanfran01.netcasterstream.com:8081/live/domihigh/playlist.m3u8</link>
+<title>Domi</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: '(.*?)'</expres>
+<page>http://shoutcastmedia.com/domistreaming/high.html</page>
+</regex>
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>mi</title>
-<link>rtmp://54.149.84.98:1935/live/myStream</link>
-<thumbnail></thumbnail>
-</item>
+
+
+
 
 
 
