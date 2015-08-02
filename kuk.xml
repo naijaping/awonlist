@@ -2349,15 +2349,15 @@
 </item>
 
 <item>
-<title>pict ditto</title>
-<link>$doregex[url]</link>
+<title>picture ditto</title>
+<link>$doregex[reg1]</link>
 <regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\u0026','&')</expres>
+<name>reg1</name>
+<expres>$pyFunction:'$doregex[get-reg2]'.replace('\u0026','&')</expres>
 <page></page>
 </regex>
 <regex>
-<name>get-url</name>
+<name>get-reg2</name>
 <expres>file":"(.*?)"<expres>
 <page>http://www.dittotv.com/livetv/and-pictures-hd</page>
 <referer>http://www.dittotv.com</referer>
