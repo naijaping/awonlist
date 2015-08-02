@@ -2349,9 +2349,9 @@
 
 <item>
 <title>stepmi</title>
-<link>http://stepfb.dyndns.tv/vit2/stadium5new.stream/chunklist_w3630276.m3u8$doregex[auth] $doregex[code]</link>
+<link>$doregex[url] $doregex[code]</link>
 <regex>
-<name>auth</name>
+<name>url</name>
 <expres>"url": "(.*?)"</expres>
 <page>http://stepfb.net/live/chanel/44/</page>
 <referer>http://stepfb.net/</referer>
@@ -2360,7 +2360,7 @@
 <name>code</name>
 <expres>src='(.*?)'</expres>
 <page>http://stepfb.net/live/chanel/44/</page>
-<referer>http://stepfb.net/</referer>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
