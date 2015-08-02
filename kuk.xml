@@ -2366,7 +2366,7 @@
 </item> 
 
 <item>
-<title>ETC ditto</title>
+<title>ETCditto</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
