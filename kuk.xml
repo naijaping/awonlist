@@ -2327,8 +2327,9 @@
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>file: '(.*?)'</expres>
+<expres>{file: '(.*?)'</expres>
 <page>http://shoutcastmedia.com/domistreaming/high.html</page>
+<referer>http://www.davidoyedepoministries.org/mediacenter</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
