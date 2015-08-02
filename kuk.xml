@@ -2371,11 +2371,11 @@
 
 
 <item>
-<title>Stepuseo</title>
-<link>$doregex[auth]</link>
+<title>Stepuseor</title>
+<link>http://stepfb.dyndns.tv/vit2/stadium5new.stream/playlist.m3u8$doregex[auth]</link>
 <regex>
 <name>auth</name>
-<expres>"url": "(.*m3u8.*?)"</expres>
+<expres>m3u8(\?.*)"<</expres>
 <page>http://stepfb.net/live/stepfb.php?linkcode=$doregex[code]</page>
 <cookieJar></cookieJar>
 <referer>http://stepfb.net</referer>
