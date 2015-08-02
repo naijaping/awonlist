@@ -2332,7 +2332,7 @@
 
 <item>
 <title>mi</title>
-<link>rtsp://54.149.84.98:1935/live/myStream</link>
+<link>rtmp://54.149.84.98:1935/live/myStream</link>
 <thumbnail></thumbnail>
 </item>
 
