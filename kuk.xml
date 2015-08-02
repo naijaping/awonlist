@@ -2367,18 +2367,18 @@
 
 
 <item>
-<title>StepFBu</title>
+<title>StepFBo</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>"url": "(.*?)"</expres>
-<page>http://stepfb.net/live/stepfb.php?linkcode=$doregex[linkcode]</page>
+<page>http://stepfb.net/live/stepfb.php?linkcode=$doregex[code]</page>
 <cookieJar></cookieJar>
 <referer>http://stepfb.net</referer>
 </regex>
 <regex>
-<name>linkcode</name>
-<expres>src='(.*?)'</expres>
+<name>code</name>
+<expres>linkcode=(.*?)'</expres>
 <page>http://stepfb.net/live/chanel/44/</page>
 <cookieJar></cookieJar>
 </regex>
