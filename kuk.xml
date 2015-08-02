@@ -2371,11 +2371,11 @@
 
 
 <item>
-<title>Stepuser</title>
-<link>http://stepfb.dyndns.tv/vit2/stadium5new.stream/chunklist_w3630276.m3u8$doregex[auth]|User-Agent=iPad</link>
+<title>Stepuse</title>
+<link>$doregex[auth]</link>
 <regex>
 <name>auth</name>
-<expres>file: "(.*?)"</expres>
+<expres>file: "(.*m3u8.*?)"</expres>
 <page>http://stepfb.net/live/stepfb.php?linkcode=$doregex[code]</page>
 <cookieJar></cookieJar>
 <referer>http://stepfb.net</referer>
