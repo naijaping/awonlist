@@ -2371,9 +2371,22 @@
 
 
 <item>
-<title>CTH5</title>
-<sportsdevil>http://stepfb.net/live/chanel/44/</sportsdevil>
-<referer>http://stepfb.net/</referer>
+<title>Stepuser</title>
+<link>http://stepfb.dyndns.tv/vit2/stadium5new.stream/chunklist_w3630276.m3u8$doregex[auth]|User-Agent=iPad</link>
+<regex>
+<name>auth</name>
+<expres>file: "(.*?)"</expres>
+<page>http://stepfb.net/live/stepfb.php?linkcode=$doregex[code]</page>
+<cookieJar></cookieJar>
+<referer>http://stepfb.net</referer>
+</regex>
+<regex>
+<name>code</name>
+<expres>linkcode=(.*?)'</expres>
+<page>http://stepfb.net/live/chanel/44/</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
 
