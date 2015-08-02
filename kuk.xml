@@ -2334,23 +2334,6 @@
 </regex>
 </item>
 
-<item>
-<title>mutes</title>
-<link>$doregex[rtmp] live=1 timeout=15 pageUrl=http://www.tvtuga.com token=$doregex[tok]</link>
-<regex>
-<name>rtmp</name>
-<expres>file: "(.*?)"</expres>
-<page>http://www.tvtuga.com/fox-life/</page>
-<referer></referer>
-</regex>
-<regex>
-<name>tok</name>
-<expres>securetoken: "(.*?)"</expres>
-<page>http://www.tvtuga.com/fox-life/</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 
 <item>
 <title>Vietta24</title>
