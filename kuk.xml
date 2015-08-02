@@ -2346,7 +2346,17 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>tompolo</title>
+<link>$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>"url": "(.*m3u8.*?)"</expres>
+<page>http://shoutcastmedia.com/domistreaming/high.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
