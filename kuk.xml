@@ -2361,10 +2361,24 @@
 
 
 <item>
-<title>testmy</title>
-<link>http://istariptv1.dyndns-ip.com:2200/NL/HBO-HD/index.m3u8</link>
+<title>StepFB FOX 1</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<regex>
+<name>url</name>
+<expres>file: "(.*?)"</expres>
+<page>http://stepfb.com/stepfb.php?linkcode=$doregex[linkcode]</page>
+<cookieJar></cookieJar>
+<referer>http://stepfb.com/</referer>
+</regex>
+<regex>
+<name>linkcode</name>
+<expres>linkcode=(.*?)'</expres>
+<page>http://stepfb.net/live/chanel/44/</page>
+<cookieJar></cookieJar>
+</regex>
 <thumbnail></thumbnail>
 </item>
+
 
 
 </channel>
