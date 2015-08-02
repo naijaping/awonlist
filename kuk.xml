@@ -2329,7 +2329,7 @@
 <link>http://content-ausc1.uplynk.com/channel/765d4420866c4ab0aed26bf8568cdda7/h.m3u8$doregex[auth]</link>
 <regex>
 <name>auth</name>
-<expres>"url": "(.*?)"</expres>
+<expres>file: "(.*?)"</expres>
 <page>http://abcfamily.go.com/watch-live</page>
 </regex>
 <thumbnail></thumbnail>
