@@ -2337,6 +2337,23 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title> BBC One</title>
+<link>$doregex[get-urlunquote]</link>
+<regex>
+<name>get-url</name>
+<expres>"stream":"(.*?)"</expres>
+<page>http://tvcatchup.com/api/stream/177</page>
+<referer>http://77.107.72.86/Stream/</referer>
+</regex>
+<regex>
+<name>get-urlunquote</name>
+<expres $pyFunction:urllib.unquote_plus('$doregex[get-url]')</expres>
+<page></page>
+<referer></referer>
+</regex>
+</item>
+
 
 
 
