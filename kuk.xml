@@ -2354,6 +2354,7 @@
 <name>auth</name>
 <expres>"url": "(.*?)"</expres>
 <page>http://stepfb.net/live/chanel/44/</page>
+<referer>http://stepfb.net/live/stepfb.php?linkcode=TkRRdE1EZ3RNREl0TURjdE16QXRNalE9</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
