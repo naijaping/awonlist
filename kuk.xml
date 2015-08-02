@@ -2351,11 +2351,11 @@
 
 
 <item>
-<title>StepFBo</title>
-<link>$doregex[url]</link>
+<title>StepFBoi</title>
+<link>$doregex[url]|User-Agent=iPad</link>
 <regex>
 <name>url</name>
-<expres>"url": "(.*?)"</expres>
+<expres>file: "(.*?)"</expres>
 <page>http://stepfb.net/live/stepfb.php?linkcode=$doregex[code]</page>
 <cookieJar></cookieJar>
 <referer>http://stepfb.net</referer>
