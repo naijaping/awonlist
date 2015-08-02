@@ -978,19 +978,19 @@
 </item>
 
 <item>
-<title>StepFB FOX 1</title>
+<title>StepFB ctb 5</title>
 <link>$doregex[url]|User-Agent=iPad</link>
 <regex>
 <name>url</name>
 <expres>file: "(.*?)"</expres>
-<page>http://stepfb.com/stepfb.php?linkcode=$doregex[linkcode]</page>
+<page>http://stepfb.net/live/stepfb.php?linkcode=$doregex[code]</page>
 <cookieJar></cookieJar>
-<referer>http://stepfb.com/</referer>
+<referer>http://stepfb.net</referer>
 </regex>
 <regex>
-<name>linkcode</name>
+<name>code</name>
 <expres>linkcode=(.*?)'</expres>
-<page>http://stepfb.com/live/movie/49/</page>
+<page>http://stepfb.net/live/chanel/44/</page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail></thumbnail>
@@ -1615,31 +1615,7 @@
 </item>
 
 
-<item>
-<title>Animal Planet Ustream</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>uhls","url":"(.*?)"</expres>                                           
-<page>http://$doregex[host]/1/ustream?connectionId=$doregex[cid]</page>
-<referer>http://www.ustream.tv</referer>
-</regex>
-<regex>
-<name>host</name>	
-<expres>host":"(.*?)"</expres>                                           
-<page>http://r45917422-1-12762028-channel-live.ums.ustream.tv/1/ustream?type=viewer&amp;appId=11&amp;appVersion=2&amp;media=12762028&amp;application=channel</page>
-<referer>http://www.ustream.tv</referer>
-<x-forward>66.171.228.102</x-forward>
-</regex>
-<regex>
-<name>cid</name>
-<expres>Id":"(.*?)"</expres>                                           
-<page>http://r45917422-1-12762028-channel-live.ums.ustream.tv/1/ustream?type=viewer&amp;appId=11&amp;appVersion=2&amp;media=12762028&amp;application=channel</page>
-<referer>http://www.ustream.tv</referer>
-<x-forward>66.171.228.102</x-forward>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 <item>
 <title>VOX HD</title>
@@ -2370,24 +2346,7 @@
 </item>
 
 
-<item>
-<title>Stepuseor</title>
-<link>http://stepfb.dyndns.tv/vit2/stadium5new.stream/playlist.m3u8$doregex[auth]</link>
-<regex>
-<name>auth</name>
-<expres>m3u8(\?.*)"<</expres>
-<page>http://stepfb.net/live/stepfb.php?linkcode=$doregex[code]</page>
-<cookieJar></cookieJar>
-<referer>http://stepfb.net</referer>
-</regex>
-<regex>
-<name>code</name>
-<expres>linkcode=(.*?)'</expres>
-<page>http://stepfb.net/live/chanel/44/</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 </channel>
