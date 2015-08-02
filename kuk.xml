@@ -2323,9 +2323,9 @@
 </item>
 
 <item>
-<title>vod</title>
-<link>http://sportsaccess.se/ondemand.php?file=/ppvs/UFC.190.PPV.Rousey.vs.Correia.HDTV.x264-Ebi.mp4</link>
-<thumbnail></thumbnail>
+<title>Prestige TV</title>
+<link>rtmp://skystreams.info/vod playpath=ppvs/UFC.190.PPV.Rousey.vs.Correia.HDTV.x264-Ebi.mp4 swfUrl=http://supremecater.com/player/src.swf live=true pageUrl=http://supremecater.com timeout=15</link>
+<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/PrestigeTV.jpg</thumbnail>
 </item>
 
 
