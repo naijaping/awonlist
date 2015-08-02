@@ -2329,11 +2329,22 @@
 <name>url</name>
 <expres>file: '(.*?)'</expres>
 <page>http://shoutcastmedia.com/domistreaming/high.html</page>
-<referer>http://www.davidoyedepoministries.org/mediacenter</referer>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Domolo</title>
+<link>http://ams01.netcasterstream.com:8081/live/domihigh/chunks.m3u8?nimblesessionid=$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>nimblesessionid=(.*?)"</expres>
+<page>http://shoutcastmedia.com/domistreaming/high.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
