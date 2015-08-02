@@ -2371,11 +2371,11 @@
 
 
 <item>
-<title>Stepuse</title>
+<title>Stepuseo</title>
 <link>$doregex[auth]</link>
 <regex>
 <name>auth</name>
-<expres>file: "(.*m3u8.*?)"</expres>
+<expres>"url": "(.*m3u8.*?)"</expres>
 <page>http://stepfb.net/live/stepfb.php?linkcode=$doregex[code]</page>
 <cookieJar></cookieJar>
 <referer>http://stepfb.net</referer>
