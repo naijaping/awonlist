@@ -2368,8 +2368,8 @@
 
 
 <item> 
-        <title>[COLOR=FF00ff45]BBC One  [/COLOR]</title>
-        <link>http://$doregex[url]/live/14.low.stream/playlist.m3u8$doregex[key]</link>
+        <title>[COLOR=FF00ff45]BBC  [/COLOR]</title>
+        <link>http://$doregex[url]/live/2726.low.stream/playlist.m3u8$doregex[key]</link>
         <regex>
                 <name>url</name>
                 <expres>low","url":"http:....([^\\]*)</expres>
