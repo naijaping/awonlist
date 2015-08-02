@@ -2347,23 +2347,7 @@
 </item>
 
 
-<item>
-<title>stepmi</title>
-<link>$doregex[url] $doregex[code]</link>
-<regex>
-<name>url</name>
-<expres>"url": "(.*?)"</expres>
-<page>http://stepfb.net/live/chanel/44/</page>
-<referer>http://stepfb.net/</referer>
-</regex>
-<regex>
-<name>code</name>
-<expres>src='(.*?)'</expres>
-<page>http://stepfb.net/live/chanel/44/</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 <item>
@@ -2385,6 +2369,12 @@
 <thumbnail></thumbnail>
 </item>
 
+
+<item>
+<title>CTH5</title>
+<sportsdevil>http://stepfb.net/live/chanel/44/</sportsdevil>
+<referer>http://stepfb.net/</referer>
+</item>
 
 
 </channel>
