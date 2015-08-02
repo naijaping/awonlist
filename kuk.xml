@@ -2354,10 +2354,10 @@
 
 <item>
 <title>test</title>
-<link>$doregex[url]</link>
+<link>http://83.170.111.147/liveStream/hai/liveChannel/hai_2/chunks.m3u8$doregex[auth]</link>
 <regex>
-<name>url</name>
-<expres>"url": "(.*m3u8.*?)"</expres>
+<name>auth</name>
+<expres>"url": "(.*?)"</expres>
 <page>http://www.viettv24.com/main/?language=vi</page>
 </regex>
 <thumbnail></thumbnail>
