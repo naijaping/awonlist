@@ -2365,41 +2365,6 @@
 <thumbnail></thumbnail>
 </item> 
 
-<item>
-<title>ETCditto</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>$pyFunction:'$doregex[get-reg2]'.replace('\u0026','&')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-reg2</name>
-<expres>file":"(.*?)"<expres>
-<page>http://www.dittotv.com/livetv/etc</page>
-<referer>http://www.dittotv.com</referer>
-</regex>
-<thumbnail></thumbnail>
-</item> 
-
-
-
-<item>
-<title>zoom ditto</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>$pyFunction:'$doregex[get-reg2]'.replace('\u0026','&')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-reg2</name>
-<expres>file":"(.*?)"<expres>
-<page>http://www.dittotv.com/livetv/zoom</page>
-<referer>http://www.dittotv.com</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 
 
