@@ -2329,16 +2329,6 @@
 </item>
 
 
-<item>
-<title>Vodo</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>flashvars='(.*?)'</expres>
-<page>http://sportsaccess.se/ondemand.php?file=/ppvs/UFC.190.PPV.Rousey.vs.Correia.HDTV.x264-Ebi.mp4</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 
 
