@@ -2347,11 +2347,11 @@
 </item>
 
 <item>
-<title>tompolo0</title>
+<title>tompolou</title>
 <link>$doregex[id]</link>
 <regex>
 <name>id</name>
-<expres>"url": "(.*nimblesessionid.*?)"</expres>
+<expres>file: '(.*m3u8.*?)'</expres>
 <page>http://shoutcastmedia.com/domistreaming/high.html</page>
 <referer></referer>
 </regex>
