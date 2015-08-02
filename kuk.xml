@@ -2326,11 +2326,11 @@
 
 
 <item>
-<title>keyo</title>
+<title>keyi</title>
 <link>http://srv2.cdn.tvcatchup.com/subtv_hi.m3u8?streamKey=$doregex[key]</link>
 <regex>
 <name>key</name>
-<expres>streamKey=(.*?)"</expres>
+<expres>streamKey=(.*?)'</expres>
 <page>http://77.107.72.86/Stream/</page>
 </regex>
 <thumbnail></thumbnail>
