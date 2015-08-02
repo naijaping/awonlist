@@ -2361,8 +2361,8 @@
 
 
 <item>
-<title>StepFB</title>
-<link>$doregex[url]|User-Agent=iPad</link>
+<title>StepFBo</title>
+<link>http://stepfb.dyndns.tv/vit2/stadium5new.stream/chunklist_w3630276.m3u8$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>"url": "(.*?)"</expres>
