@@ -2348,13 +2348,13 @@
 
 
 <item>
-<title>stepi</title>
+<title>stepino</title>
 <link>http://stepfb.dyndns.tv/vit2/stadium5new.stream/chunklist_w3630276.m3u8$doregex[auth]</link>
 <regex>
 <name>auth</name>
 <expres>"url": "(.*?)"</expres>
-<page>http://stepfb.net/live/chanel/44/</page>
-<referer>http://stepfb.net/live/stepfb.php?linkcode=TkRRdE1EZ3RNREl0TURjdE16QXRNalE9</referer>
+<page>http://stepfb.net/live/stepfb.php?linkcode=TkRRdE1EZ3RNREl0TURjdE16QXRNalE9</page>
+<referer>http://stepfb.net/live/chanel/44/</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
