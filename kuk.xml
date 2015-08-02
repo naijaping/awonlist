@@ -2325,34 +2325,6 @@
 
 
 
-<item>
-<title>oloso</title>
-<link>http://srv2.cdn.tvcatchup.com/subtv_hi.m3u8?streamKey=$doregex[key]</link>
-<regex>
-<name>key</name>
-<expres>streamKey=(.*?)"</expres>
-<page>http://tvcatchup.com/watch/subtv</page>
-<referer>http://tvcatchup.com/api/stream/177</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>BBCOne</title>
-<link>$doregex[get-urlunquote]</link>
-<regex>
-<name>get-url</name>
-<expres>"stream":"(.*?)"</expres>
-<page>http://tvcatchup.com/api/stream/177</page>
-<referer>http://www.sub.tv/watch-subtv-live/</referer>
-</regex>
-<regex>
-<name>get-urlunquote</name>
-<expres $pyFunction:urllib.unquote_plus('$doregex[get-url]')</expres>
-<page></page>
-<referer></referer>
-</regex>
-</item>
 
 
 
