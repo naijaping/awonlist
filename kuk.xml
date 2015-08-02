@@ -2322,19 +2322,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
-<item>
-<title>url</title>
-<link>$doregex[auth]</link>
-<regex>
-<name>auth</name>
-<expres>"file":"(.*?)"</expres>
-<page>http://www.dittotv.com/livetv/zee-cinema-hd</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
 <item>
 <title>zee ditto</title>
 <link>$doregex[url]</link>
