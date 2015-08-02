@@ -2336,6 +2336,26 @@
 
 
 <item>
+<title>zee ditto</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('\u0026','&')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-url</name>
+<expres>file":"(.*?)"<expres>
+<page>http://www.dittotv.com/livetv/zee-cinema-hd</page>
+<referer>http://www.dittotv.com</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
+
+<item>
 <title>kul</title>
 <link></link>
 <thumbnail></thumbnail>
