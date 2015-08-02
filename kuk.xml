@@ -2326,12 +2326,13 @@
 
 
 <item>
-<title>keyuno</title>
+<title>keyu</title>
 <link>http://srv1.cdn.tvcatchup.com/subtv_adp.m3u8?clientKey=$doregex[key]</link>
 <regex>
 <name>key</name>
 <expres>clientKey=(.*?)"</expres>
 <page>http://tvcatchup.com/api/stream/177</page>
+<referer>http://77.107.72.86/Stream/</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
