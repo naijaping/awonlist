@@ -2340,7 +2340,7 @@
 </item>
 
 <item>http://www.arenavision.in/
-<title>ArenaVision 13</title>
+<title>ArenaVision canal</title>
 <link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://www.arenavision.in/</link>
 <regex>
 <name>rtmp</name>
