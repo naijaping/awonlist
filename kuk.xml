@@ -2339,13 +2339,13 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>http://www.arenavision.in/arenavision013
+<item>http://www.arenavision.in/
 <title>ArenaVision 13</title>
-<link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://www.arenavision.in/arenavision013</link>
+<link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://www.arenavision.in/</link>
 <regex>
 <name>rtmp</name>
 <expres>file: "(.*?)"</expres>
-<page>http://www.arenavision.in/arenavision013</page>
+<page>http://www.arenavision.in/arenavision014</page>
 <referer>http://www.arenavision.in</referer>
 </regex>
 </item>
