@@ -2349,24 +2349,6 @@
 </item>
 
 <item>
-<title>picture ditto</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>$pyFunction:'$doregex[get-reg2]'.replace('\u0026','&')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-reg2</name>
-<expres>file":"(.*?)"<expres>
-<page>http://www.dittotv.com/livetv/and-pictures-hd</page>
-<referer>http://www.dittotv.com</referer>
-</regex>
-<thumbnail></thumbnail>
-</item> 
-
-
-<item>
 <title>skyline</title>
 <link>$doregex[url]</link>
 <regex>
