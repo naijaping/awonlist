@@ -2365,12 +2365,6 @@
 <thumbnail></thumbnail>
 </item> 
 
-<item> [TVPlayer Addon]
-<title>Zulu</title>
-<link>ignorme</link>
-<jsonrpc>plugin://plugin.video.nbcsnliveextra/?icon_image=%2fUsers%2fMatt%2fLibrary%2fApplication%20Support%2fKodi%2faddons%2fplugin.video.nbcsnliveextra-beta%2ficon.png&mode=1&name=Live%20%26%20Upcoming&scrape_type=None&url=%2flive</jsonrpc>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
-</item>
 
 
 
