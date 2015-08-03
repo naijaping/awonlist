@@ -1881,30 +1881,8 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>prime</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.asiamediaglobal.org/android/andy/play_live.php?cid=141</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 
-<item>
-<title>ros</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.shadownet.biz/channels/usa/espn2.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 <item>
 <title>B1</title>
@@ -2092,11 +2070,6 @@
 <link>http://istariptv1.dyndns-ip.com:2200/UK/Sky-Disney-Chaneel-HD/index.m3u8</link>
 </item>
 
-<item>
-<title>espn1</title>
-<link>http://93.174.95.125:1935/edge/_definst_/xoaaohmeuajfeyf/playlist.m3u8?wowzasessionid=1419879934</link>
-</item>
-
 
 <item> [TVPlayer Addon]
 <title>Zeus</title>
@@ -2137,9 +2110,6 @@
  <link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/138.m3u8</link>
   </item>
         
-       
-
-
 <item>
 <title>liko</title>
 <link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls/141.m3u8</link>
@@ -2359,17 +2329,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>skyline</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>url:'(.*m3u8.*?)'</expres>
-<page>http://www.skylinewebcams.com/en/webcam/malta/malta/valletta/st-george-square.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
