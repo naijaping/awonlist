@@ -2338,8 +2338,8 @@
 
 
 <item>
-<title>kujo</title>
-<link>http://tna2gb9.tulix.tv/hls/astv1soundcityprem/40bb2b010e7d06aba1722aa62e930f5a/55c14bcb/sat-soundcityprem.m3u8</link>
+<title>klms</title>
+<link>rtmp://astvstream1.tulix.tv:1935/soundcityprem/sat-soundcityprem</link>
 <thumbnail></thumbnail>
 </item>
 
