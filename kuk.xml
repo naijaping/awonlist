@@ -2337,11 +2337,17 @@
 </item>
 
 <item>
-<title>cricki</title>
-<link>http://planetiptv-test.ddns.net:7088/sdtv/uktv/planet/BT_Sport_ESPN</link>
+<title>skuyoo</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>{ file: "(.*?)"</expres>
+<page>http://www.stream2watch.co/streams/93700/1</page>
+<referer>http://www.stream2watch.co/</referer>
+<agent>iphone</agent>
+</regex>
 <thumbnail></thumbnail>
 </item>
-
 
 
 
