@@ -2337,7 +2337,18 @@
 </item>
 
 
-
+<item>
+<title>streamin</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "(.*?)"</expres>
+<page>http://streamin.to/embed-57nc00yz9pff-640x360.html</page>
+<referer>streamin.to</referer>
+<agent>iphone</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
