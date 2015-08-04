@@ -2362,6 +2362,18 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>skuyooitv</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>{ file: "(.*?)"</expres>
+<page>http://www.stream2watch.co/streams/36032/1</page>
+<referer>http://www.stream2watch.co/</referer>
+<agent></agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
