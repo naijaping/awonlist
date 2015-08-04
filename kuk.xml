@@ -2336,19 +2336,13 @@
 <thumbnail></thumbnail>
 </item>
 
-
 <item>
-<title>streamin</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: "(.*?)"</expres>
-<page>http://streamin.to/embed-57nc00yz9pff-640x360.html</page>
-<referer>streamin.to</referer>
-<agent>iphone</agent>
-</regex>
+<title>nunk</title>
+<link>http://cdn.phoenix.intergi.com/17385/videos/3512922/video-sd.mp4?hosting_id=17385</link>
 <thumbnail></thumbnail>
 </item>
+
+
 
 
 
