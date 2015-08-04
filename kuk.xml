@@ -2337,7 +2337,7 @@
 </item>
 
 <item>
-<title>skuyoo</title>
+<title>skuyoo comedy</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -2349,6 +2349,18 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>skuyoo action</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>{ file: "(.*?)"</expres>
+<page>http://www.stream2watch.co/streams/61942/1</page>
+<referer>http://www.stream2watch.co/</referer>
+<agent></agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
