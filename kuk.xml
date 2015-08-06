@@ -2391,6 +2391,11 @@
 </regex>
 </item>
 
+<item>
+<title>mute</title>
+<link>http://usa.01.cdnstreams.in:6034/sportsaccess/ch01/playlist.m3u8?dvr&wmsAuthSign=c2VydmVyX3RpbWU9OC82LzIwMTUgMTE6MTQ6MjAgUE0maGFzaF92YWx1ZT03Z0pLc3ZvdGRGbTg5bFRaVjFSY05RPT0mdmFsaWRtaW51dGVzPTE=</link>
+<thumbnail></thumbnail>
+</item>
 
 
 </channel>
