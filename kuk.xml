@@ -2410,11 +2410,11 @@
 
 
 <item>
-<title>GOD TV</title>
+<title>GODTV</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
 <name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://dstvdm_hd1_hls-lh.akamaihd.net/z/SS5_1@51025/manifest.f4m?g=TCHENBETIHDT&amp;hdcore=2.10.3')<expres>
+<expres>$pyFunction:urllib.quote_plus('http://dstvdm_hd1_hls-lh.akamaihd.net/z/SS7_1@47172/manifest.f4m?g=TCHENBETIHDT&amp;hdcore=2.10.3')<expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
