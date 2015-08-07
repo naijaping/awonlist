@@ -2410,13 +2410,8 @@
 
 
 <item>
-<title>GODTV</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://dstvdm_hd1_hls-lh.akamaihd.net/z/SS7_1@47172/manifest.f4m?g=TCHENBETIHDT&amp;hdcore=2.10.3')<expres>
-<page></page>
-</regex>
+<title>GOD</title>
+<link>http://nbcstreamwest.nbcsports.com/nbc03/c3ca0219-3f7e-42e2-bbc2-201a5ba1033a/nbc-sports-live-extra0807032931.ism/manifest(format=m3u8-aapl-v3).m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
 </item> 
 
