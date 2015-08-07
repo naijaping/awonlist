@@ -2398,9 +2398,9 @@
 </item>
 
 <item>
-<title>SportTv 1 (LINK2)</title>
-<link>rtmp://199.195.194.244:1935/stream/ playpath=NdTaX9Epd0.stream swfUrl=http://thecdn.04stream.com/p/ooolo1.swf live=1 pageUrl=http://www.04stream.com/ebb.php?adsp=ttother&width=600&height=460&st=v45465i595f4d3j4m524n254p2b4z2o2a424y203&adx=&stream=14v2o5m58484w2r2742474i5r2h5d4n2x4k5u354s343h3y5m564t234t20384s2z2p2v2d4n2v4c4x3e5t3f4q4x5m5k283y5u5e4k5b2259484g5y5f4l2l2u4t2343434c45423w2l5y2a474z2e4q2g5a433j5x2j5i5i584w2u2d4h5s24494g553t25494r2p2l2s2t2343434t2&sooor=Mg==&str=is&ok=&cat=1&link=1&idom=ifirstrowpt.eu</link>
-<thumbnail>https://dl.dropboxusercontent.com/s/l1zajfqwfl4pltx/sptv1.png?dl=0</thumbnail>
+<title>HBO PLUS (BR)</title>
+<link>rtmp://109.200.202.124/live playpath=hboplus swfUrl=http://www.tv-msn.com/player/player.swf pageUrl=http://tv-msn.com/hboplus.html token=8afdbb2c24e3fefb</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hbo_plus_br_oeste.png</thumbnail>
 </item>
 
 
