@@ -2398,53 +2398,10 @@
 </item>
 
 <item>
-<title>Sky Movies Premiere</title>
-<link>http://185.56.30.127:8082/TV4251</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_premiere.png</thumbnail>
-</item>
-
-<item>
-<title>Sky Movies Premiere+</title>
-<link>http://185.56.30.127:8082/TV4252</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_premiere_hd_plus1.png</thumbnail>
-</item>
-
-<item>
-<title>Sky Sky Movies Select</title>
-<link>http://185.56.30.127:8082/TV4254</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_select_hd.png</thumbnail>
-</item>
-
-<item>
-<title>Sky Movies Action & Adventure</title>
-<link>http://185.56.30.127:8082/TV4245</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_action_adventure.png</thumbnail>
-</item>
-
-<item>
-<title>Sky Movies Comedy</title>
-<link>http://185.56.30.127:8082/TV4246</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_comedy.png</thumbnail>
-</item>
-
-<item>
 <title>Sky Movies Disney</title>
-<link>http://185.56.30.127:8082/TV4247</link>
+<link>http://ipsat.dvrdns.org:8000/live/testo1/testo1/936.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_disney_hd.png</thumbnail>
 </item>
-
-<item>
-<title>Sky Movies Family</title>
-<link>http://185.56.30.127:8082/TV4248</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_family.png</thumbnail>
-</item>
-
-<item>
-<title>Sky Movies SciFi</title>
-<link>http://185.56.30.127:8082/TV4249</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_scifi_horror.png</thumbnail>
-</item>
-
 
 
 
