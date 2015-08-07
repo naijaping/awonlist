@@ -2404,13 +2404,18 @@
 </item>
 
 
+
+
 <item>
-<title>Sky</title>
-<link>http://dstvdm_hd1_hls-lh.akamaihd.net/i/SS2_1@27055/master.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_disney_hd.png</thumbnail>
-</item>
-
-
+<title>Super  1</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://dstvdm_hd1_hds-lh.akamaihd.net/z/SS1_1@14433/manifest.f4m?&amp;hdcore=3.3.0&amp;plugin=aasp-3.3.0.99.43')<expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/supersport2.png</thumbnail>
+</item> 
 
 
 
