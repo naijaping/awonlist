@@ -2361,14 +2361,8 @@
 </item> 
 
 <item>
-<title>Sky Sport 3</title>
-<link>http://techstream.dynns.com:1935/ind/netgeowild/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://bit.ly/1LNoGly</page>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
-<referer></referer>
+<title>S3</title>
+<link>http://sprtott1-i.akamaihd.net/hls/live/222234/golf-live-extra0807135441/OTT1/master.m3u8|X-Forwarded-For=209.239.112.104</link>
 </regex>
 </item>
 
