@@ -2392,8 +2392,8 @@
 </item>
 
 <item>
-<title>muteo</title>
-<link>http://tna2gb9.tulix.tv/hls/astv1soundcityprem/ca841654d400043dc3a6f1cdaa00a8b6/55c55126/sat-soundcityprem.m3u8 </link>
+<title>muto</title>
+<link>rtsp://astvstream1.tulix.tv:1935/soundcityprem/sat-soundcityprem</link>
 <thumbnail></thumbnail>
 </item>
 
