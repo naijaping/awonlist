@@ -2407,13 +2407,8 @@
 
 
 <item>
-<title>Super  1</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://dstvdm_hd1_hds-lh.akamaihd.net/z/SS1_1@14433/manifest.f4m?&amp;hdcore=3.3.0&amp;plugin=aasp-3.3.0.99.43')<expres>
-<page></page>
-</regex>
+<title>Super4</title>
+<link>http://dstvdm_hls_in-i.akamaihd.net/hls/live/220395/DSTVNOW-247-TS2/master.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/supersport2.png</thumbnail>
 </item> 
 
