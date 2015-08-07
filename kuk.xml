@@ -2361,12 +2361,12 @@
 </item> 
 
 <item>
-<title>S3</title>
-<link>http://sprtott1-i.akamaihd.net/hls/live/222234/golf-live-extra0807135441/OTT1/master.m3u8|X-Forwarded-For=209.239.112.104</link>
+<title>golf</title>
+<link>http://sprtott1-i.akamaihd.net/hls/live/222234/golf-live-extra/4296k/prog.m3u8|X-Forwarded-For=209.239.112.104</link>
 </regex>
 </item>
 
-
+http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/4296k/prog.m3u8
 
 
 
