@@ -2321,61 +2321,6 @@
 </item>
 
 
-
-
-<item>
-<title>kumioo</title>
-<link>http://golfstreameast.golfchannel.com/nbc08/2883352a-58f1-4325-a85c-f259592f2793/golf-live-extra0806084943.ism/manifest(format=m3u8-aapl-v3)|X-Forwarded-For=66.171.228.102</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>kul0</title>
-<link>http://10gb10.tulix.tv/live_hls/afromusic/afromusic.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>skuyoo comedy</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>{ file: "(.*?)"</expres>
-<page>http://www.stream2watch.co/streams/93700/1</page>
-<referer>http://www.stream2watch.co/</referer>
-<agent>iphone</agent>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>skuyoo action</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>{ file: "(.*?)"</expres>
-<page>http://www.stream2watch.co/streams/61942/1</page>
-<referer>http://www.stream2watch.co/</referer>
-<agent></agent>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>skuyooitv</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>{ file: "(.*?)"</expres>
-<page>http://www.stream2watch.co/streams/36032/1</page>
-<referer>http://www.stream2watch.co/</referer>
-<agent></agent>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
 <item>
 <title>EBlack</title>
 <link>$doregex[getURL]</link>
