@@ -2430,7 +2430,29 @@
 </item> 
 
 
-
+<item>
+<title>huhh</title>
+<link>$doregex[url] live=1 timeout=15 flashVer=WIN\2016,0,0,305</link>
+<regex>
+<name>url</name>
+<expres>'file': "(.*m3u8.*?)"</expres>
+<page>http://sportsaccess.se/usplayer.php?c=channel1&amp;a=247eu&amp;x=03&amp;w=15</page>
+<referer>http://sportsaccess.se/index.php?pg=usa</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
+<cookieJar>$doregex[get-captcha]</cookieJar>
+</regex>
+<regex>
+<name>get-captcha</name>
+<expres></expres>
+<page>http://sportsaccess.se/login.php?do=login</page>
+<rawpost>vb_login_username=omooba1&amp;vb_login_password=&amp;s=&amp;do=login&amp;vb_login_md5password=75e0cd520d93c472e9786bc8958926e2&amp;vb_login_md5password_utf=75e0cd520d93c472e9786bc8958926e2<rawpost>
+<referer>http://sportsaccess.se/index.php?pg=main</referer>
+<x-req>XMLHttpRequest</x-req>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i59.tinypic.com/2a0dfr8.jpg</thumbnail>
+</item>
 
 
 
