@@ -2437,6 +2437,17 @@
 </item>
 
 
+<item>
+<title>Liveall2</title>
+<link>$doregex[get-rtmp] swfUrl=http://wds.liveall.tv/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://liveall.tv/</link>
+<regex>
+<name>get-rtmp</name>
+<expres>$pyFunction:get_leton_rtmp('http://liveall.tv/player.php?streampage=streamsp','http://liveall.tv/')</expres>
+<page></page>
+</regex>
+</item>
+
+
 
 
 </channel>
