@@ -2374,22 +2374,15 @@
 
 
 <item>
-<title>Vidt</title>
-<link>$doregex[url]</link>
+<title>GOD TV</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
-<name>url</name>
-<expres>file:"(.*?)"</expres>
-<page>$doregex[get-unpacked]</page>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://sport1-24x7-free-lh.streaming.sport1.de/z/24x7_SPORT1_FREE_1@324937/manifest.f4m?')<expres>
+<page></page>
 </regex>
-<regex>
-<name>get-unpacked</name>
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
-<page>http://embed.live-stream.tv/sport1</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
 </item>
-
 
 
 
