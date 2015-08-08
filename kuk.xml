@@ -2362,16 +2362,9 @@
 
 <item>
 <title>golf</title>
-<link>http://tvegolf-i.Akamaihd.net/hls/live/218225/golfx/master.m3u8|X-Forwarded-For=209.239.112.104</link>
+<link>|X-Forwarded-For=209.239.112.104</link>
 </regex>
 </item>
-
-<item>
-<title>golfo</title>
-<link>http://sprtott3-i.akamaihd.net/hls/live/222321/nbc-sports-live-extra0808050009/OTT3/master.m3u8|X-Forwarded-For=209.239.112.104</link>
-</regex>
-</item>
-
 
 
 <item>
