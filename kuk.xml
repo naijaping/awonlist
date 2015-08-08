@@ -2413,8 +2413,8 @@
 
 
 <item>
-<title>club</title>
-<link>$doregex[get-rtmp] live=1 timeout=15 flashVer=WIN\2016,0,0,305</link>
+<title>clubuii</title>
+<link>$doregex[get-rtmp] live=1</link>
 <regex>
 <name>get-rtmp</name>
 <expres>'file':"(.*?)"</expres>
