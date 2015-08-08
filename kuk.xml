@@ -2367,18 +2367,13 @@
 </item>
 
 <item>
-<title>astro1</title>
-<link>rtmp://31.220.0.104/liveall/ playpath=footyml?keys=m8jPQmpC7sMgsiVUT5p8ng&keyt=1439014414 swfUrl=http://wds.liveall.tv/jwplayer.flash.swf pageUrl=http://liveall.tv/player.php?streampage=footyml&width=854&height=480 timeout=15</link>
+<title>astro</title>
+<link>http://pvr.tvip.ga/0097.m3u8|X-Forwarded-For=85.5.87.218</link>
 <thumbnail></thumbnail>
 </item>
 
 
 
-<item>
-<title>astro2</title>
-<link>rtmp://31.220.0.104/liveall/ playpath=streamsp?keys=iJjSK4rN_SBWM8ezhJVY2A&keyt=1439033910 swfUrl=http://wds.liveall.tv/jwplayer.flash.swf pageUrl=http://liveall.tv/player.php?streampage=streamsp&width=854&height=480 timeout=15</link>
-<thumbnail></thumbnail>
-</item>
 
 
 
