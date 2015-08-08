@@ -2367,13 +2367,6 @@
 </item>
 
 <item>
-<title>astrol</title>
-<link>http://tvenbcsn-i.Akamaihd.net//hls/live/218235/nbcsnx/master.m3u8|X-Forwarded-For=209.239.112.104</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
 <title>astro</title>
 <link>rtmp://68.232.37.6:1935/live playpath=sport1.stream swfUrl=http://embed.live-stream.tv/player/player.swf pageUrl=http://www.filme-anschauen-kostenlos.de/tv/sport-1-stream</link>
 <thumbnail></thumbnail>
