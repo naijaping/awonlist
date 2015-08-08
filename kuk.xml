@@ -2373,6 +2373,23 @@
 </item>
 
 
+<item>
+<title>Vidto</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>src="(.*?)"</expres>
+<page>$doregex[get-unpacked]</page>
+</regex>
+<regex>
+<name>get-unpacked</name>
+<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
+<page>http://embed.live-stream.tv/sport1&e=1&e=1&width=728&height=465</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 
