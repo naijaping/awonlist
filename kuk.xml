@@ -2119,8 +2119,8 @@
 </item> 
 
 <item>
-<title>guu</title>
-<link>rtsp://astvstream.tulix.tv:1935/sentv/sentv.stream </link>
+<title>guoo</title>
+<link>rtmp://astvstream.tulix.tv:1935/sentv/sentv.stream </link>
 </regex>
 </item>
 
