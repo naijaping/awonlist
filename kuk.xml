@@ -2367,6 +2367,14 @@
 </item>
 
 <item>
+<title>golfo</title>
+<link>http://sprtott3-i.akamaihd.net/hls/live/222321/nbc-sports-live-extra0808050009/OTT3/master.m3u8|X-Forwarded-For=209.239.112.104</link>
+</regex>
+</item>
+
+
+
+<item>
 <title>ast</title>
 <link>rtmp://68.232.37.6:1935/live playpath=sport1.stream swfUrl=http://embed.live-stream.tv/player/player.swf pageUrl=http://embed.live-stream.tv/sport1 live=1</link>
 <thumbnail></thumbnail>
