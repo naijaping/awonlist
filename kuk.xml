@@ -2113,8 +2113,8 @@
 
 
 <item>
-<title>GO</title>
-<link>http://tna2gb9.tulix.tv/hls/astv1soundcityprem/c7d002fa970f259c696f49017f6473d5/55c7d0de/sat-soundcityprem.m3u8</link>
+<title>GOi</title>
+<link>rtmp://astvstream1.tulix.tv:1935/soundcityprem/sat-soundcityprem </link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
 </item> 
 
@@ -2129,21 +2129,6 @@
 <title>ast</title>
 <link>rtmp://68.232.37.6:1935/live playpath=sport1.stream swfUrl=http://embed.live-stream.tv/player/player.swf pageUrl=http://embed.live-stream.tv/sport1 live=1</link>
 <thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>GODii</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://sport1-24x7-free-lh.streaming.sport1.de/z/24x7_SPORT1_FREE_1@324937/manifest.f4m?start=1439027904&amp;hdcore=3.2.0&amp;plugin=jwplayer-3.2.0.1&amp;hdnea=st=$doregex[id]')<expres>
-<name>id</name>
-<expres>hdnea=(.*?)"</expres>
-<page>http://tv.sport1.de/sport1/</page>
-<referer>http://tv.sport1.de</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
 </item>
 
 
