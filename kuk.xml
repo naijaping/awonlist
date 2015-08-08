@@ -2184,7 +2184,7 @@
 <name>applycaptcha</name>
 <expres></expres>
 <page>http://straighthost.com/billing/login</page>
-<post>amember_login=omooba1,amember_pass=aramide2007,login_attempt_id=$doregex[get-epoc]<post>
+rawpost>amember_login=omooba1&amp;amember_pass=aramide2007&amp;login_attempt_id=$doregex[get-epoc]<rawpost>
 <referer>http://straighthost.com/billing/login</referer>
 <x-req>XMLHttpRequest</x-req>
 <cookieJar></cookieJar>
