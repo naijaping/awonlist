@@ -2119,8 +2119,8 @@
 </item> 
 
 <item>
-<title>golf</title>
-<link>http://astv10sec1.tulix.tv/sentv/sentv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC84LzIwMTUgMTA6MTQ6NTQgUE0maGFzaF92YWx1ZT0zajZFeloydk5FSVNBZjRZVWdSSnZBPT0mdmFsaWRtaW51dGVzPTE0NDA=</link>
+<title>guu</title>
+<link>rtsp://astvstream.tulix.tv:1935/sentv/sentv.stream </link>
 </regex>
 </item>
 
