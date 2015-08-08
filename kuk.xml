@@ -2367,8 +2367,8 @@
 </item>
 
 <item>
-<title>astroro</title>
-<link>rtmp://68.232.37.6:1935/live playpath=sport1.stream swfUrl=http://embed.live-stream.tv/player/player.swf pageUrl=http://www.filme-anschauen-kostenlos.de/tv/sport-1-stream token=6JXmCK117jz9AkgtPRqjXDTvtZedmlsYU-Fi6oK5r6U</link>
+<title>ast</title>
+<link>rtmp://68.232.37.6:1935/live playpath=sport1.stream swfUrl=http://embed.live-stream.tv/player/player.swf pageUrl=http://embed.live-stream.tv/sport1 live=1</link>
 <thumbnail></thumbnail>
 </item>
 
