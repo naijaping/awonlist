@@ -2413,6 +2413,19 @@
 
 
 
+<item>
+<title>9M</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "(.*?)"</expres>
+<page>http://tv.sport1.de/sport1/</page>
+<referer>http://tv.sport1.de</referer>
+</regex>
+</item>
+
+
+
 </channel>
 
 
