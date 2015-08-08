@@ -2425,7 +2425,16 @@
 </regex>
 </item>
 
-
+<item>
+<title>Super Sport 2</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://sport1-24x7-free-lh.streaming.sport1.de/z/24x7_SPORT1_FREE_1@324937/manifest.f4m?&amp;hdcore=3.2.0&amp;plugin=jwplayer-3.2.0.1')<expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item> 
 
 
 
