@@ -2382,14 +2382,15 @@
 
 
 <item>
-<title>GOD</title>
+<title>GODii</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
 <name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://sport1-24x7-free-lh.streaming.sport1.de/z/24x7_SPORT1_FREE_1@324937/manifest.f4m?start=1439027904&amp;hdnea=st=$doregex[id]|X-Forwarded-For=85.5.87.218')<expres>
+<expres>$pyFunction:urllib.quote_plus('http://sport1-24x7-free-lh.streaming.sport1.de/z/24x7_SPORT1_FREE_1@324937/manifest.f4m?start=1439027904&amp;hdcore=3.2.0&amp;plugin=jwplayer-3.2.0.1&amp;hdnea=st=$doregex[id]|X-Forwarded-For=85.5.87.218')<expres>
 <name>id</name>
-<expres>st=(.*?)"</expres>
+<expres>hdnea=(.*?)"</expres>
 <page>http://tv.sport1.de/sport1/</page>
+<referer>http://tv.sport1.de</referer>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
 </item>
