@@ -2412,33 +2412,7 @@
 </item> 
 
 
-<item>
-<title>clubuii</title>
-<link>$doregex[get-rtmp] live=1</link>
-<regex>
-<name>get-rtmp</name>
-<expres>'file':"(.*?)"</expres>
-<page>http://straighthost.com/billing/vip/4.php</page>
-<referer>http://straighthost.com/billing/vip/vip.php</referer>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
-<cookieJar>$doregex[get-captcha]</cookieJar>
-</regex>
-<regex>
-<name>get-captcha</name>
-<expres></expres>
-<page>http://straighthost.com/billing/login</page>
-<rawpost>amember_login=omooba1&amp;amember_pass=aramide2007&amp;login_attempt_id=$doregex[get-epoc]<rawpost>
-<referer>http://hqzone.tv</referer>
-<x-req>XMLHttpRequest</x-req>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>get-epoc</name>
-<expres>$epoctime$</expres>
-<page></page>
-</regex>
-</item>
+
 
 
 
