@@ -2368,8 +2368,15 @@
 
 <item>
 <title>astro</title>
-<link>rtmp://31.220.0.104/liveall/ playpath=footyml?keys=m8jPQmpC7sMgsiVUT5p8ng&keyt=1439014414 swfUrl=http://wds.liveall.tv/jwplayer.flash.swf pageUrl=http://liveall.tv/player.php?streampage=footyml&width=854&height=480 --live
-</link>
+<link>rtmp://31.220.0.104/liveall/ playpath=footyml?keys=m8jPQmpC7sMgsiVUT5p8ng&keyt=1439014414 swfUrl=http://wds.liveall.tv/jwplayer.flash.swf pageUrl=http://liveall.tv/player.php?streampage=footyml&width=854&height=480 --live</link>
+<thumbnail></thumbnail>
+</item>
+
+
+
+<item>
+<title>astro2</title>
+<link>rtmp://31.220.0.104/liveall/ playpath=streamsp?keys=iJjSK4rN_SBWM8ezhJVY2A&keyt=1439033910 swfUrl=http://wds.liveall.tv/jwplayer.flash.swf pageUrl=http://liveall.tv/player.php?streampage=streamsp&width=854&height=480 timeout=15</link>
 <thumbnail></thumbnail>
 </item>
 
