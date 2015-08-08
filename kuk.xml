@@ -2403,29 +2403,7 @@
 </regex>
 </item>
 
-<item>
-<title>PotLuck TV</title>
-<link>$doregex[url] live=1 timeout=15 flashVer=WIN\2016,0,0,305</link>
-<regex>
-<name>url</name>
-<expres>'file': "(.*m3u8.*?)"</expres>
-<page>http://sportsaccess.se/euplayer.php?c=channel6&amp;a=247ca2&amp;x=02&amp;w=21</page>
-<referer>http://sportsaccess.se/index.php?pg=europe</referer>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
-<cookieJar>$doregex[get-captcha]</cookieJar>
-</regex>
-<regex>
-<name>get-captcha</name>
-<expres></expres>
-<page>http://sportsaccess.se/login.php?do=login</page>
-<rawpost>vb_login_username=bse777&amp;vb_login_password=qwertyuiop&amp;s=&amp;do=login&amp;vb_login_md5password=6eea9b7ef19179a06954edd0f6c05ceb&amp;vb_login_md5password_utf=6eea9b7ef19179a06954edd0f6c05ceb<rawpost>
-<referer>http://sportsaccess.se/index.php?pg=main</referer>
-<x-req>XMLHttpRequest</x-req>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 </channel>
 
