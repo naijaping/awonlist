@@ -2386,7 +2386,7 @@
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
 <name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://sport1-24x7-free-lh.streaming.sport1.de/z/24x7_SPORT1_FREE_1@324937/manifest.f4m?start=1439027904&amp;hdcore=3.2.0&amp;plugin=jwplayer-3.2.0.1&amp;hdnea=st=$doregex[id]|X-Forwarded-For=85.5.87.218')<expres>
+<expres>$pyFunction:urllib.quote_plus('http://sport1-24x7-free-lh.streaming.sport1.de/z/24x7_SPORT1_FREE_1@324937/manifest.f4m?start=1439027904&amp;hdcore=3.2.0&amp;plugin=jwplayer-3.2.0.1&amp;hdnea=st=$doregex[id]')<expres>
 <name>id</name>
 <expres>hdnea=(.*?)"</expres>
 <page>http://tv.sport1.de/sport1/</page>
@@ -2426,26 +2426,10 @@
 </item>
 
 
-<item>
-<title>Liveall</title>
-<link>$doregex[get-rtmp] swfUrl=http://wds.liveall.tv/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://liveall.tv/</link>
-<regex>
-<name>get-rtmp</name>
-<expres>$pyFunction:get_leton_rtmp('http://liveall.tv/player.php?streampage=footyml','http://liveall.tv/')</expres>
-<page></page>
-</regex>
-</item>
 
 
-<item>
-<title>Liveall2</title>
-<link>$doregex[get-rtmp] swfUrl=http://wds.liveall.tv/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://liveall.tv/</link>
-<regex>
-<name>get-rtmp</name>
-<expres>$pyFunction:get_leton_rtmp('http://liveall.tv/player.php?streampage=streamsp','http://liveall.tv/')</expres>
-<page></page>
-</regex>
-</item>
+
+
 
 
 
