@@ -2374,14 +2374,14 @@
 
 
 <item>
-<title>GOD TV</title>
+<title>GOD</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
 <name>encodedurl</name>
 <expres>$pyFunction:urllib.quote_plus('http://sport1-24x7-free-lh.streaming.sport1.de/z/24x7_SPORT1_FREE_1@324937/manifest.f4m?start=1439027904&amp;hdnea=st=$doregex[id]')<expres>
 <name>id</name>
 <expres>st=(.*?)"</expres>
-<page></page>
+<page>http://tv.sport1.de/sport1/</page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
 </item>
