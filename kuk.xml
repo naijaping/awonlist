@@ -2384,7 +2384,7 @@
 <regex>
 <name>get-unpacked</name>
 <expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres>
-<page>http://embed.live-stream.tv/sport1&e=1&e=1&width=728&height=465</page>
+<page>http://embed.live-stream.tv/sport1</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
