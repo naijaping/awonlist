@@ -2374,11 +2374,11 @@
 
 
 <item>
-<title>Vidto</title>
+<title>Vidt</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>src="(.*?)"</expres>
+<expres>file:"(.*?)"</expres>
 <page>$doregex[get-unpacked]</page>
 </regex>
 <regex>
