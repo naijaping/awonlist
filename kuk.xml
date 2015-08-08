@@ -2431,7 +2431,7 @@
 
 
 <item>
-<title>omoba</title>
+<title>omobami</title>
 <link>$doregex[url] live=1 timeout=15 flashVer=WIN\2016,0,0,305</link>
 <regex>
 <name>url</name>
@@ -2445,7 +2445,7 @@
 <name>get-captcha</name>
 <expres></expres>
 <page>http://sportsaccess.se/login.php?do=login</page>
-<rawpost>vb_login_username=omooba1&amp;vb_login_password=&amp;s=&amp;do=login&amp;vb_login_md5password=1439055562-1ca7de15bd68da3413f2ac517101c86909eb1c04&amp;vb_login_md5password_utf=1439055562-1ca7de15bd68da3413f2ac517101c86909eb1c04<rawpost>
+<rawpost>vb_login_username=omooba1&amp;vb_login_password=&amp;s=&amp;do=login&amp;vb_login_md5password=1ca7de15bd68da3413f2ac517101c86909eb1c04&amp;vb_login_md5password_utf=1ca7de15bd68da3413f2ac517101c86909eb1c04<rawpost>
 <referer>http://sportsaccess.se/index.php?pg=main</referer>
 <x-req>XMLHttpRequest</x-req>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
