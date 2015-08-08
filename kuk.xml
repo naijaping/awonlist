@@ -2392,17 +2392,7 @@
 
 <item>
 <title>f4m auth test</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[get-urlencoded]</link>
-<regex>
-<name>get-urlencoded</name>
-<expres>$pyFunction:urllib.quote_plus('$doregex[get-url]|X-Forwarded-For=85.5.87.218')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>file: "(.*)"</expres>
-<page>http://tv.sport1.de/sport1/</page>
-</regex>
+<link>http://37.187.167.166:8081/live/sky1/playlist.m3u8</link>
 </item>
 
 
