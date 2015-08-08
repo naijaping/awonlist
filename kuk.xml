@@ -2389,13 +2389,6 @@
 </item>
 
 
-
-<item>
-<title>f4m auth test</title>
-<link>http://37.187.167.166:8081/live/skynews/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC84LzIwMTUgNzo1Njo1OSBQTSZoYXNoX3ZhbHVlPW1FM0tiM292Rk1BNzd2Q2FYaUNEMWc9PSZ2YWxpZG1pbnV0ZXM9MQ==</link>
-</item>
-
-
 <item>
 <title>9M</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[url]</link>
