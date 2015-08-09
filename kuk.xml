@@ -2188,12 +2188,12 @@
 </item>
 
 <item>
-<title>fmobi</title>
+<title>fmb</title>
 <link>$doregex[get-finalURL]</link>
 <regex>
 <name>get-finalURL</name>
 <expres>src="(.*m3u8.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://www.webproxyde.com/browse.php?u=$doregex[url-quote]').read()</page>
+<page>$pyFunction:urllib.urlopen('http://hiproxy.gq/browse.php?u==$doregex[url-quote]').read()</page>
 <referer>http://tv.sport1.de/</referer>
 <cookieJar></cookieJar>
 <agent>iphone</agent>
@@ -2205,13 +2205,6 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
-
-<item>
-<title>Sky Disney</title>
-<link>http://sport1-24x7-free-lh.streaming.sport1.de/i/24x7_SPORT1_FREE_1@324937/master.m3u8|X-Forwarded-For=85.5.87.218</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_disney_hd.png</thumbnail>
-</item>
-
 
 
 
