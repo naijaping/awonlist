@@ -2169,7 +2169,20 @@
 
 
 
-
+<item>
+<title>test 2</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[get-urlencoded]</link>
+<regex>
+<name>get-urlencoded</name>
+<expres>$pyFunction:urllib.quote_plus('http://www.xperienc.com/browsexp.php?u=$doregex[get-url]').read()</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>http://tv.sport1.de/sport1/</page>
+</regex>
+</item>
 
 
 
