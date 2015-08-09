@@ -2192,7 +2192,24 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>fmob</title>
+<link>$doregex[get-finalURL]</link>
+<regex>
+<name>get-finalURL</name>
+<expres>src="(.*m3u8.*?)"</expres>
+<page>$pyFunction:urllib.urlopen('http://www.xperienc.com/browsexp.php?u=$doregex[url-quote]').read()</page>
+<referer>http://www.xperienc.com/browsexp.php?u=http://tv.sport1.de/</referer>
+<cookieJar></cookieJar>
+<agent>iphone</agent>
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote('http://tv.sport1.de/mobile/sport1/')</expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
