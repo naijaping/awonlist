@@ -2169,7 +2169,7 @@
 
 
 <item>
-<title>fool</title>
+<title>foom</title>
 <link>$doregex[get-finalURL]</link>
 <regex>
 <name>get-finalURL</name>
@@ -2178,7 +2178,7 @@
 </regex>
 <regex>
 <name>get-url</name>
-<expres>file: "(.*f4m.*?)"</expres>
+<expres>src="(.*m3u8.*?)"</expres>
 <page>$pyFunction:urllib.urlopen('http://www.xperienc.com/browsexp.php?u=$doregex[url-quote]').read()</page>
 <referer>http://www.xperienc.com/browsexp.php?u=http://tv.sport1.de/</referer>
 <cookieJar></cookieJar>
@@ -2186,36 +2186,14 @@
 </regex>
 <regex>
 <name>url-quote</name>
-<expres>$pyFunction:urllib.quote('http://tv.sport1.de/sport1')</expres>
+<expres>$pyFunction:urllib.quote('http://tv.sport1.de/mobile/sport1/')</expres>
 <page></page>
 </regex>
 <thumbnail></thumbnail>
 </item>
 
 
-<item>
-<title>f4m auth test</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[get-finalURL]</link>
-<regex>
-<name>get-finalURL</name>
-<expres>$pyFunction:'$doregex[get-url]'</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>file: "(.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://67.159.5.242/browse.php?u=$doregex[url-quote]').read()</page>
-<referer>http://67.159.5.242/browse.php?u=http://tv.sport1.de/</referer>
-<cookieJar></cookieJar>
-<agent>iphone</agent>
-</regex>
-<regex>
-<name>url-quote</name>
-<expres>$pyFunction:urllib.quote('http://tv.sport1.de/sport1')</expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
