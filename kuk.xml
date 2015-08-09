@@ -2208,12 +2208,13 @@
 </item>
 
 <item>
-<title>Bush</title>
-<link>$doregex[reg1]|X-Forwarded-For=157.181.172.107</link>
+<title>Busho</title>
+<link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>{ 'file': '(.*m3u8.*?)'</expres>
 <page>http://admin.gamaxmedia.hu/player-inside-full?streamid=mtv1live&userid=mtva</page>
+<x-forward>157.181.172.107</x-forward>
 </regex>
 <thumbnail></thumbnail>
 </item>
