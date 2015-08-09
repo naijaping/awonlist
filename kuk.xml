@@ -2164,7 +2164,7 @@
 
 
 <item>
-<title>foom</title>
+<title>foomi</title>
 <link>$doregex[get-finalURL]</link>
 <regex>
 <name>get-finalURL</name>
@@ -2174,8 +2174,8 @@
 <regex>
 <name>get-url</name>
 <expres>src="(.*m3u8.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://www.xperienc.com/browsexp.php?u=$doregex[url-quote]').read()</page>
-<referer>http://www.xperienc.com/browsexp.php?u=http://tv.sport1.de/</referer>
+<page>$pyFunction:urllib.urlopen('http://www.webproxyde.com/browse.php?u=$doregex[url-quote]&amp;b=0&amp;f=norefer').read()</page>
+<referer>http://www.webproxyde.com/browse.php?u=http://tv.sport1.de/</referer>
 <cookieJar></cookieJar>
 <agent>iphone</agent>
 </regex>
