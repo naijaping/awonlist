@@ -2169,7 +2169,7 @@
 
 
 <item>
-<title>f4m</title>
+<title>f4moo</title>
 <link>$doregex[get-finalURL]</link>
 <regex>
 <name>get-finalURL</name>
@@ -2178,9 +2178,9 @@
 </regex>
 <regex>
 <name>get-url</name>
-<expres>file: "(.*?)</expres>
-<page>$pyFunction:urllib.urlopen('http://67.159.5.242/browse.php?u=$doregex[url-quote]&amp;idx=1&amp;p=404').read()</page>
-<referer>http://67.159.5.242/browse.php?u=http://tv.sport1.de/</referer>
+<expres>file: "(.*?)"</expres>
+<page>$pyFunction:urllib.urlopen('http://www.xperienc.com/browsexp.php?u=$doregex[url-quote]').read()</page>
+<referer>http://www.xperienc.com/browsexp.php?u=http://tv.sport1.de/</referer>
 <cookieJar></cookieJar>
 <agent>iphone</agent>
 </regex>
