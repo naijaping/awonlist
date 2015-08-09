@@ -2200,9 +2200,11 @@
 
 
 
+
+
 <item>
-<title>WWTV</title>
-<link>http://astv10sec1.tulix.tv/btsport2/btsport2.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>WWl</title>
+<link>http://astv10sec1.tulix.tv/beinsportplus/beinsportplus.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
@@ -2213,18 +2215,8 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>WWu</title>
-<link>http://astv10sec1.tulix.tv/btsport1/btsport1.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://bit.ly/1LNoGly</page>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
+
 
 
 </channel>
