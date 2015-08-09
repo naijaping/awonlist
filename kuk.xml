@@ -2128,17 +2128,6 @@
 
 
 <item>
-<title>9M</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: "(.*?)"</expres>
-<page>http://tv.sport1.de/sport1/</page>
-<referer>http://tv.sport1.de</referer>
-</regex>
-</item>
-
-<item>
 <title>Super Sport 2</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
@@ -2164,11 +2153,11 @@
 
 
 <item>
-<title>fomufm</title>
+<title>fom</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[get-finalURL]</link>
 <regex>
 <name>get-finalURL</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
+<expres>$pyFunction:urllib.quote_plus('$doregex[get-url]')</expres>
 <page></page>
 </regex>
 <regex>
