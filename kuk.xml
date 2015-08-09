@@ -2155,7 +2155,7 @@
 </item> 
 
 <item>
-<title>Sports 1</title>
+<title>Sport1</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -2163,7 +2163,7 @@
 <page>http://tv.sport1.de/mobile/sport1/</page>
 <referer>http://tv.sport1.de/</referer>
 <x-forward>82.165.141.170</x-forward>
-<agent>Mozilla/5.0 (Linux; Android 4.4.2; en-gb; SAMSUNG SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36</agent>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A293 Safari/6531.22.7</agent>
 </regex>
 </item>
 
