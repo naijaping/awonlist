@@ -2154,7 +2154,17 @@
 <thumbnail></thumbnail>
 </item> 
 
-
+<item>
+<title>Sport 1</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>src="(.*m3u8.*?)"</expres>
+<page>http://tv.sport1.de/mobile/sport1/</page>
+<referer>http://tv.sport1.de/</referer>
+<agent>iphone</iphone>
+</regex>
+</item>
 
 
 
