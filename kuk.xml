@@ -2169,8 +2169,8 @@
 
 
 <item>
-<title>f4m auth test</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[get-finalURL]</link>
+<title>f4m</title>
+<link>$doregex[get-finalURL]</link>
 <regex>
 <name>get-finalURL</name>
 <expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
