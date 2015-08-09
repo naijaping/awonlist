@@ -2169,11 +2169,11 @@
 
 
 <item>
-<title>foo</title>
+<title>fool</title>
 <link>$doregex[get-finalURL]</link>
 <regex>
 <name>get-finalURL</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
+<expres>$pyFunction:'$doregex[get-url]'</expres>
 <page></page>
 </regex>
 <regex>
