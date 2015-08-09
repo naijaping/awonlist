@@ -2208,12 +2208,12 @@
 </item>
 
 <item>
-<title>tesoo</title>
+<title>Bush</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>'file': '(.*?)'</expres>
-<page>http://admin.gamaxmedia.hu/player-inside-full?streamid=mtv1live&userid=mtva&height=520&width=960</page>
+<expres>{ 'file': '(.*m3u8.*?)'</expres>
+<page>http://admin.gamaxmedia.hu/player-inside-full?streamid=mtv1live&userid=mtva</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
