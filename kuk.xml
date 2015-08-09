@@ -2196,16 +2196,7 @@
 </item>
 
 
-<item>
-<title>CanalSports</title>
-<link>$doregex[get-rtmp] swfUrl=http://wds.liveall.tv/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://liveall.tv/</link>
-<regex>
-<name>get-rtmp</name>
-<expres>$pyFunction:get_leton_rtmp('http://liveall.tv/player.php?streampage=thodreedo8738talreq','http://liveall.tv/')</expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/astro_supersport_my.png</thumbnail>
-</item>
+
 
 <item>
 <title>Buo</title>
@@ -2218,6 +2209,15 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+<title>guloo</title>
+<link>http://hlsvod-akc.media.net.wwe.com/wwe/advisories/WWE_TVY7_AFV_master.m3u8 </link>
+</regex>
+</item>
+
+
+
 
 
 
