@@ -2208,11 +2208,11 @@
 </item>
 
 <item>
-<title>testuuu</title>
+<title>tesoo</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>{ 'file': '(.*?)'</expres>
+<expres>'file': '(.*?)'</expres>
 <page>http://admin.gamaxmedia.hu/player-inside-full?streamid=mtv1live&userid=mtva&height=520&width=960</page>
 </regex>
 <thumbnail></thumbnail>
