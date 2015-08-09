@@ -2207,6 +2207,17 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/astro_supersport_my.png</thumbnail>
 </item>
 
+<item>
+<title>testuuu</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>{ 'file': '(.*?)'</expres>
+<page>http://admin.gamaxmedia.hu/player-inside-full?streamid=mtv1live&userid=mtva&height=520&width=960</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 </channel>
