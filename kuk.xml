@@ -2203,8 +2203,8 @@
 
 
 <item>
-<title>WWl</title>
-<link>http://astv10sec1.tulix.tv/beinsportplus/beinsportplus.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>WWbb</title>
+<link>http://astv10sec.tulix.tv/astvskysport2/sky2tv/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
