@@ -2175,7 +2175,7 @@
 <name>get-url</name>
 <expres>src="(.*m3u8.*?)"</expres>
 <page>$pyFunction:urllib.urlopen('http://www.webproxyde.com/browse.php?u=$doregex[url-quote]&amp;b=0&amp;f=norefer').read()</page>
-<referer>http://www.webproxyde.com/browse.php?u=http://tv.sport1.de/</referer>
+<referer>http://tv.sport1.de/</referer>
 <cookieJar></cookieJar>
 <agent>iphone</agent>
 </regex>
