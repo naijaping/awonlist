@@ -2115,7 +2115,7 @@
 
 <item>
 <title>gioooo</title>
-<link>http://tna2gb9.tulix.tv/hls/astv1btsport1/b7d2c26b77410bb15fc95ed2d6fec0f8/55c92845/btsport1.stream.m3u8 </link>
+<link> </link>
 </item>
 
 
@@ -2214,8 +2214,8 @@
 </item>
 
 <item>
-<title>WW</title>
-<link>http://astv10sec1.tulix.tv/tvnigeria/tvnigeria.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>WW0</title>
+<link>http://astv10sec1.tulix.tv/btsport1/btsport1.stream.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
@@ -2225,7 +2225,6 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
-
 
 
 </channel>
