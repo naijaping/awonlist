@@ -2164,8 +2164,8 @@
 
 
 <item>
-<title>fomu</title>
-<link>$doregex[get-finalURL]</link>
+<title>fomufm</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[get-finalURL]</link>
 <regex>
 <name>get-finalURL</name>
 <expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
@@ -2173,7 +2173,7 @@
 </regex>
 <regex>
 <name>get-url</name>
-<expres>src="(.*m3u8.*?)"</expres>
+<expres>file: "(.*?)"</expres>
 <page>$pyFunction:urllib.urlopen('http://www.webproxyde.com/browse.php?u=$doregex[url-quote]&amp;b=0&amp;f=norefer').read()</page>
 <referer>http://tv.sport1.de/</referer>
 <cookieJar></cookieJar>
@@ -2181,7 +2181,7 @@
 </regex>
 <regex>
 <name>url-quote</name>
-<expres>$pyFunction:urllib.quote('http://tv.sport1.de/mobile/sport1/')</expres>
+<expres>$pyFunction:urllib.quote('http://tv.sport1.de/sport1/')</expres>
 <page></page>
 </regex>
 <thumbnail></thumbnail>
