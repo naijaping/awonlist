@@ -2193,7 +2193,29 @@
 </item>
 
 
-
+<item>
+<title>f4m auth test</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[get-finalURL]</link>
+<regex>
+<name>get-finalURL</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$pyFunction:urllib.urlopen('http://67.159.5.242/browse.php?u=$doregex[url-quote]&amp;idx=1&amp;p=404').read()</page>
+<referer>http://67.159.5.242/browse.php?u=http://tv.sport1.de/</referer>
+<cookieJar></cookieJar>
+<agent>iphone</agent>
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote('http://tv.sport1.de/sport1')</expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
