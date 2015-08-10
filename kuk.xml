@@ -2202,7 +2202,7 @@
 
 <item>
 <title>Atkino</title>
-<link>http://81.92.105.132:5555/pl.m3u8?channel=5&amp;key=$doregex[reg1]</link>
+<link>http://81.92.105.132:5555/pl.m3u8?channel=5&amp;key=$doregex[reg1]&amp;client=freeAllTVUser</link>
 <regex><name>reg1</name>
 <expres>(?!["'\s]+)&amp;key=([^"]+)</expres>
 <page>http://alltv.ch/channels</page>
