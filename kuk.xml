@@ -2203,8 +2203,8 @@
 
 
 <item>
-<title>mow31</title>
-<link>http://astv10sec3.tulix.tv/disneyjunior/disneyjunior.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>mow 3</title>
+<link>http://astv10sec3.tulix.tv/skysport5/skysports5/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
