@@ -2097,8 +2097,8 @@
 
 
 <item>
-<title>Gum</title>
-<link>http://sport1-24x7-free-lh.streaming.sport1.de/i/24x7_SPORT1_FREE_1@324937/master.m3u8?start=1439118303&hdnea=st=1439119203~exp=1439119503~acl=/*~hmac=177a9f691f049082fd9a759ca4a2ca0c9f8d426f99c3c8a504e684af5381f7ff</link>
+<title>Gumo</title>
+<link>http://sport1-24x7-free-lh.streaming.sport1.de/i/24x7_SPORT1_FREE_1@324937/master.m3u8|X-Forwarded-For=157.181.172.107</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
 </item> 
 
@@ -2194,16 +2194,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Atkimioo</title>
-<link>http://81.92.105.132:5555/pl.m3u8?channel=7&amp;key=$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>key=(.*?)"</expres>
-<page>http://alltv.ch/channels</page>
-<referer>http://alltv.ch</referer>
-</regex>
-</item>
+
 
 
 
