@@ -2103,12 +2103,6 @@
 </item> 
 
 <item>
-<title>giu</title>
-<link>http://81.92.105.132:5555/pl.m3u8?channel=3&key=7swMI2oET2nxEQTQC05UrGcJTkaBDe&client=freeAllTVUser</link>
-</item>
-
-
-<item>
 <title>ast</title>
 <link>rtmp://68.232.37.6:1935/live playpath=sport1.stream swfUrl=http://embed.live-stream.tv/player/player.swf pageUrl=http://embed.live-stream.tv/sport1 live=1</link>
 <thumbnail></thumbnail>
