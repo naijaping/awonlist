@@ -2182,12 +2182,12 @@
 </item>
 
 <item>
-<title>Sport 1 de</title>
+<title>Sportde</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>{ file: "(.*?)"</expres>
-<page>http://www.stream2watch.co/streams/17821/1</page>
+<page>http://www.stream2watch.co/streams/30373/1</page>
 <referer>http://www.stream2watch.co/</referer>
 <agent></agent>
 </regex>
