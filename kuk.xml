@@ -2183,7 +2183,7 @@
 
 <item>
 <title>rus</title>
-<link>http://nimplus1.giniko.com/russiatoday/russiatoday.stream/playlist.m3u8$doregex[get-auth]</link>
+<link>$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
