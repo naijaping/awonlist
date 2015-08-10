@@ -2040,17 +2040,6 @@
 
 
 <item>
-<title>Vietta24</title>
-<link>http://83.170.111.147/liveStream/hai/liveChannel/hai_2/chunks.m3u8$doregex[auth]</link>
-<regex>
-<name>auth</name>
-<expres>"url": "(.*?)"</expres>
-<page>http://www.viettv24.com/main/?language=vi</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>zee ditto</title>
 <link>$doregex[url]</link>
 <regex>
@@ -2198,7 +2187,18 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Sport 1 de</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>{ file: "(.*?)"</expres>
+<page>http://www.stream2watch.co/streams/17821/1</page>
+<referer>http://www.stream2watch.co/</referer>
+<agent></agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
