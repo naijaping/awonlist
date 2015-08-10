@@ -2182,8 +2182,8 @@
 </item>
 
 <item>
-<title>rus</title>
-<link>$doregex[get-auth]</link>
+<title>j</title>
+<link>http://astv10sec3.tulix.tv/disneyjunior/disneyjunior.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
