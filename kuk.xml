@@ -2195,11 +2195,11 @@
 </item>
 
 <item>
-<title>Atkimi</title>
+<title>Atkimioo</title>
 <link>http://81.92.105.132:5555/pl.m3u8?channel=7&amp;key=$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>(?!["'\s]+)&amp;key=(.*)"</expres>
+<expres>key=(.*?)"</expres>
 <page>http://alltv.ch/channels</page>
 <referer>http://alltv.ch</referer>
 </regex>
