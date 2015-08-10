@@ -2182,22 +2182,7 @@
 </item>
 
 
-<item>
-<title>Tuf1</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>src="(.*m3u8.*?)"</expres>
-<page>http://de.proxfree.com/permalink.php</page>
-<referer>http://de.proxfree.com</referer>
-<rawpost>url=$doregex[url-quote]&amp;D5oWIB%2BGbcrvOp7W7Vq2fGbanIy9gk6JJZAsYa1fDoGfCW3AKb6zx1HkLqIO2mnIRCickO1d8NSieMYwF6A2FQ%3D%3D&bit=1</rawpost>
-</regex>
-<regex>
-<name>url-quote</name>
-<expres>$pyFunction:urllib.quote('http://tv.sport1.de/mobile/sport1/')</expres>
-<page></page>
-</regex>
-</item>
+
 
 
 
