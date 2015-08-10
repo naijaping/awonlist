@@ -2204,7 +2204,7 @@
 
 <item>
 <title>mow 2</title>
-<link>http://astv10sec2.tulix.tv/skysport5/skysports5/playlist.m3u8$doregex[get-auth]</link>
+<link>http://astv10sec1.tulix.tv/skysport5/skysports5/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
