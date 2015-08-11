@@ -2179,7 +2179,7 @@
 
 <item>
 <title>oso</title>
-<link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://cricfree.sx/update/espn2.php live=true token=%Zrey(nKa@#Z timeout=15</link>
+<link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://cricfree.sx/update/espn2.php live=true securetoken=%Zrey(nKa@#Z timeout=15</link>
 <regex>
 <name>rtmp</name>
 <expres>file: "(.*?)"</expres>
