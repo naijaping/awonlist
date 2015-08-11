@@ -2185,6 +2185,19 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>posumbouu</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>https://dragontv.no-ip.net/js/skgnedj.php?cid=8fe47e866596bc171fb629b210e0eab719138c98ebdea218f9ace32010ebfe1521363969dd3aa6221a3a85b89dc75e0fa2daa1d5c001714fca8ccc88a9fcababfa8756868a78eafbbbd8ae07db00397c5bfa5d184b347eaff00ebfd264188e487f4bcc1db2cdb789db7c5a41d5cd8810363ed2c0ee65e06848e4b4516961c9e4502304a419e4aee2bc7fad07657caf7b</page>
+<referer></referer>
+<x-forward></x-forward>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 
