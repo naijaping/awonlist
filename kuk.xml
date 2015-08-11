@@ -1798,16 +1798,6 @@
 <link>http://80.80.160.168/live/2/live.m3u8</link>
 </item>
 
-<item>
-<title>koiespn</title>
-<link>http://93.174.95.125:1935/edge/_definst_/xoaaohmeuajfeyf/playlist.m3u8?wowzasessionid=1419879934</link>
-</item>
-
-<item>
-<title>Foo2</title>
-<link>http://82.137.248.21:1935/Drama/DramaLive2/chunklist_w42072395.m3u8</link>
-</item>
-
 
 <item>
 <title>Letontv</title>
@@ -2185,18 +2175,25 @@
 <thumbnail></thumbnail>
 </item>
 
+
 <item>
-<title>pobouu</title>
-<link>$doregex[reg1]</link>
+<title>CTHStadium2</title>
+<link>$doregex[url]</link>
 <regex>
-<name>reg1</name>
-<expres>file: "(.*m3u8.*?)"</expres>
-<page>http://dragontv.no-ip.net/js/skgnedj.php?cid=28e59ab789d9ac92ab0b80a9e7b0e3a9b2a012b942f9b6b6e67fa20562fc40d85eed5bc858251cd534fd2126eae3c1c58872a8af7213bc400df76d3970a564cd84d750e9f8aea1e108a4200c73489c43619361e8d058e7714fec834e43ea4185d894745d942eb37a435e70650707d94c424e70c1a665bfcccbb7c51cf14660091e7cfd15fcb1ea8aee280ed3763a3829</page>
-<referer></referer>
-<x-forward></x-forward>
+<name>url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[linkpg]</page>
+<referer>http://www.khaozap.com</referer>
 </regex>
-<thumbnail></thumbnail>
+<regex>
+<name>linkpg</name>
+<expres>dragon_player.*\n.*\n.*\n.*src="(.*?)"</expres>
+<page>http://www.khaozap.com/%E0%B8%94%E0%B8%B9%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C/%E0%B8%94%E0%B8%B9%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C%E0%B8%8A%E0%B9%88%E0%B8%AD%E0%B8%87-cth2-hd/</page>
+</regex>
 </item>
+
+
+
 
 
 
