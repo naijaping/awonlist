@@ -2190,7 +2190,7 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: "(.*?)"</expres>
+<expres>file: "(.*m3u8.*?)"</expres>
 <page>http://dragontv.no-ip.net/js/skgnedj.php?cid=28e59ab789d9ac92ab0b80a9e7b0e3a9b2a012b942f9b6b6e67fa20562fc40d85eed5bc858251cd534fd2126eae3c1c58872a8af7213bc400df76d3970a564cd84d750e9f8aea1e108a4200c73489c43619361e8d058e7714fec834e43ea4185d894745d942eb37a435e70650707d94c424e70c1a665bfcccbb7c51cf14660091e7cfd15fcb1ea8aee280ed3763a3829</page>
 <referer></referer>
 <x-forward></x-forward>
