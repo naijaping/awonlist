@@ -2218,12 +2218,13 @@
 
 
 <item>
-<title>Muma</title>
+<title>Mumo</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>file: "(.*m3u8.*?)"</expres>
 <page>http://ball.qoo-p.com/goal2hd/assp1.php</page>
+<referer>http://www.goal2hd.com/</referer>
 <x-forward></x-forward>
 </regex>
 <thumbnail></thumbnail>
