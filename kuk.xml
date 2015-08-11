@@ -2186,12 +2186,12 @@
 </item>
 
 <item>
-<title>posumbouu</title>
+<title>pobouu</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>file: "(.*?)"</expres>
-<page>https://dragontv.no-ip.net/js/skgnedj.php?cid=8fe47e866596bc171fb629b210e0eab719138c98ebdea218f9ace32010ebfe1521363969dd3aa6221a3a85b89dc75e0fa2daa1d5c001714fca8ccc88a9fcababfa8756868a78eafbbbd8ae07db00397c5bfa5d184b347eaff00ebfd264188e487f4bcc1db2cdb789db7c5a41d5cd8810363ed2c0ee65e06848e4b4516961c9e4502304a419e4aee2bc7fad07657caf7b</page>
+<page>http://dragontv.no-ip.net/js/skgnedj.php?cid=28e59ab789d9ac92ab0b80a9e7b0e3a9b2a012b942f9b6b6e67fa20562fc40d85eed5bc858251cd534fd2126eae3c1c58872a8af7213bc400df76d3970a564cd84d750e9f8aea1e108a4200c73489c43619361e8d058e7714fec834e43ea4185d894745d942eb37a435e70650707d94c424e70c1a665bfcccbb7c51cf14660091e7cfd15fcb1ea8aee280ed3763a3829</page>
 <referer></referer>
 <x-forward></x-forward>
 </regex>
