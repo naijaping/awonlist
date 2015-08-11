@@ -2177,18 +2177,6 @@
 
 
 
-<item>
-<title>oso</title>
-<link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://cricfree.sx/update/espn2.php live=true securetoken=%Zrey(nKa@#Z timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>file: "(.*?)"</expres>
-<page>http://yotv.co/embedo.php?live=espn2</page>
-<referer>http://cricfree.sx</referer>
-<x-forward></x-forward>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 
 
