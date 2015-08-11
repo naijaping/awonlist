@@ -2238,6 +2238,19 @@
 </item>
 
 
+<item>
+<title>posumb</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>{source: "(.*?)"</expres>
+<page>http://www.streaming-hub.com/prosieben-live/</page>
+<referer></referer>
+<x-forward></x-forward>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 
