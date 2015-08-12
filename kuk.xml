@@ -2169,7 +2169,6 @@
 <name>reg1</name>
 <expres>{source: "(.*?)"</expres>
 <page>http://www.streaming-hub.com/prosieben-live/</page>
-<epg>http://www.cesoirtele.com/programme_tv.php?_id=106</epg>
 <referer></referer>
 <x-forward></x-forward>
 </regex>
