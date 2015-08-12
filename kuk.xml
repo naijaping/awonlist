@@ -2189,7 +2189,18 @@
 </item>
 
 
-
+<item>
+<title>disney j</title>
+<link>http://astv10sec3.tulix.tv/disneyjunior/disneyjunior.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://bit.ly/1LNoGly</page>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
