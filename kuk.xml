@@ -2210,7 +2210,11 @@
 <link></link>
 </item>
 
-
+<item>
+<title>Test</title>
+<link>plugin://plugin.video.f4mTester/?url=http://dstvdm_hd1_hds-lh.akamaihd.net/z/SS2_1@27052/manifest.f4m?
+hdcore=3.3.0&amp;plugin=aasp-3.3.0.99.43</link>
+</item>
 
 
 
