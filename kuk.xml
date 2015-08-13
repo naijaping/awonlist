@@ -2211,9 +2211,9 @@
 </item>
 
 <item>
-<title>Test</title>
-<link>plugin://plugin.video.f4mTester/?url=http://dstvdm_hd1_hds-lh.akamaihd.net/z/SS2_1@27052/manifest.f4m?
-hdcore=3.3.0&amp;plugin=aasp-3.3.0.99.43</link>
+<title>Sky Sports 1 por SportsDevil</title>
+<sportsdevil>http://streamhd.eu/stream/watch-free-live-tv/channel/Sky-Sports-1/1</sportsdevil>
+<referer>http://streamhd.eu/</referer>
 </item>
 
 
