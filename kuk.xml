@@ -2201,16 +2201,21 @@
 </item>
 
 
-<item>
+<item>drama romance
 <title>sofo3dr</title>
 <link>http://tna2gb9.tulix.tv/hls/astvmoviesdr/2da9726955f616d7695c535813fc6418/55cd38d0/astvmovies-dr.stream.m3u8</link>
 </item>
 
-<item>
-<title>sofo4</title>
+<item>family
+<title>sofo4fam</title>
 <link>http://tna2gb9.tulix.tv/hls/astvmoviesf/2da9726955f616d7695c535813fc6418/55cd38d0/astvmovies-f.stream.m3u8</link>
 </item>
 
+
+<item>movie prem
+<title>sofo5</title>
+<link>http://tna2gb9.tulix.tv/hls/astvmoviesp/2da9726955f616d7695c535813fc6418/55cd38d0/astvmovies-p.stream.m3u8 </link>
+</item>
 
 
 </channel>
