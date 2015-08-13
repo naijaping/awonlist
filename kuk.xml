@@ -2192,8 +2192,8 @@
 
 
 <item>
-<title>dubai2</title>
-<link>http://astv10sec2.tulix.tv/dubaisport2/dubai-sport2.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>dubai3</title>
+<link>http://astv10sec3.tulix.tv/cartoonnetwork/cartoonnetwork.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
@@ -2207,7 +2207,7 @@
 
 <item>
 <title>UYPolo</title>
-<link>rtmp://astvstream1.tulix.tv:1935/canalplus/canalplus.stream</link>
+<link></link>
 </item>
 
 
