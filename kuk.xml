@@ -2189,45 +2189,21 @@
 </item>
 
 
-<item>Comedy
-<title>sofo</title>
-<link>http://tna2gb9.tulix.tv/hls/astvmoviesc/2da9726955f616d7695c535813fc6418/55cd38d0/astvmovies-c.stream.m3u8</link>
+
+
+<item>
+<title>mu</title>
+<link>http://astv10sec3.tulix.tv/moviesaa/movies-aa.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://bit.ly/1LNoGly</page>
+<agent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36</agent
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
-
-<item>Crime And Thriller
-<title>sofo2</title>
-<link>http://tna2gb9.tulix.tv/hls/astvmoviesct/2da9726955f616d7695c535813fc6418/55cd38d0/astvmovies-ct.stream.m3u8</link>
-</item>
-
-
-<item>drama romance
-<title>sofo3dr</title>
-<link>http://tna2gb9.tulix.tv/hls/astvmoviesdr/2da9726955f616d7695c535813fc6418/55cd38d0/astvmovies-dr.stream.m3u8</link>
-</item>
-
-<item>family
-<title>sofo4fam</title>
-<link>http://tna2gb9.tulix.tv/hls/astvmoviesf/2da9726955f616d7695c535813fc6418/55cd38d0/astvmovies-f.stream.m3u8</link>
-</item>
-
-
-<item>movie prem
-<title>sofo5</title>
-<link>http://tna2gb9.tulix.tv/hls/astvmoviesp/2da9726955f616d7695c535813fc6418/55cd38d0/astvmovies-p.stream.m3u8 </link>
-</item>
-
-
-<item>sci-fi-horror
-<title>sofo6</title>
-<link>http://tna2gb9.tulix.tv/hls/astvmoviessh/2da9726955f616d7695c535813fc6418/55cd38d0/astvmovies-sh.stream.m3u8 </link>
-</item>
-
-
-<item>action-adventure
-<title>sofo7</title>
-<link>http://tna2gb9.tulix.tv/hls/astvmoviesaa/2da9726955f616d7695c535813fc6418/55cd38d0/astvmovies-aa.stream.m3u8 </link>
-</item>
 
 
 </channel>
