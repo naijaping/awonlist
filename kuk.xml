@@ -2192,8 +2192,8 @@
 
 
 <item>
-<title>mymano3</title>
-<link>http://astv10sec3.tulix.tv/movies-aa/movies-aa.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>bet3</title>
+<link>http://astv10sec3.tulix.tv/bettvuk/betuk.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
@@ -2205,10 +2205,6 @@
 </item>
 
 
-<item>sci-fi-horror
-<title>sofo60</title>
-<link>http://tna2gb9.tulix.tv/hls/astvafricanmovie/2da9726955f616d7695c535813fc6418/55cd38d0/afmoviech.stream.m3u8 </link>
-</item>
 
 
 
