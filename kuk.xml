@@ -2279,9 +2279,16 @@
 </item>
 
 <item>
-<title>NatGeo</title>
-<sportsdevil>http://www.streamlive.to/embed/38804</sportsdevil>
-<referer>http://www.streamlive.to</referer>
+<title>Liverpo</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://live.almouridiyyah.com/watchiptv.php</page>
+<referer>http://live.almouridiyyah.com</referer>
+<x-forward></x-forward>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
 
