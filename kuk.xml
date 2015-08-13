@@ -2205,6 +2205,7 @@
 </item>
 
 
+<item>
 <title>Tikilive regex</title>
 <link>rtmp://edge2.tikilive.com:1935/rtmp_tikilive/31830 app=rtmp_tikilive/31830?id=$doregex[sid]&amp;i=$doregex[encid] playpath=mainstream swfUrl=http://www.tikilive.com/public/player/player.flash.swf pageUrl=http://www.tikilive.com live=1 timeout=15</link>
 <regex>
