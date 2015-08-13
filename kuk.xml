@@ -2205,16 +2205,30 @@
 </item>
 
 
-<item>
-<title>gUYPlu</title>
-<link></link>
+<title>Tikilive regex</title>
+<link>rtmp://edge2.tikilive.com:1935/rtmp_tikilive/31830 app=rtmp_tikilive/31830?id=$doregex[sid]&amp;i=$doregex[encid] playpath=mainstream swfUrl=http://www.tikilive.com/public/player/player.flash.swf pageUrl=http://www.tikilive.com live=1 timeout=15</link>
+<regex>
+<name>encid</name>
+<expres>$pyFunction:base64.b64encode("appName=Player&amp;cID=31830&amp;cName=KDKZ18&amp;oID=131231&amp;oName=KDKZ18&amp;sId=$doregex[keyid]&amp;uID=0&amp;uName=Guest29531")</expres>
+<page></page>
+</regex>        
+<regex>
+<name>sid</name>
+<expres>sid":"(.*?)"</expres>
+<page>http://www.tikilive.com:8080/socket.io/?c=31830&amp;n=TIKISESSID&amp;i=$doregex[keyid]&amp;EIO=3&amp;transport=polling&amp;t=$epoctime$-0</page>
+<referer>http://www.tikilive.com/</referer>
+<cookiejar></cookiejar>
+</regex>
+<regex>
+<name>keyid</name>
+<expres>keyId: '(.*?)'</expres>
+<page>http://www.tikilive.com/embed?scheme=embedChannel&amp;channelId=31830</page>
+<cookiejar></cookiejar>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Sky Sports 1 por SportsDevil</title>
-<sportsdevil>http://streamhd.eu/stream/watch-free-live-tv/channel/Sky-Sports-1/1</sportsdevil>
-<referer>http://streamhd.eu/</referer>
-</item>
+
 
 
 
