@@ -2279,15 +2279,8 @@
 </item>
 
 <item>
-<title>Liverp</title>
+<title>Liver</title>
 <link>rtmp://myafricanmega.tulix.tv:1935/map-nollywood/map-nollywood</link>
-<regex>
-<name>reg1</name>
-<expres>file: "(.*m3u8)"</expres>
-<page>http://live.almouridiyyah.com/watchiptv.php</page>
-<referer>http://live.almouridiyyah.com</referer>
-<x-forward></x-forward>
-</regex>
 <thumbnail></thumbnail>
 </item>
 
