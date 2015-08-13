@@ -2230,6 +2230,29 @@
 </item>
 
 
+<item>
+<title>hiphoptv</title>
+<link>rtmp://edge2.tikilive.com:1935/rtmp_tikilive/34647 app=rtmp_tikilive/34647?id=$doregex[sid]&amp;i=$doregex[encid] playpath=mainstream swfUrl=http://www.tikilive.com/public/player/player.flash.swf pageUrl=http://www.tikilive.com live=1 timeout=15</link>
+<regex>
+<name>encid</name>
+<expres>$pyFunction:base64.b64encode("appName=Player&amp;cID=34647&amp;cName=KDKZ18&amp;oID=131231&amp;oName=KDKZ18&amp;sId=$doregex[keyid]&amp;uID=0&amp;uName=Guest29531")</expres>
+<page></page>
+</regex>        
+<regex>
+<name>sid</name>
+<expres>sid":"(.*?)"</expres>
+<page>http://www.tikilive.com:8080/socket.io/?c=34647&amp;n=TIKISESSID&amp;i=$doregex[keyid]&amp;EIO=3&amp;transport=polling&amp;t=$epoctime$-0</page>
+<referer>http://www.tikilive.com/</referer>
+<cookiejar></cookiejar>
+</regex>
+<regex>
+<name>keyid</name>
+<expres>keyId: '(.*?)'</expres>
+<page>http://www.tikilive.com/embed?scheme=embedChannel&amp;channelId=34647</page>
+<cookiejar></cookiejar>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
