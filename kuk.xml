@@ -2189,13 +2189,13 @@
 </item>
 
 
-<item>
+<item>Comedy
 <title>sofo</title>
 <link>http://tna2gb9.tulix.tv/hls/astvmoviesc/2da9726955f616d7695c535813fc6418/55cd38d0/astvmovies-c.stream.m3u8</link>
 </item>
 
 
-<item>
+<item>Crime And Thriller
 <title>sofo2</title>
 <link>http://tna2gb9.tulix.tv/hls/astvmoviesct/2da9726955f616d7695c535813fc6418/55cd38d0/astvmovies-ct.stream.m3u8</link>
 </item>
@@ -2221,6 +2221,12 @@
 <item>sci-fi-horror
 <title>sofo6</title>
 <link>http://tna2gb9.tulix.tv/hls/astvmoviessh/2da9726955f616d7695c535813fc6418/55cd38d0/astvmovies-sh.stream.m3u8 </link>
+</item>
+
+
+<item>action-adventure
+<title>sofo7</title>
+<link>http://tna2gb9.tulix.tv/hls/astvmoviesaa/2da9726955f616d7695c535813fc6418/55cd38d0/astvmovies-aa.stream.m3u8 </link>
 </item>
 
 
