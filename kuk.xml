@@ -2338,7 +2338,21 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Gujal</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[xmlurl]'.replace('&amp;amp;','&amp;')</expres>
+<page></page>
+</regex>
+<regex>
+<name>xmlurl</name>
+<expres>file="(http.*?)"</expres>
+<page>http://www.teles-live.com/iptv/?ch=abu_dhabi</page>
+<referer>http://www.teles-live.com/players/jwplayer6/jwplayer.flash.swf</referer>
+</regex>
+</item>
 
 
 
