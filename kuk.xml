@@ -2352,7 +2352,17 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Valleta HD</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>url:'(.*?)'</expres>
+<page>http://www.skylinewebcams.com/en/webcam/malta/malta/valletta/st-george-square.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 </channel>
