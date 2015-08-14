@@ -2340,6 +2340,20 @@
 
 
 
+<item>
+<title>Holanda </title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.omropfryslan.nl/live/omrop-fryslan-tv</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
 
 
 
