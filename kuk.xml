@@ -2303,8 +2303,8 @@
 
 
 <item>
-<title>Worksin331</title>
-<link>https://beinsportnet4-lh.akamaihd.net/i/bisusch331_0@99587/master.m3u8?$doregex[auth]</link>
+<title>Worksin333</title>
+<link>https://beinsportnet5-lh.akamaihd.net/i/bisusch333_0@99607/master.m3u8?$doregex[auth]</link>
 <regex>
 <name>auth</name>
 <expres>streamAuth.\n...CDATA.(.*?)\]</expres>
