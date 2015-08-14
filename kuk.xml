@@ -2323,24 +2323,15 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Tru TV-1nkj</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: '(.*?)'</expres>
-<page>https://cdn.tvfree.biz/player/39.php</page>
-<referer>http://tvfree.biz/</referer>
-</regex>
-</item>
+
 
 <item>
-<title>Baby</title>
+<title>Mtv</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>file: '(.*?)'</expres>
-<page>https://cdn.tvfree.biz/player/36.php</page>
+<page>https://cdn.tvfree.biz/player/110.php</page>
 <referer>http://tvfree.biz/</referer>
 </regex>
 </item>
