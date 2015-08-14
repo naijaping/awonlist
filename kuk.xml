@@ -2193,7 +2193,7 @@
 
 <item>
 <title>dubai3</title>
-<link>http://astv10sec3.tulix.tv/cartoonnetwork/cartoonnetwork.stream/playlist.m3u8$doregex[get-auth]</link>
+<link>http://astv10sec3.tulix.tv//.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
@@ -2281,7 +2281,7 @@
 <item>
 <title>Livo</title>
 <link>http://myafricanmega3.tulix.tv:1935/map-channelstv/map-channelstv.stream/chunklist.m3u8?wowzasessionid=598321747</link>
-<link>rtmp://astvstream.tulix.tv:1935/moviesaa/moviesaa.stream </link>
+<link></link>
 <thumbnail></thumbnail>
 </item>
 
