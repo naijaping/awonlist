@@ -2323,6 +2323,41 @@
 	</item>
 
 
+<item>
+<title>HDO</title>
+<link>$doregex[get-rtmp] live=1 timeout=15 flashVer=WIN\2016,0,0,305</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file:\s*'([^'"]+)</expres>
+<page>http://rudos.tv/site/live/?id=1</page>
+<referer>http://rudos.tv/site/live/</referer>
+<x-forward>92.0.40.21</x-forward>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
+<cookieJar>$doregex[get-captcha]</cookieJar>
+</regex>
+<regex>
+<name>get-captcha</name>
+<expres></expres>
+<page>http://rudos.tv/site/login</page>
+<rawpost>amember_login=omooba1&amp;amember_pass=aramide2007&amp;login_attempt_id=$doregex[get-epoc]<rawpost>
+<referer>http://rudos.tv</referer>
+<x-req>XMLHttpRequest</x-req>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
+<cookieJar>$doregex[Cookie]</cookieJar>
+</regex>
+<regex>
+<name>Cookie</name>
+<expres></expres>
+<page>http://rudos.tv</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>get-epoc</name>
+<expres>$epoctime$</expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
