@@ -2326,12 +2326,12 @@
 
 
 <item>
-<title>Mtv</title>
+<title>eu</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>file: '(.*?)'</expres>
-<page>https://cdn.tvfree.biz/player/110.php</page>
+<page>https://cdn.tvfree.biz/player/116.php</page>
 <referer>http://tvfree.biz/</referer>
 </regex>
 </item>
