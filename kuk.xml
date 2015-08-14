@@ -2073,6 +2073,26 @@
 </regex>
 </item>
 
+
+<item><title>High Playtv</title>
+<link>$doregex[geturl]</link>
+     <regex>
+        <name>geturl</name>
+        <expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
+        <page></page>
+    </regex>    
+    <regex>
+        <name>getplayerid</name>
+        <expres>data-alias="beblack-africa" data-playerid="(.*?)"</expres>
+        <page>http://playtv.fr/television/</page>
+    </regex>    
+</item>
+
+
+
+
+
+
 <item>
 <title>muto0</title>
 <link>http://wowza1.videos.movile.com:8080/live/smil:adultopremium_1.smil/playlist.m3u8</link>
