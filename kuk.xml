@@ -2303,8 +2303,8 @@
 
 
 <item>
-<title>Worksin332</title>
-<link>http://beinsportnet5-lh.akamaihd.net/z/bisusch332_0@99606/master.m3u8?$doregex[auth]</link>
+<title>Worksin3322</title>
+<link>https://beinsportnet5-lh.akamaihd.net/z/bisusch332_0@99606/master.m3u8?$doregex[auth]</link>
 <regex>
 <name>auth</name>
 <expres>streamAuth.\n...CDATA.(.*?)\]</expres>
@@ -2324,7 +2324,7 @@
 
 
 <item>
-<title>Bein</title>
+<title>Bein2</title>
 <link>http://beinsportnet4-lh.akamaihd.net/i/bisusch309_0@99702/master.m3u8?$doregex[auth]</link>
 <regex>
 <name>auth</name>
