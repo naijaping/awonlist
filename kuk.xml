@@ -2325,7 +2325,7 @@
 
 <item>
 <title>Bein</title>
-<link>https://beinsportnet4-lh.akamaihd.net/i/bisusch309_0@99702/master.m3u8?$doregex[auth]</link>
+<link>http://beinsportnet4-lh.akamaihd.net/i/bisusch309_0@99702/master.m3u8?$doregex[auth]</link>
 <regex>
 <name>auth</name>
 <expres>streamAuth.\n...CDATA.(.*?)\]</expres>
