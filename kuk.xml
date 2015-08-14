@@ -2329,7 +2329,7 @@
 <regex>
 <name>url</name>
 <expres>file: '(.*?)'</expres>
-<page>https://cdn.tvfree.biz/player/20.php</page>
+<page>https://cdn.tvfree.biz/player/39.php</page>
 <referer>http://tvfree.biz/</referer>
 </regex>
 </item>
