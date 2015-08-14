@@ -2289,14 +2289,16 @@
 
 
 <item>
-        <title>Low Playtv</title>
-        <link>http://188.165.101.226:80/mobile/_definst_//heya-tv_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
-        <regex>
-        <name>key</name>
-        <expres>sessionid=([^'"]*)</expres>
-        <page>http://m.playtv.fr/api/channels/arab-woman-tv/?preset=with_programme%2Cwith_streams</page>
-        <referer></referer>
-        </regex>
+<title>Works in Kodi-15</title>
+<link>https://beinsportnet5-lh.akamaihd.net/i/bisusch332_0@99606/master.m3u8?$doregex[acl]|User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</link>
+<regex>
+    <name>acl</name>
+    <expres>streamAuth.\n...CDATA.(.*?)\]</expres>
+    <page>http://www.en.beinsports.net/streaming/dvr/streaminfo/partnerId_1346/dvrEventId_91923/data.xml?cache_buster=$epoctime$</page>
+    <referer>http://www.en.beinsports.net/connect/bein-sports-news</referer>
+    <agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
+    <cookieJar></cookieJar>
+</regex>
 </item>
 
 
