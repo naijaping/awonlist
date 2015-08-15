@@ -684,18 +684,6 @@
 </item>
 
 <item>
-<title>Bein Sport 4</title>
-<link>$doregex[get-link] timeout=20</link>
-<regex>
-<name>get-link</name>
-<expres>stretching: "fill",
-           file: '(.*?)'</expres>
-<page>http://www.sportnews24hour.com/p/bein-sports-4.html</page>
-</regex>  
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
-</item>  	
-		       	
-<item>
 <title>Bein Sport 5</title>
 <link>rtmp://167.114.101.234:1935/live?idu=ghayth12345_61813917360/bein_sport_5_low</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
@@ -2396,7 +2384,16 @@
 </item>
 
 
-
+<item>
+<title>Stadium2</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: '(.*?)'</expres>
+<page>https://cdn.tvfree.biz/player/39.php</page>
+<referer>http://tvfree.biz/tot</referer>
+</regex>
+</item>
 
 
 
