@@ -2366,76 +2366,11 @@
 
 
 
-<item>
-<title>Bein 12</title>
-<link>https://beinsportnet1-lh.akamaihd.net/i/bisusch303_0@99536/master.m3u8?$doregex[auth]</link>
-<regex>
-<name>auth</name>
-<expres>streamAuth.\n...CDATA.(.*?)\]</expres>
-<page>http://www.en.beinsports.net/streaming/dvr/streaminfo/partnerId_1346/dvrEventId_91923/data.xml?cache_buster=$epoctime$</page>
-<referer>http://www.en.beinsports.net/connect/bein-sports-news</referer>
-<agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Bein 13</title>
-<link>https://beinsportnet5-lh.akamaihd.net/i/bisusch333_0@99607/master.m3u8?$doregex[auth]</link>
-<regex>
-<name>auth</name>
-<expres>streamAuth.\n...CDATA.(.*?)\]</expres>
-<page>http://www.en.beinsports.net/streaming/dvr/streaminfo/partnerId_1346/dvrEventId_91923/data.xml?cache_buster=$epoctime$</page>
-<referer>http://www.en.beinsports.net/</referer>
-<agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>Bein 14</title>
-<link>https://beinsportnet5-lh.akamaihd.net/i/bisusch334_0@99608/master.m3u8?$doregex[auth]</link>
-<regex>
-<name>auth</name>
-<expres>streamAuth.\n...CDATA.(.*?)\]</expres>
-<page>http://www.en.beinsports.net/streaming/dvr/streaminfo/partnerId_1346/dvrEventId_91923/data.xml?cache_buster=$epoctime$</page>
-<referer>http://www.en.beinsports.net/connect/bein-sports-news</referer>
-<agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Bein 15</title>
-<link>https://beinsportnet6-lh.akamaihd.net/i/bisusch335_0@25987/master.m3u8?$doregex[auth]</link>
-<regex>
-<name>auth</name>
-<expres>streamAuth.\n...CDATA.(.*?)\]</expres>
-<page>http://www.en.beinsports.net/streaming/dvr/streaminfo/partnerId_1346/dvrEventId_91923/data.xml?cache_buster=$epoctime$</page>
-<referer>http://www.en.beinsports.net/connect/bein-sports-news</referer>
-<agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 
 
 <item>
 <title>Bein 16</title>
-<link>https://beinsportnet6-lh.akamaihd.net/i/bisusch336_0@15766/master.m3u8?$doregex[auth]</link>
-<regex>
-<name>auth</name>
-<expres>streamAuth.\n...CDATA.(.*?)\]</expres>
-<page>http://www.en.beinsports.net/streaming/dvr/streaminfo/partnerId_1346/dvrEventId_91923/data.xml?cache_buster=$epoctime$</page>
-<referer>http://www.en.beinsports.net/</referer>
-<agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
-<cookieJar></cookieJar>
-</regex>
+<link></link>
 <thumbnail></thumbnail>
 </item>
 
