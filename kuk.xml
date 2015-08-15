@@ -2366,13 +2366,13 @@
 
 
 <item>
-<title>Bein 11</title>
-<link>https://beinsportnet4-lh.akamaihd.net/i/bisusch310_0@99585/master.m3u8?$doregex[auth]</link>
+<title>Be</title>
+<link>https://beinsportnet4-lh.akamaihd.net/i/bisusch310_0@99585/master.m3u8?$doregex[acl]</link>
 <regex>
-<name>auth</name>
+<name>acl</name>
 <expres>streamAuth.\n...CDATA.(.*?)\]</expres>
 <page>http://www.en.beinsports.net/streaming/dvr/streaminfo/partnerId_1346/dvrEventId_91923/data.xml?cache_buster=$epoctime$</page>
-<referer>http://www.en.beinsports.net/</referer>
+<referer>http://www.en.beinsports.net/connect/bein-sports-news</referer>
 <agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
 <cookieJar></cookieJar>
 </regex>
