@@ -2369,12 +2369,12 @@
 
 
 <item>spn
-<title>Huh </title>
+<title>Hulu</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>target="(.*?) "</expres>
-<page>http://www.iptvembed.com/vlc-stream-tester/espn1/</page>
+<expres>file: "(.*?)"</expres>
+<page>http://www.iptvembed.com/sololive/channel-4-4/</page>
 <referer>http://www.iptvembed.com</referer>
 </regex>
 <thumbnail></thumbnail>
