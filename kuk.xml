@@ -2383,11 +2383,11 @@
 
 
 <item>
-<title>Vpn</title>
+<title>Vpno</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>file: '(.*?)'</expres>
+<expres>file: '(.*m3u8.*?)'</expres>
 <page>https://cdn.tvfree.biz/player/39.php</page>
 <referer>https://cdn.tvfree.biz/</referer>
 </regex>
