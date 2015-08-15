@@ -2340,7 +2340,7 @@
 </item>
 
 
-<item>
+<item>Tsn1
 <title>Hush </title>
 <link>$doregex[url]</link>
 <regex>
@@ -2352,6 +2352,20 @@
 <thumbnail></thumbnail>
 </item>
 
+
+
+
+<item>Tsn1
+<title>Hush0 </title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.iptvembed.com/sololive/sky-sport-hd-4/</page>
+<referer>http://www.iptvembed.com</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
