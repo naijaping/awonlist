@@ -2277,8 +2277,8 @@
 
 
 <item>
-<title>Works15</title>
-<link>https://besmenaas-s.akamaihd.net/i/bisusch332_0@99606/master.m3u8?$doregex[acl]</link>
+<title>Works on 15</title>
+<link>https://beinsportnet5-lh.akamaihd.net/i/bisusch332_0@99606/master.m3u8?$doregex[acl]</link>
 <regex>
 <name>acl</name>
 <expres>streamAuth.\n...CDATA.(.*?)\]</expres>
