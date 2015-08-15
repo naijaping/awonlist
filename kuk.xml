@@ -2371,29 +2371,18 @@
 
 
 <item>
-<title>nuoo</title>
-<link>$doregex[reg1]|User-Agent=iPhone</link>
+<title>null</title>
+<link>$doregex[reg1]|User-Agent=extrawatch_agent</link>
 <regex>
 <name>reg1</name>
 <expres>file: '(.*m3u8.*?)'</expres>
 <page>https://cdn.tvfree.biz/player/39.php</page>
-<referer>http://tvfree.biz/tot/39/Nick-Jr.-English</referer>
-<X-Requested>ShockwaveFlash/18.0.0.232</X-Requested> S
+<referer>https://ssl.p.jwpcdn.com/6/11/jwplayer.flash.swf</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
 
 
-<item>
-<title>Stadium2</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: '(.*?)'</expres>
-<page>https://cdn.tvfree.biz/player/39.php</page>
-<referer>http://tvfree.biz/tot</referer>
-</regex>
-</item>
 
 
 
