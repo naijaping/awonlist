@@ -2383,10 +2383,10 @@
 
 
 <item>
-<title>noluo</title>
-<link>$doregex[url]|User-Agent=iPhone</link>
+<title>nuoo</title>
+<link>$doregex[reg1]|User-Agent=iPhone</link>
 <regex>
-<name>url</name>
+<name>reg1</name>
 <expres>file: '(.*m3u8.*?)'</expres>
 <page>https://cdn.tvfree.biz/player/39.php</page>
 <referer>http://tvfree.biz/tot/39/Nick-Jr.-English</referer>
