@@ -2325,28 +2325,20 @@
 
 
 
+
 <item>
-<title>eu</title>
-<link>$doregex[url]</link>
+<title>Works in5</title>
+<link>https://beinsportnet3-lh.akamaihd.net/i/bisusch309_0@99702/master.m3u8?$doregex[auth]</link>
 <regex>
-<name>url</name>
-<expres>file: '(.*?)'</expres>
-<page>https://cdn.tvfree.biz/player/116.php</page>
-<referer>http://tvfree.biz/</referer>
+<name>auth</name>
+<expres>streamAuth.\n...CDATA.(.*?)\]</expres>
+<page>http://www.en.beinsports.net/streaming/dvr/streaminfo/partnerId_1864/dvrEventId_955389/data.xml?cache_buster=$epoctime$</page>
+<referer>http://www.en.beinsports.net/connect/bein-sports-news</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
+<cookieJar></cookieJar>
 </regex>
 </item>
 
-
-<item>
-<title>2</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>value="(hostname.*?)"</expres>
-<page>http://www.livestation.com/i24/live</page>
-<referer>http://www.livestation.com/</referer>
-</regex>
-</item>
 
 
 
