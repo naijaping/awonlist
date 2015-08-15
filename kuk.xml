@@ -2383,11 +2383,11 @@
 
 
 <item>
-<title>pno</title>
-<link>$doregex[url]</link>
+<title>pnol</title>
+<link>$doregex[url]|Referer=http:http://tvfree.biz/tot/39/Nick-Jr.-English</link>
 <regex>
 <name>url</name>
-<expres>{ file: '(.*m3u8.*?)'</expres>
+<expres>file: '(.*m3u8.*?)'</expres>
 <page>https://cdn.tvfree.biz/player/39.php</page>
 <referer>http://tvfree.biz/</referer>
 </regex>
