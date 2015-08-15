@@ -2371,14 +2371,8 @@
 
 
 <item>
-<title>null</title>
-<link>$doregex[reg1]|User-Agent=extrawatch_agent</link>
-<regex>
-<name>reg1</name>
-<expres>file: '(.*m3u8.*?)'</expres>
-<page>https://cdn.tvfree.biz/player/39.php</page>
-<referer>https://ssl.p.jwpcdn.com/6/11/jwplayer.flash.swf</referer>
-</regex>
+<title>nullo</title>
+<link>https://besmenads-s.akamaihd.net/live/233766_233767/besmena11s.isml/Master.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
