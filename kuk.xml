@@ -2338,11 +2338,11 @@
 
 
 <item>
-<title>2470</title>
+<title>2</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>value="hostname=(.*?)"</expres>
+<expres>value="(hostname.*?)"</expres>
 <page>http://www.livestation.com/i24/live</page>
 <referer>http://www.livestation.com/</referer>
 </regex>
