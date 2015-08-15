@@ -2383,13 +2383,13 @@
 
 
 <item>
-<title>nolo</title>
+<title>nolu</title>
 <link>$doregex[url]|User-Agent=iPhone</link>
 <regex>
 <name>url</name>
 <expres>file: '(.*m3u8.*?)'</expres>
 <page>https://cdn.tvfree.biz/player/39.php</page>
-<referer>https://tvfree.biz/</referer>
+<referer></referer>
 <X-Requested>ShockwaveFlash/18.0.0.232</X-Requested> S
 </regex>
 <thumbnail></thumbnail>
