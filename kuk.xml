@@ -2366,11 +2366,11 @@
 
 
 <item>
-<title>vevo test </title>
+<title>vevotest </title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>flashvars="(.*?)"</expres>
+<expres>flashvars="(.*m3u8.*?)"</expres>
 <page>http://www.iptvembed.com/m3u8-embed-iptv-stream/vevo1-hd/</page>
 <referer>http://www.iptvembed.com</referer>
 </regex>
