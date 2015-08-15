@@ -2340,7 +2340,17 @@
 </item>
 
 
-
+<item>
+<title>Hush </title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>value="(.*?)"</expres>
+<page>http://www.iptvembed.com/vlc-stream-tester/digital/</page>
+<referer>http://www.iptvembed.com</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
