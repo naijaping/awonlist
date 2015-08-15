@@ -2369,14 +2369,8 @@
 
 
 <item>spn
-<title>Hlol </title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>value="(.*?)"</expres>
-<page>http://www.iptvembed.com/vlc-stream-tester/espn1/</page>
-<referer>http://www.iptvembed.com</referer>
-</regex>
+<title>Hl </title>
+<link>rtmp://37.187.130.88:1935/espn1streamer1</link>
 <thumbnail></thumbnail>
 </item>
 
