@@ -2366,13 +2366,15 @@
 
 
 <item>
-<title>vevotest 1</title>
-<link>$doregex[url]</link>
+<title>Bein Sports Arabic Tour</title>
+<link>https://beinsportnet4-lh.akamaihd.net/i/bisusch311_0@99586/master.m3u8?$doregex[auth]</link>
 <regex>
-<name>url</name>
-<expres>flashvars="src=(.*m3u8.*?)"</expres>
-<page>http://www.iptvembed.com/m3u8-embed-iptv-stream/vevo1-hd/</page>
-<referer>http://www.iptvembed.com</referer>
+<name>auth</name>
+<expres>streamAuth.\n...CDATA.(.*?)\]</expres>
+<page>http://www.en.beinsports.net/streaming/dvr/streaminfo/partnerId_1346/dvrEventId_91923/data.xml?cache_buster=$epoctime$</page>
+<referer>http://www.en.beinsports.net/connect/bein-sports-news</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
+<cookieJar></cookieJar>
 </regex>
 <thumbnail></thumbnail>
 </item>
