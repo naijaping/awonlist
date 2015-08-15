@@ -2382,7 +2382,17 @@
 
 
 
-
+<item>
+<title>Vpn</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: '(.*?)'</expres>
+<page>https://cdn.tvfree.biz/player/39.php</page>
+<referer>https://cdn.tvfree.biz/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
