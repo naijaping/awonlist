@@ -2381,6 +2381,17 @@
 </item>
 
 
+<item>spn
+<title>Hulo</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.iptvembed.com/embed_m3u8_iptv_stream/skymoviesscifihorror/</page>
+<referer>http://www.iptvembed.com</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 </channel>
