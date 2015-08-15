@@ -2389,8 +2389,8 @@
 <name>url</name>
 <expres>file: '(.*?)'</expres>
 <page>https://cdn.tvfree.biz/player/39.php</page>
-<referer>http://tvfree.biz/</referer>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+<referer>https://tvfree.biz/</referer>
+<X-Requested>ShockwaveFlash/18.0.0.232</X-Requested> S
 </regex>
 <thumbnail></thumbnail>
 </item>
