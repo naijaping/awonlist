@@ -2384,7 +2384,7 @@
 
 <item>
 <title>nol</title>
-<link>$doregex[url]|Referer=http:http://tvfree.biz/tot/39/Nick-Jr.-English</link>
+<link>$doregex[url]|User-Agent=iPhone</link>
 <regex>
 <name>url</name>
 <expres>file: '(.*?)'</expres>
