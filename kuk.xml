@@ -2313,12 +2313,12 @@
 
 
 <item>Tsn1
-<title>Hush </title>
+<title>Hus</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>value="(.*?)"</expres>
-<page>http://www.iptvembed.com/vlc-stream-tester/digital/</page>
+<page>http://www.iptvembed.com/vlc-stream-tester/foxsports-2/</page>
 <referer>http://www.iptvembed.com</referer>
 </regex>
 <thumbnail></thumbnail>
