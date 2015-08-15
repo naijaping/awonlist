@@ -2383,7 +2383,7 @@
 
 
 <item>
-<title>nolu</title>
+<title>noluo</title>
 <link>$doregex[url]|User-Agent=iPhone</link>
 <regex>
 <name>url</name>
