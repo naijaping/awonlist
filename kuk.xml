@@ -2365,14 +2365,26 @@
 </item>
 
 
-
-
-
 <item>
-<title>Bein 16</title>
-<link>rtmp://37.187.130.88:1935/tsn1streamer1</link>
+<title>vevo test </title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>flashvars="(.*?)"</expres>
+<page>http://www.iptvembed.com/m3u8-embed-iptv-stream/vevo1-hd/</page>
+<referer>http://www.iptvembed.com</referer>
+</regex>
 <thumbnail></thumbnail>
 </item>
+
+
+
+
+
+
+
+
+
 
 
 
