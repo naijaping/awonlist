@@ -2455,9 +2455,9 @@
 
 
 <item>
-<title>Araba TV Yoruba Films</title>
+<title>Araba </title>
 <link>ignorme</link>
-<jsonrpc>plugin://plugin.video.operationrobocop/?fanart=/storage/emulated/0/Android/data/org.xbmc.kodi/files/.kodi/addons/plugin.video.operationrobocop/fanart.jpg&mode=1&name=livetv2.xml&url=http://operationrobocop.netai.net/list/livetv2.xml</jsonrpc>
+<jsonrpc>plugin://plugin.video.operationrobocop/?mode=1&name=livetv2.xml&url=http://operationrobocop.netai.net/list/livetv2.xml</jsonrpc>
 <thumbnail>http://i58.tinypic.com/r7k3nq.jpg</thumbnail>
 </item>
 
