@@ -2247,20 +2247,10 @@
 
 
 <item>
-<title>freestrea</title>
-<link>plugin://plugin.video.operationrobocop/?url=none&amp;mode=200&amp;name=Sky+Sports+3</link>
-</item>
-
-
-
-<item>
-<title>Araba bab</title>
+<title>freestream</title>
 <link>ignorme</link>
-<jsonrpc>plugin://plugin.video.operationrobocop/?url=http%3A%2F%2Fbg-sofia.hls.unistream.tv%2F290%2Fplay%3Fkey%3D53ef522659a58&mode=12</jsonrpc>
-<thumbnail></thumbnail>
+<jsonrpc>plugin://plugin.video.operationrobocop/?url=none&amp;mode=200&amp;name=Sky+Sports+3</jsonrpc>
 </item>
-
-
 
 
 <item>
