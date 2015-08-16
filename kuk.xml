@@ -2252,8 +2252,8 @@
 
 
 <item>
-<title>Vox Africa TV2</title>
-<link>http://astv10sec2.tulix.tv/cinemaplus/cinemaplus.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>VoxAfrica TV1</title>
+<link>http://astv10sec1.tulix.tv/cinemaplus/cinemaplus.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
