@@ -2341,6 +2341,16 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
 </item> 
 
+<item>
+<title>GOD TV2</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/vskys2/manifest.f4m?token=czlUci8yQlJ5QmpvbXVDVWRrblFkUUxFSlZRR3NKMjBlZ2NTVWFLeXNueHlqc1hocGJaNHErWHFaZDhCdlFzZg==')<expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
+</item> 
 
 
 
@@ -2366,7 +2376,39 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
 </item> 
 
+<item>
+<title>GOD TV5</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/vskys5/manifest.f4m?token=czlUci8yQlJ5QmpvbXVDVWRrblFkUUxFSlZRR3NKMjBlZ2NTVWFLeXNueHlqc1hocGJaNHErWHFaZDhCdlFzZg==')<expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
+</item> 
 
+
+<item>
+<title>GOD TVf1</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/vskysf1/manifest.f4m?token=czlUci8yQlJ5QmpvbXVDVWRrblFkUUxFSlZRR3NKMjBlZ2NTVWFLeXNueHlqc1hocGJaNHErWHFaZDhCdlFzZg==')<expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
+</item> 
+
+<item>
+<title>GOD TVsn</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/vskysn/manifest.f4m?token=czlUci8yQlJ5QmpvbXVDVWRrblFkUUxFSlZRR3NKMjBlZ2NTVWFLeXNueHlqc1hocGJaNHErWHFaZDhCdlFzZg==')<expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
+</item> 
 
 
 </channel>
