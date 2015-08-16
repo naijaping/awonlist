@@ -2425,8 +2425,8 @@
 
 
 <item>
-<title>oyedepi</title>
-<link>$doregex[reg1]|Referer=http://www.davidoyedepoministries.org</link>
+<title>oyedepoo</title>
+<link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>file: '(.*?)'</expres>
