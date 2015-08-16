@@ -2214,27 +2214,16 @@
 
 
 <item>
-<title>f4mauthtest</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[url]</link>
+<title>Yupptv</title>
+<link>$doregex[url]|Referer=http://static.aka.yupp.yuppcdn.net/staticstorage/jwplayer/jw_6_12/jwplayer.flash.swf</link>
 <regex>
 <name>url</name>
-<expres>$pyFunction:urllib.quote_plus('$doregex[get-url]')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.malayalamtvhd.in/2015/07/amritatv.html</page>
-<referer>http://www.yupptv.com/</referer>
+<expres>file:'(.*?)'<expres>
+<page>http://streams.yupptv.com/freechannelplayer.aspx?id=249</page>
+<referer>http://streams.yupptv.com/</referer>
 </regex>
 </item>
 
-<item>
-<title>maleyupp</title>
-<link>http://yupptvrtmp-lh.akamaihd.net/i/nwk9_50@196629/master.m3u8</link>
-<referer>http://www.yupptv.com/</referer>
-<thumbnail></thumbnail>
-</item> 
 
 
 
