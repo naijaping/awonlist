@@ -2047,17 +2047,18 @@
 
 
 <item>
-<title>EBlack</title>
-<link>$doregex[getURL]</link>
+<title>beblack-africa</title>
+<link>$doregex[url]</link>
 <regex>
-<name>getURL</name>
-<expres>$pyFunction:'$doregex[getLink]'.replace('\\/','/')</expres>
+<name>url</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('\/','/').replace('\u0026','&')</expres>
 <page></page>
 </regex>
 <regex>
-<name>getLink</name>
-<expres>http":"(.*?)"</expres>
-<page>http://m.playtv.fr/api/channels/beblack-africa/?preset=with_programme%2Cwith_streams</page>
+<name>get-url</name>
+<expres>"url":"(.*?)"</expres>
+<page>http://playtv.fr/player/play/beblack-africa/?bitrate=0&amp;format=hls&amp;language=fr</page>
+<referer>http://playtv.fr/television/beblack-africa/</referer>
 </regex>
 </item>
 
@@ -2080,54 +2081,16 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
 </item> 
 
-
-<item>
-<title>Buo</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>'file': '(.*m3u8.*?)'</expres>
-<page>http://admin.gamaxmedia.hu/player-inside-full?streamid=mtv1live&userid=mtva</page>
-<x-forward>157.181.172.107</x-forward>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 <item>
 <title>MarcoPolo</title>
 <link>http://ltlive01.cloudapp.net/LT_CH_2mkw471qp.isml/manifest(format=m3u8-aapl).m3u8</link>
 </item>
 
-
 <item>
-<title>0Polo</title>
-<link>http://golfstreameast.golfchannel.com/nbc08/acd3d00d-b5fc-499a-b6f0-e1db52fc5c62/golf-live-extra0810140045.ism/manifest(format=m3u8-aapl-v3).m3u8|X-Forwarded-For=66.171.228.102</link>
+<title>Sport1 DE</title>
+<thumbnail>http://img1.wikia.nocookie.net/__cb20130716171728/logopedia/images/2/2a/Sport1_Germany_2013.png</thumbnail>
+<link>http://streaming-hub.com/tv/i/sport1_1@97464/master.m3u8</link>
 </item>
-
-<item>
-                <title>Astro 1 HD</title>
-                <thumbnail></thumbnail>
-                <link>http://62.210.248.96:11000/sport11001@hotmail.com_sport/sport11001@hotmail.com_sport/409.ch</link>
-        </item>
-        <item>
-                <title>Astro 2 HD</title>
-                <thumbnail></thumbnail>
-                <link>http://62.210.248.96:11000/sport11001@hotmail.com_sport/sport11001@hotmail.com_sport/410.ch</link>
-        </item>
-        <item>
-                <title>Astro 3 HD</title>
-                <thumbnail></thumbnail>
-                <link>http://62.210.248.96:11000/sport11001@hotmail.com_sport/sport11001@hotmail.com_sport/411.ch</link>
-        </item>
-
-
-<item>
-                <title>Sport1 DE</title>
-                <thumbnail>http://img1.wikia.nocookie.net/__cb20130716171728/logopedia/images/2/2a/Sport1_Germany_2013.png</thumbnail>
-                <link>http://streaming-hub.com/tv/i/sport1_1@97464/master.m3u8</link>
-        </item>
-
-
 
 <item>
 <title>Mumo</title>
@@ -2141,8 +2104,6 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
-
-
 
 <item>
 <title>Matv</title>
@@ -2162,36 +2123,6 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
-
-<item>
-<title>Liverpool TV</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.shadownet.biz/channels/uktv/liverpool-fc-tv.html</page>
-<referer></referer>
-<x-forward></x-forward>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-
-
-<item>
-<title>dubai3</title>
-<link>http://astv10sec3.tulix.tv//.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://bit.ly/1LNoGly</page>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 
 <item>
 <title>Tikilivuu</title>
@@ -2243,50 +2174,9 @@
 </item>
 
 <item>
-<title>Fortis TV NG</title>
-<link>rtmp://edge2.tikilive.com:1935/rtmp_tikilive/40055 app=rtmp_tikilive/40055?id=$doregex[sid]&amp;i=$doregex[encid] playpath=mainstream swfUrl=http://www.tikilive.com/public/player/player.flash.swf pageUrl=http://www.tikilive.com live=1 timeout=15</link>
-<regex>
-<name>encid</name>
-<expres>$pyFunction:base64.b64encode("appName=Player&amp;cID=40055&amp;cName=KDKZ18&amp;oID=131231&amp;oName=KDKZ18&amp;sId=$doregex[keyid]&amp;uID=0&amp;uName=Guest29531")</expres>
-<page></page>
-</regex>        
-<regex>
-<name>sid</name>
-<expres>sid":"(.*?)"</expres>
-<page>http://www.tikilive.com:8080/socket.io/?c=40055&amp;n=TIKISESSID&amp;i=$doregex[keyid]&amp;EIO=3&amp;transport=polling&amp;t=$epoctime$-0</page>
-<referer>http://www.tikilive.com/</referer>
-<cookiejar></cookiejar>
-</regex>
-<regex>
-<name>keyid</name>
-<expres>keyId: '(.*?)'</expres>
-<page>http://www.tikilive.com/embed?scheme=embedChannel&amp;channelId=40055</page>
-<cookiejar></cookiejar>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>Livo</title>
 <link>http://myafricanmega3.tulix.tv:1935/map-channelstv/map-channelstv.stream/chunklist.m3u8?wowzasessionid=598321747</link>
 <link>rtmp://skystreams.info/vod playpath=mp4:/ppvs/UFC.PPV190.2015.08.01.Rousey.vs.Correia.720p.HDTV.30fps.x264-Reborn4HD.mp4 swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://sportsaccess.se/ondemand.php?file=/ppvs/UFC.PPV190.2015.08.01.Rousey.vs.Correia.720p.HDTV.30fps.x264-Reborn4HD.mp4</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>freestreams</title>
-<link>plugin://plugin.video.freestreams/?url=none&amp;mode=200&amp;name=MTV+Hits</link>
-</item>
-
-<item>
-<title>Holanda </title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: "(.*?)"</expres>
-<page>http://www.omropfryslan.nl/live/omrop-fryslan-tv</page>
-<referer></referer>
-</regex>
 <thumbnail></thumbnail>
 </item>
 
@@ -2331,52 +2221,6 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
 </item> 
 
-<item>
-<title>GOD TV2</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/vskys2/manifest.f4m?token=czlUci8yQlJ5QmpvbXVDVWRrblFkUzV3Z29Hb05ZT1dicW9VVDhURnhYUENrODZQNHk0SjFtZU5jWi90Tng4VA==')<expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
-</item> 
-
-
-
-<item>
-<title>GOD TV3</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/vskys3/manifest.f4m?token=czlUci8yQlJ5QmpvbXVDVWRrblFkUzV3Z29Hb05ZT1dicW9VVDhURnhYUENrODZQNHk0SjFtZU5jWi90Tng4VA==')<expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
-</item> 
-
-<item>
-<title>GOD TV4</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/vskys4/manifest.f4m?token=czlUci8yQlJ5QmpvbXVDVWRrblFkUUxFSlZRR3NKMjBlZ2NTVWFLeXNueHlqc1hocGJaNHErWHFaZDhCdlFzZg==')<expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
-</item> 
-
-<item>
-<title>GOD TV5</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/vskys5/manifest.f4m?token=czlUci8yQlJ5QmpvbXVDVWRrblFkUzV3Z29Hb05ZT1dicW9VVDhURnhYUENrODZQNHk0SjFtZU5jWi90Tng4VA==')<expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
-</item> 
-
 
 <item>
 <title>GOD TVf1</title>
@@ -2400,55 +2244,20 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
 </item> 
 
-<item>
-<title>GODtsn4</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/tsn4/manifest.f4m?token=czlUci8yQlJ5QmpvbXVDVWRrblFkUUxFSlZRR3NKMjBlZ2NTVWFLeXNueHlqc1hocGJaNHErWHFaZDhCdlFzZg&amp;autoPlay=true|Cookie=&amp;auth=&amp;Streamtype=HDS')<expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
-</item> 
 
 
 <item>
-<title>sntest4</title>
-<link>http://files.kingofstreams.com:90/justforvip/tsn4/playlist.m3u8?token=$doregex[tok]</link>
-<regex>
-<name>tok</name>
-<expres>token=(.*?)"</expres>
-<page>http://files.kingofstreams.com:90/justforvip/</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item> 
-
-
-
-
-<item>
-<title>beblack-africa</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\/','/').replace('\u0026','&')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>"url":"(.*?)"</expres>
-<page>http://playtv.fr/player/play/beblack-africa/?bitrate=0&amp;format=hls&amp;language=fr</page>
-<referer>http://playtv.fr/television/beblack-africa/</referer>
-</regex>
+<title>freestrea</title>
+<link>plugin://plugin.video.operationrobocop/?url=none&amp;mode=200&amp;name=Sky+Sports+3</link>
 </item>
+
 
 
 <item>
 <title>Araba bab</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.operationrobocop/?url=http%3A%2F%2Fbg-sofia.hls.unistream.tv%2F290%2Fplay%3Fkey%3D53ef522659a58&mode=12</jsonrpc>
-<thumbnail>http://i58.tinypic.com/r7k3nq.jpg</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
