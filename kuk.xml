@@ -2438,13 +2438,23 @@
 
 
 <item>
-<title>Huyoo</title>
+<title>Asian News</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres> file: '(.*?)'</expres>
-<page>http://www.malayalamtvhd.in/2015/07/asianetnews.html</page>
-<referer>/referer>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
+<page></page>
+</regex>
+<regex>
+<name>jsonurl</name>
+<expres>"hlsvp":"(.*?)"</expres>
+<page>https://www.youtube.com/watch?v=$doregex[get-page]</page>
+<referer></referer>
+</regex>
+<regex>
+<name>get-page</name>
+<expres>data-context-item-id="([^"]+)</expres>
+<page>https://www.youtube.com/channel/UCf8w5m0YsRa8MHQ5bwSGmbw</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
