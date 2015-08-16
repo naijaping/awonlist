@@ -2206,9 +2206,6 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
 </item> 
 
-
-
-
 <item>
 <title>oyla</title>
 <link>ignorme</link>
@@ -2216,13 +2213,21 @@
 </item>
 
 
-
-
 <item>
-<title>BenTv</title>
-<link>http://tna2gb9.tulix.tv/hls/astvmoviesdr/6767295069521eb0093d58c90ecbfbc3/55d22d2d/astvmovies-dr.stream.m3u8 </link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
+<title>f4m auth test</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[get-urlencoded]</link>
+<regex>
+<name>get-urlencoded</name>
+<expres>$pyFunction:urllib.quote_plus('$doregex[get-url]')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-url</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.malayalamtvhd.in/2015/07/amritatv.html</page>
+</regex>
 </item>
+
 
 
 
