@@ -2218,7 +2218,7 @@
 <link>plugin://plugin.video.f4mTester/?url=http://files.kingofstreams.com:90/justforvip/tsn1/manifest.f4m?token=$doregex[tok]&amp;autoPlay=true|Cookie=')</link>
 <regex>
 <name>tok</name>
-<expres>token=(.*?)'</expres>
+<expres>token=(.*?)"</expres>
 <page>http://www.kingofstreams.com/showthread.php?236</page>
 <referer>http://www.kingofstreams.com</referer>
 </regex>
