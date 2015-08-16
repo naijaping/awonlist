@@ -2410,7 +2410,16 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
 </item> 
 
-
+<item>
+<title>GOD TVsn4</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/tsn4/manifest.f4m?token=czlUci8yQlJ5QmpvbXVDVWRrblFkUUxFSlZRR3NKMjBlZ2NTVWFLeXNueHlqc1hocGJaNHErWHFaZDhCdlFzZg==')<expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
+</item> 
 
 
 
