@@ -2199,23 +2199,6 @@
 <jsonrpc>http://player.ooyala.com/iframe.html#pbid=9f4a1666b539467a8ae10d2456a38ff8&ec=l0ODRodjqAetaKXnT_Frum1Zgetalf7R</jsonrpc>
 </item>
 
-<item>
-<title>[COLOR white][B]TSN 3 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-	<name>encodedurl</name>
-	<expres>$pyFunction:urllib.quote_plus('$doregex[getUrl]|Cookie=$get_cookies$')<expres>
-	<page></page>
-</regex>
-<regex>
-	<name>getUrl</name>
-	<expres>value="src=(.*?)"</expres>
-	<page>http://cdn.kingofstreams.com/secureplayer/player.php?id=tsn3&amp;width=720&amp;height=400</page>
-	<referer>http://www.kingofstreams.com/showthread.php?217</referer>
-	<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/hires/tt/tsn_3_ca_hd.png</thumbnail>
-</item>
 
 
 
