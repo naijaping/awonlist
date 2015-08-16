@@ -2425,14 +2425,14 @@
 
 
 <item>
-<title>oyedep</title>
-<link>$doregex[reg1]|User-Agent=iPhone</link>
+<title>oyedepi</title>
+<link>$doregex[reg1]|Referer=http://www.davidoyedepoministries.org</link>
 <regex>
 <name>reg1</name>
 <expres>file: '(.*?)'</expres>
 <page>http://shoutcastmedia.com/domistreaming/hd.html</page>
-<referer>http://www.davidoyedepoministries.org/mediacenter</referer>
-<x-forward></x-forward>
+<referer>http://shoutcastmedia.com</referer>
+<agent>iPhone</agent>
 </regex>
 <thumbnail></thumbnail>
 </item>
