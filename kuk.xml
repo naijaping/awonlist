@@ -2416,6 +2416,41 @@
 </channel>
 
 
+<channel>
+ 
+<name>[COLOR=FF00ff45]Yoruba & English Films[/COLOR]</name>
+<thumbnail>http://i59.tinypic.com/2jetwup.jpg</thumbnail>
+ 
+<item>
+<title>Araba TV Yoruba Films</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/user/yorubahood/</jsonrpc>
+<thumbnail>http://i58.tinypic.com/r7k3nq.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>Ibaka TV Yoruba Films</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/user/yorubamagic/</jsonrpc>
+<thumbnail>http://i57.tinypic.com/b3r911.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>Ibaka TV English Films</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/user/mynaijalove/</jsonrpc>
+<thumbnail>http://i57.tinypic.com/b3r911.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>Okin TV Yoruba Films</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/user/TheOkinTv</j/sonrpc>
+<thumbnail>http://i59.tinypic.com/2qtbb80.jpg</thumbnail>
+</item>
+
+</channel>
+ 
 
 
 
