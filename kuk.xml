@@ -2367,21 +2367,30 @@
 <thumbnail></thumbnail>
 </item>
 
-
-
-
 <item>
 <title>asbao</title>
 <link>http://37.187.171.219:8080/astrosportshd1/index.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>asbao2</title>
+<link>http://37.187.171.219:8080/astrosportshd2/index.m3u8</link>
+<thumbnail></thumbnail>
+</item>
 
 
 
 
 </channel>
+
+
+
+
+
+
+
+
 
 
 
