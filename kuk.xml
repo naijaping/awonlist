@@ -2229,7 +2229,16 @@
 </regex>
 </item>
 
-
+<item>
+<title>maley</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://yupptvrtmp-lh.akamaihd.net/z/nwk9_50@196629/manifest.f4m')<expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item> 
 
 
 
