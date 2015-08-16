@@ -2335,7 +2335,7 @@
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
 <name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/vskys1/manifest.f4m?&amp;token=czlUci8yQlJ5QmpvbXVDVWRrblFkUzV3Z29Hb05ZT1dicW9VVDhURnhYUENrODZQNHk0SjFtZU5jWi90Tng4VA==')<expres>
+<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/vskys1/manifest.f4m?token=czlUci8yQlJ5QmpvbXVDVWRrblFkUzV3Z29Hb05ZT1dicW9VVDhURnhYUENrODZQNHk0SjFtZU5jWi90Tng4VA==')<expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
@@ -2415,7 +2415,7 @@
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
 <name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/tsn4/manifest.f4m?token=czlUci8yQlJ5QmpvbXVDVWRrblFkUUxFSlZRR3NKMjBlZ2NTVWFLeXNueHlqc1hocGJaNHErWHFaZDhCdlFzZg')<expres>
+<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/tsn4/manifest.f4m?token=czlUci8yQlJ5QmpvbXVDVWRrblFkUUxFSlZRR3NKMjBlZ2NTVWFLeXNueHlqc1hocGJaNHErWHFaZDhCdlFzZg&amp;autoPlay=true|Cookie=&amp;auth=&amp;Streamtype=HDS')<expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
