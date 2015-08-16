@@ -2424,6 +2424,25 @@
 
 
 
+<item>
+<title>oyedepo</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: '(.*?)'</expres>
+<page>http://shoutcastmedia.com/domistreaming/hd.html</page>
+<referer>http://www.davidoyedepoministries.org/mediacenter</referer>
+<x-forward></x-forward>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
+
+
+
+
 </channel>
 
 
