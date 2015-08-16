@@ -2318,17 +2318,7 @@
 </item>
 
 
-<item>spn
-<title>Hulu</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: "(.*?)"</expres>
-<page>http://www.iptvembed.com/sololive/channel-4-4/</page>
-<referer>http://www.iptvembed.com</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 <item>
 <title>GOD TV1</title>
@@ -2455,9 +2445,9 @@
 
 
 <item>
-<title>Araba </title>
+<title>Araba bab</title>
 <link>ignorme</link>
-<jsonrpc>plugin://plugin.video.operationrobocop/?mode=1&name=livetv2.xml&url=http://operationrobocop.netai.net/list/livetv2.xml</jsonrpc>
+<jsonrpc>plugin://plugin.video.operationrobocop/?url=http%3A%2F%2Fbg-sofia.hls.unistream.tv%2F290%2Fplay%3Fkey%3D53ef522659a58&mode=12</jsonrpc>
 <thumbnail>http://i58.tinypic.com/r7k3nq.jpg</thumbnail>
 </item>
 
