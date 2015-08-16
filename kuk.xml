@@ -2219,7 +2219,7 @@
 <regex>
 <name>url</name>
 <expres>file:'(.*?)'<expres>
-<page>http://streams.yupptv.com/freechannelplayer.aspx?id=249</page>
+<page>http://stream.yupptv.com/PreviewPaidChannel.aspx?cid=249</page>
 <referer>http://streams.yupptv.com/</referer>
 </regex>
 </item>
