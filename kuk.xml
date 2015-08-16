@@ -2214,10 +2214,10 @@
 
 
 <item>
-<title>f4m auth test</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[get-urlencoded]</link>
+<title>f4mauthtest</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[url]</link>
 <regex>
-<name>get-urlencoded</name>
+<name>url</name>
 <expres>$pyFunction:urllib.quote_plus('$doregex[get-url]')</expres>
 <page></page>
 </regex>
@@ -2225,6 +2225,7 @@
 <name>get-url</name>
 <expres>file: '(.*?)'</expres>
 <page>http://www.malayalamtvhd.in/2015/07/amritatv.html</page>
+<referer>http://players.edgesuite.net/flash/plugins/jw/v3.4/AkamaiAdvancedJWStreamProvider.swf</referer>
 </regex>
 </item>
 
