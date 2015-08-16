@@ -2210,23 +2210,11 @@
 
 
 <item>
-<title>freestream</title>
+<title>oyla</title>
 <link>ignorme</link>
-<jsonrpc>plugin://plugin.video.operationrobocop/?url=none&amp;mode=200&amp;name=Sky+Sports+3</jsonrpc>
+<jsonrpc>http://player.ooyala.com/iframe.html#pbid=9f4a1666b539467a8ae10d2456a38ff8&ec=l0ODRodjqAetaKXnT_Frum1Zgetalf7R</jsonrpc>
 </item>
 
-
-<item>
-<title>VcaTV1</title>
-<link>http://astv10sec3.tulix.tv/moviesdr/movies-dr.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=211</page>
-<referer></referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/voxafrica_afrique.png</thumbnail>
-</item>
 
 
 
@@ -2236,11 +2224,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
 </item>
 
-<item>
-<title>loyal</title>
-<link>http://player.ooyala.com/iframe.html#pbid=ffbcf8e010eb4c238d3dda4eb935d806&ec=5oMzdvYjpd_S-RgatvtC_gZBcqJMKYVy</link>
-<referer></referer>
-<item>
+
 
 
 
