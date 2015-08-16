@@ -2425,8 +2425,8 @@
 
 
 <item>
-<title>oyedepo</title>
-<link>$doregex[reg1]</link>
+<title>oyedep</title>
+<link>$doregex[reg1]|User-Agent=iPhone</link>
 <regex>
 <name>reg1</name>
 <expres>file: '(.*?)'</expres>
