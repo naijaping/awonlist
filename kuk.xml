@@ -2225,13 +2225,14 @@
 <name>get-url</name>
 <expres>file: '(.*?)'</expres>
 <page>http://www.malayalamtvhd.in/2015/07/amritatv.html</page>
-<referer>http://players.edgesuite.net/flash/plugins/jw/v3.4/AkamaiAdvancedJWStreamProvider.swf</referer>
+<referer>http://www.yupptv.com/</referer>
 </regex>
 </item>
 
 <item>
-<title>maleyam</title>
+<title>maleyupp</title>
 <link>http://yupptvrtmp-lh.akamaihd.net/i/nwk9_50@196629/master.m3u8</link>
+<referer>http://www.yupptv.com/</referer>
 <thumbnail></thumbnail>
 </item> 
 
