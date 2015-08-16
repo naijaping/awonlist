@@ -2422,6 +2422,11 @@
 </item> 
 
 
+<item>
+<title>tsntest</title>
+<link>plugin://plugin.video.f4mTester/?url=http://files.kingofstreams.com:90/justforvip/tsn4/manifest.f4m?token</link>
+<thumbnail></thumbnail>
+</item> 
 
 
 
