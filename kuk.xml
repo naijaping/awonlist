@@ -2273,31 +2273,10 @@
 <thumbnail></thumbnail>
 </item>
 
-
-
-
-<item>
-<title>Works on 15</title>
-<link>https://beinsportnet5-lh.akamaihd.net/i/bisusch332_0@99606/master.m3u8?$doregex[acl]</link>
-<regex>
-<name>acl</name>
-<expres>streamAuth.\n...CDATA.(.*?)\]</expres>
-<page>http://www.en.beinsports.net/streaming/dvr/streaminfo/partnerId_1346/dvrEventId_91923/data.xml?cache_buster=$epoctime$</page>
-<referer>http://www.en.beinsports.net/connect/bein-sports-news</referer>
-<agent>Mozilla/5.0 (Linux; Android 4.4.2; en-us; SAMSUNG SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36</agent>
-<cookieJar></cookieJar>
-</regex>
-</item>
-
 <item>
 <title>freestreams</title>
- <link>plugin://plugin.video.freestreams/?url=none&amp;mode=200&amp;name=MTV+Hits</link>
+<link>plugin://plugin.video.freestreams/?url=none&amp;mode=200&amp;name=MTV+Hits</link>
 </item>
-
-
-
-
-
 
 <item>
 <title>Holanda </title>
@@ -2310,7 +2289,6 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
-
 
 <item>Tsn1
 <title>Hus</title>
@@ -2352,20 +2330,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
-<item>
-<title>Bein Sports Arabic Tour</title>
-<link>https://beinsportnet4-lh.akamaihd.net/i/bisusch311_0@99586/master.m3u8?$doregex[auth]</link>
-<regex>
-<name>auth</name>
-<expres>streamAuth.\n...CDATA.(.*?)\]</expres>
-<page>http://www.en.beinsports.net/streaming/dvr/streaminfo/partnerId_1346/dvrEventId_91923/data.xml?cache_buster=$epoctime$</page>
-<referer>http://www.en.beinsports.net/connect/bein-sports-news</referer>
-<agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 <item>
 <title>asbao</title>
