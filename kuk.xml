@@ -2214,14 +2214,15 @@
 
 
 <item>
-<title>Yupptv</title>
-<link>$doregex[url]|Referer=http://static.aka.yupp.yuppcdn.net/staticstorage/jwplayer/jw_6_12/jwplayer.flash.swf</link>
+<title>[COLOR white] TSN 1 HD[COLOR gray] (Now: Live Sports Feed)[/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://files.kingofstreams.com:90/justforvip/tsn1/manifest.f4m?token=$doregex[tok]&amp;autoPlay=true|Cookie=')</link>
 <regex>
-<name>url</name>
-<expres>file:'(.*?)'<expres>
-<page>http://stream.yupptv.com/PreviewPaidChannel.aspx?cid=249</page>
-<referer>http://streams.yupptv.com/</referer>
+<name>tok</name>
+<expres>token=(.*?)'</expres>
+<page>http://www.kingofstreams.com/showthread.php?236</page>
+<referer>http://www.kingofstreams.com</referer>
 </regex>
+<thumbnail>http://www.lyngsat-logo.com/hires/tt/tsn_alternate.png</thumbnail>
 </item>
 
 
