@@ -2428,8 +2428,8 @@
 <regex>
 <name>tok</name>
 <expres>token=(.*?)"</expres>
-<page>http://www.kingofstreams.com/showthread.php?218</page>
-<referer>http://www.kingofstreams.com/</referer>
+<page>http://files.kingofstreams.com:90/justforvip/tsn4/playlist.m3u8</page>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item> 
