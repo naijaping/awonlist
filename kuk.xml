@@ -2438,25 +2438,19 @@
 
 
 <item>
-<title>Asian News</title>
+<title>beblack-africa</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
+<expres>$pyFunction:'$doregex[get-url]'.replace('\/','/').replace('\u0026','&')</expres>
 <page></page>
 </regex>
 <regex>
-<name>jsonurl</name>
-<expres>"hlsvp":"(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=$doregex[get-page]</page>
-<referer></referer>
+<name>get-url</name>
+<expres>"url":"(.*?)"</expres>
+<page>http://playtv.fr/player/play/beblack-africa/?bitrate=0&amp;format=hls&amp;language=fr</page>
+<referer>http://playtv.fr/television/beblack-africa/</referer>
 </regex>
-<regex>
-<name>get-page</name>
-<expres>data-context-item-id="([^"]+)</expres>
-<page>https://www.youtube.com/channel/UCf8w5m0YsRa8MHQ5bwSGmbw</page>
-</regex>
-<thumbnail></thumbnail>
 </item>
 
 
