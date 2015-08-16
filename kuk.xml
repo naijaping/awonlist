@@ -2177,24 +2177,8 @@
 <title>Livo</title>
 <link>http://myafricanmega3.tulix.tv:1935/map-channelstv/map-channelstv.stream/chunklist.m3u8?wowzasessionid=598321747</link>
 <link>rtmp://skystreams.info/vod playpath=mp4:/ppvs/UFC.PPV190.2015.08.01.Rousey.vs.Correia.720p.HDTV.30fps.x264-Reborn4HD.mp4 swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://sportsaccess.se/ondemand.php?file=/ppvs/UFC.PPV190.2015.08.01.Rousey.vs.Correia.720p.HDTV.30fps.x264-Reborn4HD.mp4</link>
-<title>rtmp://astvstream1.tulix.tv/nollywoodpre/nollywoodpre</title>
 <thumbnail></thumbnail>
 </item>
-
-<item>Tsn1
-<title>Hus</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>value="(.*?)"</expres>
-<page>http://www.iptvembed.com/vlc-stream-tester/foxsports-2/</page>
-<referer>http://www.iptvembed.com</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-
 
 <item>
 <title>Hush0 </title>
@@ -2223,27 +2207,7 @@
 </item> 
 
 
-<item>
-<title>GOD TVf1</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/vskysf1/manifest.f4m?token=czlUci8yQlJ5QmpvbXVDVWRrblFkUUxFSlZRR3NKMjBlZ2NTVWFLeXNueHlqc1hocGJaNHErWHFaZDhCdlFzZg==')<expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
-</item> 
 
-<item>
-<title>GOD TVsn</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/vskysn/manifest.f4m?token=czlUci8yQlJ5QmpvbXVDVWRrblFkUUxFSlZRR3NKMjBlZ2NTVWFLeXNueHlqc1hocGJaNHErWHFaZDhCdlFzZg==')<expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
-</item> 
 
 <item>
 <title>freestream</title>
@@ -2254,7 +2218,7 @@
 
 <item>
 <title>VcaTV1</title>
-<link>http://astv10sec1.tulix.tv/moviesdr/movies-dr.stream/playlist.m3u8$doregex[get-auth]</link>
+<link>http://astv10sec3.tulix.tv/moviesdr/movies-dr.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
@@ -2272,8 +2236,10 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
 </item>
 
-
-
+<item>
+<title>BenTvo</title>
+<link>rtmp://astvstream1.tulix.tv/nollywoodpre/nollywoodpre</link>
+<item>
 
 
 
