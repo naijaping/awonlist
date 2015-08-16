@@ -2193,19 +2193,6 @@
 </item>
 
 
-
-
-<item>
-<title>GOD TV1</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://files.kingofstreams.com:90/justforvip/vskys1/manifest.f4m?token=czlUci8yQlJ5QmpvbXVDVWRrblFkUzV3Z29Hb05ZT1dicW9VVDhURnhYUENrODZQNHk0SjFtZU5jWi90Tng4VA==')<expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
-</item> 
-
 <item>
 <title>oyla</title>
 <link>ignorme</link>
@@ -2213,23 +2200,7 @@
 </item>
 
 
-<item>
-<title>[COLOR white][B]TSN 1 HD[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('$doregex[getUrl]|Cookie=$get_cookies$')<expres>
-<page></page>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>value="src=(.*?)"</expres>
-<page>http://cdn.kingofstreams.com/secureplayer/player.php?id=tsn1&amp;width=720&amp;height=400</page>
-<referer>http://www.kingofstreams.com/showthread.php?236</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/hires/tt/tsn_1_ca_hd.png</thumbnail>
-</item>
+
 
 
 
