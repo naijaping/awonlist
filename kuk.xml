@@ -2376,7 +2376,11 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Test</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/user/mynaijalove/</jsonrpc>
+</item>
 
 
 
