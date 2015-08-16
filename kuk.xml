@@ -2457,11 +2457,18 @@
 
 
 
-<item>
-<title>Gujoo</title>
-<link>plugin://plugin.video.f4mTester/?url=http://hlsmalent-lh.akamaihd.net/i/ams14_amritatv@124750/index_1100.m3u8</link>
-</item>
 
+
+<item>
+<title>suji</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('http://hlsmalent-lh.akamaihd.net/i/ams14_amritatv@124750/index_1100.m3u8')<expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
+</item> 
 
 
 </channel>
