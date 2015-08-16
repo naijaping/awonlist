@@ -2425,15 +2425,8 @@
 
 
 <item>
-<title>oyedepoo</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>file: '(.*?)'</expres>
-<page>http://shoutcastmedia.com/domistreaming/hd.html</page>
-<referer>http://shoutcastmedia.com</referer>
-<agent>iPhone</agent>
-</regex>
+<title>oyedepo baba</title>
+<link>http://sanfran01.netcasterstream.com:8081/live/domihd/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
