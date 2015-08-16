@@ -2371,16 +2371,11 @@
 
 
 <item>
-<title>bao</title>
-<link></link>
+<title>asbao</title>
+<link>http://37.187.171.219:8080/astrosportshd1/index.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Test</title>
-<link>ignorme</link>
-<jsonrpc>plugin://plugin.video.youtube/user/mynaijalove/</jsonrpc>
-</item>
 
 
 
