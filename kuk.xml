@@ -2199,6 +2199,23 @@
 </item>
 
 
+<item>
+<title>[COLOR white][B]Sportsnet World - 05:30 PM Bundesliga : Borussia Dortmund - Monchengladbach[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+	<name>encodedurl</name>
+	<expres>$pyFunction:urllib.quote_plus('$doregex[getUrl]|Cookie=$get_cookies$')<expres>
+	<page></page>
+</regex>
+<regex>
+	<name>getUrl</name>
+	<expres>file: '(.*?)'</expres>
+	<page>https://cdn.tvfree.biz/player/39.php</page>
+	<referer>Referer:http://tvfree.biz/tot/39/Nick-Jr.-English</referer>
+	<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
