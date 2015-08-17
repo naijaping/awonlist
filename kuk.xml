@@ -2206,6 +2206,17 @@
 </item>
 
 
+<item>
+<title>repo </title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: '(.*?)'</expres>
+<page>http://sharerepo.com/vhnpze4rs2ui</page>
+<referer>http://sharerepo.com/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
