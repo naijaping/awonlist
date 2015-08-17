@@ -2201,7 +2201,7 @@
 
 <item>
 <title>[COLOR white][B]Sportsnet World - 05:30 PM Bundesliga : Borussia Dortmund - Monchengladbach[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<link>$doregex[encodedurl]</link>
 <regex>
 	<name>encodedurl</name>
 	<expres>$pyFunction:urllib.quote_plus('$doregex[getUrl]|Cookie=$get_cookies$')<expres>
