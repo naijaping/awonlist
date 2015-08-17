@@ -2200,7 +2200,7 @@
 
 
 <item>
-<title>[COLOR white][B]Arena Sport HD2[/B][/COLOR]</title>
+<title>[COLOR white][B]Super Sport 1[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
 	<name>encodedurl</name>
@@ -2210,15 +2210,12 @@
 <regex>
 	<name>getUrl</name>
 	<expres>value="src=(.*?)"</expres>
-	<page>http://cdn.kingofstreams.com/secureplayer/player.php?id=arhd2&amp;width=720&amp;height=400</page>
-	<referer>http://www.kingofstreams.com/showthread.php?282</referer>
+	<page>http://cdn.kingofstreams.com/secureplayer/player.php?id=supersport1&amp;width=720&amp;height=400</page>
+	<referer>http://www.kingofstreams.com/showthread.php?308</referer>
 	<cookieJar></cookieJar>
 </regex>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Arena_sport_logo.jpg/200px-Arena_sport_logo.jpg</thumbnail>
+<thumbnail>http://www.lyngsat-logo.com/hires/ss/supersport1.png</thumbnail>
 </item>
-
-
-
 
 
 
