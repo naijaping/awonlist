@@ -2200,7 +2200,41 @@
 </item>
 
 
+<item>
+<title>[COLOR white][B]Fox Sports 1 HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+	<name>encodedurl</name>
+	<expres>$pyFunction:urllib.quote_plus('$doregex[getUrl]|Cookie=$get_cookies$')<expres>
+	<page></page>
+</regex>
+<regex>
+	<name>getUrl</name>
+	<expres>value="src=(.*?)"</expres>
+	<page>http://cdn.kingofstreams.com/secureplayer/player.php?id=fox1&amp;width=720&amp;height=400</page>
+	<referer>http://www.kingofstreams.com/showthread.php?235</referer>
+	<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/hires/ff/fox_sports_us_1.png</thumbnail>
+</item>
 
+<item>
+<title>[COLOR white][B]Fox Sports 2 HD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
+<regex>
+	<name>encodedurl</name>
+	<expres>$pyFunction:urllib.quote_plus('$doregex[getUrl]|Cookie=$get_cookies$')<expres>
+	<page></page>
+</regex>
+<regex>
+	<name>getUrl</name>
+	<expres>value="src=(.*?)"</expres>
+	<page>http://cdn.kingofstreams.com/secureplayer/player.php?id=fox2&amp;width=720&amp;height=400</page>
+	<referer>http://www.kingofstreams.com/showthread.php?234</referer>
+	<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/hires/ff/fox_sports_us_2.png</thumbnail>
+</item>
 
 
 
