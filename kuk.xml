@@ -2208,6 +2208,19 @@
 
 
 
+<item>
+<title>Adom TV Ghana</title>
+<link>$doregex[rtmp] swfUrl=http://p.jwpcdn.com/6/5/jwplayer.flash.swf pageUrl=http://cricfree.tv/update/espn2.php token=%Zrey(nKa@#Z swfVfy=true live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>file: "(.*?)"<expres>
+<page>http://yotv.co/embedo.php?live=espn2&vw=620&vh=490</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
 
 
 </channel>
