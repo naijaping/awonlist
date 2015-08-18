@@ -2215,7 +2215,7 @@
 
 <item>
 <title>BETii</title>
-<link>http://tna2gb9.tulix.tv/hls/astvtraceafrica/cc73fc419e7f141761ec7a10c5dadb43/55d46f10/traceafrica.stream.m3u8</link>
+<link></link>
 <thumbnail></thumbnail>
 </item> 
 
@@ -2224,7 +2224,7 @@
 
 <item>
 <title>AIT Lagos3</title>
-<link>http://astv10sec3.tulix.tv/betuk/betuk.stream/playlist.m3u8$doregex[get-auth]</link>
+<link>http://astv10sec3.tulix.tv/traceafrica/traceafrica.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
