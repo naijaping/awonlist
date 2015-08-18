@@ -2236,16 +2236,7 @@
 
 
 
-<item>
-<title>Fusionplus regex</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>src="(.*?)"</expres>
-<page>http://www.fusionplustv.com/live/</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
