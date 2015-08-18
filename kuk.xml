@@ -2202,7 +2202,7 @@
 
 <item>
 <title>Mat30</title>
-<link>rtmp://astvstream3.tulix.tv:1935/betuk/betuk.stream</link>
+<link></link>
 </item>
 
 
@@ -2228,7 +2228,7 @@
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=211</page>
+<page>http://bit.ly/1LNoGly</page>
 <referer></referer>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/ait_national.png</thumbnail>
