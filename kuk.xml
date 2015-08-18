@@ -2235,7 +2235,17 @@
 </item> 
 
 
+<item>
+<title>Stream 1</title>
+<sportsdevil>http://footsy.ml/</sportsdevil>
+<referer>http://footsy.ml/</referer>
+</item>
 
+<item>
+<title>Stream 2</title>
+<sportsdevil>http://footsy.ml/page/1</sportsdevil>
+<referer>http://footsy.ml/</referer>
+</item>
 
 
 
