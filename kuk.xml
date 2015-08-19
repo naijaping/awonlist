@@ -2242,11 +2242,11 @@
 
 
 <item>
-<title>Nick Jr</title>
+<title>NickJr</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>file: '(.*?)'</expres>
+<expres>file: '(.*m3u8.*?)'</expres>
 <page>https://cdn.tvfree.biz/player/39.php</page>
 <referer>http://tvfree.biz/</referer>
 </regex>
