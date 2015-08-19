@@ -2242,23 +2242,7 @@
 
 
 
-<item>
-<title>[COLOR white][B]Setanta Sports[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('$doregex[getUrl]|Cookie=$get_cookies$')<expres>
-<page></page>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>value="src=(.*?)"</expres>
-<page>http://cdn.kingofstreams.com/secureplayer/player.php?id=vsetanta&amp;width=720&amp;height=400</page>
-<referer>http://www.kingofstreams.com/showthread.php?167</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://duckduckgo.com/i/a3a88e39.jpg</thumbnail>
-</item>
+
 
 
 
