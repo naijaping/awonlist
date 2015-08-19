@@ -2241,23 +2241,7 @@
 </item>
 
 
-<item>
-<title>[COLOR white][B]Sportsnet World - 05:30 PM Bundesliga : Borussia Dortmund - Monchengladbach[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('$doregex[getUrl]|Cookie=$get_cookies$')<expres>
-<page></page>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>value="src=(.*?)"</expres>
-<page>http://cdn.kingofstreams.com/secureplayer/player.php?id=snworld&amp;width=720&amp;height=400</page>
-<referer>Referer: http://www.kingofstreams.com/showthread.php?40</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/hires/ss/sportsnet_world.png</thumbnail>
-</item>
+
 
 
 
