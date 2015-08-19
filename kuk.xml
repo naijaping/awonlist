@@ -2241,23 +2241,7 @@
 		</item>
 
 
-<item>
-<title>NickJr</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: '(.*m3u8.*?)'</expres>
-<page>https://cdn.tvfree.biz/player/39.php</page>
-<referer>https://cdn.tvfree.biz</referer>
-</regex>
-<regex>
-<name>createCFCookie</name>                                                     
-<expres></expres>
-<page>$pyFunction:cloudflare.createCookie('http://tvfree.biz/',Cookie_Jar,'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/nn/nick_jr_us.png</thumbnail>
-</item>
+
 
 
 
