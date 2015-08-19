@@ -2232,7 +2232,17 @@
 </item>
 
 
-
+<item>
+<title>AIT Lagos</title>
+<link>http://astv10sec3.tulix.tv/znbc1/znbctv1.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.giniko.com/watch.php?id=211</page>
+<referer></referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/ait_national.png</thumbnail>
+</item> 
  
 
 
