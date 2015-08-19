@@ -2249,6 +2249,23 @@
 
 
 
+<item>
+<title>AMC TV</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.shadownet.biz/channels/usa/amc-s2.php</page>
+<referer></referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/amc_us.png</thumbnail>
+</item>
+
+
+
+
+
+
 
 </channel>
 
