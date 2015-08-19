@@ -2241,11 +2241,14 @@
 		</item>
 
 
+
+
 <item>
-<title>MUTV</title>
-<link>rtmp://109.200.1.82:1935/tes/mutv.stream?e607b5b743e1842ee50e1556bbf3ae42</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/mm/mutv.png</thumbnail>
+<title>PrTV</title>
+<link>rtmp://78.129.189.30/edge3/BenTV playpath=edge3/BenTV app=edge3/BenTV swfUrl=http://tv.filmover.com/jwp5/player.swf live=true flashVer=WIN 18,0,0,232 pageUrl=http://www.ghanatvon.com/ben-tv.html timeout=15</link>
+<thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/PrestigeTV.jpg</thumbnail>
 </item>
+
 
 
 
