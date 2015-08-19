@@ -2233,8 +2233,8 @@
 
 
 <item>
-<title>AIT</title>
-<link>http://astv10sec1.tulix.tv//tvm2plus//tvm2plus/playlist.m3u8$doregex[get-auth]</link>
+<title>AIT0</title>
+<link>http://astv10sec1.tulix.tv/sky1tv//sky1tv/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
