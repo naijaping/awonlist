@@ -2226,8 +2226,8 @@
 
 
 <item>
-<title>C</title>
-<link>http://astv10sec3.tulix.tv/astvmovies-c/astvmovies-c.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>Fam</title>
+<link>http://astv10sec3.tulix.tv/astvmovies-f/astvmovies-f.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
@@ -2239,8 +2239,8 @@
  
  
  <item>
-<title>DR</title>
-<link>http://astv10sec3.tulix.tv/astvmovies-dr/astvmovies-dr.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>Prem</title>
+<link>http://astv10sec3.tulix.tv/astvmovies-p/astvmovies-p.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
