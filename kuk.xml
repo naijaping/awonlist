@@ -2223,12 +2223,12 @@
 
 
 <item>
-<title>AITi</title>
+<title>AI</title>
 <link>http://liveedge.sportsdonkey.club/send/ss1hd.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
-<page>http://bit.ly/1LNoGly</page>
+<page>http://rudos.tv/site/live/?id=1</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
