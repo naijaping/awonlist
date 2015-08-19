@@ -2233,8 +2233,8 @@
 
 
 <item>
-<title>SkSD</title>
-<link>http://astv10sec3.tulix.tv///playlist.m3u8$doregex[get-auth]</link>
+<title>SkSD0</title>
+<link>http://astv10sec3.tulix.tv/dubai-sport2/dubai-sport2.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
