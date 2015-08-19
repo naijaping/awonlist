@@ -2238,7 +2238,14 @@
 </item> 
  
 
-
+</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>AlFajer Gaza</cname>
+		<item>
+			<title>original</title>
+			<link>http://vstreamgz.hadara.ps:1935/alfajertv_gaza//fajerhd_1/chunklist_w33835073.m3u8</link>
+		</item>
 
 
 
