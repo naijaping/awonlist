@@ -2206,13 +2206,6 @@
 </item>
 
 
-
-<item>
-<title>hit</title>
-<link>http://37.187.160.187:8000/live/ressler/skype/108.m3u8</link>
-<thumbnail></thumbnail>
-</item> 
-
 <item>
 <title>BETii</title>
 <link></link>
@@ -2233,8 +2226,8 @@
 
 
 <item>
-<title>SkSD0</title>
-<link>http://astv10sec3.tulix.tv/dubai-sport2/dubai-sport2.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>SD0</title>
+<link>http://astv10sec3.tulix.tv/dubaisport2/dubai-sport2.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
