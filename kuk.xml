@@ -2242,9 +2242,13 @@
 
 
 <item>
-<title>Premier Sport</title>
-<link>http://151.80.18.65:8000/live/Testnew/Testnew1/40.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/hires/pp/premier_sports.png</thumbnail>
+<title>Sky sports 2</title>
+<link>
+<sublink>rtmp://80.82.70.106:443/liverepeater playpath=2 pageUrl=http://popeoftheplayers.eu/ token=#atd%#$ZH</sublink>
+<sublink>rtmp://109.200.1.82:1935/tes/skysp2.stream?e607b5b743e1842ee50e1556bbf3ae42</sublink>
+<sublink></sublink>
+</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_sports2.png</thumbnail>
 </item>
 
 
