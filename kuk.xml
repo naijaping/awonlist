@@ -2233,8 +2233,8 @@
 
 
 <item>
-<title>Sky Sport F1 SD</title>
-<link>http://astv10sec3.tulix.tv/skysportsf1/skysportsf1/playlist.m3u8$doregex[get-auth]</link>
+<title>SkSD</title>
+<link>http://astv10sec3.tulix.tv///playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
@@ -2244,17 +2244,7 @@
 <thumbnail></thumbnail>
 </item> 
  
-<item>
-<title>Foot24 SD</title>
-<link>http://astv10sec3.tulix.tv/foot24/foot24.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://bit.ly/1LNoGly</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item> 
+
 
 
 
