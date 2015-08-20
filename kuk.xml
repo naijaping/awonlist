@@ -2246,9 +2246,15 @@
 <item>
 <title>Showtime</title>
 <sportsdevil>http://www.shadownet.biz/channels/usa/showtime.html</sportsdevil>
-<referer>http://footsy.ml/</referer>
+<referer>http://www.shadownet.biz</referer>
 </item>
 
+
+<item>
+<title>oprah</title>
+<sportsdevil>http://www.shadownet.biz/channels/usa/own.html</sportsdevil>
+<referer>http://www.shadownet.biz</referer>
+</item>
 
 
 
