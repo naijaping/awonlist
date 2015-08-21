@@ -2268,6 +2268,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Radio Palmwine</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>src="(.*?)"</expres>
+<page>http://www.streamingthe.net/Radio-Palmwine-Yoruba/p/22477/live</page>
+<referer>http://www.streamingthe.net/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
