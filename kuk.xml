@@ -2181,12 +2181,12 @@
 </item>
 
 <item>
-<title>Hush0 </title>
+<title>foxo</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>file: "(.*?)"</expres>
-<page>http://www.iptvembed.com/sololive/sky-sport-hd-4/</page>
+<expres>a href="(.*m3u8)"</expres>
+<page>http://www.iptvembed.com/m3u8-embed-iptv-stream/fox-sports-1-2/</page>
 <referer>http://www.iptvembed.com</referer>
 </regex>
 <thumbnail></thumbnail>
