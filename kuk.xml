@@ -2269,14 +2269,8 @@
 </item>
 
 <item>
-<title>Radio Palmwine</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>src="(.*?)"</expres>
-<page>http://www.streamingthe.net/Radio-Palmwine-Yoruba/p/22477/live</page>
-<referer>http://www.streamingthe.net/</referer>
-</regex>
+<title>Radio Palm</title>
+<link>http://67.23.246.19:8002/;listen.mp3</link>
 <thumbnail></thumbnail>
 </item>
 
