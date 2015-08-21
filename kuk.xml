@@ -2237,28 +2237,24 @@
 
 
 <item>
-<title>Wazo TV</title>
+<title>WV</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: "(.*m3u8)"</expres>
-<page>http://www.wazobiatv.tv/live/</page>
-<referer>http://www.wazobiatv.tv</referer>
+<expres>file: '(.*m3u8.*?)'</expres>
+<page>https://cdn.tvfree.biz/player/65.php</page>
+<referer>http://tvfree.biz/</referer>
+</regex>
+<regex>
+<name>reg2</name>
+<expres>jwplayer.key =(.*?)'</expres>
+<page>https://cdn.tvfree.biz/player/65.php</page>
+<referer>http://tvfree.biz/</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Cool TV</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>file: "(.*m3u8)"</expres>
-<page>http://www.cooltv.cool/live/</page>
-<referer>http://www.cooltv.cool/</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 <item>
 <title>Radio Palm</title>
