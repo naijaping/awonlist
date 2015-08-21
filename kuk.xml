@@ -2273,7 +2273,7 @@
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>value="src=(.*?)"</expres>
+<expres>"src=(.*?)"</expres>
 <page>http://oklivetv.com/xplay/xplay.php?idds=4d544532</page>
 <referer>http://oklivetv.com/vevo-tv-hits/</referer>
 </regex>
