@@ -2269,14 +2269,8 @@
 
 
 <item>
-<title>Vall</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>src=(.*m3u8)"</expres>
-<page>http://oklivetv.com/xplay/xplay.php?idds=4d544532</page>
-<referer>http://oklivetv.com/</referer>
-</regex>
+<title>VallTime</title>
+<link>http://sporttvamericas-i.akamaihd.net/hls/live/222316/sportTV/mastersportTV_2500kbps.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
