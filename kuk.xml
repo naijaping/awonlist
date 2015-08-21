@@ -2245,13 +2245,13 @@
 
 
 <item>
-<title>Vox</title>
+<title>Wazo</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres> { file: "(.*?)"</expres>
+<expres>file: "(.*m3u8)"</expres>
 <page>http://www.wazobiatv.tv/live/</page>
-<referer></referer>
+<referer>http://www.wazobiatv.tv</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
