@@ -2245,7 +2245,7 @@
 
 
 <item>
-<title>Wazo</title>
+<title>Wazo TV</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
@@ -2256,7 +2256,17 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Cool TV</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*m3u8)"</expres>
+<page>http://www.cooltv.cool/live/</page>
+<referer>http://www.cooltv.cool/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
