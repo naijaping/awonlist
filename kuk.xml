@@ -2286,11 +2286,11 @@
 
 
 <item>
-<title>youtube LIVE TV: AlJazeera HD</title>
+<title>youtube LIVE TV: Sun News</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
 <page></page>
 </regex>
 <regex>
