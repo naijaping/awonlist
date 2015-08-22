@@ -2199,12 +2199,6 @@
 </item>
 
 <item>
-<title>BETo</title>
-<link>http://stream-06.vty.dailymotion.com/05/dm/1/x19pgts/live.isml/events(live-1439891714)/live-audio=128000-video=1891000.bootstrap/playlist.m3u8</link>
-<thumbnail></thumbnail>
-</item> 
-
-<item>
 <title>Stream 1</title>
 <sportsdevil>http://footsy.ml/</sportsdevil>
 <referer>http://footsy.ml/</referer>
@@ -2218,20 +2212,10 @@
 
 
 </item>
-</streaminginfo>
-<streaminginfo>
 <cname>AlFajer Gaza</cname>
 <item>
 <title>original</title>
 <link>http://vstreamgz.hadara.ps:1935/alfajertv_gaza//fajerhd_1/chunklist_w33835073.m3u8</link>
-</item>
-
-
-<item>
-<title>boxnation</title>
-<link>http://93.184.221.133/00573D/1222/1222-0.m3u8</link>
-<thumbnail/>
-<fanart/>
 </item>
 
 
@@ -2249,8 +2233,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
-
 <item>
 <title>BEIN PREMIER</title>
 <link>http://lihattv.toh.info/jhos/beib3_5/-/playlist.m3u8</link>
@@ -2259,29 +2241,14 @@
 </item>
 
 
-
-
-<item>
-<title>House of Dance</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>"hlsvp":"(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=$doregex[get-page]</page>
-<referer></referer>
-</regex>
-<regex>
-<name>get-page</name>
-<expres>data-context-item-id="([^"]+)</expres>
-<page>https://www.youtube.com/watch?v=cK3ONJ1fec4</page>
-</regex>
-<thumbnail></thumbnail>
+<title>SPORTS 1 HD</title>
+<link>http://s1.iptv-cccam.com:80/live/yusuf/teknosat/94.m3u8</link>
+<thumbnail/>
+<fanart/>
 </item>
+
+
+
 
 
 
