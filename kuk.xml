@@ -2285,6 +2285,24 @@
 
 
 
+<item>
+<title>youtube LIVE TV: AlJazeera HD</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>jsonurl</name>
+<expres>hlsvp":"(.*?)"</expres>
+<page>https://www.youtube.com/watch?v=cK3ONJ1fec4</page>
+</regex>
+</item>
+
+
+
+
 
 </channel>
 
