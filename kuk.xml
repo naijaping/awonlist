@@ -2301,6 +2301,22 @@
 </item>
 
 
+<item>
+<title>PARIS BY NIGHT 113 MỪNG TUỔI MẸ Disc 2</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex> 
+<name>jsonurl</name> 
+<expres>stream_hls_url":"(.*?)"</expres>
+<page>https://www.dailymotion.com/embed/video/x19pgts</page>
+</regex>
+<thumbnail>http://thuyngashop.com/images/product/113DVD.jpgv</thumbnail>
+</item>
+</items>
 
 
 
