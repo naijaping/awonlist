@@ -2285,20 +2285,7 @@
 
 
 
-<item>
-<title>youtube LIVE TV: Sun News</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>hlsvp":"(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=cK3ONJ1fec4</page>
-</regex>
-</item>
+
 
 
 <item>
@@ -2316,6 +2303,18 @@
 </regex>
 <thumbnail>http://thuyngashop.com/images/product/113DVD.jpgv</thumbnail>
 </item>
+
+<item>
+<title> The Young Turks</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>data-context-item-id="([^"]+)<expres>
+<page>https://www.youtube.com/watch?v=cK3ONJ1fec4</page>
+</regex>
+</item>
+
+
 
 
 
