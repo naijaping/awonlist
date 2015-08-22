@@ -2312,11 +2312,11 @@
 <regex> 
 <name>jsonurl</name> 
 <expres>stream_hls_url":"(.*?)"</expres>
-<page>https://www.dailymotion.com/embed/video/x19pgts</page>
+<page>http://www.dailymotion.com/embed/video/x2h9neu_hopxemphim-tn113-d2_auto</page>
 </regex>
 <thumbnail>http://thuyngashop.com/images/product/113DVD.jpgv</thumbnail>
 </item>
-</items>
+
 
 
 
