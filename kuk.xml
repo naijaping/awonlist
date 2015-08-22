@@ -2257,15 +2257,12 @@
 
 
 <item>
-<title>124</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>src: "(.*?)"</expres>
-<page>http://www.streaming-hub.com/i24-news-arabia-israel/</page>
-<referer>http://www.streaming-hub.com/</referer>
-</regex>
-<thumbnail></thumbnail>
+<title>BEIN PREMIER</title>
+<link>
+http://lihattv.toh.info/jhos/beib3_5/-/playlist.m3u8
+</link>
+<thumbnail/>
+<fanart/>
 </item>
 
 
