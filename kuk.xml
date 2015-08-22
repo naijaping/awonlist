@@ -2288,26 +2288,8 @@
 
 
 
-<item>
-<title>PARIS BY NIGHT 113 MỪNG TUỔI MẸ Disc 2</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<regex> 
-<name>jsonurl</name> 
-<expres>stream_hls_url":"(.*?)"</expres>
-<page>http://www.dailymotion.com/embed/video/x2h9neu_hopxemphim-tn113-d2_auto</page>
-</regex>
-<thumbnail>http://thuyngashop.com/images/product/113DVD.jpgv</thumbnail>
-</item>
 
-<item>
-<title>House of Dance </title>
-<utube>cK3ONJ1fec4</utube>
-</item>
+
 
 
 
