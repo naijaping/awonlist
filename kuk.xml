@@ -2305,13 +2305,8 @@
 </item>
 
 <item>
-<title> The Young Turks</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
-<regex>
-<name>id</name>
-<expres>data-context-item-id="([^"]+)<expres>
-<page>https://www.youtube.com/watch?v=cK3ONJ1fec4</page>
-</regex>
+<title> The </title>
+<utube>cK3ONJ1fec4</utube>
 </item>
 
 
