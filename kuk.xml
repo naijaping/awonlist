@@ -2188,11 +2188,11 @@
 
 
 <item>
-<title>Trace0</title>
+<title>Traceu</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>channel_stream":"(.*m3u8.*?)"</expres>
+<expres>"channel_stream":"(.*?)"</expres>
 <page>http://yamgo.com/trace-urban</page>
 <referer>http://yamgo.com/</referer>
 </regex>
@@ -2200,11 +2200,11 @@
 </item>
 
 <item>
-<title>Trace2</title>
+<title>Trace22</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>channel_stream":"http:\/\/(.*?)",</expres>
+<expres>"channel_stream":"http:\/\/(.*?)"</expres>
 <page>http://yamgo.com/trace-urban</page>
 <referer>http://yamgo.com/</referer>
 </regex>
