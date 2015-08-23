@@ -2188,24 +2188,17 @@
 
 
 <item>
-<title>Traceu</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>"channel_stream":"(.*?)"</expres>
-<page>http://yamgo.com/trace-urban</page>
-<referer>http://yamgo.com/</referer>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
-</regex>
+<title>Tracecom</title>
+<link>http://stream01.yamgo.com/iPhone/broadcast/trace_tv_urban-tablet.3gp.m3u8?trackingid=4041670000</link>
 <thumbnail></thumbnail>
 </item>
 
 <item>
-<title>Trace22</title>
+<title>Tracem</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>"channel_stream":"http:\/\/(.*?)"</expres>
+<expres>"channel_stream":"(.*m3u8.*?)"</expres>
 <page>http://yamgo.com/trace-urban</page>
 <referer>http://yamgo.com/</referer>
 <agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
