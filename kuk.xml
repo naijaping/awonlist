@@ -1860,67 +1860,6 @@
 </item>
 
 <item>
-<title>B1</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.shadownet.biz/channels/uktv/bt-sport1.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>B2</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.shadownet.biz/channels/uktv/bt-sport2.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>G1</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.shadownet.biz/channels/usa/goltv.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>MLB1</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.shadownet.biz/channels/usa/mlb-network.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Avrupa TV</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: '(.*m3u8.*?)'</expres>
-<page>http://www.kure.tv/kanallar/samanyolu-avrupa-tv/canli-yayin</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
 <title>Ag0o</title>
 <link>http://46.23.68.242:1935/tv/apna/playlist.m3u8$doregex[get-auth]</link>
 <regex>
@@ -2286,7 +2225,17 @@
 
 
 
-
+<item>
+<title>B1</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: '(.*?)'</expres>
+<page>http://shoutcastmedia.com/domistreaming/hd.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
