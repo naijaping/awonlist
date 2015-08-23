@@ -2297,11 +2297,11 @@
 
 
 <item>
-<title>hell</title>
+<title>hell0</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: "(.*?)"</expres>
+<expres>file: "(.*m3u8.*?)"</expres>
 <page>http://hellaball.com/channel=91</page>
 <referer>http://hellaball.com/</referer>
 </regex>
