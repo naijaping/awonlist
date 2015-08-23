@@ -2252,13 +2252,48 @@
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: "(.*m3u8.*?)"</expres>
+<expres>file: "(.*?)"</expres>
 <page>http://www.ball2like.com/extra2.php</page>
 <referer>http://www.ball2like.com/</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>pos3</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.ball2like.com/extra3.php</page>
+<referer>http://www.ball2like.com/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>pos4</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.ball2like.com/extra4.php</page>
+<referer>http://www.ball2like.com/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>pos5</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.ball2like.com/extra5.php</page>
+<referer>http://www.ball2like.com/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
