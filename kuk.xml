@@ -2175,7 +2175,6 @@
 
 <item>
 <title>Livo</title>
-<link>http://myafricanmega3.tulix.tv:1935/map-channelstv/map-channelstv.stream/chunklist.m3u8?wowzasessionid=598321747</link>
 <link>rtmp://skystreams.info/vod playpath=mp4:/ppvs/UFC.PPV190.2015.08.01.Rousey.vs.Correia.720p.HDTV.30fps.x264-Reborn4HD.mp4 swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://sportsaccess.se/ondemand.php?file=/ppvs/UFC.PPV190.2015.08.01.Rousey.vs.Correia.720p.HDTV.30fps.x264-Reborn4HD.mp4</link>
 <thumbnail></thumbnail>
 </item>
@@ -2261,8 +2260,27 @@
 <fanart/>
 </item>
 
+<item>
+<title>SPORTS 4 HD</title>
+<link>http://s1.iptv-cccam.com:80/live/yusuf/teknosat/97.m3u8</link>
+<thumbnail/>
+<fanart/>
+</item>
 
 
+<item>
+<title>SPORTS 5 HD</title>
+<link>http://s1.iptv-cccam.com:80/live/yusuf/teknosat/98.m3u8</link>
+<thumbnail/>
+<fanart/>
+</item>
+
+<item>
+<title>TAfrica</title>
+<link>http://stream-04.vty.dailymotion.com/17/dm/1/x19pirg/live.isml/events(live-1439889634)/live-audio=128000-video=1891000.bootstrap/playlist.m3u8</link>
+<thumbnail/>
+<fanart/>
+</item>
 
 
 
