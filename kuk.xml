@@ -2199,6 +2199,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Trace2</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>channel_stream":"http:\/\/(.*?)",</expres>
+<page>http://yamgo.com/trace-urban</page>
+<referer>http://yamgo.com/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
