@@ -2187,18 +2187,14 @@
 
 
 
-<item>
-<title>Streamjabo</title>
-<sportsdevil>http://www.shadownet.biz/channels/nordic/disney-junior.html</sportsdevil>
-<referer>http://www.shadownet.biz/</referer>
-</item>
+
 
 <item>
-<title>Tracem</title>
+<title>Traceurb</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>"channel_stream":"(.*m3u8.*?)"</expres>
+<expres>"channel_stream":"(.*m3u8)"</expres>
 <page>http://yamgo.com/trace-urban</page>
 <referer>http://yamgo.com/</referer>
 <agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
