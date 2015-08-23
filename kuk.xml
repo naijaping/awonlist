@@ -2226,12 +2226,12 @@
 
 
 <item>
-<title>B1</title>
+<title>B10</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: '(.*?)'</expres>
-<page>http://shoutcastmedia.com/domistreaming/hd.html</page>
+<expres>streamer: "(.*?)"</expres>
+<page>http://www.davidoyedepoministries.org/wp-content/themes/domi-revamp/js/mediacenter.js?87</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
