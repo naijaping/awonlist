@@ -2187,7 +2187,17 @@
 
 
 
-
+<item>
+<title>Trace</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>"channel_stream":"(.*m3u8.*?)"</expres>
+<page>http://yamgo.com/trace-urban</page>
+<referer>http://yamgo.com/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
