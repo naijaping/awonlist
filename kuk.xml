@@ -2227,8 +2227,8 @@
 
 
 <item>
-<title>Vimeooo</title>
-<link>plugin://plugin.video.dailymotion_com/play/?video_id=x19pgts</link>
+<title>Daily</title>
+<link>plugin://plugin.video.dailymotion_com/?url=x19pgts&mode=playVideo</link>
 </item>
 
 
