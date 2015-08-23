@@ -2233,6 +2233,18 @@
 
 
 
+<item>
+<title>pos</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.ball2like.com/extra1.php</page>
+<referer>http://www.ball2like.com/</referer>
+<x-forward></x-forward>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
