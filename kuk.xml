@@ -2195,6 +2195,7 @@
 <expres>"channel_stream":"(.*?)"</expres>
 <page>http://yamgo.com/trace-urban</page>
 <referer>http://yamgo.com/</referer>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
 </regex>
 <thumbnail></thumbnail>
 </item>
@@ -2207,6 +2208,7 @@
 <expres>"channel_stream":"http:\/\/(.*?)"</expres>
 <page>http://yamgo.com/trace-urban</page>
 <referer>http://yamgo.com/</referer>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
 </regex>
 <thumbnail></thumbnail>
 </item>
