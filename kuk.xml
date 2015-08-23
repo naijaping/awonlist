@@ -2226,17 +2226,15 @@
 
 
 <item>
-<title>B10</title>
-<link>$doregex[reg1]</link>
+<title>Man VS Wild</title>
+<link>$doregex[getlink]|User-Agent=iPhone</link>
 <regex>
-<name>reg1</name>
-<expres>streamer: "(.*?)"</expres>
-<page>http://www.davidoyedepoministries.org/wp-content/themes/domi-revamp/js/mediacenter.js?87</page>
-<referer></referer>
+<name>getlink</name>
+<expres>source src="(.*m3u8)"</expres>
+<page>http://www.stream4free.eu/man-vs-wild-en</page>
 </regex>
 <thumbnail></thumbnail>
 </item>
-
 
 
 
