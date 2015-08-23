@@ -2226,12 +2226,13 @@
 
 
 <item>
-<title>Man VS Wild</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
+<title>ManVSWild</title>
+<link>$doregex[reg1]|User-Agent=iPhone</link>
 <regex>
-<name>getlink</name>
-<expres>source src="(.*m3u8)"</expres>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
 <page>http://www.stream4free.eu/man-vs-wild-en</page>
+<referer>http://www.stream4free.eu</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
