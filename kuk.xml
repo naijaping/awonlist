@@ -2297,8 +2297,8 @@
 
 
 <item>
-<title>hell0</title>
-<link>$doregex[reg1]</link>
+<title>hella</title>
+<link>$doregex[reg1] timeout=20</link>
 <regex>
 <name>reg1</name>
 <expres>file: "(.*m3u8.*?)"</expres>
