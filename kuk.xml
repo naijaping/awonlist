@@ -2223,19 +2223,13 @@
 </item>
 
 
-
-
 <item>
-<title>ManVSWild</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.stream4free.eu/man-vs-wild-en</page>
+<title>Stream man</title>
+<sportsdevil>http://www.stream4free.eu/man-vs-wild-en</sportsdevil>
 <referer>http://www.stream4free.eu</referer>
-</regex>
-<thumbnail></thumbnail>
 </item>
+
+
 
 
 
