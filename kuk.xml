@@ -2234,21 +2234,30 @@
 
 
 <item>
-<title>pos</title>
+<title>pos1</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>file: "(.*?)"</expres>
 <page>http://www.ball2like.com/extra1.php</page>
 <referer>http://www.ball2like.com/</referer>
-<x-forward></x-forward>
 </regex>
 <thumbnail></thumbnail>
 </item>
 
 
 
-
+<item>
+<title>pos2</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*m3u8.*?)"</expres>
+<page>http://www.ball2like.com/extra2.php</page>
+<referer>http://www.ball2like.com/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
