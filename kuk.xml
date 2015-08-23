@@ -2227,7 +2227,7 @@
 
 <item>
 <title>ManVSWild</title>
-<link>$doregex[reg1]|User-Agent=iPhone</link>
+<link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>
