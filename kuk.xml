@@ -2297,11 +2297,11 @@
 
 
 <item>
-<title>hellabaoo</title>
+<title>heo</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>file: "http:\/\/(.*?)"</expres>
+<expres>file: "rtmp://(.*?)"</expres>
 <page>http://hellaball.com/channel=91</page>
 <referer>http://hellaball.com/</referer>
 </regex>
