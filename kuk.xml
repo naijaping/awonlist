@@ -2132,17 +2132,17 @@
 
 
 <item>
-<title>Sko</title>
+<title>Skoll</title>
 <link>rtmp://62.210.82.111/live2 playpath=sex?e=$doregex[eid]&amp;st=$doregex[id]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>eid</name>
-<expres>e=(.*?)&amp;</expres>
+<expres>sex.e=(.*?)&amp;</expres>
 <page>http://www.stream4free.eu/sex-live</page>
 <referer>http://www.stream4free.eu/</referer>
 </regex>
 <regex>
 <name>id</name>
-<expres>st=(.*?)"</expres>
+<expres>sex.*st=(.*?)"</expres>
 <page>http://www.stream4free.eu/sex-live</page>
 <referer>http://www.stream4free.eu/</referer>
 </regex>
