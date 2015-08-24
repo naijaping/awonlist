@@ -2169,7 +2169,23 @@
 
 
 
-
+<item>
+<title>Seinfeld</title>
+<link>$doregex[file]</link>
+<regex>
+<name>file</name>
+<expres>source src="(.*?)"</expres>
+	<page>http://www.justproxy.co.uk/index.php</page>
+	<referer>http://www.justproxy.co.uk</referer>
+	<rawpost>q=$doregex[url-quote]&amp;hl[include_form]=on&amp;hl[accept_cookies]=on&amp;hl[show_images]=on&amp;hl[show_referer]=on&amp;hl[base64_encode]=on&amp;hl[strip_meta]=on&amp;hl[session_cookies]=on</rawpost>
+</regex>
+<regex>
+	<name>url-quote</name>
+	<expres>$pyFunction:urllib.quote('http://www.stream4free.eu/sex-live/')</expres>
+	<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
