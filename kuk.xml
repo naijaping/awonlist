@@ -2132,13 +2132,14 @@
 
 
 <item>
-<title>Soki</title>
+<title>Sokii</title>
 <link>rtmp://62.210.82.111/live2 playpath=sex?e=$doregex[eid]&amp;st=$doregex[id] swfUrl=http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>eid</name>
 <expres>sex.e=(.*?)&amp;</expres>
 <page>http://www.stream4free.eu/sex-live</page>
 <referer>http://www.stream4free.eu/</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
 </regex>
 <regex>
 <name>id</name>
