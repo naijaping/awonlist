@@ -2132,8 +2132,8 @@
 
 
 <item>
-<title>Sok</title>
-<link>rtmp://62.210.82.111/live2 playpath=sex?e=$doregex[eid]&amp;st=$doregex[id]|User-Agent=Mozilla/5.0</link>
+<title>Soki</title>
+<link>rtmp://62.210.82.111/live2 playpath=sex?e=$doregex[eid]&amp;st=$doregex[id] swfUrl=http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>eid</name>
 <expres>sex.e=(.*?)&amp;</expres>
