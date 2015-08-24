@@ -2151,14 +2151,14 @@
 
 
 <item>
-<title>Sei</title>
+<title>Seio</title>
 <link>$doregex[file]</link>
 <regex>
 <name>file</name>
 <expres>src="(.*?)"</expres>
 	<page>http://www.justproxy.co.uk/index.php</page>
 	<referer>http://www.justproxy.co.uk</referer>
-	<rawpost>q=$doregex[url-quote]&amp;hl%5Binclude_form%5D=on&amp;hl%5Baccept_cookies%5D=on&amp;hl%5Bshow_images%5D=on&amp;hl%5Bshow_referer%5D=on&amp;hl%5Bbase64_encode%5D=on&amp;hl%5Bstrip_meta%5D=on&amp;hl%5Bsession_cookies%5D=on</rawpost>
+	<rawpost>q=$doregex[url-quote]&amp;aHR0cDovL3d3dy5zdHJlYW00ZnJlZS5ldS9zZXgtbGl2ZQ%3D%3D&hl=2ed</rawpost>
 </regex>
 <regex>
 	<name>url-quote</name>
