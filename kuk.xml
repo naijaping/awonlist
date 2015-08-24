@@ -2151,7 +2151,7 @@
 
 
 <item>
-                <title>Sex</title>
+                <title>Sexo</title>
                 <link>rtmp://62.210.82.111/live2 playpath=$doregex[get-final] pageUrl=http://www.stream4free.eu/sex-live live=true timeout=20|User-Agent=Mozilla/5.0</link>
                 <regex>
                 <name>get-final</name>
@@ -2160,7 +2160,7 @@
                 </regex>
                 <regex>
                 <name>path</name>
-                <expres>source src="(sex.*?)"</expres>
+                <expres>src="(sex.*?)"</expres>
                 <page>http://www.stream4free.eu/sex-live</page>
                 <referer>http://www.stream4free.eu/</referer>
                 </regex>
