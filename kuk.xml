@@ -2131,62 +2131,6 @@
 
 
 
-<item>
-<title>Sokii</title>
-<link>rtmp://62.210.82.111/live2 playpath=sex?e=$doregex[eid]&amp;st=$doregex[id] swfUrl=http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf|User-Agent=Mozilla/5.0</link>
-<regex>
-<name>eid</name>
-<expres>e=(.*?)&amp;</expres>
-<page>http://www.stream4free.eu/sex-live</page>
-<referer>http://www.stream4free.eu/</referer>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
-</regex>
-<regex>
-<name>id</name>
-<expres>st=(.*?)"</expres>
-<page>http://www.stream4free.eu/sex-live</page>
-<referer>http://www.stream4free.eu/</referer>
-</regex>
-</item>
-
-
-<item>
-<title>Seyio</title>
-<link>$doregex[file]</link>
-<regex>
-<name>file</name>
-<expres>src="(.*?)"</expres>
-	<page>http://www.justproxy.co.uk/index.php</page>
-	<referer>http://www.justproxy.co.uk</referer>
-	<rawpost>q=$doregex[url-quote]</rawpost>
-</regex>
-<regex>
-	<name>url-quote</name>
-	<expres>$pyFunction:urllib.quote('http://www.stream4free.eu/sex-live/')</expres>
-	<page></page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-
-<item>
-<title>Semomio</title>
-<link>$doregex[file]</link>
-<regex>
-<name>file</name>
-<expres>src="(.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://78.129.148.101/browse.php?u=$doregex[url-quote]&amp;idx=1&amp;p=404').read()</page>
-<referer>http://hidemyass.com</referer>
-</regex>
-<regex>
-<name>url-quote</name>
-<expres>$pyFunction:urllib.quote('http://www.stream4free.eu/sex-live/')</expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 
 </channel>
 
