@@ -2189,17 +2189,8 @@
 
 
 
-<item>
-<title>Trac</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>source src="(.*m3u8)"</expres>
-<page>http://www.shadownet.biz/channels/other/trace-urban.php</page>
-<referer>http://www.shadownet.biz/</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
+
 
 
 
