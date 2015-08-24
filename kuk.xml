@@ -2132,11 +2132,11 @@
 
 
 <item>
-<title>Sklu</title>
+<title>Sk</title>
 <link>rtmp://62.210.82.111/live2 playpath=sex?e=$doregex[eid]&amp;st=$doregex[id] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://www.stream4free.eu/sex-live live=1 timeout=15|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>eid</name>
-<expres>sex.e=(.*?)&amp;</expres>
+<expres>e=(.*?)&amp;</expres>
 <page>http://www.stream4free.eu/sex-live</page>
 <referer>http://www.stream4free.eu/</referer>
 </regex>
