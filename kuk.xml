@@ -904,50 +904,6 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/hh/hip_tv_ng.png</thumbnail>
 </item>
 
-
-<item>
-<title>Game Of The Throne</title>
-<link>$doregex[getlink]|User-Agent=iPhone</link>
-<regex>
-<name>getlink</name>
-<expres>source src="([^"]*)</expres>
-<page>http://www.stream4free.eu/game-of-thrones</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title> Zenga Tv</title>
-<link>http://d1hya96e2cm7qi.cloudfront.net/Live/_definst_/sweetbcha1novD28_W_150.sdp/master.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>One TV</title>
-<link>rtmp://37.187.151.241/live playpath=$doregex[path] swfUrl=http://cdn.skylinewebcams.com/player/skylinewebcams.swf pageUrl=http://www.skylinewebcams.com live=1 timeout=10</link>
-<regex>
-<name>path</name>
-<expres>,url:'([^']*)</expres>
-<page>http://www.skylinewebcams.com/web-tv/malta/one.html?w=253</page>
-<referer>http://www.one.com.mt/index.php?id=1928</referer>
-</regex>
-<thumbnail>http://www.sportinmalta.com/wp-content/uploads/2010/11/One-Productions.jpg</thumbnail>
-</item>
-
-<item> 
-<title>Nasa TV HD</title>
-<link>http://iphone-streaming.ustream.tv/ustreamVideo/$doregex[path]/streams/live/playlist.m3u8</link>
-<regex>
-<name>path</name>
-<expres>"https://www.ustream.tv/embed/(.+?)"></expres>
-<page>http://www.ustream.tv/channel/20017336</page>
-<referer> </referer>
-</regex>
-<thumbnail></thumbnail>
-</item> 
-
-
 <item>
 <title>Islam Channel</title>
 <link>rtmp://wowza04.sharp-stream.com/islamtv playpath=islamtv swfUrl=http://player.sharp-stream.com/player.swf live=1 pageUrl=http://www.centraltv.fr/angleterre-television/islam-channel</link>
@@ -2176,11 +2132,11 @@
 
 
 <item>
-<title>ses</title>
-<link>$doregex[reg1]|User-Agent=Mozilla/5.0</link>
+<title>sex</title>
+<link>http://62.210.82.111/live2/sex/playlist.m3u8?e=1440396207&amp;st=$doregex[key]|User-Agent=Mozilla/5.0</link>
 <regex>
-<name>reg1</name>
-<expres>src="(.*?)"</expres>
+<name>key</name>
+<expres>st=(.*?)"</expres>
 <page>http://www.stream4free.eu/sex-live</page>
 <referer>http://www.stream4free.me/</referer>
 agent>Mozilla/5.0 (Linux; Android 4.4.2; en-gb; SAMSUNG SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36</agent>
