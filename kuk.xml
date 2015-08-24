@@ -2132,14 +2132,21 @@
 
 
 <item>
-<title>sex</title>
-<link>http://62.210.82.111/live2/sex/playlist.m3u8?e=1440396207&amp;st=$doregex[key]|User-Agent=Mozilla/5.0</link>
+<title>sexo</title>
+<link>http://62.210.82.111/live2/sex/playlist.m3u8?e=$doregex[sid]&amp;st=$doregex[key]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>sid</name>
+<expres>e=(.*?)"</expres>
+<page>http://www.stream4free.eu/sex-live</page>
+<referer>http://www.stream4free.me/</referer>
+<agent>Mozilla/5.0 (Linux; Android 4.4.2; en-gb; SAMSUNG SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36</agent>
+</regex>
 <regex>
 <name>key</name>
 <expres>st=(.*?)"</expres>
 <page>http://www.stream4free.eu/sex-live</page>
 <referer>http://www.stream4free.me/</referer>
-agent>Mozilla/5.0 (Linux; Android 4.4.2; en-gb; SAMSUNG SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36</agent>
+<agent>Mozilla/5.0 (Linux; Android 4.4.2; en-gb; SAMSUNG SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36</agent>
 </regex>
 <thumbnail></thumbnail>
 </item>
