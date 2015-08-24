@@ -2151,25 +2151,6 @@
 
 
 <item>
-<title>Sull</title>
-                <link>rtmp://62.210.82.111/live2 playpath=$doregex[get-final] swfUrl=http://releases.flowplayer.org/5.5.1/flowplayer.swf pageUrl=http://www.stream4free.eu/sex-live live=1 timeout=15|User-Agent=Mozilla/5.0</link>
-                <regex>
-                <name>get-final</name>
-                <expres>$pyFunction:'$doregex[path]'.replace('amp;','')</expres>
-                <page></page>
-                </regex>
-                <regex>
-                <name>path</name>
-                <expres>src="(sex.*?)"</expres>
-                <page>http://www.stream4free.eu/sex-live</page>
-                <referer>http://www.stream4free.eu/</referer>
-                </regex>
-                <thumbnail></thumbnail>
-                </item>
-
-
-
-<item>
 <title>Sei</title>
 <link>$doregex[file]</link>
 <regex>
@@ -2187,6 +2168,24 @@
 <thumbnail></thumbnail>
 </item>
 
+
+
+<item>
+<title>Semo</title>
+<link>$doregex[file]</link>
+<regex>
+<name>file</name>
+<expres>src="(.*?)"</expres>
+<page>$pyFunction:urllib.urlopen('http://4.hidemyass.com/browse.php?u=$doregex[url-quote]&amp;idx=1&amp;p=404').read()</page>
+<referer>http://hidemyass.com</referer>
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote('http://www.stream4free.eu/sex-live/')</expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 </channel>
