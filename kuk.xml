@@ -2130,6 +2130,27 @@
 </item>
 
 
+<item>
+<title>tvfree</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace(' ','&')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-url</name>
+<expres>file: '(.*?)'<expres>
+<page>https://cdn.tvfree.biz/player/39.php</page>
+<referer>http://tvfree.biz/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
+
+
 
 
 </channel>
