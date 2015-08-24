@@ -2132,11 +2132,11 @@
 
 
 <item>
-<title>sexu</title>
+<title>sexulol</title>
 <link>http://62.210.82.111/live2/sex/playlist.m3u8?e=$doregex[sid]&amp;st=$doregex[key]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>sid</name>
-<expres>e=(.*?)&</expres>
+<expres>e=(.*?)&amp;"</expres>
 <page>http://www.stream4free.eu/sex-live</page>
 <referer>http://www.stream4free.me/</referer>
 </regex>
