@@ -2151,8 +2151,8 @@
 
 
 <item>
-                <title>Sexo</title>
-                <link>rtmp://62.210.82.111/live2 playpath=$doregex[get-final] pageUrl=http://www.stream4free.eu/sex-live live=true timeout=20|User-Agent=Mozilla/5.0</link>
+<title>Seuu</title>
+                <link>rtmp://62.210.82.111/live2 playpath=$doregex[get-final] swfUrl=http://releases.flowplayer.org/5.5.1/flowplayer.swf pageUrl=http://www.stream4free.eu/sex-live live=1 timeout=15|User-Agent=Mozilla/5.0</link>
                 <regex>
                 <name>get-final</name>
                 <expres>$pyFunction:'$doregex[path]'.replace('amp;','')</expres>
