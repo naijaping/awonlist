@@ -2171,12 +2171,12 @@
 
 
 <item>
-<title>Semo</title>
+<title>Semi</title>
 <link>$doregex[file]</link>
 <regex>
 <name>file</name>
 <expres>src="(.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://4.hidemyass.com/browse.php?u=$doregex[url-quote]&amp;idx=1&amp;p=404').read()</page>
+<page>$pyFunction:urllib.urlopen('http://67.159.5.242/browse.php?u=$doregex[url-quote]&amp;idx=1&amp;p=404').read()</page>
 <referer>http://hidemyass.com</referer>
 </regex>
 <regex>
