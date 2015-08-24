@@ -2131,22 +2131,7 @@
 
 
 
-<item>
-<title>zic</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('&')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>src="(.*?)"<expres>
-<page>http://www.stream4free.eu/sex-live</page>
-<referer>http://www.stream4free.eu/</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
