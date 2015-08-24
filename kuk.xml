@@ -2176,14 +2176,14 @@
 
 
 <item>
-<title>Parko</title>
-<link>$doregex[url]</link>
+<title>Paki</title>
+<link>$doregex[reg1]|User-Agent=Mozilla/5.0</link>
 <regex>
-<name>url</name>
+<name>reg1</name>
 <expres>source src="(.*m3u8)"</expres>
 <page>http://www.stream4free.me/south-park-hd</page>
 <referer>http://www.stream4free.me/</referer>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+agent>Mozilla/5.0 (Linux; Android 4.4.2; en-gb; SAMSUNG SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36</agent>
 </regex>
 <thumbnail></thumbnail>
 </item>
