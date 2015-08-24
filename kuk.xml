@@ -2150,7 +2150,21 @@
 </item>
 
 
-
+<item>
+                <title>Seno</title>
+                <link>rtmp://62.210.82.111/live2 playpath=$doregex[get-final] swfUrl=https://arconaitv.me/wp-content/plugins/fv-wordpress-flowplayer/flowplayer/flowplayer.swf?ver=2.3.12 pageUrl=http://www.stream4free.eu/sex-live live=true timeout=20</link>
+                <regex>
+                <name>get-final</name>
+                <expres>$pyFunction:'$doregex[path]'.replace('amp;','')</expres>
+                <page></page>
+                </regex>
+                <regex>
+                <name>path</name>
+                <expres>source src="(sex.*?)"</expres>
+                <page>http://www.stream4free.eu/sex-live</page>
+                </regex>
+                <thumbnail></thumbnail>
+                </item>
 
 
 
