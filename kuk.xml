@@ -2119,18 +2119,6 @@
 </item>
 
 <item>
-<title>fox</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>href="(.*m3u8)</expres>
-<page>http://www.iptvembed.com/m3u8-embed-iptv-stream/fox-sports-1-2/</page>
-<referer>http://www.iptvembed.com</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>oyla</title>
 <link>ignorme</link>
 <jsonrpc>http://player.ooyala.com/iframe.html#pbid=9f4a1666b539467a8ae10d2456a38ff8&ec=l0ODRodjqAetaKXnT_Frum1Zgetalf7R</jsonrpc>
@@ -2187,6 +2175,18 @@
 
 
 
+<item>
+<title>Park</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.me/south-park-hd</page>
+<referer>http://www.stream4free.me/</referer>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
