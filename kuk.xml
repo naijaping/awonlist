@@ -2161,6 +2161,19 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>tru</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.ball2like.com/true-sport1.html</page>
+<referer>http://www.ball2like.com/</referer>
+<x-forward></x-forward>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 
 
