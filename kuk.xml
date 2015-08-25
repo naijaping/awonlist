@@ -2187,11 +2187,11 @@
 
 
 <item>
-<title>Iransimii</title>
+<title>Iransim</title>
 <link>$doregex[rtmp] swfUrl=http://www2.iransima.ir/templates/total/player/jwplayer.flash.swf pageUrl=http://www2.iransima.ir live=1 timeout=15 token=$doregex[token]</link>
 <regex>
 <name>rtmp</name>
-<expres>{file:"(.*?)"</expres>
+<expres>file:"(.*?)"</expres>
 <page>http://www2.iransima.ir/#tv3</page>
 <referer>http://www2.iransima.ir/</referer>
 </regex>
