@@ -2135,7 +2135,7 @@
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace(' ','&amp')</expres>
+<expres>$pyFunction:'$doregex[get-url]'.replace('amp','&')</expres>
 <page></page>
 </regex>
 <regex>
@@ -2163,7 +2163,7 @@
 
 <item>
 <title>trol</title>
-<link></link>
+<link>http://cdn2.iransima.ir/e-tv3/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
