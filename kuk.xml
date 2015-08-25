@@ -2169,11 +2169,11 @@
 
 
 <item>
-<title>irano</title>
+<title>iranu</title>
 <link>$doregex[reg1]$doregex[tok]</link>
 <regex>
 <name>reg1</name>
-<expres>{file:"(.*?)"</expres>
+<expres>file:"(.*?)"</expres>
 <page>http://www2.iransima.ir/#tv3</page>
 <referer>http://www2.iransima.ir/#tv3</referer>
 </regex>
