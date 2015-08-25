@@ -2169,15 +2169,19 @@
 
 
 <item>
-<title>iran</title>
-<link>$doregex[reg1]</link>
+<title>irano</title>
+<link>$doregex[reg1]$doregex[tok]</link>
 <regex>
 <name>reg1</name>
 <expres>{file:"(.*?)"</expres>
 <page>http://www2.iransima.ir/#tv3</page>
 <referer>http://www2.iransima.ir/#tv3</referer>
-<x-forward></x-forward>
 </regex>
+<regex>
+<name>tok</name>
+<expres>securetoken:"(.*?)"</expres>
+<page>http://www2.iransima.ir/#tv3</page>
+<referer>http://www2.iransima.ir/#tv3</referer>
 <thumbnail></thumbnail>
 </item>
 
