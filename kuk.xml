@@ -2187,18 +2187,18 @@
 
 
 <item>
-<title>Iransimu</title>
+<title>Iransimii</title>
 <link>$doregex[rtmp] swfUrl=http://www2.iransima.ir/templates/total/player/jwplayer.flash.swf pageUrl=http://www2.iransima.ir live=1 timeout=15 token=$doregex[token]</link>
 <regex>
 <name>rtmp</name>
 <expres>{file:"(.*?)"</expres>
-<page>http://www2.iransima.ir/</page>
+<page>http://www2.iransima.ir/#tv3</page>
 <referer>http://www2.iransima.ir/</referer>
 </regex>
 <regex>
 <name>token</name>
 <expres>securetoken:"(.*?)"</expres>
-<page>http://www2.iransima.ir/</page>
+<page>http://www2.iransima.ir/#tv3</page>
 <referer>http://www2.iransima.ir/</referer>
 </regex>
 </item>
