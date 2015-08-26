@@ -2186,7 +2186,7 @@
 <regex>
 <name>stream</name>
 <expres>360p".*?(http.*?)"<expres>                                           
-<page>https://www.leoplayer.com/mobileplayer2?v=3756544</page>
+<page>http://www.leoplayer.com/mobileplayer2?v=3756544</page>
 <referer>http://www.du-de.com</referer>
 </regex>
 <thumbnail></thumbnail>
