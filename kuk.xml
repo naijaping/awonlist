@@ -2235,6 +2235,27 @@
 </item>
 
 
+<item>
+title>staeel prem 1</title>
+<link>
+$doregex[m3u8]
+<regex>
+<name>m3u8</name>
+<expres>file: "([^"]*)</expres>
+<page>http://stepfb.net/live/stepfb.php?linkcode=$doregex[src]</page>
+<referer>http://stepfb.net/live/chanel/48/</referer>
+</regex>
+<regex>
+<name>src</name>
+<expres>linkcode=([^']*)</expres>
+<page>http://stepfb.net/live/chanel/48/</page>
+<referer>http://stepfb.net/live/chanel/48/</referer>
+</regex>
+</link>
+</thumbnail></thumbnail>
+</item>
+
+
 </channel>
 
 
