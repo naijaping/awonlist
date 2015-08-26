@@ -2167,7 +2167,17 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>The Last Executioner</title>
+<link>$doregex[stream]</link>
+<regex>
+	<name>stream</name>
+	<expres>360p".*?(http.*?)"<expres>                                           
+	<page>http://www.leoplayer.com/mobileplayer2?v=3756905</page>
+    <referer>http://www.du-de.com</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
