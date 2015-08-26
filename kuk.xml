@@ -2168,24 +2168,11 @@
 </item>
 
 
-<streaminginfo>
-<cname>Abu Dhabi</cname>
 <item>
-<title>Gujio</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[xmlurl]'.replace(' ','&amp;')</expres>
-<page></page>
-</regex>
-<regex>
-<name>xmlurl</name>
-<expres>src="(.*?)"</expres>
-<page>http://www.stream4free.me/sex-live</page>
-<referer>http://www.stream4free.me</referer>
-</regex>
+<title>Peb 720pHD</title>
+<link>http://pebbles108-lh.akamaihd.net/i/sport1_1@97464/master.m3u8|X-Forwarded-For=81.17.18.52</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news.png</thumbnail>
 </item>
-</streaminginfo>
 
 
 
