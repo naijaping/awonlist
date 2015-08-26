@@ -2161,11 +2161,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>whats</title>
-<link>http://www.accwebtv.com:1935/whats/whats/chunklist_w827949514.m3u8</link>
-<thumbnail></thumbnail>
-</item>
+
 
 <item>www.du-de.com/
 <title>The Last Executioner</title>
@@ -2192,7 +2188,17 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>whats</title>
+<link>http://www.accwebtv.com:1935/whats/whats/chunklist_w827949514.m3u8</link>
+<thumbnail></thumbnail>
+</item>
 
+<item>
+<title>will</title>
+<link>http://www.accwebtv.com:1935/A1Afrikiy/A1Afrikiy/playlist.m3u8</link>
+<thumbnail></thumbnail>
+</item>
 
 
 
