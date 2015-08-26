@@ -2171,14 +2171,26 @@
 <title>The Last Executioner</title>
 <link>$doregex[stream]</link>
 <regex>
-	<name>stream</name>
-	<expres>360p".*?(http.*?)"<expres>                                           
-	<page>http://www.leoplayer.com/mobileplayer2?v=3756905</page>
-    <referer>http://www.du-de.com</referer>
+<name>stream</name>
+<expres>360p".*?(http.*?)"<expres>                                           
+<page>http://www.leoplayer.com/mobileplayer2?v=3756905</page>
+<referer>http://www.du-de.com</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
 
+
+<item>
+<title>Minion</title>
+<link>$doregex[stream]</link>
+<regex>
+<name>stream</name>
+<expres>360p".*?(http.*?)"<expres>                                           
+<page>https://www.leoplayer.com/mobileplayer2?v=3756544</page>
+<referer>http://www.du-de.com</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
