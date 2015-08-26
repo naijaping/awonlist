@@ -2236,7 +2236,7 @@
 
 
 <item>
-title>staeel prem 1</title>
+<title>staeel prem 1</title>
 <link>
 $doregex[m3u8]
 <regex>
