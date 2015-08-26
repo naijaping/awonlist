@@ -2168,20 +2168,15 @@
 </item>
 
 <item>
-<title>Iransim</title>
-<link>$doregex[rtmp] swfUrl=http://www2.iransima.ir/templates/total/player/jwplayer.flash.swf pageUrl=http://www2.iransima.ir live=1 timeout=15 token=$doregex[token]</link>
+<title>RaveTV</title> 
+<link>$doregex[reg1]</link>
 <regex>
-<name>rtmp</name>
-<expres>file:"(.*?)"</expres>
-<page>http://www2.iransima.ir/#tv3</page>
-<referer>http://www2.iransima.ir/</referer>
+<name>reg1</name>
+<expres>"file":"(.*?)"</expres>
+<page>https://www.vemooz.com/embed?v=3756905</page>
+<referer>https://www.vemooz.com/</referer>
 </regex>
-<regex>
-<name>token</name>
-<expres>securetoken:"(.*?)"</expres>
-<page>http://www2.iransima.ir/#tv3</page>
-<referer>http://www2.iransima.ir/</referer>
-</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rave_tv_ng.png</thumbnail>
 </item>
 
 
