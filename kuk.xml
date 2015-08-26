@@ -2188,15 +2188,22 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
+<item>working
 <title>whats</title>
 <link>http://www.accwebtv.com:1935/whats/whats/chunklist_w827949514.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
-<item>
+<item>working
 <title>willfox</title>
 <link>http://www.accwebtv.com:1935/fox/fox/chunklist_w1501758254.m3u8</link>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>working
+<title>willenter</title>
+<link>http://www.accwebtv.com:1935/etertainment/etertainment/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
