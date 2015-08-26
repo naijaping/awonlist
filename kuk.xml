@@ -2171,16 +2171,16 @@
 <streaminginfo>
 <cname>Abu Dhabi</cname>
 <item>
-<title>Gujal</title>
+<title>Gujali</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>$pyFunction:'$doregex[xmlurl]'.replace('&amp;amp;','&amp;')</expres>
+<expres>$pyFunction:'$doregex[xmlurl]'.replace('amp;','&amp;')</expres>
 <page></page>
 </regex>
 <regex>
 <name>xmlurl</name>
-<expres>file="(http.*?)"</expres>
+<expres>src="(rtmp.*?)"</expres>
 <page>http://www.stream4free.me/sex-live</page>
 <referer>http://www.stream4free.me</referer>
 </regex>
