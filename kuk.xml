@@ -2237,8 +2237,7 @@
 
 <item>
 <title>staeel prem 1</title>
-<link>
-$doregex[m3u8]
+<link>$doregex[m3u8]</link>
 <regex>
 <name>m3u8</name>
 <expres>file: "([^"]*)</expres>
