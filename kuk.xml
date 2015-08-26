@@ -2171,7 +2171,7 @@
 <streaminginfo>
 <cname>Abu Dhabi</cname>
 <item>
-<title>Guj</title>
+<title>Guji</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -2180,7 +2180,7 @@
 </regex>
 <regex>
 <name>xmlurl</name>
-<expres>src="(.*?)"</expres>
+<expres>src="(rtmp.*?)"</expres>
 <page>http://www.stream4free.me/sex-live</page>
 <referer>http://www.stream4free.me</referer>
 </regex>
