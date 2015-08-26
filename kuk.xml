@@ -2168,22 +2168,26 @@
 </item>
 
 
+<streaminginfo>
+<cname>Abu Dhabi</cname>
 <item>
-<title>iranuo</title>
-<link>$doregex[reg1]$doregex[tok]</link>
+<title>Gujal</title>
+<link>$doregex[url]</link>
 <regex>
-<name>reg1</name>
-<expres>file:"(.*?)"</expres>
-<page>http://www2.iransima.ir/#tv3</page>
-<referer>http://www2.iransima.ir/#tv3</referer>
+<name>url</name>
+<expres>$pyFunction:'$doregex[xmlurl]'.replace('&amp;amp;','&amp;')</expres>
+<page></page>
 </regex>
 <regex>
-<name>tok</name>
-<expres>token:"(.*?)"</expres>
-<page>http://www2.iransima.ir/#tv3</page>
-<referer>http://www2.iransima.ir/#tv3</referer>
-<thumbnail></thumbnail>
+<name>xmlurl</name>
+<expres>file="(http.*?)"</expres>
+<page>http://www.stream4free.me/sex-live</page>
+<referer>http://www.stream4free.me</referer>
+</regex>
 </item>
+</streaminginfo>
+
+
 
 
 <item>
