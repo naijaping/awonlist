@@ -2167,7 +2167,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
+<item>www.du-de.com/
 <title>The Last Executioner</title>
 <link>$doregex[stream]</link>
 <regex>
@@ -2180,7 +2180,7 @@
 </item>
 
 
-<item>
+<item>www.du-de.com/2015/07/minions-2015-มินเนี่ยน
 <title>Minion</title>
 <link>$doregex[stream]</link>
 <regex>
