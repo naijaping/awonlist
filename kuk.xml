@@ -2167,17 +2167,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>RaveTV</title> 
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>"file":"(.*?)"</expres>
-<page>https://www.vemooz.com/embed?v=3756905</page>
-<referer>https://www.vemooz.com/</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rave_tv_ng.png</thumbnail>
-</item>
+
 
 
 
