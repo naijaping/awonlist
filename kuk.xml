@@ -2171,11 +2171,11 @@
 <streaminginfo>
 <cname>Abu Dhabi</cname>
 <item>
-<title>Gujali</title>
+<title>Gujalio</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>$pyFunction:'$doregex[xmlurl]'.replace('amp;','&amp;')</expres>
+<expres>$pyFunction:'$doregex[xmlurl]'.replace('&amp;amp;','&amp;')</expres>
 <page></page>
 </regex>
 <regex>
