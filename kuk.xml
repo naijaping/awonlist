@@ -2167,16 +2167,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
-<item>
-<title>Peba</title>
-<link>http://80.77.52.6:3917/udp/226.0.3.19:12345</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_news.png</thumbnail>
-</item>
-
-
-
-
 <item>
 <title>Iransim</title>
 <link>$doregex[rtmp] swfUrl=http://www2.iransima.ir/templates/total/player/jwplayer.flash.swf pageUrl=http://www2.iransima.ir live=1 timeout=15 token=$doregex[token]</link>
