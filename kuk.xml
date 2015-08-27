@@ -2271,22 +2271,8 @@
 
 
 <item>
-<title>YOU SEE</title>
-<link>$doregex[url]$doregex[tok]</link>
-<regex>
-<name>url</name>
-<expres>"stream_url":"(.*?)"</expres>
-<page>http://www.useetv.com/services/tv_play_auth?out=json&rand=1440665821&ip=36.71.194.50</page>
-<referer>http://www.useetv.com</referer>
-<x-forward>36.71.194.50</x-forward>
-</regex>
-<regex>
-<name>tok</name>
-<expres>"userToken":"(.*?)"</expres>
-<page>http://www.useetv.com/services/tv_play_auth?out=json&rand=1440665821&ip=36.71.194.50</page>
-<referer>http://www.useetv.com</referer>
-<x-forward>36.71.194.50</x-forward>
-</regex>
+<title>YOUSEE</title>
+<link>rtmp://kv2.ts33.net/sat/us011</link>
 <thumbnail></thumbnail>
 </item>
 
