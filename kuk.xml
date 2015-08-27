@@ -2255,24 +2255,21 @@
 </item>
 
 
-<item>
-<title>StepFB ctb 1</title>
-<link>$doregex[url]|User-Agent=iPad</link>
+
+<item>www.du-de.com/2015/07/minions-2015-มินเนี่ยน
+<title>Termin</title>
+<link>$doregex[stream]</link>
 <regex>
-<name>url</name>
-<expres>file: "(.*?)"</expres>
-<page>http://stepfb.net/live/stepfb.php?linkcode=$doregex[code]</page>
-<cookieJar></cookieJar>
-<referer>http://stepfb.net</referer>
-</regex>
-<regex>
-<name>code</name>
-<expres>linkcode=(.*?)'</expres>
-<page>http://stepfb.net/live/chanel/48/</page>
-<cookieJar></cookieJar>
+<name>stream</name>
+<expres>720p".*?(http.*?)"<expres>                                           
+<page>http://www.leoplayer.com/mobileplayer2?v=3756545</page>
+<referer>http://www.du-de.com</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
+
+
+
 
 </channel>
 
