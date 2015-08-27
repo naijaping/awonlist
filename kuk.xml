@@ -2292,8 +2292,8 @@
 </item>
 
 <item>
-<title>NTA 2</title>
-<link>http://astv10sec2.tulix.tv/extarewa24/ext-arewa24.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>front1</title>
+<link>http://astv10sec1.tulix.tv/newfrontiers/newfrontiers.m3u8 /playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
@@ -2306,7 +2306,7 @@
 
 <item>
 <title>mitt</title>
-<link>http://tna2gb9.tulix.tv/hls/astv1mittv/29717e87a9c5060c71479da68fc8cdbc/55e04008/sat-mittv.stream.m3u8</link>
+<link></link>
 <thumbnail></thumbnail>
 </item>
 
