@@ -2292,8 +2292,8 @@
 </item>
 
 <item>
-<title>front1</title>
-<link>http://astv10sec1.tulix.tv/newfrontiers/newfrontiers.m3u8 /playlist.m3u8$doregex[get-auth]</link>
+<title>fash</title>
+<link>http://astv10sec1.tulix.tv/fashionafrica/fashionafrica.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
