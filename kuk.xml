@@ -2285,6 +2285,12 @@
 </item>
 
 
+<item>
+<title>BEN TV</title>
+<link>rtmp://myafricanmega.tulix.tv:1935/map-ben/map-ben swfUrl=http://swf.tulix.tv/jwplayer/jwplayer.flash.swf pageUrl=http://swf.tulix.tv live=1 timeout=20</link>
+<thumbnail></thumbnail>
+</item>
+
 
 </channel>
 
