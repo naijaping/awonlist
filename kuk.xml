@@ -2100,28 +2100,17 @@
 <link>http://vstreamgz.hadara.ps:1935/alfajertv_gaza//fajerhd_1/chunklist_w33835073.m3u8</link>
 </item>
 
-
 <item>
 <title>Radio Palm</title>
 <link>http://67.23.246.19:8002/;listen.mp3</link>
 <thumbnail></thumbnail>
 </item>
 
-
-
 <item>
 <title>VallTime</title>
 <link>http://sporttvamericas-i.akamaihd.net/hls/live/222316/sportTV/mastersportTV_2500kbps.m3u8</link>
 <thumbnail></thumbnail>
 </item>
-
-<item>
-<title>BEIN PREMIER</title>
-<link>http://lihattv.toh.info/jhos/beib3_5/-/playlist.m3u8</link>
-<thumbnail/>
-<fanart/>
-</item>
-
 
 <item>
 <title>Youtube</title>
@@ -2275,17 +2264,6 @@
 <link>http://wowza1.top-ix.org/quartaretetv1/formusicweb/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
-
-
-<item>
-<title>bt sports europe</title>
-<link>http://5.196.82.222:8000/live/bensportpackage/kIEwGfrvIm/1074.m3u8</link>
-<thumbnail/>
-<fanart/>
-</item>
-
-
-
 
 <item>
 <title>vox</title>
