@@ -2292,8 +2292,8 @@
 </item>
 
 <item>
-<title>NTA Giniko</title>
-<link>http://astv10sec3.tulix.tv/bentv/bentv/playlist.m3u8$doregex[get-auth]</link>
+<title>NTA 23</title>
+<link>http://astv10sec1.tulix.tv/extarewa24/ext-arewa24.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
