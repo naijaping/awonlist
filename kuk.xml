@@ -2280,10 +2280,10 @@
 
 
 <item>		
-<title>[COLOR white]mor[/COLOR]</title>
-<link>http://31.220.40.115:80/LiveEdge/SKYSPNews.stream/chunklist_w351132517_b1000000.m3u8?token=$doregex[get-token]</link>
+<title>[COLOR white]mo[/COLOR]</title>
+<link>http://31.220.40.115:80/LiveEdge/SKYSPNews.stream/playlist.m3u8?token=$doregex[tok]</link>
 <regex>
-<name>get-token</name>
+<name>tok</name>
 <expres>"token":"(.*?)"</expres>
 <page>http://portal.iptvprivateserver.tv/stalker_portal/server/load.php?type=stb&action=handshake&token=&JsHttpRequest=1-xml</page>
 <referer>http://portal.iptvprivateserver.tv/stalker_portal/c/</referer>
