@@ -2281,7 +2281,7 @@
 
 <item>		
 <title>[COLOR white]minoo[/COLOR]</title>
-<link>http://31.220.40.115:80/LiveEdge/SKYSPNews.stream/playlist.m3u8?token=$doregex[tok]</link>
+<link>http://31.220.40.115:80/LiveEdge/SKYSPNews.stream/playlist.m3u8?token=$doregex[tok]|Cookie=$get_cookies$</link>
 <regex>
 <name>tok</name>
 <expres>"token":"(.*?)",</expres>
