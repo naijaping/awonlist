@@ -2271,7 +2271,7 @@
 <regex>
 <name>get-token</name>
 <expres>"token":"(.*?)"</expres>
-<page>http://portal.iptvprivateserver.tv/stalker_portal/server/load.php?type=stb&amp;action=handshake&amp;token=&amp;JsHttpRequest=1-xml</page>
+<page>http://portal.iptvprivateserver.tv/stalker_portal/server/load.php?type=stb&action=handshake&token=&JsHttpRequest=1-xml</page>
 <referer>http://portal.iptvprivateserver.tv/stalker_portal/c/index.html</referer>
 </regex>
 
