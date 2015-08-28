@@ -2280,8 +2280,8 @@
 
 
 <item>		
-<title>[COLOR white]min[/COLOR]</title>
-<link>http://31.220.40.115:80/LiveEdge/SKYSPNews.stream/playlist.m3u8?token=$doregex[tok]|Cookie=$get_cookies$</link>
+<title>[COLOR white]Baby[/COLOR]</title>
+<link>http://31.220.41.111:80/LiveEdgeTesting/BabyFirstLA/playlist.m3u8?token=$doregex[tok]|Cookie=$get_cookies$</link>
 <regex>
 <name>tok</name>
 <expres>"token":"(.*?)",</expres>
