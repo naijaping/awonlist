@@ -2265,11 +2265,15 @@
 
 
 
-<item>
-<title>Ymplus</title>
-<link></link>
-<thumbnail></thumbnail>
-</item>
+<item>		
+<title>[COLOR white]HBO 2 East 2 [/COLOR]</title>
+<link>http://31.220.40.115:80/LiveEdge/HBO2EastHD/playlist.m3u8?token=$doregex[get-token]</link>
+<regex>
+<name>get-token</name>
+<expres>token":"(.*?)"</expres>
+<page>http://portal.iptvprivateserver.tv/*******_portal/server/load.php?type=stb&action=handshake&token=&JsHttpRequest=1-xml</page>
+<referer>http://portal.iptvprivateserver.tv/*******_portal/c/</referer>
+</regex>
 
 
 
