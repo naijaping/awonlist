@@ -2281,7 +2281,7 @@
 
 <item>		
 <title>[COLOR white]more4[/COLOR]</title>
-<link>http://31.220.40.115:80/LiveEdge/more4.stream/playlist.m3u8?token=$doregex[get-token]</link>
+<link>http://31.220.40.115/LiveEdge/FoxSportsLA/playlist.m3u8?token=$doregex[get-token]</link>
 <regex>
 <name>get-token</name>
 <expres>"token":"(.*?)",</expres>
