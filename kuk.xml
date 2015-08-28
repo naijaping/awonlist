@@ -2285,6 +2285,26 @@
 </item>
 
 
+</item>
+<item>
+<title>MLB CHANNEL</title>
+<link>http://162.210.192.79:8081/origin/ch1/playlist.m3u8</link>
+</item>
+
+<item>
+<title>NHL NETWORK</title>
+<link>http://162.210.192.79:8081/origin/ch2/playlist.m3u8</link>
+</item>
+
+<item>
+<title>MMA</title>
+<link>http://162.210.192.79:8081/origin/mma/playlist.m3u8</link>
+</item>
+
+<item>
+<title>BT EUROPE</title>
+<link>http://207.244.71.174:8081/origin/bteurope/playlist.m3u8</link>
+</item>
 
 
 
