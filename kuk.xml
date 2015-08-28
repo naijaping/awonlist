@@ -2266,23 +2266,18 @@
 
 
 <item>		
-<title>[COLOR white]habi[/COLOR]</title>
+<title>[COLOR white]ha[/COLOR]</title>
 <link>http://31.220.40.115:80/LiveEdge/HBO2EastHD/playlist.m3u8?token=$doregex[get-token]</link>
 <regex>
 <name>get-token</name>
 <expres>"token":"(.*?)"</expres>
 <page>http://portal.iptvprivateserver.tv/stalker_portal/server/load.php?type=stb&action=handshake&token=&JsHttpRequest=1-xml</page>
-<referer>http://portal.iptvprivateserver.tv/stalker_portal/c/index.html</referer>
+<referer>http://portal.iptvprivateserver.tv/stalker_portal/c/</referer>
 </regex>
 
 
 
 
-<item>
-<title>lumi</title>
-<link>http://31.220.40.115:80/LiveEdge/HBO2EastHD/playlist.m3u8?token=E3E6938D24DC2A02853B05C4E64A2D6A</link>
-<thumbnail></thumbnail>
-</item>
 
 
 
