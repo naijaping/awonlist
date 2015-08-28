@@ -2280,11 +2280,11 @@
 
 
 <item>		
-<title>[COLOR white]Babyoo[/COLOR]</title>
-<link>http://31.220.41.111:80/LiveEdgeTesting/BabyFirstLA/playlist.m3u8?token=$doregex[tok]|Cookie=$get_cookies$</link>
+<title>[COLOR white]Babi[/COLOR]</title>
+<link>http://31.220.40.123:80/LiveEdge/attheraces.stream/playlist.m3u8?token=$doregex[tok]|Cookie=$get_cookies$</link>
 <regex>
 <name>tok</name>
-<expres>"token":"(.*?)"</expres>
+<expres>token":"(.*?)"</expres>
 <page>http://portal.iptvprivateserver.tv/stalker_portal/server/load.php?type=stb&action=handshake&token=&JsHttpRequest=1-xml</page>
 <referer>http://portal.iptvprivateserver.tv/stalker_portal/c/index.html</referer>
 <agent>Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 234 Safari/537.36</agent>
