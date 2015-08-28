@@ -2263,8 +2263,8 @@
 </item>
 
 <item>
-<title>step</title>
-<link>http://stepfb.dyndns.tv:80/vit2/stadium1new.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>step4</title>
+<link>http://103.58.151.2:80/vit2/stadium4new.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
@@ -2277,7 +2277,7 @@
 
 <item>
 <title>Ymplus</title>
-<link>http://tna2gb9.tulix.tv/hls/astvcinemaplus/f5d1f1ea23e0faf687ddcdc00c1300c1/55e0e801/astvcinemaplus.stream.m3u8</link>
+<link></link>
 <thumbnail></thumbnail>
 </item>
 
