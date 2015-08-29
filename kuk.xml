@@ -2333,15 +2333,7 @@
 </item>
 
 
-<item>
-<title>Live 14 (Sportube.Tv)</title>
-<link>$doregex[url]</link>           
-<regex>
-<name>url</name>
-<expres>"Live14".*"(.*m3u8.*?)"</expres>
-<page>http://rest2.sportube.tv/api/default/tv.jsonp</page>
-</regex>
-</item>
+
 
  
 
