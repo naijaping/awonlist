@@ -2310,8 +2310,8 @@
 
 
 <item>
-<title>galav</title>
-<link>http://fubo_univision-i.akamaihd.net/hls/live/223991/Galavision/master.m3u8?hdnts=$doregex[tok]</link>
+<title>gaoo</title>
+<link>http://ak-cred-fubotv-us-en-stream.fubo.tv/UT-Origin/ngrp:fuboTV-Origin_all/chunklist_b3396608.m3u8?hdnts=$doregex[tok]</link>
 <regex>
 <name>tok</name>
 <expres>"token":"(.*?)"</expres>
