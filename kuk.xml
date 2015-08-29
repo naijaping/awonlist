@@ -2335,11 +2335,16 @@
 
 
 <item>
-<title>London Live</title>
-<link>http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ll/london_live_uk.png</thumbnail>
+<title>Lond try</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.londonlive.co.uk/tv</page>
+<referer>http://www.londonlive.co.uk/</referer>
+</regex>
+<thumbnail></thumbnail>
 </item>
-
 
 
 </channel>
