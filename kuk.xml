@@ -2308,7 +2308,7 @@
 
 
 <Item> 
-<title> Network us</title> 
+<title>uk 16</title> 
 <link>$doregex[url]</link>            
 <regex> 
 <name>url</name> 
@@ -2328,7 +2328,7 @@
 <regex> 
 <name>get-first</name> 
 <expres>(geh.*)</expres> 
-<page>http://en.firstonetv.com/stream/us/43</page> 
+<page>http://en.firstonetv.com/stream/uk/16</page> 
 </regex> 
 </item>
 
