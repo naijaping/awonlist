@@ -2333,9 +2333,15 @@
 </item>
 
 <item>
-<item>
-<title>WorksKodi-15</title>
-<link>http://liveedge.sportsdonkey.club/send/wwe.stream/playlist.m3u8</link>
+<title>Africa Magic</title>
+<link>http://liveedge.sportsdonkey.club/send/wwe.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://rudos.tv/site/live/?id=1</page>
+<referer>http://rudos.tv/site/live/</referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/africa_magic_world_za.png</thumbnail>
 </item>
 
 
