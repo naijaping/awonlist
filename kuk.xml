@@ -2333,53 +2333,18 @@
 </item>
 
 <item>
-			<title>HBO Plus</title>
-			<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://cdn.shidurlive.com/player.swf swfVfy=1 pageUrl=http://www.shidurlive.com$doregex[do-ping] live=1 timeout=15</link>
-			<regex>
-				<name>rtmp</name>
-				<expres>ova.php.*\n.*\n.*'streamer', '(.*?)'</expres>
-				<page>$doregex[get-page]</page>
-				<cookieJar></cookieJar>
-				<referer>http://www.moviespremiumhd.com</referer>
-			</regex>
-			<regex>
-				<name>path</name>
-				<expres>ova.php.*\n.*unescape..(.*?)'</expres>
-				<page>$doregex[get-page]</page>
-				<referer>http://www.moviespremiumhd.com</referer>
-			</regex>
-			<regex>
-				<name>do-ping</name>
-				<expres></expres>
-				<page>$doregex[pagewait]$doregex[get-ping]</page>
-				<referer>http://shidurlive.com</referer>
-				<ignorecache/>
-			</regex>
-			<regex>
-				<name>pagewait</name>
-				<expres>$pyFunction: '' if xbmc.sleep(15000) else ''</expres>
-				<page></page>
-				<referer>http://shidurlive.com</referer>
-				<cookieJar></cookieJar>
-			</regex>
-			<regex>
-				<name>get-ping</name>
-				<expres>"pingsts" src="(.*?)"</expres>
-				<page>$doregex[get-page]</page>
-				<cookieJar></cookieJar>
-				<referer>http://www.moviespremiumhd.com</referer>
-			</regex>
-			<regex>
-				<name>get-page</name>
-				<expres>src="(.*?)"</expres>
-				<page>http://shidurlive.com/embed/hboplus</page>
-				<referer>http://www.moviespremiumhd.com</referer>
-				<cookieJar></cookieJar>
-			</regex>
-			<thumbnail></thumbnail>
-			</item>
-
-
+		<item>
+<title>Works in Kodi-15</title>
+<link>https://beinsportnet5-lh.akamaihd.net/i/bisusch332_0@99606/master.m3u8?$doregex[acl]|User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</link>
+<regex>
+    <name>acl</name>
+    <expres>streamAuth.\n...CDATA.(.*?)\]</expres>
+    <page>http://www.en.beinsports.net/streaming/dvr/streaminfo/partnerId_1346/dvrEventId_91923/data.xml?cache_buster=$epoctime$</page>
+    <referer>http://www.en.beinsports.net/connect/bein-sports-news</referer>
+    <agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
+    <cookieJar></cookieJar>
+</regex>
+</item>
 
 
 
