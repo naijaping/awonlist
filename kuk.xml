@@ -2333,16 +2333,51 @@
 </item>
 
 <item>
-<title>Africa Magic</title>
-<link>http://astv10sec3.tulix.tv/africamagic/africamagic/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=211</page>
-<referer></referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/africa_magic_world_za.png</thumbnail>
-</item>
+			<title>HBO Plus</title>
+			<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://cdn.shidurlive.com/player.swf swfVfy=1 pageUrl=http://www.shidurlive.com$doregex[do-ping] live=1 timeout=15</link>
+			<regex>
+				<name>rtmp</name>
+				<expres>ova.php.*\n.*\n.*'streamer', '(.*?)'</expres>
+				<page>$doregex[get-page]</page>
+				<cookieJar></cookieJar>
+				<referer>http://www.moviespremiumhd.com</referer>
+			</regex>
+			<regex>
+				<name>path</name>
+				<expres>ova.php.*\n.*unescape..(.*?)'</expres>
+				<page>$doregex[get-page]</page>
+				<referer>http://www.moviespremiumhd.com</referer>
+			</regex>
+			<regex>
+				<name>do-ping</name>
+				<expres></expres>
+				<page>$doregex[pagewait]$doregex[get-ping]</page>
+				<referer>http://shidurlive.com</referer>
+				<ignorecache/>
+			</regex>
+			<regex>
+				<name>pagewait</name>
+				<expres>$pyFunction: '' if xbmc.sleep(15000) else ''</expres>
+				<page></page>
+				<referer>http://shidurlive.com</referer>
+				<cookieJar></cookieJar>
+			</regex>
+			<regex>
+				<name>get-ping</name>
+				<expres>"pingsts" src="(.*?)"</expres>
+				<page>$doregex[get-page]</page>
+				<cookieJar></cookieJar>
+				<referer>http://www.moviespremiumhd.com</referer>
+			</regex>
+			<regex>
+				<name>get-page</name>
+				<expres>src="(.*?)"</expres>
+				<page>http://shidurlive.com/embed/hboplus</page>
+				<referer>http://www.moviespremiumhd.com</referer>
+				<cookieJar></cookieJar>
+			</regex>
+			<thumbnail></thumbnail>
+			</item>
 
 
 
