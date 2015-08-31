@@ -2346,7 +2346,7 @@
 
 
 <item>
-<title>VoxAfrica TV</title>
+<title>VoxTV</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
