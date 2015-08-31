@@ -2346,11 +2346,11 @@
 
 
 <item>
-<title>VoxTV</title>
-<link>$doregex[reg1]</link>
+<title>VoTV</title>
+<link>http://www.hstack.tk/ds/live.m3u8?id=115&auth=$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>source src="(.*?)"</expres>
+<expres>(auth.*?)"</expres>
 <page>http://www.zoptv.com/live/hbo</page>
 <referer>http://www.zoptv.com/</referer>
 </regex>
