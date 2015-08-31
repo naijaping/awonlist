@@ -2354,6 +2354,18 @@
 </item>
 
 
+<item> 
+<title>Star MoviesHD</title> 
+<link>$doregex[url]</link>
+<regex> 
+<name>url</name> 
+<expres>file: "([^"]*)</expres> 
+<page>http://www.htvonline.com.vn/livetv/star-movie-hd-3132376E61.html</page> 
+</regex> 
+<thumbnail></thumbnail> 
+</item>
+
+
 
 </channel>
 
