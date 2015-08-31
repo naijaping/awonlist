@@ -2354,6 +2354,26 @@
 
 
 
+<item>
+<title>mofo</title>
+<link>http://beta.skystreaming.net/tv/foxhd.m3u8$doregex[tok]</link>
+<regex>
+<name>tok</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('amp','&')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-url</name>
+<expres>file="(.*?)"<expres>
+<page>https://skystreaming.net/tv_plsc.php?r=1441019421</page>
+<referer>https://skystreaming.net/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
+
 </channel>
 
 
