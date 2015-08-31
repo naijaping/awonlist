@@ -2371,22 +2371,7 @@
 </item>
 
 
-<item>
-<title>uush</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>var iosUrl = "(.*?)"<expres>
-<page>http://hplus.com.vn/vi/content/detail/fox-sport-1-hd-3681.html</page>
-<referer>http://hplus.com.vn</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
