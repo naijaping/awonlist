@@ -2346,8 +2346,8 @@
 
 
 <item>
-<title>Vox Africa TV</title>
-<link>http://www.hstack.tk/ds/live.m3u8?id=115&auth=$doregex[reg1]</link>
+<title>VoxAfrica TV</title>
+<link>http://www.hstack.tk/ds/live.m3u8?id=115&amp;auth=$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>auth=(.*?)"</expres>
