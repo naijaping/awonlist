@@ -2341,7 +2341,7 @@
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('&',' ')</expres>
+<expres>$pyFunction:'$doregex[get-url]'.replace('&','amp')</expres>
 <page></page>
 </regex>
 <regex>
