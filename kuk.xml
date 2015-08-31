@@ -2335,26 +2335,6 @@
 </item>
 
 
-
-<item>
-<title>zopi</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>data-source="(.*?)"<expres>
-<page>http://www.htvonline.com.vn/livetv/star-movie-hd-3132376E61.html</page>
-<referer>http://www.htvonline.com.vn/</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-
 <item>
 <title>Fox ash</title>
 <link>$doregex[url]</link>
@@ -2373,12 +2353,12 @@
 </item>
 
 
-<item>
-<title>REAL MADRID TV</title>
-<link>http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/master.m3u8</link>
-<thumbnail/>
-<fanart/>
-</item>
+
+
+
+
+
+
 
 
 
