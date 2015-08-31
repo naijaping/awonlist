@@ -2337,11 +2337,11 @@
 
 
 <item>
-<title>zop</title>
+<title>zopi</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('&','amp')</expres>
+<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
 <page></page>
 </regex>
 <regex>
