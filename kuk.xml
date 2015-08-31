@@ -1479,18 +1479,8 @@
 </regex>
 </item>
 
-<item>
-<title>tv2</title>
-<link>http://itv2liveandroid-i.akamaihd.net/hls/live/itvlive/android/AndroidMain_1200k.m3u8 </link>
-<thumbnail></thumbnail>
-</item>
 
 
-<item>
-<title>Natgeo wild hd</title>
-<link>http://78.30.254.43:8989/udp/239.0.0.168:4000</link>
-<thumbnail></thumbnail>
-</item>
 
 <item>
 <title>Vaughan</title>       
@@ -2342,6 +2332,24 @@
 <title>Meee</title>
 <link>http://ignoreme</link>
 <jsonrpc>plugin://plugin.video.zeus/?description&iconimage=http://s6.postimg.org/gqcz3ne01/All_Sports.png&mode=6&name=[COLOR white][B]ALL SPORT[/B][/COLOR]&url=chin-sport</jsonrpc>
+</item>
+
+
+
+<item>
+<title>alkass</title>
+<link>$doregex[get-m3u8]</link>
+<regex>
+<name>get-m3u8</name>
+<expres>(http.*?.m3u8)"</expres>
+<page>$doregex[get-unpacked]</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>get-unpacked</name>
+<expres>$pyFunction:get_unpacked('http://www.zoptv.com/live/fox-sports','(eval.*)' )</expres>
+<page></page>
+</regex>
 </item>
 
 
