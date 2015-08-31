@@ -2338,17 +2338,23 @@
 </regex> 
 </item>
 
-
-
-<item>
-<title>youu</title>
-<jsonrpc>plugin://plugin.video.zeus/?description&iconimage=http://s6.postimg.org/gqcz3ne01/All_Sports.png&mode=6&name=[COLOR white][B]ALL SPORT[/B][/COLOR]&url=chin-sport</jsonrpc>
-</item>
-
 <item>
 <title>Meee</title>
 <link>http://ignoreme</link>
 <jsonrpc>plugin://plugin.video.zeus/?description&iconimage=http://s6.postimg.org/gqcz3ne01/All_Sports.png&mode=6&name=[COLOR white][B]ALL SPORT[/B][/COLOR]&url=chin-sport</jsonrpc>
+</item>
+
+
+<item>
+<title>Vox Africa TV</title>
+<link>http://www.hstack.tk/ds/live.m3u8?id=115&auth=$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>auth=(.*?)"</expres>
+<page>http://www.zoptv.com/live/hbo</page>
+<referer>http://www.zoptv.com/</referer>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
 
