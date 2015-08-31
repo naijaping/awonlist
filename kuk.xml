@@ -2337,14 +2337,20 @@
 
 
 <item>
-<title>alk</title>
-<link>$doregex[get-m3u8]</link>
+<title>zop</title>
+<link>$doregex[url]</link>
 <regex>
-<name>get-m3u8</name>
-<expres>source src="(.*m3u8.*?)"</expres>
-<page>http://www.zoptv.com/live/fox-sports</page>
-<cookieJar></cookieJar>
+<name>url</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('&',' ')</expres>
+<page></page>
 </regex>
+<regex>
+<name>get-url</name>
+<expres>data-source="(.*?)"<expres>
+<page>http://www.htvonline.com.vn/livetv/star-movie-hd-3132376E61.html</page>
+<referer>http://www.htvonline.com.vn/</referer>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
 
