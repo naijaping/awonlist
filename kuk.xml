@@ -2341,8 +2341,8 @@
 
 
 <item>
-<title>you</title>
-<externallink>plugin://plugin.video.zeus/?description&iconimage=http://s6.postimg.org/gqcz3ne01/All_Sports.png&mode=6&name=[COLOR white][B]ALL SPORT[/B][/COLOR]&url=chin-sport</externallink>
+<title>youu</title>
+<jsonrpc>plugin://plugin.video.zeus/?description&iconimage=http://s6.postimg.org/gqcz3ne01/All_Sports.png&mode=6&name=[COLOR white][B]ALL SPORT[/B][/COLOR]&url=chin-sport</jsonrpc>
 </item>
 
 
