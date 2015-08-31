@@ -2347,10 +2347,10 @@
 
 <item>
 <title>VoxAfrica TV</title>
-<link>http://www.hstack.tk/ds/live.m3u8?id=115&amp;auth=$doregex[reg1]</link>
+<link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>auth=(.*?)"</expres>
+<expres>source src="(.*?)"</expres>
 <page>http://www.zoptv.com/live/hbo</page>
 <referer>http://www.zoptv.com/</referer>
 </regex>
