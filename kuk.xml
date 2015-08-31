@@ -2355,8 +2355,8 @@
 
 
 <item>
-<title>mofo</title>
-<link>http://beta.skystreaming.net/tv/foxhd.m3u8$doregex[tok]</link>
+<title>mofolo</title>
+<link>$doregex[tok]</link>
 <regex>
 <name>tok</name>
 <expres>$pyFunction:'$doregex[get-url]'.replace('amp','&')</expres>
