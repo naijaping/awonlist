@@ -2390,7 +2390,17 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>af</title>
+<link>$doregex[vid]</link>
+<regex>
+<name>vid</name>
+<expres>720p".*?(http.*?)"<expres>                                           
+<page>https://afdah.org/watch?v=Pitch_Perfect_2_2015#video=2YSo78rRXj5AQaxUuKg0QO2Ow97mIKYyhxfKDR1HG_k</page>
+<referer>https://afdah.org/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
