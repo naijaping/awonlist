@@ -2391,12 +2391,12 @@
 </item>
 
 <item>
-<title>1oo</title>
+<title>100</title>
 <link>$doregex[vid]</link>
 <regex>
 <name>vid</name>
 <expres>1080"(https.*?)"<expres>                                           
-<page>https://afdah.org/watch?v=Pitch_Perfect_2_2015</page>
+<page>https://afdah.org/watch?v=Pitch_Perfect_2_2015#video=2YSo78rRXj5AQaxUuKg0QO2Ow97mIKYyhxfKDR1HG_k</page>
 <referer>https://afdah.org/</referer>
 </regex>
 <thumbnail></thumbnail>
