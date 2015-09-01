@@ -2373,18 +2373,22 @@
 
 
 <item>
-<title>South Park</title>
-<link>$doregex[reg1]|User-Agent=Mozilla/5.0</link>
+<title>Movies</title>
+<link>$doregex[file]</link>
 <regex>
-<name>reg1</name>
-<expres>source src="(.*m3u8)"</expres>
-<page>https://arconaitv.me/movies/</page>
-<referer>https://arconaitv.me/</referer>
-<agent>Mozilla/5.0 (Linux; Android 4.4.2; en-gb; SAMSUNG SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36</agent>
+<name>file</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.justproxy.co.uk/index.php</page>
+<referer>http://www.justproxy.co.uk</referer>
+<rawpost>q=$doregex[url-quote]&amp;hl%5Binclude_form%5D=on&amp;hl%5Baccept_cookies%5D=on&amp;hl%5Bshow_images%5D=on&amp;hl%5Bshow_referer%5D=on&amp;hl%5Bbase64_encode%5D=on&amp;hl%5Bstrip_meta%5D=on&amp;hl%5Bsession_cookies%5D=on</rawpost>
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote('https://arconaitv.me/movies/')</expres>
+<page></page>
 </regex>
 <thumbnail></thumbnail>
 </item>
-
 
 
 
