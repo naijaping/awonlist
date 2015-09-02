@@ -2391,14 +2391,8 @@
 </item>
 
 <item>
-<title>200</title>
-<link>$doregex[vid]</link>
-<regex>
-<name>vid</name>
-<expres>1080"(.*?)"<expres>                                           
-<page>https://afdah.org/watch?v=Pitch_Perfect_2_2015#video=2YSo78rRXj5AQaxUuKg0QO2Ow97mIKYyhxfKDR1HG_k</page>
-<referer>https://afdah.org/</referer>
-</regex>
+<title>20</title>
+<link>http://tna2gb9.tulix.tv/hls/astvravetv/a8d5f4275e35a84aa4e48e0ef801b3e8/55e83c32/ravetv.stream.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
