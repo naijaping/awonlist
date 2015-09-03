@@ -2500,10 +2500,13 @@
 </item>
 
 <item>
-<title>Oleku TV Yoruba </title>
-<link>ignorme</link>
-<jsonrpc>plugin://plugin.video.youtube/user/olekutv/&quot;,return</jsonrpc>
-<thumbnail>http://i59.tinypic.com/2qtbb80.jpg</thumbnail>
+<title>Lauch youtube</title>
+<link>$doregex[showyoutube]</link>
+<regex>
+<name>showyoutube</name>
+<expres>$pyFunction:xbmc.executebuiltin('ActivateWindow(10025,&quot;plugin://plugin.video.youtube/user/olekutv/&quot;)')</expres>
+<page></page>
+</regex>
 </item>
 
 
