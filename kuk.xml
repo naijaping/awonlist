@@ -2412,11 +2412,11 @@
 
 
 <item>
-<title>jhbo</title>
+<title>jhboi</title>
 <link>$doregex[getURL]</link>
 <regex>
 <name>getURL</name>
-<expres>responseText ="(.*?)"</expres>
+<expres>responseText ="(.*m3u8.*?)"</expres>
 <page>http://tv.101vn.com/ok/nuocngoai/hbo_1.php</page>
 <setcookie>PHPSESSID=8eg5r1q0dt414h5ce6bicvb256</setcookie>
 </regex>
