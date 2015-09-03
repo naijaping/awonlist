@@ -2392,36 +2392,26 @@
 
 
 <item>
-<title>[B]Jurassic World[/B][COLOR lightslategray][/COLOR]</title>
-<link>http://tna2gb9.tulix.tv/hls/astv1tvnigeria/a8d5f4275e35a84aa4e48e0ef801b3e8/55e83c32/tvnigeria.stream.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>[B]Tv News[/B][COLOR lightslategray][/COLOR]</title>
-<link>http://tna2gb9.tulix.tv/hls/astv1tvcnews/a8d5f4275e35a84aa4e48e0ef801b3e8/55e83c32/tvcnews.stream.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>[B]Tvc plus[/B][COLOR lightslategray][/COLOR]</title>
-<link>http://tna2gb9.tulix.tv/hls/astvtvcplus/a8d5f4275e35a84aa4e48e0ef801b3e8/55e83c32/tvcplus.stream.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>[B]hausa[/B][COLOR lightslategray][/COLOR]</title>
 <link>http://tna2gb9.tulix.tv/hls/astvafricamagichausa/a8d5f4275e35a84aa4e48e0ef801b3e8/55e83c32/africamagichausa.stream.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
+
 <item>
-<title>[B]tivoov[/B][COLOR lightslategray][/COLOR]</title>
-<link></link>
+<title>viet</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>var responseText ="(.*?)"</expres>
+<page>http://tv.101vn.com/livetv-xem-tivi-kenh-hbo-menu-hot.html</page>
+<referer>http://tv.101vn.com/</referer>
+</regex>
 <thumbnail></thumbnail>
 </item>
+
+
+
 
 
 </channel>
