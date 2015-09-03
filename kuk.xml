@@ -2437,6 +2437,23 @@
 </item>
 
 
+<item>
+<title> freetown</title>
+<link>https://afdah.org/$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>1080" src="(.*?)"<expres>
+<page>https://afdah.org/video_info/html5</page>
+<referer>https://afdah.org/watch?v=Freetown_2015#video=2YSo78rRXj5AQaxUuKg0QO2Ow97mIKYyhxfKDR1HG_k</referer>
+<rawpost></rawpost>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
+
+
 
 
 </channel>
