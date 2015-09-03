@@ -2438,14 +2438,14 @@
 
 
 <item>
-<title> freetown</title>
+<title>freetow</title>
 <link>https://afdah.org/$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
 <expres>1080" src="(.*?)"<expres>
 <page>https://afdah.org/video_info/html5</page>
 <referer>https://afdah.org/watch?v=Freetown_2015#video=2YSo78rRXj5AQaxUuKg0QO2Ow97mIKYyhxfKDR1HG_k</referer>
-<rawpost></rawpost>
+<rawpost>v=Freetown_2015</rawpost>
 </regex>
 <thumbnail></thumbnail>
 </item>
