@@ -2398,18 +2398,7 @@
 </item>
 
 
-<item>
-<title>Comptooo</title>
-<link>$doregex[get-url]</link>
-<regex>
-<name>get-url</name>
-<expres>stream_url = '(.*?)'<expres>
-<page>http://sportlive.ws/s/premiersport?player=old</page>
-<referer>http://sportlive.ws/</referer>
-<rawpost></rawpost>
-</regex>
-<thumbnail></thumbnail>
-</item>  
+
 
 
 
