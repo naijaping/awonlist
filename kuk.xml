@@ -2399,16 +2399,14 @@
 
 
 <item>
-<title>hbo</title>
-<link>http://125.212.201.164:1935/liveedge/_definst_/amlst:$hbo$stream$_p2!250000!0!640!360/playlist.m3u8?data=$doregex[url]</link>
+<title>Star Movies Viet **http://tv.101vn.com/livetv-xem-tivi-kenh-starmovie-menu-nuocngoai.html**</title>
+<link>$doregex[getURL]</link>
 <regex>
-<name>url</name>
-<expres>data=(.*?)"</expres>
-<page>http://tv.101vn.com/ok/nuocngoai/hbo_1.php</page>
-<referer>http://tv.101vn.com</referer>
-<agent></agent>
+<name>getURL</name>
+<expres>responseText ="(.*?)"</expres>
+<page>http://tv.101vn.com/ok/nuocngoai/starmovie_1.php</page>
+<setcookie>PHPSESSID=8eg5r1q0dt414h5ce6bicvb256</setcookie>
 </regex>
-<thumbnail></thumbnail>
 </item>
 
 
