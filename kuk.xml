@@ -2423,6 +2423,20 @@
 </item>
 
 
+<item>
+<title> Pitch Perfect 2 (2015)</title>
+<link>https://afdah.org/$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>1080" src="(.*?)"<expres>
+<page>https://afdah.org/video_info/html5</page>
+<referer>https://afdah.org/watch?v=Pitch_Perfect_2_2015#video=RyBwkHIk4pG8uovv5UgCYuvi_27TeJod5Lf-o8KyWyg</referer>
+<rawpost>v=Pitch_Perfect_2_2015</rawpost>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
 
 
 </channel>
