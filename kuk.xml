@@ -2399,12 +2399,12 @@
 
 
 <item>
-<title>vietna</title>
+<title>vie</title>
 <link>$doregex[url]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>url</name>
 <expres>var responseText ="(.*m3u8.*?)"</expres>
-<page>http://tv.101vn.com/livetv-xem-tivi-kenh-hbo-menu-hot.html</page>
+<page>http://tv.101vn.com/ok/nuocngoai/hbo_1.php</page>
 <referer>http://tv.101vn.com/</referer>
 </regex>
 <thumbnail></thumbnail>
