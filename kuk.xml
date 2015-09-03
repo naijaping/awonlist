@@ -2413,25 +2413,19 @@
 
 
 
-<item>Geoblocked to UK
-<title>ITV 10</title>
-<link>http://live.cdn.tvplayer.com$doregex[url]</link>
+<item>
+<title>ITv</title>
+<link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>(.*5\/.*)</expres>
-<page>$doregex[url2]</page>
-<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
-</regex>
-<regex>
-<name>url2</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/')</expres>
+<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
 <page></page>
 </regex>
 <regex>
-<name>jsonurl</name>
-<expres>stream":"(.*?)"</expres>
+<name>get-url</name>
+<expres>"stream":"(.*?)"<expres>
 <page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/90</page>
-<referer>http://assets.cdn.tvplayer.com/web/flash/SSMPlayer_4-0-2.1.swf</referer>
+<referer>http://hplus.com.vn</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
