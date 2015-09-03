@@ -2399,13 +2399,14 @@
 
 
 <item>
-<title>vie</title>
-<link>$doregex[url]|User-Agent=Mozilla/5.0</link>
+<title>vie00</title>
+<link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>var responseText ="(.*m3u8.*?)"</expres>
 <page>http://tv.101vn.com/ok/nuocngoai/hbo_1.php</page>
 <referer>http://tv.101vn.com/</referer>
+<agent>Mozilla/5.0 (Linux; Android 4.4.2; en-gb; SAMSUNG SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36</agent>
 </regex>
 <thumbnail></thumbnail>
 </item>
