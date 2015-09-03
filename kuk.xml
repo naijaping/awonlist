@@ -2376,8 +2376,8 @@
 
 
 <item>
-<title>NTA Hausa</title>
-<link>http://astv10sec3.tulix.tv/africamagichausa/africamagichausa.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>Hausa</title>
+<link>http://astv10sec3.tulix.tv/africamagic/africamagic/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
