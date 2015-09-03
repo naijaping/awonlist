@@ -2399,11 +2399,11 @@
 
 
 <item>
-<title>viet</title>
+<title>vietn</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>var responseText ="(.*?)"</expres>
+<expres>var responseText ="(.*m3u8.*?)"</expres>
 <page>http://tv.101vn.com/livetv-xem-tivi-kenh-hbo-menu-hot.html</page>
 <referer>http://tv.101vn.com/</referer>
 </regex>
