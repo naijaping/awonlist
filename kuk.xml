@@ -2399,13 +2399,13 @@
 
 
 <item>
-<title>Compto</title>
+<title>Comptooo</title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
-<expres>window.stream_url = '(.*?)'<expres>
+<expres>stream_url = '(.*?)'<expres>
 <page>http://sportlive.ws/s/premiersport?player=old</page>
-<referer></referer>
+<referer>http://sportlive.ws/</referer>
 <rawpost></rawpost>
 </regex>
 <thumbnail></thumbnail>
