@@ -2297,12 +2297,6 @@
 </item>
 
 
-<item>
-<title>BTi</title>
-<link>http://myafricanmega3.tulix.tv:1935/map-ifilm/map-ifilm.stream/playlist.m3u8</link>
-</item>
-
-
 <Item>iphone tv
 <title>uk 16</title> 
 <link>$doregex[url]</link>            
@@ -2328,11 +2322,7 @@
 </regex> 
 </item>
 
-<item>
-<title>Meee</title>
-<link>http://ignoreme</link>
-<jsonrpc>plugin://plugin.video.zeus/?description&iconimage=http://s6.postimg.org/gqcz3ne01/All_Sports.png&mode=6&name=[COLOR white][B]ALL SPORT[/B][/COLOR]&url=chin-sport</jsonrpc>
-</item>
+
 
 
 <item>
@@ -2372,23 +2362,7 @@
 
 
 
-<item>
-<title>Movies</title>
-<link>$doregex[file]</link>
-<regex>
-<name>file</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.justproxy.co.uk/index.php</page>
-<referer>http://www.justproxy.co.uk</referer>
-<rawpost>q=$doregex[url-quote]&amp;hl%5Binclude_form%5D=on&amp;hl%5Baccept_cookies%5D=on&amp;hl%5Bshow_images%5D=on&amp;hl%5Bshow_referer%5D=on&amp;hl%5Bbase64_encode%5D=on&amp;hl%5Bstrip_meta%5D=on&amp;hl%5Bsession_cookies%5D=on</rawpost>
-</regex>
-<regex>
-<name>url-quote</name>
-<expres>$pyFunction:urllib.quote('https://arconaitv.me/movies/')</expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 <item>
