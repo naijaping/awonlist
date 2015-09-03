@@ -2413,22 +2413,7 @@
 
 
 
-<item>
-<title>ITv</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>"stream":"(.*?)"<expres>
-<page>http://lapi.cdn.tvplayer.com/tvplayer/stream/live/id/90</page>
-<referer>http://hplus.com.vn</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
