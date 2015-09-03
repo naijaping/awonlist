@@ -2399,14 +2399,14 @@
 
 
 <item>
-<title>Compt</title>
-<link>https://afdah.org/$doregex[get-url]</link>
+<title>Compto</title>
+<link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
-<expres>1080" src="(.*?)"<expres>
-<page>https://putlockerhd.co/video_info/html5</page>
-<referer>https://putlockerhd.co/watch?v=Straight_Outta_Compton_2015#video=2YSo78rRXj5AQaxUuKg0QO2Ow97mIKYyhxfKDR1HG_k</referer>
-<rawpost>v=Straight_Outta_Compton_2015</rawpost>
+<expres>window.stream_url = '(.*?)'<expres>
+<page>http://sportlive.ws/s/premiersport?player=old</page>
+<referer></referer>
+<rawpost></rawpost>
 </regex>
 <thumbnail></thumbnail>
 </item>  
@@ -2499,15 +2499,6 @@
 <thumbnail>http://i59.tinypic.com/2qtbb80.jpg</thumbnail>
 </item>
 
-<item>
-<title>Lauch youtube</title>
-<link>$doregex[showyoutube]</link>
-<regex>
-<name>showyoutube</name>
-<expres>$pyFunction:xbmc.executebuiltin('ActivateWindow(10025,&quot;plugin://plugin.video.youtube/user/olekutv/&quot;)')</expres>
-<page></page>
-</regex>
-</item>
 
 
 
