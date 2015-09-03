@@ -2400,11 +2400,11 @@
 
 <item>
 <title>vimono</title>
-<link>http://125.212.201.164:1935/liveedge/_definst_/amlst:$hbo$stream$_p2!250000!0!640!360/playlist.m3u8$doregex[url]</link>
+<link>http://125.212.201.164:1935/liveedge/_definst_/amlst:$hbo$stream$_p2!250000!0!640!360/playlist.m3u8?data=$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://tv.101vn.com/ok/nuocngoai/hboshow.php</page>
+<expres>data=(.*?)"</expres>
+<page>http://tv.101vn.com/ok/nuocngoai/hbo_1.php</page>
 <referer>http://tv.101vn.com</referer>
 <agent></agent>
 </regex>
