@@ -2398,6 +2398,18 @@
 </item>
 
 
+<item>
+<title>Compt</title>
+<link>https://afdah.org/$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>1080" src="(.*?)"<expres>
+<page>https://putlockerhd.co/video_info/html5</page>
+<referer>https://putlockerhd.co/watch?v=Straight_Outta_Compton_2015#video=2YSo78rRXj5AQaxUuKg0QO2Ow97mIKYyhxfKDR1HG_k</referer>
+<rawpost>v=Straight_Outta_Compton_2015</rawpost>
+</regex>
+<thumbnail></thumbnail>
+</item>  
 
 
 
