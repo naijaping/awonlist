@@ -2399,8 +2399,8 @@
 
 
 <item>
-<title>vietn</title>
-<link>$doregex[url]</link>
+<title>vietna</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>url</name>
 <expres>var responseText ="(.*m3u8.*?)"</expres>
