@@ -2366,18 +2366,13 @@
 
 
 <item>
-<title>ashii</title>
-<link>http://htqjrpsv.cdnviet.com/htjzzsg/_definst_/vtv6.720p.stream/playlist.m3u8$doregex[url]</link>
+<title>VTV</title>
+<link>$doregex[reg1]</link>
 <regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>iosUrl = "(.*?)"<expres>
-<page>http://hplus.com.vn/vi/content/detail/vtv6-hd-2129.html</page>
-<referer>http://hplus.com.vn</referer>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://vtvplay.vn/kenh-truyen-hinh</page>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
