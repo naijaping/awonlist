@@ -2366,18 +2366,18 @@
 
 
 <item>
-<title>TrulifeHD</title>
+<title>TruHD</title>
 <link>$doregex[reg1]$doregex[tok] live=1 timeout=15</link>
 <regex>
 <name>reg1</name>
 <expres>file: "(.*?)"</expres>
-<page>http://tv.truelife.com/live/1838618</page>
+<page>http://tv.truelife.com/jwplayer/1838618</page>
 <referer>http://tv.truelife.com/</referer>
 </regex>
 <regex>
 <name>tok</name>
 <expres>aestoken: '(.*?)'</expres>
-<page>http://tv.truelife.com/live/1838618</page>
+<page>http://tv.truelife.com/jwplayer/1838618</page>
 <referer>http://tv.truelife.com/</referer>
 </regex><thumbnail></thumbnail>
 </item>
