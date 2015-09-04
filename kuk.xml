@@ -2363,23 +2363,8 @@
 
 
 
-
-
 <item>
-<title>ruHD</title>
-<link>$doregex[reg1] live=1 timeout=15</link>
-<regex>
-<name>reg1</name>
-<expres>file: "(.*?)"</expres>
-<page>http://tv.truelife.com/jwplayer/1838618</page>
-<referer>http://tv.truelife.com/</referer>
-</regex>
-</regex><thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>MFMHD</title>
+<title>Truelife</title>
 <link>$doregex[getURL]</link>
 <regex>
 <name>getURL</name>
