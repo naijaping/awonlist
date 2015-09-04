@@ -2379,7 +2379,21 @@
 
 
 
-
+        <item>
+	<title>MFMHD</title>
+	<link>$doregex[getURL]</link>
+	<regex>
+	<name>getURL</name>
+	<expres>$pyFunction:'$doregex[getLink]'.replace('\\/','/')</expres>
+	<page></page>
+	</regex>
+	<regex>
+	<name>getLink</name>
+	<expres>file: "(.*?)"</expres>
+	<page>http://tv.truelife.com/jwplayer/1838618</page>
+	<referer>http://tv.truelife.com/</referer>
+	</regex>
+	</item>
 
 
 
