@@ -2382,7 +2382,7 @@
 
 
 <item>http://thethaohd.net/v/foxsport1.php
-<title>Foash1</title>
+<title>Foxsh1</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -2399,7 +2399,7 @@
 </item>
 
 <item>http://thethaohd.net/v/foxsport1.php
-<title>Foash2</title>
+<title>Foxsh2</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
