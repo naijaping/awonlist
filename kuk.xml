@@ -2405,11 +2405,11 @@
 </item>
 
 <item>giniko.com
-<title>mid</title>
+<title>mid0</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>file: "(.*?)"</expres>
+<expres>file: "(.*m3u8.*?)"</expres>
 <page>https://www.prohdbox.com/watch.php?mid=1497</page>
 <referer>https://www.prohdbox.com/</referer>
 </regex>
