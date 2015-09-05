@@ -2406,15 +2406,16 @@
 
 
 <item>
-<title>Netii000</title>
+<title>N0</title>
 <link>$doregex[get-rtmp] live=1 timeout=15</link>
 <regex>
 <name>get-rtmp</name>
-<expres>file: "(.*m3u8.*?)"</expres>
+<expres>file: "(.*?)"</expres>
 <page>https://www.prohdbox.com/live.php?chid=57</page>
 <referer>https://www.prohdbox.com/</referer>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
-<rawpost>user_id=themust23&amp;user_pw=5985871&amp;PHPSESSID=a9c4vqlqlc73qpvdv6nnkbqan3<rawpost>
+<rawpost>user_id=themust23&amp;user_pw=5985871<rawpost>
+<setcookie>PHPSESSID=a9c4vqlqlc73qpvdv6nnkbqan3</setcookie>
 </regex>
 <thumbnail></thumbnail>
 </item>
