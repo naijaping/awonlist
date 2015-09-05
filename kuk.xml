@@ -2420,7 +2420,7 @@
 
 
 <item>
-<title>muto3</title>
+<title>muto30</title>
 <link>$doregex[get-url] live=1 timeout=15 </link>
 <regex>
 <name>get-url</name>
@@ -2428,6 +2428,7 @@
 <page>https://www.prohdbox.com/live.php?chid=57</page>
 <referer>https://www.prohdbox.com/live.php/</referer>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
+<setcookie>PHPSESSID=a9c4vqlqlc73qpvdv6nnkbqan3</setcookie>
 <cookieJar>$doregex[get-captcha]</cookieJar>
 </regex>
 <regex>
