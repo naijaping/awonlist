@@ -2405,12 +2405,12 @@
 </item>
 
 <item>giniko.com
-<title>Ag0iii</title>
-<link>http://vodsv1.prohdbox.com:1935/vod1/_definst_/mp4:vod2/varity/cuakuntoy.2015.03.09.2558.mp4/playlist.m3u8$doregex[url]</link>
+<title>mid</title>
+<link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>m3u8(\?.*)'</expres>
-<page>https://www.prohdbox.com/watch.php?rtvid=6&epid=396</page>
+<expres>file: "(.*?)"</expres>
+<page>https://www.prohdbox.com/watch.php?mid=1497</page>
 <referer>https://www.prohdbox.com/</referer>
 </regex>
 <thumbnail></thumbnail>
