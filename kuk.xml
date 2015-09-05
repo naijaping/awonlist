@@ -2415,6 +2415,13 @@
 </item>
 
 
+
+<item><title>Livetv</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=customs.cfg&mode=1</jsonrpc>
+</item>
+
+
 </channel>
 
 
