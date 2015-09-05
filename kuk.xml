@@ -2405,11 +2405,11 @@
 </item>
 
 <item>giniko.com
-<title>Ag0000</title>
-<link>$doregex[url]</link>
+<title>Ag0iii</title>
+<link>http://vodsv1.prohdbox.com:1935/vod1/_definst_/mp4:vod2/varity/cuakuntoy.2015.03.09.2558.mp4/playlist.m3u8$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>file: "(.*m3u8.*?)"</expres>
+<expres>m3u8(\?.*)'</expres>
 <page>https://www.prohdbox.com/watch.php?rtvid=6&epid=396</page>
 <referer>https://www.prohdbox.com/</referer>
 </regex>
