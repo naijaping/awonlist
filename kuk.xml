@@ -2405,13 +2405,13 @@
 </item>
 
 <item>giniko.com
-<title>miduu</title>
-<link>http://vodsv1.prohdbox.com:1935/vod1/_definst_/mp4:vod2/inter/Return.To.Sender.2015.720p.en.mp4/playlist.m3u8$doregex[url]</link>
+<title>mu</title>
+<link>http://edge1.prohdbox.com:1935/edgepk/pk11.stream/playlist.m3u8$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>m3u8(\?.*)"</expres>
-<page>https://www.prohdbox.com/watch.php?mid=1497</page>
-<referer>https://www.prohdbox.com/</referer>
+<page>http://bit.ly/1LNoGly</page>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
