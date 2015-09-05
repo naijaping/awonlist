@@ -2405,7 +2405,21 @@
 </item>
 
 
-
+<item>
+<title>cnn</title>
+<link>$doregex[getURL]</link>
+<regex>
+<name>getURL</name>
+<expres>$pyFunction:'$doregex[getLink]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>getLink</name>
+<expres>file: "(.*?)"</expres>
+<page>http://tvonlineplus.com/embed/indonesia/cnni.php</page>
+<referer>http://tvonlineplus.com/</referer>
+</regex>
+</item>
 
 
 
