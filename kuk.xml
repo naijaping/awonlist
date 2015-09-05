@@ -2404,42 +2404,6 @@
 <link>http://edge1.prohdbox.com:1935/edgepk/pk60.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMTUgNTozOTowNCBQTSZoYXNoX3ZhbHVlPThaTHh5MCtiR2djaGNGT2RmMTdjMGc9PSZ2YWxpZG1pbnV0ZXM9MjA=</link>
 </item>
 
-<item>giniko.com
-<title>miolo</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: "(.*m3u8.*?)"</expres>
-<page>https://www.prohdbox.com/live.php?chid=57</page>
-<setcookie>PHPSESSID=a9c4vqlqlc73qpvdv6nnkbqan3</setcookie>
-<agent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0</agent>
-<referer>https://www.prohdbox.com/index.php</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>muto30</title>
-<link>$doregex[get-url] live=1 timeout=15 </link>
-<regex>
-<name>get-url</name>
-<<expres>file: "(.*m3u8.*?)"</expres>
-<page>https://www.prohdbox.com/live.php?chid=57</page>
-<referer>https://www.prohdbox.com/live.php/</referer>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
-<setcookie>PHPSESSID=a9c4vqlqlc73qpvdv6nnkbqan3</setcookie>
-<cookieJar>$doregex[get-captcha]</cookieJar>
-</regex>
-<regex>
-<name>get-captcha</name>
-<expres></expres>
-<page>https://www.prohdbox.com/index.php</page>
-<rawpost>user_id=themust23&amp;user_pw=5985871<rawpost>
-<referer>https://www.prohdbox.com</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 
 
