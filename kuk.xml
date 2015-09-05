@@ -2405,14 +2405,15 @@
 </item>
 
 <item>giniko.com
-<title>mio</title>
+<title>miolo</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>file: "(.*m3u8.*?)"</expres>
 <page>https://www.prohdbox.com/live.php?chid=57</page>
-<setcookie>PHPSESSID=h0so2ci56vpbsltvitkhdffig0</setcookie>
-<referer></referer>
+<setcookie>PHPSESSID=a9c4vqlqlc73qpvdv6nnkbqan3</setcookie>
+<agent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0</agent>
+<referer>https://www.prohdbox.com/index.php</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
