@@ -2382,7 +2382,7 @@
 
 
 <item>http://thethaohd.net/v/foxsport1.php
-<title>Foxsh1</title>
+<title>FAsia 1</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -2399,7 +2399,7 @@
 </item>
 
 <item>http://thethaohd.net/v/foxsport1.php
-<title>Foxsh2</title>
+<title>FAsia  2</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -2411,6 +2411,24 @@
 <expres>channel_stream = '(.*?)'<expres>
 <page>http://thethaohd.net/v/foxsport2.php</page>
 <referer>http://thethaohd.net/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>starmo</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-url</name>
+<expres>channel_stream = '(.*?)'<expres>
+<page>http://phut91.com/videoplayer/starmovie.php</page>
+<referer>http://phut91.com/</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
