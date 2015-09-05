@@ -2393,8 +2393,8 @@
 <regex>
 <name>get-url</name>
 <expres>channel_stream = '(.*?)'<expres>
-<page>http://thethaohd.net/v/starworld.php</page>
-<referer>http://thethaohd.net/</referer>
+<page>http://the</page>
+<referer>http://the</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
