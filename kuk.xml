@@ -2405,13 +2405,13 @@
 </item>
 
 <item>giniko.com
-<title>mulo</title>
-<link>http://edge1.prohdbox.com:1935/edgepk/pk11.stream/playlist.m3u8$doregex[url]</link>
+<title>mulio</title>
+<link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>m3u8(\?.*)"</expres>
+<expres>file:"(.*?)"</expres>
 <page>https://www.prohdbox.com/live.php?chid=57</page>
-setcookie>PHPSESSID=h0so2ci56vpbsltvitkhdffig0</setcookie>
+<setcookie>PHPSESSID=h0so2ci56vpbsltvitkhdffig0</setcookie>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
