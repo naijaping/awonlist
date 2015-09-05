@@ -2383,7 +2383,7 @@
 
 
 <item>
-<title>starm world</title>
+<title>MVHD</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -2392,9 +2392,9 @@
 </regex>
 <regex>
 <name>get-url</name>
-<expres>channel_stream = '(.*?)'<expres>
-<page>http://the</page>
-<referer>http://the</referer>
+<expres> file: '(.*?)'<expres>
+<page>http://goo.gl/GBX0hw</page>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
