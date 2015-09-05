@@ -2410,7 +2410,7 @@
 <regex>
 <name>url</name>
 <expres>m3u8(\?.*)"</expres>
-<page>http://bit.ly/1LNoGly</page>
+<page>https://www.prohdbox.com/live.php?chid=57</page>
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
