@@ -2381,11 +2381,22 @@
 
 
 
-<item>
-<title>T0i</title>
-<link></link>
+<item>http://thethaohd.net/v/foxsport1.php
+<title>Foash</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-url</name>
+<expres>channel_stream = '(.*?)'<expres>
+<page>http://thethaohd.net/v/foxsport1.php</page>
+<referer>http://thethaohd.net/</referer>
+</regex>
+<thumbnail></thumbnail>
 </item>
-
 
 
 
