@@ -2415,10 +2415,8 @@
 </item>
 
 <item>
-<title>BEIN 12 TEST</title>
-<link>
-http://37.187.248.101:8080/Bein8.stream/index.m3u8?6dbc814556263ef64868c62bbd100d1a
-</link>
+<title>BEIN12 TEST</title>
+<link>http://37.187.248.101:8080/Bein8.stream/index.m3u8?6dbc814556263ef64868c62bbd100d1a</link>
 <thumbnail/>
 <fanart/>
 </item>
