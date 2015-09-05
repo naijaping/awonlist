@@ -2406,7 +2406,7 @@
 
 
 <item>
-<title>Netwull</title>
+<title>Net</title>
 <link>$doregex[get-rtmp] live=1 timeout=15</link>
 <regex>
 <name>get-rtmp</name>
@@ -2422,7 +2422,6 @@
 <page>www.prohdbox.com</page>
 <rawpost>user_id=themust23&amp;user_pw=5985871&amp;PHPSESSID=a9c4vqlqlc73qpvdv6nnkbqan3<rawpost>
 <referer>https://www.prohdbox.com/authentication.php</referer>
-<x-req>XMLHttpRequest</x-req>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
 <cookieJar></cookieJar>
 </regex>
