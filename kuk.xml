@@ -2381,43 +2381,9 @@
 
 
 
-<item>http://thethaohd.net/v/foxsport1.php
-<title>FAsia 1</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>channel_stream = '(.*?)'<expres>
-<page>http://thethaohd.net/v/foxsport1.php</page>
-<referer>http://thethaohd.net/</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>http://thethaohd.net/v/foxsport1.php
-<title>FAsia  2</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>channel_stream = '(.*?)'<expres>
-<page>http://thethaohd.net/v/foxsport2.php</page>
-<referer>http://thethaohd.net/</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
 
 <item>
-<title>starmo</title>
+<title>starm world</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -2427,8 +2393,8 @@
 <regex>
 <name>get-url</name>
 <expres>channel_stream = '(.*?)'<expres>
-<page>http://phut91.com/videoplayer/starmovie.php</page>
-<referer>http://phut91.com/</referer>
+<page>http://thethaohd.net/v/starworld.php</page>
+<referer>http://thethaohd.net/</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
