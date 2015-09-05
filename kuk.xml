@@ -2406,8 +2406,8 @@
 
 
 <item>
-<title>Netw</title>
-<link>http://$doregex[get-rtmp] live=1 timeout=15</link>
+<title>Netwull</title>
+<link>$doregex[get-rtmp] live=1 timeout=15</link>
 <regex>
 <name>get-rtmp</name>
 <expres>file: "(.*m3u8.*?)"</expres>
