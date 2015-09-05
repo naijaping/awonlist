@@ -2405,14 +2405,14 @@
 </item>
 
 <item>
-	<title>Low</title>
-	<link>$doregex[stream] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://www.cablenoticias.tv/ live=1 timeout=15</link>
-	<regex>
-	<name>stream</name>
-	<expres> file: '(.*?)'</expres>
-	<page>http://www.cablenoticias.tv/</page>
-	</regex>
-	</item>
+<title>Notical regex</title>
+<link>$doregex[stream] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://www.cablenoticias.tv/ live=1 timeout=15</link>
+<regex>
+<name>stream</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.cablenoticias.tv/</page>
+</regex>
+</item>
 
 
 </channel>
