@@ -2404,6 +2404,21 @@
 <link></link>
 </item>
 
+<item>
+<title>Tr</title>
+<link>$doregex[getURL]</link>
+<regex>
+<name>getURL</name>
+<expres>$pyFunction:'$doregex[getLink]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>getLink</name>
+<expres>240p"{file:"(.*?)"</expres>
+<page>http://thevideos.tv/embed-n2rwx24pod13-728x410.html</page>
+<referer>http://thevideos.tv/</referer>
+</regex>
+</item>
 
 
 
