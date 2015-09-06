@@ -2405,7 +2405,7 @@
 </item>
 
 <item>
-<title>Tr000</title>
+<title>Truiii</title>
 <link>$doregex[getURL]</link>
 <regex>
 <name>getURL</name>
@@ -2414,9 +2414,9 @@
 </regex>
 <regex>
 <name>getLink</name>
-<expres>{file:"(.*?)"</expres>
+<expres>file:"(.*?)"</expres>
 <page>http://thevideos.tv/embed-n2rwx24pod13-728x410.html</page>
-<referer>http://thevideos.tv/</referer>
+<referer></referer>
 </regex>
 </item>
 
