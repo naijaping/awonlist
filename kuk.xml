@@ -2405,33 +2405,19 @@
 </item>
 
 
-<item>
-<title>shout</title>
-<link>$doregex[getURL]</link>
+<item>http://thethaohd.net/v/foxsport1.php
+<title>FAsia 1</title>
+<link>$doregex[url]</link>
 <regex>
-<name>getURL</name>
-<expres>$pyFunction:'$doregex[getLink]'.replace('\\/','/')</expres>
+<name>url</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
 <page></page>
 </regex>
 <regex>
-<name>getLink</name>
-<expres>file: '(.*?)'</expres>
-<page>http://shoutcastmedia.com/domistreaming/hd.html</page>
-<referer>http://shoutcastmedia.com/</referer>
-</regex>
-</item>
-
-
-
-
-<item>
-<title>VoTVuuu</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>href="(.*m3u8)"</expres>
-<page>http://www.tfolc.org/webcast</page>
-<referer></referer>
+<name>get-url</name>
+<expres>channel_stream = '(.*?)'<expres>
+<page>http://thethaohd.net/v/foxsport1.php</page>
+<referer>http://thethaohd.net/</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
