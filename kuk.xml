@@ -2427,11 +2427,11 @@
 
 
 <item>
-<title>VoTV</title>
+<title>VoTVi</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>href="(.*?)"</expres>
+<expres>a href="(.*?)"</expres>
 <page>http://www.tfolc.org/webcast</page>
 <referer></referer>
 </regex>
