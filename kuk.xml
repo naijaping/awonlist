@@ -2426,6 +2426,19 @@
 </item>
 
 
+<item>
+<title>Vox Africa TV</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>iPod" href="(.*?)"</expres>
+<page>http://www.tfolc.org/webcast</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
 </channel>
 
 
