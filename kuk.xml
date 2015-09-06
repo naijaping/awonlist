@@ -2427,11 +2427,11 @@
 
 
 <item>
-<title>Vox Africa TV</title>
+<title>VoTV</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>iPod" href="(.*?)"</expres>
+<expres>href="(.*?)"</expres>
 <page>http://www.tfolc.org/webcast</page>
 <referer></referer>
 </regex>
