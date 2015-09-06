@@ -2406,7 +2406,7 @@
 
 
 <item>
-<title>cnn</title>
+<title>shout</title>
 <link>$doregex[getURL]</link>
 <regex>
 <name>getURL</name>
@@ -2415,9 +2415,9 @@
 </regex>
 <regex>
 <name>getLink</name>
-<expres>file: "(.*?)"</expres>
-<page>http://tvonlineplus.com/embed/indonesia/cnni.php</page>
-<referer>http://tvonlineplus.com/</referer>
+<expres>file: '(.*?)'</expres>
+<page>http://shoutcastmedia.com/domistreaming/hd.html</page>
+<referer>http://shoutcastmedia.com/</referer>
 </regex>
 </item>
 
