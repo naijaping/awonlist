@@ -2404,22 +2404,23 @@
 <link></link>
 </item>
 
+
 <item>
-<title>Truiii</title>
-<link>$doregex[getURL]</link>
+<title>VTV HD</title>
+<link>$doregex[url]</link>
 <regex>
-<name>getURL</name>
-<expres>$pyFunction:'$doregex[getLink]'.replace('\\/','/')</expres>
+<name>url</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
 <page></page>
 </regex>
 <regex>
-<name>getLink</name>
-<expres>file:"(.*?)"</expres>
-<page>http://thevideos.tv/embed-n2rwx24pod13-728x410.html</page>
+<name>get-url</name>
+<expres> file: '(.*?)'<expres>
+<page>http://goo.gl/SpLkOh</page>
 <referer></referer>
 </regex>
+<thumbnail></thumbnail>
 </item>
-
 
 
 
