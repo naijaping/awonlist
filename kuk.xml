@@ -2430,17 +2430,6 @@
 </item>
 
 
-<item>
-<title>NTV Musique Regex</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>responseText ="(.*?)"</expres>
-<page>http://m.tivi12h.net/hbo.php</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 
 
