@@ -2432,17 +2432,7 @@
 
 
 
-<item>
-<title>Lebaro</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>"url":"(.*?)"</expres>
-<page>https://api.lebaraplay.com/api/v1/channels/1music-india-6500fa/stream_types?client_id=spbtv-web&client_version=0.1.0&locale=en_GB&timezone=3600</page>
-<cookiejar></cookiejar>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
