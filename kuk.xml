@@ -2404,31 +2404,6 @@
 <link>http://tna2gb9.tulix.tv/hls/astv1foxmovies/162fa14785cb060d9744cf65253bbda8/55f02906/foxmovies.stream.m3u8</link>
 </item>
 
-<Item>iphone tv
-<title>italo16</title> 
-<link>$doregex[url]</link>            
-<regex> 
-<name>url</name> 
-<expres>HLSurl='(.*?)'</expres> 
-<page>$doregex[get-unpacked]</page> 
-</regex> 
-<regex> 
-<name>get-unpacked</name> 
-<expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)')</expres> 
-<page>$doregex[get-decoded]</page> 
-</regex> 
-<regex> 
-<name>get-decoded</name> 
-<expres>$pyFunction:get_packed_iphonetv_url(page_data);</expres> 
-<page>$doregex[get-first]</page> 
-</regex> 
-<regex> 
-<name>get-first</name> 
-<expres>(geh.*)</expres> 
-<page>http://en.firstonetv.com/stream/it/3</page> 
-</regex> 
-</item>
-
 
 <item>
 <title>ITV Edo State</title>
