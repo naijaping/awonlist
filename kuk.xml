@@ -2436,8 +2436,8 @@
 
 
 <item>
-<title>Ben Tv</title>
-<link>http://astv10sec1.tulix.tv/sat-spice/sat-spice.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>BenTv3</title>
+<link>http://astv10sec3.tulix.tv/sat-spice/sat-spice.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
