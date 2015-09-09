@@ -2382,22 +2382,22 @@
 
 
 
-<item>
-<title>MVHD</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres> file: '(.*?)'<expres>
-<page>http://goo.gl/GBX0hw</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+	<item>
+	<title>MVHD</title>
+	<link>$doregex[url]</link>
+	<regex>
+	<name>url</name>
+	<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
+	<page></page>
+	</regex>
+	<regex>
+	<name>get-url</name>
+	<expres> file: '(.*?)'<expres>
+	<page>http://goo.gl/GBX0hw</page>
+	<referer></referer>
+	</regex>
+	<thumbnail></thumbnail>
+	</item>
 
 <item>
 <title>Nogo</title>
@@ -2432,6 +2432,24 @@
 <title>Adeol aFayehun</title> 
 <Utube>AdeolaFayehun</Utube> 
 <thumbnail>http://s5.postimg.org/efbq7cg13/Live_TV.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>zee</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-url</name>
+<expres>file":"(.*?)"<expres>
+<page>http://www.dittotv.com/livetv/zee-marathi</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
 
