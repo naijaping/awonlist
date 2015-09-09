@@ -2439,7 +2439,7 @@
 
 
 <item>
-	<title>testu</title>
+	<title>testum</title>
 	<link>$doregex[url]</link>
 	<regex>
 	<name>url</name>
@@ -2448,7 +2448,7 @@
 	</regex>
 	<regex>
 	<name>get-url</name>
-	<expres>720p","url":"(.*?)"<expres>
+	<expres>"url":"(.*?)"<expres>
 	<page>http://videoapi.my.mail.ru/videos/mail/burningwhee1s/_myvideo/1177.json</page>
 	<referer>http://videoapi.my.mail.ru</referer>
 	</regex>
