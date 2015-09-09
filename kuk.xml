@@ -2435,20 +2435,25 @@
 </item>
 
 
-<item>น
-<title>Testi</title>
-<link>$doregex[stream]</link>
-<regex>
-<name>stream</name>
-<expres>720p","url":"(.*?)"<expres>                                           
-<page>http://videoapi.my.mail.ru/videos/mail/burningwhee1s/_myvideo/1177.json</page>
-<referer>http://videoapi.my.mail.ru/</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 
 
+<item>
+	<title>testu</title>
+	<link>$doregex[url]</link>
+	<regex>
+	<name>url</name>
+	<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
+	<page></page>
+	</regex>
+	<regex>
+	<name>get-url</name>
+	<expres>720p","url":"(.*?)"<expres>
+	<page>http://videoapi.my.mail.ru/videos/mail/burningwhee1s/_myvideo/1177.json</page>
+	<referer>http://videoapi.my.mail.ru</referer>
+	</regex>
+	<thumbnail></thumbnail>
+	</item>
 
 
 </channel>
