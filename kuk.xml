@@ -2435,7 +2435,17 @@
 </item>
 
 
-
+<item>น
+<title>Test</title>
+<link>$doregex[stream]</link>
+<regex>
+<name>stream</name>
+<expres>360p".*?(http.*?)"<expres>                                           
+<page>http://videoapi.my.mail.ru/videos/mail/burningwhee1s/_myvideo/1177.json</page>
+<referer>http://videoapi.my.mail.ru/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
