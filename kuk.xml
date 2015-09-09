@@ -2435,20 +2435,7 @@
 </item>
 
 
-<item>
-<title>Ditto</title>
-<link>$doregex[url]|Referer=http://www.dittotv.com/assets/flash/jwplayer.flash.swf</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\u0026','&amp;')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>"file":"(http.*?)"</expres>
-<page>http://www.dittotv.com/channels/zee-aflam</page>
-</regex>
-</item>
+
 
 
 
