@@ -2437,11 +2437,11 @@
 
 
 <item>
-<title>TomandJ</title>
+<title>Toma</title>
 <link>$doregex[rtmp] playpath=tom swfUrl=http://www.carolineoliveira.com.br/swf/player.swf live=1 timeout=15 pageUrl=http://carolineoliveira.com.br/tvamigos/tomejerry.html</link>
 <regex>
 <name>rtmp</name>
-<expres>streamer=(.*?)"</expres>
+<expres>streamer=(.*?)&amp;"</expres>
 <page>http://www.aovivobrasil.com/tvamigos2/tomejerry.php</page>
 <agent></agent>
 <referer></referer>
