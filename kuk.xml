@@ -2449,12 +2449,12 @@
 </item>
 
 <item>
-<title>Wazobia</title>
+<title>WazobiaTV</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
-<expres>source src="(.*m3u8)"</expres>
-<page>http://www.shadow-net.biz/channels/Trace-Urban.html</page>
+<expres>source src="(.*m3u8.*?)"</expres>
+<page>http://www.shadow-net.biz/channels/BT-Sport-Europe.html</page>
 <referer>http://www.shadow-net.biz/</referer>
 </regex>
 <thumbnail></thumbnail>
