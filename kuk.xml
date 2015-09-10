@@ -2437,11 +2437,11 @@
 
 
 <item>
-<title>Tom and Jerry</title>
+<title>TomandJerry</title>
 <link>rtmp://206.190.132.244/tvamigos?wmsAuthSign=$doregex[get-auth] playpath=tom swfUrl=http://www.carolineoliveira.com.br/swf/player.swf live=1 timeout=15 pageUrl=http://carolineoliveira.com.br/tvamigos/tomejerry.html</link>
 <regex>
 <name>get-auth</name>
-<expres>wmsAuthSign=(.*?)"</expres>
+<expres>wmsAuthSign=(.*?)/</expres>
 <page>http://www.aovivobrasil.com/tvamigos2/tomejerry.php</page>
 <agent></agent>
 <referer></referer>
