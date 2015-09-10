@@ -2435,7 +2435,18 @@
 </item>
 
 
-
+<item>
+<title>Tomi</title>
+<link>$doregex[rtmp] playpath=tom swfUrl=http://www.carolineoliveira.com.br/swf/player.swf live=1 timeout=15 pageUrl=http://carolineoliveira.com.br/tvamigos/tomejerry.html</link>
+<regex>
+<name>rtmp</name>
+<expres>streamer=(.*?)"</expres>
+<page>http://www.aovivobrasil.com/tvamigos2/tomejerry.php</page>
+<agent></agent>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
@@ -2515,18 +2526,7 @@
 <thumbnail>http://i59.tinypic.com/2qtbb80.jpg</thumbnail>
 </item>
 
-<item>
-<title>Tomii</title>
-<link>$doregex[rtmp] playpath=tom swfUrl=http://www.carolineoliveira.com.br/swf/player.swf live=1 timeout=15 pageUrl=http://carolineoliveira.com.br/tvamigos/tomejerry.html</link>
-<regex>
-<name>rtmp</name>
-<expres>file=(streamer.*?)"</expres>
-<page>http://www.aovivobrasil.com/tvamigos2/tomejerry.php</page>
-<agent></agent>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 </channel>
