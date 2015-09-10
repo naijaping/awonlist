@@ -2434,17 +2434,7 @@
 <thumbnail>http://s5.postimg.org/efbq7cg13/Live_TV.jpg</thumbnail>
 </item>
 
-<item>
-<title>VoTV</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>iosUrl = "(.*?)"</expres>
-<page>http://phim.megabox.vn/iframe/8087</page>
-<referer>http://phim.megabox.vn/</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/voxafrica_afrique.png</thumbnail>
-</item>
+
 
 
 
