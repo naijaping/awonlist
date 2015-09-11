@@ -2454,7 +2454,7 @@
 <regex>
 <name>reg1</name>
 <expres>source src="(.*m3u8.*?)"</expres>
-<page>http://www.shadow-net.biz/channels/BT-Sport-Europe.html</page>
+<page>http://www.shadow-net.biz/channels/TSN-1.html</page>
 <referer>http://www.shadow-net.biz/</referer>
 </regex>
 <thumbnail></thumbnail>
