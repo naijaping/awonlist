@@ -2462,32 +2462,6 @@
 
 
 
-<item>
-<title>ditto</title>
-<link>$doregex[get-url]</link>
-<regex>
-<name>get-url</name>
-<expres><![CDATA[#$pyFunction
-import time
-import urllib2,urllib,re,json,base64
-def GetLSProData(page_data,Cookie_Jar,m,key='0Mube7Y8Z9imJ3TRVl91HQ==',iv='00000000000000000000000000000000',data='ULrt03L6DiXyULvEuB3ATbpVGWfh6Q1DROan1hAxDUgBwa0dEcSW24OwSNiV8QWfF3NYb0TjTLl/UKXzU2hbhmHt0WfrmVhqDD6EbqjsvO0Lri92IkSxsgPfQwROYgS/LksZqtxUWdT9who0qdbaCPmUbhbrg5dUqK0OLYciC0jur0goWv0kul+sgKdrArQLIw/NSUZphA2bHYWIVGcQgWMnMaB83ERtxzkjKlJF7xY='):
-    import binascii
-    import base64
-    key=base64.b64decode(key)
-    iv=binascii.unhexlify(iv)
-    data=base64.b64decode(data)
-    import pyaes
-    decryptor = pyaes.new(key, pyaes.MODE_CBC, IV=iv)
-    retval= decryptor.decrypt(data).split('\n')[0]
-    print repr(retval)
-    return retval
- 
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-</item>
-
 
 
 
