@@ -2460,6 +2460,46 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Ditto Regex</title>
+<link>$doregex[url]|Referer=http://www.dittotv.com/assets/flash/jwplayer.flash.swf</link>
+<regex>
+<name>url</name>
+<expres><![CDATA[#$pyFunction
+import time
+import urllib2,urllib,re,json,base64
+
+def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='00000000000000000000000000000000',data='$doregex[encurl]'):
+    import binascii
+    import base64
+    key=base64.b64decode(key)
+    iv=binascii.unhexlify(iv)
+    data=base64.b64decode(data)
+    import pyaes
+    decryptor = pyaes.new(key, pyaes.MODE_CBC, IV=iv)
+    val1= decryptor.decrypt(data)
+    val2= repr(val1).partition('\\')
+    retval= val2[0].replace('\'', '')
+    return retval
+ 
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>encurl</name>
+<expres>"file":"(.*?)"</expres>
+<page>http://www.dittotv.com/livetv/maa-movies</page>
+<referer>http://www.dittotv.com</referer>
+</regex>
+<regex>
+<name>key</name>
+<expres>value="(.*?)" class="livetv-url-val"</expres>
+<page>http://www.dittotv.com/livetv/maa-movies</page>
+<referer>http://www.dittotv.com</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
