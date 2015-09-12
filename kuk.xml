@@ -2504,13 +2504,13 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>AUT</title>
+<title>AUT0</title>
 <link>http://83.170.111.147/liveStream/hai/playlist.m3u8$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
 <expres>"key":"(.*?)"</expres>
-<page>http://www.viettv24.com/main/getStreamingServerWeb.php?callback=jQuery172012249156041070819_1442044288883&strname=ec792719e4de4343edfe1395195f10a3-%20&_=1442044289350</page>
-<referer>http://www.viettv24.com/</referer>
+<page>http://www.viettv24.com/main/getStreamingServerWeb.php</page>
+<referer></referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
