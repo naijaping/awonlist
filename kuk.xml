@@ -2552,16 +2552,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 <item>
-<title>mutio</title>
-<link>$doregex[getURL]</link>
+<title>sid</title>
+<link>http://e0.adintrend.com:443/live/ch3/ch3.m3u8?sid=$doregex[getURL]</link>
 <regex>
 <name>getURL</name>
-<expres>$pyFunction:'$doregex[getLink]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>getLink</name>
-<expres>src: "(.*m3u8.*?)"</expres>
+<expres>sid=(.*?)"</expres>
 <page>http://www.adintrend.com/hd/live/iframe.php?ch=3</page>
 <referer>http://www.adintrend.com/</referer>
 </regex>
