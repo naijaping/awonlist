@@ -2539,7 +2539,17 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<item>
+<title>moto</title>
+<link>http://83.170.111.147/liveStream/hai/liveChannel/hai_2/chunks.m3u8?nimblesessionid=171223&wmsAuthSign=$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>wmsAuthSign=(.*?)"</expres>
+<page>http://www.viettv24.com/main/getStreamingServerWeb.php</page>
+<referer>http://www.viettv24.com/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
