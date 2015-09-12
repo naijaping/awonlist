@@ -2539,17 +2539,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-<item>
-<title>Musico</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>url="(.*?)"</expres>
-<page>http://lb.streamakaci.com/lc2/</page>
-<referer>http://lb.streamakaci.com/</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
