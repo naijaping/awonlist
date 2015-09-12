@@ -2552,7 +2552,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 <item>
-<title>mut</title>
+<title>muti</title>
 <link>$doregex[getURL]</link>
 <regex>
 <name>getURL</name>
@@ -2561,7 +2561,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </regex>
 <regex>
 <name>getLink</name>
-<expres>src: "(.*?)"</expres>
+<expres>src: "(.*m3u8.*?)"</expres>
 <page>http://www.adintrend.com/hd/live/iframe.php?ch=3&amp;sid=8a686d5cb2f932a351009c08e3150823&amp;tmpx=</page>
 <referer>http://www.adintrend.com/</referer>
 </regex>
