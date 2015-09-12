@@ -2551,7 +2551,21 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Tuu</title>
+<link>$doregex[getURL]</link>
+<regex>
+<name>getURL</name>
+<expres>$pyFunction:'$doregex[getLink]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>getLink</name>
+<expres>ipadUrl:'(.*?)'</expres>
+<page>http://www.purplestream.com/angeltv/channel/europe/600.html</page>
+<referer></referer>
+</regex>
+</item>
 
 
 
