@@ -2449,18 +2449,6 @@
 </item>
 
 <item>
-<title>TSN</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>source src="(.*m3u8.*?)"</expres>
-<page>http://www.shadow-net.biz/channels/TSN-1.html</page>
-<referer>http://www.shadow-net.biz/</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>Ditto Regex</title>
 <link>$doregex[url]|Referer=http://www.dittotv.com/assets/flash/jwplayer.flash.swf</link>
 <regex>
@@ -2501,10 +2489,20 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>TSN 1</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*m3u8.*?)"</expres>
+<page>http://www.shadow-net.biz/channels/TSN-1.html</page>
+<referer>http://www.shadow-net.biz/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 <item>
-<title>TSN2</title>
+<title>TSN 2</title>
 <link>$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
@@ -2515,10 +2513,30 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>TSN 3</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*m3u8.*?)"</expres>
+<page>http://www.shadow-net.biz/channels/TSN-3.html</page>
+<referer>http://www.shadow-net.biz/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
-
-
+<item>
+<title>TSN 4</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*m3u8.*?)"</expres>
+<page>http://www.shadow-net.biz/channels/TSN-4.html</page>
+<referer>http://www.shadow-net.biz/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
