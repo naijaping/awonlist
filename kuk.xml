@@ -2539,28 +2539,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-<item>
-<title>Angel</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>ipadUrl:'(.*?)'</expres>
-<page>http://www.purplestream.com/angeltv/channel/europe/600.html</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
-<item>
-<title>Angel TV</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://d9dggax283p3i.cloudfront.net/angeltv/angeltveurope600/manifest.f4m')<expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
-</item> 
 
 
 
