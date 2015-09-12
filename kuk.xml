@@ -2503,7 +2503,17 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 
-
+<item>
+<title>Bein</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*m3u8.*?)"</expres>
+<page>http://www.shadow-net.biz/channels/Bein-Sport-US.html</page>
+<referer>http://www.shadow-net.biz/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
