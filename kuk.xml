@@ -2481,17 +2481,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-<item>		
-<title>[COLOR white]motuyio[/COLOR]</title>
-<link>http://31.220.40.115:80/LiveEdge/HBO2EastHD/playlist.m3u8$doregex[get-token]</link>
-<regex>
-<name>get-token</name>
-<expres>"token":"(.*?)"</expres>
-<page>http://portal.iptvprivateserver.tv/stalker_portal/server/load.php?type=stb&action=handshake&token=&JsHttpRequest=1-xml</page>
-<referer>http://portal.iptvprivateserver.tv/stalker_portal/c/</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
