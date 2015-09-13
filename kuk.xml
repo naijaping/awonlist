@@ -2474,7 +2474,15 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 
-
+<item>
+<title>Kure</title>
+<link>http://kurehdlivesp-lh.akamaihd.net/i/kureebruafrica_1@131859/master.m3u8?hdnea=$doregex[st]</link>
+<regex>
+<name>st</name>
+<expres>hdnea=(.*?)'</expres>
+<page>http://www.kure.tv/liveembed?id=71</page>
+</regex>
+</item>
 
 
 
