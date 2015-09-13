@@ -2474,15 +2474,14 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 
-<item>
-<title>Kure tv</title>
-<link>$doregex[st]</link>
-<regex>
-<name>st</name>
-<expres>file: '(.*m3u8.*?)'</expres>
-<page>http://www.kure.tv/liveembed?id=71</page>
-<referer>http://www.kure.tv</referer>
-</regex>
+<title>KRAL POP</title>
+<link>http://mn-l.mncdn.com/kralpop_live/kralpop1/playlist.m3u8?token=$doregex[tok]</link>
+	<regex>
+		<name>tok</name>
+		<expres>token=(.*?)'</expres>
+		<page>http://www.tvyo.com/canli-tv/kral-pop-tv</page>
+	</regex>
+<thumbnail></thumbnail>
 </item>
 
 
