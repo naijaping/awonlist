@@ -2345,6 +2345,29 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv_ng.png</thumbnail>
 </item>
 
+<item>
+<title>TV 360</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
+<page></page>
+</regex>
+<regex>
+<name>jsonurl</name>
+<expres>"hlsvp":"(.*?)"</expres>
+<page>https://www.youtube.com/watch?v=$doregex[get-page]</page>
+<referer></referer>
+</regex>
+<regex>
+<name>get-page</name>
+<expres>data-context-item-id="([^"]+)</expres>
+<page>https://www.youtube.com/channel/UCBzu4YqGiBxBD8pq8NiBuKw</page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv_ng.png</thumbnail>
+</item>
+
+
 
 <item>
 <title>Adeol aFayehun</title> 
