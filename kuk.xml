@@ -1548,24 +1548,6 @@
 <thumbnail></thumbnail>
 </item>
 
-
-
-
-<item>
-<title>VOX HD</title>
-<link>$doregex[getURL]</link>
-<regex>
-<name>getURL</name>
-<expres>$pyFunction:'$doregex[getLink]'.replace('\\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>getLink</name>
-<expres>http":"(.*?)"</expres>
-<page>http://m.playtv.fr/api/channels/vox-africa/?preset=with_programme%2Cwith_streams</page>
-</regex>
-</item>
-
 <item>
 <title>Cup</title>
 <link>$doregex[reg1]</link>
@@ -1574,38 +1556,6 @@
 <expres>file: '(.*?)'</expres>
 <page>http://centrepoint.christfaithmedia.co.uk/index.php/live2/98/aXRAd2lubmVyc2NoYXBlbC5vcmcudWs=/118/420/320</page>
 <referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>MU8</title>
-<link>http://208.75.224.165:1935/map-telecongo/map-telecongo.stream/playlist.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Nd TV</title>
-<link>http://cdn.ebound.tv/tv/express/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://bit.ly/1LNoGly</page>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>Cupu</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>videoLink ='(.*?)'</expres>
-<page>http://www.eboundservices.com/iframe/new/iframe_hamariweb.php?stream=express&width=472&height=325&clip=express&syndicate=8888</page>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
 </regex>
 <thumbnail></thumbnail>
 </item>
@@ -1639,25 +1589,8 @@
 <thumbnail></thumbnail>
 </item>
  
-<item>
-<title>zee-phhp</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\u0026','&')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>file":"(.*?)"<expres>
-<page>http://www.dittotv.com/livetv/zee-phhp</page>
-<referer>http://www.dittotv.com</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
-
-<item>
+<item>ohtvbox.com
 <title>zooo</title>
 <link>$doregex[url]</link>
 <regex>
@@ -1695,16 +1628,6 @@
 </item>
 
 <item>
-<title>Stalk</title>
-<link>http://31.220.40.116:80/LiveEdge/eEntUS/chunklist_w1306502634_b1000000.m3u8?token=$doregex[tok]</link>
-<regex>
-<name>tok</name>
-<expres>token=(.*?)'</expres>
-<page>http://31.220.40.116</page>
-</regex>
-</item>
-
-<item>
 <title>Fox1 (Cricfree- Biggestplayer)</title>
 <link>$doregex[url]</link>
 <regex>
@@ -1725,11 +1648,6 @@
 <page>http://cricfree.sx/update/fox1.php</page>
 <referer>http://cricfree.sx</referer>
 </regex>
-</item>
-
-<item>
-<title>kobotlc</title>
-<link>http://80.80.160.168/live/2/live.m3u8</link>
 </item>
 
 
