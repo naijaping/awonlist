@@ -2345,27 +2345,7 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv_ng.png</thumbnail>
 </item>
 
-<item>
-<title>TV 360</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[jsonurl]'.replace('\\/','/').replace('https', 'http')</expres>
-<page></page>
-</regex>
-<regex>
-<name>jsonurl</name>
-<expres>"hlsvp":"(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=$doregex[get-page]</page>
-<referer></referer>
-</regex>
-<regex>
-<name>get-page</name>
-<expres>data-context-item-id="([^"]+)</expres>
-<page>https://www.youtube.com/channel/UCBzu4YqGiBxBD8pq8NiBuKw</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv_ng.png</thumbnail>
-</item>
+
 
 
 
@@ -2492,43 +2472,15 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>sid</title>
-<link>http://e0.adintrend.com:443/live/ch3/ch3.m3u8?sid=$doregex[getURL]</link>
-<regex>
-<name>getURL</name>
-<expres>sid=(.*?)"</expres>
-<page>http://www.adintrend.com/hd/live/iframe.php?ch=3</page>
-<referer>http://www.adintrend.com/</referer>
-</regex>
-</item>
 
 
-<item>
-<title>OJI TV</title>
-<link>http://tna2gb9.tulix.tv/hls/astvojitv/6a94635bcc1262f855aa91cf0c3a1ba4/55f73459/astv-ojitv.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_disney_hd.png</thumbnail>
-</item>
 
 
-<item>
-<title>RanaTV</title>
-<link>http://tna2gb9.tulix.tv/hls/astvranatv/6a94635bcc1262f855aa91cf0c3a1ba4/55f73459/ranatv.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_disney_hd.png</thumbnail>
-</item>
 
-<item>
-<title>OjiTV3</title>
-<link>http://astv10sec3.tulix.tv/astv-ojitv/astv-ojitv/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=211</page>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
-<referer></referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/oo/oji_news_ng.png</thumbnail>
-</item>
+
+
+
+
 
 
 </channel>
