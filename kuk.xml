@@ -2473,16 +2473,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-<item>
-<title>KRAL  POPtv</title>
-<link>rtmp://mn-l.mncdn.com/kralpop_live/kralpop1?token=$doregex[tok] playpath=kraltvpopcanli live=1 timeout=15</link>
-	<regex>
-		<name>tok</name>
-		<expres>token=(.*?)"</expres>
-		<page>http://www.kralmuzik.com.tr/tv/kral-pop-tv</page>
-	</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
