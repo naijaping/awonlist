@@ -2517,6 +2517,12 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_disney_hd.png</thumbnail>
 </item>
 
+<item>
+<title>AreaTV</title>
+<link>http://tna2gb9.tulix.tv/hls/astv1areatv/5a1f1d86350efe13db05961dea30778f/55f7425c/areatv.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_disney_hd.png</thumbnail>
+</item>
+
 
 
 </channel>
