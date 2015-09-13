@@ -2504,7 +2504,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<item>
+<title>OJI TV</title>
+<link>http://tna2gb9.tulix.tv/hls/astvojitv/6a94635bcc1262f855aa91cf0c3a1ba4/55f73459/astv-ojitv.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_disney_hd.png</thumbnail>
+</item>
 
 
 
