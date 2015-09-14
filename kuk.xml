@@ -2458,7 +2458,15 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<title> sport-extra-3</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "([^"]+)"<expres>
+<page>http://www.ball2like.com/extra3.php</page>
+<referer>http://www.ball2like.com/sport-extra-3.html</referer>
+</regex>
+</item>
  
 
 
