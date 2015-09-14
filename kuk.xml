@@ -2458,7 +2458,17 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<item>
+<title>GOLTV</title>
+<link>http://pt-stream.fubotv.com.a.prod.fastly.net/Benfica-TV/ngrp:Benfica.stream_all/chunklist_b3203072.m3u8?hdnts=$doregex[tok]</link>
+<regex>
+<name>tok</name>
+<expres>"token":"(.*?)"</expres>
+<page>https://api.fubo.tv/public/edgeauth/token</page>
+<referer>https://www.fubo.tv</referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/gol_tv.png</thumbnail>
+</item>
  
 
 
