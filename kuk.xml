@@ -2459,8 +2459,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>GOLTV</title>
-<link>http://pt-stream.fubotv.com.a.prod.fastly.net/Benfica-TV/ngrp:Benfica.stream_all/chunklist_b3203072.m3u8?hdnts=$doregex[tok]</link>
+<title>GOi</title>
+<link>http://pt-stream.fubotv.com.a.prod.fastly.net/Benfica-TV/ngrp:Benfica.stream_all/chunklist_b628000.m3u8?hdnts=$doregex[tok]</link>
 <regex>
 <name>tok</name>
 <expres>"token":"(.*?)"</expres>
