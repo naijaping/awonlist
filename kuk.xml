@@ -2458,10 +2458,6 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-<item>
-<title>Futbol</title>
-<link>http://admin.8packlive.tulix.tv/hls/mapwaptv/waptv.m3u8</link>
-</item>
 
  
 
