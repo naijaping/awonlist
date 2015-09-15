@@ -2468,7 +2468,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
  
 
 <item>
-<title>dacast</title>
+<title>dacasto</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -2479,13 +2479,13 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <name>jsonurl</name>
 <expres>hls":"(.*?)"</expres>
 <page>http://json.dacast.com/b/27107_c_44077</page>
-<referer>http://www.toritv.com/</referer>
+<referer>http://iframe.dacast.com/b/27107/c/44077</referer>
 </regex>
 <regex>
 <name>jsontoken</name>
 <expres>token":"(.*?)"</expres>
 <page>https://services.dacast.com/token/i/b/27107_c_44077?</page>
-<referer>http://www.toritv.com/</referer>
+<referer>http://iframe.dacast.com/b/27107/c/44077</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
