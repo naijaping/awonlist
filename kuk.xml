@@ -2502,16 +2502,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-<item>
-<title>Hituuu</title>
-<link>$doregex[get-url] swfUrl=http://hitafrica.tv/jwplayer/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://hitafrica.tv/direct</link>
-<regex>
-<name>get-url</name>
-<expres>file: "(.*?)"<expres>
-<page>http://hitafrica.tv/direct/main.js</page>
-<referer>http://hitafrica.tv/direct/</referer>
-</regex>
-</item>
+
 
 <item>
 <title> ToriTV LIVE-TV</title>
