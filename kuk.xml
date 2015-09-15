@@ -2490,12 +2490,16 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail>http://www.telesud.com/wp-content/themes/telesud/assets/images/telesud-logo.png</thumbnail>
 </item>
 
-<item><title>TEST - TEST 2 - SportsDevil</title>
-<sportsdevil>http://futbolroja1.blogspot.nl/p/futbol-2-socio-oficial-rojadirecta.html</sportsdevil>
-<referer>http://cdn.p2pcast.tv/</referer>
+<item>
+<title>Hit</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "([^"]+)"<expres>
+<page>http://hitafrica.tv/direct/main.js</page>
+<referer>http://hitafrica.tv/direct/</referer>
+</regex>
 </item>
-
-
 
 
 
