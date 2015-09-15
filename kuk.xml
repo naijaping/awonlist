@@ -2496,6 +2496,12 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item><title>TEST - TEST 1 - SportsDevil</title>
+<sportsdevil>http://iframe.dacast.com/b/27107/c/44077</sportsdevil>
+<referer>http://cdn.p2pcast.tv/</referer>
+</item>
+
+
 
 </channel>
 
