@@ -2505,15 +2505,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Hit frica</title>
-<link>$doregex[get-url]</link>
-<regex>
-<name>get-url</name>
-<expres>file: "rtmp:\/\/(.*?)"<expres>
-<page>http://hitafrica.tv/direct/main.js</page>
-<referer>http://hitafrica.tv/direct/</referer>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
-</regex>
+<title>Hi</title>
+<link>rtmp://5.196.92.200/tvchannel/hitafrica</link>
 <thumbnail>http://i61.tinypic.com/xer9s.jpg</thumbnail>
 </item>
 
