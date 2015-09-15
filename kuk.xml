@@ -1221,21 +1221,6 @@
 </regex>
 </item>
 
-<item>
-	<title>MFM HD</title>
-	<link>$doregex[getURL]</link>
-	<regex>
-	<name>getURL</name>
-	<expres>$pyFunction:'$doregex[getLink]'.replace('\\/','/')</expres>
-	<page></page>
-	</regex>
-	<regex>
-	<name>getLink</name>
-	<expres>http":"(.*?)"</expres>
-	<page>http://m.playtv.fr/api/channels/mfm-tv/?preset=with_programme%2Cwith_streams</page>
-	</regex>
-	</item>
-
 
 <item>
 <title>BET</title>
@@ -2466,6 +2451,19 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <page>http://www.ball2like.com/extra3.php</page>
 <referer>http://www.ball2like.com/sport-extra-3.html</referer>
 </regex>
+</item>
+
+
+
+<item>
+<title>TVcont</title>
+<link>$doregex[reg1]|</link>
+<regex>
+<name>reg1</name>
+<expres>'file':'(.*?)'</expres>
+<page>http://www.monacochannel.mc/Le-Direct</page>
+</regex>
+<thumbnail></thumbnail>
 </item>
  
 
