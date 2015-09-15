@@ -2503,15 +2503,15 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <name>jsonurl</name>
 <expres>hls":"(.*)"</expres>
 <page>http://json.dacast.com/b/27107_c_44077/jsonp/dacast.jsonget.dc27107_c_44077</page>
-<referer>http://www.toritv.com//</referer>
+<referer>https://iframe.dacast.com/b/27107/c/44077/</referer>
 </regex>
 <regex>
 <name>token</name>
 <expres>(.*)</expres>
 <page>https://services.dacast.com/token/i/b/27107_c_44077?_method=GET</page>
-<referer>http://www.toritv.com/</referer>
+<referer>https://iframe.dacast.com/b/27107/c/44077</referer>
 </regex>
-<thumbnail>http://www.telesud.com/wp-content/themes/telesud/assets/images/telesud-logo.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
