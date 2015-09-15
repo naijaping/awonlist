@@ -2467,7 +2467,28 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
  
 
-
+<item>
+<title>sud</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[jsonurl]$doregex[jsontoken]'.replace('\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>jsonurl</name>
+<expres>hls":"(.*?)"</expres>
+<page>http://json.dacast.com/b/27107/c/44077</page>
+<referer>http://www.toritv.com/livetv.php/</referer>
+</regex>
+<regex>
+<name>jsontoken</name>
+<expres>token":"(.*?)"</expres>
+<page>https://services.dacast.com/token/i/b/27107/c/44077?</page>
+<referer>http://www.toritv.com/livetv.php/</referer>
+</regex>
+<thumbnail>http://www.telesud.com/wp-content/themes/telesud/assets/images/telesud-logo.png</thumbnail>
+</item>
 
 
 
