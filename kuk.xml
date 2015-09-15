@@ -2502,6 +2502,18 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item>
+<title>Hit000</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"<expres>
+<page>http://hitafrica.tv/direct/main.js</page>
+<referer>http://hitafrica.tv/direct/</referer>
+</regex>
+</item>
+
+
 
 
 </channel>
