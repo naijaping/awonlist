@@ -2453,15 +2453,15 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Bet TV</title>
-<link>http://37.48.83.131:1935/live/show77/playlist.m3u8$doregex[get-auth]</link>
+<title>BetTV</title>
+<link>$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
+<expres>source src="(.*?)"</expres>
 <page>http://www.shadow-net.biz/channels/Showtime.html</page>
 <referer></referer>
 </regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bet_east.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
