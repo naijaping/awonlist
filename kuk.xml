@@ -2505,9 +2505,15 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Hi</title>
-<link>rtmp://5.196.92.200/tvchannel/hitafrica</link>
-<thumbnail>http://i61.tinypic.com/xer9s.jpg</thumbnail>
+<title>VietTV24</title>
+<link>http://83.170.111.147/liveStream/hai/liveChannel/hai_2/playlist.m3u8?wmsAuthSign=$doregex[auth]</link>
+<regex>
+<name>auth</name>
+<expres>wmsAuthSign=(.*?)"</expres>
+<page>http://www.viettv24.com/main/getStreamingServerWeb.php</page>
+<referer>http://www.viettv24.com/</referer>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
 
