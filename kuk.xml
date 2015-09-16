@@ -2478,7 +2478,17 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 
-
+<item>
+<title>Butu</title>
+<link>$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>.*m3u8(\?.*)"</expres>
+<page>http://www.shadow-net.biz/channels/Showtime.html</page>
+<referer></referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bet_east.png</thumbnail>
+</item>
 
 
 
