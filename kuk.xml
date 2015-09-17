@@ -1146,18 +1146,6 @@
 </item>	
 
 <item>
-<title>Random TSN 2</title>
-<link>rtmp://w13.vmnode.pw:1935/live playpath=tsn swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/tsnmix.php live=true timeout=20 </link>
-</item>	
-
-
-<item>
-<title>Random TSN 3</title>
-<link>rtmp://w11.vmnode.pw:1935/live playpath=elite52 swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/elite52.php live=true timeout=20</link>
-</item>	
-
-
-<item>
 <title>FRANCE 24</title> 
 <link>$doregex[get-url]|User-Agent=extrawatch_agent</link> 
 <thumbnail></thumbnail> 
@@ -1214,13 +1202,6 @@
 <page></page>
 </regex>
 </item>
-
-<item>
-<title>Natgwild</title>
-<link>http://hlsstr04.svc.iptv.rt.ru/hls/CH_C03_NATGEOWILDHD/variant.m3u8</link>
-</regex>
-</item>
-
 
 <item>
 <title>BET</title>
@@ -1709,13 +1690,6 @@
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
-</item>
-
-<item> [TVPlayer Addon]
-<title>Zeus</title>
-<link>ignorme</link>
-<jsonrpc>plugin://plugin.video.zeus/?url=http%3A%2F%2Fzeusrepo.com%2Falpha%2Fchannel.php%3Flink%3Dsky_atlantic&mode=3&name=%5BCOLOR+lime%5DSKY+ATLANTIC%5B%2FCOLOR%5D&iconimage=http%3A%2F%2Fs6.postimg.org%2F5206hu3dt%2Fskyatlantic.png&description=</jsonrpc>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
 </item>
 
 <item>
@@ -2493,6 +2467,23 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <referer></referer>
 </regex>
 <thumbnail></thumbnail>
+</item>
+
+
+<title>Fox Movies</title>
+<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://iptv-planet.com/swfs/player.swf live=1 timeout=15 pageUrl=http://iptv-planet.com/embed.php</link>
+<regex>
+<name>rtmp</name>
+<expres>streamer="(.*?)"</expres>
+<page>http://iptv-planet.com/embed.php?id=fm</page>
+<referer>http://iptv-planet.com</referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>'file': '(.*?)'</expres>
+<page>http://iptv-planet.com/embed.php?id=fm</page>
+<referer>http://iptv-planet.com</referer>
+</regex>
 </item>
 
 
