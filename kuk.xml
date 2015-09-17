@@ -2502,19 +2502,13 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Galaxy</title>
-<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://www.galaxytvonline.com/media/swfs/flow/plugins/flowplayer.rtmp-3.2.13.swf live=true timeout=15 pageUrl=http://direct.galaxytvonline.com/videos/live-stream-lagos</link>
+<title>Galaxy TV</title>
+<link>$doregex[rtmp] playpath=influxis swfUrl=http://www.galaxytvonline.com/media/swfs/flow/plugins/flowplayer.rtmp-3.2.13.swf live=true timeout=15 pageUrl=http://direct.galaxytvonline.com/videos/live-stream-lagos</link>
 <regex>
 <name>rtmp</name>
 <expres>netConnectionUrl:'(.*?)'</expres>
 <page>http://direct.galaxytvonline.com/videos/live-stream-lagos</page>
 <referer>http://direct.galaxytvonline.com/</referer>
-</regex>
-<regex>
-<name>path</name>
-<expres>provider:'(.*?)'</expres>
-<page>http://direct.galaxytvonline.com/videos/live-stream-lagos</page>
-<referer></referer>
 </regex>
 </item>
 
