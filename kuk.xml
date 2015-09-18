@@ -2496,7 +2496,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>ACBNoo</title>
+<title>ACBN</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -2507,6 +2507,18 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
+
+<item>
+<title>SafariLive</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>"file":"(.*?)"</expres>
+<page>http://embed.wildearth.tv:8080/cam/wil-safari-01.stream</page>
+<referer>http://embed.wildearth.tv/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 </channel>
