@@ -2469,23 +2469,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Fox Movies</title>
-<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://iptv-planet.com/swfs/player.swf live=1 timeout=15 pageUrl=http://iptv-planet.com/embed.php</link>
-<regex>
-<name>rtmp</name>
-<expres>streamer="(.*?)"</expres>
-<page>http://iptv-planet.com/embed.php?id=fm</page>
-<referer>http://iptv-planet.com</referer>
-</regex>
-<regex>
-<name>path</name>
-<expres>'file': '(.*?)'</expres>
-<page>http://iptv-planet.com/embed.php?id=fm</page>
-<referer>http://iptv-planet.com</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fox_movies_middle_east.png</thumbnail>
-</item>
+
 
 
 
