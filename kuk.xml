@@ -2495,6 +2495,13 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item>
+<title>Kis0</title>
+<link>rtmp://196.33.130.34/live-ann7</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/kk/kiss_uk.png</thumbnail>
+</item>
+
+
 
 </channel>
 
