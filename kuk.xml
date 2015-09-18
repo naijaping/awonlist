@@ -2485,12 +2485,12 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>TheYoung </title>
+<title>TheYoung ho</title>
 <link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[id]</link>
 <regex>
 <name>id</name>
 <expres>data-context-item-id="([^"]+)<expres>
-<page>https://www.youtube.com/user/yorubahood/</page>
+<page>https://www.youtube.com/channel/UC3BYT_REpOi_DNhluVO2ndw</page>
 </regex>
 </item>
 
