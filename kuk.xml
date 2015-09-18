@@ -2521,6 +2521,12 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+
+<item>
+<title>mfm tv</title>
+<link>http://mfmcdn.purpleturtle.tv/live/mfm/smil:mfm.smil/playlist.m3u8</link>
+</item>
+
 </channel>
 
 
