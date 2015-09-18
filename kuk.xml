@@ -2471,11 +2471,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>IQratvuk</title>
+<title>IQratv</title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
-<expres>file:  '(.*m3u8)',</expres>
+<expres>file:  '(.*m3u8)'</expres>
 <page>http://iqra.tv/</page>
 <referer>http://iqra.tv</referer>
 </regex>
