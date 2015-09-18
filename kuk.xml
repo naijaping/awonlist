@@ -2482,10 +2482,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>NTVF000</title>
-<link>rtmp.one.by:1400</link>
-</item>
+
 
 
 
