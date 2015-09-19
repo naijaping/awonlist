@@ -2497,10 +2497,17 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Dubai</title>
+<title>Dubai4</title>
 <link>http://uk.stream.yo.tv/livehttporigin/Channel4_360p.stream/chunklist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+<title>Dubai4</title>
+<link>http://uk.stream.yo.tv/livehttporigin/ITV1_360p.stream/chunklist.m3u8</link>
+<thumbnail></thumbnail>
+</item>
+
 
 
 
