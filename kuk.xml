@@ -2498,19 +2498,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 <item>
 <title>Dubai Sport</title>
-<link>$doregex[get-m3u8]</link>
-<regex>
-<name>get-m3u8</name>
-<expres>(http.*?.m3u8)"</expres>
-<page>$doregex[get-unpacked]</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>get-unpacked</name>
-<expres>$pyFunction:get_unpacked('http://shoof.alkass.net/shoof/play.php?id=QVpxMTR0MmZ0L0NYMD0q','(eval.*)' )</expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/dd/dubai_sports_ae.png</thumbnail>
+<link>http://alkass-i.akamaihd.net/hls/live/205534/1/live_8s.m3u8</link>
+<thumbnail></thumbnail>
 </item>
 
 
