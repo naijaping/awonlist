@@ -2521,6 +2521,15 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>L4</title>
+<link>http://hls.tv.iptv.ink/channel4uk@203379.m3u8</link>
+<thumbnail></thumbnail>
+</item>
+
+
+
+
 
 
 
