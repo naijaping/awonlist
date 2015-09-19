@@ -2495,22 +2495,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-<item>
-<title>mamdul</title>
-<link>$doregex[rtmp]/$doregex[path] token=Fo5_n0w?U.rA6l3-70w47ch swfUrl=http://player.hdcast.org/_.swf pageUrl=http://www.hdcast.org live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>(rtmpe:.*)'</expres>
-<page>http://www.hdcast.org/embedlive1.php?u=mamahdsky11</page>
-<referer>http://mamahd.com/</referer>
-</regex>
-<regex>
-<name>path</name>
-<expres>'file':.*?'(.*)'</expres>
-<page>http://www.hdcast.org/embedlive1.php?u=mamahdsky11</page>
-<referer>http://mamahd.com/</referer>
-</regex><thumbnail></thumbnail>
-</item>
+
 
 
 
