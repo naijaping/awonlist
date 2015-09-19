@@ -2496,12 +2496,12 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Awoo</title>
+<title>Awool</title>
 <link>$doregex[rtmp]</link>
 <regex>
 <name>rtmp</name>
-<expres>'file': '(.*?)'</expres>
-<page>http://www.awooze.com/index.php?view=play&amp;vidtype=2&amp;channel=Fusionplus</page>
+<expres>'file': '(.*m3u8)'</expres>
+<page>http://www.awooze.com/index.php?view=play&vidtype=2&channel=Fusionplus</page>
 <agent></agent>
 <referer></referer>
 </regex>
