@@ -2509,11 +2509,6 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-<item>
-<title>PVR</title>
-<link>http://pvr.tvip.ga/0003.m3u8|X-Forwarded-For=81.17.18.50</link>
-<thumbnail></thumbnail>
-</item>
 
 
 
