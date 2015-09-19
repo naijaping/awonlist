@@ -2523,8 +2523,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 <item>
 <title>albaTV</title>
-<link>http://vs-hds-uk-live.edgesuite.net/pool_1/live/bbc_alba/bbc_alba.isml/bbc_alba-audio_2%3D96000-video%3D1374000.m3u8
-</link>
+<link>http://vs-hds-uk-live.edgesuite.net/pool_1/live/bbc_alba/bbc_alba.isml/bbc_alba-audio_2%3D96000-video%3D1374000.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
