@@ -2497,8 +2497,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Dubai Sport</title>
-<link>http://alkass-i.akamaihd.net/hls/live/205534/1/live_8s.m3u8</link>
+<title>Dubai</title>
+<link>http://uk.stream.yo.tv/livehttporigin/Channel4_360p.stream/chunklist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
