@@ -2526,7 +2526,17 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Dave</title>
+<link>http://laganvpn12.plus.com:9981/stream/channelid/82</link>
+<thumbnail></thumbnail>
+</item>
 
+<item>
+<title>E4+</title>
+<link>http://laganvpn12.plus.com:9981/stream/channelid/84</link>
+<thumbnail></thumbnail>
+</item>
 
 </channel>
 
