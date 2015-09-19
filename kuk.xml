@@ -2495,7 +2495,25 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<item>
+<title>Awoose</title>
+<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://www.awooze.com/player.swf live=1 timeout=15 pageUrl=http://www.awooze.com/index.php</link>
+<regex>
+<name>rtmp</name>
+<expres>streamer:"(.*?)"</expres>
+<page>http://www.awooze.com/index.php?view=play&vidtype=2&channel=Fusionplus</page>
+<agent></agent>
+<referer></referer>
+</regex>
+<regex>
+<name>path</name>
+<expres>file:"(.*?)"</expres>
+<page>http://www.awooze.com/index.php?view=play&vidtype=2&channel=Fusionplus</page>
+<agent></agent>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
