@@ -2522,8 +2522,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 <item>
-<title>L4</title>
-<link>http://hls.tv.iptv.ink/channel4uk@203379.m3u8|X-Forwarded-For=81.17.18.55</link>
+<title>alba</title>
+<link>http://www.vs-hds-uk-live.edgesuite.net/pool_1/live/bbc_alba/bbc_alba.isml/bbc_alba-pa3%3d96000-video%3d437000.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
