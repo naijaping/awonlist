@@ -2556,7 +2556,10 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<item>
+	<title>bypassGeob</title>
+	<link>plugin://plugin.video.f4mTester/?url=http://hds_live_d8_aka-lh.akamaihd.net/z/d8_hds@182613/manifest.f4m|X-Forwarded-For=94.199.122.171</link>
+	</item>
 
 
 
