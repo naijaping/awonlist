@@ -2557,10 +2557,16 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>I</title>
-<link>http://stream-03.vty.dailymotion.com/08/dm/1/x2lefik/live.isml/events(live-1442616031)/live-audio=128000-video=1891000.bootstrap.m3u8</link>
+<title>Roja 102</title>
+<link>$doregex[rtmp] swfUrl=http://sostart.org/jw/jwplayer.flash.swf pageUrl=http://sostart.org/stream.php/ swfVfy=true live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>file:'(.*?)'<expres>
+<page>http://sostart.org/stream.php?id=150&width=690&height=420</page>
+</regex>
 <thumbnail></thumbnail>
 </item>
+
 
 
 </channel>
