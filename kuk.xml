@@ -2529,7 +2529,21 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 
-
+<item>
+<title>CTH</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "(.*?)",</expres>
+<page>$doregex[linkpg]</page>
+<referer>http://www.khaozap.com</referer>
+</regex>
+<regex>
+<name>linkpg</name>
+<expres>dragon_player.*\n.*\n.*\n.*src="(.*?)"</expres>
+<page>http://www.khaozap.com/%E0%B8%94%E0%B8%B9%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C/%E0%B8%94%E0%B8%B9%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C%E0%B8%8A%E0%B9%88%E0%B8%AD%E0%B8%87-cth2-hd/</page>
+</regex>
+</item>
 
 
 
