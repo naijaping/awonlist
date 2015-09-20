@@ -2551,16 +2551,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>bypassGeob</title>
-<link>plugin://plugin.video.f4mTester/?url=http://vs-hds-uk-live.edgesuite.net/pool_1/live/bbc_parliament/bbc_parliament.isml/bbc_parliament-pa3%3d96000-video%3d1604000.f4m</link>
+<title>FM Tester Call</title>
+<link>plugin://plugin.video.f4mTester/?url=URL HERE</link>
 </item>
 
 
-<item>
-<title>BBCAlba</title>
-<link>http://vs-hds-uk-live.edgesuite.net/pool_1/live/bbc_alba_hd/bbc_alba_hd.isml/bbc_alba_hd-pa3%3d96000-video%3D3500000.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_alba.png</thumbnail>
-</item>
 
 
 
