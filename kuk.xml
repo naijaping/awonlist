@@ -2567,6 +2567,27 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item>
+<title>Equipe 21</title>
+<link>$doregex[first-url]</link>
+<regex>
+<name>first-url</name>
+<expres>(.*)#</expres>
+<page>$doregex[url]&amp;redirect=0</page>
+<referer>http://www.dailymotion.com/</referer>
+</regex>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-url</name>
+<expres>mpegURL","url":"(.*?)"</expres>
+<page>http://www.dailymotion.com/video/kzr5WxxiOWqTs2aCf1y</page>
+</regex>
+</item>
+
 
 </channel>
 
