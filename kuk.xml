@@ -2556,7 +2556,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<item>
+<title>I</title>
+<link>http://stream-03.vty.dailymotion.com/08/dm/1/x2lefik/live.isml/events(live-1442616031)/live-audio=128000-video=1891000.bootstrap.m3u8</link>
+<thumbnail></thumbnail>
+</item>
 
 
 </channel>
