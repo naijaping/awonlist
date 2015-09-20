@@ -2509,8 +2509,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 <item>
-<title>Itv1</title>
-<link>http://uk.stream.yo.tv/livehttporigin/ITV1_360p.stream/chunklist.m3u8</link>
+<title>Itvo1</title>
+<link>http://nbcstreameast.nbcsports.com/nbc08/49037f2b-0006-454e-8947-e40b177be954/nbc-sports-live-extra0920050353.ism/manifest(format=m3u8-aapl-v3).m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
