@@ -2557,8 +2557,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Geobol</title>
-<link>plugin://plugin.video.f4mTester/?url=http://vs-hds-uk-live.edgesuite.net/pool_1/live/bbc_parliament/bbc_parliament.isml/bbc_parliament-pa3%3d96000-video%3d1604000.m3u8</link>
+<title>Geoboll</title>
+<link>http://vs-hds-uk-live.edgesuite.net/pool_1/live/bbc_parliament/bbc_parliament.isml/bbc_parliament-pa3%3d96000-video%3d1604000.m3u8</link>
 </item>
 
 
