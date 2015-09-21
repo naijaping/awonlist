@@ -2619,7 +2619,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 <item>
 <title>Tes</title>
-<link>http://113.160.49.34/lives/origin03/foxhd.isml/foxhd-2096k.m3u8</link>
+<link>rtmp://fms.105.net:193.5/virgin1</link>
 <thumbnail></thumbnail>
 </item>
 
