@@ -2618,8 +2618,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Testu</title>
-<link>http://201.161.59.6/foxsports.isml/manifest(format=m3u8-aapl).m3u8</link>
+<title>Testuyy</title>
+<link>http://54.177.195.82/server/play/fspctg/3964000/prog.m3u8?anv=1427415219896|X-Forwarded-For=66.171.228.102</link>
 <thumbnail></thumbnail>
 </item>
 
