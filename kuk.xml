@@ -2618,7 +2618,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Tes</title>
+<title>Teso</title>
 <link>rtmp://fms.105.net:193.5/virgin1</link>
 <thumbnail></thumbnail>
 </item>
