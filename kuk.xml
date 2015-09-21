@@ -2618,11 +2618,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>One</title>
+<title>One m</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>"url":"(.*?)"</expres>
+<expres>"url":"(.*m3u8)"</expres>
 <page>http://www.1music.hu/</page>
 <referer>/</referer>
 </regex>
