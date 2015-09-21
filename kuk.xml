@@ -2617,7 +2617,14 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<item>
+<title>Hip TV</title>
+<link>http://lb.iptvserver.tv:8080/redirect/LiveEdge/AMCLASD/playlist.m3u8?token=$doregex[tok]</link>
+<regex>
+<name>tok </name>
+<expres>token=(.*) </expres>
+<page>http://stoker.jdmsociety.x10.mx/cargatk.php?canal=20&cm=297/playlist.m3u8</page>
+</item>
 
 
 </channel>
