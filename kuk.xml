@@ -2618,17 +2618,15 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Virgin</title>
-<link>rtmp://fms.105.net:1935/live playpath=virgin1 swfUrl=http://www.freeetv.com/script/mediaplayer/player.swf pageUrl=http://www.freeetv.com live=1 timeout=15</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/radio/vv/virgin_radio_fr.png</thumbnail>
-</item>
-
-
-
-<item>
-<title>Sk30</title>
-<link>rtmp://fms.105.net:1935/live playpath=105Test1 swfUrl=http://www.freeetv.com/script/mediaplayer/player.swf pageUrl=http://www.freeetv.com live=1 timeout=15</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/radio/rr/radio_105.png</thumbnail>
+<title>One</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>"url":"(.*?)"</expres>
+<page>http://www.1music.hu/</page>
+<referer>/</referer>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
 
