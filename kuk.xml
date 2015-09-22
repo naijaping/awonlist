@@ -2625,11 +2625,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Gts</title>
+<title>Gtsport</title>
 <link>$doregex[get-url]|Referer=http://www.ghanalive.tv</link>
 <regex>
 <name>get-url</name>
-<expres>'file': '([^"]+)'<expres>
+<expres>'file': '(.*?)'<expres>
 <page>http://www.ghanalive.tv/tv-africa-stream/</page>
 <referer></referer>
 </regex>
