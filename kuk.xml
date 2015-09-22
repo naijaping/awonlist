@@ -2638,15 +2638,15 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 <item>
 <title>Onebbscot</title>
-<link>http://vs-hds-uk-live.bbcfmt.vo.llnwd.net//pool_3/live/bbc_one_scotland_hd/bbc_one_scotland_hd.isml/bbc_one_scotland_hd-pa3=96000-video=2812000.m3u8</link>
+<link>http://vs-hds-uk-live.bbcfmt.vo.llnwd.net/pool_3/live/bbc_one_scotland_hd/bbc_one_scotland_hd.isml/bbc_one_scotland_hd-pa3=96000-video=2812000.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
 
 
 <item>
-<title>Onebbc</title>
-<link>http://vs-hds-uk-live.bbcfmt.vo.llnwd.net//pool_3/live/bbc_one_hd/bbc_one_hd.isml/bbc_one_hd-pa3=96000-video=2812000.m3u8</link>
+<title>One</title>
+<link>http://vs-hds-uk-live.bbcfmt.vo.llnwd.net/pool_3/live/bbc_one_london_hd/bbc_one_london_hd.isml/bbc_one_london_hd-pa3=96000-video=3500000.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
