@@ -2636,6 +2636,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item>
+<title>BB</title>
+<link>http://vs-hds-uk-live.edgesuite.net/pool_5/live/bbc_one_london/bbc_one_london.isml/bbc_one_london-pa3=96000-video=827000.m3u8</link>
+<thumbnail></thumbnail>
+</item>
 
 
 
