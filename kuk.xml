@@ -2626,15 +2626,14 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Rt11</title>
+<title>RTS 1</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>hlsURL = '(.*m3u8.*?)'</expres>
-<page>http://acanlinks.com/secureplayer/player.php?ch=rtssecure1.stream_SD</page>
-<referer>http://www.rts.sn/</referer>
+<expres>rtspURL = '(.*?)'</expres>
+<page>http://acanlinks.com/secureplayer/player.php?ch=rtssecure1.stream_HD</page>
+<referer>http://www.rts.sn</referer>
 </regex>
-<thumbnail></thumbnail>
 </item>
 
 
