@@ -2636,7 +2636,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 <item>
-<title>poland</title>
+<title>polandi</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -2647,7 +2647,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <name>get-url</name>
 <expres>src='(.*m3u8.*?)'<expres>
 <page>http://www.elevensports.pl/</page>
-<refererhttp://www.elevensports.pl/</referer>
+<referer>http://www.elevensports.pl/</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
