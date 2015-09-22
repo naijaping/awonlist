@@ -2636,6 +2636,20 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<title>elevensports</title>
+<link>$doregex[getM3U8]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:40.0) Gecko/20100101 Firefox/40.0 Iceweasel/40.0.3</link>
+<regex>
+<name>getM3U8</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('~','amp')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-url</name>
+<expres>stream=(.*)'</expres>
+<page>http://www.elevensports.pl/</page>
+</regex>
+</item>
+
 
 
 
