@@ -2639,8 +2639,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>3</title>
-<link>http://itvbeliveios-i.akamaihd.net/hls/live/219078/itvlive/ITVBE/master_Main1800.m3u8</link>
+<title>30</title>
+<link>http://itvbeliveios-i.akamaihd.net/hls/live/219078/itvlive/ITVBE/master.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
