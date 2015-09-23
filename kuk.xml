@@ -2636,17 +2636,26 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 <item>
-<title>elevensports</title>
-<link>$doregex[getM3U8]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:40.0) Gecko/20100101 Firefox/40.0 Iceweasel/40.0.3</link>
-<regex>
-<name>getM3U8</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('~','amp')</expres>
-<page></page>
-</regex>
+<title>BE CAREFUL This Cannot be UNDONE!!!!!!!!!UPDATE SportsDevil!!!!!!</title>
+<link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
-<expres>stream=(.*)'</expres>
-<page>http://www.elevensports.pl/</page>
+<expres><![CDATA[#$pyFunction
+import xbmc,os,xbmcgui
+import zipfile
+import urllib
+UserDataFolder=xbmc.translatePath(os.path.join('special://profile/addon_data/','Sdevil.zip'))
+SDevil = xbmc.translatePath(os.path.join('special://','home/addons'))
+dialog = xbmcgui.Dialog()
+def GetLSProData(page_data,Cookie_Jar,m,url='http://download1507.mediafire.com/k43dgz0gj0dg/yycexidyji7s5nr/plugin.video.SportsDevil-2015-09-21NLv1.zip'):
+    th= urllib.urlretrieve(url,UserDataFolder)
+    xbmc.executebuiltin("XBMC.Notification(LiveStreamsPro,Getting SportsDevil 2015-09-21NLv1 - ,3000)")
+    getzip = zipfile.ZipFile(UserDataFolder, 'r')
+    getzip.extractall(SDevil) 
+    xbmc.executebuiltin("XBMC.Notification(LiveStreamsPro,ALL DONE - ,4000)")
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
 </regex>
 </item>
 
