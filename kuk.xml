@@ -2624,7 +2624,18 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item>
+<title>1</title>
+<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls2/86.m3u8</link>
+<thumbnail></thumbnail>
+</item>
 
+
+<item>
+<title>2</title>
+<link>http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls2/187.m3u8</link>
+<thumbnail></thumbnail>
+</item>
 
 
 
