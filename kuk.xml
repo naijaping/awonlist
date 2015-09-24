@@ -2664,16 +2664,24 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+
 <item>
-<title>Hitman</title>
-<link>$doregex[get-url]</link>
+<title>Truel</title>
+<link>$doregex[getURL]</link>
 <regex>
-<name>get-url</name>
-<expres>source src="([^"]+)"<expres>
+<name>getURL</name>
+<expres>$pyFunction:'$doregex[getLink]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>getLink</name>
+<expres>source src="(.*?)"</expres>
 <page>http://www.sdwnet.cuccfree.com/channels/uktv/natgeo-wild-uk.php</page>
 <referer>http://www.shadownet.ro</referer>
 </regex>
 </item>
+
+
 
 
 
