@@ -2678,7 +2678,10 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<item><title>TEST - MLB.tv - SportsDevil</title>
+<sportsdevil>http://www.shadow-net.biz/channels/Nat-Geo-Wild-UK.html</sportsdevil>
+<referer>http://www.shadow-net.biz/</referer>
+</item>
 
 
 </channel>
