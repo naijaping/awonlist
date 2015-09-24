@@ -2665,11 +2665,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Hit000</title>
+<title>Hitman</title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
-<expres>src="([^"]+)"<expres>
+<expres>source src="([^"]+)"<expres>
 <page>http://www.sdwnet.cuccfree.com/channels/uktv/natgeo-wild-uk.php</page>
 <referer>http://www.shadownet.ro</referer>
 </regex>
