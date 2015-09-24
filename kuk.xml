@@ -2637,17 +2637,6 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
-
-<item>
-<title>Bello</title>
-<link>http://ak.live.hds.c4assets.com/e4/hds/master.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_be_plus1.png</thumbnail>
-</item>
-
-
-
-
-
 <item>
 <title>Elevensports RegEx --Geoblocked Need Polish IP-- **http://www.elevensports.pl/**</title>
 <link>$doregex[getM3U8]</link>
@@ -2664,24 +2653,6 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
-<item>
-<title>roshowoo</title>
-<link>http://37.48.83.131:1935/live/natgeow.stream/playlist.m3u8?wowzasessionid=$doregex[id]</link>
-<regex>
-<name>id</name>
-<expres>wowzasessionid=(.*?)"</expres>
-<page>http://www.shadow-net.biz/channels/Nat-Geo-Wild-UK.html</page>
-<referer>http://www.shadow-net.biz/</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-
-<item><title>TEST - MLB.tv - SportsDevil</title>
-<sportsdevil>http://www.shadow-net.biz/channels/Nat-Geo-Wild-UK.html</sportsdevil>
-<referer>http://www.shadow-net.biz/</referer>
-</item>
 
 
 </channel>
