@@ -2639,8 +2639,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Bell</title>
-<link>http://ak.live.hds.c4assets.com/e4/hds/e4_704kb_96kb.m3u8</link>
+<title>Bello</title>
+<link>http://ak.live.hds.c4assets.com/e4/hds/e4_704kb.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv_uk_be_plus1.png</thumbnail>
 </item>
 
