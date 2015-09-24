@@ -2638,20 +2638,10 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 <item>
-<title>Elevensports RegEx --Geoblocked Need Polish IP-- **http://www.elevensports.pl/**</title>
-<link>$doregex[getM3U8]</link>
-<regex>
-<name>getM3U8</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('~','=')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>stream=(.*?)'</expres>
-<page>http://www.elevensports.pl/</page>
-</regex>
+<title>4</title>
+<link>rtmp://195.154.156.55:1935/y1781?token=b7f552a9decd1380bd46d2c15e190981&bid=27&pid=15&uid=73&did=1679fdfdbe3753952f1d16b13fb56435&g=1&gm.=1&platform=1</link>
+<thumbnail></thumbnail>
 </item>
-
 
 
 
