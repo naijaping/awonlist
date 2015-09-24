@@ -2664,6 +2664,18 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item>
+<title>Nat Geo UK</title> 
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.sdwnet.cuccfree.com/channels/uktv/natgeo-wild-uk.php</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
 
 </channel>
 
