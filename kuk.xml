@@ -2645,6 +2645,33 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 
+<item>
+<title>BE CAREFUL This Cannot be UNDONE!!!!!!!!!UPDATE SportsDevil!!!!!!</title>
+<thumbnail></thumbnail>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+import xbmc,os,xbmcgui
+import zipfile
+import urllib
+UserDataFolder=xbmc.translatePath(os.path.join('special://profile/addon_data/','Sdevil.zip'))
+SDevil = xbmc.translatePath(os.path.join('special://','home/addons'))
+dialog = xbmcgui.Dialog()
+def GetLSProData(page_data,Cookie_Jar,m,url='http://download1792.mediafire.com/tt528io8pi4g/6bwiv2bd4sb5t1t/plugin.video.SportsDevil-2015-09-24NLv2.zip'):
+    th= urllib.urlretrieve(url,UserDataFolder)
+    xbmc.executebuiltin("XBMC.Notification(LiveStreamsPro,Getting SportsDevil 2015-09-21NLv1 - ,3000)")
+    getzip = zipfile.ZipFile(UserDataFolder, 'r')
+    getzip.extractall(SDevil) 
+    xbmc.executebuiltin("XBMC.Notification(LiveStreamsPro,ALL DONE - ,4000)")
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
+
+
 </channel>
 
 
