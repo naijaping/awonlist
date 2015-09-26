@@ -2643,7 +2643,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Real</title>
+<link>http://rmtvlive-lh.akamaihd.net//i/rmtv_1@154306/master.m3u8</link>
+<thumbnail></thumbnail>
+</item>
 
 
 
