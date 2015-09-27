@@ -2099,11 +2099,8 @@
 <thumbnail></thumbnail>
 </item>
 
-
-
-
 <item>
-<title>YOUSEE00</title>
+<title>formusica</title>
 <link>http://wowza1.top-ix.org/quartaretetv1/formusicweb/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
@@ -2131,24 +2128,8 @@
 </item>
 
 
-</item>
 <item>
-<title>MLB CHANNEL</title>
-<link>http://162.210.192.79:8081/origin/ch1/playlist.m3u8</link>
-</item>
-
-<item>
-<title>NHL NETWORK</title>
-<link>http://162.210.192.79:8081/origin/ch2/playlist.m3u8</link>
-</item>
-
-<item>
-<title>MMA</title>
-<link>http://162.210.192.79:8081/origin/mma/playlist.m3u8</link>
-</item>
-
-<item>
-<title>BT0</title>
+<title>Blazzerxxxtv</title>
 <link>http://admin.8packlive.tulix.tv/hls/pleasure/pleasure.stream.m3u8</link>
 </item>
 
@@ -2236,25 +2217,6 @@
 </item>
 
 
-
-
-	<item>
-	<title>MVHD</title>
-	<link>$doregex[url]</link>
-	<regex>
-	<name>url</name>
-	<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
-	<page></page>
-	</regex>
-	<regex>
-	<name>get-url</name>
-	<expres> file: '(.*?)'<expres>
-	<page>http://goo.gl/GBX0hw</page>
-	<referer></referer>
-	</regex>
-	<thumbnail></thumbnail>
-	</item>
-
 <item>
 <title>Nog</title>
 <link></link>
@@ -2282,10 +2244,6 @@
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ii/itv_ng.png</thumbnail>
 </item>
-
-
-
-
 
 <item>
 <title>Adeol aFayehun</title> 
@@ -2349,7 +2307,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 <item>
-<title>moto</title>
+<title>Viet24</title>
 <link>http://83.170.111.147/liveStream/hai/liveChannel/hai_2/chunks.m3u8?wmsAuthSign=$doregex[reg1]</link>
 <regex>
 <name>reg1</name>
@@ -2358,12 +2316,6 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <referer>http://www.viettv24.com/</referer>
 </regex>
 <thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>NTVF</title>
-<link>rtmp://5.196.92.200/tvchannel/hitafrica/playlist.mp4</link>
 </item>
 
 <item>
@@ -2377,19 +2329,6 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </regex>
 </item>
 
-
-
-<item>
-<title>TVcont</title>
-<link>$doregex[reg1]|</link>
-<regex>
-<name>reg1</name>
-<expres>'file':'(.*?)'</expres>
-<page>http://www.monacochannel.mc/Le-Direct</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
- 
 
 <item>
 <title>sud</title>
@@ -2509,25 +2448,10 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 <item>
-<title>Itvo1</title>
-<link>http://nbcstreameast.nbcsports.com/nbc08/49037f2b-0006-454e-8947-e40b177be954/nbc-sports-live-extra0920050353.ism/manifest(format=m3u8-aapl-v3).m3u8|X-Forwarded-For=66.171.228.102</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
 <title>Iuooo</title>
 <link>http://hls.tv.iptv.ink/bbc2uk@353223.m3u8|X-Forwarded-For=81.17.18.55</link>
 <thumbnail></thumbnail>
 </item>
-
-<item>
-<title>albooo</title>
-<link>http://nlds6.cdnak.lon.neulion.com/nlds/coliseum/tottenhamhotspur/as/live/tottenhamhotspur_hd_4500_ipad.m3u8?nlqptid=nltid=plp&amp;nltdt=6&amp;nltnt=1&amp;hdnea=expires%3D1442775745%7Eaccess%3D%2F*%7Emd5%3D2cbc78bd3ac4842f79be55ffeacb2d1a;X-NL-SK=FJsmSPq%2Fb%2FtsHPeby%2BMGR1muSemXkMbXtcfyhMDzVlmpsMmlw2xZYYApFbl6sER2TV%2FG9v8YzYsZx2ubGmBxUZEG08fRxnlwp6pPq9qQ1wE10lh9ZHB0naBxyiH1%2FSR8bwE4O0tMUy1UhgKLViB5Znl0UdPJTrmS56tavTX%2BY%2B2LA4j1VXZt6w%3D%3D|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 </link>
-<thumbnail></thumbnail>
-</item>
-
-
 
 
 <item>
@@ -2565,34 +2489,6 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <page>http://yotv.co/embedo.php?live=ss2r&vw=620&vh=490</page>
 <referer>http://cricfree.sx/</referer></regex>
 </item>
-
-
-<item>
-<title>clubbing1</title>
-<link>$doregex[first-url]</link>
-<regex>
-<name>first-url</name>
-<expres>(.*)#</expres>
-<page>$doregex[url]&amp;redirect=0</page>
-<referer>http://www.dailymotion.com/</referer>
-</regex>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>mpegURL","url":"(.*?)"</expres>
-<page>http://www.dailymotion.com/video/x27369p_clubbing-tv-live_music</page>
-<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0</agent>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/clubbing_tv_fr.png</thumbnail>
-</item>
-
-
-
-
 
 
 <item>
@@ -2643,17 +2539,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>LondonLi</title>
-<link>http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master_900.m3u8</link>
-<thumbnail></thumbnail>
-</item>
 
-<item>
-<title>Lond</title>
-<link>http://5.196.92.200/tvchannel/ngrp:hitafrica_mobile/master.m3u8</link>
-<thumbnail></thumbnail>
-</item>
+
 
 
 
