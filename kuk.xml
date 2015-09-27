@@ -2643,7 +2643,17 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>London Live</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*m3u8)"</expres>
+<page>http://www.londonlive.co.uk/tv</page>
+<referer></referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ll/london_live_uk.png</thumbnail>
+</item>
 
 
 
