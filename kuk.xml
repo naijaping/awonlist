@@ -2540,7 +2540,15 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<item>
+<title>Dragon_Balll_Z</title>
+<link>$doregex[getM3U8]</link>
+<regex>
+<name>getM3U8</name>
+<expres>controls" src="(.*?)"</expres>
+<page>http://m.streamlive.to/view/40156</page>
+</regex>
+</item>
 
 
 
