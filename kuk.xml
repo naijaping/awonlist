@@ -2646,10 +2646,14 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <item>
 <title>LondonLi</title>
 <link>http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master_900.m3u8</link>
-
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Lond</title>
+<link>http://5.196.92.200/tvchannel/ngrp:hitafrica_mobile/master.m3u8</link>
+<thumbnail></thumbnail>
+</item>
 
 
 
