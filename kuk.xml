@@ -2644,8 +2644,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 <item>
-<title>Real</title>
-<link>http://41.219.187.10:3003/50</link>
+<title>prime</title>
+<link>http://41.219.187.10:3003/1</link>
 <thumbnail></thumbnail>
 </item>
 
