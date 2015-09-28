@@ -2539,7 +2539,17 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>king</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.kingofstreams.com/demo-stream/demo-2/</page>
+<referer>http://www.kingofstreams.com/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
