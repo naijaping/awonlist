@@ -2541,14 +2541,29 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>show_amc</title>
-<link>$doregex[getM3U8]</link>
+<title>AIT International HD</title>
+<link>$doregex[get-finalURL]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</link>
 <regex>
-<name>getM3U8</name>
-<expres>controls" src="(.*?)"</expres>
-<page>http://m.streamlive.to/view/63376</page>
+<name>get-finalURL</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
+<page></page>
 </regex>
+<regex>
+<name>get-url</name>
+<expres>(http.*?)"</expres>
+<page>$pyFunction:urllib.urlopen('http://www.xroxy.com/proxylist.php?port=any&type=Transparent&ssl=&country=ng&latency=any&reliability=any=$doregex[url-quote]').read()</page>
+<referer>http://www.xroxy.com/proxylist.php?u=http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=gh-joy_3&amp;type=live&amp;service=wowza&amp;output=player</referer>
+<cookieJar></cookieJar>
+<agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote('http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=gh-joy_3&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp')</expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/ait_international.png</thumbnail>
 </item>
+
 
 
 
