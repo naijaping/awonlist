@@ -2553,22 +2553,6 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 
-<item>
-<title>mumi</title>
-<link>rtmp://62.210.82.111/live2 playpath=sex?e=$doregex[tok]|User-Agent=Mozilla/5.0</link>
-<regex>
-<name>tok</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('amp',' ')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>sex?e=(.*?)"<expres>
-<page>www.stream4free.eu/sex-live</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 
 
