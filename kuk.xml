@@ -2552,7 +2552,22 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<item>
+<title>LatinVi</title>
+<link>$doregex[get-RTMP] playpath=$doregex[get-PLAYPATH]</link>
+<regex>
+<name>get-PLAYPATH</name>
+<expres>video src="(.*?)"</expres>
+<page>http://connectcast.tv/channel/stream/LatinVi</page>
+<referer>http://connectcast.tv/</referer>
+</regex>
+<regex>
+<name>get-RTMP</name>
+<expres>meta base="(.*?)"</expres>
+<page>http://connectcast.tv/channel/stream/LatinVi</page>
+<referer>http://connectcast.tv/</referer>
+</regex>
+</item>
 
 
 
