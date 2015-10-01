@@ -2569,7 +2569,22 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </regex>
 </item>
 
-
+<item>
+<title>QacaidTV --M3U8 RegEx-- **http://www.qacaidtv.com/**</title>
+<link>http://$doregex[getServerIP]/qacaidtv/qacaidtv.stream/$doregex[getPlaypath]</link>
+<regex>
+<name>getServerIP</name>
+<expres>edgeserverip = '(.*?)'</expres>
+<page>http://acangroup.org/aar/qacaidtv.php?ch=qacaidtv.stream&amp;app=qacaidtv&amp;adaptive=0</page>
+<referer>http://www.qacaidtv.com/</referer>
+</regex>
+<regex>
+<name>getPlaypath</name>
+<expres>(playlist.*)"</expres>
+<page>http://acangroup.org/aar/qacaidtv.php?ch=qacaidtv.stream&amp;app=qacaidtv&amp;adaptive=0</page>
+<referer>http://www.qacaidtv.com/</referer>
+</regex>
+</item>
 
 
 
