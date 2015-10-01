@@ -2570,6 +2570,18 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item>
+<title>Tok</title>
+<link>http://85.25.218.230:1935/qacaidtv/smil:qacaidtv.stream/playlist.m3u8?token=$doregex[tok]</link>
+<regex>
+<name>tok</name>
+<expres>token=(.*?)"</expres>
+<page>http://acangroup.org/aar/qacaidtv.php?ch=qacaidtv.stream&app=qacaidtv&adaptive</page>
+<referer>http://www.qacaidtv.com/</referer>
+</regex>
+<thumbnail>http://i57.tinypic.com/k0oz9y.jpg</thumbnail>
+</item>
+
 
 
 
