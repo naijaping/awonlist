@@ -2587,7 +2587,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-item><title>Atupa</title>
+<item><title>Atupa</title>
 <f4m>http://ak.c.ooyala.com/ppYmM5bjorfxxpt1BeD3-osYHXkJRV9a/ppYmM5bjorfxxpt1BeD3-osYHXkJRV9a_1.f4m</f4m>
 <thumbnail>http://admin.ibakatv.com/Content/images/thumbs/IbakaTV-Atupa-ad455.jpg</thumbnail>
 </item>
