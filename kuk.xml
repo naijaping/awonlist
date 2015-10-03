@@ -2611,7 +2611,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 <item>
 <title>Rave TV</title> 
-<link>http://94.242.210.199:81/streaming/clients_live.php?extension=m3u8&username=d349wdpr&password=aoierjaodiradfj&stream=121&type=hls&segment=121_477.m3u8</link> 
+<link>http://94.242.210.199:81/streaming/clients_live.php?extension=m3u8&username=d349wdpr&password=aoierjaodiradfj&stream=121&type=hls&segment=121.m3u8</link> 
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rave_tv_ng.png</thumbnail>
 </item>
 
