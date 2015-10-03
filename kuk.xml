@@ -2587,7 +2587,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<item>
+<title>2114</title>
+<link>http://62.90.90.34/dimd_MercyRepeat/_definst_/smil:Mercy.smil/master.m3u8</link>
+<thumbnail></thumbnail>
+</item>
 
 
 
