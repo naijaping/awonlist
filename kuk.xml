@@ -2600,7 +2600,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <regex>
 <name>getM3U8</name>
 <expres>controls" src="(.*?)"</expres>
-<page>http://m.streamlive.to/view/36983</page>
+<page>http://m.streamlive.to/view/38214</page>
 <agent>Mozilla/5.0 (Linux; Android 4.4.2; en-gb; SAMSUNG SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36</agent>
 <referer></referer>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ll/lifetime_us.png</thumbnail>
