@@ -2616,6 +2616,13 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item>
+<title>AMC HD</title>
+<sportsdevil>http://nowwatchtvlive.me/watch-amc-tv-live-free-online-amc-tv-channel-us-amc-us-channel/</sportsdevil>
+<referer>http://nowwatchtvlive.me</referer>
+</item>
+
+
 
 </channel>
 
