@@ -2626,9 +2626,19 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>OlineNG</title> 
-<link>http://206.190.151.78/stream/My-America-%20Husband-Season-1.mp4</link>
-<thumbnail></thumbnail>
+<title>Atv</title>
+<link>$doregex[url-dec]</link>
+<regex>
+<name>url-dec</name>
+<expres>$pyFunction:urllib.unquote('$doregex[url]')</expres>
+<page></page>
+</regex>
+<regex>
+<name>url</name>
+<expres>iframe src="(.*?)"</expres>
+<page>http://tele-on.com/atv_en_vivo.html</page>
+<referer>http://tele-on.com/</referer>
+</regex>
 </item>
 
 
