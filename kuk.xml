@@ -2626,14 +2626,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>OnlineNG</title> 
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>src="(.*?)"</expres>
-<page>http://primetime.onlinenigeria.com/movies/4827-my-america-husband-season-1.html</page>
-<referer>http://onlinenigeria.com</referer>
-</regex>
+<title>OlineNG</title> 
+<link>http://206.190.151.78/stream/My-America-%20Husband-Season-1.mp4</link>
 <thumbnail></thumbnail>
 </item>
 
