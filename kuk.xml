@@ -2594,17 +2594,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-<item>
-<title>Livetime</title>
-<link>$doregex[getM3U8]</link>
-<regex>
-<name>getM3U8</name>
-<expres>controls" src="(.*?)"</expres>
-<page>http://m.streamlive.to/view/38214</page>
-<agent>Mozilla/5.0 (Linux; Android 4.4.2; en-gb; SAMSUNG SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36</agent>
-<referer></referer>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ll/lifetime_us.png</thumbnail>
-</item>
+
 
 
 
@@ -2623,28 +2613,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-<item>
-<title> AMC | nowwatchtvlive.me</title>
-<link>$doregex[rtmp] playpath=$doregex[file] swfUrl=http://p.castamp.com/cplayer.swf live=1 pageUrl=$doregex[page]</link>
-<regex>
-<name>rtmp</name>
-<expres>\}\);.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*'streamer': '(.*?)'</expres>
-<page>$doregex[page]</page>
-<referer>http://nowwatchtvlive.me/channel-tab-frame/amc-tv1.php</referer>
-</regex>
-<regex>
-<name>file</name>
-<expres>\}\);.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*'file': '(.*?)'</expres>
-<page>$doregex[page]</page>
-<referer>http://nowwatchtvlive.me/channel-tab-frame/amc-tv1.php</referer>
-</regex>
-<regex>
-<name>page</name>
-<expres>iframe src="(.*embed.php.*?)"</expres>
-<page>http://nowwatchtvlive.me/channel-tab-frame/amc-tv1.php</page>
-<referer>http://nowwatchtvlive.me/</referer>
-</regex>
-</item>
+
 
 
 
