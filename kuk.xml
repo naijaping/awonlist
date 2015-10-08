@@ -2647,7 +2647,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<item>
+<title>Vevo eu HD</title>
+<link>http://vevoplaylist-eu01-live.hls.adaptive.level3.net/vevoeu/ch01/06/prog_index.m3u8</link>
+<thumbnail>http://i59.tinypic.com/14nedf8.jpg</thumbnail>
+</item>
 
 
 </channel>
