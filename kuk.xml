@@ -2632,23 +2632,42 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 <item>
 <title>Fox Movies</title>
-<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://iptv-planet.com/swfs/player.swf live=1 timeout=15 pageUrl=http://iptv-planet.com/embed.php</link>
+<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://iptv-planet.com/swfs/player.swf live=1 timeout=15 pageUrl=http://embed.iptv-planet.com/embed.php?id=fm&amp;width=600&amp;height=400 flashVer=WIN\2019,0,0,185</link>
 <regex>
 <name>rtmp</name>
 <expres>streamer="(.*?)"</expres>
 <page>http://embed.iptv-planet.com/embed.php?id=fm&amp;width=600&amp;height=400</page>
-<referer>http://iptv-planet.com/foxmovies.html</referer>
+<referer></referer>
 </regex>
 <regex>
 <name>path</name>
 <expres>'file': '(.*?)'</expres>
 <page>http://embed.iptv-planet.com/embed.php?id=fm&amp;width=600&amp;height=400</page>
-<referer>http://iptv-planet.com/foxmovies.html</referer>
+<referer></referer>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/ff/fox_movies_middle_east.png</thumbnail>
 </item>
 
 
+
+
+<cname>MTV</cname>
+        <item>
+            <title/>
+            <link>$doregex[getrtmp] playpath=$doregex[getplaypath] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=mtv&amp;width=600&amp;height=400 flashVer=WIN\2019,0,0,185 timeout=20</link>
+            <regex>
+                <name>getrtmp</name>
+                <expres>streamer="(.*?)";</expres>
+                <page>http://embed.iptv-planet.com/embed.php?id=mtv&amp;width=600&amp;height=400</page>
+            </regex>
+            <regex>
+                <name>getplaypath</name>
+                <expres>'file': '(.*?)'</expres>
+                <page>http://embed.iptv-planet.com/embed.php?id=mtv&amp;width=600&amp;height=400</page>
+            </regex>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
 
 
 
