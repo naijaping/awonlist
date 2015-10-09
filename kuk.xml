@@ -2613,7 +2613,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<item>
+<title>o2TV</title> 
+<link>http://live.cache.eaglecdn.com/stream/o2tv/amlst:translation_meta_10787/master.m3u8</link> 
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rave_tv_ng.png</thumbnail>
+</item>
 
 
 
