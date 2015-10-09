@@ -2631,11 +2631,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Fox Movies</title>
-<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://iptv-planet.com/swfs/player.swf live=1 timeout=15 pageUrl=http://embed.iptv-planet.com/embed.php?id=fm&amp;width=600&amp;height=400 flashVer=WIN\2019,0,0,185</link>
+<title>FoxMovies</title>
+<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://iptv-planet.com/swfs/player.swf timeout=15 pageUrl=http://embed.iptv-planet.com/embed.php?id=fm&amp;width=600&amp;height=400 flashVer=WIN\2019,0,0,185</link>
 <regex>
 <name>rtmp</name>
-<expres>streamer="(.*?)"</expres>
+<expres>streamer="(.*?)";</expres>
 <page>http://embed.iptv-planet.com/embed.php?id=fm&amp;width=600&amp;height=400</page>
 <referer></referer>
 </regex>
