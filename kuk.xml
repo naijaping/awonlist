@@ -2629,7 +2629,16 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 
-
+<item>
+<title>99 Names of Allah</title> 
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.quran411.com/99-names-of-allah.asp</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
