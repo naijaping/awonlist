@@ -2696,6 +2696,18 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 
+<item>	
+<title>http://zonasports.in/canal-2.php</title>
+<link>$doregex[get-rtmp] pageUrl=http://direct-stream.biz/embednews.php?c=ZonaSports3a</link>
+<regex>
+<name>get-rtmp</name>
+<expres>var file1 = "(.*?)"</expres>
+<page>http://direct-stream.biz/embednews.php?c=ZonaSports3a</page>
+<referer>http://zonasports.in</referer>
+</regex>
+</item>
+
+
 
 </channel>
 
