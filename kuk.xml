@@ -2662,22 +2662,22 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <regex>
 <name>rtmp</name>
 <expres>token=(.*?)'</expres>
-<page>http://gblackstreaming.com/embed.php?a=15100&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<page>http://gblackstreaming.com/embed.php?a=31&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
 <referer>http://gblackstreaming.com</referer>
 </regex>
 <regex>
 <name>path</name>
 <expres>file', '(.*?)'</expres>
-<page>http://gblackstreaming.com/embed.php?a=15100&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<page>http://gblackstreaming.com/embed.php?a=31&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
 <referer>http://gblackstreaming.com</referer>
 </regex>
 <regex>
 <name>tok</name>
 <expres>token', '(.*?)'</expres>
-<page>http://gblackstreaming.com/embed.php?a=15100&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
+<page>http://gblackstreaming.com/embed.php?a=31&amp;id=&amp;width=650&amp;height=400&amp;autostart=true&amp;strech=</page>
 <referer>http://gblackstreaming.com</referer>
 </regex>
-<thumbnail>http://www.proyectopescares.com/wp-content/uploads/2015/02/Caza-y-Pesca-Logotipo.jpg</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
