@@ -2655,7 +2655,29 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 
-
+<item>
+<title>Arriadia2</title>
+<link>$doregex[rtmp] playpath=$doregex[file] swfUrl=http://embed.iptv-planet.com$doregex[swf] pageUrl=http://embed.iptv-planet.com/embed.php?id=mtv&amp;width=600&amp;height=400 flashVer=WIN\2019,0,0,185 timeout=20 live=1</link>
+<regex>
+<name>rtmp</name>
+<expres>"US"[\w\W\s]*streamer="([^"]+)</expres>
+<page>http://embed.iptv-planet.com/embed.php?id=Hi_Arriadia&amp;width=600&amp;height=400</page>
+<referer>http://iptv-planet.com/arriadia.html</referer>
+</regex>
+<regex>
+<name>file</name>
+<expres>'file': '(.*?)'</expres>
+<page>http://embed.iptv-planet.com/embed.php?id=Hi_Arriadia&amp;width=600&amp;height=400</page>
+<referer>http://iptv-planet.com/arriadia.html</referer>
+</regex>
+<regex>
+<name>swf</name>
+<expres>var myPlayer="(.*?)"</expres>
+<page>http://embed.iptv-planet.com/embed.php?id=Hi_Arriadia&amp;width=600&amp;height=400</page>
+<referer>http://iptv-planet.com/arriadia.html</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
