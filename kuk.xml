@@ -2682,7 +2682,17 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 
-
+<item>
+<title>Vox Africa TV</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>var file1 = "(.*?)"</expres>
+<page>http://direct-stream.biz/embednews.php?c=ZonaSports3a&amp;vw=750&amp;vh=430</page>
+<referer>http://zonasports.in</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
