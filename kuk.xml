@@ -2721,8 +2721,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>DENEME FUTBOL</title>
-<link>$doregex[get-rtmp] playpath=13 swfUrl=http://sostart.org/jw/jwplayer.flash.swf live=1 token=SECURET0KEN#yw%.?()@W! pageUrl=http://sostart.org/stream.php?id=13&width=640&height=390 timeout=12</link>
+<title>DENEMEFUTBOL</title>
+<link>$doregex[get-rtmp] playpath=13 swfUrl=http://sostart.org/jw/jwplayer.flash.swf live=1 token=#yw%.?()@W! pageUrl=http://sostart.org/stream.php?id=13&width=640&height=390 swfVfy=1 timeout=12</link>
 <regex>
 <name>get-rtmp</name>
 <expres>file:'(.*?)'</expres>
