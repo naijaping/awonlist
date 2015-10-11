@@ -2738,10 +2738,10 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <regex>
 <name>reg1</name>
 <expres>file: "(.*?)"</expres>
-<page>http://live.naijaplay.co/2015/10/live-stream-germany-vs-georgia.html</page>
-<referer></referer>
+<page>http://www.developermart.com/streamsports.php</page>
+<referer>http://www.developermart.com</referer>
 </regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/voxafrica_afrique.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
