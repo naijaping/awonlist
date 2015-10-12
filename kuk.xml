@@ -2758,7 +2758,15 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<item>
+<title>TEST fox</title>
+<link>$doregex[rtmp] playpath=fxx1 token=%Zrey(nKa@#Z swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=13 pageUrl=http://yotv.co/</link>
+<regex>
+<name>rtmp</name>
+<expres>file: "(.*?)"<expres>
+<page>http://yotv.co/embedo.php?live=fxx1&amp;vw=620&amp;vh=490</page>
+<referer>http://cricfree.sx/</referer></regex>
+</item>
 
 
 
