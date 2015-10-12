@@ -2747,11 +2747,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>GAME OF THRONES SEASON 5</title>
+<title>GAME OF THRONE</title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
-<expres>360P.*?file: "(.*?)"</expres>
+<expres>720P.*?file: "(.*?)"</expres>
 <page>http://www.mooplayer.com/driveplayer/driveplay.php?v=oNQj7u5fTYh</page>
 <referer>http://www.mooplayer.com/player.php?v=oNQj7u5fTYh</referer>
 </regex>
