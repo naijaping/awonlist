@@ -2758,6 +2758,20 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+
+<item>
+<title>Dubai</title>
+<link>http://astv10sec3.tulix.tv/dubaitv/dubaitv.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://bit.ly/1LNoGly</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item> 
+
+
 </channel>
 
 
