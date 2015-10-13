@@ -2758,7 +2758,17 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<item>
+<title>TV</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>'file':'(.*?)'</expres>
+<page>http://www.freeintertv.com/modules/View/screen.php?nametv=Nick+Jr+%28Holland%29&idtv=2573&TVSESS=6198af6bdb485f9f4a5857812b8cac6c</page>
+<referer>http://www.freeintertv.com/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
