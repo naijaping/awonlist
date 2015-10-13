@@ -2759,11 +2759,13 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>TV q</title>
-<link>http://fe-sib.svc.iptv.rt.ru/hls/CH_C02_NICKJUNIOR/variant.m3u8?version=2</link>
+<title>ReGex - tvseriesclub</title>
+<link>$doregex[file]</link><regex><name>file</name><expres>"1280", file: "(.*?)"+</expres>
+<page>http://tvseriesclub.com/mbeddr/21292/</page></regex>
+<referer>http://tvseriesclub.com/</referer>
 <thumbnail></thumbnail>
+<fanart></fanart>
 </item>
-
 
 
 </channel>
