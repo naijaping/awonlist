@@ -2776,6 +2776,13 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item>
+<title>RaT1</title> 
+<link>http://tna2gb9.tulix.tv/hls/astv1cth4/b427d07c1ae03f4995ef064ca7f1a8e2/561e4a74/cth4.m3u8</link> 
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/rr/rave_tv_ng.png</thumbnail>
+</item>
+
+
 </channel>
 
 
