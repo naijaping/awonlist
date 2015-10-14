@@ -2721,11 +2721,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>DENEME FUTBOL</title>
-<link>$doregex[get-rtmp]:1935/live playpath=13 swfUrl=http://sostart.org/jw/jwplayer.flash.swf live=1 pageUrl=http://sostart.org/stream.php?id=13&amp;width=640&amp;height=390 timeout=12 token=SECURET0KEN#yw%.?()@W! flashver=WIN\2019,0,0,185</link>
-<regex><name>get-rtmp</name><expres>file:'(.*?)\/live+</expres>
-<page>http://sostart.org/stream.php?id=13&amp;width=640&amp;height=390</page>
-<referer>http://www.soccerjumbotv.me/ch-3.html</referer>
+<title>Sjumbo</title>
+<link>$doregex[get-rtmp]:1935/live playpath=12 swfUrl=http://sostart.org/jw/jwplayer.flash.swf live=1 pageUrl=http://sostart.org/stream.php?id=13&amp;width=640&amp;height=390 timeout=12 token=SECURET0KEN#yw%.?()@W! flashver=WIN\2019,0,0,185</link>
+<regex><name>get-rtmp</name><expres>file:'(.*?)</expres>
+<page>http://sostart.org/stream.php?id=12&amp;width=640&amp;height=390</page>
+<referer>http://www.soccerjumbotv.me/ch-2.html</referer>
 </regex>
 </item>
 
