@@ -653,84 +653,6 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/gol_tv.png</thumbnail>
 </item>
 
-<item>
-<title>Random Sport 1</title>
-<link>rtmp://w13.vmnode.pw:1935/live playpath=tsn swfUrl=http://skyaccess.se/vb/jwplayer/player-licensed.swf pageUrl=http://nodetower.com/7-SFE-SZE-HOSTACCESS/media/tsnmix.php live=true timeout=20</link>
-<thumbnail>http://i59.tinypic.com/2a0dfr8.jpg</thumbnail>
-</item>
-
-<item>
-<title>Bein Sport 1</title>
-<link>rtmpe://167.114.101.234:1935/live?idu=ghayth12345_61813917360/bein_sport_1_low</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
-</item>
-
-<item>
-<title>Bein Sport 2</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://vipracing.tv/channel/bein-en/frame')</expres>
-<page></page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
-</item>
-
-
-<item>
-<title>Bein Sport 3</title>
-<link>rtmpe://167.114.101.234:1935/live?idu=ghayth12345_61813917360/bein_sport_3_low</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
-</item>
-
-<item>
-<title>Bein Sport 5</title>
-<link>rtmp://167.114.101.234:1935/live?idu=ghayth12345_61813917360/bein_sport_5_low</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
-</item>	
-			
-	        	
-<item>
-<title>Bein Sport 6</title>
-<link>rtmp://167.114.101.234:1935/live?idu=ghayth12345_61813917360/bein_sport_6_low</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
-</item>	
-					
-<item>
-<title>Bein Sport  7</title>
-<link>rtmp://207.244.67.9/iguide playpath=zzfqvfs2w9x3e9l swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGD timeout=20</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
-</item>
-
-<item>
-<title>Bein Sport 8</title>
-<link>rtmpe://167.114.101.234:1935/live?idu=ghayth12345_61813917360/bein_sport_8_low</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
-</item>	
-	
-<item>
-<title>Bein Sport 9</title>
-<link>rtmpe://167.114.101.234:1935/live?idu=ghayth12345_61813917360/bein_sport_9_low</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
-</item>	
-
-<item>
-<title>Bein  10</title>
-<link>rtmpe://167.114.101.234:1935/live?idu=ghayth12345_61813917360/bein_sport_10_low</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
-</item>
-
-<item>
-<title>Bein  11</title>
-<link>rtmpe://167.114.101.234:1935/live?idu=ghayth12345_61813917360/bein_sport_11_low</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
-</item>
-
-<item>
-<title>Bein 12</title>
-<link>rtmpe://167.114.101.234:1935/live?idu=ghayth12345_61813917360/bein_sport_12_low</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/be_in_sports_hd.png</thumbnail>
-</item>
 
 <item>
 <title>NBCSN And CO</title>
@@ -1444,54 +1366,6 @@
 </regex>
 </item>
 
-<item>
-<title>MUMUNI 1</title>
-<link>http://pvr.tvip.ga/0430.m3u8|X-Forwarded-For=85.5.87.218</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>MUMUNI 2</title>
-<link>http://pvr.tvip.ga/0425.m3u8|X-Forwarded-For=85.5.87.218</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>MUMUNI 3</title>
-<link>http://pvr.tvip.ga/0423.m3u8|X-Forwarded-For=85.5.87.218</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>MUMUNI 4</title>
-<link>http://pvr.tvip.ga/0414.m3u8|X-Forwarded-For=85.5.87.218</link>
-<thumbnail>http://i62.tinypic.com/29uric5.jpg</thumbnail>
-</item>
-
-<item>
-<title>MUMUNI 5</title>
-<link>http://pvr.tvip.ga/0402.m3u8|X-Forwarded-For=85.5.87.218</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>MUMUNI 6</title>
-<link>http://pvr.tvip.ga/0409.m3u8|X-Forwarded-For=85.5.87.218</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>
-<title>MUMUNI 7</title>
-<link>http://pvr.tvip.ga/0236.m3u8|X-Forwarded-For=85.5.87.218</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>MUMUNI 8</title>
-<link>http://pvr.tvip.ga/0406.m3u8|X-Forwarded-For=85.5.87.218</link>
-<thumbnail></thumbnail>
-</item>
 
 <item>
 <title>Cup</title>
@@ -2799,10 +2673,18 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Surah Yasin</title> 
-<utube>SilverbirdTelevision</utube> 
-<thumbnail>http://i62.tinypic.com/30ttj6a.jpg</thumbnail>
+<title>ancTV</title>
+<link>http://astv10sec1.tulix.tv/amcseries/amcseries/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.giniko.com/watch.php?id=211</page>
+<agent>Mozilla/5.0</agent>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
 </item>
+ 
 
 
 <item>
