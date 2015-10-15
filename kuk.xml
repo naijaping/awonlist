@@ -2654,14 +2654,14 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>RaT3</title> 
+<title>RaT1</title> 
 <link>http://hls.tv.iptv.ink/showtvtr@442251.m3u8|X-Forwarded-For=37.34.18.55</link> 
 <thumbnail></thumbnail>
 </item>
 
 <item>
-<title>RaT4</title> 
-<link>http://hls.tv.iptv.ink/mtvliveru@917205.m3u8|X-Forwarded-For=37.78.18.55</link> 
+<title>RaT2</title> 
+<link>http://hls.tv.iptv.ink/nickjuniorru@656041.m3u8|X-Forwarded-For=37.78.18.55</link> 
 <thumbnail></thumbnail>
 </item>
 
