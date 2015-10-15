@@ -2676,10 +2676,18 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Yasi</title> 
-<utube>freedomarenaAwake</utube> 
-<thumbnail></thumbnail>
+<title>Nollywood TV</title>
+<link>http://nimplus1.giniko.com/skynews/skynews.stream/playlist.m3u8$doregex[get-auth]</link>
+<regex>
+<name>get-auth</name>
+<expres>m3u8(\?.*)"</expres>
+<page>http://www.giniko.com/watch.php?id=211</page>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36</agent>
+<referer></referer>
+</regex>
+<thumbnail>http://i59.tinypic.com/xndr34.jpg</thumbnail>
 </item>
+ 
 
 
 </channel>
