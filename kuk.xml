@@ -2676,8 +2676,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Nollywood TV</title>
-<link>http://nimplus1.giniko.com/skynews/skynews.stream/playlist.m3u8$doregex[get-auth]</link>
+<title>Nol</title>
+<link>http://nimplus1.giniko.com/bbcone/bbcone.stream/playlist.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
