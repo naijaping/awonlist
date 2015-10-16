@@ -2693,6 +2693,13 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item>
+<title>[COLOR white][B]Sky Sports 1[/B][/COLOR]</title>
+<link>http://tvi.ddns.me:8000/live/fraim/fraim/1044.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/ss/sky_uk_sports1.png</thumbnail>
+</item>
+
+
 </channel>
 
 
