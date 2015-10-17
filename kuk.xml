@@ -2650,23 +2650,9 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
-
 <item>
-<title>Nol</title>
-<link>http://tna2gb9.tulix.tv/hls/astv1cth5/13dd78a4ac057cf49f81b62474ba8dce/56203352/cth5.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=211</page>
-<agent>Mozilla/5.0 </agent>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
- 
-<item>
-<title>Nou</title>
-<link>http://astv10sec1.tulix.tv/cth1/cth1/playlist.m3u8$doregex[get-auth]</link>
+<title>Noui</title>
+<link>http://tna2gb9.tulix.tv/hls/astvcth2/a0ea4fe46eae241757a358ae0f85a327/56239362/cth2.m3u8</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
