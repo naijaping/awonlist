@@ -2688,13 +2688,13 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>David</title>
+<title>DavidO</title>
 <link>$doregex[get-M3u8]</link>
 <regex>
 <name>get-M3u8</name>
 <expres>file: '(.*?)'</expres>
 <page>http://shoutcastmedia.com/domistreaming/hd.html</page>
-<referer></referer>
+<referer>http://www.davidoyedepoministries.org/mediacenter</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
