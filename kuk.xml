@@ -2702,8 +2702,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Rtmpo</title>
-<link>$doregex[get-rtmp] playpath=rccgna swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://shoutcastmedia.com/rccgna/</link>
+<title>Rtmpmo</title>
+<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://shoutcastmedia.com/rccgna/</link>
 <regex>
 <name>get-rtmp</name>
 <expres>file: "(.*?)"</expres>
