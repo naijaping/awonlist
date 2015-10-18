@@ -2686,7 +2686,10 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
+<item>
+<title>Sopcast - Plexus -</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/149258&amp;mode=2&amp;name=title+sopcast</link>
+</item>
 
 
 </channel>
