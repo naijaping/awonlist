@@ -2687,11 +2687,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 
-<item>
-<title>David</title>
-<link>http://myafricanmega3.tulix.tv:1935/map-nollywoodpremier/map-nollywoodpremier/playlist.m3u8</link>
-<thumbnail></thumbnail>
-</item>
+
 
 
 <item>
@@ -2699,7 +2695,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <link>$doregex[get-M3u8]</link>
 <regex>
 <name>get-M3u8</name>
-<expres>x-mplayer2" src="(.*?)"</expres>
+<expres>"FileName" VALUE="(.*?)"</expres>
 <page>http://myghana.co/tv/stream.html</page>
 <referer></referer>
 </regex>
