@@ -2695,11 +2695,16 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Nnited v Norwich City</title>
-<link>http://nlds6.cdnak.lon.neulion.com/nlds/coliseum/newcastleunited/as/live/newcastleunited_hd_androidtab.m3u8?nltid=plp&nltdt=8&uid=54419&hdnea=expires=1445205088~access=/*~md5=a38755496acf599e71e097632d518d84|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X)</link>
-<thumbnail>http://s20.postimg.org/9h2qqkysd/Football_Icon.png</thumbnail>
+<title>David</title>
+<link>$doregex[get-M3u8]</link>
+<regex>
+<name>get-M3u8</name>
+<expres>SRC="(.*?)"</expres>
+<page>http://myghana.co/tv/stream.html</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
 </item>
-
 
 
 
