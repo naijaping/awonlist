@@ -2699,7 +2699,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <link>$doregex[get-M3u8]</link>
 <regex>
 <name>get-M3u8</name>
-<expres>SRC="(.*?)"</expres>
+<expres>x-mplayer2" SRC="(.*?)"</expres>
 <page>http://myghana.co/tv/stream.html</page>
 <referer></referer>
 </regex>
