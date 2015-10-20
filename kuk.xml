@@ -2725,16 +2725,6 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-<item>
-			<title>Link4</title>
-				<link>$doregex[get-delink]</link>
-				<regex>
-				<name>get-delink</name>
-				<expres>link4source src="(.*?)"</expres>
-				<page>https://dl.dropboxusercontent.com/s/fie9i37sqkr8m54/skysport1.xml</page>
-				</regex> 
-		</item>
-
 
 
 
