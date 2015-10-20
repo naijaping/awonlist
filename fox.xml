@@ -1,7 +1,7 @@
-foxgo1source src=""
+foxgo1source src="http://live-prod.fs.anvato.net/server/play/fs1ctg/master.m3u8?anv=1443528151888"
 
-foxgo2source src=""
+foxgo2source src="http://live-prod.fs.anvato.net/server/play/fs2ctg/master.m3u8?anv=1443528151888"
 
-foxsoccsource src=""
+foxsoccsource src="http://live-prod.fs.anvato.net/server/play/fspctg/master.m3u8?anv=1443528151888"
 
-foxdepsource src=""
+foxdepsource src="http://ftve7300-i.akamaihd.net/hls/live/216993/fxdep/master.m3u8?anv=1443528151888"
