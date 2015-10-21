@@ -2726,14 +2726,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>truc</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>file: "(.*?)"</expres>
-<page>http://admin.mangomolo.com/analytics/index.php/customers/embed/index?id=NzE=&amp;channelid=MjM=&countries=Q0M=&amp;w=100%&amp;h=100%&amp;filter=DENY&signature=b8eadb483fc9abaf1f4625f3041e23d2</page>
-<referer></referer>
-</regex>
+<title>truck</title>
+<link>http://dmi.mangomolo.com:1935/dubaisports/smil:dubaisports.smil/playlist.m3u8?DVR</link>
 <thumbnail></thumbnail>
 </item>
 
