@@ -2731,6 +2731,24 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>HBO Movies</title>
+<link>$doregex[getM3U8]</link>
+<regex>
+<name>getM3U8</name>
+<expres>controls" src="(.*?)"</expres>
+<page>$pyFunction:urllib.urlopen('http://67.159.5.242/browse.php?u=$doregex[url-quote]&amp;idx=1&amp;p=404').read()</page>
+<referer>http://67.159.5.242/browse.php?u=http://m.streamlive.to/view/38214</referer>
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote('http://m.streamlive.to/view/38214')</expres>
+<page></page>
+</regex>
+<agent>Mozilla/5.0 (Linux; Android 4.4.2; en-us; SAMSUNG SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36</agent>
+<thumbnail></thumbnail>
+</item>
+
 
 
 
