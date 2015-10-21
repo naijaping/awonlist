@@ -2732,13 +2732,13 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 <item>
-<title>HBO Movies</title>
+<title>HBOMovies</title>
 <link>$doregex[getM3U8]</link>
 <regex>
 <name>getM3U8</name>
 <expres>controls" src="(.*?)"</expres>
-<page>$pyFunction:urllib.urlopen('http://67.159.5.242/browse.php?u=$doregex[url-quote]&amp;idx=1&amp;p=404').read()</page>
-<referer>http://67.159.5.242/browse.php?u=http://m.streamlive.to/view/38214</referer>
+<page>$pyFunction:urllib.urlopen('http://proxy.cm/widget/browse.php?u=$doregex[url-quote]&amp;b=28&amp;f=norefer').read()</page>
+<referer>http://proxy.cm/widget/browse.php?u=http://m.streamlive.to/view/38214</referer>
 </regex>
 <regex>
 <name>url-quote</name>
