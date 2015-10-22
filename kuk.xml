@@ -2768,17 +2768,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </regex>
 </item>
 
-<item>
-<title>1music</title>
-<link>$doregex[reg1]</link>
-<regex>
-<name>reg1</name>
-<expres>1musicsource src="(.*?)"</expres>
-<page>https://www.dropbox.com/s/3rev3ebyhetta5y/fox.xml?dl=1</page>
-<referer></referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/num/1music_channel_hu.png</thumbnail>
-</item>
+
 
 
 
