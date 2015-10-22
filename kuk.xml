@@ -2749,7 +2749,14 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>BT Sport Europe - TEST</title>
+<link>$doregex[file]</link><regex><name>file</name><expres>file:"(.*?)"</expres>
+<page>http://www.indostreamix.com/embed/sports/bt-sport-europe.php</page>
+<referer>http://www.indostreamix.com/</referer></regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
 
  
 
