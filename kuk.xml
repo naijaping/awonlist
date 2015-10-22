@@ -2745,21 +2745,12 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 <item>
 <title>truck</title>
-<link>http://dmi.mangomolo.com:1935/dubaisports/smil:dubaisports.smil/playlist.m3u8?DVR</link>
+<link></link>
 <thumbnail></thumbnail>
 </item>
 
 
-<item>
-<title>American Dad</title>
-<link>$doregex[getURL]|User-Agent=iPhone</link>
-<regex>
-<name>getURL</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.stream4free.me/american-dad</page>
-<referer>http://www.stream4free.me</referer>
-</regex>
-</item>
+
  
 
 
