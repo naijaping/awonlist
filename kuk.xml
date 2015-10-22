@@ -2758,7 +2758,15 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <fanart></fanart>
 </item>
 
- 
+ <item>
+<title>Privatestream</title>
+<link>$doregex[get-rtmp] swfUrl=http://privatestream.tv/js/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://privatestream.tv/</link>
+<regex>
+<name>get-rtmp</name>
+<expres>$pyFunction:get_leton_rtmp('http://privatestream.tv/player?streamname=tttvvvvnnnaaa1','http://privatestream.tv/')</expres>
+<page></page>
+</regex>
+</item>
 
 
 
