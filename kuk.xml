@@ -2771,6 +2771,19 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 
+<item>
+<title>Foxo</title>
+<link>$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.moskvatv.net/page/mtv-hits-tv-online.php</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
 
 
 
