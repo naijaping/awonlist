@@ -2783,7 +2783,16 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
-
+<title>[COLOR oldlace][B]CBS Sports Network[/B][/COLOR]</title>
+<link>http://lb.iptvserver.tv:8080/redirect/LiveEdge/CBSSportsNetworkUS/playlist.m3u8?token=$doregex[tok]</link>
+<regex>
+<name>tok</name>
+<expres>token=(.*)</expres>
+<page>http://rtvsource.webcindario.com/STALKER.php?ID=2359&amp;F=.m3u8</page>
+<referer>http://rtvsource.webcindario.com/</referer>
+<setcookie>programa=rosadintv</setcookie>
+</regex>
+</item> 
 
 
 
