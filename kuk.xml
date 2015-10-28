@@ -2750,15 +2750,6 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 <item>
-<title>BT Sport Europe - TEST</title>
-<link>$doregex[file]</link><regex><name>file</name><expres>file:"(.*?)"</expres>
-<page>http://www.indostreamix.com/embed/sports/bt-sport-europe.php</page>
-<referer>http://www.indostreamix.com/</referer></regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
-<item>
 <title>Privatestream</title>
 <link>$doregex[get-rtmp] swfUrl=http://privatestream.tv/js/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://privatestream.tv/</link>
 <regex>
@@ -2769,6 +2760,23 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item>
+<title>Somali</title>
+<link>$doregex[get-m3u8]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+<regex>
+<name>get-m3u8</name>
+<expres>76.*\s?(http.*?)\s</expres>
+<page>$doregex[get-page]</page>
+<agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>get-page</name>
+<expres>"m3u8_url":"(.*?)"</expres>
+<page>http://livestream.com/accounts/2058831/events/2072662</page>
+<cookieJar></cookieJar>
+</regex>
+</item>
 
 
 
