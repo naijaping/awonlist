@@ -2742,13 +2742,6 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </regex>
 </item>
 
-
-<item>
-<title>truck</title>
-<link>http://j.mp/dskj329898</link>
-<thumbnail></thumbnail>
-</item>
-
 <item>
 <title>Privatestream</title>
 <link>$doregex[get-rtmp] swfUrl=http://privatestream.tv/js/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://privatestream.tv/</link>
@@ -2760,27 +2753,6 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-<item>
-<title>rccgvictoryhouse</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>$pyFunction:'$doregex[get-url]'.replace('\/','/')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>url":"(.*?)"</expres>
-<page>https://embed.bambuser.com/xhr-api?_strict=1&amp;method=broadcast/$doregex[id]/format/detect&amp;format=json</page>
-<referer>https://embed.bambuser.com/</referer>
-</regex>
-<regex>
-<name>id</name>
-<expres>var vid = (.*?);</expres>
-<page>https://embed.bambuser.com/channel/rccgvictoryhouse</page>
-<referer>https://embed.bambuser.com/</referer>
-</regex>
-</item>
 
 
 
