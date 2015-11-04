@@ -2744,8 +2744,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Noui Test</title>
-<link>hds://itv1livehds-lh.itv.com/i/itv1livehds_1@321229/manifest.f4m?hdcore=&hdnts=st=1443289517~exp=1443309517~acl=/*~hmac=a4363b69df7370871497baeff989ad699ca69d9de6d36b6eb33bf2408ea2b69a</link>
+<title>NouTest</title>
+<link>hds://itv1livehds-lh.itv.com/i/itv1livehds_1@321229/manifest.f4m?hdntl=exp=1446723531~acl=%2f*~data=hdntl~hmac=671f9f28fda0d4bc2c92d77114231a1f2ef9a4c050d3d487bbbfe5d2c7529c1a</link>
 <thumbnail></thumbnail>
 </item> 
 
