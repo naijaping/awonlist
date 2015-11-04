@@ -264,30 +264,6 @@
 </item>
 
 <item>
-<title>BBC ONE</title>
-<link>http://nimlive1.giniko.com/bbcone/bbcone.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=190</page>
-<referer>http://www.giniko.com/country.php?id=80</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_one.png</thumbnail>
-</item>
-
-<item>
-<title>BBC TWO</title>
-<link>http://nimlive1.giniko.com/bbctwo/bbctwo.stream/playlist.m3u8$doregex[get-auth]</link>
-<regex>
-<name>get-auth</name>
-<expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=190</page>
-<referer>http://www.giniko.com/country.php?id=80</referer>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/bbc_two_uk.png</thumbnail>
-</item>
-
-<item>
 <title>CNN</title>
 <link>http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_,264,528,828,.m3u8</link>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/cnn_international_europe.png</thumbnail>
