@@ -2717,10 +2717,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </regex>
 </item>
 
-
-
 <item>
-<title>NouTest</title>
+<title>NouTest999</title>
 <link>http://myafricanmega4.tulix.tv:1935/map-invevotv1/map-invevotv1.stream/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item> 
