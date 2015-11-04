@@ -2721,7 +2721,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 <item>
 <title>NouTest</title>
-<link>hds://itv1livehds-lh.itv.com/i/itv1livehds_1@321229/manifest.f4m?hdntl=exp=1446723531~acl=%2f*~data=hdntl~hmac=671f9f28fda0d4bc2c92d77114231a1f2ef9a4c050d3d487bbbfe5d2c7529c1a</link>
+<link>http://myafricanmega3.tulix.tv:1935/map-cnn/map-cnn.stream/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item> 
 
