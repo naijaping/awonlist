@@ -2721,7 +2721,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 <item>
 <title>NouTest</title>
-<link>http://myafricanmega3.tulix.tv:1935/map-cnn/map-cnn.stream/playlist.m3u8</link>
+<link></link>
 <thumbnail></thumbnail>
 </item> 
 
