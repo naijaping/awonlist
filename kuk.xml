@@ -2725,8 +2725,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 <item>
-<title>Foru</title> 
-<link>http://lstv1.hls1.stream-server.org/live/vox@sd/index.m3u8|X-Forwarded-For=138.188.240.225&User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0</link>
+<title>Foru00</title> 
+<link>http://lstv1.hls1.stream-server.org/live/vox@sd/index.m3u8|X-Forwarded-For=138.188.240.225&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0</link>
 </item>
 
 
