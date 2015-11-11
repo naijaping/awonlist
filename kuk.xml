@@ -2704,6 +2704,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <referer>http://www.ceskatelevize.cz/</referer>
 <rawpost>playlist%5B0%5D%5Btype%5D=channel&amp;playlist%5B0%5D%5Bid%5D=24&amp;requestUrl=%2Fivysilani%2Fembed%2FiFramePlayerCT24.php&amp;requestSource=iVysilani&amp;addCommercials=1&amp;type=flash</rawpost>
 <x-addr>127.0.0.1</x-addr>
+<parentalblock>true</parentalblock>
 </regex>
 </item>
 
@@ -2725,8 +2726,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 <item>
 <title>DuaFor</title> 
-<link>http://yayin08.canlitvlive.com/bbcworld/live.m3u8</link>
-<parentalblock>true</parentalblock>
+<link></link>
 </item>
 
 
