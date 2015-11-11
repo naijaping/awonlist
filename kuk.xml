@@ -2725,18 +2725,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 <item>
 <title>Dua For</title> 
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-    <title>[makelist2.param2]</title>
-    <sportsdevil>http://stadium-live.biz/ch_[makelist2.param1]code.html</sportsdevil>
-    <referer>http://stadium-live.biz/</referer> 
-]]></listrepeat>
-<expres>Channel(\d+)\.html.*?&gt;s*(.*?)\s*&lt;</expres>
-<page>[makelist.param3]</page>
-<cookieJar></cookieJar>
-</regex>
+<link>http://yayin08.canlitvlive.com/bbcworld/live.m3u8</link>
 </item>
 
 
