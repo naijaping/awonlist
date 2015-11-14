@@ -2726,15 +2726,15 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Nollywood TV</title>
+<title>TV5 Africa</title>
 <link>http://144.76.28.51:1935/live/tv5afrique/media_w1605285014_9087.m3u8$doregex[get-auth]</link>
 <regex>
 <name>get-auth</name>
 <expres>m3u8(\?.*)"</expres>
-<page>http://www.giniko.com/watch.php?id=211</page>
+<page>http://www.afrotele.net/afrotv/watch/hc</page>
 <referer></referer>
 </regex>
-<thumbnail>http://i59.tinypic.com/xndr34.jpg</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
