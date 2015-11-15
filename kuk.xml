@@ -2718,12 +2718,21 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </regex>
 </item>
 
-<item>
-<title>Dua For Victory</title> 
-<utube>Ab8AhPqjs6A</utube> 
-<thumbnail></thumbnail>
+<item>yupptv
+<title>MasalaTv</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('/z/','/i/').replace('manifest.f4m','master.m3u8')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-url</name>
+<expres>file:'(.*?)'</expres>
+<page>http://stream.yupptv.com/PreviewPaidChannel.aspx?cid=2284</page>
+<referer>http://stream.yupptv.com</referer>
+</regex>
 </item>
-
 
 
 
