@@ -2806,11 +2806,6 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
  
 
-<item>
-<title>m3</title>
-<link>http://Ignoreme</link>
-<externallink>http://37.187.155.224:8000/get.php?username=emilio&amp;password=emilio&amp;type=m3u</externallink>
-</item>
 
 
 
