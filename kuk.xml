@@ -2771,7 +2771,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <channel>
 <name>[COLOR blue]MY ZONE :[/COLOR][COLOR blue] 16/05/2011[/COLOR]</name>
 <link>http://ignoreme</link>
-<externallink>http://pastebin.com/raw.php?i=EX4kdJEz</externallink>
+<externallink>https://raw.githubusercontent.com/weedking12/weedkinglist/fc972d55dc5f5c8c6dd0096c4bfa9a8b5b084ce5/uklist.xml</externallink>
 <thumbnail></thumbnail>
 </channel>
 
