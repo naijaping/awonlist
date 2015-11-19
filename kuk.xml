@@ -2735,6 +2735,18 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item>
+<title>M6 HD FR</title>
+<link>$doregex[getM3U8]|Cookie=$get_cookies$&amp;User-Agent=Mozilla/5.0 (Windows NT 6.3; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0</link>
+<regex>
+<name>getM3U8</name>
+<expres>source: "(.*?)"</expres>
+<page>http://www.streaming-hub.com/m6-live/</page>
+<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0</agent>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
 
 
 
