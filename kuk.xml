@@ -2762,33 +2762,6 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-<item>
-<title>Footdirect24</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-    <title>[B][COLOR snow][makelist.param2][/COLOR][/B]</title>
-    <link>$doregex[makelist2]</link>
-]]></listrepeat>
-<expres>font.*?parent&gt;\s*(.*?)\?(.*?)\s*&lt;.*&gt;([\w\W\s]*?)&lt;</expres>
-<page>http://footdirect24.com/id.php?channel=1</page>
-<referer>http://footdirect24.com</referer>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-    <title>[B][COLOR dodgerblue][makelist2.param1][/COLOR][/B]</title>
-    <sportsdevil>[makelist.param1]?[makelist.param2]</sportsdevil>
-    <referer>http://footdirect24.com</referer>
-]]></listrepeat>
-<expres>\s*(.*?\d{2}\:\d{2}.*)\s+(\s)</expres>
-<page>[makelist.param3]</page>
-<referer>http://footdirect24.com</referer>
-<cookieJar></cookieJar>
-</regex>
-</item>
 
 
 </channel>
