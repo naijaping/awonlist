@@ -2769,11 +2769,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>CanalHD</title>
+<title>CanalHDii</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[encodedurl]</link>
 <regex>
 <name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('http://phds-live.cdn.turner.com/cnn/cnnintl/hls/2/cnnilive2/manifest.f4m?g=WEDEVJAXVJIB&amp;hdcore=3.4.1&amp;plugin=aasp-3.4.1.1.1|Referer=http://go.cnn.com')<expres>
+<expres>$pyFunction:urllib.quote_plus('http://phds-live.cdn.turner.com/cnn/cnnx/dai/hds/stream_hd/set_cnnxlive.f4m?g=WEDEVJAXVJIB&amp;hdcore=3.4.1&amp;plugin=aasp-3.4.1.1.1|Referer=http://go.cnn.com')<expres>
 <page></page>
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/cc/canalplus_es_deportes_2_hd.png</thumbnail>
