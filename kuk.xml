@@ -2762,8 +2762,8 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 <item>
-<title>dex0</title> 
-<f4m>http://phds-live.cdn.turner.com/cnn/cnnx/dai/hds/stream_hd/set_cnnxlive.f4m</f4m> 
+<title>dex0ii</title> 
+<f4m>http://phds-live.cdn.turner.com/cnn/cnnx/dai/hls/stream_hd/set_cnnxlive.f4m</f4m> 
 <thumbnail></thumbnail>
 </item>
 
