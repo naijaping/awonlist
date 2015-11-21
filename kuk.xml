@@ -2767,6 +2767,14 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>TEST ReGex - HLN - janjuaplayer.com</title>
+<link>rtmp://$doregex[ip]/live playpath=HLN202?id=48122$doregex[pk] conn=S:OK swfUrl=http://www.janjuaplayer.com/resources/scripts/eplayer.swf swfVfy=1 live=1 timeout=13 pageUrl=http://www.janjuaplayer.com/embedplayer/HLN202/1/600/400</link><regex><name>ip</name><expres>redirect=(.*)<expres>
+<page>http://www.janjua.tv:1935/loadbalancer</page></regex><regex><name>pk</name><expres>ea=(.*)'</expres><page>http://www.janjuaplayer.com/embedplayer/HLN202/1/600/400</page><referer>http://www.janjuaplayer.com/</referer></regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
 
 <item>
 <title>Camnmn</title>
