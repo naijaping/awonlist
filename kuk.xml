@@ -2777,10 +2777,23 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Camnmn</title>
-<link>rtmp://b.cdn.newschat.tv/edge playpath=cnn_live swfUrl=http://newschat.tv/player.swf pageUrl=http://www.livenewschat.eu/top/</link>
-<thumbnail></thumbnail>
-</item>
+<title>Swiss TV RegEx **http://www.teleboy.ch/tv/player/player.php?stationId=360**</title>
+<link>$doregex[getCleanURL]</link>
+<regex>
+<name>getCleanURL</name>
+<expres>$pyFunction:'$doregex[getRawURL]'.replace('\\/','/').replace('\u0026','&amp;')</expres>
+<page></page>
+</regex>
+<regex>
+<name>getRawURL</name>
+<expres>(http:.*?)"<expres>
+<page>http://www.teleboy.ch/api/anonymous/live/360?alternative=false</page>
+<referer>http://www.teleboy.ch/tv/player/player.php?stationId=360</referer>
+<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0</agent>
+<setcookie>cinergy_s=p3ps9neio1505amp7h4jq1h285</setcookie>
+</regex>
+</item> 
+
 
 
 </channel>
