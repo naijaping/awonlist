@@ -2776,6 +2776,17 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item>
+<title> http://lasthighlight.com/hd/?page=CH12HD</title>
+<link>http://$doregex[playlist]</link>
+<regex>
+<name>playlist</name>
+<expres>id=http:\/\/(.*?m3u8)"</expres>
+<page>http://lasthighlight.com/hd/?page=CH12HD</page>
+<referer>h</referer>
+</regex>
+</item>
+
 
 
 
