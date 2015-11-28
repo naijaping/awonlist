@@ -2821,6 +2821,14 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <thumbnail></thumbnail>
 </channel>
 
+
+<channel>
+<name>[COLOR=FF00ff45]Robo[/COLOR]</name>
+<link>http://ignoreme</link>
+<externallink>http://robocop-kodi.ddns.net/lists/xml/plp.xml</externallink>
+<thumbnail></thumbnail>
+</channel>
+
 <channel>
 <name>[COLOR blue]MY ZONE :[/COLOR][COLOR blue] 16/05/2011[/COLOR]</name>
 <link>http://ignoreme</link>
