@@ -2788,6 +2788,12 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item>
+<title>BTv</title>
+<link>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=hiptv&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
+</item>
+
 
 
 
