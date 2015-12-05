@@ -2871,19 +2871,18 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
-
 <item>
-<title>Ibaka</title>
-<utube>UCOiaI7NnOF5QZQwjDTNkXXA</utube>
-<thumbnail></thumbnail>
+<title>Ibaka TV English Films</title>
+<link>$doregex[showyoutube]</link>
+<regex>
+<name>showyoutube</name>
+<expres>$pyFunction:xbmc.executebuiltin('ActivateWindow(10025,&quot;plugin://plugin.video.youtube/user/mynaijalove/&quot;,return)')</expres>
+<page></page>
+</regex>
+<thumbnail>http://i66.tinypic.com/2ljrd4l.jpg</thumbnail>
 </item>
 
 
-<item>
-<title>Ibakanoll</title>
-<utube>UCm6NRZvIcYwpj79CIa1Lj9g</utube>
-<thumbnail></thumbnail>
-</item>
 
 
 
