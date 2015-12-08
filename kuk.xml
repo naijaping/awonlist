@@ -2895,6 +2895,18 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item>
+<title>test</title>
+<link>rtmp://web3.iptv-planet.com:1937/live2 playpath=aljadeed?cle=$doregex[file] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=aljadeed live=1 swfVfy=true</link>
+<thumbnail></thumbnail>
+<regex>
+<name>file</name>
+<expres>cle=([^']*)</expres>
+<page>http://embed.iptv-planet.com/embed.php?id=aljadeed&amp;width=600&amp;height=400</page>
+<referer>http://iptv-planet.com/aljadeed.html</referer>
+</regex>
+</item>
+
 
 
 </channel>
