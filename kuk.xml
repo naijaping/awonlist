@@ -2788,8 +2788,33 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item>
+<title>1080P**http://xtubeth.com/file/42834.php</title>
+<link>$doregex[file]</link>
+<regex>
+<name>file</name>
+<expres>file: "(.*?)".*\n.*\n.*"1080p Full HD"</expres>
+<page>http://xtubeth.com/file/42834.php</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
 
 
+<item>
+<title>1080P**hxxps://www.037hd.com/2015/12/09/in-the-heart-of-the-sea-2015/</title>
+<link>$doregex[file]</link>
+<regex>
+<name>file</name>
+<expres>file: "(.*?)".*\n.*\n.*"1080P"</expres>
+<page>https://www.leoplayer3.com/watch3?v=900456</page>
+<referer></referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+<item>
 
 
 
