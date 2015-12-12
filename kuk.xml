@@ -2817,6 +2817,18 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 <item>
 
 
+<item>
+<title>Syfy</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>720P.*?file: "(.*?)"</expres>
+<page>http://www.popuplayer.com/driveplayer/driveplay.php?v=n8fmZ0t7Lgs</page>
+<referer>http://www.popuplayer.com/player.php?v=n8fmZ0t7Lgs</referer>
+<thumbnail></thumbnail>
+</regex>
+</item>
+
 
 </channel>
 
