@@ -2945,6 +2945,17 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+<item><title>NTV2</title>
+<link>$doregex[get-M3U8]</link>
+<regex>
+<name>get-M3U8</name>
+<expres>var url="(.*?)"</expres>
+<page>http://lb.streamakaci.com/lc2/</page>
+<agent>Mozilla/5.0 (Linux; U; Android 4.1; en-us; GT-N7100 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 
 </channel>
  
