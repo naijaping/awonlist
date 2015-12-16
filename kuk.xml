@@ -2957,6 +2957,20 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 
+
+<item>
+<title>Lynsat</title>
+<link>$doregex[get-M3u8]</link>
+<regex>
+<name>get-M3u8</name>
+<expres>videosrc :"(http.*playlist.m3u8.*?)"</expres>
+<page>http://poovee.net/embed/375/</page>
+<referer>http://www.lyngsat-stream.com/tvchannels/af/Shamshad-TV.html</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
 </channel>
  
 
