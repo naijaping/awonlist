@@ -2972,9 +2972,9 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 
 
 <item>
-<title>Believe tv</title>
-<link>rtmp://awooze.com/edge3/BelieveTV</link>
-<thumbnail></thumbnail>
+<title>Believe TV</title>
+<link>rtmp://78.129.189.30/edge3/BelieveTV playpath=BelieveTV app=edge3/PrestigeTv swfUrl=http://www.awooze.com/player.swf live=true flashVer=WIN\16,0,0,257 pageUrl=http://www.awooze.com timeout=15</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/believe_tv.png</thumbnail>
 </item>
 
 
