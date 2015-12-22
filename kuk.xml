@@ -3046,8 +3046,7 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </regex>
 </item>
 
-</channel>
- 
+
 
 <item>
 <title>Sport TV</title>
@@ -3081,6 +3080,11 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </regex>
 <thumbnail></thumbnail>
 </item>
+
+
+</channel>
+ 
+
 
 
 
