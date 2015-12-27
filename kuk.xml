@@ -3152,6 +3152,50 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
+<item>
+<title>Bein1 - showsport-tv </title>
+<link>rtmp://cdn.caston.tv:1935/live/ app=live/?v&amp;Token=$doregex[auth] playpath=$doregex[path] token=$doregex[tok] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf flashver=WIN\2020,0,0,228 pageUrl=http://www.caston.tv/ live=1 timeout=15</link>
+<regex>
+<name>path</name>
+<expres>file:"(.*?)"</expres>
+<page>$doregex[code]</page>
+</regex>
+<regex>
+<name>raw-tok</name>
+<expres>token:"(.*?)"</expres>
+<page>$doregex[code]</page>
+</regex>
+<regex>
+<name>auth</name>
+<expres>"(.*?)",</expres>
+<page>http://www.caston.tv/key.php</page>
+<referer>http://www.caston.tv</referer>
+<rawpost>token=$doregex[raw-tok]&amp;is_ajax=1</rawpost>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>.*?,"(.+?)"</expres>
+<page>http://www.caston.tv/key.php</page>
+<referer>http://www.caston.tv</referer>
+<rawpost>token=$doregex[raw-tok]&amp;is_ajax=1</rawpost>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>code</name>
+<expres>$pyFunction:get_unwise("$doregex[get-code]")</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-code</name>
+<expres>;eval\(function\(w,i,s,e\).+}\((.+?)\)</expres>
+<page>http://www.caston.tv/player.php?id=12</page>
+<referer>http://showsport-tv.com/</referer>
+</regex>
+</item>
+
 
 </channel>
  
