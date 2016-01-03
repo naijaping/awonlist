@@ -3269,6 +3269,46 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://i376.photobucket.com/albums/oo204/indiecrew/Asean%20TV/SG_channel5_zpslpt6pjmb.png</thumbnail>
 </item> 
 
+<item>
+<title>AF24</title>
+<link>$doregex[getM3U8]</link>
+<regex>
+<name>getM3U8</name>
+<expres>file: "(http.*playlist.m3u8)",</expres>
+<page>http://af24.hexaglobe.com/?m=aa88bd58302414ba9ef624307abcb5fb&amp;e=568950a1</page>
+<referer>http://africa24.hexaglobe.com/</referer>
+<agent></agent>
+</regex>
+</item>
+
+<item>
+<title>AMC</title>
+<link>$doregex[getM3U8]</link>
+<regex>
+<name>getM3U8</name>
+<expres>file: "(http.*playlist.m3u8)",</expres>
+<page>$doregex[page]</page>
+<referer>http://africa24.hexaglobe.com/</referer>
+</regex>
+<regex>
+<name>page</name>
+<expres>iframe src ="(.*?)"</expres>
+<page>http://africa24.hexaglobe.com/iframe_live/?username=afbadadb47a732aca2fd033e2a406c7e&amp;forcertsp=1</page>
+</regex>
+</item>
+
+<item>
+<title>AMC</title>
+<link>$doregex[getM3U8]|User-Agent=Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36&amp;Referer=http://shadow.go.ro/shadownet/channels/usa/player/amc-east.php</link>
+<regex>
+<name>getM3U8</name>
+<expres>src : '(.*?)'</expres>
+<page>http://shadow.go.ro/shadownet/channels/usa/player/amc-east.php</page>
+<referer>http://www.sdw-net.co/channels/AMC-East.html</referer>
+<agent>Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</agent>
+</regex>
+</item>
+
 
 
 </channel>
