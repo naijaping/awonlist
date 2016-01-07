@@ -3308,6 +3308,26 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 
+<item>
+<title>OKLive Regex</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>streamURL="(.*?)"</expres>
+<page>$doregex[unpacked]</page>
+</regex>
+<regex>
+<name>unpacked</name>
+<expres>$pyFunction:get_unpacked('$doregex[streampage]','player69.*?(eval.*)')</expres>
+<page></page>
+</regex>
+<regex>
+<name>streampage</name>
+<expres>Embed-Code.*?src='(.*?)'</expres>
+<page>http://oklivetv.com/kiss-tv-uk-live/</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 
 
