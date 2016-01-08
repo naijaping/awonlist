@@ -3402,6 +3402,35 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
+<item>
+<title>SKY SPORTS 2</title>
+<link>$doregex[getEncLink]</link>
+<regex>
+<name>getDecLink</name>
+<expres>curl = "(.*?)"</expres>
+<page>http://miplayer.net/embedplayer.php?width=640&amp;height=480&amp;id=ibrodtv22&amp;autoplay=true&amp;strech=exactfit</page>
+<referer>http://www.ibrodtv.net/embed.php?chan=tv22&width=640&height=480</referer>
+</regex>
+<regex>
+<name>getEncLink</name>
+<expres>$pyFunction:base64.b64decode("$doregex[getDecLink]")</expres>
+<page></page>
+</regex>
+<thumbnail>http://www.bluebellcardiff.co.uk/Sky%20sports%20HD%20logo.png</thumbnail>
+</item>
+
+<item>
+<title>SKY SPORTS 2 [HD]</title>
+<link>http$doregex[canal]</link>
+<regex>
+<name>canal</name>
+<expres>src="http(.*?)"</expres>
+<page>http://www.streamlive.to/view/71303/</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16</agent>
+</regex>
+<thumbnail>http://www.bluebellcardiff.co.uk/Sky%20sports%20HD%20logo.png</thumbnail>
+</item>
+
 
 </channel>
  
