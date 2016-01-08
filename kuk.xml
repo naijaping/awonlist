@@ -3338,7 +3338,68 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart></fanart>
 </item>
 
-
+<item>
+<title>Ultracast Regex</title>
+<link>$doregex[finalurl]</link>
+<regex>
+	<name>finalurl</name>
+	<expres>(http.*)</expres>
+	<page>$doregex[url]$doregex[auth]</page>
+	<cookieJar></cookieJar>
+</regex>
+<regex>
+	<name>url</name>
+	<expres>file:"(.*?)"</expres>
+	<page>$doregex[decrypted]</page>
+</regex>
+<regex>
+	<name>auth</name>
+	<expres>$pyFunction:base64.b64decode("$doregex[b64auth]")</expres>
+	<page></page>
+</regex>
+<regex>
+	<name>b64auth</name>
+	<expres>\["(.*?)"</expres>
+	<page>http://www.ultracast.me/$doregex[authurl]</page>
+	<referer>http://www.ultracast.me</referer>
+	<rawpost>pwd=$doregex[pwd]&amp;token=$doregex[token]&amp;is_ajax=1</rawpost>
+	<x-req>XMLHttpRequest</x-req>
+	<cookieJar>open[siteName.lwp]</cookieJar>
+</regex>
+<regex>
+	<name>pwd</name>
+	<expres>pwd:'(.*?)'</expres>
+	<page>$doregex[decrypted]</page>
+</regex>
+<regex>
+	<name>token</name>
+	<expres>token:'(.*?)'</expres>
+	<page>$doregex[decrypted]</page>
+</regex>
+<regex>
+	<name>authurl</name>
+	<expres>url:'(.*?)'</expres>
+	<page>$doregex[decrypted]</page>
+</regex>
+<regex>
+	<name>decrypted</name>
+	<expres>$pyFunction:get_unwise("$doregex[encrypted]")$doregex[savecookie]</expres>
+	<page></page>
+</regex>
+<regex>
+	<name>encrypted</name>
+	<expres>eval\(function\(w,i,s,e\).*}\((.*?)\)</expres>
+	<page>http://www.ultracast.me/player.php?id=7060</page>
+	<referer>http://www.meocanaltv.com</referer>
+	<cookieJar></cookieJar>
+</regex>
+<regex>
+	<name>savecookie</name>
+	<expres></expres>
+	<page></page>
+	<cookieJar>save[siteName.lwp]</cookieJar>
+</regex>
+</item>
 
 
 
