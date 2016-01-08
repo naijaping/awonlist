@@ -3329,6 +3329,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>TEST | meocanaltv.com | m3u8</title>
+<link>$doregex[file]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>file</name><expres>HLS LIVE Manifest.*\n.*file: "([^"]+)",</expres>
+<page>http://pxstream.tv/embedrouter.php?file=rtpinternacional&amp;width=600&amp;height=450&amp;jwplayer=flash</page>
+<referer>http://www.meocanaltv.com/embed/RTPINTERNACIONAL.php?width=600&height=450</referer></regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
 
 
 
