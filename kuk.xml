@@ -869,30 +869,6 @@
 </item>
 
 <item>
-<title>Mtv us</title>
-<link>rtmp://83.218.202.202/live swfUrl=http://webtv.md/swf/WebTV.swf playpath=wt_mtv.stream</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Got Tempo</title>
-<link>rtmp://cp101680.live.edgefcs.net:1935/live app=live?videoId=1445474234001\26lineUpId=21923423001\26pubId=184436177\26playerId=946167354001\26affiliateId= playpath=tempolive@5028 pageUrl=http://gottempo.com live=1 timeout=20</link>
-<thumbnail>http://gottempo.com/assets/images/tempo_site/tempo-logo.jpg</thumbnail>
-</item>
-
-
-<item>
-<title>Canal+ Deportes 2</title>
-<link>http://cctv2-lh.akamaihd.net/i/lacasa2_live@125188/master.m3u8</link>
-</item>
-
-
-<item>
-<title>Test</title>
-<link>http://wpc.12bc9.kappacdn.net/hls-live/2012BC9/default/NTA/nta_1200.m3u8?608edfab8a31cdb2906f767923e21035c7696807555fd6f720a8fbf339ecfd61dae2</link>
-</item>
-
-<item>
 <title>Sky Sport 2 DE</title>
 <link>$doregex[rtmp]/$doregex[path] token=Fo5_n0w?U.rA6l3-70w47ch swfUrl=http://player.hdcast.org/_.swf pageUrl=http://www.hdcast.org live=1 timeout=15</link>
 <regex>
@@ -972,17 +948,6 @@
 <thumbnail>http://i61.tinypic.com/207q33a.jpg</thumbnail>
 </item>
 
-
-<item>
-<title>Playboy</title>
-<link>http://46.61.226.21/hls/CH_PLAYBOY/bw1500000/variant.m3u8?version=2</link>
-</item>
-
-<item>
-<title>Antena sport 3</title>
-<link>http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel01/antena_3_hd_1548K_1280x720_main.m3u8</link>
-</item>
-
 <item>
 <title>Sky DE</title>
 <link>$doregex[rtmp]/$doregex[path] token=Fo5_n0w?U.rA6l3-70w47ch swfUrl=http://player.hdcast.org/_.swf pageUrl=http://www.hdcast.org live=1 timeout=15</link>
@@ -1022,20 +987,6 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>Viasat Sport</title>
-<link>http://46.61.226.18/hls/CH_C06_VIASATSPORTHD/bw3000000/variant.m3u8?version=2</link>
-</item>
-
-<item>
-<title>NBA HD</title>
-<link>http://bit.do/3SXC</link>
-</item>	
-
-<item>
-<title>MTV BASE</title>
-<link>http://wpc.12bc9.kappacdn.net/hls-live/2012BC9/default/MTVBASE/mtvbase_1200.m3u8?608edfab8a31cdb2906f767923e21035c7696807555fd6f720a8fbf339ecfd61dae2</link>
-</item>	
 
 <item>
 <title>AMC Movies</title>
@@ -1099,18 +1050,6 @@
 <expres>$pyFunction:get_unpacked('http://shoof.alkass.net/shoof/live/live_2.php','(eval.*)' )</expres>
 <page></page>
 </regex>
-</item>
-
-<item>
-<title>BET</title>
-<link>http://wpc.12bc9.kappacdn.net/hls-live/2012BC9/default/BET/bet_1200.m3u8?608edfab8a31cdb2906f767923e21035c7696807555fd6f720a8fbf339ecfd61dae2</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/african_movie_channel_uk.png</thumbnail>
-</item>
-
-<item>
-<title>NTA</title>
-<link>http://wpc.12bc9.kappacdn.net/hls-live/2012BC9/default/NTA/ntai_1200.m3u8?608edfab8a31cdb2906f767923e21035c7696807555fd6f720a8fbf339ecfd61dae2</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/african_movie_channel_uk.png</thumbnail>
 </item>
 
 <item>
@@ -1344,16 +1283,25 @@
 
 
 <item>
-<title>Cup</title>
-<link>$doregex[reg1]</link>
+<title>Winners Chapel Uk</title>
+<link>$doregex[getM3U8]</link>
 <regex>
-<name>reg1</name>
+<name>getM3U8</name>
 <expres>file: '(.*?)'</expres>
-<page>http://centrepoint.christfaithmedia.co.uk/index.php/live2/98/aXRAd2lubmVyc2NoYXBlbC5vcmcudWs=/118/420/320</page>
-<referer></referer>
+<page>$doregex[page]</page>
+<referer>http://www.winners-chapel.org.uk</referer>
+<cookiejar></cookiejar>
+<agent></agent>
 </regex>
-<thumbnail></thumbnail>
+<regex>
+<name>page</name>
+<expres>iframe src="(.*?)"</expres>
+<page>http://www.winners-chapel.org.uk/london/media.php</page>
+<cookiejar></cookiejar>
+<agent></agent>
+</regex>
 </item>
+
 
 
 <item>
@@ -1507,18 +1455,6 @@
 </item>
 
 <item>
-<title>roshow</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>source src="(.*?)"</expres>
-<page>http://www.asiamediaglobal.org/android/andy/play_live.php?cid=176</page>
-<referer></referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>Ag0o</title>
 <link>http://46.23.68.242:1935/tv/apna/playlist.m3u8$doregex[get-auth]</link>
 <regex>
@@ -1653,35 +1589,6 @@
 </regex>
 </item>
 
-<item>
-<title>muto0</title>
-<link>http://wowza1.videos.movile.com:8080/live/smil:adultopremium_1.smil/playlist.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>Sky Movies Disney</title>
-<link>https://glblvestu-f.akamaihd.net/i/glblvestu_1@78149/master.m3u8</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/ss/sky_uk_movies_disney_hd.png</thumbnail>
-</item>
-
-
-<item>
-<title>Gumo</title>
-<link>http://37.187.160.187:8000/live/ressler/skype/121.ts</link>
-<thumbnail>http://www.lyngsat-logo.com/logo/tv/gg/god_tv_uk.png</thumbnail>
-</item> 
-
-<item>
-<title>MarcoPolo</title>
-<link>http://ltlive01.cloudapp.net/LT_CH_2mkw471qp.isml/manifest(format=m3u8-aapl).m3u8</link>
-</item>
-
-<item>
-<title>Sport1DE</title>
-<thumbnail>http://img1.wikia.nocookie.net/__cb20130716171728/logopedia/images/2/2a/Sport1_Germany_2013.png</thumbnail>
-<link>http://iptv.wssiptv.com/live/wssiptvdotcom/Mjsn7sKhsC2e132/6.m3u8</link>
-</item>
 
 <item>
 <title>Mumo</title>
@@ -1878,40 +1785,6 @@
 <item>working
 <title>willfox</title>
 <link>http://www.accwebtv.com:1935/fox/fox/chunklist_w1501758254.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>working
-<title>willenter</title>
-<link>http://www.accwebtv.com:1935/etertainment/etertainment/playlist.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>working
-<title>akede</title>
-<link>http://www.accwebtv.com:1935/Akede/Akede/playlist.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>working
-<title>AIT</title>
-<link>http://www.accwebtv.com:1935/AIT/AIT/playlist.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>working
-<title>CORE</title>
-<link>http://www.accwebtv.com:1935/coretv/coretv/playlist.m3u8</link>
-<thumbnail></thumbnail>
-</item>
-
-
-<item>working
-<title>kennys</title>
-<link>http://www.accwebtv.com:1935/kennismusic/kennismusic/playlist.m3u8</link>
 <thumbnail></thumbnail>
 </item>
 
