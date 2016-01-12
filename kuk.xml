@@ -3143,7 +3143,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item> 
 
 <item>
-<title>AF24</title>
+<title>Africa 24</title>
 <link>$doregex[getM3U8]</link>
 <regex>
 <name>getM3U8</name>
@@ -3155,6 +3155,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>page</name>
 <expres>iframe src ="(.*?)"</expres>
 <page>http://africa24.hexaglobe.com/iframe_live/?username=afbadadb47a732aca2fd033e2a406c7e&amp;forcertsp=1</page>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/africa24.png</thumbnail>
 </regex>
 </item>
 
@@ -3179,6 +3180,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://iptvcanales.com/xw/reproductor.php?cmd=385</page>
 <referer>http://iptvcanales.com/</referer>
 </regex>
+</item>
+
+<item>
+<title>Telemundo Standard/Static Code **http://player.theplatform.com/p/0L7ZPC/T8HKfBTkpDnE/embed/select/ZuZva__js405?siteSectionId=telemundo_shows_vod&autoPlay=TRUE**</title>
+<link>http://tlmdhd-lh.akamaihd.net/i/tlmdpremios1_1@308083/index_2500_av-p.m3u8?sd=10&rebase=on</link>
 </item>
 
 <item>
