@@ -3305,6 +3305,36 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
+<item>
+                <title>Trace Urban</title>
+                <link>$doregex[getUrl]</link>
+                <regex>
+                <name>getUrl</name>
+                <expres>(.*)</expres>
+                <page>http://www.dailymotion.com/cdn/live/video/x1ahn4f?protocol=hls&amp;auth=$doregex[get-auth]&amp;redirect=0</page>
+                <referer></referer>
+                <cookieJar>$doregex[get-cookie]</cookieJar>
+                </regex>
+                <regex>
+                <name>get-auth</name>
+                <expres>auth=([^"]*)</expres>
+                <page>http://www.dailymotion.com/json/video/x1ahn4f?fields=stream_live_hls_url</page>
+                <referer></referer>
+		<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko</agent>
+		<cookieJar>$doregex[get-cookie]</cookieJar>
+		</regex>
+		<regex>
+                <name>get-cookie</name>
+                <expres></expres>
+                <page>http://www.dailymotion.com/video/x1ahn4f</page>
+                <referer></referer>
+		<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko</agent>
+                <cookieJar></cookieJar>
+		</regex>
+                </item>
+
+
+
 </channel>
  
 
