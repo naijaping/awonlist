@@ -3069,6 +3069,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 
+<item>
+<title>Ustream/PMCMusic</title>
+<link>$doregex[get-link]</link>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/18021529/streams/live/playlist.m3u8')</expres>
+<page></page>
+</regex>
+</item>
+
 
 <item>
 <title>Espn</title>
