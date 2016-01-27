@@ -3495,6 +3495,25 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
+<item>
+<title>Big Brother Brazil</title>
+<link>$doregex[url]</link>
+<regex>
+	<name>url</name>
+	<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/').replace(' ','%20')</expres>
+	<page></page>
+</regex>
+<regex>
+	<name>jsonurl</name>
+	<expres>file: "(.*?)",</expres>
+	<page>http://tvetvonline.net/TVBBB1603.php5</page>
+	<referer>http://tvetvonline.net/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
 </channel>
  
 
