@@ -3512,7 +3512,27 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Yupp000</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[B][COLOR snow][makelist.param2][/COLOR][/B]</title>
+    <link>$doregex[url]</link>
+    <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres>Url="(.*?)".*?Line1="(.*?)".*?urls="(.*?)"</expres>
+<page>http://roku.yupptv.com/checksubscription_v1.aspx?api=012012&amp;fn=6&amp;boxid=ABC&amp;Packid=2012</page>
+<referer>http://roku.yupptv.com/</referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>url</name>
+<expres>$pyFunction:'[makelist.param3]'.replace('bit','akamaihd')</expres>
+<page></page>
+</regex>
+</item>
 
 </channel>
  
