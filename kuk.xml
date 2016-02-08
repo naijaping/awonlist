@@ -11,6 +11,19 @@
 <thumbnail>http://www.cityflavourmagazine.com/wp-content/uploads/2015/01/nollywood_movies_uk.jpg</thumbnail>
 </item>
 
+
+
+<item>
+<title>Ibaka TV English Films</title>
+<link>$doregex[showyoutube]</link>
+<regex>
+<name>showyoutube</name>
+<expres>$pyFunction:xbmc.executebuiltin('ActivateWindow(10025,&quot;plugin://plugin.video.NJMSoccer/?fanart&amp;mode=1&amp;name=%5bB%5d---%3d%3d%3d%5bCOLOR%20red%5dHD%5b%2fCOLOR%5d%5bCOLOR%20blue%5d%20FOOTY%5b%2fCOLOR%5d%3d%3d%3d---%5b%2fB%5d&amp;url=http%3a%2f%2fnjmsoccer.kodistream.info%2fPLP.m3u&quot;,return)')</expres>
+<page></page>
+</regex>
+<thumbnail>http://i66.tinypic.com/2ljrd4l.jpg</thumbnail>
+</item>
+
 <item>
 <title>Hip TV</title>
 <link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://player.streamzilla.xlcdn.com/sz/Un1ty/jw/jwplayer.flash.swf pageUrl=http://player.streamzilla.xlcdn.com live=1 timeout=15</link>
