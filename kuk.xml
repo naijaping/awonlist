@@ -3687,20 +3687,24 @@ class InputWindow(xbmcgui.WindowDialog):
 
 
 <item>
-<title>m3u8</title>
-<link>$doregex[makelist]</link>
+<title> the-diary-of-a-teenage-girl-2015</title>
+<<link>$doregex[finalURL]|User-Agent=iphone</link>
 <regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-	<title>[makelist.param1]</title>
-	<link>[makelist.param2]</link>
-	<thumbnail>NA</thumbnail>
-]]></listrepeat>
-<expres>#EXTINF:-1.*,(.*?)\n(.*)</expres>
-<page>http://kodilive.eu/tv/</page>
-<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+    <name>finalURL</name>
+    <expres>$pyFunction: '$doregex[get-url1]' if not '$doregex[get-url1]'=='' else '$doregex[get-url2]'</expres>
+    <page></page>
 </regex>
-
+finalURL
+<regex>
+    <name>get-url2</name>
+    <expres>"(http.*?m22)"<expres>
+    <page>https://www.leoplayer2.com/watch2?v=903501</page>
+</regex>
+<regex>
+    <name>get-url1</name>
+    <expres>"(http.*?m37)"<expres>
+    <page>https://www.leoplayer2.com/watch2?v=903501</page>
+</regex>
 </item>
 
 </channel>
