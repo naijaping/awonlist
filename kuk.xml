@@ -3707,6 +3707,20 @@ finalURL
 </regex>
 </item>
 
+
+
+<item>
+  <title>BEIN ONE | homevideo' src='http://www.elahmad.com/tv/m3u8/teledu.m3u8?id=bein_1' width=</title>
+  <link>$doregex[get_sxSTREAM]|User-Agent=iPhone</link>
+  <regex>
+  <name>get_sxSTREAM</name>
+  <expres>homevideo.*(http.*?)[',"]\W</expres>
+  <page>http://iptvch1.blogspot.com/</page>
+  <referer></referer>
+  </regex>
+  <thumbnail>http://cdn.top4top.co/p_20bl8f1.png</thumbnail>
+</item>
+
 </channel>
  
 
