@@ -3721,6 +3721,23 @@ finalURL
   <thumbnail>http://cdn.top4top.co/p_20bl8f1.png</thumbnail>
 </item>
 
+
+<item>
+<title>TEST | powerTurkTV | m3u8 v.1</title>
+<link>$doregex[get-Final]|Referer=http://www.powerapp.com.tr/&amp;User-Agent: Mozilla/5.0</link>
+<regex>
+<name>get-Final</name>
+<expres>$pyFunction:'$doregex[get-M3u8]'.replace('\/', '/')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-M3u8</name>
+<expres>stream_url":[",']([^"]+)[",'],</expres>
+<page>http://api.powergroup.com.tr/Channels/powerTurkTV/?appRef=iPowerWeb&callback=jQuery111306037155060608781_1462716141936&_=1462716141937</page>
+</regex>
+<thumbnail>http://asset.ipower.com.tr/channels/big/powerTurkTV.png?v=15<thumbnail>
+</item>
+
 </channel>
  
 
