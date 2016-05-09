@@ -3738,6 +3738,23 @@ finalURL
 <thumbnail>http://asset.ipower.com.tr/channels/big/powerTurkTV.png?v=15<thumbnail>
 </item>
 
+
+
+<item>
+  <title>TEST | TFM | http://www.afromotion.tv/afrotv/watch/O</title>
+  <link>$doregex[getTFM]|User-Agent=iPhone</link>
+  <regex>
+    <name>getTFM</name>
+    <expres>source file.+?[",']([^"]+)[",']</expres>
+    <page>http://www.afromotion.tv/afrotv/ch?id=O&amp;d=d</page>
+    <referer>http://www.afromotion.tv/afrotv/watch/O</referer>
+    <agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36</agent>
+    <cookieJar></cookieJar>
+    <thumbnail>http://cdn.afromotion.tv/uploads/images/favicon-152.png</thumbnail>
+    <fanart></fanart>
+  </regex>
+</item>
+
 </channel>
  
 
