@@ -3755,6 +3755,23 @@ finalURL
   </regex>
 </item>
 
+
+<item>
+<title> https://www.youtube.com/playlist?list=PLfKY7zLnODDWyZv6Y1OcqESFr5E1wRmOe</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param2]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>pl-video-title-link.(?s)(.*?)&gt;\W*(.*?)\W*&lt;\/</expres>
+<page>https://www.youtube.com/playlist?list=PLfKY7zLnODDWyZv6Y1OcqESFr5E1wRmOe</page>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
 </channel>
  
 
