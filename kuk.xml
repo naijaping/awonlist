@@ -3772,6 +3772,52 @@ finalURL
 </regex>
 </item>
 
+
+
+
+<item>
+<title>https://vimeo.com/evasiontv/</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title> Page [makelist.param1]</title>
+    <link>$doregex[makelist2]</link>
+    <thumbnail>https://i.vimeocdn.com/favicon/main-touch_180</thumbnail>          
+]]></listrepeat>
+<expres>\s(.*?),</expres>
+<page>$doregex[get-number]</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>get-number</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import requests
+   import re
+   number = re.findall('data-page.*?>(\d{1,3})<', page_data)[-1]
+   real = int(float(number))
+   real2 = real + 3
+   liste = list(range(real2))
+   return liste
+]]></expres>
+<page>https://vimeo.com/evasiontv/videos/</page>
+</regex>
+<regex>
+   <name>makelist2</name>
+   <listrepeat><![CDATA[
+      <title> [makelist2.param2]</title>
+      <link>plugin://plugin.video.vimeo/play/?video_id=[makelist2.param1]</link>
+      <thumbnail>[makelist2.param3]</thumbnail>          
+   ]]></listrepeat>
+   <expres><![CDATA[data-position.*?>\n.*href="\/(.*?)" title="(.*?)">[\w\W\s]+?<img src="(.*?)"]]></expres>
+   <page>https://vimeo.com/evasiontv/videos/page:[makelist.param1]/sort:date</page>
+   <referer>https://vimeo.com/evasiontv/videos/</referer>
+   <cookieJar></cookieJar>
+</regex>
+</item>
+
+
 </channel>
  
 
