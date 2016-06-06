@@ -3818,6 +3818,24 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
+<item>
+<title>Music RegEx</title>
+<link>$doregex[getRTMP] app=$doregex[getAPP] playpath=mainstream flashVer=WIN\2019,0,0,245 swfUrl=https://www.connecthomesint.com/public/player/legacy/player.swf pageUrl=https://www.connecthomesint.com/public/player/legacy/player.swf?config=http://www.connecthomesint.com/services/player/channel/config.php?id=39 swfUrl=https://www.connecthomesint.com/public/player/legacy/player.swf live=1</link>
+<regex>
+<name>getRTMP</name>
+<expres>(rtmp:.*?)\?</expres>
+<page>http://www.connecthomesint.com/services/player/channel/playlist.php?id=39</page>
+<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getAPP</name>
+<expres>1935\/(.*?)&lt;</expres>
+<page>http://www.connecthomesint.com/services/player/channel/playlist.php?id=39</page>
+<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent>
+<cookieJar></cookieJar>
+</regex>
+</item>
 </channel>
  
 
