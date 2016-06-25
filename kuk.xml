@@ -3612,7 +3612,53 @@ def GetLSProData(page_data,Cookie_Jar,m):
   </regex>
 </item>
 
+<item>
+<title>TEST | iblups.com/RaceTvTelemundo | rtmp</title>
+<link>$doregex[get_rtmp] playpath=$doregex[get_path] swfUrl=https://iblups.com/jwplayer/jwplayer.flash.swf swfVfy=1 live=1 timeout=13 pageUrl=https://iblups.com/e_RaceTvTelemundo</link>
+<regex>
+<name>get_rtmp</name>
+<expres>file:.*?["'](rtmp[^"]*\/)</expres>
+<page>https://iblups.com/e_RaceTvTelemundo</page>
+<referer>https://iblups.com/</referer>
+<connection>keep-alive</connection
+</regex>
+<regex>
+<name>get_path</name>
+<expres>file:.*?["']rtmp.*\/([^"]*)["'],</expres>
+<page>https://iblups.com/e_RaceTvTelemundo</page>
+<referer>https://iblups.com/</referer>
+<connection>keep-alive</connection
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
 
+<item>
+<title>TEST | kralmuzik.com.tr kral-tv | rtmp</title>
+<link>$doregex[get_rtmp] swfUrl=http://img-dygassets.mncdn.com/player2/plugins/flowplayer/flowplayer.commercial-3.2.18.swf?v12223xc swfVfy=1 live=1 timeout=13 pageUrl=http://www.kralmuzik.com.tr/tv/kral-tv</link>
+<regex>
+<name>get_rtmp</name>
+<expres>(rtmp[^"]*)",</expres>
+<page>http://www.kralmuzik.com.tr/tv/kral-tv</page>
+<referer>http://www.kralmuzik.com.tr/</referer>
+<accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
+<connection>keep-alive</connection>
+<agent>Mozilla/5.0</agent>
+</regex>
+</item>
+ 
+<item>
+<title>TEST | kralmuzik.com.tr kral-tv | m3u8</title>
+<link>$doregex[get_m3u8]|Referer=http://www.kralmuzik.com.tr/&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</link>
+<regex>
+<name>get_m3u8</name>
+<expres>([^"]*m3u8.*)"</expres>
+<page>http://www.kralmuzik.com.tr/tv/kral-tv</page>
+<referer>http://www.kralmuzik.com.tr/</referer>
+<accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
+<connection>keep-alive</connection>
+</regex>
+</item>
 
 </channels>
 			
