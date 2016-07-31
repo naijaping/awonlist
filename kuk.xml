@@ -3100,34 +3100,77 @@ def GetLSProData(page_data,Cookie_Jar,m,key='$doregex[key]',iv='0000000000000000
 </item>
 
 <item>
-<title>TSN</title>
-<link>$doregex[get-decode]$doregex[get-token]|Referer=http://p2pcast.tv&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1&amp;X-Requested-With=ShockwaveFlash/20.0.0.267</link>
+<title>Jenifa's Diary & co</title>
+<link>$doregex[makelist]</link>
 <regex>
-<name>get-decode</name>
-<expres>$pyFunction:base64.b64decode("$doregex[get-enctext]")</expres>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>page [makelist.param1]</title>
+<link>$doregex[makelist2]</link>
+<referer></referer>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres> (.*?),</expres>
+<page>$doregex[get-number]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+      <name>makelist2</name>
+      <listrepeat><![CDATA[
+              <title> [makelist2.param1]</title>
+              <link>$doregex[start]|Cookie=$get_cookies$</link>
+              <thumbnail>NA</thumbnail>
+      ]]></listrepeat>
+      <expres>class="preview" alt=".*?title="(.*?)".*?href="\/video\/(.*?)\_</expres>
+      <page>http://www.dailymotion.com/user/HomeOfNollyWood/[makelist.param1]</page>
+      <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>get-number</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://www.dailymotion.com/user/HomeOfNollyWood/1'):
+
+ import requests
+ import re
+
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Accept-Language': 'en-US'}
+
+ rr = requests.get(url, headers=headers)
+ number = re.findall('foreground2 inverted.*?> (.*?)<', rr.text)[-1]
+
+ real = int(float(number))
+ real2 = real + 2
+
+ liste = list(range(real2))
+
+ return liste
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>start</name>
+<expres>(http.*)\#</expres>
+<page>$doregex[url]&amp;redirect=0</page>
+<referer>http://www.dailymotion.com/</referer>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>url</name>
+<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/')</expres>
 <page></page>
 </regex>
 <regex>
-<name>get-enctext</name>
-<expres>murl = "(.*?)"</expres>
-<page>http://p2pcast.tv/stream.php?id=$doregex[id]</page>
-<referer>http://p2pcast.tv/</referer>
+<name>jsonurl</name>
+<expres>x-mpegURL",.*?720.*?url":"(.*?)"</expres>
+<page>http://www.dailymotion.com/embed/video/[makelist2.param2]</page>
+<cookieJar></cookieJar>
 </regex>
-<regex>
-<name>get-token</name>
-<expres>"token":"(.*?)"</expres>
-<page>http://p2pcast.tv/getTok.php</page>
-<referer>http://p2pcast.tv/</referer>
-<x-req>XMLHttpRequest</x-req>
-</regex>
-<regex>
-<name>id</name>
-<expres>id='(.*?)'</expres>
-<page>http://u-stream.me/frclub3.html</page>
-<referer>http://u-stream.me</referer>
-</regex>
+<thumbnail>http://i63.tinypic.com/x1iyya.jpg</thumbnail>
 </item>
-
 
 <items>
 <item>
