@@ -28,7 +28,7 @@
 
 <item>
 <title>jenifa S5 E3</title>
-<link>http://spyexpo.wapka.mobi/$doregex[reg1]|Cookie=$get_cookies$&amp;User-Agent=ipad&amp;X-Playback-Session-Id=$GUID$</link>
+<link>http://spyexpo.wapka.mobi/$doregex[reg1]|Cookie=$get_cookies$&amp;User-Agent=iphone&amp;X-Playback-Session-Id=$GUID$</link>
 <regex>
 <name>reg1</name>
 <expres>href.*[",'](.*mp4)[",']</expres>
@@ -56,14 +56,13 @@
 
 <item>
 <title>jenifa S5 E5</title>
-<link>$doregex[get-m3u8]</link>
+<link>http://spyexpo.wapka.mobi/$doregex[reg1]|Cookie=$get_cookies$&amp;User-Agent=iphone&amp;X-Playback-Session-Id=$GUID$</link>
 <regex>
-<name>get-m3u8</name>
-<expres>href.*[",'](http.*mp4)[",']</expres>
-<page>http://www.viviangist.com/download-watch-complete-jenifas-diary-season-5-episode-5</page>
-<referer>http://www.viviangist.com</referer>
+<name>reg1</name>
+<expres>href.*[",'](.*mp4)[",']</expres>
+<page>http://spyexpo.wapka.mobi/video/view/47394966?via=preview</page>
+<refererhttp://spyexpo.wapka.mobi</referer>
 <agent>iphone</agent>
-<cookiejar></cookiejar>
 </regex>
 <thumbnail></thumbnail>
 </item>
@@ -71,14 +70,13 @@
 
 <item>
 <title>jenifa S5 E6</title>
-<link>$doregex[get-m3u8]</link>
+<link>http://spyexpo.wapka.mobi/$doregex[reg1]|Cookie=$get_cookies$&amp;User-Agent=iphone&amp;X-Playback-Session-Id=$GUID$</link>
 <regex>
-<name>get-m3u8</name>
-<expres>href.*[",'](http.*mp4)[",']</expres>
-<page>http://www.viviangist.com/download-watch-complete-jenifas-diary-season-5-episode-6</page>
-<referer>http://www.viviangist.com</referer>
+<name>reg1</name>
+<expres>href.*[",'](.*mp4)[",']</expres>
+<page>http://spyexpo.wapka.mobi/video/view/47394978?via=preview</page>
+<refererhttp://spyexpo.wapka.mobi</referer>
 <agent>iphone</agent>
-<cookiejar></cookiejar>
 </regex>
 <thumbnail></thumbnail>
 </item>
@@ -86,28 +84,26 @@
 
 <item>
 <title>jenifa S5 E7</title>
-<link>$doregex[get-m3u8]</link>
+<link>http://spyexpo.wapka.mobi/$doregex[reg1]|Cookie=$get_cookies$&amp;User-Agent=iphone&amp;X-Playback-Session-Id=$GUID$</link>
 <regex>
-<name>get-m3u8</name>
-<expres>href.*[",'](http.*mp4)[",']</expres>
-<page>http://www.viviangist.com/download-watch-complete-jenifas-diary-season-5-episode-7</page>
-<referer>http://www.viviangist.com</referer>
+<name>reg1</name>
+<expres>href.*[",'](.*mp4)[",']</expres>
+<page>http://spyexpo.wapka.mobi/video/view/47395093?via=preview</page>
+<refererhttp://spyexpo.wapka.mobi</referer>
 <agent>iphone</agent>
-<cookiejar></cookiejar>
 </regex>
 <thumbnail></thumbnail>
 </item>
 
 <item>
 <title>jenifa S5 E8</title>
-<link>$doregex[get-m3u8]</link>
+<link>http://spyexpo.wapka.mobi/$doregex[reg1]|Cookie=$get_cookies$&amp;User-Agent=iphone&amp;X-Playback-Session-Id=$GUID$</link>
 <regex>
-<name>get-m3u8</name>
-<expres>href.*[",'](http.*mp4)[",']</expres>
-<page>http://www.viviangist.com/download-watch-complete-jenifas-diary-season-5-episode-8</page>
-<referer>http://www.viviangist.com</referer>
+<name>reg1</name>
+<expres>href.*[",'](.*mp4)[",']</expres>
+<page>http://spyexpo.wapka.mobi/video/view/47395002?via=preview</page>
+<refererhttp://spyexpo.wapka.mobi</referer>
 <agent>iphone</agent>
-<cookiejar></cookiejar>
 </regex>
 <thumbnail></thumbnail>
 </item>
