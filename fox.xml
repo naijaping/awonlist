@@ -133,7 +133,7 @@
 <regex>
 <name>get-m3u8</name>
 <expres>href.*[",'](http.*mp4)[",']</expres>
-<page>http://www.viviangist.com/download-watch-complete-jenifas-diary-season-5-episode-10</page>
+<page>http://www.viviangist.com/complete-jenifas-diary-season-5-episode-10</page>
 <referer>http://www.viviangist.com</referer>
 <agent>iphone</agent>
 <cookiejar></cookiejar>
