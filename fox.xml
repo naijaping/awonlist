@@ -28,14 +28,13 @@
 
 <item>
 <title>jenifa S5 E3</title>
-<link>$doregex[get-m3u8]</link>
+<link>http://spyexpo.wapka.mobi/$doregex[reg1]</link>
 <regex>
-<name>get-m3u8</name>
-<expres>href.*[",'](http.*mp4)[",']</expres>
-<page>http://www.viviangist.com/download-watch-complete-jenifas-diary-season-5-episode-3</page>
-<referer>http://www.viviangist.com</referer>
+<name>reg1</name>
+<expres>href.*[",'](.*mp4)[",']</expres>
+<page>http://spyexpo.wapka.mobi/video/view/47394853?via=preview</page>
+<refererhttp://spyexpo.wapka.mobi</referer>
 <agent>iphone</agent>
-<cookiejar></cookiejar>
 </regex>
 <thumbnail></thumbnail>
 </item>
