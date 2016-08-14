@@ -14,7 +14,7 @@
 
 <item>
 <title>jenifa S5 E2</title>
-<link>$doregex[get-m3u8]</link>
+<link>http://www.naijaextra.com/wp-content/uploads/2016/08/Jenifas-Diary-Season-5-Episode-2-NaijaExtra.Com_.mp4</link>
 <regex>
 <name>get-m3u8</name>
 <expres>href.*[",'](http.*mp4)[",']</expres>
