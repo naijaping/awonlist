@@ -28,7 +28,7 @@
 
 <item>
 <title>jenifa S5 E3</title>
-<link>http://spyexpo.wapka.mobi/$doregex[reg1]</link>
+<link>http://spyexpo.wapka.mobi/$doregex[reg1]|Cookie=$get_cookies$&amp;User-Agent=ipad&amp;X-Playback-Session-Id=$GUID$</link>
 <regex>
 <name>reg1</name>
 <expres>href.*[",'](.*mp4)[",']</expres>
