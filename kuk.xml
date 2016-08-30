@@ -3740,6 +3740,22 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://wizhdsports.sx/live/stream12
 </item>
 
 
+<item>
+<title>Dailymotion</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://www.dailymotion.com/video/x21iwet'):
+    import urlresolver
+    u = urlresolver.resolve(url)
+    return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
 </channels>
 			
 			
