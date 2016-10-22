@@ -3755,6 +3755,21 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://www.dailymotion.com/video/x2
 <cookieJar></cookieJar>
 </regex>
 </item>
+	
+	
+	<item>
+  <title>TEST M</title>
+  <link>$doregex[getstream]|X-Forwarded-For=196.25.255.250&amp;User-Agent=iPhone</link>
+   <regex>
+    <name>getstream</name>
+    <expres>smil[",\']\W[",\']m3u8_url.+?([^\"]+)[",\']\W</expres>
+    <page>https://livestream.com/accounts/11365479/events/3710862</page>
+    <referer>http://livestream.com/</referer>
+    <agent>Mozilla/5.0</agent>
+    <cookieJar></cookieJar>
+  </regex>
+  <thumbnail></thumbnail>
+</item>
 
 </channels>
 			
