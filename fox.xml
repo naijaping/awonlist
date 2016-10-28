@@ -176,3 +176,22 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
+
+
+
+<item>
+<title>A1-Balkan RegEx **http://www.navidiku.rs/tv-uzivo/a1-balkan**</title>
+<link>$doregex[getM3U8]</link>
+<regex>
+<name>getM3U8</name>
+<expres>$pyFunction:'$doregex[getF4M]'.replace('manifest.f4m','index.m3u8')</expres>
+<page></page>
+</regex>
+<regex>
+<name>getF4M</name>
+<expres>swf&amp;src=(.*?)&amp;</expres>
+<page>http://www.navidiku.rs/tv-uzivo/a1-balkan</page>
+<agent>Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04</agent>
+<cookieJar></cookieJar>
+</regex>
+</item>
