@@ -3771,6 +3771,18 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://www.dailymotion.com/video/x2
   <thumbnail></thumbnail>
 </item>
 
+	
+	<item>
+<title>dodetv</title>
+<link>$doregex[getFile]</link>
+<regex>
+<name>getFile</name>
+<expres>file: '([^']+)'</expres>
+<page>http://dodetv.com/live/live.php?ch=truetennis</page>
+</regex>
+</item>
+	
+	
 </channels>
 			
 			
