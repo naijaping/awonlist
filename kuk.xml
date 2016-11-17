@@ -3771,14 +3771,29 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://www.dailymotion.com/video/x2
   <thumbnail></thumbnail>
 </item>
 
-	
-	<item>
+<item>
 <title>dodetv</title>
 <link>$doregex[getFile]</link>
 <regex>
 <name>getFile</name>
 <expres>file: '([^']+)'</expres>
 <page>http://dodetv.com/live/live.php?ch=truetennis</page>
+</regex>
+</item>
+	
+<item>
+<title>https://vimeo.com | urlresolver</title>
+<link>$doregex[GetUrl]</link>
+<regex>
+<name>GetUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='https://vimeo.com/191728507/845590bd91'):
+    import urlresolver
+    u = urlresolver.resolve(url)
+    return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
 </regex>
 </item>
 	
