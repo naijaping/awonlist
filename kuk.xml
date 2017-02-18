@@ -3797,6 +3797,11 @@ def GetLSProData(page_data,Cookie_Jar,m,url='https://vimeo.com/191728507/845590b
 </regex>
 </item>
 	
+	<item>
+<title>Gvideo Test</title>
+<urlsolve>https://drive.google.com/file/d/0B0nHbtAhJIY0V0FKc3ZmVENVdzA/view?pli=1</urlsolve>
+</item>
+	
 	
 </channels>
 			
