@@ -3802,6 +3802,36 @@ def GetLSProData(page_data,Cookie_Jar,m,url='https://vimeo.com/191728507/845590b
 <urlsolve>https://drive.google.com/file/d/0B0nHbtAhJIY0V0FKc3ZmVENVdzA/view?pli=1</urlsolve>
 </item>
 	
+<item>
+<title> http://uktv.robssatellitetv.com/</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[COLOR gold] [makelist.param2][/COLOR]</title>
+   <link>$doregex[getUrl]|Referer=[makelist.param1]&amp;User-Agent=Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04</link>
+   <thumbnail>[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import requests, re, urllib2
+def GetLSProData(page_data,Cookie_Jar,m):
+  source = re.findall('"container">(?s)(.*?)</body', page_data)[0]
+  return re.findall('href="(.*?tv-online/(.*?)\.php)".+?"(.*?)"', source)
+]]></expres>
+<page>http://uktv.robssatellitetv.com/</page>
+<agent>Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04</agent>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>"(h.*m3u8[^"]+)</expres>
+<page>[makelist.param1]</page>
+<referer>http://uktv.robssatellitetv.com/</referer>
+<agent>Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04</agent>
+<cookieJar></cookieJar>
+</regex>
+</item>
+	
 	
 </channels>
 			
