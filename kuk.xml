@@ -3832,6 +3832,22 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 	
+<item>
+<title>[COLOR yellow]Tata.to Regex[/COLOR]</title>
+<link>$doregex[get-m3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X)</link>
+<regex>
+<name>get-m3u8</name>
+<expres>$pyFunction:'$doregex[url]'.replace('embed.html','playlist.m3u8')</expres>
+<page></page>
+</regex>
+<regex>
+<name>url</name>
+<expres>tv-play" data-src="(.*?)"</expres>
+<page>https://www.tata.to/channel/kinowelt-tv</page>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X)</agent>
+</regex>
+</item>
+	
 	
 </channels>
 			
