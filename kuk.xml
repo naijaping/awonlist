@@ -3848,6 +3848,24 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 	
+	<item>
+<title>ESPN 2</title>
+<link>
+http://178.18.30.113:8081/liverepeater/229933/playlist.m3u8?wmsAuthSign=$doregex[m3u8]
+<regex>
+<name>m3u8</name>
+<expres>wmsAuthSign=([^"]*)</expres>
+<page>http://biggestplayer.me/streamcrjeje2.php?id=229933&width=620&height=490</page>
+<referer>http://theactionlive.com/livegamecr2.php?id=espn2&width=620&height=490&stretching=</referer>
+</regex>
+</link>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA40YZ9MEH9pQmZnKExQq7I3wq0qgHd2YP4tcC_EXwVXgaVWmi</thumbnail>
+</item>
+
+
+
+
+	
 	
 </channels>
 			
