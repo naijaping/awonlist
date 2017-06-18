@@ -3863,7 +3863,30 @@ http://178.18.30.113:8081/liverepeater/229933/playlist.m3u8?wmsAuthSign=$doregex
 </item>
 
 
+<item>
+<title>TOP Channel Portokalli 2015 (YT)</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>BES-IPTV: [makelist.param2]</title>
+    <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+<page>https://www.youtube.com/playlist?list=PLM8BAxfZddjx4J5gzmtW8D-W1uD3-SjRC</page>
+<referer>https://www.youtube.com/user/TopChannelAlbania/playlists</referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
 
+<item>
+<title>[COLOR white]Sourced From You Tube So May Contain Clips[/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/playlist/PL-sIpqBXHUeW2SZXro5grac2RRzDZbTdy/?page=0</jsonrpc>
+<thumbnail>ignoreme</thumbnail>
+<fanart>ignoreme</fanart>
+<link>ignorme</link>
+</item>
 
 	
 	
