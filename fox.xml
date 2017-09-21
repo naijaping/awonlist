@@ -31,7 +31,7 @@
 
 <item>
 <title>jenifa S5E111</title>
-<link>http://gmcllc.de:25461/live/%E1%83%90%E1%83%9E%E1%83%90%E1%83%9C%E1%83%9315/%E1%83%A1%E1%83%90%E1%83%9E%E1%83%A0%E1%83%98%E1%83%9C%E1%83%93%E1%83%A0%E1%83%9D/2777.ts|User-Agent=useragent</link>
+<link>http://gmcllc.de:25461/live/%E1%83%90%E1%83%9E%E1%83%90%E1%83%9C%E1%83%9315/%E1%83%A1%E1%83%90%E1%83%9E%E1%83%A0%E1%83%98%E1%83%9C%E1%83%93%E1%83%A0%E1%83%9D/1212.ts|User-Agent=useragent</link>
 <regex>
 <name>get-m3u8</name>
 <expres>href.*[",'](http.*mp4)[",']</expres>
