@@ -1,3 +1,34 @@
+
+<item>
+<title>MUTULU</title>
+<link>$doregex[makelist]|User-Agent=useragent</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
+<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-1.*,(.*?)\n.*(http.*ts)</expres>
+<page>http://gmcllc.de:25461/get.php?username=აპანდ39&amp;password=პარანდრო&amp;type=m3u&amp;output=mpegts</page>
+<referer>http://gmcllc.de:25461</referer>
+<accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
+<connection>keep-alive</connection>
+<x-forward></x-forward>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('[makelist.param2]|User-Agent=useragent')<expres>
+<page></page>
+</regex>
+</item>
+
+
+
+
+
+
 <item>
 <title>jenifa S5 E1</title>
 <link>$doregex[get-m3u8]</link>
