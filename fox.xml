@@ -30,8 +30,8 @@
 
 
 <item>
-<title>jenifa S5 E1</title>
-<link>$doregex[get-m3u8]</link>
+<title>jenifa S5 E111</title>
+<link>http://gmcllc.de:25461/live/აპანდ39/პარანდრო/2767.ts|User-Agent=useragent</link>
 <regex>
 <name>get-m3u8</name>
 <expres>href.*[",'](http.*mp4)[",']</expres>
