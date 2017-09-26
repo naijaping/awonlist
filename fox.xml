@@ -24,7 +24,30 @@
 </regex>
 </item>
 
-
+<item>
+<title>MUTULU 2</title>
+<link>$doregex[makelist]|User-Agent=ccbb LibVLC/3.0.0-git</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
+<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-1.*,(.*?)\n.*(http.*ts)</expres>
+<page>http://163.172.49.213:8899/get.php?username=bigRmd&amp;password=big10rmd&amp;type=m3u&amp;output=mpegts</page>
+<referer>http://163.172.49.213:8899</referer>
+<accept>Accept-Encoding=gzip,deflate,text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</accept>
+<connection>keep-alive</connection>
+<x-forward></x-forward>
+<agent>ccbb LibVLC/3.0.0-git</agent>
+</regex>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('[makelist.param2]|User-Agent=ccbb LibVLC/3.0.0-git')<expres>
+<page></page>
+</regex>
+</item>
 
 
 
