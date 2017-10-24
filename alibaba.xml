@@ -1,0 +1,14 @@
+<item>
+<title>Nollywood TV</title>
+<link>plugin://plugin.video.live.streamspro/?playitem=$doregex[getitem]</link>
+<regex>
+<name>getitem</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urllib
+    return urllib.quote_plus(page_data)
+]]></expres>
+<page>https://www.dropbox.com/s/xxxxxxxxxxxxxxxx.xml?dl=1</page>
+</regex>
+<thumbnail>http://i59.tinypic.com/xndr34.jpg</thumbnail>
+</item>
