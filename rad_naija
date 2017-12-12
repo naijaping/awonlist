@@ -24,8 +24,20 @@
 </item>
 
 <item>
+<title>Premier FM</title>
+<link>http://192.254.153.78:9992</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
 <title>Splash FM Ibadan</title>
 <link>http://ice31.securenetsystems.net/SPLASHFM</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Naija Hits FM</title>
+<link>http://naijamusic.out.airtime.pro:8000/naijamusic_a</link>
 <thumbnail></thumbnail>
 </item>
 
@@ -50,8 +62,4 @@
 
 
 
-<item>
-<title>Naija Hits FM</title>
-<link>http://naijamusic.out.airtime.pro:8000/naijamusic_a</link>
-<thumbnail></thumbnail>
-</item>
+
