@@ -11,9 +11,9 @@
 </channel>
 
 <channel>
-<name>All other Stations</name>
+<name>Naija Radio Stations</name>
 <thumbnail></thumbnail>
-<externallink></externallink>
+<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/rad_naija</externallink>
 <fanart></fanart>
 <info></info>
 </channel>
