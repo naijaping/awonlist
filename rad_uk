@@ -1,7 +1,26 @@
 <item>
+<title>Classic FM</title>
+<link>http://media-ice.musicradio.com/ClassicFMMP3.m3u</link>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
 <title>Capital London 95.8</title>
 <link>http://media-the.musicradio.com:80/CapitalMP3</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/3/34/Capital_London.png</thumbnail>
+</item>
+
+<item>
+<title>Chill Radio</title>
+<link>http://media-the.musicradio.com:80/ChillMP3</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Choice FM</title>
+<link>http://media-the.musicradio.com:80/ChoiceFMMP3</link>
+<thumbnail></thumbnail>
 </item>
 
 <item>
