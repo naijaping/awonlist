@@ -17,9 +17,9 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
+<item>http://streams.shoutcastsolutions.com:8161
 <title>Choice FM</title>
-<link>http://streams.shoutcastsolutions.com:8161</link>
+<link>http://178.32.62.163:8161/stream</link>
 <thumbnail></thumbnail>
 </item>
 
