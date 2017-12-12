@@ -1,12 +1,14 @@
 <item>
-<title>uk | Heart FM London</title>
-<link>http://media-the.musicradio.com:80/HeartLondonMP3</link>
-<thumbnail></thumbnail>
-</item>
-    
-    
-<item>
-<title>uk | Capital FM</title>
+<title>Capital London 95.8</title>
 <link>http://media-the.musicradio.com:80/CapitalMP3</link>
-<thumbnail></thumbnail>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/3/34/Capital_London.png</thumbnail>
 </item>
+
+<item>
+<title>Heart London 106.2</title>
+<link>http://media-the.musicradio.com:80/HeartLondonMP3</link>
+<thumbnail>https://www.chancellors.co.uk/wp-content/blogs.dir/2/files/2013/01/HOXFO_Twitter_Logo1-300x300.jpg</thumbnail>
+</item>
+    
+    
+
