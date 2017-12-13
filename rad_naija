@@ -61,6 +61,12 @@
 </item>
 
 <item>
+<title>SoundCity FM</title>
+<link>http://41.67.140.94:44002/livestream</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
 <title>Naija Hits FM</title>
 <link>http://naijamusic.out.airtime.pro:8000/naijamusic_a</link>
 <thumbnail></thumbnail>
