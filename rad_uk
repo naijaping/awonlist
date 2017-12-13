@@ -1,27 +1,27 @@
 <item>
 <title>Classic FM</title>
 <link>http://media-sov.musicradio.com/ClassicFM</link>
-<thumbnail></thumbnail>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/256_288x162_2013-01-25-09-30-56-12.png</thumbnail>
 </item>
 
 
 <item>
 <title>Capital London 95.8</title>
 <link>http://media-the.musicradio.com:80/CapitalMP3</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/3/34/Capital_London.png</thumbnail>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/237_288x162_2016-05-17-09-45-18-987.png</thumbnail>
 </item>
 
 <item>
 <title>Capital XTRA</title>
 <link>http://media-the.musicradio.com/CapitalXTRALondon</link>
-<thumbnail></thumbnail>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/1269_288x162_2013-10-03-12-31-34-488.png</thumbnail>
 </item>
 
 
 <item>
 <title>Chill Radio</title>
 <link>http://media-the.musicradio.com:80/ChillMP3</link>
-<thumbnail></thumbnail>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/1155_288x162_2013-01-25-09-30-55-595.png</thumbnail>
 </item>
 
 <item>http://streams.shoutcastsolutions.com:8161
