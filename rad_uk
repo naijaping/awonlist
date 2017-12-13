@@ -1,4 +1,18 @@
 <item>
+<title>Absolute Radio</title>
+<link>http://ais.absoluteradio.co.uk/absoluteradio.mp3</link>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/100_288x162_2013-11-11-17-01-55-764.png</thumbnail>
+</item>
+
+<item>
+<title>Absolute Classic Rock</title>
+<link>http://ais.absoluteradio.co.uk/absoluteclassicrock.mp3</link>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/104_288x162_2013-11-11-17-01-55-467.png</thumbnail>
+</item>
+
+
+
+<item>
 <title>Classic FM</title>
 <link>http://media-sov.musicradio.com/ClassicFM</link>
 <thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/256_288x162_2013-01-25-09-30-56-12.png</thumbnail>
