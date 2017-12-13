@@ -30,10 +30,17 @@
 </item>
 
 <item>
+<title>Parrot FM Ogbomoso</title>
+<link>http://142.4.217.133:8682/stream</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
 <title>Premier FM Ibadan</title>
 <link>http://192.254.153.78:9992</link>
 <thumbnail></thumbnail>
 </item>
+
 
 <item>
 <title>Royal Root FM Ibadan</title>
@@ -69,6 +76,12 @@
 <item>
 <title>Naija Hits FM</title>
 <link>http://naijamusic.out.airtime.pro:8000/naijamusic_a</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Nigerian Gospel Radio</title>
+<link>http://pipe.ukprostream.com:8090</link>
 <thumbnail></thumbnail>
 </item>
 
