@@ -24,10 +24,29 @@
 </item>
 
 <item>
+<title>Kennis FM</title>
+<link>http://162.244.80.30:8176/kennisfm</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
 <title>Premier FM Ibadan</title>
 <link>http://192.254.153.78:9992</link>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+<title>Royal Root FM Ibadan</title>
+<link>http://67.228.150.175:9005</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Radio Nigeria</title>
+<link>http://213.32.16.94:8050</link>
+<thumbnail></thumbnail>
+</item>
+
 
 <item>
 <title>Splash FM Ibadan</title>
