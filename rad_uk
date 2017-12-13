@@ -47,14 +47,19 @@
 <item>
 <title>Heart London 106.2</title>
 <link>http://media-the.musicradio.com:80/HeartLondonMP3</link>
-<thumbnail>https://www.chancellors.co.uk/wp-content/blogs.dir/2/files/2013/01/HOXFO_Twitter_Logo1-300x300.jpg</thumbnail>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/232_288x162_2017-02-12-21-15-35-276.png</thumbnail>
 </item>
     
+ <item>
+<title>kiss FM</title>
+<link>http://icy-e-ba-07-boh.sharp-stream.com:8000/kissnational.mp3</link>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/550_288x162_2015-04-30-13-15-55-550.png</thumbnail>
+</item>  
     
 <item>
 <title>LBC Radio</title>
 <link>http://media-the.musicradio.com/LBCLondon</link>
-<thumbnail></thumbnail>
+<thumbnail>http://ukrpimagecache.s3.amazonaws.com/image/258_288x162_2014-02-11-07-40-17-265.png</thumbnail>
 </item>
 
 
