@@ -3,28 +3,30 @@
 
 <channels>
 <channel>
-<name>UK Radio Stations</name>
+<name>UK Live Radio Stations</name>
 <thumbnail></thumbnail>
 <externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/rad_uk</externallink>
 <fanart></fanart>
 <info>Radio Stattions From UK</info>
 </channel>
+  
+<channel>
+<name>BBC Live Radio Stations</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/rad_bbc</externallink>
+<fanart></fanart>
+<info></info>
+</channel> 
 
 <channel>
-<name>Naija Radio Stations</name>
+<name>Naija Live Radio Stations</name>
 <thumbnail></thumbnail>
 <externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/rad_naija</externallink>
 <fanart></fanart>
 <info></info>
 </channel>
 
-<channel>
-<name>All BBC Radio Stations</name>
-<thumbnail></thumbnail>
-<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/rad_bbc</externallink>
-<fanart></fanart>
-<info></info>
-</channel>
+
   
   
 
