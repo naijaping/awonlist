@@ -2,7 +2,7 @@
 
 #EXTINF:-1 tvg-logo="http://ukrpimagecache.s3.amazonaws.com/image/340_288x162_2013-01-25-09-30-45-300.png",  BBC Radio 1
 
- http://as-dash-ww-live.akamaized.net/pool_7/live/bbc_radio_one/bbc_radio_one.isml/dash/bbc_radio_one-audio=320000.m3u8
+https://as-dash-uk-live.akamaized.net/pool_7/live/bbc_radio_one/bbc_radio_one.isml/dash/bbc_radio_one-audio=320000.m3u8
 
 #EXTINF:-1 tvg-logo="http://ukrpimagecache.s3.amazonaws.com/image/342_288x162_2013-01-25-09-30-45-547.png",  BBC Radio 2
 
