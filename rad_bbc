@@ -37,4 +37,8 @@ https://as-dash-uk-live.bbcfmt.hs.llnwd.net/pool_7/live/bbc_london/bbc_london.is
 
 http://as-dash-uk-live.akamaized.net/pool_7/live/bbc_radio_scotland_fm/bbc_radio_scotland_fm.isml/dash/bbc_radio_scotland_fm-audio=320000.m3u8
 
+#EXTINF:-1 tvg-logo="http://ukrpimagecache.s3.amazonaws.com/image/351_288x162_2013-01-25-09-30-45-11.png",VH1
+
+https://content.uplynk.com/channel/a070241d54964a7b9b07f46b41122311.m3u8
+
 
