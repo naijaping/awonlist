@@ -1,1 +1,27 @@
 
+<layouttype>thumbnail</layouttype>
+
+
+<channels>
+<channel>
+<name>UK Live Radio Stations</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/rad_uk</externallink>
+<fanart></fanart>
+<info>Radio Stattions From UK</info>
+</channel>
+  
+<channel>
+<name>Naija Live Radio Stations</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/rad_naija</externallink>
+<fanart></fanart>
+<info></info>
+</channel>
+
+
+  
+  
+
+
+</channels>
