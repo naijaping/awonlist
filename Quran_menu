@@ -4,18 +4,18 @@
 
 <channels>
 <channel>
-<name>UK Live Radio Stations</name>
+<name>Useful Duas Audio</name>
 <thumbnail></thumbnail>
-<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/rad_uk</externallink>
+<externallink>https://www.dropbox.com/s/isx2mboxe59pzyx/allislam.xml?dl=1</externallink>
 <fanart></fanart>
-<info>Radio Stattions From UK</info>
+<info>Useful Duas Audio</info>
 </channel>
   
 <channel>
-<name>Naija Live Radio Stations</name>
+<name>Useful Duas Videos</name>
 <thumbnail></thumbnail>
 <externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/rad_naija</externallink>
-<fanart></fanart>
+<fanart>Useful Duas Video</fanart>
 <info></info>
 </channel>
 
