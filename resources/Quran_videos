@@ -35,9 +35,9 @@
  
 
  
-<item>
+<item>$doregex[get-url]
 <title>IQra Tv</title>
-<link>$doregex[get-url]</link>
+<link>https://dcunilive16-lh.akamaihd.net/i/dclive_1@347128/master.m3u8</link>
 <regex>
 <name>get-url</name>
 <expres>file:  '(.*m3u8)'</expres>
