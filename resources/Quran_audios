@@ -115,3 +115,15 @@
 </regex>
 <thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
 </item>
+
+
+<item>
+<title>SURAH AL-KAHF</title> 
+<link>http://www.quran411.com/$doregex[reg1]</link>
+<regex>
+<name>reg1</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.quran411.com/surah-kahf.asp</page>
+</regex>
+<thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
+</item>
