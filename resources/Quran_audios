@@ -135,7 +135,7 @@
 <regex>
 <name>reg1</name>
 <expres>source src="(.*?)"</expres>
-<page>http://www.quran411.com/surah-duha.aspp</page>
+<page>http://www.quran411.com/surah-duha.asp</page>
 </regex>
 <thumbnail>http://s19.postimg.org/x86ur14gv/praying.jpg</thumbnail>
 </item>
