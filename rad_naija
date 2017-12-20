@@ -6,6 +6,12 @@
 </item>
 
 <item>
+<title>Adaba FM</title>
+<link>http://149.56.234.138:8051/stream</link>
+<thumbnail>http://cdn.onlineradiobox.com/img/logo/2/6842.v3.png</thumbnail>
+</item>
+
+<item>
 <title>Amuludun FM Ibadan</title>
 <link>http://192.254.153.78:9998</link>
 <thumbnail></thumbnail>
@@ -22,6 +28,13 @@
 <link>http://icestream.coolwazobiainfo.com:8000/coolfm-lagos</link>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+<title>Jaydee FM</title>
+<link>http://streaming.radio.co/sd6c189f4c/listen</link>
+<thumbnail>http://cdn.onlineradiobox.com/img/logo/3/6843.v1.png</thumbnail>
+</item>
+
 
 <item>
 <title>Kennis FM</title>
@@ -89,6 +102,12 @@
 <title>Nigerian Gospel Radio</title>
 <link>http://pipe.ukprostream.com:8090</link>
 <thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Nigeria Info</title>
+<link>http://icestream.coolwazobiainfo.com:8000/niginfo-lagos</link>
+<thumbnail>http://cdn.onlineradiobox.com/img/logo/0/6600.v3.png</thumbnail>
 </item>
 
 <item>
