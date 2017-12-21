@@ -20,13 +20,13 @@
 <item>
 <title>Fresh FM Ibadan</title>
 <link>http://198.178.123.11:8442/stream.mp3</link>
-<thumbnail></thumbnail>
+<thumbnail>http://cdn.onlineradiobox.com/img/logo/9/6819.v1.png</thumbnail>
 </item>
 
 <item>
 <title>CoolFM 96.9 Lagos</title>
 <link>http://icestream.coolwazobiainfo.com:8000/coolfm-lagos</link>
-<thumbnail></thumbnail>
+<thumbnail>http://cdn.onlineradiobox.com/img/logo/3/6733.v4.png</thumbnail>
 </item>
 
 <item>
@@ -77,13 +77,13 @@
 <item>
 <title>Splash FM Ibadan</title>
 <link>http://ice31.securenetsystems.net/SPLASHFM</link>
-<thumbnail></thumbnail>
+<thumbnail>http://cdn.onlineradiobox.com/img/logo/8/6748.png</thumbnail>
 </item>
 
 <item>
 <title>Space FM Ibadan</title>
 <link>http://s9.viastreaming.net:9560</link>
-<thumbnail></thumbnail>
+<thumbnail>http://cdn.onlineradiobox.com/img/logo/2/6792.png</thumbnail>
 </item>
 
 <item>
@@ -113,7 +113,7 @@
 <item>
 <title>The Beat FM Ibadan</title>
 <link>http://icy3.abacast.com/megalectrics-thebeat97.9fmmp3-48</link>
-<thumbnail></thumbnail>
+<thumbnail>https://cdn-radiotime-logos.tunein.com/s244045q.png</thumbnail>
 </item>
 
 <item>
