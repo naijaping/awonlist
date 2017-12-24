@@ -73,6 +73,11 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Surprise FM London</title>
+<link>http://pipe.ukprostream.com:8021/stream</link>
+<thumbnail>https://cdn-radiotime-logos.tunein.com/s233853q.png</thumbnail>
+</item>
 
 <item>
 <title>Splash FM Ibadan</title>
@@ -141,6 +146,10 @@
 <thumbnail></thumbnail>
 </item>
 
-
+<item>
+<title>Yoruba FM</title>
+<link>http://streaming.radio.co/s2cad182c1/listen</link>
+<thumbnail>https://cdn-radiotime-logos.tunein.com/s199294q.png</thumbnail>
+</item>
 
 
