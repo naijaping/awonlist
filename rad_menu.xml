@@ -26,7 +26,13 @@
 <info></info>
 </channel>
 
-
+<channel>
+<name>Live TV</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/radio_naija</externallink>
+<fanart></fanart>
+<info></info>
+</channel>
   
   
 
