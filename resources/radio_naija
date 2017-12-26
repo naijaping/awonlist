@@ -156,7 +156,7 @@
 <link>$doregex[reg1]|User-Agent=iphone</link>
 <regex>
 <name>reg1</name>
-<expres>href.*[",'](.*mp3.*)[",']</expres>
+<expres>href.*[",'](.*key.*?)[",']</expres>
 <page>http://www.naijapals.com/music/FIA__Fuji_Version__Destiny_Boy_X_Davido-69493</page>
 <referer>http://www.naijapals.com</referer>
 </regex>
