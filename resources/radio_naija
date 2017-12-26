@@ -152,7 +152,7 @@
 </item>
 
 <item>
-<title>Sky sport</title> 
+<title>Sky00</title> 
 <link>$doregex[reg1]|User-Agent=iphone</link>
 <regex>
 <name>reg1</name>
