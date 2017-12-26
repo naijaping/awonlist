@@ -7,13 +7,25 @@
 <item>
 <title>If</title>
 <link>https://www.naijavibes.com/wp-content/uploads/2017/02/Davido-if.mp3</link>
-<thumbnail></thumbnail>
+<thumbnail>http://img2.naijapals.com/pictures/250/714f1bf3aa216b756966f812d3b3d32c.jpg</thumbnail>
 </item>
 
 <item>
 <title>Fall</title>
 <link>https://www.mp3naija.com.ng/x-content/02-06-2017/Davido-Fall.mp3</link>
-<thumbnail></thumbnail>
+<thumbnail>http://img2.naijapals.com/pictures/250/2a17f12151a5d8cce58440bbf34f912d.jpg</thumbnail>
+</item>
+
+<item>
+<title>Like Dat</title> 
+<link>$doregex[reg1]|User-Agent=iphone</link>
+<regex>
+<name>reg1</name>
+<expres>href.*[",'](.*key.*?)[",']</expres>
+<page>http://www.naijapals.com/music/Like_Dat__Prod__By_Shizzi__Davido-69545</page>
+<referer>http://m.naijapals.com/song.php?id=69493</referer>
+</regex>
+<thumbnail>http://img2.naijapals.com/pictures/250/86200f591e57c9e4637ac01a679cd529.jpg</thumbnail>
 </item>
 
 <item>
