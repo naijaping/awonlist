@@ -1,1 +1,41 @@
+<layouttype>thumbnail</layouttype>
 
+
+<channels>
+<channel>
+<name>Davido</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/Quran_audios</externallink>
+<fanart></fanart>
+<info>Useful Duas Audio</info>
+</channel>
+
+<channels>
+<channel>
+<name>Kiss Daniel</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/Quran_audios</externallink>
+<fanart></fanart>
+<info>Useful Duas Audio</info>
+</channel>
+  
+<channel>
+<name>Olamide</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/Quran_videos</externallink>
+<fanart>Useful Duas Video</fanart>
+<info></info>
+</channel>
+
+<channel>
+<name>Wizkid</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/Quran_videos</externallink>
+<fanart>Useful Duas Video</fanart>
+<info></info>
+</channel>
+  
+  
+
+
+</channels>
