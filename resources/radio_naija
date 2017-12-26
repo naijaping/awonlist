@@ -158,7 +158,7 @@
 <name>reg1</name>
 <expres>href.*[",'](.*key.*?)[",']</expres>
 <page>http://www.naijapals.com/music/FIA__Fuji_Version__Destiny_Boy_X_Davido-69493</page>
-<referer>http://www.naijapals.com</referer>
+<referer>http://m.naijapals.com/song.php?id=69493</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
