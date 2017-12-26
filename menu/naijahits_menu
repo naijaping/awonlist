@@ -2,12 +2,21 @@
 
 
 <channels>
+
+<channel>
+<name>Adekunle Gold</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/submenu/adekunle_gold</externallink>
+<fanart></fanart>
+<info></info>
+</channel>
+
 <channel>
 <name>Davido</name>
 <thumbnail></thumbnail>
 <externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/submenu/davido</externallink>
 <fanart></fanart>
-<info>Useful Duas Audio</info>
+<info></info>
 </channel>
 
 <channels>
@@ -16,14 +25,14 @@
 <thumbnail></thumbnail>
 <externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/Quran_audios</externallink>
 <fanart></fanart>
-<info>Useful Duas Audio</info>
+<info></info>
 </channel>
   
 <channel>
 <name>Olamide</name>
 <thumbnail></thumbnail>
 <externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/Quran_videos</externallink>
-<fanart>Useful Duas Video</fanart>
+<fanart></fanart>
 <info></info>
 </channel>
 
@@ -31,7 +40,7 @@
 <name>Wizkid</name>
 <thumbnail></thumbnail>
 <externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/Quran_videos</externallink>
-<fanart>Useful Duas Video</fanart>
+<fanart></fanart>
 <info></info>
 </channel>
   
