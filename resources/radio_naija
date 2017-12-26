@@ -151,7 +151,7 @@
 <thumbnail>https://cdn-radiotime-logos.tunein.com/s199294q.png</thumbnail>
 </item>
 
-<item>
+<tem>
 <title>Sky00</title> 
 <link>$doregex[reg1]|User-Agent=iphone</link>
 <regex>
