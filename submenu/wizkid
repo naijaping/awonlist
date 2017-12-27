@@ -31,38 +31,3 @@
 </item>
 
 
-<item>
-<title>SERCANO TV</title>
- <thumbnail>http://www.sercano.com/wp-content/uploads/2014/05/Banner-SErcano.0016.jpg</thumbnail>
-<fanart>https://s-media-cache-ak0.pinimg.com/736x/8e/3a/76/8e3a767d1b6e08d3e00d37a7a1a85a3e.jpg</fanart>
-<link>$doregex[get-url]</link>
- 
-<regex>
-<name>get-url</name>
-<expres><![CDATA[#$pyFunction
- 
-def GetLSProData(page_data,Cookie_Jar,m):
- import requests
- import re
- import urllib2
- if 'LIVE CHANNELS' in title:
-        url = base64.b64decode ('aHR0cHM6Ly9saXZlLnByb3h5cG9ydGFsLm5ldC8=')
-        link = Get_Data(url).replace('\n', '').replace('\r','').replace('\t','')
-        appoved = ['sky sports', 'sky sport', 'box nation', 'eurosport', 'premier sports', 'espn', 'racing', 'lfctv', 'mutv', 'bt sport']
-        match = re.compile('<div class="panel panel-default">(.+?)</a>').findall(link)
-        for links in match:
-            title = re.compile ('<strong>(.+?)</strong>').findall(links)[0]
-            url = re.compile ('<a href="(.+?)"').findall(links)[0]
-            url1 = base64.b64decode ('TElWRTpodHRwczovL2xpdmUucHJveHlwb3J0YWwubmV0')
-            url = url1 + url
-            if any(x in title.lower() for x in appoved):
-                Item_Link.append(url)
-                Item_Title.append(title)
-                Item_Desc.append(title)
-                Item_Icon.append(Addon_Image)
-                self.List.addItem(title)
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-</item>
