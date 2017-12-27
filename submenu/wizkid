@@ -30,3 +30,13 @@
 <thumbnail></thumbnail>
 </item>
 
+<title>Ben TV</title>
+<link>$doregex[dummy]|Cookie=$get_cookies$&amp;User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36</link>
+<regex>
+<name>dummy</name>
+<expres>$pyFunction:str('https://live.on4cdn.net/live/27937601/ben/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows; U; en-GB) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/21.0')</expres>
+<agent>Mozilla/5.0 (Windows; U; en-GB) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/21.0</agent>
+<page></page>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/naijaping/awonlist/master/img/bentv.png</thumbnail>
+</item>
