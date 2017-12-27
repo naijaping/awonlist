@@ -29,3 +29,22 @@
 <link></link>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+<title>Ben Tv</title>
+<link>$doregex[get-finalURL]</link>
+<regex>
+<name>get-url</name>
+<expres>(http.*?)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ben&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8&amp;format=jsonp</page>
+<referer>http://rrr.sz.xlcdn.com/?account=Un1ty&amp;file=ben&amp;type=live&amp;service=wowza&amp;protocol=http&amp;output=playlist.m3u8</referer>
+<cookieJar></cookieJar>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
+</regex>
+<regex>
+<name>get-finalURL</name>
+<expres>$pyFunction:'$doregex[get-url]'.replace('\\/','/')</expres>
+<page></page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/bb/ben.png</thumbnail>
+</item>
