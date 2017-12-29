@@ -1,3 +1,27 @@
+<item>
+<title>Ojuelegba</title> 
+<link>$doregex[reg1]|User-Agent=iphone</link>
+<regex>
+<name>reg1</name>
+<expres>href.*[",'](.*key.*?)[",']</expres>
+<page>http://www.naijapals.com/music/Wizkid___Ojuelegba_Comic_Version_Luckiz-43881</page>
+<referer>http://m.naijapals.com/song.php?id=43881</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>Baba N La</title> 
+<link>$doregex[reg1]|User-Agent=iphone</link>
+<regex>
+<name>reg1</name>
+<expres>href.*[",'](.*key.*?)[",']</expres>
+<page>http://www.naijapals.com/music/Final__Baba_Nla__Wizkid-45867</page>
+<referer>http://m.naijapals.com/song.php?id=45867</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 <item>
 <title></title>
