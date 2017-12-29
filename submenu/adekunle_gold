@@ -36,3 +36,16 @@ https://www.mp3naija.com.ng/x-content/17-11-2017/Mayorkun-Che-Che.mp3
 </regex>
 <thumbnail></thumbnail>
 </item>
+
+
+<item>
+<title>Double Wahala</title> 
+<link>$doregex[reg1]|User-Agent=iphone</link>
+<regex>
+<name>reg1</name>
+<expres>href.*[",'](.*key.*?)[",']</expres>
+<page>http://www.naijapals.com/music/Double_Wahala_Oritse_Femi-30479</page>
+<referer>http://m.naijapals.com/song.php?id=30479</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
