@@ -22,3 +22,16 @@
 <link></link>
 <thumbnail></thumbnail>
 </item>
+
+
+<item>
+<title>Che Che</title> 
+<link>$doregex[reg1]|User-Agent=iphone</link>
+<regex>
+<name>reg1</name>
+<expres>href.*[",'](.*key.*?)[",']</expres>
+<page>http://www.naijapals.com/music/Che_Che_Mayorkun-68738</page>
+<referer>http://m.naijapals.com/song.php?id=69493</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
