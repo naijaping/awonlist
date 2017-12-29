@@ -1,31 +1,15 @@
 <item>
 <title>Ojuelegba</title> 
-<link>$doregex[reg1]|User-Agent=iphone</link>
-<regex>
-<name>reg1</name>
-<expres>href.*[",'](.*key.*?)[",']</expres>
-<page>http://www.naijapals.com/music/Wizkid___Ojuelegba_Comic_Version_Luckiz-43881</page>
-<referer>http://m.naijapals.com/song.php?id=43881</referer>
-</regex>
+<link>https://www.mp3naija.com.ng/x-content/12-04-2015/Ojuelegba_(Prod._Legendury_Beatz)___MP3NAIJA_.COM_.mp3</link>
 <thumbnail></thumbnail>
 </item>
 
 
-<item>
-<title>Baba N La</title> 
-<link>$doregex[reg1]|User-Agent=iphone</link>
-<regex>
-<name>reg1</name>
-<expres>href.*[",'](.*key.*?)[",']</expres>
-<page>http://www.naijapals.com/music/Final__Baba_Nla__Wizkid-45867</page>
-<referer>http://m.naijapals.com/song.php?id=45867</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
+
 
 <item>
-<title></title>
-<link></link>
+<title>BabaNla</title>
+<link>https://www.mp3naija.com.ng/x-content/13-11-2015/Wizkid-Final_(Baba_Nla)-Legendury_Beatz.mp3</link>
 <thumbnail></thumbnail>
 </item>
 
