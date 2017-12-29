@@ -23,6 +23,7 @@
 <thumbnail></thumbnail>
 </item>
 
+https://www.mp3naija.com.ng/x-content/17-11-2017/Mayorkun-Che-Che.mp3
 
 <item>
 <title>Che Che</title> 
@@ -31,7 +32,7 @@
 <name>reg1</name>
 <expres>href.*[",'](.*key.*?)[",']</expres>
 <page>http://www.naijapals.com/music/Che_Che_Mayorkun-68738</page>
-<referer>http://m.naijapals.com/song.php?id=69493</referer>
+<referer>http://m.naijapals.com/song.php?id=68738</referer>
 </regex>
 <thumbnail></thumbnail>
 </item>
