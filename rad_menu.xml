@@ -12,10 +12,10 @@
   
 <channel>
 <name>BBC Live Radio Stations</name>
-<thumbnail></thumbnail>
+<thumbnail>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/images/bbc_radio_icon.jpg</thumbnail>
 <externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/radio_bbc</externallink>
 <fanart></fanart>
-<info></info>
+<info>BBC Radio Stations</info>
 </channel> 
 
 <channel>
