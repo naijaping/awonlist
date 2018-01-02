@@ -4,7 +4,7 @@
 <channels>
 <channel>
 <name>UK Live Radio Stations</name>
-<thumbnail></thumbnail>
+<thumbnail>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/images/uk_radio_station.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/radio_uk</externallink>
 <fanart></fanart>
 <info>Radio Stattions From UK</info>
@@ -26,13 +26,7 @@
 <info>Live Radio Stations From Nigeria</info>
 </channel>
 
-<channel>
-<name>Live TV</name>
-<thumbnail></thumbnail>
-<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/radio_naija</externallink>
-<fanart></fanart>
-<info></info>
-</channel>
+
   
   
 
