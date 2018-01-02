@@ -20,10 +20,10 @@
 
 <channel>
 <name>Naija Live Radio Stations</name>
-<thumbnail></thumbnail>
+<thumbnail>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/images/naija_rad_icon.jpg</thumbnail>
 <externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/radio_naija</externallink>
 <fanart></fanart>
-<info></info>
+<info>Live Radio Stations From Nigeria</info>
 </channel>
 
 <channel>
