@@ -45,9 +45,10 @@
 </channel>
   
 <channel>
-<name>Yemi Alade Vid</name>
+<name>Yemi Alade Vidi</name>
 <thumbnail></thumbnail>
-<link>plugin://plugin.video.youtube/user/YemiAladeVEVO/</link>
+<link>ignorme</link>
+<externallink>plugin://plugin.video.youtube/user/YemiAladeVEVO/</externallink>
 <fanart></fanart>
 <info></info>
 </channel>  
