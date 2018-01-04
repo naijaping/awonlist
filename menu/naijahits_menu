@@ -45,11 +45,13 @@
 </channel>
   
 <channel>
-<link>Yemi Alade Vi</link>
+<name>Yemi Alade Vi</name>
+<item>
 <thumbnail></thumbnail>
 <utube>UCP7Lfr29SgtN4DuakXJfg0g</utube>
 <fanart></fanart>
 <info></info>
+</item>
 </channel>  
 
 
