@@ -55,6 +55,16 @@
 </item>
 
 
+<item>
+<title>[COLOR yellow]AVTOMATSKI SE OBNOVUVA DO NAJNOVO[/COLOR]</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[getM3U8]</link>
+<regex>
+<name>getM3U8</name>
+<expres><![CDATA[<a href="\/watch\?v=(.*?)" class="]]></expres>
+<page>https://www.youtube.com/channel/UCEYG68KHicOe5_lBL7mShfw</page>
+<cookieJar><cookieJar>
+</regex>
+</item>
 
 
 </channel>  
