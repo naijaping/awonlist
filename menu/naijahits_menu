@@ -58,11 +58,11 @@
 
 
 <item>
-<title>Big Films Nepali Movies</title>
+<title>Big Films Nepali</title>
 <link>$doregex[showyoutube]</link>
 <regex>
 <name>showyoutube</name>
-<expres>$pyFunction:xbmc.executebuiltin('ActivateWindow(10025,&quot;plugin://plugin.video.youtube/channel/UCE8p7EAEcXZaXtsnIlktzQQ/&quot;,return)')</expres>
+<expres>$pyFunction:xbmc.executebuiltin('ActivateWindow(10025,&quot;plugin://plugin.video.youtube/channel/UC1NlvNg7p6m1kFuudR2UZ0w/&quot;,return)')</expres>
 <page></page>
 </regex>
 </item>
