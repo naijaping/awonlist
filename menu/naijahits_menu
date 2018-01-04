@@ -45,11 +45,11 @@
 </channel>
   
 <channel>
-<name>Yemi Alade Vi</name>
+<name>Yemi Alade</name>
 <item>
 <title>Yemi Alade Videos</title>
 <thumbnail></thumbnail>
-<utube>UCP7Lfr29SgtN4DuakXJfg0g</utube>
+<link>plugin://plugin.video.youtube/user/YemiAladeVEVO/</link>
 <fanart></fanart>
 <info></info>
 </item>
