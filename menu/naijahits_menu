@@ -54,7 +54,16 @@
 <info></info>
 </item>
 
+<item>
+<title>ALL EA FIFA VIDEOS</title>
+<thumbnail>https://pbs.twimg.com/profile_images/603541395731816448/d6qszQyX.jpg</thumbnail>
+<link>$doregex[showyoutube]</link>
 
+<regex>
+<name>showyoutube</name>
+<expres>$pyFunction:xbmc.executebuiltin('ActivateWindow(10025,&quot;plugin://plugin.video.youtube/user/YemiAladeVEVO/&quot;)')</expres>
+<page></page>
+</regex>
 
 
 
