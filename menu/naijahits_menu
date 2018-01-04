@@ -57,17 +57,6 @@
 
 
 
-<item>
-<title>WHOLE PLAYLIST OF OLD VIDEOS</title>
-<thumbnail>https://pbs.twimg.com/profile_images/440081653726072832/xLt9adOW.jpeg</thumbnail>
-<link>$doregex[showyoutube]</link>
-
-<regex>
-<name>showyoutube</name>
-<expres>$pyFunction:xbmc.executebuiltin('ActivateWindow(10025,&quot;plugin://plugin.video.youtube/user/wroetoshaw/&quot;)')</expres>
-<page></page>
-</regex>
-</item>
 
 </channel>  
 
