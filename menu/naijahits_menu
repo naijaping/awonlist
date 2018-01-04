@@ -61,7 +61,7 @@
 
 <regex>
 <name>showyoutube</name>
-<expres>$pyFunction:xbmc.executebuiltin('ActivateWindow(10025,&quot;plugin://plugin.video.youtube/user/YemiAladeVEVO/&quot;)')</expres>
+<expres>$pyFunction:xbmc.executebuiltin('ActivateWindow(10025,&quot;plugin://plugin.video.youtube/user/YemiAladeVEVO/&quot;,return)')</expres>
 <page></page>
 </regex>
 
