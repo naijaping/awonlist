@@ -157,6 +157,15 @@
 <thumbnail>https://cdn-radiotime-logos.tunein.com/s199294q.png</thumbnail>
 </item>
 
+<item>
+<title>Lomodogs Radio</title>
+<link>http://198.178.123.5:11524/listen.mp3</link>
+<thumbnail></thumbnail>
+</item>
+
+
+
+
 <tem>
 <title>Sky00</title> 
 <link>$doregex[reg1]|User-Agent=iphone</link>
