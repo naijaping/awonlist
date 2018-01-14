@@ -193,3 +193,11 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+<title>[COLOR white]Sourced From You Tube So May Contain Clips[/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/playlist/PL-sIpqBXHUeW2SZXro5grac2RRzDZbTdy/?page=0</jsonrpc>
+<thumbnail>ignoreme</thumbnail>
+<fanart>ignoreme</fanart>
+<link>ignorme</link>
+</item>
