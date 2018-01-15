@@ -5,17 +5,17 @@
 <channels>
 
 <channel>
-<name>Adekunle Gold</name>
+<name>Yoruba Movies</name>
 <thumbnail></thumbnail>
-<externallink></externallink>
+<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/submenu/naija_movies_yoruba</externallink>
 <fanart></fanart>
 <info></info>
 </channel>
 
 <channel>
-<name>Davido</name>
+<name>English Movies</name>
 <thumbnail></thumbnail>
-<externallink></externallink>
+<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/submenu/naija_movies_english</externallink>
 <fanart></fanart>
 <info></info>
 </channel>
