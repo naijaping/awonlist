@@ -1,8 +1,11 @@
 <item>
-<title>[COLOR white] APATATV+ [/COLOR]</title>
-<utube>UC83tx3zGcvQ_rXzsZigTnEA<utube>
+<title>[COLOR white]APATATV+[/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UC83tx3zGcvQ_rXzsZigTnEA/?page=0</jsonrpc>
 <thumbnail>https://yt3.ggpht.com/-A2CVHpf0yxs/AAAAAAAAAAI/AAAAAAAAAAA/fNnn0AzvK9M/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart></fanart>
+<link>ignoreme</link>
 </item>
+
 
 <item>
 <title>[COLOR white]Yorubahood[/COLOR]</title>
