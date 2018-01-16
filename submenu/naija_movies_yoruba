@@ -40,6 +40,16 @@
 <link>ignoreme</link>
 </item>
 
+
+<item>
+<title>[COLOR white] GeledeTV+ [/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UC6T14Ob0VgHFs10GTZl2g9w/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-hAGsEOH4fAo/AAAAAAAAAAI/AAAAAAAAAAA/HUz8Y5ICW34/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart></fanart>
+<link>ignoreme</link>
+</item>
+
+
 <item>
 <title>[COLOR white] LibraTv [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCvpK1k1i23Xi5TM-ZDuSNDw/?page=0</jsonrpc>
