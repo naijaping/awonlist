@@ -11,3 +11,17 @@
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/africa24.png</thumbnail>
 </regex>
 </item>
+
+
+<item>
+<title>Africa 1</title>
+<link>$doregex[getM3U8]</link>
+<regex>
+<name>getM3U8</name>
+<expres>source src="(https.*mp4)".*'854x480'</expres>
+<page>https://estream.to/embed-5vglie3i0fto.html</page>
+<referer>https://watch-series.io/series/celebrity-big-brother-season-21-episode-17</referer>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/africa24.png</thumbnail>
+</regex>
+</item>
