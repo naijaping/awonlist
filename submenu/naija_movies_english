@@ -30,7 +30,7 @@
 
 
 <item>
-<title>Bein 4H</title>
+<title>Bein 4Hd</title>
 <link>$doregex[getM3U8]|User-Agent=iPhone</link>
 <regex>
 <name>getM3U8</name>
