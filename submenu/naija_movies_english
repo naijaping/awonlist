@@ -30,7 +30,7 @@
 
 
 <item>
-<title>Bein 4HD</title>
+<title>Bein 4H</title>
 <link>$doregex[getM3U8]|User-Agent=iPhone</link>
 <regex>
 <name>getM3U8</name>
@@ -41,7 +41,7 @@
 </regex>
 <regex>
 <name>page</name>
-<expres>iframe src="(.*embed.*?)" allowfullscreen="</expres>
+<expres>iframe src="(https.*embed.*html)" allowfullscreen="</expres>
 <page><![CDATA[https://watch-series.io/series/keeping-up-with-the-kardashians-season-14-episode-14]]></page>
 <referer>https://watch-series.io/series/keeping-up-with-the-kardashians-season-14-episode-14</referer>
 <agent>iPhone</agent>
