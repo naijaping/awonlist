@@ -1,16 +1,16 @@
 
 <item>
-<title>Africa 24</title>
+<title>Africa 24o</title>
 <link>$doregex[getM3U8]</link>
 <regex>
 <name>getM3U8</name>
-<expres>source src="(.*m3u8)" type='application/x-mpegURL</expres>
+<expres>source src="(.*m3u8)"L</expres>
 <page>$doregex[page]</page>
 <referer>https://watch-series.io/</referer>
 </regex>
 <regex>
 <name>page</name>
-<expres>iframe src="(.*embed.*?)" allowfullscreen</expres>
+<expres>iframe src="(.*embed.*html)"</expres>
 <page>https://watch-series.io/series/celebrity-big-brother-season-21-episode-17</page>
 <referer>https://watch-series.io/</referer>
 <thumbnail>http://www.lyngsat-logo.com/logo/tv/aa/africa24.png</thumbnail>
