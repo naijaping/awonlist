@@ -1,6 +1,6 @@
 
 <item>
-<title>Africa 24o</title>
+<title>Africa 2</title>
 <link>$doregex[getM3U8]</link>
 <regex>
 <name>getM3U8</name>
