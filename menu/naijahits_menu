@@ -53,18 +53,21 @@
 <fanart></fanart>
 <info></info>
 </item>
-
+</channel>  
 
 <channel>
 <name>Ayinde</name>
+<item>
+<title>Ayinde</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCQJOYS9v30qM74f6gZDk0TA/?page=0</jsonrpc>
 <thumbnail>ignoreme</thumbnail>
 <fanart>ignoreme</fanart>
 <link>ignorme</link>
+</item>
 </channel>
 
 
-</channel>  
+
 
 
 </channels>
