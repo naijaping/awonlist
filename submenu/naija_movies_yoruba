@@ -75,9 +75,20 @@
 </item>
 
 <item>
+<title>[COLOR white] YorubaBest Tv [/COLOR]</title>
+<jsonrpc>Plugin://plugin.video.youtube/channel/UCrfVFZ6JyBtwIc67ncVbwIg/?page=0</jsonrpc>
+<thumbnail>https://yt3.ggpht.com/-vY2R0PhiyXo/AAAAAAAAAAI/AAAAAAAAAAA/yWMB8lL1YSk/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart></fanart>
+<link>ignoreme</link>
+</item>
+
+
+<item>
 <title>[COLOR white] Yoruba Movies Channel [/COLOR]</title>
 <jsonrpc>Plugin://plugin.video.youtube/channel/UCwRYXZ_hcjfzbXeRzA3A4SQ/?page=0</jsonrpc>
 <thumbnail>https://yt3.ggpht.com/-1tUuUBJ2ZGg/AAAAAAAAAAI/AAAAAAAAAAA/-Xr5qWZvsP0/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
 <fanart></fanart>
 <link>ignoreme</link>
 </item>
+
+
