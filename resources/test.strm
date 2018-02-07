@@ -4,3 +4,7 @@
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://video-lht6-1.xx.fbcdn.net/hvideo-prn1/v/rFjWBQTwIOZwvIQNYL_WF/live-dash/dash-abr4/885508181628262.mpd?_nc_rl=AfA5Ashs_02Ssw0P&oh=6bf1be3e916d3be1945813a6f4d6d5aa&oe=5A7D6522
 
+#EXTINF:-1,Test 2
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=ism
+http://livecdnh2.tvanywhere.ae/ss/mbc1.isml/Manifest
