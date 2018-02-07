@@ -27,6 +27,14 @@
 </channel>
 
 
+  <channel>
+<name>strm</name>
+<thumbnail>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/images/naija_rad_icon.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/naijaping/awonlist/master/resources/test.strm</externallink>
+<fanart></fanart>
+<info>Live Radio Stations From Nigeria</info>
+</channel>
+  
   
   
 
