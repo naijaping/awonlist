@@ -64,3 +64,16 @@
 <link>ignorme</link>
 </item>
 
+<item>
+<title>SporTV1 (hxxp://sharecast.eu/embed/live1-rbi6c)</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file.*?"(h[^"]+)</expres>
+<page>http://sharecast.eu/embed/live1-rbi6c</page>
+<referer>http://nowwatchtvlive.net/channel-tab-frame/sporttv1hd-2.php</referer>
+<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0</agent>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>hxxp://upload.wikimedia.org/wikipedia/commons/9/97/SportTV1.png</thumbnail>
+</item>
