@@ -3918,6 +3918,22 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 	
+	
+<item>
+<title>http://mogpa.org/mogpa-tv/</title>
+<link>$doregex[getUrl]</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('mp4":"(h.*?)"',requests.get('http://mogpa.org/mogpa-tv/').content)[0].replace('\\','')+'|User-Agent=iPad&Referer=http://mogpa.org/mogpa-tv/'
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+	
 </channels>
 			
 			
