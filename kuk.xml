@@ -3963,6 +3963,21 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 	
+	
+<item>
+<title>without header calling but replace</title>
+<link>$doregex[getUrl]</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('a href="(h.*8080.*?)"',requests.get('http://naijal.com').content)[0].replace('html','flv')+'|User-Agent=iPad&Referer=http://naijal.com'
+]]></expres>
+<page></page>
+</regex>
+</item>
+	
 </channels>
 			
 			
