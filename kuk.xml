@@ -4006,7 +4006,21 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <agent>iPad</agent>
 </regex>
 </item>
-    
+
+<item>
+<title> Call with f4m tester </title>
+<link>$doregex[getUrl]</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,urllib
+def GetLSProData(page_data,Cookie_Jar,m):
+  url=re.findall('"play":"(.*?)"',page_data)[0].replace('\\','')+'?format=hls&language=fr'
+  return 'plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&name=J4T&url='+urllib.quote_plus(requests.get(url,headers={'Referer':'http://playtv.fr/television/j4t/','X-Requested-With':'XMLHttpRequest'}).json()['url'])+'|User-Agent=iPad&Referer=http://playtv.fr/television/j4t/'
+]]></expres>
+<page>http://playtv.fr/television/j4t/</page>
+</regex>
+</item>
 	
 </channels>
 			
