@@ -1,4 +1,16 @@
 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="hide-it.xsl" type="text\/xsl"?>
+<layouttype>
+# -=MOVE ALONG PLEASE........ NOTHING TO SEE HERE -</layouttype>
+#<\!----   DO NOT EDIT ABOVE THIS LINE!!!  BASIC OBFUSCATION METHODS!!!-->
+<layouttype>list
+
+
+
+
+
+
 <item>
 <title>MUTULU</title>
 <link>$doregex[makelist]|User-Agent=useragent</link>
