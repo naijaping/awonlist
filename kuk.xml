@@ -4228,6 +4228,23 @@ def play():
 </regex>
 </item>
 	
+	
+for  windows, 
+<item>
+<title> ___________________LOCAL_____________________ </title>
+<link>NA</link>
+<externallink>C:\documents\listlocal.xml</externallink>
+</item>
+
+for linux,
+<item>
+<title> ___________________LOCAL_____________________ </title>
+<link>NA</link>
+<externallink>/home/user/istlocal.xml</externallink>
+</item>
+
+
+	
 </channels>
 			
 			
