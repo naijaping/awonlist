@@ -4257,6 +4257,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 
+<keymap>
+  <global>
+    <keyboard>
+      <f3>RunPlugin(plugin://plugin.video.replay/record_last)</f3>
+    </keyboard>
+  </global>
+</keymap>	
+	
+	
 	
 </channels>
 			
