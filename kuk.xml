@@ -4265,7 +4265,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   </global>
 </keymap>	
 	
-	
+ActivateWindow(10025,&quot;plugin://plugin.video.iptv.recorder/recordings&quot;,return)	
 	
 </channels>
 			
