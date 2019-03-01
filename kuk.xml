@@ -4263,7 +4263,21 @@ def GetLSProData(page_data,Cookie_Jar,m):
       <f3>RunPlugin(plugin://plugin.video.replay/record_last)</f3>
     </keyboard>
   </global>
+</keymap>
+	
+<keymap>
+<global>
+<keyboard>
+<r>PlayerControl(Record)</r>
+</keyboard>
+</global>
+<FullScreenVideo>
+<keyboard>
+<r>PlayerControl(Record)</r>
+</keyboard>
+</FullScreenVideo>
 </keymap>	
+	
 	
 ActivateWindow(10025,&quot;plugin://plugin.video.iptv.recorder/recordings&quot;,return)	
 	
