@@ -4276,7 +4276,24 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <r>PlayerControl(Record)</r>
 </keyboard>
 </FullScreenVideo>
-</keymap>	
+</keymap>
+	
+	
+<item>
+<title>Channel Four</title>
+<link>$doregex[getUrl]</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?s)source src="(h.*m3u8.*?)"',requests.get('https://tvcatchup.com/watch/channel4').content)[0]+'|User Agent=Mozilla/5.0&Referer=https://tvcatchup.com/watch/channel4'
+]]></expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 	
 	
 ActivateWindow(10025,&quot;plugin://plugin.video.iptv.recorder/recordings&quot;,return)	
