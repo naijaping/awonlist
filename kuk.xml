@@ -4294,6 +4294,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Clear </title>
+<link>$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>$pyFunction:xbmc.executebuiltin('RunPlugin(&quot;plugin://program.StarTecCleaner/?url=url&amp;mode=1&amp;name=Clear+Cache&quot;,return)')</expres>
+<page></page>
+<NOTPlayable>True</NOTPlayable>
+</regex>
+</item>
 	
 	
 ActivateWindow(10025,&quot;plugin://plugin.video.iptv.recorder/recordings&quot;,return)	
