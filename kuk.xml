@@ -4305,6 +4305,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 	
+<item>
+<title>Clearu</title>
+<link>$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres>$pyFunction:xbmc.executebuiltin('ActivateWindow(10025,&quot;plugin://plugin.video.iptv.recorder/group/All+Channels&quot;,return)')</expres>
+<page></page>
+<NOTPlayable>True</NOTPlayable>
+</regex>
+</item>
+	
 	
 ActivateWindow(10025,&quot;plugin://plugin.video.iptv.recorder/recordings&quot;,return)	
 	
