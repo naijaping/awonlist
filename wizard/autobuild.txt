@@ -1,10 +1,38 @@
-name="OmobaTV Wizard"
-version="9.0 DEC/23/2019"
+id="plugin.program.omobatvwizard"
+version="1.0.0"
+zip="http://colussus.net/colussusbuild/colussusii.zip"
+
+name="Example Build 1"
+version="1.0"
+url="http://colussus.net/colussusbuild/colussuso.zip"
+minor="http://"
+gui="http://"
+kodi="17.6"
+theme="url.to.themes"
+icon="http://"
+fanart="http://"
+preview="https://www.youtube.com/watch?v=djV11Xbc914"
+adult="no"
+info="http://"
+description="Colussus Build is a small, light, simple and easy to use hope you enjoy."
+
+name="Example Build 2"
+version="1.0"
 url="http://colussus.net/colussusbuild/colussus.zip"
+minor="http://"
 gui="http://"
 kodi="18.5"
 theme="http://"
-icon="http://colussus.net/colussusbuild/icon.png"
-fanart="http://colussus.net/colussusbuild/fanart.jpg"
-preview="http://"
-description="Colussus Build is a small, light, simple and easy to use hope you enjoy"
+icon="http://"
+fanart="http://"
+preview="https://www.youtube.com/watch?v=L_jWHffIx5E"
+adult="no"
+info="http://"
+description="Colussus Build is a small, light, simple and easy to use hope you enjoy."
+
+
+
+
+
+
+
