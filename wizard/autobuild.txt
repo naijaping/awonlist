@@ -1,5 +1,5 @@
-id="plugin.program.omobatvwizard"
-version="1.0"
+id="plugin.program.omobatvwizard.zip"
+version="1.0.0"
 zip="http://colussus.net/colussusbuild/colussusii.zip"
 
 name="OmobaTV Build 17"
