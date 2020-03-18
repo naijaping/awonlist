@@ -4320,6 +4320,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	
 	
 ActivateWindow(10025,&quot;plugin://plugin.video.iptv.recorder/recordings&quot;,return)	
+https://tvheadend.org/boards/5/topics/40522	
+#EXTM3U
+ #EXTINF:0,Channel Name
+ pipe:///usr/bin/ffmpeg -loglevel fatal -i https://ws.hls.nimo.tv/live/su1599512427609rec4c3a4d7d72c1946e09a8d6ca157304_high/playlist.m3u8 -map 0 -copy_unknown -c copy -metadata -f mpegts pipe:1
 	
 </channels>
 			
