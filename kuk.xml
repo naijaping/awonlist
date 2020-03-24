@@ -33,6 +33,32 @@ https://www.youtube.com/watch?v=SyvOm_BwoaI - FUJI MEGA MIX - Dj Nestle
 </item>
 
 <item>
+<title>123tvnow ABC</title>
+<link>$doregex[getUrl]|Referer=http://123tvnow.com/</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import re, requests, json, pyaes, jscrypto, hashlib
+  e, key, part2 = re.findall("video-id.+?function.+?var.+?'([^']+)','([^']+).+?='([^']+)",page_data)[0]
+  e = json.loads(e.decode('base64'))
+  iv = e['iv'].decode('hex')
+  salt = e['salt'].decode('hex')
+  data = e['ciphertext'].decode('base64')
+  secret = jscrypto.PBKDF2(key, salt, e['iterations'], 32, hashlib.sha512)
+  decryptor = pyaes.new(secret, pyaes.MODE_CBC, IV=iv)
+  surl = decryptor.decrypt(data).strip() + part2
+  headers = {'User-Agent': 'Mozilla/5.0',
+        'Origin': 'http://123tvnow.com',
+        'Referer': 'http://123tvnow.com/'}
+  url = requests.get(surl, headers=headers).json()[0]['file']
+  return url
+]]></expres>
+<page>http://123tvnow.com/watch/abc/</page>
+</regex>
+</item>
+	
+<item>
 <title>Hip TV</title>
 <link>$doregex[rtmp] app=live/_definst_/ playpath=$doregex[path] conn=S:OK swfUrl=http://player.streamzilla.xlcdn.com/sz/Un1ty/jw/jwplayer.flash.swf pageUrl=http://player.streamzilla.xlcdn.com live=1 timeout=15</link>
 <regex>
