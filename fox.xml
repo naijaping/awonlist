@@ -305,3 +305,100 @@ def GetLSProData(page_data,Cookie_Jar,m):
   
   villeroy and boch oval basin
   
+  
+  
+  
+  
+  
+  OSCAM.CONFIG
+# oscam.conf generated automatically by Streamboard OSCAM 1.20_svn-satlodge-team SVN r11507
+# Read more: http://www.streamboard.tv/svn/oscam/trunk/Distribution/doc/txt/oscam.conf.txt
+
+[global]
+disablecrccws_only_for = 0E00:000000;0500:050F00;098C:000000;09C4:000000;098D:000000;0500:030B00;1811:003311;1819:00006D;1883:003311;1863:003342;1833:003311;1803:003343;1830:000000;1883:003311;1863:003343;091f:000000,092b:000000,0931:000000,0940:000000
+logfile = /var/log/oscam.log
+initial_debuglevel = 128
+pidfile = /var/log/pid.log
+disableuserfile = 0
+usrfileflag = 1
+netprio = 1
+unlockparental = 1
+nice = -1
+maxlogsize = 200
+preferlocalcards = 1
+usrfile = /var/log/oscamusr.log
+ecmfmt = c:p:s #l
+
+[cache]
+delay = 50
+max_time = 8
+
+[newcamd]
+port = 12121@0D96:000004;12122@0624:000000
+key = 0102030405060708091011121314
+
+[cccam]
+port = 12000
+nodeid = 4736728B103213F0
+version = 2.1.2
+stealth = 1
+
+[streamrelay]
+stream_relay_enabled = 0
+stream_emm_enabled = 1
+
+[dvbapi]
+enabled = 1
+au = 1
+pmt_mode = 1
+delayer = 60
+ecminfo_type = 1
+user = remy
+read_sdt = 2
+write_sdt_prov = 1
+extended_cw_api = 1
+boxtype = dreambox
+I: 098C:000000:0093 # Ignore this caid sky one HD #
+I: 098C:000000:0084 # Ignore this caid DAZN1 #
+I: 098C:000000:007A # Ignore this caid DAZN2 #
+#
+P: 09C4:000000 1 #ALL Prio for 09c4 first up #
+#
+P: 09C4:000000:0093 # sky one HD #
+P: 09C4:000000:0084 # DAZN1 #
+P: 09C4:000000:007A # DAZN2 #
+
+[webif]
+httpport = 8888
+httptpl = /etc/tuxbox/config/tpl/
+httprefresh = 30
+httppollrefresh = 30
+httpshowuserinfo = 1
+httpshowcacheexinfo = 1
+httpshowecminfo = 1
+httpshowloadinfo = 1
+httpallowed = 192.168.0.0-255.255.255.255,127.0.0.1
+httpemmsclean = 50
+httpemmgclean = 50
+http_status_log = 1
+
+OSCAM.SERVER
+
+# oscam.server generated automatically by Streamboard OSCAM 1.20_svn SVN r11578
+# Read more: http://www.streamboard.tv/svn/oscam/trunk/Distribution/doc/txt/oscam.server.txt
+
+[reader]
+label = cable_nline
+protocol = newcamd
+device = net address, port
+key = 0102030405060708091011121314
+user = username
+password = password
+disableserverfilter = 1
+connectoninit = 1
+caid = 1841
+group = 1
+emmcache = 1,3,2,0
+blockemm-unknown = 1
+dropbadcws = 1
+disablecrccws = 1
