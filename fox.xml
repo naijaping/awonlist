@@ -403,3 +403,18 @@ emmcache = 1,3,2,0
 blockemm-unknown = 1
 dropbadcws = 1
 disablecrccws = 1
+  
+  
+[dvbapi]
+enabled = 1
+au = 1
+pmt_mode = 4
+user = user1
+boxtype = pc
+listen_port = 9090
+
+TVHeadend settings (Configuration -> CA)
+
+Mode: OSCam net protocol (rev >= 10389)
+Camd.socket filename / IP Address (TCP mode): 127.0.0.1
+Listen / Connect port: 9090
