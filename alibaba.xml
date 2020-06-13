@@ -13,3 +13,47 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://i59.tinypic.com/xndr34.jpg</thumbnail>
 </item>
 http://www.radioplayer.co.uk/discover/a-z/p-s
+
+
+The thread gave me the solution, even if it is a bit older.
+I have a Sat to IP antenna from VU + (IP38) and use the Raspberry Pi 3 with TVHeadend as server and client at the same time to get the SAT to IP signal on the TV.
+After trying a lot around, I got it up and running with the following settings.
+
+Current Libreelec "alpha" (hacken bein "set all versions") copied from the website to the microSD with the downloader.
+Install the "TVHEADEND 4.2" service as a plug-in in the started Libreelec.
+Then configure it as follows: (Login with browser via ip and port 9981)
+Configuration tab> General> Sat to IP server
+
+--- General
+- RTSP port (554 or 9983, 0 = deactivated): 554
+- Subscription
+weight : 100 - Allow remote subscription weight: check mark
+--- Exported tuner
+- DVB-S: 1
+
+Configuration tab> DVB inputs> TV adapter
+--- SAT> IP DVB-S Tuner # 1 = activated (check)
+- Position # 1 (AA) Network limit per position: 1 (enter one)
+- Position # 2 (AB) Network limit per position: 2 (enter two)
+- Position # 2 (BA) Network limit per position: 3 (enter three)
+- Position # 2 (BB) Network limit per position: 4 (enter four)
+
+Tab Configuration> DVB Inputs> Networks
+--- Add new network (DVB-S Network)
+- Network name: Astra 19.2
+- Predefined muxe:> 19.2E: Astra
+- Orbital position:> 19.2E: Astra 1KR / 1L / 1M / 1N
+- SAT> IP source number: 1
+
+After saving, go back to
+Configuration tab> DVB inputs> TV adapter
+position # 1 Check (AA) at "activated" and select and save the Astra 19.2 network.
+Repeat for the remaining 3.
+Now go back to
+Configuration> DVB Inputs> Networks> Networks
+> Astra 19.2 and click on edit
+> Predefined Muxe:> 19.2E: Select and save Astra
+
+Now the channel list should be built up under the Muxes.
+If not, then simply delete the entry under Muxes, go back to "Network> Edit" and select the predefined Muxe with Astra and save again.
+I hope I have not forgotten anything and it works for you too.
