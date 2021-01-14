@@ -18,7 +18,7 @@ description="OmobaTV Build is a small, light, simple and easy to use hope you en
 
 name="OmobaTV Build 18"
 version="1.3 JAN/14/2021"
-url="https://shopudy.com/ARdaveTV.zip"
+url="https://sho.com/ARTV.zip"
 minor="http://"
 gui="http://"
 kodi="18.9"
