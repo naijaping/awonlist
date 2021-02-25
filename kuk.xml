@@ -4351,6 +4351,19 @@ https://tvheadend.org/boards/5/topics/40522
  #EXTINF:0,Channel Name
  pipe:///usr/bin/ffmpeg -loglevel fatal -i https://ws.hls.nimo.tv/live/su1599512427609rec4c3a4d7d72c1946e09a8d6ca157304_high/playlist.m3u8 -map 0 -copy_unknown -c copy -metadata -f mpegts pipe:1
 	
+
+<builds>
+<build name=" Build for Matrix">
+<version>2.03</version>
+<url>http://shop.com/kodi/builds/my-matrix_2.03.zip</url>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
+<description>Build for Kodi 19</description>
+</build>
+</builds>	
+	
+	
+	
 </channels>
 			
 			
