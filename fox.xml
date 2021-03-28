@@ -418,3 +418,31 @@ TVHeadend settings (Configuration -> CA)
 Mode: OSCam net protocol (rev >= 10389)
 Camd.socket filename / IP Address (TCP mode): 127.0.0.1
 Listen / Connect port: 9090
+  
+  
+  
+[connection]
+id=my-network
+uuid=<UUID>
+type=802-11-wireless
+
+[802-11-wireless]
+mode=infrastructure
+ssid=<WIFISSID>
+# Uncomment below if your SSID is not broadcasted
+#hidden=true
+
+[802-11-wireless-security]
+auth-alg=open
+proto=RSN
+key-mgmt=wpa-psk
+psk=<WIFIPASSWORD>
+pairwise=CCMP
+group=CCMP
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+method=auto
