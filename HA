@@ -68,3 +68,19 @@ https://community.home-assistant.io/t/counting-open-doors-motion-sensors-solved-
     door_count:
       value_template: >
         "{{ expand('group.doors_windows')|selectattr('state','eq','on')|list|count }}" 
+        
+        
+        
+              #----- Count Lights
+      total_lights:
+        friendly_name: 'Lights'
+        icon_template: mdi:lightbulb
+        value_template: "{{ states.light | list | length }}"
+
+      #----- Count lights switched ON
+      total_lights_on:
+        friendly_name: 'Lights'
+        unit_of_measurement: 'On'
+        icon_template: mdi:lightbulb-on
+        value_template: "{{ states.light | selectattr( 'state', 'eq', 'on') | list | length }}"
+
