@@ -33,3 +33,28 @@ filter:
       query: 'SELECT round(count(*)/1024,1) AS cnt FROM states;'
       column: "cnt"
       unit_of_measurement: k
+      
+      
+https://community.home-assistant.io/t/counting-open-doors-motion-sensors-solved-by-ranting-at-myself/47377/5      
+- platform: template
+    sensors:
+      door_count:
+        value_template: >-
+           {{ states | selectattr('entity_id','in',state_attr('group.door_sensors','entity_id')) | selectattr('state','eq','on') | list | count | int}}
+      window_count:
+        value_template: >-
+           {{ states | selectattr('entity_id','in',state_attr('group.window_sensors','entity_id')) | selectattr('state','eq','on') | list | count | int}}
+           
+           
+           
+ - platform: template
+  sensors:
+    door_count:
+      value_template: >-
+        {{ states.binary_sensor | selectattr('state', 'eq', 'on') | selectattr('attributes.device_class', 'eq', 'door') | list | count }}
+    window_count:
+      value_template: >-
+        {{ states.binary_sensor | selectattr('state', 'eq', 'on') | selectattr('attributes.device_class', 'eq', 'window') | list | count }}
+    motion_count:
+      value_template: >-
+        {{ states.binary_sensor | selectattr('state', 'eq', 'on') | selectattr('attributes.device_class', 'eq', 'motion') | list | count }}
