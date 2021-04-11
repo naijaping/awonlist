@@ -1,0 +1,9 @@
+- platform: trend
+  sensors:
+    shower_detected:
+      friendly_name: Bathroom Shower Detected
+      device_class: occupancy
+      max_samples: 10
+      entity_id: sensor.bathroom_humidity
+      sample_duration: 60
+      min_gradient: 0.15
