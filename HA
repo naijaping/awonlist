@@ -58,3 +58,13 @@ https://community.home-assistant.io/t/counting-open-doors-motion-sensors-solved-
     motion_count:
       value_template: >-
         {{ states.binary_sensor | selectattr('state', 'eq', 'on') | selectattr('attributes.device_class', 'eq', 'motion') | list | count }}
+        
+        
+        
+# Doors and Windows Open
+
+- platform: template
+  sensors:
+    door_count:
+      value_template: >
+        "{{ expand('group.doors_windows')|selectattr('state','eq','on')|list|count }}" 
