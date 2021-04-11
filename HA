@@ -7,3 +7,19 @@
       entity_id: sensor.bathroom_humidity
       sample_duration: 60
       min_gradient: 0.15
+      
+      
+      
+type: 'custom:auto-entities'
+card:
+  type: entities
+  title: Low Batteries
+sort:
+  method: state
+filter:
+  template: |
+    {% for entity in states.sensor -%}
+     {%- if ('battery' in entity.entity_id) and (state_attr(entity.entity_id, 'battery') != None) and (state_attr(entity.entity_id, "battery") | float <= states("input_number.low_battery_threshold") | float)-%}
+      {{entity.entity_id}}
+     {% endif %}
+    {%- endfor %}
