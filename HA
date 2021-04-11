@@ -23,3 +23,13 @@ filter:
       {{entity.entity_id}}
      {% endif %}
     {%- endfor %}
+
+
+
+- platform: sql
+  db_url: !secret db_url
+  queries:
+    - name: DB states
+      query: 'SELECT round(count(*)/1024,1) AS cnt FROM states;'
+      column: "cnt"
+      unit_of_measurement: k
