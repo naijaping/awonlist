@@ -91,3 +91,62 @@ https://community.home-assistant.io/t/counting-open-doors-motion-sensors-solved-
         icon_template: mdi:lightbulb-on
         value_template: "{{ states.light | selectattr( 'state', 'eq', 'on') | list | length }}"
 
+
+
+
+
+      - row: 4
+        columns:
+          - column: 1
+            # tileOnRow: 4
+            entities:
+              - title: Test
+                entities:
+                  - card: custom:mini-graph-card
+                    noPadding: true
+                    wider: true
+                    cardOptions:
+                      entities:
+                        - entity: sensor.tpl_clcolortemp
+                          name: "Badkamer 1"
+                      line_color: '#1427ff'
+                      hold_action:
+                        action: none
+                      tap_action:
+                        action: none
+                  - card: gauge
+                    wider: true
+                    noPadding: true
+                    cardOptions:
+                      entity: sensor.tpl_clcolortemp
+                      name: With Severity
+                      unit: '%'
+                      severity:
+                        green: 0
+                        yellow: 250
+                        red: 450
+                  - card: custom:dual-gauge-card
+                    wider: true
+                    higher: true
+                    noPadding: true
+                    cardOptions:
+                      outer:
+                        entity: sensor.tpl_clbrightness
+                        label: "1"
+                        min: 0
+                        max: 255
+                      inner:
+                        entity: sensor.tpl_clcolortemp
+                        label: "2"
+                        min: 0
+                        max: 500
+                      colors:
+                        - color: "var(--label-badge-yellow)"
+                          value: 100
+                        - color: "var(--label-badge-green)"
+                          value: 150
+                        - color: "var(--label-badge-blue)"
+                          value: 300
+
+
+
