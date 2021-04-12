@@ -1,3 +1,10 @@
+light.b888999gggttttttt888z:
+  supported_features: 19
+  brightness: 255
+  color_temp: 153
+
+
+
 - platform: trend
   sensors:
     shower_detected:
