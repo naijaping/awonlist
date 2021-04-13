@@ -176,3 +176,12 @@ sensor:
       - service: media_player.media_play
         data:
           entity_id: media_player.bio
+          
+          
+# show total uptime time
+  - platform: template
+    sensors:
+      up_time:
+        friendly_name: Up Time
+        value_template: >
+          {{ ((now() - strptime(states('sensor.uptime'), '%Y-%m-%dT%H:%M:%S.%f%z')) | string)[:-10] }}
