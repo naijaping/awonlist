@@ -150,3 +150,29 @@ https://community.home-assistant.io/t/counting-open-doors-motion-sensors-solved-
 
 
 
+sensor:
+  - platform: "mqtt"
+    state_topic: "zigbee2mqtt/xiaomi_cube"
+    availability_topic: "zigbee2mqtt/bridge/state"
+    value_template: "{{ value_json.action }}"
+    
+    
+      - alias: Sonos bio PLAY when Cube FLIP 90
+    trigger:
+      - platform: mqtt
+        topic: 'zigbee2mqtt/xiaomi_cube'
+    condition:
+      - condition: template
+        value_template: '{{ "flip90" == trigger.payload_json.action or "flip180" == trigger.payload_json.action or "tap" == trigger.payload_json.action }}'
+    action:
+      - service: media_player.volume_set
+        data:
+          entity_id: media_player.bio
+          volume_level: 0.15
+      - service: media_player.select_source
+        data_template:
+          entity_id: media_player.bio
+          source: '{{ states.input_select.select_radio_ihc_dag.state }}'
+      - service: media_player.media_play
+        data:
+          entity_id: media_player.bio
