@@ -180,14 +180,13 @@ sensor:
           
 
           
-          
-          
-          
-  - platform: template
+ - platform: template
     sensors:
-      date_last_boot:
-        friendly_name: "Last Boot"
-        value_template: '{{ states.sensor.last_boot.state.split("T")[0] }}'
+      ha_uptime:
+        friendly_name: HA Uptime
+        value_template: '{{ states.sensor.last_boot.state.split("T")[0] }}'         
+          
+          
         
    #todays date     
   - platform: template
