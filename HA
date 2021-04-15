@@ -195,3 +195,16 @@ sensor:
         friendly_name: 'Date'
         value_template: '{{ as_timestamp(now()) | timestamp_custom("%d/%m/%y", True) }}'
         
+        
+- platform: template
+
+sensors:
+
+total_daily_energy_cost:
+
+friendly_name: 'Total Power Cost - Daily'
+
+value_template: "{{ '{:.2f}'.format((states('sensor.utility_meter _total_energy_daily')|float) * (states('input_number.electricity_energy_cost')|float)/100) }}"
+
+unit_of_measurement: "£"
+        
