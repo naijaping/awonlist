@@ -281,3 +281,10 @@ sensor:
     to: '120'
     action:
         
+        
+        
+- platform: template
+    sensors:
+      event_title:
+        value_template: "{{ states.calendar.homecal.attributes.message }}"
+        friendly_name: "Next Event"
