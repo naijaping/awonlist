@@ -622,3 +622,13 @@ sensors:
     friendly_name: 'Total Automations'
     value_template: >
       {{ states.automation | list | count }}
+      
+      
+      
+      platform: template
+sensors:
+
+  code_light:
+    friendly_name: 'Total Lights'
+    value_template: >
+      {{ states.light | list | count }}
