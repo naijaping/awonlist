@@ -612,3 +612,13 @@ sensors:
       end_time: >-
         {{ state_attr('calendar.house_milkman','end_time') }}
     icon_template: mdi:truck
+    
+    
+    
+    platform: template
+sensors:
+
+  code_automations:
+    friendly_name: 'Total Automations'
+    value_template: >
+      {{ states.automation | list | count }}
