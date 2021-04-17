@@ -574,3 +574,19 @@ automation:
             with {{ states.calendar.main_calender.attributes.description }} at
             {{ as_timestamp(states.calendar.main_calender.attributes.start_time) | timestamp_custom('%-I:%M %P') }}
 
+
+sensor:
+  - platform: time_date
+    display_options:
+      - 'time'
+  - platform: template
+    sensors:
+      timetoleavealexamin:
+        friendly_name: Time to go Alexa min
+        entity_id: sensor.time
+        value_template: >-
+          {% if states.calendar.calendar.attributes.start_time %}
+            {{((as_timestamp(states.calendar.work.attributes.start_time) - as_timestamp(now())) / 60) | default(99) | int }}
+          {%- else -%}
+            0
+          {%- endif %}
