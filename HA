@@ -1,3 +1,7 @@
+
+{{ as_timestamp(state_attr("calendar.xxxxxxxxxx", "start_time")) | timestamp_custom('%b %-d, %Y') }}
+
+
 light.b888999gggttttttt888z:
   supported_features: 19
   brightness: 255
