@@ -700,3 +700,40 @@ sensors:
     entity_id: media_player.livingroom , media_player.bedroom 
     data:
       volume_level: '0.3'   `
+
+
+
+- action:
+  - data:
+      entity_id: media_player.bedroom_speaker
+      volume_level: '0.9'
+    service: media_player.volume_set
+  - data:
+      entity_id: media_player.bedroom_speaker
+      media_content_id: https://xxxxxx.duckdns.org:8123/local/audio/door.mp3
+      media_content_type: 'MUSIC'
+    service: media_player.play_media
+  - delay: '5'
+  - data:
+      entity_id: media_player.bedroom_speaker
+      volume_level: '0.5'
+    service: media_player.volume_set
+  alias: Front Door Alert
+  condition: []
+  id: '1515147203854'
+  trigger:
+  - entity_id: sensor.bed_door
+    from: closed
+    platform: state
+    to: open
+    
+    
+  trigger:
+  - entity_id: binary_sensor.sensor_3
+    from: 'off'
+    platform: state
+    to: 'on'
+    for: 
+      hours: 0
+      minutes: 2
+      seconds: 0
