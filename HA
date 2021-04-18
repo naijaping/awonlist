@@ -662,3 +662,41 @@ sensors:
       entity_id: media_player.bedroom_speaker
       message: Welcome Home Master!!
     service: tts.google_say
+    
+    
+    
+    
+    
+  `- alias: Door open
+  initial_state: 'on'
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.0x00158d00045221bb_contact_2
+  condition:
+    condition: template
+    value_template: '{{states(''person.Umberto'') != ''home''}}'    
+  action:
+  - service: media_player.volume_set
+    entity_id: media_player.livingroom , media_player.bedroom 
+    data:
+      volume_level: '1.0'
+  - delay:
+      seconds: 1  
+  - service: notify.alexa_media
+    data:
+      target:
+        - media_player.livingroom
+        - media_player.bedroom
+      data:
+        type: announce
+        method: tts
+      message: "Breach , Breach , police has been called"
+  - service: notify.mobile_app_umby
+    data:
+      message: Motion alert
+  - delay:
+      seconds: 1
+  - service: media_player.volume_set
+    entity_id: media_player.livingroom , media_player.bedroom 
+    data:
+      volume_level: '0.3'   `
