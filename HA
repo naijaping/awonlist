@@ -647,3 +647,18 @@ sensors:
   payload_off: false
   value_template: "{{ value_json.occupancy }}"
   json_attributes_topic: "zigbee2mqtt/hallway_pir_0"
+
+
+- id: '2894783210'
+  alias: Welcome Home
+  trigger:
+  - entity_id: device_tracker.d7s8n32hf23
+    from: not_home
+    platform: state
+    to: home
+  condition: []
+  action:
+  - data:
+      entity_id: media_player.bedroom_speaker
+      message: Welcome Home Master!!
+    service: tts.google_say
