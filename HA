@@ -748,3 +748,35 @@ morning_sequence:
           message: "Good morning Andreas and Judith. The time is {{ states.sensor.time.state }} and it's {{ states.sensor.date.state}}. Today the weather is {{ states.sensor.dark_sky_hourly_summary.state }}. There is a {{states.sensor.dark_sky_precip_probability.state | round(0) }} percent chance of {{states.sensor.dark_sky_precip.state}} today with an intensity of {{ states.sensor.dark_sky_precip_intensity.state | round(0) }} millimeters. The Temperature is {{ states.sensor.dark_sky_temperature.state | round(0) }} degrees but it will feel like {{ states.sensor.dark_sky_apparent_temperature.state | round(0) }}. The wind speed is {{ states.sensor.dark_sky_wind_speed.state | round(0) }} meters per second."
       - service: counter.increment
         entity_id: counter.morning_sequence_count
+
+
+
+
+
+###############################################################################
+# Celebrate Birthday!!!
+###############################################################################
+
+- alias: Today is the Birthday
+  initial_state: true
+  hide_entity: true
+  trigger:
+    platform: state
+    entity_id:
+      - input_label.lara_birthday_days2go
+      - input_label.jack_birthday_days2go
+      - input_label.mollie_birthday_days2go
+      - input_label.kitten_birthday_days2go
+  condition:
+    - condition: state
+      entity_id: group.all_devices
+      state: 'home'
+    - condition: time
+      after: '18:00:00'
+      before: '22:00:00'
+    - condition: template
+      value_template: "{{ trigger.to_state.state | int == 0 }}"
+  action:
+    - service: script.google_notify
+      data_template:
+        message: "Hurray! Today is {{ trigger.entity_id.split('.')[1].split('_')[0] | title }}'s Birthday!"
