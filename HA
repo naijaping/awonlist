@@ -667,39 +667,35 @@ sensors:
     
     
     
-  `- alias: Door open
-  initial_state: 'on'
+  - id: '139853231225565597'
+  alias: Single automation to check for open door
+  description: Check if the door is open and announce to Google Nest every 5 seconds until it closes.
   trigger:
-  - platform: state
-    entity_id: binary_sensor.0x00158d00045221bb_contact_2
+    - platform: state
+      entity_id: binary_sensor.top_stairs_open_closed
+      to: 'on'
   condition:
-    condition: template
-    value_template: '{{states(''person.Umberto'') != ''home''}}'    
+    - condition: time
+      before: '19:00:00'
+      after: '07:00:00'
+  mode: single
   action:
-  - service: media_player.volume_set
-    entity_id: media_player.livingroom , media_player.bedroom 
-    data:
-      volume_level: '1.0'
-  - delay:
-      seconds: 1  
-  - service: notify.alexa_media
-    data:
-      target:
-        - media_player.livingroom
-        - media_player.bedroom
-      data:
-        type: announce
-        method: tts
-      message: "Breach , Breach , police has been called"
-  - service: notify.mobile_app_umby
-    data:
-      message: Motion alert
-  - delay:
-      seconds: 1
-  - service: media_player.volume_set
-    entity_id: media_player.livingroom , media_player.bedroom 
-    data:
-      volume_level: '0.3'   `
+    - alias: Repeat the sequence UNTIL the conditions are true
+      repeat:
+        sequence:
+          # Run this service until condition below is true (door closed = state of 'off')
+          - service: tts.google_translate_say
+            data:
+              message: Basement door open.
+            entity_id: media_player.kitchen_display, media_player.basement_speaker
+          # Give it time to complete... 5 seconds.  This will have to be added via Yaml in the UI.
+          - delay:
+              milliseconds: 5000
+        until:
+          # Did it work?
+          - condition: state
+            entity_id: binary_sensor.top_stairs_open_closed
+            state: 'off'
 
 
 
