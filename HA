@@ -780,3 +780,22 @@ morning_sequence:
     - service: script.google_notify
       data_template:
         message: "Hurray! Today is {{ trigger.entity_id.split('.')[1].split('_')[0] | title }}'s Birthday!"
+
+
+downstairs_colorloop:
+  alias: Downstairs Color Loop
+  sequence:
+    - service: light.turn_on
+      entity_id: group.downstairs_color_hue_lights
+      data_template:
+        hs_color:
+          - "{{ range(360)|random }}"
+          - "{{ range(80,101)|random }}"
+        brightness_pct: 100
+    - delay: '00:00:02'
+    - service: light.turn_on
+      entity_id: group.downstairs_color_hue_lights
+      data_template:
+        effect: colorloop
+        brightness: 190
+        transition: 5
