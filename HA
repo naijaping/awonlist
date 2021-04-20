@@ -799,3 +799,34 @@ downstairs_colorloop:
         effect: colorloop
         brightness: 190
         transition: 5
+
+
+
+
+- id: '1618962043007'
+  alias: Check for open door
+  description: Check if the door is open and announce every 5 seconds until it closes.
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.sonoff_door_window_sensor_contact
+    to: 'on'
+  condition:
+  - condition: time
+    before: '19:00:00'
+    after: 07:00:00
+  action:
+  - repeat:
+      sequence:
+      - service: media_player.play_media
+        target:
+          device_id: 6cfa38e44981132ba3c4fa0f1287c2a3
+        data:
+          media_content_type: Music
+          media_content_id: /local/audio/knocking-frontdoor.mp3
+      - delay:
+          milliseconds: 5000
+      until:
+      - condition: state
+        entity_id: binary_sensor.sonoff_door_window_sensor_contact
+        state: 'off'
+  mode: single
