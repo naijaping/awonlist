@@ -446,3 +446,18 @@ method=auto
 [ipv6]
 addr-gen-mode=stable-privacy
 method=auto
+
+  
+  
+tts:
+  - platform: google_cloud
+    key_file: googlecloud.json
+    language: en-GB # <<<<<<<<<<< here
+    gender: female #<<<<<<<<<<<<<<<< here
+    voice: en-GB-Wavenet-C #<<<<<<<<<<<<<<<<<< here 
+    encoding: linear16
+    # speed: 0.96
+    # pitch: 0
+    # gain: -5.0
+    profiles:
+      - medium-bluetooth-speaker-class-device
