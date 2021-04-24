@@ -447,7 +447,7 @@ method=auto
 addr-gen-mode=stable-privacy
 method=auto
 
-  
+ https://cloud.google.com/text-to-speech/docs/voices  
   
 tts:
   - platform: google_cloud
