@@ -831,3 +831,39 @@ downstairs_colorloop:
         entity_id: binary_sensor.sonoff_door_window_sensor_contact
         state: 'off'
   mode: single
+  
+  
+  - id: '1605973279828'
+  alias: Toilet - Sensor
+  description: ''
+  trigger:
+  - type: motion
+    platform: device
+    device_id: db06330462a9c0236cf4942a2bf2f843
+    entity_id: binary_sensor.toilet_sensor
+    domain: binary_sensor
+  condition:
+  - condition: state
+    entity_id: input_boolean.toilet_manual
+    state: 'off'
+  action:
+  - choose:
+    - conditions:
+      - condition: time
+        after: '23:00'
+        before: 07:00
+      sequence:
+      - service: light.turn_on
+        data:
+          kelvin: 2262
+          brightness_pct: 1
+          transition: 2
+        entity_id: light.toilet
+    default:
+    - service: light.turn_on
+      data:
+        kelvin: 2747
+        brightness_pct: 100
+        transition: 2
+      entity_id: light.toilet
+  mode: single
