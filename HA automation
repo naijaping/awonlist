@@ -1,0 +1,78 @@
+# ## This will notify if any doors are open it requires the [sensor.door_count] **it won't allow you to arm the alarm until all windows are closed**
+#
+#   - alias: Open Doors Notification On Alarm Set
+#     trigger:
+#     - platform: state
+#       entity_id: alarm_control_panel.ha_alarm
+#       to: pending
+#     condition:
+#     - condition: numeric_state
+#       above: '1'
+#       entity_id: sensor.door_count
+#     action:
+#     - service: tts.google_say
+#       data:
+#         entity_id: media_player.tts_kodi
+#         message: There are still doors open maybe you should close them first.
+#     - service: alarm_control_panel.alarm_disarm
+#
+# ## This will notify if any windows are open it requires the [sensor.window_count] **it won't allow you to arm the alarm until all windows are closed**
+#
+#   - alias: Open Windows Notification on Alarm Set
+#     trigger:
+#     - platform: state
+#       entity_id: alarm_control_panel.ha_alarm
+#       to: pending
+#     condition:
+#     - condition: numeric_state
+#       above: '0'
+#       entity_id: sensor.window_count
+#     action:
+#     - delay: 00:00:20
+#     - service: tts.google_say
+#       data:
+#         entity_id: media_player.tts_kodi
+#         message: There are still windows open maybe you should close them first.
+#     - service: alarm_control_panel.alarm_disarm
+#
+# ## This will use the Xiaomi Gateway to sound an alarm if the system has been triggered
+#
+#   - alias: Start Siren on Alarm Trigger
+#     trigger:
+#     - platform: state
+#       entity_id: alarm_control_panel.ha_alarm
+#       to: triggered
+#     action:
+#     - service: xiaomi_aqara.play_ringtone
+#       data:
+#         gw_mac: !secret xiaomimac
+#         ringtone_id: 0
+#         ringtone_vol: 80
+#     - service: light.turn_on
+#       entity_id: group.downstairs_lights
+#     - service: tts.google_say
+#       data:
+#         entity_id: media_player.tts_kodi
+#         message: Alarm triggered you have 2 minutes to reset or police will be contacted!
+#     - service: switch.turn_on
+#       data:
+#         entity_id: switch.away_alarm_triggered
+#
+# ## This will stop the siren once the correct alarm code has been entered
+#
+#   - alias: Stop Alarm Siren
+#     trigger:
+#     - platform: state
+#       entity_id: alarm_control_panel.ha_alarm
+#       from: triggered
+#     action:
+#     - service: xiaomi_aqara.stop_ringtone
+#       data:
+#         gw_mac: !secret xiaomimac
+#     - service: tts.google_say
+#       data:
+#         entity_id: media_player.tts_kodi
+#         message: Alarm deactivated!
+#     - service: switch.turn_on
+#       data:
+#         entity_id: switch.alarm_deactivated
