@@ -189,3 +189,41 @@ automation:
             url: "https://google.com"
             # Android URL
             clickAction: "https://google.com"
+            
+            
+name: "Bedroom Late Night"
+entities:
+  group.bedroom_shallow_accents:
+    state: on
+    brightness: 255
+    profile: cool_blue_shallow
+    transition: 15
+  group.bedroom_deep_accents:
+    state: on
+    brightness: 255
+    profile: cool_blue_deep
+    transition: 15  
+  group.bedroom_base:
+    state: on
+    brightness: 255
+    rgb_color: [0, 35, 170]
+    transition: 15  
+    
+    
+alias: 'Auto Night Lights Bedroom'
+trigger:
+  - platform: state
+    entity_id: binary_sensor.bedroom_motion
+    to: 'on'
+condition:
+  - condition: state
+    entity_id: input_boolean.house_auto_lights
+    state: 'on'
+  - condition: state
+    entity_id: group.bedroom_lights
+    state: 'off'
+  - condition: sun
+    after: sunset
+action:  
+  - service: scene.turn_on
+    entity_id: scene.bedroom_night_light
