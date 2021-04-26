@@ -1,4 +1,5 @@
-# ## This will notify if any doors are open it requires the [sensor.door_count] **it won't allow you to arm the alarm until all windows are closed**
+# https://companion.home-assistant.io/docs/notifications/notifications-basic/
+## This will notify if any doors are open it requires the [sensor.door_count] **it won't allow you to arm the alarm until all windows are closed**
 #
 #   - alias: Open Doors Notification On Alarm Set
 #     trigger:
