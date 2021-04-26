@@ -131,3 +131,25 @@ automation:
       - service: notify.mobile_app_<your_device_id_here>
         data:
           message: "Notification text"
+          
+          
+notify:
+  - name: ALL_DEVICES
+    platform: group
+    services:
+      - service: mobile_app_iphone_one
+      - service: mobile_app_iphone_two
+      - service: mobile_app_ipad_one
+      - service: mobile_app_pixel_4_xl
+      
+      
+      
+      
+  automation:
+    - alias: "Notify Mobile app group"
+      trigger:
+        ...
+      action:
+        - service: notify.ALL_DEVICES
+          data:
+            message: "Something happened at home!"
