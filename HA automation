@@ -153,3 +153,38 @@ notify:
         - service: notify.ALL_DEVICES
           data:
             message: "Something happened at home!"
+            
+            
+            
+            
+automation:
+  - alias: "Send Notification with a link"
+    trigger:
+      ...
+    action:
+      - service: notify.mobile_app_<your_device_id_here>
+        data:
+          title: "Motion Detected in Backyard"
+          message: "Someone might be in the backyard."
+          data:
+            # iOS URL
+            url: "/lovelace/cameras"
+            # Android URL
+            clickAction: "/lovelace/cameras"
+            
+            
+            
+automation:
+  - alias: "Notify of Motion click action"
+    trigger:
+      ...
+    action:
+      - service: notify.mobile_app_<your_device_id_here>
+        data:
+          title: "Motion Detected in Backyard"
+          message: "Someone might be in the backyard."
+          data:
+            # iOS URL
+            url: "https://google.com"
+            # Android URL
+            clickAction: "https://google.com"
