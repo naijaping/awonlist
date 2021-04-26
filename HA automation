@@ -100,3 +100,34 @@ automation:
         data_template:
           addon: 7be23ff5_dropbox_sync
           input: {"command":"upload"}
+
+
+
+- id: someones_ringing_the_bell
+  alias: Someone rang the doorbell
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.ring_front_door_ding
+    to: 'on'
+  action:
+  - service: media_player.play_media
+    data_template:
+      entity_id: media_player.googlehome
+      media_content_id: https://ha.markdavies.com/local/audio/labrador.mp3
+      media_content_type: audio/mp3
+  - service: notify.pushbullet
+    data:
+      message: "{{ now().strftime('%a - %H:%M') }}: *Someone Rang The Doorbell*\nSomeone at the door rang the bell."
+  - service: notify.gmail
+    data:
+      title: Someone Rang the Doorbell
+      message: Someone at the door rang the bell!
+      
+automation:
+  - alias: 'Send Notification'
+    trigger:
+      ...
+    action:
+      - service: notify.mobile_app_<your_device_id_here>
+        data:
+          message: "Notification text"
