@@ -227,3 +227,58 @@ condition:
 action:  
   - service: scene.turn_on
     entity_id: scene.bedroom_night_light
+    
+    
+    
+- alias: Turn Light and Occupation On
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: sensor.door
+      to: "on"
+  condition:
+  	- condition: state
+  	  entity_id: switch.sonoff
+  	  state: "off"
+  	- condition: state
+  	  entity_id: input_boolean.room_occupied
+  	  state: "off"
+  action:
+    - service: switch.turn_on
+      entity_id: switch.sonoff
+    - service: input_boolean.turn_on
+      entity_id: input_boolean.room_occupied
+
+- alias: Turn Occupation Off
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: sensor.door
+      to: "on"
+  condition:
+  	- condition: state
+  	  entity_id: switch.sonoff
+  	  state: "on"
+  	- condition: state
+  	  entity_id: input_boolean.room_occupied
+  	  state: "on"
+  action:
+    - service: input_boolean.turn_off
+      entity_id: input_boolean.room_occupied
+
+- alias: Turn Light Off
+  initial_state: true
+  trigger:
+    - platform: state
+      entity_id: sensor.door
+      to: "off"
+  condition:
+  	- condition: state
+  	  entity_id: switch.sonoff
+  	  state: "on"
+  	- condition: state
+  	  entity_id: input_boolean.room_occupied
+  	  state: "off"
+  action:
+    - service: switch.turn_off
+      entity_id: switch.sonoff
