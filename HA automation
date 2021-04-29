@@ -282,3 +282,136 @@ action:
   action:
     - service: switch.turn_off
       entity_id: switch.sonoff
+
+
+
+alarm_control_panel:
+  - platform: manual
+    name: Alarm
+    code: !secret alarm_control_panel_code
+    # Don't require the code to arm the alarm
+    code_arm_required: false
+    # Arm again after triggering
+    disarm_after_trigger: false
+    # Delay from arming and becoming armed, eg. to leave the house.
+    arming_time: 120
+    # Allow time to disarm the alarm before it triggers, eg. when arriving home
+    delay_time: 60
+    # Amount of time the alarm is triggered for
+    trigger_time: 600
+    disarmed:
+      # Ensure the alarm can never be directly triggered when disarmed
+      trigger_time: 0
+    armed_home:
+      # Leave no delay between arming -> armed
+      arming_time: 0
+      # Leave no delay between pending -> triggered
+      delay_time: 0
+      
+      
+      
+      
+- alias: "Alarm - Trigger when sensors go off"
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.front_door
+      to: "on"
+    - platform: state
+      entity_id: binary_sensor.garage_entry
+      to: "on"
+    # Add more triggers here for other doors/windows
+  condition:
+    # Only trigger the alarm if it's armed
+    condition: or
+    conditions:
+      - condition: state
+        entity_id: alarm_control_panel.alarm
+        state: armed_home
+      - condition: state
+        entity_id: alarm_control_panel.alarm
+        state: armed_away
+  action:
+    service: alarm_control_panel.alarm_trigger
+    entity_id: alarm_control_panel.alarm
+
+- alias: "Alarm - Triggered"
+  trigger:
+    - platform: state
+      entity_id: alarm_control_panel.alarm
+      to: "triggered"
+  action:
+    - service: homeassistant.turn_on
+      entity_id: switch.siren
+
+- alias: "Alarm - Disarmed"
+  trigger:
+    - platform: state
+      entity_id: alarm_control_panel.alarm
+      to: "disarmed"
+  action:
+    # Turn off the siren once the alarm is disarmed
+    - service: homeassistant.turn_off
+      entity_id: switch.siren
+      
+      
+- alias: "Alarm - Pending"
+  trigger:
+    - platform: state
+      entity_id: alarm_control_panel.alarm
+      from: "armed_away" # No need for armed_home, there's no pending delay there.
+      to: "pending"
+  action:
+    - delay: 00:00:05 # Small delay for "Announce" automation to run.
+    - service: notify.alexa_media
+      data:
+        target:
+          - media_player.kitchen
+        data:
+          type: announce
+        message: "Please disarm the alarm"
+    # Start a timer to repeat the warning
+    - service: timer.start
+      entity_id: timer.alarm_pending
+
+- alias: "Alarm - Pending Repeat"
+  trigger:
+    - platform: event
+      event_type: timer.finished
+      event_data:
+        entity_id: timer.alarm_pending
+  condition:
+    condition: state
+    entity_id: alarm_control_panel.alarm
+    state: pending
+  action:
+    - service: notify.alexa_media
+      data:
+        target:
+          - media_player.kitchen
+        data:
+          type: announce
+        message: "Disarm the alarm now!"
+    # Restart the timer
+    - service: timer.start
+      entity_id: timer.alarm_pending
+
+- alias: "Alarm - Disarmed"
+  trigger:
+    - platform: state
+      entity_id: alarm_control_panel.alarm
+      to: "disarmed"
+  action:
+    # Turn off the siren once the alarm is disarmed
+    - service: homeassistant.turn_off
+      entity_id: switch.siren
+    # Stop the warning repeat timer
+    - service: timer.cancel
+      entity_id: timer.alarm_pending
+The timer looks like this (directly in configuration.yaml).
+
+timer:
+  # Used to repeat notifications that the alarm needs to be disarmed
+  alarm_pending:
+    duration: "00:00:10"
+
+
