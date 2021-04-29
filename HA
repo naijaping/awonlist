@@ -869,3 +869,44 @@ downstairs_colorloop:
         transition: 2
       entity_id: light.toilet
   mode: single
+  
+  
+- id: '1598025836523'
+  alias: 'Back Door open warning:  Alexa/Google'
+  description: Alexa/Google voice message after back door has been open for more than
+    7 minutes
+  trigger:
+  - entity_id: binary_sensor.kids_window
+    platform: state
+    to: 'on'
+  action:
+  - repeat:
+      sequence:
+      - data:
+          volume_level: 0.7
+        service: media_player.volume_set
+        target:
+          device_id: 6cfa38e44981132ba3c4
+      - service: tts.amazon_polly_say
+        data:
+          entity_id: media_player.bedroom_speaker
+          message: Bloody front door is open, please close it
+      - data:
+          volume_level: 0.5
+        service: media_player.volume_set
+        target:
+          device_id: e0a934b2444d20859da3b4ce
+      - service: tts.amazon_polly_say
+        data:
+          message: Bloody front door is open, please close it
+          entity_id: media_player.fire_tv
+      - delay:
+          hours: 0
+          minutes: 0
+          seconds: 5
+          milliseconds: 0
+      until:
+      - condition: state
+        entity_id: binary_sensor.kids_window
+        state: 'off'
+  mode: single
