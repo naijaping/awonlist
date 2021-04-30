@@ -430,3 +430,91 @@ card_mod:
             }
             .iron-input > input{ color:#000 ! important;
             }
+
+
+
+
+# lovelace_gen
+
+- title: Alarm
+  icon: 'mdi:shield'
+  path: alarm
+  cards:
+    - type: vertical-stack
+      cards:
+        - !include
+          - '../templates/system_header.yaml'
+          - name: "[[[ if (states['alarm_control_panel.alarm'].state == 'disarmed') return `The alarm is disarmed!`; else return `The alarm is armed!` ]]]"
+            icon: mdi:alert #fal:sensor-alert
+            content: Alarm
+    - type: custom:layout-card
+      cards:
+        - type: custom:layout-card
+          cards:
+            - type: alarm-panel
+              entity: alarm_control_panel.alarm
+              states:
+                - arm_home
+                - arm_away
+              {% raw %}
+              style:
+                .: |
+                  ha-card {
+                    overflow: hidden;
+                    opacity: 0.7;
+                  }
+                '#armActions mwc-button':
+                  $: |
+                    button {
+                      min-height: 50px;
+                      font-size: 18px !important;
+                      --mdc-theme-primary: var(--primary-text-color); var(--name-color-off);
+                      border-color: rgba(57,128,228,0) !important;
+                      border-radius: 12px;
+                      box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.2), 0 0 20px 6px rgba(0, 0, 0, 0.19);
+                    }
+                '#keypad mwc-button:nth-of-type(11)':
+                  $: |
+                    :host {
+                      background: transparent;
+                      float: left !important;
+                    }
+                     button {
+                      display: block;
+                      min-height: 50px;
+                      font-size: 28px !important;
+                      --mdc-theme-primary: var(--primary-text-color); var(--name-color-off);
+                      border-color: rgba(57,128,228,0) !important;
+                      width: 50%;
+                      border-radius: 12px;
+                      box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.2), 0 0 20px 6px rgba(0, 0, 0, 0.19);
+                      #box-shadow: 0 0 60px 30px #fff, 0 0 100px 60px #f0f, 0 0 140px 90px #0ff;
+                    }
+
+                '#keypad mwc-button:nth-of-type(-n+9)':
+                  $: |
+                    :host {
+                      background: transparent;
+                      float: left !important;
+                    }
+                     button {
+                      display: block;
+                      min-height: 50px;
+                      font-size: 28px !important;
+                      --mdc-theme-primary: var(--primary-text-color); #var(--name-color-off);
+                      border-color: rgba(57,128,228,0) !important;
+                      width: 50%;
+                      border-radius: 12px;
+                      box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.2), 0 0 20px 6px rgba(0, 0, 0, 0.19);
+                    }
+                '#keypad mwc-button:nth-of-type(12)':
+                  $: |
+                    button {
+                      min-height: 50px;
+                      font-size: 18px !important;
+                      --mdc-theme-primary: var(--primary-text-color); var(--name-color-off);
+                      border-color: rgba(57,128,228,0) !important;
+                      border-radius: 12px;
+                      box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.2), 0 0 20px 6px rgba(0, 0, 0, 0.19);
+                    }
+                {% endraw %}
