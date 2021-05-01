@@ -538,3 +538,28 @@ card_mod:
                       box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.2), 0 0 20px 6px rgba(0, 0, 0, 0.19);
                     }
                 {% endraw %}
+                
+                
+                
+ alias: 'Trigger alarm'
+  trigger:
+    - platform: state
+      entity_id: sensor.side_door_access, sensor.front_door_access, sensor.back_door_access
+      to: 'open'     
+  condition:
+    condition: or
+    conditions:
+      - condition: state
+        entity_id: alarm_control_panel.ha_alarm
+        state: armed_away
+      - condition: state
+        entity_id: alarm_control_panel.ha_alarm
+        state: armed_home        
+  action:
+    - service: alarm_control_panel.alarm_trigger
+      entity_id: alarm_control_panel.ha_alarm
+    - service: notify.pushover
+      data_template:
+        message: '{{ trigger.to_state.attributes.friendly_name }} opened'
+      data:
+        title: 'Alarm'
