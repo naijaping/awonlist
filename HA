@@ -910,3 +910,34 @@ downstairs_colorloop:
         entity_id: binary_sensor.kids_window
         state: 'off'
   mode: single
+
+
+#################################################
+#             Alarm Auto Arm Away when LEAVE                       #
+#################################################
+- alias: 'Alarm Away when Leave home'
+  trigger:
+    platform: state
+    entity_id: device_tracker.myphone
+    from: 'home'
+    to: 'not_home'
+  action:
+    service: alarm_control_panel.alarm_arm_away
+    entity_id: alarm_control_panel.alarm
+    data: 
+      code: xxxx
+
+#################################################
+#          Alarm Auto DISARM when RETURN                         #
+#################################################
+- alias: 'Alarm disarm when return home'
+  trigger:
+    platform: state
+    entity_id: device_tracker.myphone
+    from: 'not_home'
+    to: 'home'
+  action:
+    service: alarm_control_panel.alarm_disarm
+    entity_id: alarm_control_panel.alarm
+    data:
+      code: xxxx
