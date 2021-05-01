@@ -414,6 +414,26 @@ timer:
   alarm_pending:
     duration: "00:00:10"
 
+
+
+notify:
+  - name: ha_sendmail
+    platform: smtp
+#if mail is on gmail
+    server: smtp.gmail.com
+    port: 587
+    timeout: 15
+#from whom we send
+    sender: user@gmail.com
+    encryption: starttls
+    username: user@gmail.com
+    password: passwd
+#to whom we send (you can use one box and send it to yourself, why not)
+    recipient:
+      - user@gmail.com
+    sender_name: My Home Assistant
+    
+    
 card_mod:
           style: |
             ha-card {
