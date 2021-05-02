@@ -941,3 +941,65 @@ downstairs_colorloop:
     entity_id: alarm_control_panel.alarm
     data:
       code: xxxx
+
+
+#################################
+###Konnected Alarm Activations###
+  - alias: 'Trigger alarm while armed away'
+    trigger:
+    - platform: state
+      entity_id: binary_sensor.laundry_door
+      to: 'open'
+    - platform: state
+      entity_id: binary_sensor.kitchen_1
+      to: 'open'
+    - platform: state
+      entity_id: binary_sensor.kitchen_2
+      to: 'open'
+    - platform: state
+      entity_id: binary_sensor.main_sliding_door
+      to: 'open'
+    - platform: state
+      entity_id: binary_sensor.family_1
+      to: 'open'
+    - platform: state
+      entity_id: binary_sensor.family_2
+      to: 'open'
+    - platform: state
+      entity_id: binary_sensor.living_1
+      to: 'open'
+    - platform: state
+      entity_id: binary_sensor.living_2
+      to: 'open'
+    - platform: state
+      entity_id: binary_sensor.living_3
+      to: 'open'
+  condition:
+    - condition: state
+      entity_id: alarm_control_panel.home_alarm
+      state: armed_home
+    action:
+      service: alarm_control_panel.alarm_trigger
+      entity_id: alarm_control_panel.home_alarm
+      
+###################################
+###Konnected Alarm Siren On###
+  - alias: 'Activate siren when alarm triggered'
+    trigger:
+      - platform: state
+        entity_id: alarm_control_panel.home_alarm
+        to: 'triggered'
+    action:
+      - service: switch.turn_on
+        entity_id: switch.siren
+        
+############################
+###Konnected Alarm Siren Off###
+  - alias: 'Deactivate siren when alarm turned off'
+    trigger:
+      - platform: state
+        entity_id: alarm_control_panel.home_alarm
+        to: 'disarmed'
+    action:
+      - service: switch.turn_off
+        entity_id: switch.siren
