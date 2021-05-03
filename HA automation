@@ -608,3 +608,26 @@ card_mod:
       entity_id: light.study_lamps
     - service: switch.turn_off
       entity_id: switch.study_screen_led
+      
+      
+- alias: Turn TV lights to orange when watching Hockey
+  trigger:
+    platform: state
+    entity_id: media_player.living_room_chromecast
+    to: 'playing'
+  condition:
+    condition: or
+    conditions:
+      - condition: template
+        value_template: "{{ 'Flyers' in state_attr('media_player.living_room_chromecast', 'media_title') }}"
+      - condition: template
+        value_template: "{{ is_state_attr('media_player.living_room_chromecast', 'app_name', 'Chrome Mirroring') }}"
+  action:
+    - service: light.turn_on
+      data:
+        entity_id: light.living_room
+        rgb_color: [255,137,32]
+    - service: light.turn_on
+      data:
+        entity_id: light.living_room
+        rgb_color: [255,137,32]
