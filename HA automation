@@ -584,3 +584,27 @@ card_mod:
                 top: 20px ! important;
               
             }
+
+- alias: L-ST Study Lights Off If No Person Present For 5 Min
+  id: "1603640030052"
+  description: ""
+  trigger:
+    - entity_id: binary_sensor.study_motion_sensor_motion
+      platform: state
+      from: "on"
+      to: "off"
+      for: 00:15:00
+    - minutes: /5
+      platform: time_pattern
+  condition:
+    - entity_id: binary_sensor.study_motion_sensor_motion
+      condition: state
+      state: "off"
+      for: 00:15:00
+  action:
+    - service: light.turn_off
+      entity_id: light.study_ceiling_light
+    - service: light.turn_off
+      entity_id: light.study_lamps
+    - service: switch.turn_off
+      entity_id: switch.study_screen_led
