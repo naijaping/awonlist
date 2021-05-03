@@ -563,3 +563,24 @@ card_mod:
         message: '{{ trigger.to_state.attributes.friendly_name }} opened'
       data:
         title: 'Alarm'
+
+
+
+card_mod:
+          style: |
+            ha-card {
+              --ha-card-background: rgba(238,238,224);
+              --alarm-color-disarmed: rgb(13,160,53);
+              --alarm-color-armed: rgba(255,0,0) ! important;
+              --card-background-color: transparent;
+              --ha-card-header-color: black;
+              --alarm-color-triggered: rgba(255,0,0) ! important;
+              --ha-label-badge-label-text-transform: capitalized;
+              --mdc-button-outline-color: rgb(3,169,244);
+              --primary-text-color: #000;
+              --ha-label-badge: inherit ;
+                position: absolute;
+                right: 80px ! important;
+                top: 20px ! important;
+              
+            }
