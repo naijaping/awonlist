@@ -631,3 +631,28 @@ card_mod:
       data:
         entity_id: light.living_room
         rgb_color: [255,137,32]
+
+alias: Alarm - Flash en Sirene 01 - Aan
+sequence:
+  - data:
+      duration: 60
+      duty_cycle: 2
+      ieee: '00:0d:6f:00:13:1a:xx:xx'
+      intensity: 2
+      level: 1
+      mode: 1
+      strobe: 1
+    service: zha.warning_device_warn
+mode: single
+icon: 'mdi:volume-high'
+Blockquote
+
+ieee: use adress of the sirene
+Options:
+strobe: 1 (Strobe ON)
+strobe: 0 (Strobe OFF)
+
+mode: 1 (Sirene ON)
+mode: 0 (Sirene OFF)
+
+duration: time of the sirene / Strobe in seconds
