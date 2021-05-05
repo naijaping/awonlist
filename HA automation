@@ -656,3 +656,101 @@ mode: 1 (Sirene ON)
 mode: 0 (Sirene OFF)
 
 duration: time of the sirene / Strobe in seconds
+
+alarm_control_panel: # This is the STANDARD control panel, without any kind of check before arming.
+  - platform: manual
+    name: Standard Alarm
+    code: !secret alarm_code
+    code_arm_required: false # Don't need code to arm the alarm
+
+    # When alarm is triggered, sets the n. of seconds of alarm siren.
+    trigger_time: 120
+
+    disarmed:
+      trigger_time: 0
+    armed_home:
+      delay_time: 0 # delay when arming (to exit the house)
+      arming_time: 0 # delay when triggering (to disable the alarm after you come back)
+    armed_away:
+      delay_time: 20
+      arming_time: 0
+    armed_night:
+      delay_time: 20
+      arming_time: 0
+  
+  - platform: template
+    panels:
+      safe_alarm: # This is the SMART alarm that checks that doors are closed before arming. In lovelace I use this alarm panel.
+        name: Antifurto
+
+        value_template: "{{ states('alarm_control_panel.standard_alarm') }}"
+
+        arm_home: #Day Alarm
+          - choose:
+            - conditions: # If doors are closed
+              - condition: state
+                entity_id: binary_sensor.door1, binary_sensor.door2, binary_sensor.door3
+                state: 'off'
+              sequence:
+                - service: alarm_control_panel.alarm_arm_home # arm
+                  data:
+                   entity_id: alarm_control_panel.standard_alarm
+                   code: !secret alarm_code
+            default:
+              - service: notify.alexa_media # Else, Alexa says that some accesses are left open.
+                data:
+                  target: media_player.alexa
+                  data:
+                    type: announce
+                    method: spoken
+                  message: "Some doors are not closed. Alarm system not enabled."
+
+        arm_night: #Night Alarm
+          - choose:
+            - conditions:
+              - condition: state
+                entity_id: binary_sensor.door1, binary_sensor.door2, binary_sensor.door3, binary_sensor.window1, binary_sensor.window2
+                state: 'off'
+              sequence: # Arm alarm if doors and windows selected are closed.
+                - service: alarm_control_panel.alarm_arm_night
+                  data:
+                   entity_id: alarm_control_panel.standard_alarm
+                   code: !secret alarm_code
+            default: # Else Alexa says that something is open and so alarm is not active
+              - service: notify.alexa_media
+                data:
+                  target: media_player.alexa
+                  data:
+                    type: announce
+                    method: spoken
+                  message: "Some doors are not closed. Alarm system not enabled."
+
+        arm_away: # Total Alarm
+          - choose:
+            - conditions:
+              - condition: state
+                entity_id: binary_sensor.door1, binary_sensor.door2, binary_sensor.door3, binary_sensor.window1, binary_sensor.window2
+                state: 'off'
+              sequence: # Alarm if everything is closed
+                - service: alarm_control_panel.alarm_arm_away
+                  data:
+                   entity_id: alarm_control_panel.standard_alarm
+                   code: !secret alarm_code
+            default: # Else Alexa says
+              - service: notify.alexa_media
+                data:
+                  target: media_player.alexa
+                  data:
+                    type: announce
+                    method: spoken
+                  message: "Some doors are not closed. Alarm system not enabled."
+
+        disarm:
+          - condition: template
+            value_template: "{{ code == '123123' }}" # Unfortunately it was - at the time I wrote the code - not possible to use secrets inside templates
+          - service: alarm_control_panel.alarm_disarm
+            data:
+              entity_id: alarm_control_panel.standard_alarm
+              code: !secret alarm_code
+
+konnected: !include konnected.yaml # where I have declared sensors
