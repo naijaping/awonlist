@@ -1004,3 +1004,18 @@ downstairs_colorloop:
     action:
       - service: switch.turn_off
         entity_id: switch.siren
+
+
+alias: Alarm - Triggered
+trigger:
+  - platform: state
+    entity_id: alarm_control_panel.home_alarm
+    to: triggered
+action:
+  - service: media_player.play_media
+    target:
+      device_id: 32ba3c4fa0f1287c2a3
+    data:
+      media_content_id: 'https://xxxxxx/local/audio/labrador.mp3'
+      media_content_type: audio/mp3
+mode: single
