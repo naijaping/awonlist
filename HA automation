@@ -756,3 +756,38 @@ alarm_control_panel: # This is the STANDARD control panel, without any kind of c
               code: !secret alarm_code
 
 konnected: !include konnected.yaml # where I have declared sensors
+
+
+
+automation:
+  - id: alarm_arm_home_at_night
+    alias: 'Alarm: Arm Home at night'
+    description: 'Arms the alarm, and locks the doors'
+    initial_state: 'on'
+    condition:
+      - condition: state
+        entity_id: group.household
+        state: 'home'
+    trigger:
+      platform: time
+      at: '22:00:00'
+    action:
+      - service: alarm_control_panel.alarm_arm_night
+        entity_id: alarm_control_panel.home_alarm
+      - service: lock.lock
+        entity_id: group.all_house_locks
+
+  - id: alarm_arm_home_when_away
+    alias: 'Alarm: Arm home when everyone is out'
+    trigger:
+      - entity_id: group.household
+        platform: state
+        from: 'home'
+        to: 'away'
+    action:
+      - service: alarm_control_panel.alarm_arm_away
+        entity_id: alarm_control_panel.home_alarm  
+      - service: notify.admins
+        data:
+          message: Alarm has been set to away.
+          title: 'Home Alarm'
