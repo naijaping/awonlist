@@ -1020,3 +1020,21 @@ action:
       media_content_id: 'https://xxxxxx/local/audio/labrador.mp3'
       media_content_type: audio/mp3
 mode: single
+
+
+
+
+Its nothing complicated, if you create a script and expose it to Google you can simply say ‘hey google, activate house alarm’ and the following script will run: house_alarm.yaml
+
+Copy to clipboard
+house_alarm:
+  alias: House Alarm
+#  alias: Turn house alarm ON in away mode after an exit delay (plus the usual alarm exit delay)
+  sequence:
+  - service: tts.google_say
+    entity_id: media_player.kitchen
+    data:
+      message: 'Arming house alarm in one minute'
+  - delay: '00:00:30'
+  - service: alarm_control_panel.alarm_arm_away
+    entity_id: alarm_control_panel.house
