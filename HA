@@ -1038,3 +1038,24 @@ house_alarm:
   - delay: '00:00:30'
   - service: alarm_control_panel.alarm_arm_away
     entity_id: alarm_control_panel.house
+
+
+
+- id: '1620119770684'
+  alias: Mobile alert front door closed
+  description: alert door close
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.front_door
+    from: 'on'
+    to: 'off'
+  condition: []
+  action:
+  - service: notify.mobile_app_sm_123456789
+    data_template:
+      message: '{{ trigger.to_state.name }} Closed | {{now().strftime("%H:%M:%S")}}'
+      title: ALERT !
+      data:
+        ttl: 0
+        priority: high
+  mode: single
