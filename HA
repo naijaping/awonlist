@@ -1061,12 +1061,15 @@ house_alarm:
   mode: single
 
 
+binary_sensor:
 - platform: template
-  switches:
-    study_aircon:
-        turn_on:
-         service: script.script_ht_aircon_on
-        turn_off:
-          service: script.script_ht_aircon_off
-        friendly_name: "Study AC"
-        value_template: "{{ is_state('input_boolean.ac', 'on') }}"
+
+sensors:
+
+tv_state:
+
+friendly_name: "LG B8 TV State"
+
+value_template: >-
+
+{{ state_attr('switch.tv_power', 'current_power_w')|float > 5 }}
