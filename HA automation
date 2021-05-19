@@ -791,3 +791,64 @@ automation:
         data:
           message: Alarm has been set to away.
           title: 'Home Alarm'
+
+
+
+animate: true
+color_thresholds:
+  - color: '#a55eea'
+    value: -6.9
+  - color: '#8854d0'
+    value: -3.9
+  - color: '#3867d6'
+    value: -1.2
+  - color: '#4b7bec'
+    value: 1.6
+  - color: '#2d98da'
+    value: 4.3
+  - color: '#45aaf2'
+    value: 7.1
+  - color: '#0fb9b1'
+    value: 9.9
+  - color: '#2bcbba'
+    value: 12.7
+  - color: '#20bf6b'
+    value: 15.5
+  - color: '#26de81'
+    value: 18.2
+  - color: '#fed330'
+    value: 21
+  - color: '#f7b731'
+    value: 23.8
+  - color: '#fd9644'
+    value: 26.6
+  - color: '#fa8231'
+    value: 29.3
+  - color: '#fc5c65'
+    value: 32.1
+  - color: '#eb3b5a'
+    value: 35.9
+entities:
+  - entity: sensor.openweathermap_temperature
+    index: 0
+    name: Carport
+    show_state: true
+    state_adaptive_color: true
+  - color: '#666666'
+    entity: sensor.solar_elevation
+    line_width: 1
+    show_fill: false
+    show_legend: false
+    show_state: false
+    y_axis: secondary
+hour24: true
+hours_to_show: 24
+line_width: 2
+lower_bound_secondary: ~0
+name: Temperatur
+points_per_hour: 12
+show:
+  extrema: true
+  graph: line
+  points: false
+type: 'custom:mini-graph-card'
