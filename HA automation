@@ -852,3 +852,35 @@ show:
   graph: line
   points: false
 type: 'custom:mini-graph-card'
+
+
+- id: '1588702585432'
+  alias: Bathroom Light On-Off
+  description: Controls bathroom light based on motion sensor
+  trigger:
+  - device_id: 235db833caa54d49bddcb05b0f04ba12
+    domain: binary_sensor
+    entity_id: binary_sensor.neo4
+    platform: device
+    type: motion
+  condition: []
+  action:
+  - brightness_pct: 90
+    device_id: db52735c5e564774a9d7d19dd6d44e82
+    domain: light
+    entity_id: light.bathroom_light
+    type: turn_on
+  - delay: 00:03:30
+  - timeout: 00:00:00
+    wait_template: '{{  is_state(''binary_sensor.neo4'', ''off'')  }}'
+  - brightness_pct: 50
+    device_id: db52735c5e564774a9d7d19dd6d44e82
+    domain: light
+    entity_id: light.bathroom_light
+    type: turn_on
+  - delay: 00:00:15
+  - device_id: db52735c5e564774a9d7d19dd6d44e82
+    domain: light
+    entity_id: light.bathroom_light
+    type: turn_off
+  mode: restart
