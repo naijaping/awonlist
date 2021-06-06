@@ -910,3 +910,37 @@ switch:
             data:
               entity_id: input_boolean.infrared_device
           - service: send infrared command
+                     
+                     
+                     
+                     
+                     
+                     - card: 'media-control'
+                        wider: true
+                        widerSize: 2
+                        noPadding: true
+                        cardOptions:
+                            entity: media_player.tv_living
+                            name: Q90R
+                            style: |
+                              ha-card {
+                                  padding: 2px !important;
+                                  display: flex !important;
+                                  flex-direction: column !important;
+                                  background: transparent !important;
+                                  box-shadow: none !important;
+                                  border-radius:0 !important;
+                              }       
+
+                              .player {
+                                  position: relative;
+                                  padding: 5px;
+                                  height: 100%;
+                                  box-sizing: border-box;
+                                  display: flex;
+                                  flex-direction: column;
+                                  justify-content: space-between;
+                                  color: var(--text-primary-color);
+                                  transition-property: color, padding;
+                                  transition-duration: 0.4s;
+                              }
