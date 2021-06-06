@@ -1131,3 +1131,45 @@ value_template: >-
             priority: high
             ttl: 0
             color: red
+
+
+
+
+- alias: Weekly Backup Friday at 3 AM
+  initial_state: 'on'
+  trigger:
+    platform: time
+    at: 03:00:00
+  condition:
+  - condition: time
+    weekday:
+    - mon
+    - tue
+    - wed
+    - thu
+    - fri
+  action:
+  - service: hassio.snapshot_full
+    data_template:
+      name: Automated Backup {{ now().strftime('%Y-%m-%d') }}
+  - service: notify.hassnico_bot
+    data_template:
+      message: Creating backup named "Automated Backup {{ now().strftime('%Y-%m-%d') }}"
+  id: d316d840e9fd4ebdbc748b2419853558
+
+- alias: Weekly Backup to Google Friday at 3:30 AM
+  initial_state: 'on'
+  trigger:
+    platform: time
+    at: 03:30:00
+  condition:
+  - condition: time
+    weekday:
+    - mon
+    - tue
+    - wed
+    - thu
+    - fri
+  action:
+  - service: rest_command.google_backup
+  id: 4df385d2bced4f73adb6b7e872261e8f
