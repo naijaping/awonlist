@@ -945,3 +945,104 @@ switch:
                                   transition-property: color, padding;
                                   transition-duration: 0.4s;
                               }
+    
+    
+    
+    
+    
+    
+    - type: custom:decluttering-card
+        template: person_card_new
+        variables:
+          - entity: person.ben
+          - name: Ben
+          - battery: device_tracker.life360_ben
+          - work_sensor: sensor.ben_to_work_waze
+          - home_sensor: sensor.ben_to_home_waze
+          - work_icon: mdi:car
+          - entity_picture: /local/ben6.png
+          - show_entity_picture: true
+          - tap_action: 
+              action: more-info
+              haptic: light
+              
+              
+styles:
+  card:
+    - border-radius: 12px
+    - --paper-card-background-color: '[[background_color]]'
+  icon:
+    - grid-column: 1
+    - grid-row: 1 / 4
+  label:
+    - color: gray
+    - font-size: 11px
+    - padding: 0px 10px
+    - justify-self: start
+  state:
+    - font-size: 12px
+    - padding: 0px 10px
+    - justify-self: start
+    - text-transform: capitalize
+    - font-weight: bold
+    - padding-left: 10px
+    - color: var(--primary-text-color)
+  grid:
+    - grid-template-areas: '"i s" "i battery" "i home" "i work"'
+    - grid-template-columns: 50% 50%
+    - grid-template-rows: 25% 25% 25% 25%
+  img_cell:
+    - align-self: start
+    - text-align: start
+  name:
+    - justify-self: start
+    - padding-left: 10px
+    - font-weight: bold
+    - font-size: 13px
+  entity_picture:
+    - height: 60px
+    - width: 60px
+    - border-radius: 100%
+  custom_fields:
+    battery:
+      - align-self: start
+      - justify-self: start
+      - font-size: 12px
+      - color: var(--secondary-text-color)
+    home:
+      - align-self: start
+      - justify-self: start
+      - font-size: 12px
+      - color: var(--secondary-text-color)
+    work:
+      - align-self: start
+      - justify-self: start
+      - font-size: 12px
+      - color: var(--secondary-text-color)
+custom_fields:
+      battery: >
+          [[[
+            if (states['[[battery]]'].attributes.battery_charging === false)
+              return `<ha-icon
+                icon="mdi:battery"
+                style="; height: 14px; color: var(--primary-line-color);">
+                </ha-icon><span>${states['[[battery]]'].attributes.battery}%</span>`
+            else return `<ha-icon
+              icon="mdi:battery-charging"
+              style="; height: 14px; color: var(--primary-line-color);">
+              </ha-icon><span>${states['[[battery]]'].attributes.battery}%</span>`
+          ]]]
+      home: >
+          [[[
+            return `<ha-icon
+              icon="mdi:home-import-outline"
+              style="; height: 14px; color: var(--primary-line-color);">
+              </ha-icon><span>${states['[[home_sensor]]'].state}mins</span>`
+          ]]]
+      work: >
+          [[[
+            return `<ha-icon
+              icon="[[work_icon]]"
+              style="; height: 14px; color: var(--primary-line-color);">
+              </ha-icon><span>${states['[[work_sensor]]'].state}mins</span>`
+          ]]]
