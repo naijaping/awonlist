@@ -117,3 +117,25 @@ We can help you find one! Tell us about your home, then click on the NEXT button
                       left: 50%
                       width: 100%
                     template: media
+
+
+
+
+{
+    "name": "Bulb",
+    "type": "RGBTWLight",
+    "manufacturer": "Novostella",
+    "model": "Color Changing Floor Light",
+    "id": "your_tuya_id",
+    "key": "your_tuya_key",
+    "intro": false,
+    "dpPower": 20,
+    "colorFunction": "HSB",
+    "dpMode": 21,
+    "dpColor": 24,
+    "dpBrightness": "22",
+    "scaleWhiteColor": 1000,
+    "scaleBrightness": 1000,
+    "minBrightness": 10,
+    "dpColorTemperature": 23
+}
