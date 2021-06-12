@@ -1173,3 +1173,26 @@ value_template: >-
   action:
   - service: rest_command.google_backup
   id: 4df385d2bced4f73adb6b7e872261e8f
+  
+  
+alias: Turn off lights and music when nobody is home
+mode: single
+trigger:
+  - platform: state
+    entity_id: device_tracker.WIFE_s_phone
+    to: 'not_home'
+  - platform: state
+    entity_id: device_tracker.MY_phone
+    to: 'not_home'
+condition:
+  - condition: state
+    entity_id: device_tracker.WIFE_s_phone
+    state: 'not_home'
+  - condition: state
+    entity_id: device_tracker.MY_phone
+    state: 'not_home'
+action:
+  - service: homeassistant.turn_off
+    entity_id: group.all_music
+  - service: homeassistant.turn_off
+    entity_id: group.all_lights
