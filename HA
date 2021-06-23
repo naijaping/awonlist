@@ -1196,3 +1196,27 @@ action:
     entity_id: group.all_music
   - service: homeassistant.turn_off
     entity_id: group.all_lights
+    
+    
+    
+    
+    
+    
+alias: Light on when front door opens
+description: >-
+  Turn on a living room overhead light when the front door opens and it's an
+  hour before sunset. 
+trigger:
+  - platform: state
+    entity_id: binary_sensor.front_door_sensor_ias_zone
+    from: closed
+    to: open
+condition: []
+action:
+  - service: light.turn_on
+    target:
+      device_id: 5330775d86bb7e5e59810b9267277c4b
+    data:
+      kelvin: 3400
+      brightness_pct: 40
+mode: single
