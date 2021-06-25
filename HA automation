@@ -968,3 +968,20 @@ automation:
       action:
         service: light.turn_off
         entity_id: light.treelamp
+        
+        
+        
+        
+- alias: Scheduled Light
+  trigger:
+    - platform: time
+      at:
+        - '21:00:00'
+        - '05:00:00'
+    - platform: homeassistant
+      event: start
+  condition: "{{ 1 <= now().isoweekday() <= 5 }}"
+  action:
+    - service: "light.turn_{{ 'on' if now().hour >= 21 or now().hour < 5 else 'off' }}"
+      target:
+        entity_id: light.whatever
