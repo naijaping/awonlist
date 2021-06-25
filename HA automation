@@ -1006,3 +1006,27 @@ automation:
           light.turn_off
         {% endif %}
       entity_id: light.my_light
+      
+      
+      
+  alias: Fan_Timer
+  description: Turn ON/OFF fan
+  trigger:
+  - at: '20:30:00'
+    platform: time
+  - at: '01:30:00'
+    platform: time
+  - platform: homeassistant
+    event: start
+  condition: []
+  action:
+  - data:
+      entity_id: switch.03200168dc4f22847b44
+    service_template: >
+      {% set n = now() %}
+      {% if n.hour >= 20 or n.hour == 20 and n.minute >= 30 or
+            n.hour < 1 or n.hour == 1 and n.minute < 30 %}
+        switch.turn_on
+      {% else %}
+        switch.turn_off
+      {% endif %}    
