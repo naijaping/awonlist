@@ -985,3 +985,24 @@ automation:
     - service: "light.turn_{{ 'on' if now().hour >= 21 or now().hour < 5 else 'off' }}"
       target:
         entity_id: light.whatever
+
+
+
+
+- alias: Turn light on and off at preset times
+  trigger:
+    - platform: time
+      at: '21:00:00'
+    - platform: time
+      at: '05:00:00'
+    - platform: homeassistant
+      event: start
+  action:
+    - service_template: >
+        {% set n = now() %}
+        {% if n.hour >= 21 or n.hour < 5 %}
+          light.turn_on
+        {% else %}
+          light.turn_off
+        {% endif %}
+      entity_id: light.my_light
