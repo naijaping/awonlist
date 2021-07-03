@@ -1062,3 +1062,50 @@ automation:
       - service: script.tweet_engine_no_image
         data:
           tweet: 'Looks like my {{ trigger.to_state.attributes.friendly_name }} is LOW. @CCostan - Get me some more (https://amzn.to/2AnpFwD)'
+          
+          
+          
+          
+### Building some interesting stats for tweeting. ###
+  - platform: template
+    sensors:
+      sensor_count:
+        friendly_name: 'Number of Sensors'
+        value_template: >-
+          {{ states.sensor | list | count }}
+      automation_count:
+        friendly_name: 'Number of Automations'
+        value_template: >-
+          {{ states.automation| list | count }}
+      script_count:
+        friendly_name: 'Number of Scripts'
+        value_template: >
+          {{ states.script | list | count }}
+      binary_sensor_count:
+        friendly_name: 'Number of Binary Sensors'
+        value_template: >-
+          {{ states.binary_sensor | list | count }}
+      tracker_count:
+        friendly_name: 'Number of Devices'
+        value_template: >-
+          {{ states.device_tracker| list | count }}
+      lights_count:
+        friendly_name: 'Number of Lights'
+        value_template: >
+          {{ states.light | list | count }}
+      protect_count:
+        friendly_name: 'Number of Smoke Detectors'
+        value_template: >
+          {% if states('group.protects') == 'on' %}
+          {% for e in states.group.protects.attributes.entity_id if states(e) == 'on'  %}
+          {% if loop.last %}
+          {{ loop.index }}
+          {% endif %}
+          {%- endfor -%}
+          {% else %}
+          0
+          {% endif %}
+      camera_count:
+        friendly_name: 'Number of online Cameras'
+        value_template: >
+          {{ states.camera | list | count }}
