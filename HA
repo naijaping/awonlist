@@ -13,7 +13,10 @@ light.b888999gggttttttt888z:
   brightness: 255
   color_temp: 153
 
+{{ not is_state('weather.home', 'rainy') }}
 
+condition: template
+  value_template: "{{ (state_attr('device_tracker.iphone', 'battery_level')|int) > 50 }}"
 
 - platform: trend
   sensors:
