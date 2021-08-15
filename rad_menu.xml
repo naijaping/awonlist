@@ -36,7 +36,47 @@
 </channel>
   
   
-  
+"status": [
+      {
+        "code": "switch_led",
+        "value": true
+      },
+      {
+        "code": "work_mode",
+        "value": "white"
+      },
+      {
+        "code": "bright_value",
+        "value": 255
+      },
+      {
+        "code": "temp_value",
+        "value": 255
+      },
+      {
+        "code": "colour_data",
+        "value": "{\"h\":345.0,\"s\":1.0,\"v\":255.0}"
+      },
+      {
+        "code": "scene_data",
+        "value": "{\"h\":0.0,\"s\":0.0,\"v\":0.0}"
+      },
+      {
+        "code": "flash_scene_1",
+        "value": "{\"bright\":255,\"frequency\":80,\"hsv\":[{\"h\":120.0,\"s\":255.0,\"v\":255.0}],\"temperature\":255}"
+      },
+      {
+        "code": "flash_scene_2",
+        "value": "{\"bright\":255,\"frequency\":128,\"hsv\":[{\"h\":0.0,\"s\":255.0,\"v\":255.0},{\"h\":120.0,\"s\":255.0,\"v\":255.0},{\"h\":240.0,\"s\":255.0,\"v\":255.0},{\"h\":0.0,\"s\":0.0,\"v\":0.0},{\"h\":0.0,\"s\":0.0,\"v\":0.0},{\"h\":0.0,\"s\":0.0,\"v\":0.0}],\"temperature\":255}"
+      },
+      {
+        "code": "flash_scene_3",
+        "value": "{\"bright\":255,\"frequency\":80,\"hsv\":[{\"h\":0.0,\"s\":255.0,\"v\":255.0}],\"temperature\":255}"
+      },
+      {
+        "code": "flash_scene_4",
+        "value": "{\"bright\":255,\"frequency\":5,\"hsv\":[{\"h\":0.0,\"s\":255.0,\"v\":255.0},{\"h\":120.0,\"s\":255.0,\"v\":255.0},{\"h\":60.0,\"s\":255.0,\"v\":255.0},{\"h\":300.0,\"s\":255.0,\"v\":255.0},{\"h\":240.0,\"s\":255.0,\"v\":255.0},{\"h\":0.0,\"s\":0.0,\"v\":0.0}],\"temperature\":255}"
+      }  
 
 
 </channels>
