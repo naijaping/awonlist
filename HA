@@ -1271,6 +1271,15 @@ action:
       entity: light.strip_led
 mode: single
 
-
+zigbee_led_colorloop:
+  alias: Zigbee Led ColorLoop
+  sequence:
+  - service: light.turn_on
+    data:
+      entity_id: light.zigbee_led_strip
+      effect: colorloop
+      brightness: 254
+      transition: 5
+  mode: single
 
 https://gist.github.com/dglaude/619a9e415e1e34019a6b1f5f274e0d14
