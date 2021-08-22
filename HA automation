@@ -1157,3 +1157,59 @@ sequence:
     data:
       entity_id: media_player.living_room
 mode: single
+
+
+- id: 'OMITTED'
+  alias: Trigger Alarm When Home
+  description: ''
+  trigger:
+  - entity_id: binary_sensor.back_door_sensor
+    platform: state
+    to: 'on'
+  condition:
+  - condition: state
+    entity_id: alarm_control_panel.home_alarm
+    state: armed_home
+  action:
+  - data: {}
+    entity_id: alarm_control_panel.home_alarm
+    service: alarm_control_panel.alarm_trigger
+  - data: {}
+    entity_id: switch.home_alarm
+    service: switch.turn_on
+    
+    
+    
+  - platform: template
+    sensors:
+      is_house_active:
+        friendly_name: "Is House Active"
+        value_template: >
+            {% set sensors = [states.binary_sensor.front_door_sensor, states.binary_sensor.back_door_sensor,  states.binary_sensor.playroom_motion_sensor, states.binary_sensor.living_room_motion_sensor, states.binary_sensor.kitchen_motion_sensor] %}
+            {{ sensors | selectattr('state','eq','on') | list | count > 0 }}
+            
+            
+Here auto arming automation:
+
+- id: 'OMITTED'
+  alias: Automatically Arm Alarm
+  description: Arm the home alarm when it's past 10 pm and there's no activity detected
+    in the house.
+  trigger:
+  - entity_id: binary_sensor.is_house_active
+    for: 00:45:00
+    platform: state
+    to: 'off'
+  condition:
+  - after: '22:00:00'
+    before: 07:00:00
+    condition: time
+  - condition: state
+    entity_id: alarm_control_panel.home_alarm
+    state: disarmed
+  action:
+  - data:
+      code: PUT_PIN_HERE
+    entity_id: alarm_control_panel.home_alarm
+    service: alarm_control_panel.alarm_arm_home
+  mode: single            
