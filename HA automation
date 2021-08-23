@@ -1213,3 +1213,19 @@ Here auto arming automation:
     entity_id: alarm_control_panel.home_alarm
     service: alarm_control_panel.alarm_arm_home
   mode: single            
+
+
+repeat:
+  while:
+    - condition: state
+      entity_id: input_boolean.kerstlampjes_loop
+      state: 'on'
+  sequence:
+    - service: light.turn_on
+      data:
+        brightness_pct: '{{ (range(10, 100)|random|int) }}'
+        xy_color:
+          - '{{ (range(10, 90)|random|int)/100 }}'
+          - '{{ (range(10, 90)|random|int)/100 }}'
+      entity_id: light.kerstlampjes
+    - delay: '0.5'
