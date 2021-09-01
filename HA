@@ -1286,3 +1286,32 @@ zigbee_led_colorloop:
   mode: single
 
 https://gist.github.com/dglaude/619a9e415e1e34019a6b1f5f274e0d14
+
+
+template:
+  - binary_sensor:
+      - name: Lights Left On While No One Home
+        unique_id: lights_left_on_while_no_one_home
+        state: >-
+          {% set person_a_away = not is_state('person.a','home') %}
+          {% set person_b_away = not is_state('person.b','home') %}
+          {% set lights_still_on =
+            states.light
+            |selectattr('state','eq','on')
+            |list
+            |count > 1 %}
+          {{ person_a_away and person_b_away and lights_still_on }}
+        attributes:
+          lights_left_on: >-
+            {{
+              states.light
+              |selectattr('state','eq','on')
+              |map(attribute='name')
+              |join(", ")
+            }}
+          total_lights_left_on: >-
+            {{
+              states.light
+              |selectattr('state','eq','on')
+              |list()|count()
+            }}
