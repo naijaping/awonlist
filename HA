@@ -1331,3 +1331,19 @@ template:
         color_temp_max_kelvin: 6500 # Optional, default: 6500
         scene: 25 # Optional, usually 6 (RGB_HSV) or 25 (HSV), default: "none"
         music_mode: False # Optional, some use internal mic, others, phone mic. Only internal mic is supported, default: "False"
+
+
+
+#https://community.home-assistant.io/t/set-time-of-a-light-to-turn-on-and-off/335567/5
+alias: Scheduled Lights
+trigger:
+  - platform: template
+    value_template: "{{ now().hour == 21 and now().isoweekday() in [3, 5, 6] }}"
+    id: 'on'
+  - platform: template
+    value_template: "{{ (now().hour, now().minute) == (2,30) and now().isoweekday() in [4, 6, 7] }}"
+    id: 'off'
+action:
+  - service: "switch.turn_{{ trigger.id }}"
+    target:
+      entity_id: switch.upstairs_light_inside
