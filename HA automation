@@ -1229,3 +1229,21 @@ repeat:
           - '{{ (range(10, 90)|random|int)/100 }}'
       entity_id: light.kerstlampjes
     - delay: '0.5'
+
+
+
+- id: hallway_Light_dim
+    name: Hallway Light Dim
+    entities:
+        light.hallway_light:
+            state: 'on'
+            transition: 2
+            brightness_pct: 20
+
+  - id: hallway_Light_100_percent
+    name: Hallway Light 100 pct
+    entities:
+        light.hallway_light:
+            state: 'on'
+            transition: 2
+            brightness_pct: 100
