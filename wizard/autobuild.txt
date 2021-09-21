@@ -3,7 +3,7 @@ version="1.1"
 zip="http://colussus.net/colussusbuild/colussusii.zip"
 
 name="OmobaTV Build 19"
-version="2.0 SEPT/21/2021"
+version="2.0 21/09/2021"
 url="https://onedrive.live.com/download?cid=E28369FD4B5A92DC&resid=E28369FD4B5A92DC%21145&authkey=AKQYCOFwtMo5PC0"
 minor="http://"
 gui="https://"
