@@ -1347,3 +1347,32 @@ action:
   - service: "switch.turn_{{ trigger.id }}"
     target:
       entity_id: switch.upstairs_light_inside
+
+
+- alias: Alarm - Remote Arm
+  id: alarm_-_remote_arm
+  initial_state: true
+  trigger:
+    - platform: event
+      event_type: button_pressed
+      event_data:
+        entity_id: switch.kerui_remote_lock
+  action:
+    - service: alarm_control_panel.alarm_arm_away
+      entity_id: alarm_control_panel.alarm
+      data:
+        code: !secret alarm_code
+
+- alias: Alarm - Remote Disarm
+  id: alarm_-_remote_disarm
+  initial_state: true
+  trigger:
+    - platform: event
+      event_type: button_pressed
+      event_data:
+        entity_id: switch.kerui_remote_unlock
+  action:
+    - service: alarm_control_panel.alarm_disarm
+      entity_id: alarm_control_panel.alarm
+      data:
+        code: !secret alarm_code
