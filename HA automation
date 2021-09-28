@@ -793,7 +793,24 @@ automation:
           message: Alarm has been set to away.
           title: 'Home Alarm'
 
-
+- id: 'alarm_arm_home_when_away'
+  alias: 'Alarm: Arm home when everyone is out'
+  trigger:
+  - entity_id: group.family
+    platform: state
+    from: 'home'
+    to: 'away'
+  action:
+  - service: alarm_control_panel.alarm_arm_away
+    entity_id: alarm_control_panel.home_alarm
+  - service: notify.mobile_app_sm_888888
+    data_template:
+      message: 'Alarm set to away | {{now().strftime("%H:%M:%S")}}'
+      title: ALERT !
+      data:
+        ttl: 0
+        priority: high
+  mode: single
 
 animate: true
 color_thresholds:
