@@ -1376,3 +1376,24 @@ action:
       entity_id: alarm_control_panel.alarm
       data:
         code: !secret alarm_code
+
+
+
+
+- id: fan_auto_off_on
+  alias: Bedroom fan auto on off
+  trigger:
+    - platform: numeric_state
+      entity_id: sensor.main_bedroom_temperature
+      above: 18
+    - platform: numeric_state
+      entity_id: sensor.main_bedroom_temperature
+      below: 16
+  action:
+    service: >
+      {% if states('sensor.main_bedroom_temperature')|int > 18 %}
+        switch.turn_on
+      {% elif states('sensor.main_bedroom_temperature')|int < 16 %}  
+        switch.turn_off
+      {% endif %}
+    entity_id: switch.bedroom_fan
