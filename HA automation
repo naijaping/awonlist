@@ -1264,3 +1264,32 @@ repeat:
             state: 'on'
             transition: 2
             brightness_pct: 100
+            
+            
+            
+            
+    trigger:
+      - platform:state
+        entity_id: sensor.wirelesstag_lounge_temperature
+    condition:
+      condition: and
+      conditions:
+        - condition: numeric_state
+          entity_id: sensor.wirelesstag_lounge_temperature
+          above: 26
+        - condition: state
+          entity_id: fan.lounge_fan
+          state: 'on'
+        - condition: state
+          entity_id: binary_sensor.people_home
+          state: 'on'
+    action:
+      - service: fan.set_speed
+        entity_id: fan.lounge_fan
+        data_template:
+          speed: >
+            {% set temp = trigger.to_state.state | float %}
+            {% if temp < 28 %} low
+            {% elif temp < 30 %} medium
+            {% else %} high
+            {% endif %}            
