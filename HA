@@ -1397,3 +1397,39 @@ action:
         switch.turn_off
       {% endif %}
     entity_id: switch.bedroom_fan
+    
+    
+    
+    alias: Door still open inform xxx1
+description: ''
+trigger:
+  - platform: zone
+    entity_id: person.xxx1
+    zone: zone.home_adress
+    event: leave
+    id: device_tracker.iphone_2
+condition:
+  - condition: state
+    entity_id: person.xxx2
+    state: not_home
+  - condition: state
+    entity_id: group.all_doors
+    state: 'on'
+action:
+  - device_id: xxx1
+    domain: mobile_app
+    type: notify
+    message: "Attention! The following doors are open: {{ expand('group.all_doors') | selectattr('state','eq','on') | map(attribute='name') | list | join(', ') }}"
+    title: ''
+    data:
+      push:
+        sound: Alert_Voicemail_Haptic.caf
+mode: single
+
+
+    message: >
+      {% if expand('group.all_doors') | selectattr('state','eq','on') | list | count == 1 %}
+         Attention! The following door is open: {{ expand('group.all_doors') | selectattr('state','eq','on') | map(attribute='name') | list | join(', ') }}"
+      {% else %}
+         Attention! The following doors are open: {{ expand('group.all_doors') | selectattr('state','eq','on') | map(attribute='name') | list | join(', ') }}"
+      {% endif %}
