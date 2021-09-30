@@ -1427,9 +1427,9 @@ action:
 mode: single
 
 
-    message: >
+       message: >
       {% if expand('group.all_doors') | selectattr('state','eq','on') | list | count == 1 %}
-         Attention! The following door is open: {{ expand('group.all_doors') | selectattr('state','eq','on') | map(attribute='name') | list | join(', ') }}"
+        Attention! The following door is open: {{ expand('group.all_doors') | selectattr('state','eq','on') | map(attribute='name') | list | join(', ') }}
       {% else %}
-         Attention! The following doors are open: {{ expand('group.all_doors') | selectattr('state','eq','on') | map(attribute='name') | list | join(', ') }}"
+        Attention! The following doors are open: {{ expand('group.all_doors') | selectattr('state','eq','on') | map(attribute='name') | list | join(', ') }}
       {% endif %}
