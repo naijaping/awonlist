@@ -1293,3 +1293,46 @@ repeat:
             {% elif temp < 30 %} medium
             {% else %} high
             {% endif %}            
+
+
+
+
+####################################################
+#          WINDOW OPEN STATUS      2021Apr02       #
+####################################################
+#https://community.home-assistant.io/t/automation-that-checks-for-is-doors-are-open-before-going-to-bed/59456/7
+- id: "1793401787732"
+  alias: "8 pm Window Check"
+  description: 8 pm Window Check
+  trigger:
+    - at: "20:00:00"
+      platform: time
+  condition:
+    condition: template
+    value_template: >
+      {{ states | selectattr('entity_id', 'in', state_attr('group.windows','entity_id')) | selectattr('state','in',['on','open']) | list | length >= 1 }}
+  action:
+    - service: media_player.volume_set
+      data:
+        volume_level: 0.8
+      entity_id: media_player.everywhere
+    - data:
+        entity_id: group.echo
+        media_content_id: amzn_sfx_trumpet_bugle_04
+        media_content_type: sound
+      service: media_player.play_media
+    - data:
+        data:
+          method: speak
+          type: announce
+        message: >
+          {% set open_windows = ( states | selectattr('entity_id', 'in', state_attr('group.windows','entity_id')) | selectattr('state','in',['on','open']) | list | map(attribute='name') | join(', ') ) %}
+            It is 8 pm and the following windows are open: {{ open_windows }}
+      service: notify.alexa_media_everywhere
+    - service: notify.telegram_carlton
+      data_template:
+        title: "It's 8 PM Windows Open!"
+        message: >
+          {% set open_windows = ( states | selectattr('entity_id', 'in', state_attr('group.windows','entity_id')) | selectattr('state','in',['on','open']) | list | map(attribute='name') | join(', ') ) %}
+            The following windows are open: {{ open_windows }}
+  mode: single
