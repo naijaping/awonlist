@@ -1433,3 +1433,37 @@ mode: single
       {% else %}
         Attention! The following doors are open: {{ expand('group.all_doors') | selectattr('state','eq','on') | map(attribute='name') | list | join(', ') }}
       {% endif %}
+
+
+
+- id: '1634102183865'
+  alias: Action - Switch - Schedule - Lucy Tank
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunrise
+    id: 'on'
+  - platform: sun
+    event: sunset
+    id: 'off'
+  condition: []
+  action:
+  - service: "switch.turn_{{ trigger.id }}"
+    target:
+      entity_id: switch.lucy_tank
+  mode: single
+  
+  
+  
+  
+- id: '1634102183865'
+  alias: Action - Switch - Schedule - Lucy Tank
+  description: ''
+  trigger:
+    - platform: state
+      entity_id: sun.sun
+  condition: []
+  action:
+    - service: "switch.turn_{{ 'on' if trigger.to_state.state == 'above_horizon' else 'off' }}"
+      entity_id: switch.lucy_tank
+  mode: single
