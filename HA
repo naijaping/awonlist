@@ -1485,3 +1485,21 @@ mode: single
     target:
       entity_id: light.test_lamp
   mode: single
+
+
+id: "schedule_bedroom_lamp"
+alias: Schedule Bedroom Lamp
+trigger:
+  - platform: time
+    at:
+      - "19:10:00"
+      - "08:30:00"
+  - platform: homeassistant
+    event: start
+condition: "{{ 1 <= now().isoweekday() <= 7 }}"
+action:
+  - variables:
+      t: "({{ now().hour }},{{ now().minute  }})"
+  - service: "light.turn_{{ 'on' if t >= (19,10) or t < (8,30) else 'off' }}"
+    target:
+      entity_id: light.test_lamp
