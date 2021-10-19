@@ -1316,9 +1316,14 @@ template:
               |list()|count()
             }}
 
-
-
-- platform: light
+localtuya:
+  - host: 192.168.1.x
+    device_id: xxxxx
+    local_key: xxxxx
+    friendly_name: Tuya Device
+    protocol_version: "3.3"
+    entities:
+      - platform: light
         friendly_name: Device Light
         id: 4 # Usually 1 or 20
         color_mode: 21 # Optional, usually 2 or 21, default: "none"
