@@ -1403,3 +1403,41 @@ action:
 mode: single
 
 
+https://community.home-assistant.io/t/simple-if-else-for-turning-on-different-light-state-day-night/347525/4
+alias: Motion lights - Main bathroom
+description: ''
+variables:
+  light: "light.main_bathroom_ceiling_light" 
+trigger:
+  - platform: state
+    entity_id: binary_sensor.main_bathroom_motion_sensor_motion
+    to: 'on'
+  - platform: state
+    entity_id: binary_sensor.main_bathroom_motion_sensor_motion
+    to: 'off'
+    for: '00:05:00'
+condition: 
+  - condition: template
+    value_template: >
+      {{ (trigger.to_state.state == 'on' and is_state(light, 'off')) or
+         (trigger.to_state.state == 'off' and is_state(light, 'on')) }}
+action:
+  - choose:
+      - conditions: "{{ trigger.to_state.state == 'on' }}"
+        sequence:
+          - variables:
+              is_day: "{{ 7 <= now().hour < 20 }}"
+          - service: light.turn_on
+            target:
+              entity_id: "{{ light }}"
+            data:
+              transition: 3
+              kelvin: "{{ 3400 if is_day else 2600 }}"
+              brightness_pct: "{{ 100 if is_day else 25}}"
+    default:
+      - service: light.turn_off
+        data:
+          transition: 3
+        target:
+          entity_id: "{{ light }}"
+mode: single
