@@ -1361,3 +1361,45 @@ repeat:
           {{ trigger.to_state.attributes.friendly_name }} arrived at {{ trigger.zone.attributes.friendly_name }}
         {% endif %}
   mode: single
+
+
+
+
+
+https://community.home-assistant.io/t/motion-lights-based-off-of-input-select-drop-down/348795/4
+id: '1634785178928'
+alias: Mode Motion Lights
+description: ''
+trigger:
+  - type: motion
+    platform: device
+    device_id: 6817295ed58cb513e68d2d06ae1cba08
+    entity_id: binary_sensor.master_bedroom_motion_ias_zone
+    domain: binary_sensor
+condition: []
+action:
+  - choose:
+      - conditions:
+          - condition: state
+            entity_id: input_select.time_of_day
+            state: Day
+        sequence:
+          - type: turn_on
+            device_id: a2a5e56387907f0a71154aa9f8572a85
+            entity_id: light.master_bathroom_light_3
+            domain: light
+            brightness_pct: 100
+      - conditions:
+          - condition: state
+            entity_id: input_select.time_of_day
+            state: Evening
+        sequence:
+          - type: turn_on
+            device_id: a2a5e56387907f0a71154aa9f8572a85
+            entity_id: light.master_bathroom_light_3
+            domain: light
+            brightness_pct: 20
+    default: []
+mode: single
+
+
