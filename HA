@@ -1508,3 +1508,19 @@ action:
   - service: "light.turn_{{ 'on' if t >= (19,10) or t < (8,30) else 'off' }}"
     target:
       entity_id: light.test_lamp
+
+
+alias: Show Door Camera on Attic Echo
+description: ''
+trigger:
+  - platform: state
+    entity_id: binary_sensor.front_doorbell_button_state
+    to: 'on'
+condition: []
+action:
+  - service: media_player.play_media
+    data:
+      entity_id: media_player.attic_echo_spot
+      media_content_id: show front door phone
+      media_content_type: custom
+mode: single
