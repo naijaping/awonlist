@@ -1524,3 +1524,17 @@ action:
       media_content_id: show front door phone
       media_content_type: custom
 mode: single
+
+# restart HA to keep it fresh
+- alias: Restart HA
+  trigger: 
+    platform: time
+    at: "02:00:00"  
+  condition:
+    condition: time
+    weekday:
+    - sun
+    - wed
+    - fri
+  action:
+    - service: homeassistant.restart
