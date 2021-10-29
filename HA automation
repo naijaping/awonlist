@@ -148,16 +148,14 @@ notify:
       
       
       
-      
-  automation:
-    - alias: "Notify Mobile app group"
-      trigger:
-        ...
-      action:
-        - service: notify.ALL_DEVICES
-          data:
-            message: "Something happened at home!"
-            
+sequence:
+  - service: media_player.play_media
+    target:
+      entity_id: media_player.libreelec
+    data:
+      media_content_type: DIRECTORY
+      media_content_id: special://profile/playlists/video/krtek.m3u
+mode: single
             
             
             
