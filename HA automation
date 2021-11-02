@@ -1439,3 +1439,30 @@ action:
         target:
           entity_id: "{{ light }}"
 mode: single
+
+
+- id: '1555733330035'
+  alias: Outside Lights On (10 mins) - Garage Door
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: cover.garage_door
+    from: closed
+    to: opening
+  condition:
+  - condition: state
+    entity_id: sun.sun
+    state: below_horizon
+  action:
+  - variables:
+      lights:
+      - switch.barn_lights
+      - switch.drive_lights
+  - service: switch.turn_on
+    target:
+      entity_id: '{{ lights }}'
+  - delay: '00:10:00'
+  - service: switch.turn_off
+    target:
+      entity_id: '{{ lights }}'
+  mode: single
