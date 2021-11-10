@@ -4,6 +4,9 @@ https://code.jnf.me/jaywll/home-automation
 # base_url: !secret base_url
 
 
+https://smarthomepursuits.com/how-to-arm-disarm-alarm-on-a-schedule-from-lovelace/
+
+
 #   - alias: Open Doors Notification On Alarm Set
 #     trigger:
 #     - platform: state
