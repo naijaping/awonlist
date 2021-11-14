@@ -1469,3 +1469,21 @@ mode: single
     target:
       entity_id: '{{ lights }}'
   mode: single
+  
+  
+- alias: 'Grandfather Clock'
+  initial_state: true
+  trigger:
+    platform: time
+    minutes: 00
+    seconds: 00
+  condition:
+    condition: time
+    after: '05:30:00'
+    before: '22:30:00'
+  action:
+    - service: media_player.play_media
+      data_template:
+        entity_id: media_player.vlc_living_room
+        media_content_id: '/home/pi/.homeassistant/www/sounds/GFChime/GrandFatherChime{{ now().strftime("%I") }}.wav'
+        media_content_type: 'music'
