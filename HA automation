@@ -1487,3 +1487,23 @@ mode: single
         entity_id: media_player.vlc_living_room
         media_content_id: '/home/pi/.homeassistant/www/sounds/GFChime/GrandFatherChime{{ now().strftime("%I") }}.wav'
         media_content_type: 'music'
+
+
+https://community.home-assistant.io/t/hue-motion-sensor-button/357087/4
+alias: example
+trigger:
+- platform: state
+  entity_id: binary_sensor.bathroom_motion
+  to: 'on'
+- platform: state
+  entity_id: binary_sensor.bathroom_motion
+  to: 'off'
+  for: '00:01:00'
+condition:
+- condition: state
+  entity_id: input_boolean.motion_enabled
+  state: 'on'
+action:
+- service: 'light.turn_{{ trigger.to_state.state }}'
+  target:
+    entity_id: light.bathroom
