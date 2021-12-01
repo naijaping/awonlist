@@ -1542,8 +1542,7 @@ mode: single
     
     
     
-    
-    - id: alarm_arm_time
+- id: alarm_arm_time
   alias: '[Alarm] Arm Time'
   initial_state: true
   trigger:
@@ -1558,3 +1557,37 @@ mode: single
     entity_id: alarm_control_panel.ha_alarm
     data: 
       code: xxxx
+
+
+
+
+alias: New Automation
+description: ''
+mode: single
+trigger:
+  - platform: time
+    at: '06:30:00'
+    id: 'off'
+  - platform: time
+    at: '20:30:00'
+    id: 'on'
+condition: []
+action:
+  - choose:
+      - conditions:
+          - condition: trigger
+            id: 'on'
+        sequence:
+          - service: switch.turn_on
+            target:
+              entity_id: switch.fan_controller
+    default: []
+  - choose:
+      - conditions:
+          - condition: trigger
+            id: 'off'
+        sequence:
+          - service: switch.turn_off
+            target:
+              entity_id: switch.fan_controller
+    default: []
