@@ -2,3 +2,9 @@
 #KODIPROP:inputstream.ffmpegdirect.open_mode=ffmpeg
 #EXTINF:-1 tvg-name="Das Erste HD" tvg-id="ARD.de" group-title="Vollprogramm;HDVariante" radio="false" tvg-logo="daserstehd.png",Das Erste HD1
 http://14.231.159.70:8000/play/a/index.m3u8
+#EXTINF:-1 group-title="Thiếu nhi Việt Nam - Liên Xô" tvg-logo="https://i.imgur.com/chT8xP5.png",Nick Junior | THIẾU NHI BỔ ÍCH
+#EXTVLCOPT:http-user-agent=(_._)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.is_realtime_stream=true
+http://185.161.224.216/dash/Nick_JR_SD.ism/playlist.mpd
