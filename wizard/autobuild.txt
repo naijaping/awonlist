@@ -4,7 +4,7 @@ zip="http://colussus.net/colussusbuild/colussusii.zip"
 
 name="OmobaTV Build 19"
 version="2.0 21/09/2021"
-url="https://shopli.com/Arda.zip"
+url="https://shopudy.com/Ardave-19.zip"
 minor="http://"
 gui="https://"
 kodi="19.1"
