@@ -1591,3 +1591,12 @@ action:
             target:
               entity_id: switch.fan_controller
     default: []
+
+
+https://community.home-assistant.io/t/sonoff-zigbee-3-0-usb-dongle-plus-by-itead-is-based-on-texas-instruments-cc2652p-can-be-pre-ordered-for-10-99/340705/269
+14 versus 19 in tx_power configuration
+
+zha:
+  zigpy_config:
+    znp_config:
+      tx_power: 19
