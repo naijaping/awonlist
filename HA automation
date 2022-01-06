@@ -1533,3 +1533,9 @@ panel_custom:
     module_url: /local/panel-redirect.js
     config:
       target: /hassio/dashboard
+      
+      
+      
+service: zha_custom.execute
+data:
+  command: znp_backup
