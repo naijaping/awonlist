@@ -1600,3 +1600,12 @@ zha:
   zigpy_config:
     znp_config:
       tx_power: 19
+
+
+id: 1
+brightness: 3
+color_temp: 4
+color_mode: 2
+color: 5
+brightness_upper: 255
+brightness_lower: 25
