@@ -1609,3 +1609,21 @@ color_mode: 2
 color: 5
 brightness_upper: 255
 brightness_lower: 25
+
+
+id: Turn_living_room_lamp_off_at11
+alias: Turn living room lamp off at 11pm
+initial_state: true
+description: Turn off living room lamp at 11pm
+trigger:
+  - platform: time
+    at: '23:00:00'
+condition:
+  - condition: state
+    entity_id: media_player.living_room_tv
+    state: 'off'
+action:
+  - service: light.turn_off
+    target:
+      entity_id: light.living_room_lamp
+mode: single
