@@ -1627,3 +1627,47 @@ action:
     target:
       entity_id: light.living_room_lamp
 mode: single
+
+
+alias: Doorbell press
+description: Doorbell has been pressed
+trigger:
+  - platform: state
+    entity_id: sensor.doorbell_status
+    from: idle
+    to: ring
+condition: []
+action:
+  - service: light.turn_on
+    target:
+      entity_id: light.right_down
+    data: 
+      brightness_pct: 100
+mode: single
+
+- id: '1595004192118'
+  alias: Doorbell Pushed
+  description: ''
+  trigger:
+  - entity_id: sensor.doorbell_sensor
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - data: {}
+    service: script.set_siren_to_doorbell
+  - data: {}
+    service: script.set_livingroomsiren_to_doorbell
+  - device_id: 7d1c597b9e5b4d628c80427fa299b524
+    domain: switch
+    entity_id: switch.living_room_siren
+    type: turn_on
+  - device_id: 067db3986ef446028661408a1c0bc314
+    domain: switch
+    entity_id: switch.hallway_siren
+    type: turn_on
+  - data: {}
+    service: script.set_hallwaysiren_to_alarm
+  - data: {}
+    service: script.set_livingroomsiren_to_alarm
+  mode: single
