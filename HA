@@ -1628,7 +1628,7 @@ action:
       entity_id: light.living_room_lamp
 mode: single
 
-
+https://community.home-assistant.io/t/show-front-door-camera-on-doorbell-press/350366/17
 alias: Doorbell press
 description: Doorbell has been pressed
 trigger:
