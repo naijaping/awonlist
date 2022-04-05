@@ -1671,3 +1671,31 @@ mode: single
   - data: {}
     service: script.set_livingroomsiren_to_alarm
   mode: single
+
+
+- alias: notify zone enter/leave
+  initial_state: false
+  mode: single
+  variables:
+    person: "{{ trigger.to_state.attributes.friendly_name }}"
+    from: "{{ trigger.from_state.state }}"
+    to:  "{{ trigger.to_state.state }}"
+  trigger:
+    platform: state
+    entity_id: person.james
+  condition:
+    condition: template
+    value_template: "{{ from != to }}"
+  action:
+    - service: notify.pushover
+      data:
+        title: >
+          {{ person }}
+          {% if to == 'not_home' %} left
+          {% else %} arrived
+          {% endif %}
+        message: >
+          {% if to == 'not_home' %} {{ from }}
+          {% else %} {{ to }}
+          {% endif %}
+          at {{ states.sensor.time.state }}
