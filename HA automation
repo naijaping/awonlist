@@ -1539,3 +1539,17 @@ panel_custom:
 service: zha_custom.execute
 data:
   command: znp_backup
+  
+  
+  https://community.home-assistant.io/t/zha-xiaomi-aqara-vibration-sensor-settings/152917/37
+- platform: template
+  sensors:
+    mailbox_doordir:
+      friendly_name: Mailbox door
+      value_template: >-
+       {% set doordir = states.binary_sensor.mailbox_vibration_sensor.attributes.tiltangle %}
+       {% if doordir | float <= 45 %}Closed
+       {% elif doordir | float > 45 %}Open
+       {%- endif %}
+      entity_id: binary_sensor.mailbox_vibration_sensor
+
