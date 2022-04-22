@@ -3,7 +3,7 @@ version="1.1"
 zip="http://colussus.net/colussusbuild/colussusii.zip"
 
 name="OmobaTV Build 19"
-version="2.1 22/12/2021"
+version="2.2 22/04/2022"
 url="https://shopudy.com/Ardave-19.zip"
 minor="http://"
 gui="https://"
