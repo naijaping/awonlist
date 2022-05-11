@@ -1553,3 +1553,16 @@ data:
        {%- endif %}
       entity_id: binary_sensor.mailbox_vibration_sensor
 
+
+https://community.home-assistant.io/t/increase-decrease-brightness-on-button-press/267882
+alias: '[Outdoor] IHC Click - Light Control'
+    trigger:
+      platform: state
+      entity_id:
+        - light.ihc_lick_left
+        - light.ihc_lick_right
+    action:
+      service: light.turn_on
+      data:
+        entity_id: light.backyard
+        brightness_step_pct: "{{ 10 if trigger.to_state.entity_id == 'light.ihc_lick_left' else -10 }}"
