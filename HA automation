@@ -2,7 +2,7 @@
 https://code.jnf.me/jaywll/home-automation
 ## This will notify if any doors are open it requires the [sensor.door_count] **it won't allow you to arm the alarm until all windows are closed**
 # base_url: !secret base_url
-
+https://community.home-assistant.io/t/automation-to-stop-media-player/405126/14
 
 https://smarthomepursuits.com/how-to-arm-disarm-alarm-on-a-schedule-from-lovelace/
 
