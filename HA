@@ -1700,3 +1700,33 @@ mode: single
           {% else %} {{ to }}
           {% endif %}
           at {{ states.sensor.time.state }}
+          
+          
+          
+          
+          
+alias: Mirilla notification Test
+description: ''
+trigger:
+  - platform: state
+    entity_id:
+      - binary_sensor.entrada_motion
+    from: 'off'
+    to: 'on'
+condition: []
+action:
+  - service: camera.snapshot
+    data:
+      filename: /config/www/tmp/{{filename}}.jpg
+    target:
+      entity_id: camera.entrada_sd
+  - service: notify.mobile_app_iphone_de_antonio
+    data:
+      message: Movimiento detectado
+      data:
+        attachment:
+          url: /local/tmp/{{filename}}.jpg
+          content-type: JPEG
+variables:
+  filename: snapshot-{{now().strftime("%d%m-%H%M%S")}}
+mode: single
