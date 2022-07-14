@@ -1744,3 +1744,27 @@ mode: single
       turn_off:
         service: input_boolean.turn_off
         entity_id: input_boolean.doorbell_pressed
+        
+        
+        
+https://community.home-assistant.io/t/ip-camera-snapshot-automation/41319/17        
+- id: '1532581029802'
+  alias: Cam Picture Notification
+  trigger:
+    - platform: state
+      entity_id: input_boolean.doorbell_boolean
+      to: 'on'
+#    - platform: state
+#      entity_id: binary_sensor.front_door_camera_motion
+#      to: 'on'
+  action:
+    - service: camera.snapshot
+      data:
+        entity_id: camera.front_door
+        filename: '/config/www/images/frontdoor.jpg'
+    - service: notify.home_assistant
+      data:
+        data:
+          file: '/config/www/images/frontdoor.jpg'
+        title: "Motion near the door"
+        message: "Motion detected at door {{now().strftime('%H:%M %d-%m-%Y')}}"
