@@ -1730,3 +1730,17 @@ action:
 variables:
   filename: snapshot-{{now().strftime("%d%m-%H%M%S")}}
 mode: single
+
+
+
+- platform: template
+  switches:
+    mio_switch:
+      friendly_name: "Doorbell Pressed Switch"
+      value_template: "{{ states('input_boolean.doorbell_pressed') }}"
+      turn_on:
+        service: input_boolean.turn_on
+        entity_id: input_boolean.doorbell_pressed
+      turn_off:
+        service: input_boolean.turn_off
+        entity_id: input_boolean.doorbell_pressed
