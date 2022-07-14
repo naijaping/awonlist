@@ -1768,3 +1768,30 @@ https://community.home-assistant.io/t/ip-camera-snapshot-automation/41319/17
           file: '/config/www/images/frontdoor.jpg'
         title: "Motion near the door"
         message: "Motion detected at door {{now().strftime('%H:%M %d-%m-%Y')}}"
+        
+        
+        
+
+alias: Send a Picture when someone is Ringing
+description: ''
+trigger:
+  - type: sound
+    platform: device
+    device_id: 79a91911e6e548f547ad17df9beaf308 # change that with yours
+    entity_id: binary_sensor.indoor_siren_6_siren_siren_active_3 # change that with yours
+    domain: binary_sensor
+condition: []
+action:
+  - service: camera.snapshot
+    data:
+      filename: /config/www/frontdoor_camera_snapshot.jpg
+    target:
+      entity_id: camera.front_door
+  - service: notify.mobile_app_kiril # change that with yours
+    data:
+      message: Someone is Ringing at the Door
+      data:
+        image: /local/frontdoor_camera_snapshot.jpg
+        url: /local/frontdoor_camera_snapshot.jpg
+mode: single
+        
