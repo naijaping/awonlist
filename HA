@@ -1795,3 +1795,40 @@ action:
         url: /local/frontdoor_camera_snapshot.jpg
 mode: single
         
+        
+        
+        
+- alias: 'Garage Stream with Motion'
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.garage_motion
+    to: 'on'
+    for:
+      minutes: 30
+  condition:
+  - condition: state
+    entity_id: input_select.house_mode
+    state: Home
+  action:
+  - service: remote.send_command
+    data:
+      entity_id: remote.basement_remote 
+      command:
+        - Pause
+      device: 17712304
+  - service: camera.play_stream
+    data:
+      entity_id: camera.garage_camera
+      media_player: media_player.living_room_tv
+  - delay:
+      seconds: 30
+  - service: media_player.select_source
+    data:
+      entity_id: media_player.living_room_tv
+      source: 'HDMI 2'
+  - service: remote.send_command
+    data:
+      entity_id: remote.basement_remote 
+      command:
+        - Play
+      device: 17712304
