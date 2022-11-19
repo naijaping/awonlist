@@ -1566,3 +1566,51 @@ alias: '[Outdoor] IHC Click - Light Control'
       data:
         entity_id: light.backyard
         brightness_step_pct: "{{ 10 if trigger.to_state.entity_id == 'light.ihc_lick_left' else -10 }}"
+        
+        
+        
+alias: Balcony Door Announcements
+description: "Alexa/Google announcement after balcony door is open "
+trigger:
+  - entity_id:
+      - binary_sensor.balcony_door
+    platform: state
+    to: "on"
+condition:
+  - condition: time
+    after: "07:00:00"
+    before: "23:00"
+action:
+  - repeat:
+      sequence:
+        - data:
+            volume_level: 0.7
+          service: media_player.volume_set
+          target:
+            device_id:
+              - 74daa8f5ee8e8cd04f0738303fe5824a
+        - service: tts.amazon_polly_say
+          data:
+            entity_id: media_player.kitchen_speaker
+            message: Balcony  door is open, please close it
+        - delay:
+            hours: 0
+            minutes: 0
+            seconds: 5
+            milliseconds: 0
+      until:
+        - condition: state
+          entity_id: binary_sensor.balcony_door
+          state: "off"
+  - service: script.turn_on
+    target:
+      entity_id: script.radio_test
+    data: {}
+  - service: media_player.volume_set
+    target:
+      device_id:
+        - 74daa8f5ee8e8cd04f0738303fe5824a
+    data:
+      volume_level: 0.3
+mode: single
+
