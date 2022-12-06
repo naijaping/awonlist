@@ -1853,3 +1853,21 @@ mode: single
           seconds: 2
       - service: homeassistant.turn_on
         entity_id: script.send_pic_door_bell
+
+
+alias: "Button 1: Single"
+description: Increase brightness living room
+trigger:
+  - platform: state
+    entity_id:
+      - sensor.tuya_4_button_remote_ss6400zb_action
+    attribute: action
+    to: 1_single
+action:
+  - service: light.turn_on
+    data:
+      transition: 1
+      brightness_step_pct: 10
+    target:
+      entity_id: light.living_room
+mode: single
