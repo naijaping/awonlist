@@ -1871,3 +1871,27 @@ action:
     target:
       entity_id: light.living_room
 mode: single
+
+
+
+alias: 'Reload Xiaomi '
+description: ''
+trigger:
+  - platform: state
+    entity_id:
+      - sensor.temperature_living_room
+    to: unavailable
+    for:
+      hours: 0
+      minutes: 5
+      seconds: 0
+condition: []
+action:
+  - service: homeassistant.reload_config_entry
+    data: {}
+    target:
+      device_id: 976cce1c40f20730dd7ebbfd90ec55bc
+  - service: persistent_notification.create
+    data:
+      message: 'Xiaomi reload required '
+mode: single
