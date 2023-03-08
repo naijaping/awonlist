@@ -1896,3 +1896,38 @@ action:
     data:
       message: 'Xiaomi reload required '
 mode: single
+
+
+
+
+alias: Automatic Office Fan
+description: ""
+trigger:
+  - id: 'on'
+    platform: numeric_state
+    entity_id: sensor.hvac_office_temperature
+    above: 25
+    for:
+      seconds: 15
+  - id: 'off'
+    platform: numeric_state
+    entity_id: sensor.hvac_office_temperature
+    below: 25
+    for:
+      seconds: 15
+condition:
+  - condition: state
+    entity_id: input_boolean.vacation_mode
+    state: "off"
+  - condition: state
+    entity_id: binary_sensor.workday_sensor
+    state: "on"
+  - condition: time
+    after: "07:00:00"
+    before: "18:00:00"
+    enabled: true
+action:
+  - service: "fan.turn_{{ trigger.id }}"
+    target:
+      entity_id: fan.office
+mode: single
