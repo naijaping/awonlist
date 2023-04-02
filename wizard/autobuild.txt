@@ -18,7 +18,7 @@ description="OmobaTV Build is small, simple and easy to use hope you enjoy. (Kod
 
 name="OmobaTV Build 19"
 version="2.3 24/04/2022"
-url="https://dave-20.zip"
+url="https:shopudy.com/Ramdave-20.zip"
 minor="http://"
 gui="https://"
 kodi="19.1"
