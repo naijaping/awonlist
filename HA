@@ -1931,3 +1931,22 @@ action:
     target:
       entity_id: fan.office
 mode: single
+
+
+morning_setup:
+  alias: Morning Setup
+  sequence:
+    - service: script.turn_on
+      entity_id: script.morning_living_room
+    - service: media_player.turn_on
+      data:
+        entity_id: media_player.sky_q
+    - delay: 5
+    - service: media_player.select_source
+      data:
+        entity_id: media_player.sky_q
+        source: ITV HD
+    - service: media_player.volume_set
+      data_template:
+        entity_id: media_player.sony_bravia_tv_living_room
+        volume_level: '0.20'
