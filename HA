@@ -1950,3 +1950,30 @@ morning_setup:
       data_template:
         entity_id: media_player.sony_bravia_tv_living_room
         volume_level: '0.20'
+
+
+alias: Notify Device Offline
+description: ''
+trigger:
+  - platform: state
+    entity_id:
+      - switch.porch_light
+      - switch.bedroom_light
+      - switch.kitchen_light
+      - switch.living_room_light
+      - cover.bedroom_blind
+      - cover.living_room_blind
+    to: unavailable
+    for:
+      hours: 0
+      minutes: 5
+      seconds: 0
+condition: []
+action:
+  - service: notify.mobile_app_oppo_a5
+    data:
+      title: Device Offline!
+      message: >
+        📵 {{ state_attr(trigger.to_state.entity_id, 'friendly_name') }} is
+        offline more than 5 minutes!
+mode: parallel
