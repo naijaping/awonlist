@@ -16,6 +16,12 @@ https://labzilla.io/blog/homeassistant-door-chime
 
 <dmlive>videoID</dmlive>	
 <dm>x850fe5</dm>	
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MzRjOGRhNmItM2ZmNi0zMGIwLWI1NTEtM2ViNjlhZmM2NWU0||R{SSM}|
+#EXTINF:-1 tvg-id="NationalGeographicWildUK.uk" tvg-logo="", Nat Geo Wild
+https://liveanevia.mncnow.id/live/eds/NatGeoWild/sa_dash_vmx/NatGeoWild.mpd
 	
 <item>
 <title> TV  Films</title>
