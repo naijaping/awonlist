@@ -1,0 +1,15 @@
+services:
+  nginxmanager:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    container_name: nginxmanager
+    environment:
+      - PUID=1001
+      - PGID=100
+      - TZ=Europe/London
+    ports:
+      - '8082:81'
+      - '4443:443'
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/data:/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/letsencrypt:/etc/letsencrypt
