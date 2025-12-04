@@ -6,7 +6,20 @@ https://code.jnf.me/jaywll/home-automation
 https://community.home-assistant.io/t/automation-to-stop-media-player/405126/14
 
 https://smarthomepursuits.com/how-to-arm-disarm-alarm-on-a-schedule-from-lovelace/
-
+- alias: Increase brightness until release
+  repeat:
+    sequence:
+      - action: light.turn_on
+        data:
+          transition: 0.5
+          brightness_step_pct: 10
+        target:
+          entity_id: light.kitchen_table
+    until:
+      - condition: state
+        entity_id: event.kitchen_dimmer_switch_action
+        attribute: event_type
+        state: button_1_release
 
 #   - alias: Open Doors Notification On Alarm Set
 #     trigger:
