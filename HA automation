@@ -6,6 +6,26 @@ https://code.jnf.me/jaywll/home-automation
 https://community.home-assistant.io/t/automation-to-stop-media-player/405126/14
 
 https://smarthomepursuits.com/how-to-arm-disarm-alarm-on-a-schedule-from-lovelace/
+
+#laundry automation    
+- sensor:
+  - unique_id: fcd1eb36-4555-4bfc-acfc-05c5b644e90e
+    default_entity_id: sensor.washing_machine_status
+    name: Washing Machine Status
+    state: '{{ states.input_select.washing_machine_status.state}}'
+
+- sensor:
+  - unique_id: 053adca7-22e1-4fb7-b022-4858ec14ee99
+    default_entity_id: sensor.dryer_status
+    name: Dryer Status
+    state: '{{ states.input_select.dryer_status.state}}'
+
+- sensor:
+  - unique_id: 72d1dcb2-15c1-43b5-ac93-dfa7f7a184c1
+    default_entity_id: sensor.central_hvac_activity
+    state: "{{ state_attr('climate.themostat_t6', 'hvac_action') }}"
+    name: 'Central HVAC Activity'
+
 - alias: Increase brightness until release
   repeat:
     sequence:
