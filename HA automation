@@ -26,6 +26,15 @@ https://smarthomepursuits.com/how-to-arm-disarm-alarm-on-a-schedule-from-lovelac
     state: "{{ state_attr('climate.themostat_t6', 'hvac_action') }}"
     name: 'Central HVAC Activity'
 
+  - switch:
+    - default_entity_id: switch.cloud_connected
+      name: cloud_connected
+      state: "{{ is_state('binary_sensor.remote_ui', 'on') }}"
+      turn_on:
+        action: cloud.remote_connect
+      turn_off:
+        action: cloud.remote_disconnect
+
 - alias: Increase brightness until release
   repeat:
     sequence:
