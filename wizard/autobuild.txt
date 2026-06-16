@@ -4,7 +4,7 @@ zip="http://colussus.net/colussusbuild/colussusii.zip"
 
 name="OmobaTV Build 21"
 version="2.6 17/07/2025"
-url="https:/omobatv22.zip"
+url="https://shopudy.com/omobatv22.zip"
 minor="http://"
 gui="https://"
 kodi="21.2"
@@ -18,7 +18,7 @@ description="OmobaTV Build is small, simple and easy to use hope you enjoy. (Kod
 
 name="OmobaTV Build 19"
 version="2.6 17/07/2025"
-url="https://obatv21.zip"
+url="https://shopudy.com/omobatv22.zip"
 minor="http://"
 gui="https://"
 kodi="19.1"
