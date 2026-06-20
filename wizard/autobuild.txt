@@ -18,7 +18,7 @@ description="OmobaTV Build is small, simple and easy to use hope you enjoy. (Kod
 
 name="OmobaTV Build 19"
 version="2.6 17/07/2025"
-url="https://mobatv22.zip"
+url="https://shopudy.com/omobatv22.zip"
 minor="http://"
 gui="https://"
 kodi="19.1"
