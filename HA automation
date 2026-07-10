@@ -1699,3 +1699,174 @@ mode: single
                 icon:
                   [top: 11%, left: 8.5%, width: 3.05vw, position: absolute]
             template: switch
+
+
+
+
+
+id: '1768135765250'
+alias: Washing Machine Finished - Announcement & Notification
+description: Triggers exactly when the hOn Hoover cycle ends and reverts to ready
+triggers:
+  - trigger: state
+    entity_id: sensor.washing_machine_mode
+    from:
+      - "2"
+      - "3"
+conditions:
+  - condition: template
+    value_template: "{{ trigger.to_state.state in ['7', '1'] }}"
+  - condition: template
+    value_template: "{{ (now() | as_timestamp) - (trigger.from_state.last_changed | as_timestamp) > 600 }}"
+actions:
+  - action: tts.cloud_say
+    data:
+      entity_id:
+        - media_player.living_room_speaker
+        - media_player.bedroom_speaker
+      message: The washing machine has finished washing. Time to unload the laundry!
+      cache: false
+  - action: notify.all_mobile_phones
+    data:
+      message: The washing machine finished washing.
+      title: Laundry Done! 🚀
+mode: single
+
+
+
+
+
+id: '1768135765250'
+alias: Washing Machine Finished - Announcement & Notification
+description: Announces finish and clears phone notification when door is opened (Mode 5)
+triggers:
+  - trigger: state
+    entity_id: sensor.washing_machine_mode
+    from:
+      - "2"
+      - "3"
+conditions:
+  - condition: template
+    value_template: "{{ trigger.to_state.state in ['7', '1'] }}"
+  - condition: template
+    value_template: "{{ (now() | as_timestamp) - (trigger.from_state.last_changed | as_timestamp) > 600 }}"
+actions:
+  - action: tts.cloud_say
+    data:
+      entity_id:
+        - media_player.living_room_speaker
+        - media_player.bedroom_speaker
+      message: The washing machine has finished washing. Time to unload the laundry!
+      cache: false
+  - action: notify.all_mobile_phones
+    data:
+      message: The washing machine finished washing.
+      title: Laundry Done! 🚀
+      data:
+        tag: washing-machine-notification
+  - wait_for_trigger:
+      - trigger: state
+        entity_id: sensor.washing_machine_mode
+        to: "5"
+  - action: notify.all_mobile_phones
+    data:
+      message: clear_notification
+      data:
+        tag: washing-machine-notification
+mode: single
+
+
+
+
+id: '1768135765250'
+alias: Washing Machine Finished - Announcement & Notification
+description: Repeats voice announcements every 15 mins until hOn door opens (Mode 5)
+triggers:
+  - trigger: state
+    entity_id: sensor.washing_machine_mode
+    from:
+      - "2"
+      - "3"
+conditions:
+  - condition: template
+    value_template: "{{ trigger.to_state.state in ['7', '1'] }}"
+  - condition: template
+    value_template: "{{ (now() | as_timestamp) - (trigger.from_state.last_changed | as_timestamp) > 600 }}"
+actions:
+  - action: notify.all_mobile_phones
+    data:
+      message: The washing machine finished washing.
+      title: Laundry Done! 🚀
+      data:
+        tag: washing-machine-notification
+  - repeat:
+      until:
+        - condition: state
+          entity_id: sensor.washing_machine_mode
+          state: "5"
+      sequence:
+        - action: tts.cloud_say
+          data:
+            entity_id:
+              - media_player.living_room_speaker
+              - media_player.bedroom_speaker
+            message: The washing machine has finished washing. Time to unload the laundry!
+            cache: false
+        - delay:
+            minutes: 15
+  - action: notify.all_mobile_phones
+    data:
+      message: clear_notification
+      data:
+        tag: washing-machine-notification
+mode: single
+
+
+
+id: '1768135765250'
+alias: Washing Machine Finished - Announcement & Notification
+description: Repeats alerts every 15 mins until door opens with a 23:35 speaker curfew
+triggers:
+  - trigger: state
+    entity_id: sensor.washing_machine_mode
+    from:
+      - "2"
+      - "3"
+conditions:
+  - condition: template
+    value_template: "{{ trigger.to_state.state in ['7', '1'] }}"
+  - condition: template
+    value_template: "{{ (now() | as_timestamp) - (trigger.from_state.last_changed | as_timestamp) > 600 }}"
+actions:
+  - action: notify.all_mobile_phones
+    data:
+      message: The washing machine finished washing.
+      title: Laundry Done! 🚀
+      data:
+        tag: washing-machine-notification
+  - repeat:
+      until:
+        - condition: state
+          entity_id: sensor.washing_machine_mode
+          state: "5"
+      sequence:
+        - if:
+            - condition: time
+              after: "07:00:00"
+              before: "23:35:00"
+          then:
+            - action: tts.cloud_say
+              data:
+                entity_id:
+                  - media_player.living_room_speaker
+                  - media_player.bedroom_speaker
+                message: The washing machine has finished washing. Time to unload the laundry!
+                cache: false
+        - delay:
+            minutes: 15
+  - action: notify.all_mobile_phones
+    data:
+      message: clear_notification
+      data:
+        tag: washing-machine-notification
+mode: single
