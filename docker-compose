@@ -13,3 +13,32 @@ services:
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/data:/data
       - CHANGE_TO_COMPOSE_DATA_PATH/letsencrypt:/etc/letsencrypt
+
+
+
+
+
+services:
+  # Layer 1: Force a Singapore IP Address
+  sg_vpn:
+    image: qdm12/gluetun
+    container_name: sg_vpn
+    cap_add:
+      - NET_ADMIN
+    environment:
+      - VPN_SERVICE_PROVIDER=surfshark      # Change to your provider (e.g., nordvpn, protonvpn)
+      - VPN_TYPE=wireguard                  # WireGuard is highly recommended for video streaming
+      - WIREGUARD_PRIVATE_KEY=YOUR_SG_KEY_HERE
+      - SERVER_COUNTRIES=Singapore          # Strict lock to Singapore IP addresses
+    ports:
+      - "8000:8000"                         # Exposes the video proxy port to your local network
+
+  # Layer 2: The Video Manifest Rewriter (Routes completely through the VPN)
+  video_proxy:
+    image: eyevinntechnology/chaos-stream-proxy:v0.3.0
+    container_name: video_proxy
+    network_mode: "service:sg_vpn"          # Inherits the Singapore network environment
+    environment:
+      - PORT=8000
+    depends_on:
+      - sg_vpn
