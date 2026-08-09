@@ -77,3 +77,35 @@ services:
       - /data/appdata/mcbash/data:/mcbash
 
 
+
+
+
+
+
+services:
+  dispatcharr:
+    image: ghcr.io/dispatcharr/dispatcharr:latest
+    container_name: dispatcharr
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/London
+      - DISPATCHARR_ENV=aio
+      - REDIS_HOST=localhost
+      - CELERY_BROKER_URL=redis://localhost:6379/0
+      - DISPATCHARR_LOG_LEVEL=info
+    volumes:
+      - ./volumes/dispatcharr/data:/data
+    networks:
+      - traefik-public
+      - default
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.dispatcharr.rule=Host(`sub.yourdomain.com`)
+      - traefik.http.routers.dispatcharr.entrypoints=websecure
+      - traefik.http.routers.dispatcharr.tls.certresolver=myresolver
+      - traefik.http.services.dispatcharr.loadbalancer.server.port=9191
+
+networks:
+  traefik-public:
+    external: true
+
