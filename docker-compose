@@ -109,3 +109,37 @@ networks:
   traefik-public:
     external: true
 
+
+
+
+FROM node:18-alpine
+
+# 1. Install Alpine system dependencies for Puppeteer
+RUN apk add --no-cache \
+    chromium \
+    nss \
+    freetype \
+    harfbuzz \
+    ca-certificates \
+    ttf-freefont \
+    && rm -rf /var/cache/apk/*
+
+WORKDIR /app
+
+# Only copy package.json since there is no lockfile
+COPY package.json ./
+
+# 2. Prevent Puppeteer from downloading Chromium during install
+ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser
+
+# 3. Swap 'npm ci' out for 'npm install'
+RUN npm config set fetch-retry-maxtimeout 600000 && \
+    npm config set fetch-retry-mintimeout 10000 && \
+    npm install --omit=dev
+
+COPY . .
+
+EXPOSE ${PROXY_PORT}
+
+CMD [ "node", "server.js" ]
