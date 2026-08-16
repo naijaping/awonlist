@@ -1,4 +1,30 @@
 services:
+  headscale:
+    image: headscale/headscale:latest
+    container_name: headscale
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/headscale/config:/etc/headscale
+      - CHANGE_TO_COMPOSE_DATA_PATH/headscale/lib:/var/lib/headscale
+      - CHANGE_TO_COMPOSE_DATA_PATH/headscale/run:/var/run/headscale
+    ports:
+        - 8181:8080
+        - 9090:9090
+    environment:
+      - HEADSCALE_ACCESS_CONTROL_ALLOW_ORIGIN=*
+    command: serve
+    restart: unless-stopped
+  headscale-ui:
+    image: ghcr.io/gurucomputing/headscale-ui:latest
+    restart: unless-stopped
+    container_name: headscale-ui
+    ports:
+        - 9999:8080
+
+
+
+
+
+services:
   nginxmanager:
     image: 'jc21/nginx-proxy-manager:latest'
     restart: unless-stopped
