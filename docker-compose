@@ -176,37 +176,111 @@ CMD [ "node", "server.js" ]
 
 #billing 
 
-dockerfile
+#app.py
 
 import streamlit as st
+import pandas as pd
 from datetime import datetime, timedelta
 
 st.title("🧹 Cleaner Billing Cycle Calculator")
 
-# User Inputs
+# 1. Date & Schedule Settings
+st.header("📋 1. Schedule Settings")
 start_date_input = st.date_input("Select Current Cycle Start Date:", datetime(2026, 6, 4))
-hours_per_week = st.number_input("Hours per Week:", min_value=1, value=10)
-billing_days = st.number_input("Billing Days per Cycle (e.g. 20 working days = 28 calendar days):", min_value=1, value=20)
+billing_days_target = st.number_input("Target Working Days per Cycle:", min_value=1, value=20)
+
+st.markdown("##### Select the Scheduled Workdays:")
+col1, col2, col3 = st.columns(3)
+with col1:
+    work_mon = st.checkbox("Monday", value=True)
+    work_tue = st.checkbox("Tuesday", value=True)
+with col2:
+    work_wed = st.checkbox("Wednesday", value=True)
+    work_thu = st.checkbox("Thursday", value=True)
+with col3:
+    work_fri = st.checkbox("Friday", value=True)
+
+# Map selections to Python weekday integers (Monday=0 to Sunday=6)
+active_weekdays = []
+if work_mon: active_weekdays.append(0)
+if work_tue: active_weekdays.append(1)
+if work_wed: active_weekdays.append(2)
+if work_thu: active_weekdays.append(3)
+if work_fri: active_weekdays.append(4)
+
+# 2. Hours & Rate Settings
+st.header("💰 2. Hours & Rates")
+hours_per_day = st.number_input("Hours worked per active day:", min_value=0.1, value=2.0, step=0.5)
+hourly_rate = st.number_input("Hourly Rate:", min_value=0.0, value=15.0, step=0.50)
+
 num_cycles = st.slider("Number of future cycles to generate:", min_value=1, max_value=12, value=4)
 
-if st.button("Calculate Cycles"):
-    st.subheader("Generated Billing Schedule")
-    
-    # Standard 20 working days over a 4-week period equals 28 calendar days total per cycle
-    calendar_days_per_cycle = 28 
-    current_start = start_date_input
-    
-    for i in range(1, num_cycles + 1):
-        # End date is 27 days after start to make a 28-day inclusive cycle
-        current_end = current_start + timedelta(days=calendar_days_per_cycle - 1)
-        total_hours = (calendar_days_per_cycle // 7) * hours_per_week
+# 3. Calculation Engine
+if st.button("Generate Schedule & Invoice Costs"):
+    if not active_weekdays:
+        st.error("Please select at least one active workday!")
+    else:
+        st.subheader("Generated Billing Schedule")
         
-        st.markdown(f"**Cycle {i}:** `{current_start.strftime('%d/%m/%Y')}` to `{current_end.strftime('%d/%m/%Y')}` | **Total Hours:** {total_hours} hrs ({billing_days} working days)")
+        current_start = start_date_input
+        export_data = [] 
         
-        # Next cycle starts the day right after the current end date
-        current_start = current_end + timedelta(days=1)
+        for i in range(1, num_cycles + 1):
+            # FIX: Force the start date to slide forward to the first available active workday
+            while current_start.weekday() not in active_weekdays:
+                current_start += timedelta(days=1)
+                
+            current_date = current_start
+            work_days_counted = 0
+            
+            # Step forward day-by-day until target work days are hit
+            while work_days_counted < billing_days_target:
+                if current_date.weekday() in active_weekdays:
+                    work_days_counted += 1
+                    if work_days_counted == billing_days_target:
+                        break 
+                current_date += timedelta(days=1)
+            
+            current_end = current_date
+            total_hours = billing_days_target * hours_per_day
+            total_cost = total_hours * hourly_rate
+            
+            start_str = current_start.strftime('%d/%m/%Y')
+            end_str = current_end.strftime('%d/%m/%Y')
+            
+            # Display Results
+            st.markdown(f"### 📅 Cycle {i}")
+            st.markdown(f"**Period:** `{start_str}` to `{end_str}`")
+            st.markdown(f"* **Total Hours Worked:** {total_hours:.1f} hrs ({billing_days_target} actual workdays)")
+            st.markdown(f"* **Total Invoice Amount:** **{total_cost:,.2f}** (at {hourly_rate:.2f}/hr)")
+            st.markdown("---")
+            
+            export_data.append({
+                "Cycle": f"Cycle {i}",
+                "Start Date": start_str,
+                "End Date": end_str,
+                "Workdays": billing_days_target,
+                "Total Hours": total_hours,
+                "Hourly Rate": hourly_rate,
+                "Invoice Total": round(total_cost, 2)
+            })
+            
+            # Set up next calculation to look at the day immediately following the end date
+            current_start = current_end + timedelta(days=1)
+            
+        if export_data:
+            df = pd.DataFrame(export_data)
+            csv_buffer = df.to_csv(index=False).encode('utf-8')
+            
+            st.download_button(
+                label="📥 Download Billing Schedule (CSV)",
+                data=csv_buffer,
+                file_name=f"cleaner_billing_schedule_{datetime.now().strftime('%Y%m%d')}.csv",
+                mime="text/csv",
+            )
 
-#app.py
+
+#Dockerfile
 
 FROM python:3.10-slim
 WORKDIR /app
