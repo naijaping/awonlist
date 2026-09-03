@@ -169,3 +169,60 @@ COPY . .
 EXPOSE ${PROXY_PORT}
 
 CMD [ "node", "server.js" ]
+
+
+
+
+
+#billing 
+
+dockerfile
+
+import streamlit as st
+from datetime import datetime, timedelta
+
+st.title("🧹 Cleaner Billing Cycle Calculator")
+
+# User Inputs
+start_date_input = st.date_input("Select Current Cycle Start Date:", datetime(2026, 6, 4))
+hours_per_week = st.number_input("Hours per Week:", min_value=1, value=10)
+billing_days = st.number_input("Billing Days per Cycle (e.g. 20 working days = 28 calendar days):", min_value=1, value=20)
+num_cycles = st.slider("Number of future cycles to generate:", min_value=1, max_value=12, value=4)
+
+if st.button("Calculate Cycles"):
+    st.subheader("Generated Billing Schedule")
+    
+    # Standard 20 working days over a 4-week period equals 28 calendar days total per cycle
+    calendar_days_per_cycle = 28 
+    current_start = start_date_input
+    
+    for i in range(1, num_cycles + 1):
+        # End date is 27 days after start to make a 28-day inclusive cycle
+        current_end = current_start + timedelta(days=calendar_days_per_cycle - 1)
+        total_hours = (calendar_days_per_cycle // 7) * hours_per_week
+        
+        st.markdown(f"**Cycle {i}:** `{current_start.strftime('%d/%m/%Y')}` to `{current_end.strftime('%d/%m/%Y')}` | **Total Hours:** {total_hours} hrs ({billing_days} working days)")
+        
+        # Next cycle starts the day right after the current end date
+        current_start = current_end + timedelta(days=1)
+
+#app.py
+
+FROM python:3.10-slim
+WORKDIR /app
+RUN pip install streamlit
+COPY app.py .
+EXPOSE 8501
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+
+
+#file
+version: '3'
+
+services:
+  billing-calculator:
+    build: /sharedfolders/appdata/billing-calc # Change to the path where your files are saved
+    container_name: billing_calculator
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
