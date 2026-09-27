@@ -300,3 +300,66 @@ services:
     ports:
       - "8501:8501"
     restart: unless-stopped
+
+
+
+
+
+
+
+
+version: "3.8"
+
+services:
+  wg-easy:
+    image: ghcr.io/wg-easy/wg-easy:15
+    container_name: wg-easy
+    restart: unless-stopped
+    ports:
+      - "51820:51820/udp"
+      - "51821:51821/tcp"
+    environment:
+      - WG_HOST=yourdomain.duckdns.org  # ⚠️ REQUIRED: Change to your public WAN IP or DDNS domain
+      # - WG_PASSWORD=YOUR_ADMIN_PASSWORD  # Optional: Web UI Password
+      # - PORT=51821
+    volumes:
+      - /data/appdata/wireguard:/etc/wireguard  # ⚠️ Change "/data/appdata/wireguard" to your actual OMV shared folder path
+      - /lib/modules:/lib/modules:ro
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    sysctls:
+      - net.ipv4.ip_forward=1
+      - net.ipv4.conf.all.src_valid_mark=1
+      - net.ipv6.conf.all.disable_ipv6=0
+      - net.ipv6.conf.all.forwarding=1
+      - net.ipv6.conf.default.forwarding=1
+    networks:
+      wg:
+        ipv4_address: 10.42.42.42
+        ipv6_address: fdcc:ad94:bacf:61a3::2a
+
+networks:
+  wg:
+    driver: bridge
+    enable_ipv6: true
+    ipam:
+      driver: default
+      config:
+        - subnet: 10.42.42.0/24
+        - subnet: fdcc:ad94:bacf:61a3::/64
+
+
+
+
+
+  duckdns:
+    image: lscr.io/linuxserver/duckdns:latest
+    container_name: duckdns
+    restart: unless-stopped
+    environment:
+      - PUID=1000
+      - PGID=100 track
+      - TZ=Etc/UTC
+      - SUBDOMAINS=your-chosen-subdomain # ✏️ Put just your prefix here (e.g., "myomvserver")
+      - TOKEN=your-duckdns-token         # ✏️ Get this secret token from duckdns.org
