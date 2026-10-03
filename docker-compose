@@ -422,3 +422,15 @@ networks:
       config:
         - subnet: 10.42.42.0/24
         - subnet: fdcc:ad94:bacf:61a3::/64
+
+
+#
+services:
+  cloudflare-tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflare-tunnel
+    restart: unless-stopped
+    environment:
+      - TUNNEL_TOKEN=PASTE_YOUR_TOKEN_HERE
+    command: tunnel --no-autoupdate run
+
